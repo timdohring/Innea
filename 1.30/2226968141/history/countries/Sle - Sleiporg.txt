@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = celiicean
+primary_culture = slein
+capital = 161
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Cuinn I"
+		dynasty = "Sleiran"
+		birth_date = 1420.10.5
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}
+
+

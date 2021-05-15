@@ -1,0 +1,15 @@
+﻿l_english:
+ #cots of trade
+ national_port: "National Port"
+ national_port_desc: "One of the most important ports in the country, dozens of ships dock and depart daily."
+ grand_port: "Grand Port"
+ grand_port_desc: "The Grand Port is a wondrous construction, able to house nigh on a thousand ships at once at it's docks."
+ national_trade_center: "National Trade Center"
+ national_trade_center: "One of the nations most important, if not the most important trade center. Goods from all over the country are traded here."
+ grand_bazaar: "Grand Bazaar"
+ grand_bazaar: "A marketplace with no equal, the Grand Bazaar offers almost any good imagineable and the monetary wealth that passes through it yearly surpasses the economy of most nations."
+
+ #Naval cb
+ cb_naval_conquest: "Naval Conquest"
+ cb_naval_conquest_desc: "We can take neighbouring coastal provinces."
+ NAVAL_WAR_NAME: "$ORDER$$FIRST$ Naval Invasion of $SECOND_NAME$"

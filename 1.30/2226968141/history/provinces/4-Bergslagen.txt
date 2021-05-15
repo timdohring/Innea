@@ -1,0 +1,18 @@
+#Bergslagen, contains Falun, Västerås etc.
+
+add_core = VAH
+owner = VAH
+controller = VAH
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 4 
+base_production = 3
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Vryngard"
+is_city = yes
+discovered_by = western
+fort_15th = yes

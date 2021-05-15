@@ -1,0 +1,15 @@
+add_core = REU
+owner = REU
+controller = REU
+culture = reuth
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 7
+
+trade_goods = grain
+capital = "Luer"
+is_city = yes
+discovered_by = western

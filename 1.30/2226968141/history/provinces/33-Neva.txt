@@ -1,0 +1,18 @@
+#Näset + the land around the river Neva, incl. Nöteborg, Nyen and St.Petersburg.
+
+
+add_core = DAR
+owner = DAR
+controller = DAR
+culture = dargish
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = dragon_hide
+capital = "Norra"
+is_city = yes
+discovered_by = western

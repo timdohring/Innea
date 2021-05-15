@@ -1,0 +1,4282 @@
+### monarch_lifespan is a thing, its a percentage modifier, use for longer lived races
+
+############################# VARLAND IDEAS #####################################
+
+haaken_ideas = {
+	start = {
+		sea_repair = yes
+		capture_ship_chance = 0.50
+	}
+	bonus = {
+		global_ship_cost = -0.2
+	}
+	trigger = {
+		primary_culture = haaken
+	}
+	free = yes
+	haaken1 = {
+		ae_impact = -0.1
+	}
+	haaken2 = {
+		naval_forcelimit_modifier = 0.33
+	}	
+	haaken3 = {
+		loot_amount = 0.5
+		available_province_loot	= 0.33
+	}
+	haaken4 = {
+		leader_land_manuever = 2
+	}
+	haaken5 = {
+		naval_tradition_from_battle = 0.5
+	}
+	haaken6 = {
+		trade_steering = 0.2
+	}
+	haaken7 = {
+		global_ship_trade_power = 0.2
+	}
+}
+
+ryykan_ideas = {
+	start = {
+		power_projection_from_insults = 1.0
+		build_cost = -0.2
+	}
+	bonus = {
+		prestige = 1.0
+	}
+	trigger = {
+		primary_culture = ryykan
+	}
+	free = yes
+	ryykan1 = {
+		global_tax_modifier = 0.15
+	}
+	ryykan2 = {
+		tolerance_own = 2
+	}
+	ryykan3 = {
+		discipline = 0.075
+	}
+	ryykan4 = {
+		trade_efficiency = 0.15
+	}
+	ryykan5 = {
+		legitimacy = 1
+		republican_tradition = 0.5
+	}
+	ryykan6 = {
+		ship_durability	= 0.15
+	}
+	ryykan7 = {
+		stability_cost_modifier	= -0.3
+	} 
+}
+
+falkish_ideas = {
+	start = {
+		cav_to_inf_ratio = 0.2
+		cavalry_power = 0.2
+	}
+	bonus = {
+		cavalry_cost = -0.2
+	}
+	trigger = {
+		primary_culture = falkish
+	}
+	free = yes
+	falkish1 = {
+		idea_cost = -0.1
+	}
+	falkish2 = {
+		fort_maintenance_modifier = -0.2
+		garrison_size = 0.25
+	}
+	falkish3 = {
+		prestige_decay = -0.015
+	}
+	falkish4 = {
+		diplomatic_reputation = 1
+	}
+	falkish5 = {
+		free_mil_policy = 1
+	}
+	falkish6 = {
+		missionaries = 1
+	}
+	falkish7 = {
+		num_accepted_cultures = 2
+	} 
+}
+
+kynen_ideas = {
+	start = {
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+		religious_unity	= 0.5
+	}
+	bonus = {
+		monarch_lifespan = 0.2
+	}
+	trigger = {
+		primary_culture = kynen
+	}
+	free = yes
+	kynen1 = {
+		advisor_cost = -0.25
+	}
+	kynen2 = {
+		development_cost = -0.1
+	}	
+	kynen3 = {
+		diplomats = 1
+		diplomatic_upkeep = 1
+	}
+	kynen4 = {
+		years_of_nationalism = -5
+	}
+	kynen5 = {
+		global_manpower_modifier = 0.2
+	}
+	kynen6 = {
+		num_accepted_cultures = 2
+	}
+	kynen7 = {
+		land_maintenance_modifier = -0.15
+	} 
+}
+
+grafen_ideas = {
+	start = {
+		production_efficiency = 0.2
+		global_manpower	= 10
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	trigger = {
+		primary_culture = grafen
+	}
+	free = yes
+	grafen1 = {
+		improve_relation_modifier = 0.2
+	}
+	grafen2 = {
+		global_unrest = -2
+	}	
+	grafen3 = {
+		trade_efficiency = 0.1
+	}
+	grafen4 = {
+		caravan_power = 0.33
+		merchants = 1
+	}
+	grafen5 = {
+		advisor_pool = 3
+	}
+	grafen6 = {
+		free_dip_policy	= 1
+	}
+	grafen7 = {
+		light_ship_cost	= -0.15
+		light_ship_power = 0.15
+	}	
+}
+
+dargish_ideas = {
+	start = {
+		infantry_fire = 1
+		hostile_attrition = 1
+		leader_land_fire = 1
+	}
+	bonus = {
+		fire_damage_received = -0.1
+		fire_damage = 0.1
+	}
+	trigger = {
+		primary_culture = dargish
+	}
+	free = yes
+	dargish1 = {
+		army_tradition_decay = -0.1
+		army_tradition_from_battle = 0.75
+	}
+	dargish2 = {
+		production_efficiency = 0.1
+	}	
+	dargish3 = {
+		land_morale = 0.15
+	}
+	dargish4 = {
+		yearly_corruption = -0.1
+	}
+	dargish5 = {
+		war_exhaustion = -0.05
+	}
+	dargish6 = {
+		free_mil_policy	= 1
+	}
+	dargish7 = {
+		stability_cost_modifier = -0.3	
+	} 
+}
+
+bjorming_ideas = {
+	start = {
+		idea_cost = -0.1
+		army_tradition = 0.75		
+	}
+	bonus = {
+		leader_naval_shock = 1
+	}
+	trigger = {
+		primary_culture = bjorming
+	}
+	free = yes
+	bjorming1 = {
+		development_cost = -0.1
+	}
+	bjorming2 = {
+		global_missionary_strength = 0.02
+	}	
+	bjorming3 = {
+		infantry_power = 0.15
+	}
+	bjorming4 = {
+		vassal_income = 0.2
+	}
+	bjorming5 = {
+		legitimacy = 1.5
+	}
+	bjorming6 = {
+		missionaries = 1
+	}
+	bjorming7 = {
+		global_tax_modifier = 0.15 
+	}  				
+}
+
+ykran_ideas = {
+	start = {
+		defensiveness = 0.33
+		fort_maintenance_modifier = -0.25
+		tolerance_heretic = 2 			
+
+	}
+	bonus = {
+		leader_land_shock = 1
+	}
+	trigger = {
+		primary_culture = ykran
+	}
+	free = yes
+	ykran1 = {
+		hostile_attrition = 2
+		land_attrition = -0.2
+	}
+	ykran2 = {
+		inflation_reduction = 0.1
+	}	
+	ykran3 = {
+		drill_gain_modifier = 0.25
+		drill_decay_modifier = -0.25
+	}
+	ykran4 = {
+		country_military_power = 1	 
+	}
+	ykran5 = {
+		diplomatic_reputation = 1
+	}
+	ykran6 = {
+		discipline = 0.1
+	}
+	ykran7 = {
+		global_unrest = -2
+	}								 
+}
+
+nyvarsk_ideas = {
+	start = {
+		spy_offence = 0.33	
+		technology_cost = -0.1
+	}
+	bonus = {
+		governing_capacity_modifier = 0.2
+	}
+	trigger = {
+		primary_culture = nyvarsk
+	}
+	free = yes
+	nyvarsk1 = {
+		core_creation = -0.15
+	}
+	nyvarsk2 = {
+		improve_relation_modifier = 0.2
+	}	
+	nyvarsk3 = {
+		land_morale = 0.1
+	}
+	nyvarsk4 = {
+		naval_forcelimit_modifier = 0.2
+	}
+	nyvarsk5 = {
+		country_admin_power = 1	
+	}
+	nyvarsk6 = {
+		prestige = 1.0
+	}
+	nyvarsk7 = {
+		global_trade_power = 0.2 
+	}				
+}
+
+drevarsk_ideas = {
+	start = {
+		unjustified_demands = -0.2
+		global_ship_cost = -0.2
+	}
+	bonus = {
+		production_efficiency = 0.1
+	}
+	trigger = {
+		primary_culture = drevarsk
+	}
+	free = yes
+	drevarsk1 = {
+		global_manpower_modifier = 0.2
+	}
+	drevarsk2 = {
+		ae_impact = -0.2
+	}	
+	drevarsk3 = {
+		legitimacy = 1
+		republican_tradition = 0.5
+	}
+	drevarsk4 = {
+		naval_forcelimit_modifier = 0.2
+	}
+	drevarsk5 = {
+		land_maintenance_modifier = -0.15
+	}
+	drevarsk6 = {
+		tolerance_own = 2
+	}
+	drevarsk7 = {
+		land_morale = 0.1
+	} 	 			
+}
+
+gildic_ideas = {
+	start = {
+		diplomatic_reputation = 2
+		naval_forcelimit = 15
+		naval_forcelimit_modifier = 0.25
+	}
+	bonus = {
+		naval_tradition_from_trade = 0.2
+	}
+	trigger = {
+		primary_culture = gildic
+	}
+	free = yes
+	gildic1 = {
+		trade_steering = 0.20
+	}
+	gildic2 = {
+		global_sailors_modifier = 0.1
+	}	
+	gildic3 = {
+		merc_maintenance_modifier = -0.25
+	}
+	gildic4 = {
+		merchants = 2
+	}
+	gildic5 = {
+		light_ship_power = 0.2
+	}
+	gildic6 = {
+		global_institution_spread = 0.1
+	}
+	gildic7 = {
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	} 	 			 	  
+	      	
+}
+
+# maybe make these even more positive and negative modifier based, these might be op
+giant_ideas = {
+	start = {
+		cav_to_inf_ratio = -1
+		enemy_core_creation = 0.5
+		infantry_shock = 1
+	}
+	bonus = {
+		leader_land_shock = 2
+	}
+	trigger = {
+		culture_group = giant
+	}
+	free = yes
+	giant1 = {
+		fabricate_claims_cost= -0.25
+	}
+	giant2 = {
+		siege_ability = 0.30
+	}	
+	giant3 = {
+		shock_damage_received = -0.2	
+	}
+	giant4 = {
+		num_accepted_cultures = 3
+	}
+	giant5 = {
+		land_morale = 0.15
+	}
+	giant6 = {
+		build_time = -0.5
+	}
+	giant7 = {
+		infantry_power = 0.15
+	}  						
+}
+
+anuiq_ideas = {
+	start = {
+		movement_speed = 0.15
+		hostile_attrition = 3
+	}
+	bonus = {
+		diplomatic_annexation_cost = -0.25
+	}
+	trigger = {
+		culture_group = anuiq
+	}
+	free = yes
+	anuiq1 = {
+		diplomatic_reputation = 2
+	}
+	anuiq2 = {
+		reinforce_speed = 0.5
+	}	
+	anuiq3 = {
+		land_attrition = -0.25
+	}
+	anuiq4 = {
+		country_diplomatic_power = 1
+	}
+	anuiq5 = {
+		vassal_income = 0.25
+		vassal_forcelimit_bonus = 0.25
+	}
+	anuiq6 = {
+		global_tax_modifier = 0.10
+	}
+	anuiq7 = {
+		light_ship_cost = -0.1
+	}					   		
+}
+
+selc_ideas = {
+	start = {
+		merchants = 1
+		development_cost = -0.2
+	}
+	bonus = {
+		admiral_cost = -0.5	
+	}
+	trigger = {
+		primary_culture = selc
+	}
+	free = yes
+	selc1 = {
+		production_efficiency = 0.20	
+	}
+	selc2 = {
+		advisor_cost = -0.20
+	}	
+	selc3 = {
+		trade_efficiency = 0.2
+	}
+	selc4 = {
+		global_sailors_modifier = 0.50	
+	}
+	selc5 = {
+		prestige = 1.0
+	}
+	selc6 = {
+		improve_relation_modifier = 0.2	
+	}
+	selc7 = {
+		naval_forcelimit_modifier = 0.25	
+	}
+}
+
+slein_ideas = {
+	start = {
+		shock_damage = 0.15
+		reinforce_cost_modifier = -0.4	
+	}
+	bonus = {
+		war_exhaustion = -0.1	
+	}
+	trigger = {
+		primary_culture = slein
+	}
+	free = yes
+	slein1 = {
+		infantry_power = 0.1	
+	}
+	slein2 = {
+		land_forcelimit_modifier = 0.2	
+	}	
+	slein3 = {
+		legitimacy = 1
+	}
+	slein4 = {
+		province_warscore_cost = -0.2	
+	}
+	slein5 = {
+		siege_ability = 0.2	
+	}
+	slein6 = {
+		global_tax_modifier = 0.15	
+	}
+	slein7 = {
+		core_creation = -0.1
+	}
+}
+
+einish_ideas = {
+	start = {
+		defensiveness = 0.25
+		mercenary_cost = -0.25
+		merc_maintenance_modifier = -0.25
+	}
+	bonus = {
+		leader_land_manuever = 2
+	}
+	trigger = {
+		primary_culture = einish
+	}
+	free = yes
+	einish1 = {
+		mercenary_discipline = 0.1
+	}
+	einish2 = {
+		warscore_cost_vs_other_religion = -0.25	
+	}	
+	einish3 = {
+		global_missionary_strength = 0.02
+	}
+	einish4 = {
+		mercenary_manpower= 0.50
+	}
+	einish5 = {
+		ae_impact = -0.2
+	}
+	einish6 = {
+		missionaries = 1
+	}
+	einish7 = {
+		tolerance_own = 2
+	}
+}
+
+dunlandic_ideas = {
+	start = {
+		claim_duration = 0.5
+		infantry_cost = -0.20
+	}
+	bonus = {
+		army_tradition_from_battle = 0.50 
+	}
+	trigger = {
+		primary_culture = dunlandic
+	}
+	free = yes
+	dunlandic1 = {
+		fort_maintenance_modifier = -0.33
+	}
+	dunlandic2 = {
+		vassal_forcelimit_bonus = 0.30
+	}	
+	dunlandic3 = {
+		reinforce_speed = 0.33
+	}
+	dunlandic4 = {
+		build_time = -0.50
+	}
+	dunlandic5 = {
+		leader_land_shock = 1
+	}
+	dunlandic6 = {
+		tolerance_own = 2
+	}
+	dunlandic7 = {
+		production_efficiency = 0.15
+	}
+}    
+
+issoan_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.50
+		state_maintenance_modifier = -0.50
+	}
+	bonus = {
+		garrison_size = 0.30
+	}
+	trigger = {
+		primary_culture = issoan
+	}
+	free = yes
+	issoan1 = {
+		diplomats = 1 	
+	}
+	issoan2 = {
+		global_missionary_strength = 0.02
+	}	
+	issoan3 = {
+		global_spy_defence = 0.50
+	}
+	issoan4 = {
+		stability_cost_modifier = -0.1 
+	}
+	issoan5 = {
+		missionaries = 1	  
+	}
+	issoan6 = {
+		global_own_trade_power = 0.25
+	}
+	issoan7 = {
+		free_policy = 1
+	}     
+}	
+
+highlander_ideas = {
+	start = {
+		defensiveness = 0.25
+		war_exhaustion = -0.05
+	}
+	bonus = {
+		hostile_attrition = 1
+	}
+	trigger = {
+		culture_group = highlander
+	}
+	free = yes
+	highlander1 = {
+		fabricate_claims_cost = -0.25
+	}
+	highlander2 = {
+		infantry_power = 0.10
+	}	
+	highlander3 = {
+		power_projection_from_insults = 1.0
+	}
+	highlander4 = {
+		infantry_shock = 1
+	}
+	highlander5 = {
+		land_morale = 0.10
+	}
+	highlander6 = {
+		yearly_corruption = -0.1 
+	}
+	highlander7 = {
+		land_attrition = -0.20
+	}          
+}	 	 
+ 		
+dhoilbridic_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		light_ship_cost = -0.25
+	}
+	bonus = {
+		global_ship_recruit_speed = -0.50
+	}
+	trigger = {
+		primary_culture = dhoilbridic
+	}
+	free = yes
+	dhoilbridic1 = {
+		own_coast_naval_combat_bonus = 1.0	
+	}
+	dhoilbridic2 = {
+		naval_maintenance_modifier = -0.40
+	}	
+	dhoilbridic3 = {
+		legitimacy = 1 
+		republican_tradition = 0.5
+		devotion = 1
+	}
+	dhoilbridic4 = {
+		advisor_cost = -0.25	
+	}
+	dhoilbridic5 = {
+		production_efficiency = 0.15
+	}
+	dhoilbridic6 = {
+		global_sailors_modifier = 0.30
+	}
+	dhoilbridic7 = {
+		naval_attrition = -0.50
+	}	   
+}		   	   	
+
+cahster_ideas = {
+	start = {
+		liberty_desire = -25
+		legitimacy = 2
+	}
+	bonus = {
+		prestige_decay = -0.05
+	}
+	trigger = {
+		primary_culture = cahster
+	}
+	free = yes
+	cahster1 = {
+		prestige = 1.0
+	}
+	cahster2 = {
+		heavy_ship_power = 0.2
+	}	
+	cahster3 = {
+		global_missionary_strength = 0.03
+	}
+	cahster4 = {
+		merchants = 1
+	}
+	cahster5 = {
+		global_tax_modifier = 0.20
+	}
+	cahster6 = {
+		tolerance_own = 2
+	}
+	cahster7 = {
+		discipline = 0.10
+	}
+}
+
+laghan_ideas = {
+	start = {
+		privateer_efficiency = 0.50
+		transport_power = 0.5
+	}
+	bonus = {
+		navy_tradition = 1 
+	}
+	trigger = {
+		primary_culture = laghan
+	}
+	free = yes
+	laghan1 = {
+		capture_ship_chance = 0.25
+	}
+	laghan2 = {
+		ae_impact = -0.2
+	}	
+	laghan3 = {
+		war_exhaustion_cost = -0.75		
+	}
+	laghan4 = {
+		admiral_cost = -0.66
+	}
+	laghan5 = {
+		leader_naval_fire = 2
+	}
+	laghan6 = {
+		land_morale = 0.15
+	}
+	laghan7 = {
+		leader_land_manuever = 1 
+	}       
+}  
+
+bottian_ideas = {
+	start = {
+		global_tax_modifier = 0.15
+		diplomatic_upkeep = 2
+	}
+	bonus = {
+		possible_policy = 1
+	}
+	trigger = {
+		primary_culture = bottian
+	}
+	free = yes
+	bottian1 = {
+		heavy_ship_cost = -0.33
+	}
+	bottian2 = {
+		vassal_income = 0.2 
+	}	
+	bottian3 = {
+		global_manpower_modifier = 0.25
+	}
+	bottian4 = {
+		naval_morale = 0.5
+	}
+	bottian5 = {
+		land_forcelimit_modifier = 0.20
+	}
+	bottian6 = {
+		movement_speed = 0.10
+	}
+	bottian7 = {
+		leader_land_manuever = 2
+	}
+}	  		 
+
+upper_brilthic_ideas = {
+	start = {
+		years_of_nationalism = -5
+		yearly_army_professionalism = 0.02
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		primary_culture = upper_brilthic
+	}
+	free = yes
+	upper_brilthic1 = {
+		idea_cost = -0.1 
+	}
+	upper_brilthic2 = {
+		global_manpower_modifier = 0.20
+	}	
+	upper_brilthic3 = {
+		shock_damage_received = -0.20
+	}
+	upper_brilthic4 = {
+		unjustified_demands = -0.25
+	}
+	upper_brilthic5 = {
+		global_ship_cost = -0.15
+	}
+	upper_brilthic6 = {
+		legitimacy = 1
+		republican_tradition = 0.5 
+	}
+	upper_brilthic7 = {
+		prestige = 1.0
+	}	   	  
+}	 	 	
+
+lower_brilthic_ideas = {
+	start = {
+		leader_land_shock = 1
+		mercenary_cost = -0.25
+		merc_maintenance_modifier = -0.25			
+	}
+	bonus = {
+		own_coast_naval_combat_bonus = 1.0
+	}
+	trigger = {
+		primary_culture = lower_brilthic
+	}
+	free = yes
+	lower_brilthic1 = {
+		diplomats = 1	
+	}
+	lower_brilthic2 = {
+		leader_land_shock = 1
+	}	
+	lower_brilthic3 = {
+		navy_tradition = 1
+	}
+	lower_brilthic4 = {
+		province_warscore_cost = -0.25
+	}
+	lower_brilthic5 = {
+		naval_forcelimit_modifier = 0.3
+	}
+	lower_brilthic6 = {
+		global_tax_modifier = 0.20
+	}
+	lower_brilthic7 = {
+		prestige = 1.0
+	}
+}
+
+blakkan_ideas = {
+	start = {
+		cavalry_cost = -0.25
+		cav_to_inf_ratio = 0.30
+	}
+	bonus = {
+		monarch_admin_power = 1
+	}
+	trigger = {
+		primary_culture = blakkan
+	}
+	free = yes
+	blakkan1 = {
+		siege_ability = 0.33	
+	}
+	blakkan2 = {
+		possible_condottieri = 1 
+	}	
+	blakkan3 = {
+		cavalry_power = 0.20
+	}
+	blakkan4 = {
+		cavalry_flanking = 0.20	
+	}
+	blakkan5 = {
+		core_creation = -0.15
+	}
+	blakkan6 = {
+		free_mil_policy = 1
+	}
+	blakkan7 = {
+		improve_relation_modifier = 0.2  
+	}    
+}	
+
+orsh_ideas = {
+	start = {
+		free_leader_pool = 2
+		diplomatic_reputation = 2
+	}
+	bonus = {
+		tolerance_own = 3
+	}
+	trigger = {
+		primary_culture = orsh
+	}
+	free = yes
+	orsh1 = {
+		artillery_bonus_vs_fort = 2	
+	}
+	orsh2 = {
+		artillery_cost = -0.20
+	}	
+	orsh3 = {
+		missionaries = 1	
+	}
+	orsh4 = {
+		development_cost = -0.1 	
+	}
+	orsh5 = {
+		artillery_power = 0.10
+	}
+	orsh6 = {
+		fire_damage = 0.15
+	}
+	orsh7 = {
+		diplomatic_annexation_cost = -0.2 
+	}
+}
+
+soling_ideas = {
+	start = {
+		idea_cost = -0.1	
+		development_cost = -0.15
+	}
+	bonus = {
+		army_tradition = 1
+	}
+	trigger = {
+		primary_culture = soling
+	}
+	free = yes
+	soling1 = {
+		cavalry_shock = 1		
+	}
+	soling2 = {
+		land_forcelimit_modifier = 0.25
+	}	
+	soling3 = {
+		legitimacy = 1	
+		republican_tradition = 0.5	
+	}
+	soling4 = {
+		spy_offence = 0.35	
+	}
+	soling5 = {
+		global_missionary_strength = 0.03
+	}
+	soling6 = {
+		harsh_treatment_cost = -0.50
+	}
+	soling7 = {
+		land_morale = 0.15	
+	}	 	 	
+}
+
+aven_ideas = {
+	start = {
+		technology_cost = -0.1
+		advisor_cost = -0.30
+	}
+	bonus = {
+		free_adm_policy = 1
+	}
+	trigger = {
+		primary_culture = aven
+	}
+	free = yes
+	aven1 = {
+		leader_siege = 2	
+	}
+	aven2 = {
+		artillery_shock = 2
+	}	
+	aven3 = {
+		global_unrest = -2
+	}
+	aven4 = {
+		light_ship_cost = -0.30	
+	}
+	aven5 = {
+		diplomatic_upkeep = 2
+	}
+	aven6 = {
+		trade_efficiency = 0.15
+	}
+	aven7 = {
+		trade_steering = 0.15
+	}	
+}
+
+graen_ideas = {
+	start = {
+		global_unrest = -2	
+		yearly_corruption = -0.2
+		enemy_core_creation = 0.40
+	}
+	bonus = {
+		production_efficiency = 0.15
+	}
+	trigger = {
+		primary_culture = graen
+	}
+	free = yes
+	graen1 = {
+		religious_unity = 0.5		
+	}
+	graen2 = {
+		loot_amount = 0.50
+	}	
+	graen3 = {
+		merchants = 1	
+	}
+	graen4 = {
+		num_accepted_cultures = 2	
+	}
+	graen5 = {
+		possible_dip_policy = 1
+		free_dip_policy = 1
+	}
+	graen6 = {
+		infantry_cost = -0.25
+	}
+	graen7 = {
+		land_maintenance_modifier = -0.20
+	}
+}
+
+achakk_ideas = {
+	start = {
+		infantry_cost = -0.20
+		land_forcelimit_modifier = 0.20
+	}
+	bonus = {
+		unjustified_demands = -0.2	
+	}
+	trigger = {
+		culture_group = achakk
+	}
+	free = yes
+	achakk1 = {
+		build_cost = -0.2	
+	}
+	achakk2 = {
+		global_missionary_strength = 0.02
+	}	
+	achakk3 = {
+		defensiveness = 0.25
+	}
+	achakk4 = {
+		infantry_shock = 1
+	}
+	achakk5 = {
+		free_mil_policy = 1
+		possible_mil_policy = 1		
+	}
+	achakk6 = {
+		missionaries = 1	
+	}
+	achakk7 = {
+		tolerance_own = 2
+	} 	  	  
+} 	 	
+
+yearsend_ideas = {
+	start = {
+		same_culture_advisor_cost = -0.5
+		years_of_nationalism = -5	
+	}
+	bonus = {
+		possible_condottieri = 1
+	}
+	trigger = {
+		primary_culture = yearsend
+	}
+	free = yes
+	yearsend1 = {
+		idea_cost = -0.1	
+	}
+	yearsend2 = {
+		tolerance_heretic = 3
+	}	
+	yearsend3 = {
+		advisor_pool = 3	
+	}
+	yearsend4 = {
+		merchants = 1
+	}
+	yearsend5 = {
+		production_efficiency = 0.15
+	}
+	yearsend6 = {
+		diplomats = 1
+		diplomatic_reputation = 1
+	}
+	yearsend7 = {
+		#too strong/too weak?
+		reinforce_speed = 1.0
+	}	
+}
+ 	
+allar_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		diplomatic_reputation = 1
+		leader_siege = 1
+	}
+	bonus = {
+		prestige = 1.0
+	}
+	trigger = {
+		primary_culture = allar
+	}
+	free = yes
+	allar1 = {
+		technology_cost = -0.1
+	}
+	allar2 = {
+		vassal_income = 0.2
+	}	
+	allar3 = {
+		artillery_shock = 1		
+	}
+	allar4 = {
+		global_tax_modifier = 0.15
+	}
+	allar5 = {
+		diplomatic_annexation_cost = -0.2
+	}
+	allar6 = {
+		artillery_fire = 1	 
+	}
+	allar7 = {
+		development_cost = -0.15
+	}	
+}
+
+ormian_ideas = {
+	start = {
+		caravan_power = 0.2
+		tolerance_own = 2
+	}
+	bonus = {
+		land_morale = 0.15	
+	}
+	trigger = {
+		primary_culture = ormian
+	}
+	free = yes
+	ormian1 = {
+		spy_offence = 0.25		
+	}
+	ormian2 = {
+		yearly_corruption = -0.1	
+	}	
+	ormian3 = {
+		trade_efficiency = 0.2	
+	}
+	ormian4 = {
+		leader_land_shock = 2
+	}
+	ormian5 = {
+		discipline = 0.05
+	}
+	ormian6 = {
+		free_adm_policy = 1	
+		possible_adm_policy = 1	
+	}
+	ormian7 = {
+		yearly_absolutism = 2	
+	} 
+}
+
+verric_ideas = {
+	start = {
+		colonists = 1
+		idea_cost = -0.1		
+	}
+	bonus = {
+		church_power_modifier = 1.0	
+	}
+	trigger = {
+		primary_culture = verric
+	}
+	free = yes
+	verric1 = {
+		trade_steering = 0.25	
+	}
+	verric2 = {
+		interest = -2
+	}	
+	verric3 = {
+		advisor_cost = -0.25	
+	}
+	verric4 = {
+		mercantilism_cost = -0.40
+	}
+	verric5 = {
+		min_autonomy_in_territories = 0.1  
+	}
+	verric6 = {
+		num_accepted_cultures = 3
+	}
+	verric7 = {
+		army_tradition = 1	
+	}		 
+}			
+
+moonish_ideas = {
+	start = {
+		promote_culture_cost = -0.90
+		infantry_fire = 1
+	}
+	bonus = {
+		missionaries = 2
+	}
+	trigger = {
+		primary_culture = moonish
+	}
+	free = yes
+	moonish1 = {
+		tolerance_heathen = 3	
+	}
+	moonish2 = {
+		fabricate_claims_cost = -0.25
+	}	
+	moonish3 = {
+		unjustified_demands = -0.2
+	}
+	moonish4 = {
+		prestige = 1.0
+	}
+	moonish5 = {
+		defensiveness = 0.30
+	}
+	moonish6 = {
+		land_maintenance_modifier = -0.15
+	}
+	moonish7 = {
+		production_efficiency = 0.10
+	}					
+}		
+
+wealder_ideas = {
+	start = {
+		monarch_diplomatic_power = 1	
+		enemy_core_creation = 0.5
+	}
+	bonus = {
+		reinforce_speed = 0.33
+	}
+	trigger = {
+		primary_culture = wealder
+	}
+	free = yes
+	wealder1 = {
+		claim_duration = 1.0		
+	}
+	wealder2 = {
+		improve_relation_modifier = 0.25
+	}	
+	wealder3 = {
+		land_morale = 0.20
+	}
+	wealder4 = {
+		army_tradition_from_battle = 0.50
+	}
+	wealder5 = {
+		free_adm_policy = 1
+		possible_adm_policy = 1	
+	}
+	wealder6 = {
+		diplomatic_reputation = 2
+	}
+	wealder7 = {
+		artillery_cost = -0.15
+	}			
+}   		
+
+bernothic_ideas = {
+	start = {
+		cavalry_fire = 1	
+		infantry_fire = 1
+	}
+	bonus = {
+		monarch_military_power = 2
+	}
+	trigger = {
+		primary_culture = bernothic
+	}
+	free = yes
+	bernothic1 = {
+		movement_speed = 0.10		
+	}
+	bernothic2 = {
+		diplomatic_upkeep = 1	
+		diplomats = 1	
+	}	
+	bernothic3 = {
+		drill_decay_modifier = -0.75		
+	}
+	bernothic4 = {
+		global_manpower_modifier = 0.25
+	}
+	bernothic5 = {
+		ae_impact = -0.2	
+	}
+	bernothic6 = {
+		legitimacy = 2
+	}
+	bernothic7 = {
+		core_creation = -0.15	
+	}	
+}
+
+rhaur_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		cav_to_inf_ratio = 0.25
+		cavalry_power = 0.10
+	}
+	bonus = {
+		army_tradition = 1	
+	}
+	trigger = {
+		primary_culture = rhaur
+	}
+	free = yes
+	rhaur1 = {
+		cavalry_shock = 1		
+	}
+	rhaur2 = {
+		innovativeness_gain = 1.0	
+	}	
+	rhaur3 = {
+		core_creation = -0.20
+	}
+	rhaur4 = {
+		vassal_income = 0.2
+	}
+	rhaur5 = {
+		province_warscore_cost = -0.25
+	}
+	rhaur6 = {
+		fire_damage_received = -0.20
+	}
+	rhaur7 = {
+		global_supply_limit_modifier = 0.50
+	}				
+}				
+
+aelean_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		global_tax_modifier = 0.15
+		fire_damage = 0.10
+	}
+	bonus = {
+		monthly_splendor = 3
+	}
+	trigger = {
+		primary_culture = aelean
+	}
+	free = yes
+	aelean1 = {
+		administrative_efficiency = 0.1		
+	}
+	aelean2 = {
+		technology_cost = -0.15
+	}	
+	aelean3 = {
+		diplomats = 2	
+	}
+	aelean4 = {
+		artillery_power = 0.2
+	}
+	aelean5 = {
+		global_institution_spread = 0.5
+	}
+	aelean6 = {
+		free_leader_pool = 3
+	}
+	aelean7 = {
+		max_absolutism = 20
+	}		
+}
+
+duwaring_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		discipline = 0.10
+		global_trade_goods_size_modifier = 0.1
+	}
+	bonus = {
+		max_absolutism = 10
+	}
+	trigger = {
+		primary_culture = duwaring
+	}
+	free = yes
+	duwaring1 = {
+		global_missionary_strength = 0.03	
+	}
+	duwaring2 = {
+		republican_tradition = 0.5
+		legitimacy = 2	
+		devotion = 2
+	}	
+	duwaring3 = {
+		core_creation = -0.25
+	}
+	duwaring4 = {
+		missionaries = 2
+	}
+	duwaring5 = {
+		infantry_power = 0.15
+	}
+	duwaring6 = {
+		autonomy_change_time = -0.75
+	}
+	duwaring7 = {
+		unjustified_demands = -0.2	
+	}			
+}		 		
+
+narinya_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		shock_damage = 0.10
+		leader_land_manuever = 2
+	}
+	bonus = {
+		
+		possible_policy = 1
+	}
+	trigger = {
+		primary_culture = narinya
+	}
+	free = yes
+	narinya1 = {
+		diplomatic_reputation = 1		
+	}
+	narinya2 = {
+		build_cost = -0.3
+	}	
+	narinya3 = {
+		global_regiment_cost = -0.15	
+	}
+	narinya4 = {
+		years_of_nationalism = -5	
+	}
+	narinya5 = {
+		vassal_forcelimit_bonus = 0.5
+	}
+	narinya6 = {
+		diplomatic_annexation_cost = -0.25
+	}
+	narinya7 = {
+		stability_cost_modifier = -0.5
+	}					
+}	 
+senar_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		trade_efficiency = 0.2
+		development_cost = -0.2
+	}
+	bonus = {
+		governing_capacity_modifier = 0.15
+	}
+	trigger = {
+		primary_culture = senar
+	}
+	free = yes
+	senar1 = {
+		global_manpower_modifier = 0.3	
+	}
+	senar2 = {
+		merchants = 1	
+	}	
+	senar3 = {
+		core_creation = -0.2	
+	}
+	senar4 = {
+		land_forcelimit_modifier = 0.25	
+	}
+	senar5 = {
+		global_unrest = -2	
+	}
+	senar6 = {
+		land_maintenance_modifier = -0.20
+	}
+	senar7 = {
+		colonists = 1	
+	}
+}
+
+lightborn_ideas = {
+	start = {
+		#monarch_lifespan = 100
+		defensiveness = 0.10
+		enemy_core_creation = 0.5
+	}
+	bonus = {
+		culture_conversion_cost = -0.33
+	}
+	trigger = {
+		primary_culture = lightborn
+	}
+	free = yes
+	lightborn1 = {
+		development_cost = -0.15		
+	}
+	lightborn2 = {
+		advisor_cost = -0.25
+	}	
+	lightborn3 = {
+		artillery_power = 0.10	
+	}
+	lightborn4 = {
+		improve_relation_modifier = 0.25
+	}
+	lightborn5 = {
+		artillery_cost = -0.15
+	}
+	lightborn6 = {
+		garrison_size = 0.40
+	}
+	lightborn7 = {
+		production_efficiency = 0.10
+	}	 		
+}			
+
+moltrese_ideas = {
+	start = {
+		diplomatic_upkeep = 2
+		merc_maintenance_modifier = -0.2
+	}
+	bonus = {
+		governing_capacity_modifier = 0.25
+	}
+	trigger = {
+		primary_culture = moltrese
+	}
+	free = yes
+	moltrese1 = {
+		vassal_income = 0.25
+	}
+	moltrese2 = {
+		core_creation = -0.25	
+	}	
+	moltrese3 = {
+		mercenary_discipline = 0.075
+	}
+	moltrese4 = {
+		state_maintenance_modifier = -0.33
+	}
+	moltrese5 = {
+		stability_cost_modifier = -0.5
+	}
+	moltrese6 = {
+		leader_siege = 1
+	}
+	moltrese7 = {
+		province_warscore_cost = -0.25
+	}			
+}			
+
+nordic_ideas = {
+	start = {
+		garrison_size = 0.3
+		fort_maintenance_modifier = -0.4
+		spy_offence = 0.25
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		primary_culture = nordic
+	}
+	free = yes
+	nordic1 = {
+		diplomats = 1	
+	}
+	nordic2 = {
+		global_autonomy = -0.1
+	}	
+	nordic3 = {
+		leader_land_fire = 1	
+	}
+	nordic4 = {
+		trade_efficiency = 0.15
+	}
+	nordic5 = {
+		num_accepted_cultures = 2
+	}
+	nordic6 = {
+		global_missionary_strength = 0.02
+	}
+	nordic7 = {
+		yearly_corruption = -0.1
+	}				
+}			
+
+angmish_ideas = {
+	start = {
+		army_tradition = 1	
+		infantry_power = 0.10	
+	}
+	bonus = {
+		diplomatic_reputation = 2
+	}
+	trigger = {
+		primary_culture = angmish
+	}
+	free = yes
+	angmish1 = {
+		build_time = -0.3
+	}
+	angmish2 = {
+		heir_chance = 1.0
+	}	
+	angmish3 = {
+		infantry_cost = -0.2
+	}
+	angmish4 = {
+		ae_impact = -0.2	
+	}
+	angmish5 = {
+		legitimacy = 1	
+		republican_tradition = 0.5	
+	}
+	angmish6 = {
+		global_manpower_modifier = 0.25
+	}
+	angmish7 = {
+		tolerance_own = 2
+	}
+}
+
+rossing_ideas = {
+	start = {
+		cavalry_power = 0.10	
+		warscore_cost_vs_other_religion = -0.33
+	}
+	bonus = {
+		monarch_military_power = 2
+	}
+	trigger = {
+		primary_culture = rossing
+	}
+	free = yes
+	rossing1 = {
+		inflation_reduction = 0.1	
+	}
+	rossing2 = {
+		cavalry_shock = 1	
+	}	
+	rossing3 = {
+		leader_cost = -0.25
+	}
+	rossing4 = {
+		mil_tech_cost_modifier = -0.15
+	}
+	rossing5 = {
+		missionaries = 1
+	}
+	rossing6 = {
+		harsh_treatment_cost = -0.4
+	}
+	rossing7 = {
+		global_own_trade_power = 0.1	
+	}		
+}			
+
+riverlandish_ideas = {
+	start = {
+		caravan_power = 0.2	
+		improve_relation_modifier = 0.2	
+	}
+	bonus = {
+		administrative_efficiency = 0.05
+	}
+	trigger = {
+		primary_culture = riverlandish
+	}
+	free = yes
+	riverlandish1 = {
+		war_exhaustion = -0.05
+	}
+	riverlandish2 = {
+		land_attrition = -0.5	
+	}	
+	riverlandish3 = {
+		merchants = 1		
+	}
+	riverlandish4 = {
+		idea_cost = -0.1	
+	}
+	riverlandish5 = {
+		fire_damage_received = -0.15
+	}
+	riverlandish6 = {
+		mercenary_cost = -0.33
+	}
+	riverlandish7 = {
+		prestige = 1.0
+	}			
+} 	
+
+aldon_ideas = {
+	start = {
+		church_power_modifier = 0.5	
+		artillery_cost = -0.25
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		primary_culture = aldon
+	}
+	free = yes
+	aldon1 = {
+		colonists = 1				
+	}
+	aldon2 = {
+		global_unrest = -2
+	}	
+	aldon3 = {
+		advisor_cost = -0.25
+	}
+	aldon4 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	aldon5 = {
+		diplomatic_reputation = 2
+	}
+	aldon6 = {
+		advisor_pool = 3
+	}
+	aldon7 = {
+		technology_cost = -0.15
+	}			
+}	
+
+lockan_ideas = {
+	start = {
+		mercenary_cost = -0.5
+		development_cost = -0.15
+	}
+	bonus = {
+		merchants = 1	
+	}
+	trigger = {
+		primary_culture = lockan
+	}
+	free = yes
+	lockan1 = {
+		envoy_travel_time = -0.5
+		diplomats = 1			
+	}
+	lockan2 = {
+		production_efficiency = 0.15
+	}	
+	lockan3 = {
+		global_institution_spread = 0.5
+	}
+	lockan4 = {
+		reserves_organisation = 0.15
+	}
+	lockan5 = {
+		improve_relation_modifier = 0.2	
+	}
+	lockan6 = {
+		mercenary_discipline = 0.10	
+	}
+	lockan7 = {
+		monthly_splendor = 3
+	}
+}
+
+freestatesmen_ideas = {
+	start = {
+		monarch_diplomatic_power = 1	
+		enemy_core_creation = 0.25
+	}
+	bonus = {
+		culture_conversion_cost = -0.25	
+	}
+	trigger = {
+		primary_culture = freestatesmen
+	}
+	free = yes
+	freestatesmen1 = {
+		land_morale = 0.15
+	}
+	freestatesmen2 = {
+		global_tax_modifier = 0.2
+	}	
+	freestatesmen3 = {
+		land_forcelimit_modifier = 0.50
+	}
+	freestatesmen4 = {
+		missionaries = 1	
+	}
+	freestatesmen5 = {
+		free_leader_pool = 3
+	}
+	freestatesmen6 = {
+		colonists = 1	
+	}
+	freestatesmen7 = {
+		stability_cost_modifier = -0.66
+	}
+}
+
+brongian_ideas = {
+	start = {
+		land_morale = 0.2
+		ship_durability = 0.2
+	}
+	bonus = {
+		possible_policy = 1	
+	}
+	trigger = {
+		primary_culture = brongian
+	}
+	free = yes
+	brongian1 = {
+		unjustified_demands = -0.2	
+	}
+	brongian2 = {
+		yearly_army_professionalism = 0.01	
+	}	
+	brongian3 = {
+		own_coast_naval_combat_bonus = 1.0	
+		diplomatic_reputation = 1	
+	}
+	brongian4 = {
+		global_ship_cost = -0.2
+	}
+	brongian5 = {
+		shock_damage = 0.15
+	}
+	brongian6 = {
+		development_cost = -0.2
+	}
+	brongian7 = {
+		global_trade_power = 0.15
+	}
+}
+
+wreckan_ideas = {
+	start = {
+		own_coast_naval_combat_bonus = 2.0
+		monthly_fervor_increase = 2
+		church_power_modifier = 0.5	
+	}
+	bonus = {
+		navy_tradition = 1	
+	}
+	trigger = {
+		primary_culture = wreckan
+	}
+	free = yes
+	wreckan1 = {
+		allowed_marine_fraction = 0.5
+	}
+	wreckan2 = {
+		naval_forcelimit_modifier = 0.75
+	}	
+	wreckan3 = {
+		leader_naval_manuever = 2
+	}
+	wreckan4 = {
+		merchants = 1	
+	}
+	wreckan5 = {
+		years_of_nationalism = -5	
+	}
+	wreckan6 = {
+		light_ship_cost = -0.2
+	}
+	wreckan7 = {
+		monarch_diplomatic_power = 1	
+	}
+}
+
+shazan_ideas = {
+	start = {
+		infantry_fire = 1	
+		claim_duration = 1.0
+	}
+	bonus = {
+		administrative_efficiency = 0.1
+	}
+	trigger = {
+		primary_culture = shazan
+	}
+	free = yes
+	shazan1 = {
+		fabricate_claims_cost = -0.5
+	}
+	shazan2 = {
+		land_morale = 0.15
+	}	
+	shazan3 = {
+		infantry_shock = 1		
+	}
+	shazan4 = {
+		core_creation = -0.15
+	}
+	shazan5 = {
+		prestige = 1.0
+	}
+	shazan6 = {
+		siege_ability = 0.33
+	}
+	shazan7 = {
+		num_accepted_cultures = 3
+	}
+}
+
+southcoaster_ideas = {
+	start = {
+		center_of_trade_upgrade_cost = -0.5
+		merchants = 1	
+	}
+	bonus = {
+		merchants = 1	
+	}
+	trigger = {
+		primary_culture = southcoaster
+	}
+	free = yes
+	southcoaster1 = {
+		light_ship_power = 0.2
+	}
+	southcoaster2 = {
+		naval_forcelimit_modifier = 0.4	
+	}	
+	southcoaster3 = {
+		vassal_income = 0.2
+	}
+	southcoaster4 = {
+		mercantilism_cost = -0.5
+	}
+	southcoaster5 = {
+		monarch_admin_power = 2
+	}
+	southcoaster6 = {
+		merchants = 1	
+	}
+	southcoaster7 = {
+		global_trade_goods_size_modifier = 0.2
+	}
+}
+
+northcoaster_ideas = {
+	start = {
+		naval_forcelimit_modifier = 0.3
+		merchants = 1	
+	}
+	bonus = {
+		merchants = 1	
+	}
+	trigger = {
+		primary_culture = northcoaster
+	}
+	free = yes
+	northcoaster1 = {
+		sailor_maintenance_modifer = -0.5
+	}
+	northcoaster2 = {
+		trade_efficiency = 0.25
+	}	
+	northcoaster3 = {
+		global_ship_cost = -0.25
+	}
+	northcoaster4 = {
+		land_maintenance_modifier = -0.2
+	}
+	northcoaster5 = {
+		global_ship_trade_power = 0.25
+	}
+	northcoaster6 = {
+		leader_naval_fire = 2
+	}
+	northcoaster7 = {
+		colonists = 1	
+	}
+}
+
+whetic_ideas = {
+	start = {
+		infantry_cost = -0.2
+		global_manpower_modifier = 0.30
+	}
+	bonus = {
+		diplomatic_reputation = 2
+	}
+	trigger = {
+		primary_culture = whetic
+	}
+	free = yes
+	whetic1 = {
+		production_efficiency = 0.15
+	}
+	whetic2 = {
+		land_forcelimit_modifier = 0.40
+	}	
+	whetic3 = {
+		global_unrest = -2	
+	}
+	whetic4 = {
+		global_supply_limit_modifier = 0.5
+	}
+	whetic5 = {
+		ae_impact = -0.2	
+	}
+	whetic6 = {
+		min_autonomy_in_territories = -0.15
+	}
+	whetic7 = {
+		free_policy = 1	
+	}
+}
+
+graylen_ideas = {
+	start = {
+		caravan_power = 0.33
+		trade_range_modifier = 0.5
+	}
+	bonus = {
+		monarch_admin_power = 1	
+	}
+	trigger = {
+		primary_culture = graylen
+	}
+	free = yes
+	graylen1 = {
+		build_time = -0.4
+	}
+	graylen2 = {
+		merchants = 1	
+	}	
+	graylen3 = {
+		religious_unity = 0.5	
+	}
+	graylen4 = {
+		free_adm_policy = 1	
+		possible_adm_policy = 1	
+	}
+	graylen5 = {
+		governing_capacity_modifier = 0.2
+	}
+	graylen6 = {
+		unjustified_demands = -0.25
+	}
+	graylen7 = {
+		land_morale = 0.15
+	}
+}
+
+arvacien_ideas = {
+	start = {
+		land_morale = 0.15
+		accept_vassalization_reasons = 25
+	}
+	bonus = {
+		global_unrest = -2	
+	}
+	trigger = {
+		primary_culture = arvacien
+	}
+	free = yes
+	arvacien1 = {
+		global_sailors_modifier = 0.2
+		naval_forcelimit_modifier = 0.2		
+	}
+	arvacien2 = {
+		leader_siege = 1	
+	}	
+	arvacien3 = {
+		global_tax_modifier = 0.15
+	}
+	arvacien4 = {
+		leader_land_shock = 1	
+	}
+	arvacien5 = {
+		diplomatic_annexation_cost = -0.25
+	}
+	arvacien6 = {
+		advisor_cost = -0.25	
+	}
+	arvacien7 = {
+		num_accepted_cultures = 3
+	}
+}
+
+naarn_ideas = {
+	start = {
+		cavalry_shock = 1	
+		cav_to_inf_ratio = 0.2
+	}
+	bonus = {
+		war_exhaustion = -0.05
+	}
+	trigger = {
+		primary_culture = naarn
+	}
+	free = yes
+	naarn1 = {
+		cavalry_power = 0.10	
+	}
+	naarn2 = {
+		development_cost = -0.15
+	}	
+	naarn3 = {
+		global_missionary_strength = 0.02
+	}
+	naarn4 = {
+		discipline = 0.05
+	}
+	naarn5 = {
+		unjustified_demands = -0.2	
+	}
+	naarn6 = {
+		adm_tech_cost_modifier = -0.2
+	}
+	naarn7 = {
+		merchants = 1	
+	}
+}
+
+viellon_ideas = {
+	start = {
+		global_own_trade_power = 0.2
+		tolerance_own = 2
+	}
+	bonus = {
+		leader_land_fire = 2
+	}
+	trigger = {
+		primary_culture = viellon
+	}
+	free = yes
+	viellon1 = {
+		spy_offence = 0.33
+	}
+	viellon2 = {
+		monarch_diplomatic_power = 1	
+	}	
+	viellon3 = {
+		legitimacy = 2
+	}
+	viellon4 = {
+		colonists = 1	
+	}
+	viellon5 = {
+		missionaries = 1	
+	}
+	viellon6 = {
+		possible_dip_policy = 1	
+		free_dip_policy = 1	
+	}
+	viellon7 = {
+		technology_cost = -0.1	
+	}	
+}
+
+edessian_ideas = {
+	start = {
+		artillery_shock = 1	
+		leader_land_manuever = 2
+	}
+	bonus = {
+		global_ship_trade_power = 0.25
+	}
+	trigger = {
+		primary_culture = edessian
+	}
+	free = yes
+	edessian1 = {
+		missionaries = 1	
+	}
+	edessian2 = {
+		galley_power = 0.2
+	}	
+	edessian3 = {
+		global_manpower_modifier = 0.25
+	}
+	edessian4 = {
+		yearly_corruption = -0.1	
+	}
+	edessian5 = {
+		diplomatic_reputation = 2
+	}
+	edessian6 = {
+		culture_conversion_cost = -0.25	
+	}
+	edessian7 = {
+		missionaries = 1	
+	}
+}
+
+tevarroix_ideas = {
+	start = {
+		army_tradition = 1.5
+		fort_maintenance_modifier = -0.4
+	}
+	bonus = {
+		stability_cost_modifier = -0.50
+	}
+	trigger = {
+		primary_culture = tevarroix
+	}
+	free = yes
+	tevarroix1 = {
+		tolerance_heathen = 2
+	}
+	tevarroix2 = {
+		build_time = -0.33
+	}	
+	tevarroix3 = {
+		diplomatic_upkeep = 2
+	}
+	tevarroix4 = {
+		merchants = 1	
+	}
+	tevarroix5 = {
+		state_maintenance_modifier = -0.30
+	}
+	tevarroix6 = {
+		transport_power = 2.0
+	}
+	tevarroix7 = {
+		global_manpower_modifier = 0.33
+	}
+}
+
+laquis_ideas = {
+	start = {
+		navy_tradition = 1	
+		naval_forcelimit = 30
+		religious_unity = 0.5
+	}
+	bonus = {
+		diplomats = 1	
+	}
+	trigger = {
+		primary_culture = laquis
+	}
+	free = yes
+	laquis1 = {
+		heavy_ship_cost = -0.25
+	}
+	laquis2 = {
+		allowed_marine_fraction = 0.15
+	}	
+	laquis3 = {
+		land_morale = 0.10		
+	}
+	laquis4 = {
+		blockade_efficiency = 0.5
+	}
+	laquis5 = {
+		core_creation = -0.2
+	}
+	laquis6 = {
+		possible_adm_policy = 1	
+		possible_dip_policy = 1	
+	}
+	laquis7 = {
+		colonists = 1	
+	}
+}
+
+murrian_ideas = {
+	start = {
+		merc_maintenance_modifier = -0.20	
+		mercenary_cost = -0.20	
+	}
+	bonus = {
+		transfer_trade_power_reasons = 20
+	}
+	trigger = {
+		primary_culture = murrian
+	}
+	free = yes
+	murrian1 = {
+		available_province_loot = 0.50	
+	}
+	murrian2 = {
+		development_cost = -0.20
+	}	
+	murrian3 = {
+		diplomatic_reputation = 2
+	}
+	murrian4 = {
+		global_trade_goods_size_modifier = 0.1	
+	}
+	murrian5 = {
+		global_unrest = -2	
+	}
+	murrian6 = {
+		mercenary_discipline = 0.10	
+	}
+	murrian7 = {
+		merchants = 1	
+	}
+}
+
+rhydic_ideas = {
+	start = {
+		trade_steering = 0.2
+		prestige_decay = -0.025	
+	}
+	bonus = {
+		colonists = 1	
+	}
+	trigger = {
+		primary_culture = rhydic
+	}
+	free = yes
+	rhydic1 = {
+		dip_tech_cost_modifier = -0.2
+	}
+	rhydic2 = {
+		caravan_power = 0.2	
+	}	
+	rhydic3 = {
+		tolerance_heretic = 3
+	}
+	rhydic4 = {
+		leader_siege = 1	
+	}
+	rhydic5 = {
+		hostile_attrition = 2.5
+	}
+	rhydic6 = {
+		years_of_nationalism = -5	
+	}
+	rhydic7 = {
+		land_attrition = -0.75
+	}
+}
+
+derzian_ideas = {
+	start = {
+		infantry_cost = -0.20
+		colonists = 1	
+	}
+	bonus = {
+		leader_land_shock = 2
+	}
+	trigger = {
+		primary_culture = derzian
+	}
+	free = yes
+	derzian1 = {
+		diplomats = 1	
+	}
+	derzian2 = {
+		land_morale = 0.15
+	}	
+	derzian3 = {
+		global_supply_limit_modifier = 0.33
+	}
+	derzian4 = {
+		state_governing_cost = -0.25
+	}
+	derzian5 = {
+		state_maintenance_modifier = -0.50
+	}
+	derzian6 = {
+		unjustified_demands = -0.2	
+	}
+	derzian7 = {
+		religious_unity = 0.5	
+	}
+}
+
+glenish_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.1	
+		siege_ability = 0.25
+	}
+	bonus = {
+		num_accepted_cultures = 3
+	}
+	trigger = {
+		primary_culture = glenish
+	}
+	free = yes
+	glenish1 = {
+		advisor_cost = -0.25	
+	}
+	glenish2 = {
+		spy_offence = 0.50
+	}	
+	glenish3 = {
+		mercantilism_cost = -0.5
+	}
+	glenish4 = {
+		free_policy = 1	
+	}
+	glenish5 = {
+		country_diplomatic_power = 1	
+	}
+	glenish6 = {
+		global_unrest = -2	
+	}
+	glenish7 = {
+		administrative_efficiency = 0.05
+	}
+}
+
+nardic_ideas = {
+	start = {
+		discipline = 0.05
+		shock_damage_received = -0.15
+	}
+	bonus = {
+		missionaries = 2
+	}
+	trigger = {
+		primary_culture = nardic
+	}
+	free = yes
+	nardic1 = {
+		core_creation = -0.15
+	}
+	nardic2 = {
+		global_manpower_modifier = 0.25	
+	}	
+	nardic3 = {
+		yearly_army_professionalism = 0.02
+	}
+	nardic4 = {
+		diplomatic_upkeep = 1
+		diplomats = 1			
+	}
+	nardic5 = {
+		global_autonomy = -0.1
+	}
+	nardic6 = {
+		leader_naval_shock = 3
+	}
+	nardic7 = {
+		same_culture_advisor_cost = -0.5	
+	}
+}
+
+west_bergian_ideas = {
+	start = {
+		years_of_nationalism = -5	
+		monarch_military_power = 1	
+	}
+	bonus = {
+		free_leader_pool = 3
+	}
+	trigger = {
+		primary_culture = west_bergian
+	}
+	free = yes
+	west_bergian1 = {
+		core_creation = -0.25
+	}
+	west_bergian2 = {
+		governing_capacity_modifier = 0.25
+	}	
+	west_bergian3 = {
+		culture_conversion_cost = -0.25	
+	}
+	west_bergian4 = {
+		monarch_diplomatic_power = 1	
+	}
+	west_bergian5 = {
+		global_tax_modifier = 0.15
+	}
+	west_bergian6 = {
+		ae_impact = -0.25
+	}
+	west_bergian7 = {
+		land_morale = 0.20
+	}
+}
+
+east_bergian_ideas = {
+	start = {
+		fire_damage_received = -0.25
+		interest = -3
+	}
+	bonus = {
+		merchants = 2
+	}
+	trigger = {
+		primary_culture = east_bergian
+	}
+	free = yes
+	east_bergian1 = {
+		improve_relation_modifier = 0.2	
+	}
+	east_bergian2 = {
+		backrow_artillery_damage = 0.15
+	}	
+	east_bergian3 = {
+		merchants = 1	
+	}
+	east_bergian4 = {
+		land_maintenance_modifier = -0.20
+	}
+	east_bergian5 = {
+		naval_forcelimit = 50
+	}
+	east_bergian6 = {
+	#complete guess as to how strong this is
+		rebel_support_efficiency = 2.0
+	}
+	east_bergian7 = {
+		global_own_trade_power = 0.25
+	}
+}
+
+dalsch_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.33
+		cav_to_inf_ratio = 0.5
+	}
+	bonus = {
+		vassal_income = 0.2	
+	}
+	trigger = {
+		primary_culture = dalsch
+	}
+	free = yes
+	dalsch1 = {
+		leader_naval_fire = 2
+	}
+	dalsch2 = {
+		global_own_trade_power = 0.1	
+	}	
+	dalsch3 = {
+		stability_cost_modifier = -0.75
+	}
+	dalsch4 = {
+		manpower_in_true_faith_provinces= 0.40
+	}
+	dalsch5 = {
+		legitimacy = 2
+	}
+	dalsch6 = {
+		cavalry_flanking = 0.25
+		cavalry_power = 0.15	
+	}
+	dalsch7 = {
+		possible_policy = 1	
+	}
+}
+
+kronnish_ideas = {
+	start = {
+		defensiveness = 0.25
+		infantry_shock = 1	
+	}
+	bonus = {
+		monthly_splendor = 5
+	}
+	trigger = {
+		primary_culture = kronnish
+	}
+	free = yes
+	kronnish1 = {
+		idea_cost = -0.1	
+	}
+	kronnish2 = {
+		land_morale = 0.20
+	}	
+	kronnish3 = {
+		province_warscore_cost = -0.2	
+	}
+	kronnish4 = {
+		leader_land_shock = 1	
+	}
+	kronnish5 = {
+		possible_dip_policy = 1
+		free_dip_policy = 1			
+	}
+	kronnish6 = {
+		diplomatic_reputation = 2
+	}
+	kronnish7 = {
+		global_tax_modifier = 0.15
+	}
+}
+
+forren_ideas = {
+	start = {
+		global_own_trade_power = 0.25
+		production_efficiency = 0.10
+	}
+	bonus = {
+		leader_cost = -0.33
+	}
+	trigger = {
+		primary_culture = forren
+	}
+	free = yes
+	forren1 = {
+		monarch_diplomatic_power = 2
+	}
+	forren2 = {
+		stability_cost_modifier = -0.5
+	}	
+	forren3 = {
+		tolerance_own = 3
+	}
+	forren4 = {
+		land_forcelimit_modifier = 0.15
+	}
+	forren5 = {
+		adm_tech_cost_modifier = -0.15
+	}
+	forren6 = {
+		colonists = 1	
+	}
+	forren7 = {
+		global_missionary_strength = 0.02
+	}
+}
+
+upper_sternian_ideas = {
+	start = {
+		infantry_power = 0.10	
+		drill_gain_modifier = 0.50
+	}
+	bonus = {
+		caravan_power = 0.25
+	}
+	trigger = {
+		primary_culture = upper_sternian
+	}
+	free = yes
+	upper_sternian1 = {
+		drill_decay_modifier = -0.5
+	}
+	upper_sternian2 = {
+		diplomats = 1	
+	}	
+	upper_sternian3 = {
+		infantry_fire = 1	
+	}
+	upper_sternian4 = {
+		merchants = 1	
+	}
+	upper_sternian5 = {
+		unjustified_demands = -0.25
+	}
+	upper_sternian6 = {
+		army_tradition = 1	
+	}
+	upper_sternian7 = {
+		diplomatic_upkeep = 2
+	}
+}
+
+lower_sternian_ideas = {
+	start = {
+		merchants = 1	
+		global_unrest = -2	
+	}
+	bonus = {
+		naval_maintenance_modifier = -0.30
+	}
+	trigger = {
+		primary_culture = lower_sternian
+	}
+	free = yes
+	lower_sternian1 = {
+		monarch_admin_power = 1	
+	}
+	lower_sternian2 = {
+		naval_forcelimit_modifier = 0.4
+	}	
+	lower_sternian3 = {
+		trade_efficiency = 0.2
+	}
+	lower_sternian4 = {
+		admiral_cost = -0.80
+	}
+	lower_sternian5 = {
+		prestige = 1.0
+	}
+	lower_sternian6 = {
+		diplomatic_reputation = 2
+	}
+	lower_sternian7 = {
+		development_cost = -0.20
+	}
+}
+
+wayn_ideas = {
+	start = {
+		discipline = 0.05
+		light_ship_power = 0.33
+	}
+	bonus = {
+		global_tax_modifier = 0.15
+	}
+	trigger = {
+		primary_culture = wayn
+	}
+	free = yes
+	wayn1 = {
+		naval_forcelimit = 40
+	}
+	wayn2 = {
+		artillery_shock = 1	
+	}	
+	wayn3 = {
+		development_cost = -0.2
+	}
+	wayn4 = {
+		manpower_recovery_speed = 0.50
+	}
+	wayn5 = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	wayn6 = {
+		improve_relation_modifier = 0.33
+	}
+	wayn7 = {
+		administrative_efficiency = 0.05
+	}
+}
+
+reuth_ideas = {
+	start = {
+		warscore_cost_vs_other_religion = -0.25	
+		global_missionary_strength = 0.02
+	}
+	bonus = {
+		tolerance_own = 3
+	}
+	trigger = {
+		primary_culture = reuth
+	}
+	free = yes
+	reuth1 = {
+		global_manpower_modifier = 0.25
+	}
+	reuth2 = {
+		missionaries = 1	
+	}	
+	reuth3 = {
+		merchants = 1	
+	}
+	reuth4 = {
+		land_morale = 0.15
+	}
+	reuth5 = {
+		country_military_power = 1	
+	}
+	reuth6 = {
+		missionaries = 1	
+	}
+	reuth7 = {
+		max_absolutism = 15
+	}
+}
+
+snyd_ideas = {
+	start = {
+		land_forcelimit = 25
+		culture_conversion_cost = -0.25	
+	}
+	bonus = {
+		no_religion_penalty = yes	
+	}
+	trigger = {
+		primary_culture = snyd
+	}
+	free = yes
+	snyd1 = {
+		claim_duration = 0.5
+	}
+	snyd2 = {
+		infantry_cost = -0.15
+	}	
+	snyd3 = {
+		development_cost = -0.1	
+	}
+	snyd4 = {
+		land_maintenance_modifier = -0.15
+	}
+	snyd5 = {
+		possible_policy = 1	
+	}
+	snyd6 = {
+		artillery_cost = -0.15
+	}
+	snyd7 = {
+		leader_land_manuever = 2
+	}
+}
+
+devan_ideas = {
+	start = {
+		diplomatic_reputation = 3
+		diplomats = 1	
+	}
+	bonus = {
+		all_power_cost = -0.05
+	}
+	trigger = {
+		primary_culture = devan
+	}
+	free = yes
+	devan1 = {
+		idea_cost = -0.1	
+	}
+	devan2 = {
+		global_unrest = -2	
+	}	
+	devan3 = {
+		improve_relation_modifier = 0.30
+	}
+	devan4 = {
+		prestige = 1.0
+	}
+	devan5 = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	devan6 = {
+		num_accepted_cultures = 3
+	}
+	devan7 = {
+		years_of_nationalism = -5	
+	}
+}
+
+cevan_ideas = {
+	start = {
+		global_own_trade_power = 0.25
+		spy_offence = 0.25
+	}
+	bonus = {
+		legitimacy = 2
+	}
+	trigger = {
+		primary_culture = cevan
+	}
+	free = yes
+	cevan1 = {
+		defensiveness = 0.40
+	}
+	cevan2 = {
+		tolerance_own = 2	
+	}	
+	cevan3 = {
+		adm_tech_cost_modifier = -0.15	
+	}
+	cevan4 = {
+		production_efficiency = 0.15
+	}
+	cevan5 = {
+		missionaries = 1	
+	}
+	cevan6 = {
+		monarch_military_power = 1	
+	}
+	cevan7 = {
+		infantry_fire = 1	
+	}
+}
+
+sedurii_ideas = {
+	start = {
+		movement_speed = 0.15
+		province_warscore_cost = -0.2
+	}
+	bonus = {
+		war_exhaustion = -0.05
+	}
+	trigger = {
+		primary_culture = sedurii
+	}
+	free = yes
+	sedurii1 = {
+		diplomatic_upkeep = 1
+		diplomats = 1			
+	}
+	sedurii2 = {
+		build_cost = -0.33
+	}	
+	sedurii3 = {
+		infantry_power = 0.10		
+	}
+	sedurii4 = {
+		free_dip_policy = 1	
+		possible_dip_policy = 1	
+	}
+	sedurii5 = {
+		yearly_corruption = -0.1	
+	}
+	sedurii6 = {
+		discipline = 0.05
+	}
+	sedurii7 = {
+		culture_conversion_cost = -0.25
+	}
+}
+
+rivwu_ideas = {
+	start = {
+		global_unrest = -2	
+		merchants = 1
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+	trigger = {
+		primary_culture = rivwu
+	}
+	free = yes
+	rivwu1 = {
+		trade_efficiency = 0.2
+	}
+	rivwu2 = {
+		caravan_power = 0.25
+	}	
+	rivwu3 = {
+		development_cost = -0.15
+	}
+	rivwu4 = {
+		center_of_trade_upgrade_cost = -0.25
+	}
+	rivwu5 = {
+		administrative_efficiency = 0.1
+	}
+	rivwu6 = {
+		merchants = 1	
+	}
+	rivwu7 = {
+		governing_capacity_modifier = 0.2
+	}
+}
+
+silver_elf_ideas = {
+	start = {
+		leader_land_manuever = 2
+		inflation_reduction = 0.1	
+	}
+	bonus = {
+		diplomatic_annexation_cost = -0.2	
+	}
+	trigger = {
+		primary_culture = silver_elf
+	}
+	free = yes
+	silver_elf1 = {
+		artillery_bonus_vs_fort = 1	
+	}
+	silver_elf2 = {
+		technology_cost = -0.1	
+	}	
+	silver_elf3 = {
+		interest = -2	
+	}
+	silver_elf4 = {
+		yearly_army_professionalism = 0.02
+	}
+	silver_elf5 = {
+		monarch_admin_power = 1	
+	}
+	silver_elf6 = {
+		discipline = 0.05
+	}
+	silver_elf7 = {
+		production_efficiency = 0.10
+	}
+}
+
+isafaan_ideas = {
+	start = {
+		global_autonomy = -0.05	
+		advisor_cost = -0.20
+	}
+	bonus = {
+		vassal_income = 0.2	
+	}
+	trigger = {
+		primary_culture = isafaan
+	}
+	free = yes
+	isafaan1 = {
+		merchants = 1	
+	}
+	isafaan2 = {
+		embargo_efficiency = 0.5
+	}	
+	isafaan3 = {
+		global_manpower_modifier = 0.25
+	}
+	isafaan4 = {
+		global_tax_modifier = 0.10
+	}
+	isafaan5 = {
+		colonists = 1	
+	}
+	isafaan6 = {
+		stability_cost_modifier = -0.75
+	}
+	isafaan7 = {
+		general_cost = -0.5
+		free_leader_pool = 3
+	}
+}
+
+upwater_elf_ideas = {
+	start = {
+		artillery_cost = -0.15
+		justify_trade_conflict_cost = -1.0
+	}
+	bonus = {
+		global_trade_power = 0.33
+	}
+	trigger = {
+		primary_culture = upwater_elf
+	}
+	free = yes
+	upwater_elf1 = {
+		merchants = 1	
+	}
+	upwater_elf2 = {
+		land_morale = 0.15
+	}	
+	upwater_elf3 = {
+		state_maintenance_modifier = -0.40
+	}
+	upwater_elf4 = {
+		diplomatic_reputation = 2
+	}
+	upwater_elf5 = {
+		global_institution_spread = 0.33
+	}
+	upwater_elf6 = {
+		years_of_nationalism = -5	
+	}
+	upwater_elf7 = {
+		free_policy = 1	
+	}
+}
+
+viithi_ideas = {
+	start = {
+		global_missionary_strength = 0.03
+		fabricate_claims_cost = -0.5
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.33
+	}
+	trigger = {
+		primary_culture = viithi
+	}
+	free = yes
+	viithi1 = {
+		core_creation = -0.25
+	}
+	viithi2 = {
+		land_morale = 0.20	
+	}	
+	viithi3 = {
+		missionaries = 1		
+	}
+	viithi4 = {
+		unjustified_demands = -0.2	
+	}
+	viithi5 = {
+		land_maintenance_modifier = -0.2
+	}
+	viithi6 = {
+		tolerance_own = 2		
+	}
+	viithi7 = {
+		global_tax_modifier = 0.15
+	}
+}
+
+liian_ideas = {
+	start = {
+		leader_land_fire = 1
+		production_efficiency = 0.15
+	}
+	bonus = {
+		all_power_cost = -0.1	
+	}
+	trigger = {
+		primary_culture = liian
+	}
+	free = yes
+	liian1 = {
+		merchants = 1	
+	}
+	liian2 = {
+		rebel_support_efficiency = 3.0
+	}	
+	liian3 = {
+		leader_land_shock = 2
+	}
+	liian4 = {
+		promote_culture_cost = -0.75
+	}
+	liian5 = {
+		advisor_pool = 3
+	}
+	liian6 = {
+		min_autonomy_in_territories = -0.1	
+	}
+	liian7 = {
+		num_accepted_cultures = 5
+	}
+}
+
+avaric_ideas = {
+	start = {
+		army_tradition = 1	
+		merc_maintenance_modifier = -0.25
+	}
+	bonus = {
+		mercantilism_cost = -0.33
+	}
+	trigger = {
+		primary_culture = avaric
+	}
+	free = yes
+	avaric1 = {
+		monthly_splendor = 3
+	}
+	avaric2 = {
+		vassal_income = 0.25
+	}	
+	avaric3 = {
+		trade_efficiency = 0.15
+	}
+	avaric4 = {
+		mercenary_discipline = 0.10	
+	}
+	avaric5 = {
+		vassal_forcelimit_bonus = 0.25
+	}
+	avaric6 = {
+		administrative_efficiency = 0.05
+	}
+	avaric7 = {
+		max_absolutism = 10	
+	}
+}
+
+gheltic_ideas = {
+	start = {
+		hostile_attrition = 3
+		enemy_core_creation = 0.5
+	}
+	bonus = {
+		shock_damage_received = -0.25
+	}
+	trigger = {
+		primary_culture = gheltic
+	}
+	free = yes
+	gheltic1 = {
+		infantry_cost = -0.25
+	}
+	gheltic2 = {
+		war_exhaustion = -0.05	
+	}	
+	gheltic3 = {
+		land_morale = 0.15	
+	}
+	gheltic4 = {
+		infantry_power = 0.10	
+	}
+	gheltic5 = {
+		global_manpower_modifier = 0.33
+	}
+	gheltic6 = {
+		infantry_shock = 1	
+	}
+	gheltic7 = {
+		missionaries = 1	
+	}
+}
+
+tauros_ideas = {
+	start = {
+		defensiveness = 0.75
+		army_tradition = 2
+	}
+	bonus = {
+		global_missionary_strength = 0.03	
+	}
+	trigger = {
+		primary_culture = tauros
+	}
+	free = yes
+	tauros1 = {
+		hostile_attrition = 2
+	}
+	tauros2 = {
+		loot_amount = 0.50
+	}	
+	tauros3 = {
+		manpower_in_true_faith_provinces= 0.5
+	}
+	tauros4 = {
+		infantry_shock = 2
+		infantry_fire = -1
+	}
+	tauros5 = {
+		claim_duration = 1.0
+	}
+	tauros6 = {
+		ae_impact = -0.25
+	}
+	tauros7 = {
+		global_trade_goods_size_modifier = 0.2
+	}
+}
+
+vindese_ideas = {
+	start = {
+		ship_power_propagation = 0.25
+		land_morale = 0.15
+	}
+	bonus = {
+		free_dip_policy = 1	
+		possible_dip_policy = 1	
+	}
+	trigger = {
+		primary_culture = vindese
+	}
+	free = yes
+	vindese1 = {
+		merchants = 1	
+	}
+	vindese2 = {
+		naval_forcelimit = 35
+	}	
+	vindese3 = {
+		trade_efficiency = 0.25
+	}
+	vindese4 = {
+		prestige = 1.0
+	}
+	vindese5 = {
+		merchants = 1	
+	}
+	vindese6 = {
+		cavalry_power = 0.10	
+	}
+	vindese7 = {
+		vassal_income = 0.2	
+	}
+}
+
+phracian_ideas = {
+	start = {
+		discipline = 0.05
+		diplomats = 1	
+		diplomatic_upkeep = 1	
+	}
+	bonus = {
+		monarch_diplomatic_power = 1	
+	}
+	trigger = {
+		primary_culture = phracian
+	}
+	free = yes
+	phracian1 = {
+		monarch_military_power = 1	
+	}
+	phracian2 = {
+		artillery_shock = 1	
+	}	
+	phracian3 = {
+		global_tax_modifier = 0.15
+	}
+	phracian4 = {
+		army_tradition = 1	
+	}
+	phracian5 = {
+		diplomatic_annexation_cost = -0.25
+	}
+	phracian6 = {
+		technology_cost = -0.1	
+	}
+	phracian7 = {
+		monarch_admin_power = 1	
+	}
+}
+
+mylith_ideas = {
+	start = {
+		global_prov_trade_power_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1			
+	}
+	bonus = {
+		yearly_corruption = -0.1
+	}
+	trigger = {
+		primary_culture = mylith
+	}
+	free = yes
+	mylith1 = {
+		idea_cost = -0.1			
+	}
+	mylith2 = {
+		tolerance_heretic = 3
+	}	
+	mylith3 = {
+		leader_land_shock = 2
+	}
+	mylith4 = {
+		advisor_pool = 3
+	}
+	mylith5 = {
+		build_time = -0.5
+	}
+	mylith6 = {
+		stability_cost_modifier = -0.75
+	}
+	mylith7 = {
+		leader_land_manuever = 2
+	}
+}
+
+goldtrader_ideas = {
+	start = {
+		caravan_power = 0.25
+		inflation_reduction = 0.1	
+	}
+	bonus = {
+		merchants = 1
+	}
+	trigger = {
+		primary_culture = goldtrader
+	}
+	free = yes
+	goldtrader1 = {
+		merc_maintenance_modifier = -0.33
+	}
+	goldtrader2 = {
+		republican_tradition = 0.75	
+	}	
+	goldtrader3 = {	
+		merchants = 1
+	}
+	goldtrader4 = {
+		trade_efficiency = 0.25
+	}
+	goldtrader5 = {
+		mercenary_cost = -0.33	
+	}
+	goldtrader6 = {
+		merchants = 1
+	}
+	goldtrader7 = {
+		interest = -3
+	}
+}
+
+rettar_ideas = {
+	start = {
+		infantry_power = 0.10	
+		infantry_cost = -0.10	
+	}
+	bonus = {
+		yearly_absolutism = 2
+	}
+	trigger = {
+		primary_culture = rettar
+	}
+	free = yes
+	rettar1 = {
+		siege_ability = 0.25
+	}
+	rettar2 = {
+		production_efficiency = 0.2
+	}	
+	rettar3 = {
+		drill_gain_modifier = 0.25	
+		drill_decay_modifier = -0.25			
+	}
+	rettar4 = {
+		unjustified_demands = -0.2	
+	}
+	rettar5 = {
+		infantry_shock = 1	
+	}
+	rettar6 = {
+		leader_land_shock = 1	
+		leader_land_fire = 1	
+	}
+	rettar7 = {
+		shock_damage_received = -0.2
+	}
+}
+
+axian_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		core_decay_on_your_own = -1.0
+	}
+	bonus = {
+		legitimacy = 1.5
+	}
+	trigger = {
+		primary_culture = axian
+	}
+	free = yes
+	axian1 = {
+		global_regiment_recruit_speed = -0.5	
+	}
+	axian2 = {
+		idea_cost = -0.1	
+	}	
+	axian3 = {
+		land_forcelimit_modifier = 0.25
+	}
+	axian4 = {
+		state_maintenance_modifier = -0.33	
+	}
+	axian5 = {
+		land_morale = 0.15
+	}
+	axian6 = {
+		possible_mil_policy = 1	
+		free_mil_policy = 1	
+	}
+	axian7 = {
+		administrative_efficiency = 0.05
+	}
+}
+
+remaa_ideas = {
+	start = {
+		spy_offence = 0.5
+		global_unrest = -2	
+	}
+	bonus = {
+		land_maintenance_modifier = -0.15
+	}
+	trigger = {
+		primary_culture = remaa
+	}
+	free = yes
+	remaa1 = {
+		defensiveness = 0.5	
+	}
+	remaa2 = {
+		global_own_trade_power = 0.25
+	}	
+	remaa3 = {
+		core_creation = -0.25
+	}
+	remaa4 = {
+		monarch_diplomatic_power = 1	
+	}
+	remaa5 = {
+		state_governing_cost = -0.15
+	}
+	remaa6 = {
+		culture_conversion_cost = -0.33	
+	}
+	remaa7 = {
+		land_morale = 0.2	
+	}
+}
+
+lys_reman_ideas = {
+	start = {
+		discipline = 0.05	
+		province_warscore_cost = -0.33
+	}
+	bonus = {
+		colonists = 1	
+	}
+	trigger = {
+		primary_culture = lys_reman
+	}
+	free = yes
+	lys_reman1 = {
+		global_manpower_modifier = 0.30
+	}
+	lys_reman2 = {
+		build_cost = -0.2
+	}	
+	lys_reman3 = {
+		army_tradition = 1.5
+	}
+	lys_reman4 = {
+		leader_siege = 1	
+	}
+	lys_reman5 = {
+		land_morale = 0.15	
+	}
+	lys_reman6 = {
+		core_creation = -0.25
+	}
+	lys_reman7 = {
+		adm_tech_cost_modifier = -0.25	
+	}
+}
+
+villacian_ideas = {
+	start = {
+		missionaries = 1	
+		land_morale = 0.20
+	}
+	bonus = {
+		same_culture_advisor_cost = -0.5	
+	}
+	trigger = {
+		primary_culture = villacian
+	}
+	free = yes
+	villacian1 = {
+		global_missionary_strength = 0.04
+	}
+	villacian2 = {
+		devotion = 1	
+	}	
+	villacian3 = {
+		missionaries = 2
+	}
+	villacian4 = {
+		global_tax_modifier = 0.20	
+	}
+	villacian5 = {
+		tolerance_own = 3
+	}
+	villacian6 = {
+		monthly_splendor = 4	
+	}
+	villacian7 = {
+		free_policy = 1	
+	}
+}
+
+tarrad_ideas = {
+	start = {
+		land_attrition = -0.50
+		leader_land_shock = 1	
+	}
+	bonus = {
+		stability_cost_modifier = -0.5
+	}
+	trigger = {
+		primary_culture = tarrad
+	}
+	free = yes
+	tarrad1 = {
+		infantry_cost = -0.15
+	}
+	tarrad2 = {
+		colonists = 1	
+	}	
+	tarrad3 = {
+		diplomatic_upkeep = 1	
+		diplomats = 1	
+	}
+	tarrad4 = {
+		years_of_nationalism = -5	
+	}
+	tarrad5 = {
+		unjustified_demands = -0.25
+	}
+	tarrad6 = {
+		monarch_admin_power = 1	
+	}
+	tarrad7 = {
+		production_efficiency = 0.15
+	}
+}
+
+ventrian_ideas = {
+	start = {
+		trade_steering = 0.25
+		colonists = 1	
+	}
+	bonus = {
+		diplomatic_reputation = 2
+	}
+	trigger = {
+		primary_culture = ventrian
+	}
+	free = yes
+	ventrian1 = {
+		monarch_diplomatic_power = 1	
+	}
+	ventrian2 = {
+		missionaries = 1		
+	}	
+	ventrian3 = {
+		trade_efficiency = 0.25
+	}
+	ventrian4 = {
+		global_autonomy = -0.10
+	}
+	ventrian5 = {
+		global_institution_spread = 0.50
+	}
+	ventrian6 = {
+		merchants = 1	
+	}
+	ventrian7 = {
+		production_efficiency = 0.15
+	}
+}
+
+corrusean_ideas = {
+	start = {
+		infantry_power = 0.10
+		core_creation = -0.33
+	}
+	bonus = {
+		administrative_efficiency = 0.1	
+	}
+	trigger = {
+		primary_culture = corrusean
+	}
+	free = yes
+	corrusean1 = {
+		ae_impact = -0.33
+	}
+	corrusean2 = {
+		siege_ability = 0.25
+	}	
+	corrusean3 = {
+		province_warscore_cost = -0.25	
+	}
+	corrusean4 = {
+		governing_capacity_modifier = 0.25
+	}
+	corrusean5 = {
+		land_morale = 0.20
+	}
+	corrusean6 = {
+		years_of_nationalism = -5	
+	}
+	corrusean7 = {
+		artillery_bonus_vs_fort = 2
+	}		 		
+}		
+
+kagnol_ideas = {
+	start = {
+		leader_land_fire = 1	
+		diplomatic_reputation = 2
+	}
+	bonus = {
+		free_adm_policy = 1	
+		possible_adm_policy = 1	
+	}
+	trigger = {
+		primary_culture = kagnol
+	}
+	free = yes
+	kagnol1 = {
+		development_cost = -0.25
+	}
+	kagnol2 = {
+		monarch_diplomatic_power = 1	
+	}	
+	kagnol3 = {
+		discipline = 0.05
+	}
+	kagnol4 = {
+		state_maintenance_modifier = -0.5
+	}
+	kagnol5 = {
+		technology_cost = -0.1	
+	}
+	kagnol6 = {
+		merchants = 1	
+	}
+	kagnol7 = {
+		trade_efficiency = 0.2
+	}
+}
+
+othan_ideas = {
+	start = {
+		monthly_fervor_increase = 1	
+		war_exhaustion = -0.05
+	}
+	bonus = {
+		monthly_fervor_increase = 1	
+	}
+	trigger = {
+		primary_culture = othan
+	}
+	free = yes
+	othan1 = {
+		global_manpower = 20
+	}
+	othan2 = {
+		inflation_reduction = 0.1
+		interest = -1	
+	}	
+	othan3 = {
+		colonists = 1	
+	}
+	othan4 = {
+		leader_land_shock = 1	
+	}
+	othan5 = {
+		global_missionary_strength = 0.02
+	}
+	othan6 = {
+		advisor_cost = -0.15
+		advisor_pool = 2
+	}
+	othan7 = {
+		culture_conversion_cost = -0.25	
+	}
+}
+
+veran_ideas = {
+	start = {
+		diplomatic_upkeep = 2
+		global_tax_modifier = 0.15
+	}
+	bonus = {
+		prestige = 1.0
+	}
+	trigger = {
+		primary_culture = veran
+	}
+	free = yes
+	veran1 = {
+		cavalry_power = 0.10	
+	}
+	veran2 = {
+		ae_impact = -0.2	
+	}	
+	veran3 = {
+		land_morale = 0.15
+	}
+	veran4 = {
+		idea_cost = -0.1	
+	}
+	veran5 = {
+		papal_influence = 2.0	
+	}
+	veran6 = {
+		reserves_organisation = 0.50
+	}
+	veran7 = {
+		administrative_efficiency = 0.05
+	}
+}
+
+padese_ideas = {
+	start = {
+		merchants = 1	
+		spy_offence = 0.33
+	}
+	bonus = {
+		artillery_power = 0.10	
+	}
+	trigger = {
+		primary_culture = padese
+	}
+	free = yes
+	padese1 = {
+		monarch_admin_power = 1	
+	}
+	padese2 = {
+		legitimacy = 1	
+		republican_tradition = 0.5			
+	}	
+	padese3 = {
+		global_unrest = -2	
+	}
+	padese4 = {
+		artillery_shock = 1	
+	}
+	padese5 = {
+		diplomatic_annexation_cost = -0.3
+	}
+	padese6 = {
+		artillery_cost = -0.25
+	}
+	padese7 = {
+		artillery_shock = 1	
+	}
+}
+
+north_maetian_ideas = {
+	start = {
+		infantry_power = 0.10	
+		religious_unity = 0.5	
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		primary_culture = north_maetian
+	}
+	free = yes
+	north_maetian1 = {
+		dip_tech_cost_modifier = -0.2
+	}
+	north_maetian2 = {
+		discipline = 0.05
+	}	
+	north_maetian3 = {
+		build_cost = -0.25
+	}
+	north_maetian4 = {
+		garrison_size = 0.5	
+	}
+	north_maetian5 = {
+		prestige_decay = -0.02
+	}
+	north_maetian6 = {
+		production_efficiency = 0.15
+	}
+	north_maetian7 = {
+		papal_influence = 2.5
+	}
+}
+
+south_maetian_ideas = {
+	start = {
+		global_prov_trade_power_modifier = 0.15
+		religious_unity = 0.25
+	}
+	bonus = {
+		fire_damage = 0.20
+	}
+	trigger = {
+		primary_culture = south_maetian
+	}
+	free = yes
+	south_maetian1 = {
+		core_creation = -0.2
+	}
+	south_maetian2 = {
+		governing_capacity_modifier = 0.20
+	}	
+	south_maetian3 = {
+		center_of_trade_upgrade_cost = -0.25
+	}
+	south_maetian4 = {
+		num_accepted_cultures = 4
+	}
+	south_maetian5 = {
+		colonists = 1	
+	}
+	south_maetian6 = {
+		accept_vassalization_reasons = 25
+	}
+	south_maetian7 = {
+		vassal_income = 0.2	
+	}
+}
+
+dianean_ideas = {
+	start = {
+		artillery_fire = 1	
+		naval_forcelimit_modifier = 0.33
+	}
+	bonus = {
+		max_absolutism = 15
+	}
+	trigger = {
+		primary_culture = dianean
+	}
+	free = yes
+	dianean1 = {
+		diplomatic_reputation = 3
+	}
+	dianean2 = {
+		liberty_desire = 30
+	}	
+	dianean3 = {
+		land_morale = 0.15
+	}
+	dianean4 = {
+		naval_morale = 0.25
+	}
+	dianean5 = {
+		years_of_nationalism = -5	
+	}
+	dianean6 = {
+		province_warscore_cost = -0.25
+	}
+	dianean7 = {
+		merchants = 1	
+	}
+}
+
+briiyan_ideas = {
+	start = {
+		trade_efficiency = 0.2
+		global_autonomy = -0.10
+	}
+	bonus = {
+		stability_cost_modifier = -0.75
+	}
+	trigger = {
+		primary_culture = briiyan
+	}
+	free = yes
+	briiyan1 = {
+		power_projection_from_insults = 1.0
+	}
+	briiyan2 = {
+		leader_naval_fire = 1	
+		leader_naval_shock = 1	
+	}	
+	briiyan3 = {
+		spy_offence = 0.5
+	}
+	briiyan4 = {
+		global_regiment_cost = -0.15
+	}
+	briiyan5 = {
+		yearly_corruption = -0.15
+	}
+	briiyan6 = {
+		capture_ship_chance = 0.2
+	}
+	briiyan7 = {
+		leader_siege = 1	
+	}
+}
+
+mothmen_ideas = {
+	start = {
+		movement_speed = 0.20
+		enemy_core_creation = 1.0
+	}
+	bonus = {
+		stability_cost_to_declare_war = -5
+	}
+	trigger = {
+		primary_culture = mothmen
+	}
+	free = yes
+	mothmen1 = {
+		monarch_diplomatic_power = 2
+	}
+	mothmen2 = {
+		hostile_attrition = 2
+	}	
+	mothmen3 = {
+		years_of_nationalism = -5	
+	}
+	mothmen4 = {
+		global_ship_cost = -0.33
+	}
+	mothmen5 = {
+		culture_conversion_cost = -0.40
+	}
+	mothmen6 = {
+		ship_durability = 0.33
+	}
+	mothmen7 = {
+		administrative_efficiency = 0.15
+	}
+}
+
+cothonian_ideas = {
+	start = {
+		land_morale = 0.15
+		naval_forcelimit = 30
+	}
+	bonus = {
+		merchants = 2
+	}
+	trigger = {
+		primary_culture = cothonian
+	}
+	free = yes
+	cothonian1 = {
+		development_cost = -0.15
+	}
+	cothonian2 = {
+		leader_cost = -0.40
+		free_leader_pool = 3
+	}	
+	cothonian3 = {
+		army_tradition = 1	
+	}
+	cothonian4 = {
+		trade_steering = 0.25
+	}
+	cothonian5 = {
+		heavy_ship_power = 0.15
+	}
+	cothonian6 = {
+		core_creation = -0.25
+	}
+	cothonian7 = {
+		papal_influence = 2.0
+	}
+}
+
+alletanian_ideas = {
+	start = {
+		ship_power_propagation = 0.33
+		light_ship_power = 0.25
+	}
+	bonus = {
+		min_autonomy_in_territories = -0.15	
+	}
+	trigger = {
+		primary_culture = alletanian
+	}
+	free = yes
+	alletanian1 = {
+		improve_relation_modifier = 0.2	
+	}
+	alletanian2 = {
+		global_tax_modifier = 0.15
+	}	
+	alletanian3 = {
+		global_naval_engagement_modifier = 0.2
+	}
+	alletanian4 = {
+		trade_efficiency = 0.15
+	}
+	alletanian5 = {
+		monarch_military_power = 1	
+	}
+	alletanian6 = {
+		tolerance_own = 2
+	}
+	alletanian7 = {
+		expand_administration_cost = -0.5
+	}
+}
+
+thornic_ideas = {
+	start = {
+		shock_damage_received = -0.20
+		shock_damage = 0.20
+	}
+	bonus = {
+		build_cost = -0.30
+	}
+	trigger = {
+		primary_culture = thornic
+	}
+	free = yes
+	thornic1 = {
+		fabricate_claims_cost = -0.30
+	}
+	thornic2 = {
+		yearly_army_professionalism = 0.025
+	}	
+	thornic3 = {
+		monarch_military_power = 2
+	}
+	thornic4 = {
+		land_morale = 0.20
+	}
+	thornic5 = {
+		unjustified_demands = -0.25
+	}
+	thornic6 = {
+		global_manpower_modifier = 0.33
+	}
+	thornic7 = {
+		possible_mil_policy = 1	
+		free_mil_policy = 1	
+	}
+}
+
+sascilian_ideas = {
+	start = {
+		trade_efficiency = 0.25
+		privateer_efficiency = 0.5
+	}
+	bonus = {
+		naval_morale = 0.33
+	}
+	trigger = {
+		primary_culture = sascilian
+	}
+	free = yes
+	sascilian1 = {
+		advisor_cost = -0.20
+	}
+	sascilian2 = {
+		global_trade_power = 0.25
+	}	
+	sascilian3 = {
+		allowed_marine_fraction = 0.15
+	}
+	sascilian4 = {
+		trade_range_modifier = 1.00
+	}
+	sascilian5 = {
+		leader_naval_fire = 2
+	}
+	sascilian6 = {
+		global_unrest = -2	
+	}
+	sascilian7 = {
+		yearly_absolutism = 2
+	}
+}
+
+thelan_ideas = {
+	start = {
+		land_attrition = -0.50
+		hostile_attrition = 3			
+	}
+	bonus = {
+		fort_maintenance_modifier = -0.5
+	}
+	trigger = {
+		primary_culture = thelan
+	}
+	free = yes
+	thelan1 = {
+		global_sailors_modifier = 1.0
+	}
+	thelan2 = {
+		infantry_power = 0.10	
+	}	
+	thelan3 = {
+		build_time = -0.5
+	}
+	thelan4 = {
+		transport_cost = -0.8
+	}
+	thelan5 = {
+		transport_power = 2.0
+	}
+	thelan6 = {
+		leader_naval_manuever = 3
+	}
+	thelan7 = {
+		ae_impact = -0.25
+	}
+}
+
+narcetian_ideas = {
+	start = {
+		navy_tradition = 2
+		own_coast_naval_combat_bonus = 1.0	
+		allowed_marine_fraction = 1.0
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	trigger = {
+		primary_culture = narcetian
+	}
+	free = yes
+	narcetian1 = {
+		naval_forcelimit_modifier = 0.5
+	}
+	narcetian2 = {
+		envoy_travel_time = -0.75
+	}	
+	narcetian3 = {
+		siege_blockade_progress = 2
+	}
+	narcetian4 = {
+		core_creation = -0.25
+	}
+	narcetian5 = {
+		galley_power = 0.33
+	}
+	narcetian6 = {
+		monthly_fervor_increase = 2
+	}
+	narcetian7 = {
+		naval_morale = 0.4
+	}
+}
+
+lenathii_ideas = {
+	start = {
+		production_efficiency = 0.15
+		heavy_ship_cost = -0.33
+	}
+	bonus = {
+		leader_naval_shock = 2
+		leader_naval_manuever = 1	
+	}
+	trigger = {
+		primary_culture = lenathii
+	}
+	free = yes
+	lenathii1 = {
+		naval_forcelimit_modifier = 0.4
+	}
+	lenathii2 = {
+		global_trade_power = 0.2
+	}	
+	lenathii3 = {
+		technology_cost = -0.1	
+	}
+	lenathii4 = {
+		heavy_ship_power = 0.2
+	}
+	lenathii5 = {
+		diplomatic_annexation_cost = -0.2	
+	}
+	lenathii6 = {
+		merchants = 1	
+	}
+	lenathii7 = {
+		colonists = 1	
+	}
+}
+		 	
+#######################################

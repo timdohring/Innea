@@ -1,0 +1,18 @@
+#45 - Lübeck
+
+
+add_core = DAL
+owner = DAL
+controller = DAL
+culture = dargish
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = dragon_hide
+capital = "Dalmer"
+is_city = yes
+discovered_by = western

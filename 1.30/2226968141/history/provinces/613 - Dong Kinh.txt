@@ -1,0 +1,15 @@
+add_core = EVI
+owner = EVI
+controller = EVI
+culture = viellon
+religion = paisadox
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = wine
+capital = "Hedaux"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,18 @@
+add_core = NUQ
+owner = NUQ
+controller = NUQ
+culture = ujuu
+religion = aaqan
+hre = no
+
+base_tax = 5
+base_production = 7
+base_manpower = 4
+
+trade_goods = gems
+capital = "Nuqun"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

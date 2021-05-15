@@ -1,0 +1,18 @@
+add_core = LIM
+owner = LIM
+controller = LIM
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 9
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

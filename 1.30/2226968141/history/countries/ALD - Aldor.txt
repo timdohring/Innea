@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 10
+technology_group = western
+religion = altran_church
+primary_culture = aldon
+capital = 430
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Osmern I"
+		dynasty = "Lakelover"
+		birth_date = 1404.2.21
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
+

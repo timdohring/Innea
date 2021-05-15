@@ -1,0 +1,15 @@
+add_core = ROM
+owner = ROM
+controller = ROM
+culture = lys_reman
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Erbustica"
+is_city = yes
+discovered_by = western

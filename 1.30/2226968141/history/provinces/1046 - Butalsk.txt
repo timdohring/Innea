@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = corrusean
+religion = the_one_truth
+hre = no
+
+base_tax = 18
+base_production = 16
+base_manpower = 22
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

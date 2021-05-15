@@ -1,0 +1,17 @@
+add_core = CBR
+owner = CBR
+controller = CBR
+culture = steplandic
+religion = dochar
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 6
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+
+

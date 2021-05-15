@@ -1,0 +1,19 @@
+add_core = ALL
+add_core = VER
+owner = ALL
+controller = ALL
+culture = verric
+religion = murtharic
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 7
+
+trade_goods = salt
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

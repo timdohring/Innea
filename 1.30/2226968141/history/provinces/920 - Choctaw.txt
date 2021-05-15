@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = rettar
+religion = the_one_truth
+hre = no
+
+add_core = VEI
+
+base_tax = 8
+base_production = 7
+base_manpower = 8
+
+trade_goods = wool
+capital = ""
+is_city = yes
+discovered_by = western

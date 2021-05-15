@@ -1,0 +1,19 @@
+#128 - Kärnten
+
+
+
+add_core = UGU
+owner = UGU
+controller = UGU
+culture = iqu
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Uguj"
+is_city = yes
+discovered_by = western

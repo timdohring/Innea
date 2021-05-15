@@ -1,0 +1,87 @@
+m1_aspect = {
+	cost = 100
+	modifier = {
+		land_morale = 0.10	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m2_aspect = {
+	cost = 100
+	modifier = {
+		advisor_cost = -0.2	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m3_aspect = {
+	cost = 100
+	modifier = {
+		leader_land_manuever = 2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m4_aspect = {
+	cost = 100
+	modifier = {
+		trade_efficiency = 0.15
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m5_aspect = {
+	cost = 100
+	modifier = {
+		possible_policy = 1	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m6_aspect = {
+	cost = 100
+	modifier = {
+		missionaries = 1	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m7_aspect = {
+	cost = 100
+	modifier = {
+		spy_offence = 0.25
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+m8_aspect = {
+	cost = 100
+	modifier = {
+		build_time = -0.5
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}

@@ -1,0 +1,15 @@
+add_core = NET
+owner = NET
+controller = NET
+culture = gheltic
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Belcedo"
+is_city = yes
+discovered_by = western

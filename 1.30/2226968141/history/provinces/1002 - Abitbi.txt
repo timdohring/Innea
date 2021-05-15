@@ -1,0 +1,17 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 9
+
+trade_goods = iron
+capital = "Buneda"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

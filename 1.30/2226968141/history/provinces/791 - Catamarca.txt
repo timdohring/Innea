@@ -1,0 +1,15 @@
+add_core = NYR
+owner = NYR
+controller = NYR
+culture = wayn
+religion = the_coin
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = beer
+capital = "Aussen"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,19 @@
+#144 - Epiros
+
+add_core = SEA
+owner = SEA
+controller = SEA
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

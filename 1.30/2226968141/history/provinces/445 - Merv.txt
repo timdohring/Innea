@@ -1,0 +1,15 @@
+add_core = NLD
+owner = NLD
+controller = NLD
+culture = moonish
+religion = altran_church
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Warvel"
+is_city = yes
+discovered_by = western

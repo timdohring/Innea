@@ -1,0 +1,18 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 11
+base_production = 7
+base_manpower = 8
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+

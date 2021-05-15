@@ -1,0 +1,17 @@
+#Eastern and Northern Småland - Includes parts under Östgötalag
+
+add_core = VAH
+owner = VAH
+controller = VAH
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 7
+base_production = 5
+base_manpower = 6
+
+trade_goods = fish
+capital = "Darras"
+is_city = yes
+discovered_by = western

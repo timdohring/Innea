@@ -1,0 +1,61 @@
+#Allarnia
+
+vassal = {
+	first = ALL
+	second = YEA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Moltran
+
+vassal = {
+	first = MOL
+	second = RCH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+union = {
+	first = MOL
+	second = KAR
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Rossland
+
+vassal = {
+	first = ROS
+	second = GTH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Maetia
+
+union = {
+	first = MAE
+	second = DIA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAE
+	second = MEL
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAE
+	second = VAL
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+
+#Acryllia

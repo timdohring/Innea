@@ -1,0 +1,58 @@
+h1_blessing = {
+	is_blessing = yes
+	allow = { religion = hammerlord}
+	modifier = {
+		infantry_shock = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+h2_blessing = {
+	is_blessing = yes
+	allow = { religion = hammerlord}
+	modifier = {
+		infantry_power = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+h3_blessing = {
+	is_blessing = yes
+	allow = { religion = hammerlord}
+	modifier = {
+		shock_damage = 0.2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+h4_blessing = {
+	is_blessing = yes
+	allow = { religion = hammerlord}
+	modifier = {
+		build_cost = -0.25	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+h5_blessing = {
+	is_blessing = yes
+	allow = { religion = hammerlord}
+	modifier = {
+		ae_impact = -0.25
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+

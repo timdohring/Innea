@@ -1,0 +1,17 @@
+#147 - Salonica
+
+add_core = SOL
+owner = SOL
+controller = SOL
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+capital = "Sovel"
+is_city = yes
+discovered_by = western

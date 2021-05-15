@@ -1,0 +1,15 @@
+add_core = HIG
+owner = HIG
+controller = HIG
+culture = upwater_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = riverweed
+capital = "Uvelyon"
+is_city = yes
+discovered_by = western

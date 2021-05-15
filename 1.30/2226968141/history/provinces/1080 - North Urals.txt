@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = othan
+religion = blood_cult
+hre = no
+
+add_core = HEA
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Leptis"
+is_city = yes
+discovered_by = western

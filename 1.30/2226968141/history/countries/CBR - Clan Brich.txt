@@ -1,0 +1,22 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = dochar
+primary_culture = steplandic
+capital = 290
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Adaidh"
+		dynasty = "of Brich"
+		birth_date = 1409.5.13
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+
+

@@ -1,0 +1,20 @@
+add_core = BLA
+owner = BLA
+controller = BLA
+culture = blakkan
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Wayslow"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes
+center_of_trade = 1
+
+

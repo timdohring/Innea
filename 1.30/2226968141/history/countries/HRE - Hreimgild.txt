@@ -1,0 +1,13 @@
+government = republic
+add_government_reform = merchant_republic
+government_rank = 2
+mercantilism = 50
+technology_group = western
+religion = yoneth
+primary_culture = gildic
+capital = 183
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+
+
+

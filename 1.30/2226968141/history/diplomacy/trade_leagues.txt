@@ -1,0 +1,143 @@
+#Hreimgild Trade league
+
+alliance = {
+	first = HRE
+	second = REY
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = HRE
+	second = PTD
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = HRE
+	second = CTD
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Faction Trade league
+
+alliance = {
+	first = FAC
+	second = FIE
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = FAC
+	second = COV
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = FAC
+	second = PER
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Faction Trade league
+
+alliance = {
+	first = PIC
+	second = MRT
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = PIC
+	second = SAY
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = PIC
+	second = KAV
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = PIC
+	second = SHZ
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Seagull Trade league
+
+alliance = {
+	first = STD
+	second = SAZ
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = STD
+	second = HTD
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = STD
+	second = TEV
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Cliffer Trade league
+
+alliance = {
+	first = CRK
+	second = BEL
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = CRK
+	second = WEL
+	trade_league = 1
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Arrynal "Trade" league
+
+vassal = {
+	first = ARR
+	second = BLV
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = ARR
+	second = WHE
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}

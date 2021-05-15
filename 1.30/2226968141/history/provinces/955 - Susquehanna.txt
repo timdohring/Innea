@@ -1,0 +1,15 @@
+add_core = VIV
+owner = VIV
+controller = VIV
+culture = villacian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Spoletes"
+is_city = yes
+discovered_by = western

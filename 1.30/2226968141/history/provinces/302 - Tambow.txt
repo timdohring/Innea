@@ -1,0 +1,19 @@
+add_core = CAB
+owner = CAB
+controller = CAB
+culture = donairdan
+religion = dochar
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = wool
+capital = "Crai a Cohcne"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes
+
+

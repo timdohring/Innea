@@ -1,0 +1,15 @@
+add_core = NET
+owner = NET
+controller = NET
+culture = tarrad
+religion = the_one_truth
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Gesovia"
+is_city = yes
+discovered_by = western

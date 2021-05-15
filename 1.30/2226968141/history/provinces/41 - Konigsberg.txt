@@ -1,0 +1,20 @@
+#41 - Königsberg
+
+
+add_core = TOR
+owner = TOR
+controller = TOR
+culture = bjorming
+religion = yoneth
+hre = no
+
+base_tax = 12
+base_production = 9
+base_manpower = 11
+
+trade_goods = fur
+capital = "Tormund"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = COV
+owner = COV
+controller = COV
+culture = graylen
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 5
+base_manpower = 7
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

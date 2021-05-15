@@ -1,0 +1,17 @@
+#102 - Nice
+
+add_core = CTD
+owner = CTD
+controller = CTD
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = ships
+capital = "Brunaft"
+is_city = yes
+discovered_by = western

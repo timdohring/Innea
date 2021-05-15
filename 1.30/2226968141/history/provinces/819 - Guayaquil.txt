@@ -1,0 +1,15 @@
+add_core = CEV
+owner = CEV
+controller = CEV
+culture = cevan
+religion = cindari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Shevwe"
+is_city = yes
+discovered_by = western

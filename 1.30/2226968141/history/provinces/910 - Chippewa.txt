@@ -1,0 +1,15 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = rettar
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Averxell"
+is_city = yes
+discovered_by = western

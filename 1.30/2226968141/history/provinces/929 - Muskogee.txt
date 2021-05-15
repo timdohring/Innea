@@ -1,0 +1,15 @@
+add_core = AXO
+owner = AXO
+controller = AXO
+culture = axian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = grain
+capital = "Hansol"
+is_city = yes
+discovered_by = western

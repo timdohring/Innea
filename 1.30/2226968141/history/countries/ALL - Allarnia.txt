@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 4
+mercantilism = 10
+technology_group = western
+religion = murtharic
+primary_culture = allar
+capital = 365
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Alus IV"
+		dynasty = "Laure"
+		birth_date = 1406.12.18
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+

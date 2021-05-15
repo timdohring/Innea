@@ -1,0 +1,17 @@
+add_core = CAH
+owner = CAH
+controller = CAH
+culture = cahster
+religion = ywakra
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+
+

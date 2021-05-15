@@ -1,0 +1,15 @@
+add_core = TYO
+owner = TYO
+controller = TYO
+culture = murrian
+religion = altran_church
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = fish
+capital = "Tyrest"
+is_city = yes
+discovered_by = western

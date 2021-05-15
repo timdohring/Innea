@@ -1,0 +1,60 @@
+o1_blessing = {
+	is_blessing = yes
+	
+	allow = { religion = oscaerwikkan}	
+
+	modifier = {
+		spy_offence = 0.33		
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+o2_blessing = {
+	is_blessing = yes
+	allow = { religion = oscaerwikkan}
+	modifier = {
+		missionaries = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+o3_blessing = {
+	is_blessing = yes
+	allow = { religion = oscaerwikkan}
+	modifier = {
+		merchants = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+o4_blessing = {
+	is_blessing = yes
+	allow = { religion = oscaerwikkan}
+	modifier = {
+		diplomats = 1		
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+o5_blessing = {
+	is_blessing = yes
+	allow = { religion = oscaerwikkan}
+	modifier = {
+		possible_condottieri = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+

@@ -1,0 +1,17 @@
+#60 - Lausitz
+
+add_core = ALF
+owner = ALF
+controller = ALF
+culture = grafen
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = gold
+capital = "Alfa"
+is_city = yes
+discovered_by = western

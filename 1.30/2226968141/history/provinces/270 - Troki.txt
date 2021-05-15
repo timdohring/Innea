@@ -1,0 +1,17 @@
+add_core = BAL
+owner = BAL
+controller = BAL
+culture = soling
+religion = brilthic_church
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 5
+
+trade_goods = glass
+capital = "Commorey"
+is_city = yes
+discovered_by = western
+
+

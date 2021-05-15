@@ -1,0 +1,18 @@
+#153 - Pest (Pest + Pilis + Esztergom + Kalocsa + most of Kiskunság + Parts of Nógrád )
+
+
+add_core = KYN
+owner = KYN
+controller = KYN
+culture = kynen
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = grain
+capital = "Astead"
+is_city = yes
+discovered_by = western

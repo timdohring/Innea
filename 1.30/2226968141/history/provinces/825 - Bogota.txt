@@ -1,0 +1,18 @@
+add_core = DAE
+owner = DAE
+controller = DAE
+culture = rivwu
+religion = cindari_temple
+hre = no
+
+base_tax = 15
+base_production = 13
+base_manpower = 11
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = dianean
+religion = the_one_truth
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 12
+
+trade_goods = cloth
+capital = "Llsari"
+is_city = yes
+discovered_by = western

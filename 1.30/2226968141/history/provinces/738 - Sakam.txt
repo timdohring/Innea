@@ -1,0 +1,15 @@
+add_core = BEN
+owner = BEN
+controller = BEN
+culture = kronnish
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = beer
+capital = "Beeuweerden"
+is_city = yes
+discovered_by = western

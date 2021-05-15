@@ -1,0 +1,15 @@
+add_core = VEG
+owner = VEG
+controller = VEG
+culture = veran
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = slaves
+capital = "Salatri"
+is_city = yes
+discovered_by = western

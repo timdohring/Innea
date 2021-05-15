@@ -1,0 +1,15 @@
+add_core = MOL
+owner = MOL
+controller = MOL
+culture = whetic
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Belten Downs"
+is_city = yes
+discovered_by = western

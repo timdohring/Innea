@@ -1,0 +1,18 @@
+#163 - Crete
+
+
+add_core = SLE
+owner = SLE
+controller = SLE
+culture = slein
+religion = celiicean
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = iron
+capital = "Mufan"
+is_city = yes
+discovered_by = western

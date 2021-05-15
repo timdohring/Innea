@@ -1,0 +1,16 @@
+add_core = ACR
+add_core = VEN
+owner = ACR
+controller = ACR
+culture = ventrian
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = slaves
+capital = "Falerulum"
+is_city = yes
+discovered_by = western

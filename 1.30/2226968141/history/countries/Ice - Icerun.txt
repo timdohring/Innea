@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = old_yorr
+primary_culture = ykran
+capital = 25
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Vragi I"
+		dynasty = "Wolf-Heart"
+		birth_date = 1429.1.15
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+

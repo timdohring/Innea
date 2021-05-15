@@ -1,0 +1,18 @@
+#53 - Lüneburg
+
+
+add_core = GRF
+owner = GRF
+controller = GRF
+culture = grafen
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 1
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

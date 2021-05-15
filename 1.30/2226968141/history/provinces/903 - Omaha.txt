@@ -1,0 +1,18 @@
+add_core = GOL
+owner = GOL
+controller = GOL
+culture = goldtrader
+religion = the_coin
+hre = no
+
+base_tax = 13
+base_production = 17
+base_manpower = 14
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 3
+
+fort_15th = yes

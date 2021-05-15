@@ -1,0 +1,15 @@
+add_core = TIN
+owner = TIN
+controller = TIN
+culture = wealder
+religion = altran_church
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+
+trade_goods = blue_copper
+capital = "Nonaddy"
+is_city = yes
+discovered_by = western

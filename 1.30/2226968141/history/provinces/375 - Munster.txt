@@ -1,0 +1,16 @@
+add_core = ORA
+add_core = VER
+owner = ORA
+controller = ORA
+culture = verric
+religion = murtharic
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = herbs
+capital = "Usaea"
+is_city = yes
+discovered_by = western

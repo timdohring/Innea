@@ -1,0 +1,15 @@
+add_core = SAS
+owner = SAS
+controller = SAS
+culture = sascilian
+religion = the_one_truth
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = wine
+capital = "Arice"
+is_city = yes
+discovered_by = western

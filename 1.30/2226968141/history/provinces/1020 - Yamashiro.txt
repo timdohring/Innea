@@ -1,0 +1,18 @@
+add_core = NET
+owner = NET
+controller = NET
+culture = tarrad
+religion = the_one_truth
+hre = no
+
+base_tax = 14
+base_production = 12
+base_manpower = 16
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

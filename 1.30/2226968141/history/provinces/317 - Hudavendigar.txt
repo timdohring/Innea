@@ -1,0 +1,18 @@
+add_core = CEL
+owner = CEL
+controller = CEL
+culture = two_mountmen
+religion = dochar
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+trade_goods = coal
+capital = "Acusghraim"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+
+

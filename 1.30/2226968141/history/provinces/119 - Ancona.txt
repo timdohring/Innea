@@ -1,0 +1,18 @@
+#119 - Ancona
+
+
+add_core = PTD
+owner = PTD
+controller = PTD
+culture = nyvarsk
+religion = sea_cult
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 1
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western

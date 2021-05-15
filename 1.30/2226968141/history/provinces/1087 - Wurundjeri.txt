@@ -1,0 +1,17 @@
+add_core = COT
+owner = COT
+controller = COT
+culture = mothmen
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = cotton
+capital = "Daracus"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

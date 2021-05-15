@@ -1,0 +1,17 @@
+add_core = VIV
+owner = VIV
+controller = VIV
+culture = remaa
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 9
+base_manpower = 6
+
+trade_goods = ancient_artifacts
+capital = "Old Romaas"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

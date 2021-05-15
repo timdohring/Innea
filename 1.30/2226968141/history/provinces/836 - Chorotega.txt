@@ -1,0 +1,15 @@
+add_core = DAE
+owner = DAE
+controller = DAE
+culture = isafaan
+religion = cindari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = riverweed
+capital = "Muranea"
+is_city = yes
+discovered_by = western

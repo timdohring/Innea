@@ -1,0 +1,15 @@
+add_core = PHR
+owner = PHR
+controller = PHR
+culture = phracian
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Lacina"
+is_city = yes
+discovered_by = western

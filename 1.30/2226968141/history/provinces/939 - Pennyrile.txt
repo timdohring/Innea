@@ -1,0 +1,15 @@
+add_core = ROM
+owner = ROM
+controller = ROM
+culture = remaa
+religion = the_one_truth
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Quagnos"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = DUM
+owner = DUM
+controller = DUM
+culture = duwaring
+religion = syllari_temple
+hre = no
+
+base_tax = 10
+base_production = 11
+base_manpower = 8
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western

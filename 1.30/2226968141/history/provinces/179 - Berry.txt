@@ -1,0 +1,18 @@
+# 179 Berry
+
+
+add_core = ORS
+owner = ORS
+controller = ORS
+culture = selc
+religion = celiicean
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 6
+
+trade_goods = cloth
+capital = "Orse"
+is_city = yes
+discovered_by = western

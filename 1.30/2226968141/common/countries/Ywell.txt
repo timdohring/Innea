@@ -1,0 +1,111 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 52 120 25 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Seahn" = 1
+	"Artak" = 1
+	"Arhtu" = 1
+	"Arzuk" = 1
+	"Bedwair" = 1
+	"Brean" = 1
+	"Brawaegh" = 1
+	"Brothn" = 1
+	"Kaserwek" = 1
+	"Kasworohn" = 1
+	"Kinerk" = 1
+	"Kwinn" = 1
+	"Kynwar" = 1
+	"Dion" = 1
+	"Diumhe" = 1
+	"Doan" = 1
+	"Eos" = 1
+	"Fakke" = 1
+	"Jarke" = 1
+	"Jotan" = 1
+	"Hulmar" = 1
+	"Hedren" = 1
+	"Kalan" = 1
+	"Kye" = 1
+	"Ey" = 1
+	"Loac" = 1
+	"Madorak" = 1
+	"Marse" = 1
+	"Pwyak" = 1
+	"Rogart" = 1
+	"Tadokk" = 1
+
+	"Arte" = -1
+	"Aifa" = -1
+	"Ailith" = -1
+	"Alura" = -1
+	"Bedelia" = -1
+	"Bodukkin" = -1
+	"Brightwinna" = -1
+	"Krad" = -1
+	"Dylain" = -1
+	"Aenyd" = -1
+	"Emarre" = -1
+	"Glen" = -1
+	"Imogen" = -1
+	"Jenev" = -1
+	"Kace" = -1
+	"Kelci" = -1
+	"Oonaga" = -1
+	"Pirio" = -1
+	"Ria" = -1
+	"Sadbh" = -1
+	"Teranika" = -1
+	"Fiola" = -1
+}
+
+leader_names = {
+	
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,16 @@
+add_core = ORE
+owner = ORE
+controller = ORE
+culture = orsh
+religion = brilthic_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 4
+
+trade_goods = cloth
+capital = "Saughton"
+is_city = yes
+discovered_by = western
+

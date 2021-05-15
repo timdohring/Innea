@@ -1,0 +1,19 @@
+add_core = KIN
+owner = KIN
+controller = KIN
+culture = graen
+religion = brilthic_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 7
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+
+

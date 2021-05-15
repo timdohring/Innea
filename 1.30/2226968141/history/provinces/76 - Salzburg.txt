@@ -1,0 +1,18 @@
+#76 - Salzburg
+
+add_core = FAL
+owner = FAL
+controller = FAL
+culture = falkish
+religion = yoneth
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+trade_goods = wool
+capital = "Odoak"
+is_city = yes
+discovered_by = western
+fort_15th = yes

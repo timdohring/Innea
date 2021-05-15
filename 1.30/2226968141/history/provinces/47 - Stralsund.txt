@@ -1,0 +1,19 @@
+#47 - Stralsund
+
+
+add_core = TOR
+owner = TOR
+controller = TOR
+culture = dargish
+religion = yoneth
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

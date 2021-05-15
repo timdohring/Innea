@@ -1,0 +1,39 @@
+2 = {
+	governing_capacity = 100
+}
+3 = {
+	diplomats = 1
+	governing_capacity = 200
+	global_autonomy = -0.025
+}
+
+4 = {
+	governing_capacity = 400
+	global_autonomy = -0.05
+	max_absolutism = 5
+	free_leader_pool = 1
+	diplomats = 1
+	diplomatic_upkeep = 1	
+}
+
+5 = {
+	governing_capacity = 600
+	global_autonomy = -0.05
+	max_absolutism = 15
+	free_leader_pool = 2
+	diplomats = 1
+	diplomatic_upkeep = 1	
+
+
+}
+
+
+6 = {
+	governing_capacity = 1000
+	global_autonomy = -0.05
+	max_absolutism = 25
+	free_leader_pool = 3
+	diplomats = 1
+	diplomatic_upkeep = 2	
+
+}

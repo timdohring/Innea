@@ -1,0 +1,19 @@
+#106 - Modena
+
+
+add_core = VRN
+owner = VRN
+controller = VRN
+culture = haaken
+religion = church_of_yon
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = slaves
+capital = "Varungard"
+is_city = yes
+discovered_by = western
+fort_15th = yes

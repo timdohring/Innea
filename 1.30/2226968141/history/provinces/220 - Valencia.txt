@@ -1,0 +1,16 @@
+add_core = DUA
+owner = DUA
+controller = DUA
+culture = selc
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Nuan"
+is_city = yes
+discovered_by = western
+

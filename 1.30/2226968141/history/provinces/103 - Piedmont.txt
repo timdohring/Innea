@@ -1,0 +1,17 @@
+#103 - Piedmont
+
+add_core = VAH
+owner = VAH
+controller = VAH
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = paper
+capital = "Far Borja"
+is_city = yes
+discovered_by = western

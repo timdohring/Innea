@@ -1,0 +1,16 @@
+add_core = VEG
+add_core = SNY
+owner = VEG
+controller = VEG
+culture = snyd
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = beer
+capital = "Aston"
+is_city = yes
+discovered_by = western

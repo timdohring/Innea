@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = corrusean
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 7
+base_manpower = 14
+
+trade_goods = iron
+capital = "Palade"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

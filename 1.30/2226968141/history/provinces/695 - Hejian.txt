@@ -1,0 +1,18 @@
+add_core = ELS
+owner = ELS
+controller = ELS
+culture = nardic
+religion = altran_church
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 8
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

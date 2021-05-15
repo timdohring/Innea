@@ -1,0 +1,15 @@
+add_core = BRG
+owner = BRG
+controller = BRG
+culture = brongian
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Lotje"
+is_city = yes
+discovered_by = western

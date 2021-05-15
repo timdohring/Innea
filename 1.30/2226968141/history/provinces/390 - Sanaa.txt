@@ -1,0 +1,17 @@
+add_core = AYA
+owner = AYA
+controller = AYA
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = marble
+capital = "Balasan"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

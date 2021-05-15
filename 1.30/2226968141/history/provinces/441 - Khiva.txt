@@ -1,0 +1,15 @@
+add_core = LIN
+owner = LIN
+controller = LIN
+culture = moltrese
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = grain
+capital = "Iridsby"
+is_city = yes
+discovered_by = western

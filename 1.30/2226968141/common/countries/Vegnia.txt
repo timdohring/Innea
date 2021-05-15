@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 186  147  251 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Vergius #0" = 1
+	"Vitas #0" = 1
+	"Vibius #0" = 1
+	"Liusius #0" = 1
+	"Valerens #0" = 1
+	"Tatian #0" = 1
+	"Septvin #0" = 1
+	"Senecae #0" = 1
+	"Slavola #0" = 1
+	"Quingulus #0" = 1
+	"Gulfinus #0" = 1
+	"Pontar #0" = 1
+	"Nervotho #0" = 1
+	"Othero #0" = 1
+	"Maxinas #0" = 1
+	"Scotur #0" = 1
+	"Narcell #0" = 1
+	"Marcell #0" = 1
+	"Lonkuos #0" = 1
+	"Iolus #0" = 1
+	"Jovin #0" = 1
+	"Julit #0" = 1
+	"Genaudrian #0" = 1
+	"Flastus #0" = 1
+	"Fulvus #0" = 1
+	"Egnasi #0" = 1
+	"Eabrilix #0" = 1
+	"Caneis #0" = 1
+	"Crispix #0" = 1
+	"Cato #0" = 1
+	"Lato #0" = 1
+	"Areito #0" = 1
+	"Canbresis #0" = 1
+	"Burtsar #0" = 1
+	"Caenius #0" = 1
+	"Brasaer #0" = 1
+	"Aurelbus #0" = 1
+	"Avitan #0" = 1
+	"Balbulus #0" = 1
+	"Aemgrippa #0" = 1
+
+	"Dita" = -1
+	"Valertina" = -1
+	"Tatiana" = -1
+	"Tulli" = -1
+	"Teriane" = -1
+	"None" = -1
+	"Pona" = -1
+	"Prosca" = -1
+	"Paudia" = -1
+	"Juna" = -1
+	"Cilli" = -1
+	"Marine" = -1
+	"Tinam" = -1
+	"Oca" = -1
+	"Octamare" = -1
+	"Licia" = -1
+	"Lucina" = -1
+	"Iotana" = -1
+	"Jule" = -1
+	"Laetensia" = -1
+	"Faucia" = -1
+	"Biola" = -1
+	"Viane" = -1
+	"Alla" = -1
+	"Casselia" = -1
+	"Nelia" = -1
+	"Decmita" = -1
+	"Bladia" = -1
+	"Ante" = -1
+	"Quilbina" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

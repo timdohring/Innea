@@ -1,0 +1,15 @@
+add_core = CII
+owner = CII
+controller = CII
+culture = isafaan
+religion = cindari_temple
+hre = no
+
+base_tax = 10
+base_production = 11
+base_manpower = 7
+
+trade_goods = riverweed
+capital = "Ciipohs"
+is_city = yes
+discovered_by = western

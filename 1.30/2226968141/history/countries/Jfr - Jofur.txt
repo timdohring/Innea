@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = grafen
+capital = 64
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+historical_rival = GRF
+
+1444.1.1 = {
+	monarch = {
+		name = "Oyvind II"
+		dynasty = "Lyrvaer"
+		birth_date = 1410.11.30
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+

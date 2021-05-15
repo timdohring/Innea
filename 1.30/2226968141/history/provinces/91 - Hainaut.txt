@@ -1,0 +1,17 @@
+# 91 Hainaut - Principal cities: Mons & Tournai
+
+add_core = MAL
+owner = MAL
+controller = MAL
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = wool
+capital = "Aarholm"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,18 @@
+#120 - Abbruzzi
+
+
+add_core = ZAN
+owner = ZAN
+controller = ZAN
+culture = azqu
+religion = yoneth
+hre = no
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+trade_goods = whales
+capital = "Azanu"
+is_city = yes
+discovered_by = western

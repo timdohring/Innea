@@ -1,0 +1,24 @@
+bookmark =
+{
+	name = "RISE_OF_THE_OTTOMANS"
+	desc = "RISE_OF_THE_OTTOMANS_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	country = ACR
+	country = BEN
+	country = MOL
+	country = VAH
+	country = RVW
+	country = TAR
+	country = NAR	
+	country = DLS
+	country = ALL
+	country = BLA
+	
+	easy_country = ACR
+	easy_country = BEN
+	easy_country = MOL
+}

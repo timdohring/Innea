@@ -1,0 +1,15 @@
+add_core = HEA
+owner = HEA
+controller = HEA
+culture = othan
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Thagna"
+is_city = yes
+discovered_by = western

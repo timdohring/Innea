@@ -1,0 +1,15 @@
+add_core = ORA
+owner = ORA
+controller = ORA
+culture = ormian
+religion = murtharic
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Saghcele"
+is_city = yes
+discovered_by = western

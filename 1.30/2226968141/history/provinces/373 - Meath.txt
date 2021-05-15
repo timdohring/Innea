@@ -1,0 +1,16 @@
+add_core = ORA
+add_core = VER
+owner = ORA
+controller = ORA
+culture = verric
+religion = murtharic
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Bufteasoara"
+is_city = yes
+discovered_by = western
