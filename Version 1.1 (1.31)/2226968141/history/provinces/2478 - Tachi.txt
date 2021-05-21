@@ -1,0 +1,15 @@
+add_core = IVO
+owner = IVO
+controller = IVO
+culture = lake
+religion = woodmother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Mansana"
+is_city = yes
+discovered_by = western

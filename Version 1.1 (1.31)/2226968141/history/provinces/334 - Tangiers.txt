@@ -1,0 +1,15 @@
+add_core = OTV
+owner = OTV
+controller = OTV
+culture = tvaric
+religion = murtharic
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 4
+
+trade_goods = cloth
+capital = "Bonice"
+is_city = yes
+discovered_by = western

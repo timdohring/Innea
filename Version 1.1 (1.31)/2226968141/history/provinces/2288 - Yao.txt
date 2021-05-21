@@ -1,0 +1,15 @@
+add_core = ULD
+owner = ULD
+controller = ULD
+culture = uldan
+religion = star_house
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 11
+
+trade_goods = whales
+capital = ""
+is_city = yes
+discovered_by = western

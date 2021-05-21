@@ -1,0 +1,16 @@
+add_core = STH
+owner = STH
+controller = STH
+culture = northlander
+religion = goz
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Highscarr"
+is_city = yes
+discovered_by = western
+fort_15th = yes

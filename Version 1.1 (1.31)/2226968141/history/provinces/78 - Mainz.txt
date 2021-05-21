@@ -1,0 +1,17 @@
+# 78 - Mainz
+
+add_core = ORM
+owner = ORM
+controller = ORM
+culture = falkish
+religion = church_of_yon
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = copper
+capital = "Skarr"
+is_city = yes
+discovered_by = western

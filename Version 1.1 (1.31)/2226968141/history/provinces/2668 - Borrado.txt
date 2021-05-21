@@ -1,0 +1,17 @@
+add_core = WEG
+owner = WEG
+controller = WEG
+culture = sgawe
+religion = lakemother
+hre = no
+
+base_tax = 11
+base_production = 9
+base_manpower = 13
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

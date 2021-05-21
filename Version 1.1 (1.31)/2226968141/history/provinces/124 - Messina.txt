@@ -1,0 +1,19 @@
+#124 - Messina
+
+
+
+add_core = BOR
+owner = BOR
+controller = BOR
+culture = azqu
+religion = yoneth
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = fish
+capital = "Zaqu"
+is_city = yes
+discovered_by = western

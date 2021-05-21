@@ -1,0 +1,15 @@
+add_core = ARN
+owner = ARN
+controller = ARN
+culture = tevarroix
+religion = paisadox
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Nisou-fil-Lamac"
+is_city = yes
+discovered_by = western

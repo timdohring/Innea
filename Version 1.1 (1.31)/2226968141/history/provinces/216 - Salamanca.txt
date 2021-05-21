@@ -1,0 +1,16 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = fish
+capital = "Breaker's Bridge"
+is_city = yes
+discovered_by = western
+

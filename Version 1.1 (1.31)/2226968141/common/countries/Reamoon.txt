@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 152  167  237 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Varin #0" = 1
+	"Ahkon #0" = 1
+	"Swon #0" = 1
+	"Alus #0" = 1
+	"Draen #0" = 1
+	"Prenir #0" = 1
+	"Karos #0" = 1
+	"Neses #0" = 1
+	"Piothar #0" = 1
+	"Georthav #0" = 1
+	"Aldar #0" = 1
+	"Borswald #0" = 1
+	"Irian #0" = 1
+	"Keppald #0" = 1
+	"Norrik #0" = 1
+	"Fester #0" = 1
+	"Hall #0" = 1
+	"Orlias #0" = 1
+	"Veron #0" = 1
+	"Salaciu #0" = 1
+	"Etrescu #0" = 1
+	"Ion #0" = 1
+	"Tior #0" = 1
+	"Dekinais #0" = 1
+	"Moskon #0" = 1
+	"Atan #0" = 1
+	"Codras #0" = 1
+	"Utheam #0" = 1
+	"Celaut #0" = 1
+	"Iohnij #0" = 1
+
+	"Kara" = -1
+	"Ibea" = -1
+	"Virtu" = -1
+	"Leandishe" = -1
+	"Jota" = -1
+	"Furea" = -1
+	"Marata" = -1
+	"Nonise" = -1
+	"Verona" = -1
+	"Iona" = -1
+	"Tiora" = -1
+	"Atani" = -1
+	"Cela" = -1
+	"Eba" = -1
+	"Piota" = -1
+	"Susca" = -1
+	"Woraja" = -1
+	"Yondarahwiel" = -1
+	"Lyudiani" = -1
+	"Sukaia" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = GAR
+owner = GAR
+controller = GAR
+culture = gangyz
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = fish
+capital = "Ozedar"
+is_city = yes
+discovered_by = western

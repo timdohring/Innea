@@ -1,0 +1,15 @@
+add_core = MAU
+owner = MAU
+controller = MAU
+culture = wla
+religion = ashar
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = beer
+capital = "Knven"
+is_city = yes
+discovered_by = western

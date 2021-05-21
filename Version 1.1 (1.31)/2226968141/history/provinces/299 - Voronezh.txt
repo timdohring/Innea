@@ -1,0 +1,17 @@
+add_core = CAG
+owner = CAG
+controller = CAG
+culture = ruwwesk
+religion = dochar
+hre = no
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+trade_goods = coal
+capital = "Torrin"
+is_city = yes
+discovered_by = western
+
+

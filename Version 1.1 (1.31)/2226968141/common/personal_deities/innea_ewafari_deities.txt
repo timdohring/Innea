@@ -1,0 +1,47 @@
+farelen =
+{
+	merc_maintenance_modifier = -0.40		
+	mercenary_cost = -0.40
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}
+
+wit =
+{
+	improve_relation_modifier = 0.25
+	diplomatic_upkeep = 2
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}
+
+brathwil =
+{
+	global_trade_power = 0.2	
+	mercantilism_cost = -0.25	
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}
+
+luinlor =
+{
+	production_efficiency = 0.10
+	leader_siege = 1	
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}
+
+dwea =
+{
+	colonists = 1	
+	missionaries = 1
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}
+
+thenna =
+{
+	global_unrest = -2	
+	years_of_nationalism = -5
+	allow = { religion = ewafari_temple}
+	#sprite = 12
+}

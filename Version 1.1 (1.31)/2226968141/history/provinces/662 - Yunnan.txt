@@ -1,0 +1,17 @@
+add_core = DER
+owner = DER
+controller = DER
+culture = derzian
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = salt
+capital = "Kastern"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

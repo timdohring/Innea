@@ -1,0 +1,17 @@
+add_core = MYV
+owner = MYV
+controller = MYV
+culture = myric
+religion = moon_cult
+hre = no
+
+base_tax = 11
+base_production = 9
+base_manpower = 7
+
+trade_goods = gold
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

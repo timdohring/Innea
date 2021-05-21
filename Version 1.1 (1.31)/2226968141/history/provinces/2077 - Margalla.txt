@@ -1,0 +1,15 @@
+add_core = LUK
+owner = LUK
+controller = LUK
+culture = anvan
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Prahla"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,67 @@
+abrunanach =
+{
+	shock_damage = 0.2	
+	land_morale = 0.1	
+	allow = { 
+		OR = {
+			religion = celiicean 
+			religion = dochar
+		}
+	}
+	#sprite = 12
+}
+
+taoserc =
+{
+	leader_cost = -0.5	
+	monarch_admin_power = 2	
+	allow = { 
+		OR = {
+			religion = celiicean 
+			religion = ywakra
+		}
+	}
+	#sprite = 12
+}
+
+iga =
+{
+	heir_chance = 1.0	
+	development_cost = -0.1	
+	allow = { religion = celiicean }
+	#sprite = 12
+}
+
+leosiodha =
+{
+	hostile_attrition = 2	
+        state_maintenance_modifier = -0.25	
+	allow = { 
+		OR = {
+			religion = celiicean 
+			religion = dochar
+		}
+	}
+	#sprite = 12
+}
+
+pwynll =
+{
+	prestige = 1	
+	monthly_splendor = 5	
+	allow = { religion = celiicean }
+	#sprite = 12
+}
+
+gogotal =
+{
+	own_coast_naval_combat_bonus = 1.0 #is this op?	
+ 	global_sailors_modifier = 0.33	
+	allow = { 
+		OR = {
+			religion = celiicean 
+			religion = ywakra
+		}
+	}
+	#sprite = 12
+}

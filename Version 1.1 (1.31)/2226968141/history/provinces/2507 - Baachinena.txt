@@ -1,0 +1,15 @@
+add_core = ADN
+owner = ADN
+controller = ADN
+culture = astaen
+religion = ewafari_temple
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

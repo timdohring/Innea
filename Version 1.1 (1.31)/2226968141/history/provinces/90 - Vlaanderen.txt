@@ -1,0 +1,17 @@
+# 90 Vlaanderen - Principal cities: Brugge
+
+add_core = MAL
+owner = MAL
+controller = MAL
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Wennin"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = STY
+owner = STY
+controller = STY
+culture = styric
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Half Flag"
+is_city = yes
+discovered_by = western

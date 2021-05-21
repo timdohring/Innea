@@ -1,0 +1,17 @@
+# 88 Artois - Principal cities: Arras, Saint-Omer & Lille
+
+add_core = MAL
+owner = MAL
+controller = MAL
+culture = falkish
+religion = yoneth
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Drumsen"
+is_city = yes
+discovered_by = western

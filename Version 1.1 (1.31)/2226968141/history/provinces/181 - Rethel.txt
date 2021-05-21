@@ -1,0 +1,18 @@
+# 181 Rethel
+
+
+add_core = SEL
+owner = SEL
+controller = SEL
+culture = selc
+religion = celiicean
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = salt
+capital = "Isodh"
+is_city = yes
+discovered_by = western

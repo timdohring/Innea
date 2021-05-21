@@ -1,0 +1,18 @@
+add_core = DLS
+owner = DLS
+controller = DLS
+culture = dalsch
+religion = altran_church
+hre = no
+
+base_tax = 8
+base_production = 10
+base_manpower = 9
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

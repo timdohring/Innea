@@ -1,0 +1,15 @@
+add_core = ALM
+owner = ALM
+controller = ALM
+culture = trithe
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = grain
+capital = "Tell Barbas"
+is_city = yes
+discovered_by = western

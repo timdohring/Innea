@@ -1,0 +1,15 @@
+add_core = MEL
+owner = MEL
+controller = MEL
+culture = north_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = "Rajaser"
+is_city = yes
+discovered_by = western

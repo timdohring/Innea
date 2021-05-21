@@ -1,0 +1,12 @@
+culture = ononda
+religion = lakemother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = wool
+capital = "Hatota"
+is_city = yes
+discovered_by = western

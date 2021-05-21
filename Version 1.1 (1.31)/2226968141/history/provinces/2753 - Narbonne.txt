@@ -1,0 +1,15 @@
+add_core = ATO
+owner = ATO
+controller = ATO
+culture = atobanaki
+religion = lakemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = honey
+capital = "Maskiwin"
+is_city = yes
+discovered_by = western

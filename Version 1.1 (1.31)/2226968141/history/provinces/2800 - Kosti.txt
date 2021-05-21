@@ -1,0 +1,12 @@
+culture = trovan
+religion = old_doxian
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = dragon_hide
+capital = "Obrun"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = FRX
+owner = FRX
+controller = FRX
+culture = laquis
+religion = paisadox
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Breezewind"
+is_city = yes
+discovered_by = western

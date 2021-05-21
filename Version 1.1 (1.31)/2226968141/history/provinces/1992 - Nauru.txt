@@ -1,0 +1,16 @@
+add_core = JAR
+owner = JAR
+controller = JAR
+culture = jarai
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = ships
+capital = "Atla'borg"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,16 @@
+add_core = THR
+owner = THR
+controller = THR
+culture = boern
+religion = yorik
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = honey
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

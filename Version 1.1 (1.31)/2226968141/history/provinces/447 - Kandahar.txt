@@ -1,0 +1,18 @@
+add_core = NLD
+owner = NLD
+controller = NLD
+culture = nordic
+religion = altran_church
+hre = no
+
+base_tax = 9
+base_production = 12
+base_manpower = 13
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

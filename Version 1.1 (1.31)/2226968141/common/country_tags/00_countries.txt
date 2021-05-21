@@ -1,0 +1,9 @@
+# Special countries..
+REB = "countries/Rebels.txt"
+PIR = "countries/Pirates.txt"
+NAT = "countries/Natives.txt"
+
+# maybe need this later for pope mechanics
+#PAP = "countries/Papal.txt"
+
+#VAR = "countries/Varland.txt"

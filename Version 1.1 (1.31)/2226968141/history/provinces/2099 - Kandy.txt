@@ -1,0 +1,15 @@
+add_core = DOO
+owner = DOO
+controller = DOO
+culture = uyguz
+religion = blood_cult
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Ugdanmul"
+is_city = yes
+discovered_by = western

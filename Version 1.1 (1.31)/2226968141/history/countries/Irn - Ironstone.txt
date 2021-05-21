@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = dargish
+capital = 51
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Halfan I"
+		dynasty = "White-Shield"
+		birth_date = 1426.3.27
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+

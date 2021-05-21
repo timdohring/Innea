@@ -1,0 +1,15 @@
+add_core = OBE
+owner = OBE
+controller = OBE
+culture = winter_dwarf
+religion = zakritz
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Tel Elds"
+is_city = yes
+discovered_by = western

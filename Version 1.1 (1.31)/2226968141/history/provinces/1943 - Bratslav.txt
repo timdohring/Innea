@@ -1,0 +1,16 @@
+add_core = AKA
+owner = AKA
+controller = AKA
+culture = akage
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 8
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

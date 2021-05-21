@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = ykran
+capital = 31
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Agmund II"
+		dynasty = "tir Skund"
+		birth_date = 1399.9.9
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+

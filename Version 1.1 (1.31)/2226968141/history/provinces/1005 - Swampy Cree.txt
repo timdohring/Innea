@@ -1,0 +1,15 @@
+add_core = HAM
+owner = HAM
+controller = HAM
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 7
+
+trade_goods = iron
+capital = "Tlanole"
+is_city = yes
+discovered_by = western

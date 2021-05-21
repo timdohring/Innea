@@ -1,0 +1,12 @@
+culture = mersic
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = horses
+capital = "Kozmur"
+is_city = yes
+discovered_by = western

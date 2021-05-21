@@ -1,0 +1,16 @@
+add_core = KAA
+owner = KAA
+controller = KAA
+culture = kaar
+religion = yorik
+hre = no
+
+base_tax = 8
+base_production = 10
+base_manpower = 9
+
+trade_goods = copper
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

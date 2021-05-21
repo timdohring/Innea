@@ -1,0 +1,16 @@
+add_core = DEB
+owner = DEB
+controller = DEB
+culture = aven
+religion = brilthic_church
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "Gaer Avan"
+is_city = yes
+discovered_by = western
+

@@ -1,0 +1,16 @@
+add_core = RAA
+owner = RAA
+controller = RAA
+culture = raalic
+religion = horsemother
+hre = no
+
+base_tax = 8
+base_production = 5
+base_manpower = 11
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

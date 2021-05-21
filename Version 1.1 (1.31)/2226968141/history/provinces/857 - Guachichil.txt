@@ -1,0 +1,15 @@
+add_core = RVW
+owner = RVW
+controller = RVW
+culture = upwater_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Difidothas"
+is_city = yes
+discovered_by = western

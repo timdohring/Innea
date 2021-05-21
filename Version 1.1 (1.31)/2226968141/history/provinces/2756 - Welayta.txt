@@ -1,0 +1,15 @@
+add_core = WAN
+owner = WAN
+controller = WAN
+culture = wangouwean
+religion = lakemother
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = beer
+capital = "Nemiapik"
+is_city = yes
+discovered_by = western

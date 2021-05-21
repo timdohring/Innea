@@ -1,0 +1,15 @@
+add_core = LDA
+owner = LDA
+controller = LDA
+culture = tulsuq
+religion = ashar
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+trade_goods = blue_copper
+capital = "Yarqtla"
+is_city = yes
+discovered_by = western

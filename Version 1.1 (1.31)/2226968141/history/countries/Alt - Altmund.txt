@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = bjorming
+capital = 52
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Gunbald I"
+		dynasty = "Altun"
+		birth_date = 1367.2.22
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Leif"
+		monarch_name = "Leif I"
+		dynasty = "Altun"
+		birth_date = 1425.12.3
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+

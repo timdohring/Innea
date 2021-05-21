@@ -1,0 +1,15 @@
+add_core = BLW
+owner = BLW
+controller = BLW
+culture = dorean
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = grain
+capital = "Murths"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = MUR
+owner = MUR
+controller = MUR
+culture = lockan
+religion = altran_church
+hre = no
+
+base_tax = 13
+base_production = 11
+base_manpower = 9
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western

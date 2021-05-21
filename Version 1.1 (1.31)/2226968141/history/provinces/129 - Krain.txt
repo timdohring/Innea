@@ -1,0 +1,19 @@
+# 129 - Krain
+
+
+add_core = SVA
+owner = SVA
+controller = SVA
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

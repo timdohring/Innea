@@ -1,0 +1,15 @@
+add_core = MYV
+owner = MYV
+controller = MYV
+culture = myric
+religion = moon_cult
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Uclath"
+is_city = yes
+discovered_by = western

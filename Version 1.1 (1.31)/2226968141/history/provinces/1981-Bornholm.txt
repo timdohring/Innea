@@ -1,0 +1,15 @@
+add_core = DOO
+owner = DOO
+controller = DOO
+culture = uyguz
+religion = blood_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Merkke"
+is_city = yes
+discovered_by = western

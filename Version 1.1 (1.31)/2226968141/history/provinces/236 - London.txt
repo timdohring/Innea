@@ -1,0 +1,19 @@
+add_core = DBY
+owner = DBY
+controller = DBY
+culture = issoan
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 6
+base_manpower = 4
+
+trade_goods = iron
+capital = "Ferr"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes
+
+

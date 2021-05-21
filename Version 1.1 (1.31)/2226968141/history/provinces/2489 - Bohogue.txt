@@ -1,0 +1,15 @@
+add_core = MHA
+owner = MHA
+controller = MHA
+culture = mahan
+religion = woodmother
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 3
+
+trade_goods = fur
+capital = "Foganany"
+is_city = yes
+discovered_by = western

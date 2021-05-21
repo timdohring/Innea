@@ -1,0 +1,16 @@
+add_core = LLA
+add_core = NYA
+owner = LLA
+controller = LLA
+culture = narinya
+religion = syllari_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Ynye"
+is_city = yes
+discovered_by = western

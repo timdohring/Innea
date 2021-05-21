@@ -1,0 +1,17 @@
+add_core = LDA
+owner = LDA
+controller = LDA
+culture = lda
+religion = ashar
+hre = no
+
+base_tax = 9
+base_production = 11
+base_manpower = 8
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

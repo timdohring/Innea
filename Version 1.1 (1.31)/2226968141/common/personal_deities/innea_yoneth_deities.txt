@@ -1,0 +1,47 @@
+myrn =
+{
+	diplomatic_reputation = 1	
+	war_exhaustion = -0.1	
+	allow = { religion = yoneth }
+	#sprite = 8
+}
+
+doldur =
+{
+	build_time = -0.40	
+	production_efficiency = 0.20	
+	allow = { religion = yoneth }
+	#sprite = 8
+}
+
+rogni =
+{
+	fire_damage = 0.2	
+	harsh_treatment_cost = -0.4	
+	allow = { religion = yoneth }
+	#sprite = 8
+}
+
+taha =
+{
+	spy_offence = 0.5
+	rebel_support_efficiency = 1.0
+	allow = { religion = yoneth }
+	#sprite = 8
+}
+
+alfanyr =
+{
+	cavalry_power = 0.2	
+	movement_speed = 0.2	
+	allow = { religion = yoneth }
+	#sprite = 8
+}
+
+yos =
+{
+	technology_cost = -0.1	
+	innovativeness_gain = 0.5	
+	allow = { religion = yoneth }
+	#sprite = 8
+}

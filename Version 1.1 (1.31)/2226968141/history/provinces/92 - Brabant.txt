@@ -1,0 +1,17 @@
+# 92 Brabant - Principal cities: Brussel & Mechelen
+
+add_core = SKE
+owner = SKE
+controller = SKE
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western

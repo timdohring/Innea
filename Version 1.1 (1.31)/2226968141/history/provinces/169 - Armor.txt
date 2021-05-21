@@ -1,0 +1,19 @@
+# 169 Armor
+
+
+add_core = KYN
+owner = KYN
+controller = KYN
+culture = kynen
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Mistwatch"
+is_city = yes
+discovered_by = western
+fort_15th = yes

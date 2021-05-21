@@ -1,0 +1,17 @@
+add_core = WHI
+owner = WHI
+controller = WHI
+culture = white_orc
+religion = ashar
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = marble
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

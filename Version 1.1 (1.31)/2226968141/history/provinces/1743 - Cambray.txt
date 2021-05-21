@@ -1,0 +1,15 @@
+add_core = VAG
+owner = VAG
+controller = VAG
+culture = ykran
+religion = old_yorr
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = amber
+capital = "Tobar"
+is_city = yes
+discovered_by = western

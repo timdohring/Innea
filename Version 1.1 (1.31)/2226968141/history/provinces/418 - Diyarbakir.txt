@@ -1,0 +1,15 @@
+add_core = LIU
+owner = LIU
+controller = LIU
+culture = lightborn
+religion = syllari_temple
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Amaene"
+is_city = yes
+discovered_by = western

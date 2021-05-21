@@ -1,0 +1,15 @@
+add_core = VAY
+owner = VAY
+controller = VAY
+culture = angmish
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western

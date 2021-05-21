@@ -1,0 +1,17 @@
+add_core = CEV
+owner = CEV
+controller = CEV
+culture = cevan
+religion = cindari_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Lethys"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

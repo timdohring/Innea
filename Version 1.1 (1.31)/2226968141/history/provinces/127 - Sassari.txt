@@ -1,0 +1,19 @@
+#127 - Sardinia
+
+
+
+add_core = PIN
+owner = PIN
+controller = PIN
+culture = iqu
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fish
+capital = "Ipikha"
+is_city = yes
+discovered_by = western

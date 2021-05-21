@@ -1,0 +1,18 @@
+add_core = SAS
+owner = SAS
+controller = SAS
+culture = sascilian
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 11
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

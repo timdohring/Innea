@@ -1,0 +1,12 @@
+culture = sipichaw
+religion = horsemother
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Mistawotew"
+is_city = yes
+discovered_by = western

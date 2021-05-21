@@ -1,0 +1,16 @@
+add_core = FAK
+owner = FAK
+controller = FAK
+culture = modan
+religion = fyzajak
+hre = no
+
+base_tax = 11
+base_production = 9
+base_manpower = 12
+
+trade_goods = shellfish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

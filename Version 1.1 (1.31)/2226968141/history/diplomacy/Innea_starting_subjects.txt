@@ -1,0 +1,215 @@
+#Allarnia
+
+vassal = {
+	first = ALL
+	second = YEA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Moltran
+
+vassal = {
+	first = MOL
+	second = RCH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+union = {
+	first = MOL
+	second = KAR
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Rossland
+
+vassal = {
+	first = ROS
+	second = GTH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Maetia
+
+union = {
+	first = MAE
+	second = DIA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAE
+	second = MEL
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAE
+	second = VAL
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+
+#Sylten
+
+alliance = {
+	first = SYL
+	second = KAI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = SYL
+	second = NOK
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Guzul
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = KHA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = JOM
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = DMO
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = VAN
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = WAT
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = BFY
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = TBA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = MNN
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GUZ
+	second = QAS
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Boern
+vassal = {
+	first = BOE
+	second = KOS
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Esmere
+vassal = {
+	first = ESM
+	second = VLM
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Indryl
+vassal = {
+	first = IND
+	second = WES
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#KIS
+vassal = {
+	first = KIS
+	second = IRQ
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Selake
+vassal = {
+	first = SLK
+	second = TRA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Tewesti
+vassal = {
+	first = TEW
+	second = EWO
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Bhan
+dependency = {
+	subject_type = "tributary_state"
+	first = BAN
+	second = BHU
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = BAN
+	second = RAU
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}

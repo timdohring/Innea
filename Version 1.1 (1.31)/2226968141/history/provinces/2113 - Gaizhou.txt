@@ -1,0 +1,15 @@
+add_core = JOM
+owner = JOM
+controller = JOM
+culture = joma
+religion = shatvili
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Abasni"
+is_city = yes
+discovered_by = western

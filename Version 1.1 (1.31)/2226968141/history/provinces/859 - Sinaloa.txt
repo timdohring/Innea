@@ -1,0 +1,17 @@
+add_core = RVW
+owner = RVW
+controller = RVW
+culture = rivwu
+religion = cindari_temple
+hre = no
+
+base_tax = 7
+base_production = 9
+base_manpower = 10
+
+trade_goods = iron
+capital = "Steelwater"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

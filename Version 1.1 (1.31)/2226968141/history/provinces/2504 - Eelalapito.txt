@@ -1,0 +1,17 @@
+add_core = AST
+owner = AST
+controller = AST
+culture = oldwood_elf
+religion = ewafari_temple
+hre = no
+
+base_tax = 10
+base_production = 12
+base_manpower = 9
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

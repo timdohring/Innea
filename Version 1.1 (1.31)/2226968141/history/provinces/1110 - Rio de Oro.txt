@@ -1,0 +1,18 @@
+add_core = ACR
+add_core = SNY
+owner = ACR
+controller = ACR
+culture = snyd
+religion = the_one_truth
+hre = no
+
+add_core = VEG
+
+base_tax = 4
+base_production = 5
+base_manpower = 2
+
+trade_goods = iron
+capital = "Orefield"
+is_city = yes
+discovered_by = western

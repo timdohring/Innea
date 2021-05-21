@@ -1,0 +1,15 @@
+add_core = WAT
+owner = WAT
+controller = WAT
+culture = shekhajian
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = shellfish
+capital = "New Gari"
+is_city = yes
+discovered_by = western

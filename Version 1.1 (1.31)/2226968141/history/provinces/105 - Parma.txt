@@ -1,0 +1,18 @@
+#105 - Parma
+
+
+add_core = HOS
+owner = HOS
+controller = HOS
+culture = haaken
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western

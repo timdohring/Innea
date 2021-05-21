@@ -1,0 +1,15 @@
+add_core = PTF
+owner = PTF
+controller = PTF
+culture = black_islander
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = shellfish
+capital = "Crow's Nest"
+is_city = yes
+discovered_by = western

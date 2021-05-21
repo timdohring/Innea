@@ -1,0 +1,14 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+mercantilism = 25
+technology_group = western
+religion = lakemother
+primary_culture = laketrader
+capital = 2705
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+
+}
+

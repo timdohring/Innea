@@ -1,0 +1,18 @@
+#165 - Bern
+
+
+add_core = ORS
+owner = ORS
+controller = ORS
+culture = slein
+religion = celiicean
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = wool
+capital = "Druath"
+is_city = yes
+discovered_by = western

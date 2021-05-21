@@ -1,0 +1,15 @@
+add_core = JAR
+owner = JAR
+controller = JAR
+culture = jarai
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = fish
+capital = "Turuzat"
+is_city = yes
+discovered_by = western

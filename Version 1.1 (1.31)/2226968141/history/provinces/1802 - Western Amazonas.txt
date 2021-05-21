@@ -1,0 +1,15 @@
+add_core = KOS
+owner = KOS
+controller = KOS
+culture = boern
+religion = yorik
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = wool
+capital = "Shatterock"
+is_city = yes
+discovered_by = western

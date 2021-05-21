@@ -1,0 +1,17 @@
+add_core = ULD
+owner = ULD
+controller = ULD
+culture = uldan
+religion = star_house
+hre = no
+
+base_tax = 12
+base_production = 14
+base_manpower = 11
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = KAS
+owner = KAS
+controller = KAS
+culture = white_orc
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = fish
+capital = "Nendenul"
+is_city = yes
+discovered_by = western

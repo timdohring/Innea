@@ -1,0 +1,15 @@
+add_core = FNG
+owner = FNG
+controller = FNG
+culture = forren
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Loow"
+is_city = yes
+discovered_by = western

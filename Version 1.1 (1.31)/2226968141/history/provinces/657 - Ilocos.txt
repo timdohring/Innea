@@ -1,0 +1,15 @@
+add_core = DER
+owner = DER
+controller = DER
+culture = derzian
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 7
+
+trade_goods = grain
+capital = "Ashford"
+is_city = yes
+discovered_by = western

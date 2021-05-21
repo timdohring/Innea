@@ -1,0 +1,15 @@
+add_core = CHO
+owner = CHO
+controller = CHO
+culture = qichond
+religion = ashar
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = wool
+capital = "Shtona"
+is_city = yes
+discovered_by = western

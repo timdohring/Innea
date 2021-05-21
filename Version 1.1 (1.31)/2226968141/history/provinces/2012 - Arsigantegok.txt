@@ -1,0 +1,15 @@
+add_core = PAN
+owner = PAN
+controller = PAN
+culture = black_orc
+religion = ashar
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = wool
+capital = "Pandomsun"
+is_city = yes
+discovered_by = western

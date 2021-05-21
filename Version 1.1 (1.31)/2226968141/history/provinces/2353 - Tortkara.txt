@@ -1,0 +1,16 @@
+add_core = ZON
+owner = ZON
+controller = ZON
+culture = zondic
+religion = drekana
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Highreach"
+is_city = yes
+discovered_by = western
+fort_15th = yes

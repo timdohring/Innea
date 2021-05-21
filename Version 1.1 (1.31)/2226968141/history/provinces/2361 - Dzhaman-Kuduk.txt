@@ -1,0 +1,15 @@
+add_core = GOZ
+owner = GOZ
+controller = GOZ
+culture = mokta
+religion = drekana
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 9
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western

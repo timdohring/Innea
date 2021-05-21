@@ -1,0 +1,15 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = corrusean
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Alerio"
+is_city = yes
+discovered_by = western

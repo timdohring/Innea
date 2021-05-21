@@ -1,0 +1,15 @@
+add_core = RHO
+owner = RHO
+controller = RHO
+culture = rhaur
+religion = syllari_temple
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 8
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,18 @@
+add_core = OMH
+owner = OMH
+controller = OMH
+culture = laghan
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = slaves
+capital = "Balan"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+
+

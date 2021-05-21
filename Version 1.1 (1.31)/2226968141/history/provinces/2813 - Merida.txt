@@ -1,0 +1,16 @@
+add_core = NTR
+owner = NTR
+controller = NTR
+add_core = PRC
+culture = pirean
+religion = old_doxian
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = sugar
+capital = "Umondal"
+is_city = yes
+discovered_by = western

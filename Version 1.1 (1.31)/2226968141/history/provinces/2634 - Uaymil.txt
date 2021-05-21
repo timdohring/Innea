@@ -1,0 +1,15 @@
+add_core = SSP
+owner = SSP
+controller = SSP
+culture = shkar
+religion = nursari_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Cerre"
+is_city = yes
+discovered_by = western

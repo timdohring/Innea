@@ -1,0 +1,15 @@
+add_core = AFA
+owner = AFA
+controller = AFA
+culture = afarafi
+religion = woodmother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = herbs
+capital = "Antirolambo"
+is_city = yes
+discovered_by = western

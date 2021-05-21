@@ -1,0 +1,16 @@
+add_core = ANV
+owner = ANV
+controller = ANV
+culture = anvan
+religion = ashar
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 5
+
+trade_goods = jade
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

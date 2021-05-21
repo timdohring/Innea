@@ -1,0 +1,18 @@
+#155 - Békés
+
+
+add_core = FRE
+owner = FRE
+controller = FRE
+culture = kynen
+religion = church_of_yon
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = "Three Hamlets"
+is_city = yes
+discovered_by = western

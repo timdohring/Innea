@@ -1,0 +1,17 @@
+#157 - Bihar
+
+add_core = FRE
+owner = FRE
+controller = FRE
+culture = kynen
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Allhus"
+is_city = yes
+discovered_by = western

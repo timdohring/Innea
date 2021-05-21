@@ -1,0 +1,15 @@
+add_core = VEG
+owner = VEG
+controller = VEG
+culture = veran
+religion = the_one_truth
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western

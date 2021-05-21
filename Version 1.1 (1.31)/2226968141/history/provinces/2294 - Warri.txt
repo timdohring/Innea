@@ -1,0 +1,15 @@
+add_core = RUL
+owner = RUL
+controller = RUL
+culture = runic
+religion = star_house
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Utwvar"
+is_city = yes
+discovered_by = western

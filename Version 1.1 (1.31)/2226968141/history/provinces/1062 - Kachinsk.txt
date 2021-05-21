@@ -1,0 +1,15 @@
+add_core = KAN
+owner = KAN
+controller = KAN
+culture = kagnol
+religion = the_one_truth
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Lausvium"
+is_city = yes
+discovered_by = western

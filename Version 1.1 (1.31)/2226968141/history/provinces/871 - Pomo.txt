@@ -1,0 +1,17 @@
+add_core = HIG
+owner = HIG
+controller = HIG
+culture = upwater_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 7
+
+trade_goods = riverweed
+capital = "Vaaenen Gate"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

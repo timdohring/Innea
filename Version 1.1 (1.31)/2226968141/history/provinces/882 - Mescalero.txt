@@ -1,0 +1,17 @@
+add_core = NAI
+owner = NAI
+controller = NAI
+culture = viithi
+religion = cindari_temple
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = stone
+capital = ""
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

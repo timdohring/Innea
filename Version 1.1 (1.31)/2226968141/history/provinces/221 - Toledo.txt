@@ -1,0 +1,17 @@
+add_core = DUA
+owner = DUA
+controller = DUA
+culture = upper_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = cloth
+capital = "Aerthurbury"
+is_city = yes
+discovered_by = western
+
+

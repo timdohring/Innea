@@ -1,0 +1,17 @@
+add_core = DOR
+owner = DOR
+controller = DOR
+culture = dorean
+religion = manolic
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 12
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

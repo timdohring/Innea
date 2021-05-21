@@ -1,0 +1,15 @@
+add_core = ANU
+owner = ANU
+controller = ANU
+culture = ujuu
+religion = aaqan
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+capital = "Haaqa"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = CSL
+owner = CSL
+controller = CSL
+culture = crowfoot
+religion = dochar
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = dyes
+capital = "Fherehain"
+is_city = yes
+discovered_by = western
+
+

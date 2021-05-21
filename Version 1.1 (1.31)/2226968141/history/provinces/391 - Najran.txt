@@ -1,0 +1,15 @@
+add_core = MER
+owner = MER
+controller = MER
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = PRE
+owner = PRE
+controller = PRE
+culture = shade_elf
+religion = nursari_temple
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 7
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

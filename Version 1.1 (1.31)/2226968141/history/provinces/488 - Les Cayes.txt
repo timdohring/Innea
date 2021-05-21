@@ -1,0 +1,15 @@
+add_core = ROS
+owner = ROS
+controller = ROS
+culture = rossing
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Cainburre"
+is_city = yes
+discovered_by = western

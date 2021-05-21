@@ -1,0 +1,18 @@
+#Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
+
+
+add_core = SKU
+owner = SKU
+controller = SKU
+culture = ykran
+religion = old_yorr
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Wolfhome"
+is_city = yes
+discovered_by = western

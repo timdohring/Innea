@@ -1,0 +1,15 @@
+add_core = DMO
+owner = DMO
+controller = DMO
+culture = joma
+religion = shatvili
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Tsabaghdi"
+is_city = yes
+discovered_by = western

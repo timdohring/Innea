@@ -1,0 +1,12 @@
+culture = frozen_elf
+religion = iskari_temple
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = crystal
+capital = "Coldbath"
+is_city = yes
+discovered_by = western

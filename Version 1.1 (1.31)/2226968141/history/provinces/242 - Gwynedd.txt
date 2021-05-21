@@ -1,0 +1,17 @@
+add_core = KLC
+owner = KLC
+controller = KLC
+culture = dunlandic
+religion = celiicean
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = wool
+capital = "Ywerton"
+is_city = yes
+discovered_by = western
+
+

@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = bjorming
+capital = 41
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+historical_rival = RAS
+
+1444.1.1 = {
+	monarch = {
+		name = "Bjorn I"
+		dynasty = "Tosfaln"
+		birth_date = 1400.12.12
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+

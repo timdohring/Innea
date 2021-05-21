@@ -1,0 +1,16 @@
+add_core = CVL
+owner = CVL
+controller = CVL
+culture = aven
+religion = brilthic_church
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = copper
+capital = "Fallows"
+is_city = yes
+discovered_by = western
+

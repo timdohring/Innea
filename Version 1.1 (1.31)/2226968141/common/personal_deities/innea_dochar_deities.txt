@@ -1,0 +1,15 @@
+donair =
+{
+	stability_cost_to_declare_war = -1 #test this	
+	siege_ability = 0.2	
+	allow = { religion = dochar}
+	#sprite = 12
+}
+
+mountainman =
+{
+	garrison_size = 0.25
+	diplomatic_reputation = 2	
+	allow = { religion = dochar}
+	#sprite = 12
+}

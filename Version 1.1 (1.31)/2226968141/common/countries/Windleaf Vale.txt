@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {241  252  151}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Finander #0" = 1
+	"Filas #0" = 1
+	"Egelir #0" = 1
+	"Althafrin #0" = 1
+	"Araen #0" = 1
+	"Glathgwin #0" = 1
+	"Olmin #0" = 1
+	"Finthian #0" = 1
+	"Feror #0" = 1
+	"Boleth #0" = 1
+	"Ulwhar #0" = 1
+	"Elserond #0" = 1
+	"Galadrim #0" = 1
+	"Borca #0" = 1
+	"Caelthwhur #0" = 1
+	"Tisildun #0" = 1
+	"Malbrin #0" = 1
+	"Edagor #0" = 1
+	"Fan #0" = 1
+	"Gomlaf #0" = 1
+	"Heremes #0" = 1
+	"Ungor #0" = 1
+	"Thodrin #0" = 1
+	"Relaf #0" = 1
+	"Filamin #0" = 1
+	"Felagast #0" = 1
+	"Cirdiwin #0" = 1
+	"Donthir #0" = 1
+	"Beradon #0" = 1
+	"Onbelon #0" = 1
+
+	"Ada" = -1
+	"Nilieon" = -1
+	"Tharwha" = -1
+	"Lodriel" = -1
+	"Gawarin" = -1
+	"Efe" = -1
+	"Aen" = -1
+	"Lofara" = -1
+	"Dalsin" = -1
+	"Enduis" = -1
+	"Glodis" = -1
+	"Galsaelphi" = -1
+	"Dontha" = -1
+	"Taralie" = -1
+	"Ulwhen" = -1
+	"Emana" = -1
+	"Forin" = -1
+	"Feralagath" = -1
+	"Fedrion" = -1
+	"Fana" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

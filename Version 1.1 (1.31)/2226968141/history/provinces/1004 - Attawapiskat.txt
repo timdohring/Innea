@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = livestock
+capital = "Varafell"
+is_city = yes
+discovered_by = western

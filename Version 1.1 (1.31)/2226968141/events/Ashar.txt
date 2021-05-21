@@ -1,0 +1,261 @@
+namespace = ashar_events
+
+#Shatvili Harmonization
+country_event = {
+	id = ashar_events.1
+	title = "ashar_events.1.t"
+	desc = "ashar_events.1.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_shatvili"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Yordic Harmonization
+country_event = {
+	id = ashar_events.2
+	title = "ashar_events.2.t"
+	desc = "ashar_events.2.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_yordic"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Megechezd Harmonization
+country_event = {
+	id = ashar_events.3
+	title = "ashar_events.3.t"
+	desc = "ashar_events.3.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_megechezd"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Elven Houses Harmonization
+country_event = {
+	id = ashar_events.4
+	title = "ashar_events.4.t"
+	desc = "ashar_events.4.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_elven_houses"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Isht Harmonization
+country_event = {
+	id = ashar_events.5
+	title = "ashar_events.5.t"
+	desc = "ashar_events.5.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_isht"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Anuidic Harmonization
+country_event = {
+	id = ashar_events.6
+	title = "ashar_events.6.t"
+	desc = "ashar_events.6.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_anuidic"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Kaelthic Harmonization
+country_event = {
+	id = ashar_events.7
+	title = "ashar_events.7.t"
+	desc = "ashar_events.7.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_kaelthic"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Cult Harmonization
+country_event = {
+	id = ashar_events.8
+	title = "ashar_events.8.t"
+	desc = "ashar_events.8.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_cults"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Church of the Thirteen Harmonization
+country_event = {
+	id = ashar_events.9
+	title = "ashar_events.9.t"
+	desc = "ashar_events.9.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_church"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Elven Temples Harmonization
+country_event = {
+	id = ashar_events.10
+	title = "ashar_events.10.t"
+	desc = "ashar_events.10.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_elven_temples"
+				duration = -1
+			}
+		}
+	}
+}
+
+#all_mothers Harmonization
+country_event = {
+	id = ashar_events.11
+	title = "ashar_events.11.t"
+	desc = "ashar_events.11.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_all_mothers"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Doxian Harmonization
+country_event = {
+	id = ashar_events.12
+	title = "ashar_events.12.t"
+	desc = "ashar_events.12.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_doxian"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Taurosian Harmonization
+country_event = {
+	id = ashar_events.13
+	title = "ashar_events.13.t"
+	desc = "ashar_events.13.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ashar_events.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_taurosian"
+				duration = -1
+			}
+		}
+	}
+}

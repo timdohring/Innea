@@ -1,0 +1,17 @@
+add_core = DIA
+owner = DIA
+controller = DIA
+culture = dianean
+religion = the_one_truth
+hre = no
+
+base_tax = 9
+base_production = 11
+base_manpower = 5
+
+trade_goods = sugar
+capital = "Valomo"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

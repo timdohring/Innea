@@ -1,0 +1,15 @@
+add_core = COP
+owner = COP
+controller = COP
+culture = goldtrader
+religion = the_coin
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = paper
+capital = "Trader's Den"
+is_city = yes
+discovered_by = western

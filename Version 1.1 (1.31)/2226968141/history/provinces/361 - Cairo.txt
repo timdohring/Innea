@@ -1,0 +1,15 @@
+add_core = ALL
+owner = ALL
+controller = ALL
+culture = verric
+religion = murtharic
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = fur
+capital = "Elatu"
+is_city = yes
+discovered_by = western

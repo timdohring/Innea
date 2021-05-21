@@ -1,0 +1,17 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = wool
+capital = "Darren"
+is_city = yes
+discovered_by = western
+
+

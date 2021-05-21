@@ -1,0 +1,18 @@
+add_core = AYA
+owner = AYA
+controller = AYA
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 16
+base_production = 15
+base_manpower = 12
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

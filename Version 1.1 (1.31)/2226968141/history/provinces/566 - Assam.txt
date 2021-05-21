@@ -1,0 +1,15 @@
+add_core = PIC
+owner = PIC
+controller = PIC
+culture = northcoaster
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = "Breck"
+is_city = yes
+discovered_by = western

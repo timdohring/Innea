@@ -1,0 +1,15 @@
+add_core = LAM
+owner = LAM
+controller = LAM
+culture = lake
+religion = woodmother
+hre = no
+
+base_tax = 6
+base_production = 3
+base_manpower = 6
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = IND
+owner = IND
+controller = IND
+culture = indrysian
+religion = dead_house
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = fungi
+capital = "Polor Valh"
+is_city = yes
+discovered_by = western

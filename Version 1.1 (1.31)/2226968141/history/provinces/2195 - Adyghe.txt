@@ -1,0 +1,15 @@
+add_core = DUS
+owner = DUS
+controller = DUS
+culture = duskborn
+religion = dead_house
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 5
+
+trade_goods = gems
+capital = "Saavos"
+is_city = yes
+discovered_by = western

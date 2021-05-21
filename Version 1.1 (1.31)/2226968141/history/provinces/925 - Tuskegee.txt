@@ -1,0 +1,15 @@
+add_core = AXO
+owner = AXO
+controller = AXO
+culture = remaa
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = cloth
+capital = "Maldusa"
+is_city = yes
+discovered_by = western

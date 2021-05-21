@@ -1,0 +1,17 @@
+add_core = MAG
+owner = MAG
+controller = MAG
+culture = chezan
+religion = zakritz
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 6
+
+trade_goods = gems
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

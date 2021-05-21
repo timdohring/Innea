@@ -1,0 +1,15 @@
+add_core = SAY
+owner = SAY
+controller = SAY
+culture = northcoaster
+religion = the_coin
+hre = no
+
+base_tax = 11
+base_production = 9
+base_manpower = 9
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western

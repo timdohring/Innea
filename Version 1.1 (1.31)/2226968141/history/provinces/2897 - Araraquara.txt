@@ -1,0 +1,12 @@
+culture = nisten
+religion = manolic
+hre = no
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+trade_goods = gold
+capital = "Goldmithy"
+is_city = yes
+discovered_by = western

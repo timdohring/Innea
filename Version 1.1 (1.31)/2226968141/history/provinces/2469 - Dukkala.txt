@@ -1,0 +1,15 @@
+add_core = SLK
+owner = SLK
+controller = SLK
+culture = lake
+religion = woodmother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = fungi
+capital = "Tolianats"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = ING
+owner = ING
+controller = ING
+culture = east_bergian
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = gold
+capital = "Goldfist"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

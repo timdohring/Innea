@@ -1,0 +1,17 @@
+add_core = VIN
+owner = VIN
+controller = VIN
+culture = vindese
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = wine
+capital = "Larance Castle"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

@@ -1,0 +1,16 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+# CTD issue in 1.21 when this is missing
+submission_to_emperor = {
+	potential = {
+		always = no
+	}
+
+	trigger = {
+		always = no
+	}
+
+}

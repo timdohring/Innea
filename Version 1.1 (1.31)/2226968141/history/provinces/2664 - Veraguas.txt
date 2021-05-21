@@ -1,0 +1,15 @@
+add_core = CHK
+owner = CHK
+controller = CHK
+culture = ononda
+religion = lakemother
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 8
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

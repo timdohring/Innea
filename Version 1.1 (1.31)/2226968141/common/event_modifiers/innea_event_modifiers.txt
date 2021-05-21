@@ -1,0 +1,78 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#Innea
+
+
+##################################################
+# Harmonized Modifiers for Ashar
+##################################################
+
+harmonized_shatvili = {
+	production_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_yordic = {
+	land_morale = 0.05	
+	religion = yes
+}
+
+harmonized_megechezd = {
+	global_trade_goods_size_modifier = 0.05
+	religion = yes
+}
+
+harmonized_elven_houses = {
+	global_institution_spread = 0.25
+	religion = yes
+}
+
+harmonized_isht = {
+	global_trade_power = 0.07
+	religion = yes
+}
+
+harmonized_anuidic = {
+	num_accepted_cultures = 2
+	religion = yes
+}
+
+harmonized_kaelthic = {
+	legitimacy = 1	
+	republican_tradition = 0.5
+	devotion = 1
+	horde_unity = 1		
+	meritocracy = 1	
+	religion = yes
+}
+
+harmonized_cults = {
+	years_of_nationalism = -2
+	religion = yes
+}
+
+harmonized_church = {
+	global_tax_modifier = 0.05
+	religion = yes
+}
+
+harmonized_elven_temples = {
+	advisor_cost = -0.05
+	religion = yes
+}
+
+harmonized_all_mothers = {
+	global_unrest = -1.0
+	religion = yes
+}
+
+harmonized_doxian = {
+	merchants = 1
+	religion = yes
+}
+
+harmonized_taurosian = {
+	defensiveness = 0.20
+	religion = yes
+}

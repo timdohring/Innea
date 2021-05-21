@@ -1,0 +1,16 @@
+add_core = SHU
+owner = SHU
+controller = SHU
+culture = shurrean
+religion = nursari_temple
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = marble
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

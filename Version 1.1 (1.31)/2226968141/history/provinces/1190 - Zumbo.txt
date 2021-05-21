@@ -1,0 +1,15 @@
+add_core = ANU
+owner = ANU
+controller = ANU
+culture = qunsut
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = crystal
+capital = "Aanurat"
+is_city = yes
+discovered_by = western

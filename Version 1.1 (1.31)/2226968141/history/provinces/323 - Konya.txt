@@ -1,0 +1,15 @@
+add_core = WAR
+owner = WAR
+controller = WAR
+culture = pjotrish
+religion = murtharic
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = iron
+capital = "Okursk"
+is_city = yes
+discovered_by = western

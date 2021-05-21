@@ -1,0 +1,17 @@
+add_core = MNN
+owner = MNN
+controller = MNN
+culture = kashtian
+religion = shatvili
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 8
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

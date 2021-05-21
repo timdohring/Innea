@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = south_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Plontgat"
+is_city = yes
+discovered_by = western

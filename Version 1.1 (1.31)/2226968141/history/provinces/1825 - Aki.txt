@@ -1,0 +1,15 @@
+add_core = GHD
+owner = GHD
+controller = GHD
+culture = grey_dwarf
+religion = yorik
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 6
+
+trade_goods = stone
+capital = ""
+is_city = yes
+discovered_by = western

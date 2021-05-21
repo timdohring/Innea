@@ -1,0 +1,17 @@
+#15 - Western Jutland, incl. Ribe and Ringkøbing
+
+add_core = BER
+owner = BER
+controller = BER
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 7
+base_manpower = 3
+
+trade_goods = copper
+capital = "Sun's Rock"
+is_city = yes
+discovered_by = western

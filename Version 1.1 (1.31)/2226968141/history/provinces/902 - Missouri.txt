@@ -1,0 +1,17 @@
+add_core = MYL
+owner = MYL
+controller = MYL
+culture = mylith
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 8
+
+trade_goods = grain
+capital = "fur"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

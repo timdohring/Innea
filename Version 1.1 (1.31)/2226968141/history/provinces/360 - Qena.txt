@@ -1,0 +1,15 @@
+add_core = ALL
+owner = ALL
+controller = ALL
+culture = allar
+religion = murtharic
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = fur
+capital = "Luzau"
+is_city = yes
+discovered_by = western
