@@ -1,0 +1,15 @@
+add_core = NOK
+owner = NOK
+controller = NOK
+culture = saj
+religion = drekana
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = shellfish
+capital = "Gukk"
+is_city = yes
+discovered_by = western

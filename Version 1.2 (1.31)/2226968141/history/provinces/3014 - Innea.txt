@@ -1,0 +1,16 @@
+add_core = BAJ
+owner = BAJ
+controller = BAJ
+culture = basjahn
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = sugar
+capital = "Mosq"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,216 @@
+### INNEA
+
+namespace = incidents
+
+country_event = {
+	id = incidents.1
+	title = incidents.1.t
+	desc = incidents.1.d
+	picture = HRE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AMA
+		is_part_of_hre = no
+		is_elector = no
+		is_emperor = no
+		is_subject = no
+		NOT = { active_imperial_incident = any }
+		is_at_war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = "incidents.1.a"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = emperor
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { is_rival = emperor }
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { emperor = { is_rival = ROOT } }
+			}
+		}
+		custom_tooltip = burgundy_asks_to_join_empire_tt
+		emperor = {
+			set_imperial_incident = incident_arman_wants_to_join
+		}
+	}
+	option = {
+		name = "incidents.1.b"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 1.5
+				NOT = {
+					has_opinion = {
+						who = emperor
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25
+				is_rival = emperor
+			}
+			modifier = {
+				factor = 1.25
+				emperor = { is_rival = ROOT }
+			}
+			modifier = {
+				factor = 2.0
+				development_in_provinces = {
+					value = 1
+					continent = innea
+				}
+			}
+		}
+		set_country_flag = arman_refused_empire
+	}
+}
+
+# Emperor considers Arman's offer
+country_event = {
+	id = incidents.2
+	title = "incidents.2.t"
+	desc = "incidents.2.desc"
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "incidents.2.a"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_opinion = {
+					who = AMA
+					value = 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				emperor = { is_rival = AMA }
+			}
+			modifier = {
+				factor = 0.5
+				AMA = { is_rival = emperor }
+			}
+			modifier = {
+				factor = 2
+				NOT = { emperor = { is_rival = AMA } }
+			}
+			modifier = {
+				factor = 2
+				NOT = { AMA = { is_rival = emperor } }
+			}
+		}
+		
+		AMA = {
+			every_subject_country = { set_in_empire = yes }	
+			set_in_empire = yes
+		}
+	}
+	
+	option = {
+		name = "incidents.2.c"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 1.5
+				NOT = {
+					has_opinion = {
+						who = emperor
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				is_rival = AMA
+			}
+			modifier = {
+				factor = 2
+				AMA = { is_rival = emperor }
+			}
+			modifier = {
+				factor = 0
+				alliance_with = AMA
+			}
+		}
+		hidden_effect = {
+			AMA = {
+				country_event = {
+					id = incidents.4
+					days = 5
+				}
+			}
+		}
+		tooltip = {
+			AMA = {
+				every_known_country = {
+					limit = {
+						is_elector = yes
+						is_emperor = no
+					}
+					reverse_add_casus_belli = {
+						target = AMA
+						type = cb_vassalize_mission
+						months = 480
+					}
+				}
+			}
+		}
+	}
+}
+
+# Burgundy is refused Imperial membership
+country_event = {
+	id = incidents.4
+	title = "incidents.4.t"
+	desc = "incidents.4.desc"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "incidents.4.a"
+		ai_chance = {
+			factor = 1
+		}
+		every_known_country = {
+			limit = {
+				is_elector = yes
+				is_emperor = no
+			}
+			reverse_add_casus_belli = {
+				target = AMA
+				type = cb_vassalize_mission
+				months = 480
+			}
+		}
+		add_opinion = {
+			who = emperor
+			modifier = burgundy_refused_membership_opinion
+		}
+		reverse_add_opinion = {
+			who = emperor
+			modifier = burgundy_refused_membership_opinion
+		}
+		set_country_flag = arman_refused_empire
+	}
+}

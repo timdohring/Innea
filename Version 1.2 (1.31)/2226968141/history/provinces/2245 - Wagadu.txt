@@ -1,0 +1,18 @@
+add_core = LOV
+owner = LOV
+controller = LOV
+add_core = ARA
+culture = arar
+religion = flame_house
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 7
+
+trade_goods = obsidian
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

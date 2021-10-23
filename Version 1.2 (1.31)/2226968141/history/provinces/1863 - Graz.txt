@@ -1,0 +1,15 @@
+add_core = DRE
+owner = DRE
+controller = DRE
+culture = drebyr
+religion = zakritz
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = yv
+capital = "Deepscar"
+is_city = yes
+discovered_by = western

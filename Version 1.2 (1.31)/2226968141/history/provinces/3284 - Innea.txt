@@ -1,0 +1,16 @@
+add_core = BSH
+owner = BSH
+controller = BSH
+culture = hranan
+religion = sukkali
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 13
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

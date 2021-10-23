@@ -1,0 +1,17 @@
+add_core = CLE
+owner = CLE
+controller = CLE
+culture = two_mountmen
+religion = dochar
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = iron
+capital = "Caeron"
+is_city = yes
+discovered_by = western
+
+

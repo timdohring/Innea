@@ -1,0 +1,15 @@
+add_core = LIU
+owner = LIU
+controller = LIU
+culture = lightborn
+religion = syllari_temple
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = magic_goods
+capital = "Dosinayen"
+is_city = yes
+discovered_by = western

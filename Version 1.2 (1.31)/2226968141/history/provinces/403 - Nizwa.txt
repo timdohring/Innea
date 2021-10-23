@@ -1,0 +1,16 @@
+add_core = SEN
+add_core = NYA
+owner = SEN
+controller = SEN
+culture = narinya
+religion = syllari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = wine
+capital = "Undule"
+is_city = yes
+discovered_by = western

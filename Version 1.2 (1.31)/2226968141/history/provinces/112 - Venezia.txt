@@ -1,0 +1,19 @@
+#112 - Venezia
+
+
+add_core = HLY
+owner = HLY
+controller = HLY
+culture = haaken
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = slaves
+capital = "Axegrind"
+is_city = yes
+discovered_by = western
+fort_15th = yes

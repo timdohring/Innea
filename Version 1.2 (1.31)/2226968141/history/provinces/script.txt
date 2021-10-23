@@ -1,0 +1,5 @@
+#!/bin/bash
+# Short script to create a bunch of new textfile for provinces
+for i in {3004..4019}; do
+    echo "hi" > "${i} - Innea".txt;
+done;

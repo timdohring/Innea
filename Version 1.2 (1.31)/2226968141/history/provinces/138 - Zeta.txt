@@ -1,0 +1,18 @@
+#138 - Zeta
+
+add_core = FJO
+owner = FJO
+controller = FJO
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = gold
+capital = "Gruftr"
+is_city = yes
+discovered_by = western
+fort_15th = yes

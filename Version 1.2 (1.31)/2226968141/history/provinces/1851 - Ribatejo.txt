@@ -1,0 +1,16 @@
+add_core = RAE
+owner = RAE
+controller = RAE
+culture = kvin
+religion = zakritz
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = yv
+capital = "Jheiss Fire"
+is_city = yes
+discovered_by = western
+fort_15th = yes

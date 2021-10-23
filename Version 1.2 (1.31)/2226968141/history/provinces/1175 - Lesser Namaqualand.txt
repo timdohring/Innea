@@ -1,0 +1,15 @@
+add_core = NAR
+owner = NAR
+controller = NAR
+culture = narcetian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 5
+
+trade_goods = cotton
+capital = "Vodica"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+culture = sari
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = blue_copper
+capital = "Harpura"
+is_city = yes
+discovered_by = western

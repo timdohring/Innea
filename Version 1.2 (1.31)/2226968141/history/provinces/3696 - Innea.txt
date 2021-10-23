@@ -1,0 +1,15 @@
+add_core = DRM
+owner = DRM
+controller = DRM
+culture = dremoran
+religion = throne_cult
+hre = no
+
+base_tax = 12
+base_production = 13
+base_manpower = 12
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = ASS
+owner = ASS
+controller = ASS
+culture = mahran
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 9
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

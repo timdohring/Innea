@@ -1,0 +1,16 @@
+add_core = LEO
+owner = LEO
+controller = LEO
+culture = dhoilbridic
+religion = sea_cult
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+capital = "Tuserc"
+is_city = yes
+discovered_by = western
+

@@ -1,0 +1,15 @@
+add_core = PUN
+owner = PUN
+controller = PUN
+culture = punghali
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = naval_supplies
+capital = "Gatapur"
+is_city = yes
+discovered_by = western

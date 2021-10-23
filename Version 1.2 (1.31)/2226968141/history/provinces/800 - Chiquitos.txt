@@ -1,0 +1,15 @@
+add_core = REU
+owner = REU
+controller = REU
+culture = reuth
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = naval_supplies
+capital = "Scheppelheim"
+is_city = yes
+discovered_by = western

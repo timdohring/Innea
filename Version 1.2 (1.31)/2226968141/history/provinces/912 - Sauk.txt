@@ -1,0 +1,18 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = rettar
+religion = the_one_truth
+hre = no
+
+base_tax = 14
+base_production = 16
+base_manpower = 18
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

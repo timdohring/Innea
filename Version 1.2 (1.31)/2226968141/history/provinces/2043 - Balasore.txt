@@ -1,0 +1,17 @@
+add_core = MAU
+owner = MAU
+controller = MAU
+culture = wla
+religion = ashar
+hre = no
+
+base_tax = 18
+base_production = 17
+base_manpower = 22
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

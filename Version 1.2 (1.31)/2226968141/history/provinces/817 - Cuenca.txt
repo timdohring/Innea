@@ -1,0 +1,17 @@
+add_core = SED
+owner = SED
+controller = SED
+culture = sedurii
+religion = cindari_temple
+hre = no
+
+base_tax = 10
+base_production = 11
+base_manpower = 7
+
+trade_goods = tea
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+

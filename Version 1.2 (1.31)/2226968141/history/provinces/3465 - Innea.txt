@@ -1,0 +1,15 @@
+add_core = COR
+owner = COR
+controller = COR
+culture = manan
+religion = vua_avaku
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = dyes
+capital = "Mangai"
+is_city = yes
+discovered_by = western

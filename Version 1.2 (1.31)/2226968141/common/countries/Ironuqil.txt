@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 74 136 241 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Tarag #0" = 1
+	"Wsandiya #0" = 1
+	"Gwara #0" = 1
+	"Aywa #0" = 1
+	"Muwego #0" = 1
+	"Ononade #0" = 1
+	"Felanis #0" = 1
+	"Galo #0" = 1
+	"Iowon #0" = 1
+	"Ongaw #0" = 1
+	"Ikso #0" = 1
+	"Chowtri #0" = 1
+	"Ocumato #0" = 1
+	"Chosi #0" = 1
+	"Atsin #0" = 1
+	"Ahatu #0" = 1
+	"Malian #0" = 1
+	"Loshu #0" = 1
+	"Tooanah #0" = 1
+	"Skepta #0" = 1
+	"Gomas #0" = 1
+	"Abookchak #0" = 1
+	"Ahapi #0" = 1
+	"Kemit #0" = 1
+	"Miskwecanou #0" = 1
+	"Weminsqua #0" = 1
+	"Opechatan #0" = 1
+	"Takhild #0" = 1
+	"Watsepun #0" = 1
+	"Astomas #0" = 1
+
+	"Abesoom" = -1
+	"Anangote" = -1
+	"Ngoka" = -1
+	"Soundassaw" = -1
+	"Komaya" = -1
+	"Wawage" = -1
+	"Daaba" = -1
+	"Chego" = -1
+	"Amashakwi" = -1
+	"Anis" = -1
+	"Inikimak" = -1
+	"Tsinnima" = -1
+	"Ipitomawa" = -1
+	"Kaisowe" = -1
+	"Iwedinaa" = -1
+	"Maemang" = -1
+	"Misnaawa" = -1
+	"Oigunoton" = -1
+	"Osamkwas" = -1
+	"Sinokanma" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,16 @@
+add_core = OAS
+owner = OAS
+controller = OAS
+culture = hajjid
+religion = shuri
+hre = yes
+
+base_tax = 12
+base_production = 12
+base_manpower = 11
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

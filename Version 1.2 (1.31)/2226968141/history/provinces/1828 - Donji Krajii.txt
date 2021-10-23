@@ -1,0 +1,16 @@
+add_core = ATM
+owner = ATM
+controller = ATM
+culture = minathi
+religion = yorik
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 4
+
+trade_goods = gold
+capital = "Munirn"
+is_city = yes
+discovered_by = western
+fort_15th = yes

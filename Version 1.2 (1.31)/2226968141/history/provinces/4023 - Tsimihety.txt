@@ -1,0 +1,15 @@
+add_core = AHK
+owner = AHK
+controller = AHK
+culture = slaver
+religion = shuri
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Asadd"
+is_city = yes
+discovered_by = western

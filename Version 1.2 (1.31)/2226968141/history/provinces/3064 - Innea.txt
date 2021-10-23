@@ -1,0 +1,16 @@
+add_core = RAM
+owner = RAM
+controller = RAM
+culture = gastal
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = beer
+capital = "Wadrun"
+is_city = yes
+discovered_by = western
+fort_15th = yes

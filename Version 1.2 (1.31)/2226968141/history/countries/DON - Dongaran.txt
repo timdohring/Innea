@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 15
+technology_group = western
+religion = ejje_nvek
+primary_culture = dongan
+capital = 2424
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Yoxal -"
+		dynasty = "Isstan"
+		birth_date = 1380.7.27
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+

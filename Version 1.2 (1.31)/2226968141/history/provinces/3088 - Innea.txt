@@ -1,0 +1,15 @@
+add_core = MIS
+owner = MIS
+controller = MIS
+culture = misral
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Darppo"
+is_city = yes
+discovered_by = western

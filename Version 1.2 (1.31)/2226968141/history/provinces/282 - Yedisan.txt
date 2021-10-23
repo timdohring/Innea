@@ -1,0 +1,17 @@
+add_core = CVL
+owner = CVL
+controller = CVL
+culture = soling
+religion = brilthic_church
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = horses
+capital = "Caval"
+is_city = yes
+discovered_by = western
+
+

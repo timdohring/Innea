@@ -1,0 +1,15 @@
+add_core = AWL
+owner = AWL
+controller = AWL
+culture = awk
+religion = birdmother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2 
+
+trade_goods = pearl
+capital = "Drauth"
+is_city = yes
+discovered_by = western

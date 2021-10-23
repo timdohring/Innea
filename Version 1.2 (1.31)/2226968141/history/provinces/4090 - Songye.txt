@@ -1,0 +1,16 @@
+add_core = PSO
+owner = PSO
+controller = PSO
+culture = wasut
+religion = ametic
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = red_sugar
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

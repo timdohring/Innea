@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = othan
+religion = blood_cult
+hre = no
+
+add_core = HEA
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = slaves
+capital = "Gorthoge"
+is_city = yes
+discovered_by = western

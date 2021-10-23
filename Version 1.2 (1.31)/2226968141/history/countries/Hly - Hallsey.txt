@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = haaken
+capital = 112
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Bjorn"
+		dynasty = "Long-Axe"
+		birth_date = 1402.3.18
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+}
+

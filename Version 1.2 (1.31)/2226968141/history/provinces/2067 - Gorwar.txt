@@ -1,0 +1,15 @@
+add_core = MAU
+owner = MAU
+controller = MAU
+culture = wla
+religion = ashar
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = honey
+capital = "Dakan"
+is_city = yes
+discovered_by = western

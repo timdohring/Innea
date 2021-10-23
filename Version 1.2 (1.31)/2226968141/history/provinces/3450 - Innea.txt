@@ -1,0 +1,15 @@
+add_core = TAY
+owner = TAY
+controller = TAY
+culture = akoloan
+religion = vua_avaku
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = shellfish
+capital = "Uonhfua"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = stone
+capital = "Yonder"
+is_city = yes
+discovered_by = western
+
+

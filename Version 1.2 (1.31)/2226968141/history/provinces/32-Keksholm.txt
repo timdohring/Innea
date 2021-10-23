@@ -1,0 +1,19 @@
+#Karelen, incl. Sordavala and Keksholm.
+
+
+add_core = SKU
+owner = SKU
+controller = SKU
+culture = ykran
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 7
+
+trade_goods = fur
+capital = "Skund"
+is_city = yes
+discovered_by = western
+fort_15th = yes

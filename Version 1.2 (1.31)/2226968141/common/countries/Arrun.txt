@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 190  35  37 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Amit #0" = 1
+	"Enguerr #0" = 1
+	"Teudes #0" = 1
+	"Barnier #0" = 1
+	"Eoffrain #0" = 1
+	"Hidie #0" = 1
+	"Losse #0" = 1
+	"Gehan #0" = 1
+	"Nosse #0" = 1
+	"Tuarin #0" = 1
+	"Muiscar #0" = 1
+	"Monfrai #0" = 1
+	"Ossard #0" = 1
+	"Biers #0" = 1
+	"Moul #0" = 1
+	"Rosse #0" = 1
+	"Ranquelin #0" = 1
+	"Rothber #0" = 1
+	"Vouill #0" = 1
+	"Arthis #0" = 1
+	"Ulban #0" = 1
+	"Damand #0" = 1
+	"Reymour #0" = 1
+	"Baunoit #0" = 1
+	"Chesaite #0" = 1
+	"Dieris #0" = 1
+	"Flanand #0" = 1
+	"Gauges #0" = 1
+	"Vainpard #0" = 1
+	"Huston #0" = 1
+
+	"Vateline" = -1
+	"Emee" = -1
+	"Aulis" = -1
+	"Lisabeauc" = -1
+	"Mehanne" = -1
+	"Nohanne" = -1
+	"Teslisand" = -1
+	"Ulltie" = -1
+	"Derabeauc" = -1
+	"Colisse" = -1
+	"Ilaide" = -1
+	"Ragnes" = -1
+	"Talana" = -1
+	"Vanelle" = -1
+	"Ubrea" = -1
+	"Darde" = -1
+	"Chloen" = -1
+	"Achlaresse" = -1
+	"Essvieu" = -1
+	"Sorathee" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

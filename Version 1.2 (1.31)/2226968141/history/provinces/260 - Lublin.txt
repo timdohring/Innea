@@ -1,0 +1,18 @@
+add_core = EDI
+owner = EDI
+controller = EDI
+culture = lower_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Hodwyn's Grove"
+is_city = yes
+discovered_by = western
+
+
+

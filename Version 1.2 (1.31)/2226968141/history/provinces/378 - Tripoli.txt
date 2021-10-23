@@ -1,0 +1,18 @@
+add_core = RHO
+owner = RHO
+controller = RHO
+culture = rhaur
+religion = syllari_temple
+hre = no
+
+base_tax = 10
+base_production = 10
+base_manpower = 10
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

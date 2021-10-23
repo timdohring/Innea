@@ -1,0 +1,15 @@
+add_core = IRO
+owner = IRO
+controller = IRO
+culture = iron_orc
+religion = sea_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = whales
+capital = "Ashag"
+is_city = yes
+discovered_by = western

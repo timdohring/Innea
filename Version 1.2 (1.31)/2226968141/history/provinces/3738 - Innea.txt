@@ -1,0 +1,15 @@
+add_core = KUA
+owner = KUA
+controller = KUA
+culture = hakaz
+religion = abai
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = herbs
+capital = "Keltengah"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = KES
+owner = KES
+controller = KES
+culture = awk
+religion = birdmother
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = copper
+capital = "Fallow's Burn"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = AFA
+owner = AFA
+controller = AFA
+culture = okyma
+religion = woodmother
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = fur
+capital = "Dianroha"
+is_city = yes
+discovered_by = western

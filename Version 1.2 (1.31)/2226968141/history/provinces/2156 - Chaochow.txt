@@ -1,0 +1,16 @@
+add_core = ASV
+owner = ASV
+controller = ASV
+culture = ashlati
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = obsidian
+capital = "Tenas"
+is_city = yes
+discovered_by = western
+fort_15th = yes

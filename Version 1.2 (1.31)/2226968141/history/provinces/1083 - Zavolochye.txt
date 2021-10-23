@@ -1,0 +1,16 @@
+add_core = COT
+add_core = MOT
+owner = COT
+controller = COT
+culture = mothmen
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 7
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Moth"
+is_city = yes
+discovered_by = western

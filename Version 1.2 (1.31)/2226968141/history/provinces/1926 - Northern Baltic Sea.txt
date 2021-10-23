@@ -1,0 +1,15 @@
+add_core = KNT
+owner = KNT
+controller = KNT
+culture = sgawe
+religion = lakemother
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Gaahnu"
+is_city = yes
+discovered_by = western

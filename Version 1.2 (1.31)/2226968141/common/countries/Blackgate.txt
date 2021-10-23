@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {94 39 73 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Karayan #0" = 1
+	"Demivex #0" = 1
+	"Salvozabra #0" = 1
+	"Shados #0" = 1
+	"Norrdes #0" = 1
+	"Mazuk #0" = 1
+	"Elam #0" = 1
+	"Gosskel #0" = 1
+	"Ark #0" = 1
+	"Throl #0" = 1
+	"Hadik #0" = 1
+	"Naxxo #0" = 1
+	"Xelem #0" = 1
+	"Keethranth #0" = 1
+	"Abranth #0" = 1
+	"Alarix #0" = 1
+	"Cyablud #0" = 1
+	"Arkzla #0" = 1
+	"Nebun #0" = 1
+	"Wizlan #0" = 1
+
+	"Amaranth" = -1
+	"Lithio" = -1
+	"Xixsara" = -1
+	"Savixa" = -1
+	"Lunos" = -1
+	"Alabastra" = -1
+	"Alemki" = -1
+	"Karlena" = -1
+	"Rubi" = -1
+	"Nylo" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

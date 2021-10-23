@@ -1,0 +1,15 @@
+add_core = KHU
+owner = KHU
+controller = KHU
+culture = wasut
+religion = ametic
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = red_sugar
+capital = "Ta-Senekhet"
+is_city = yes
+discovered_by = western

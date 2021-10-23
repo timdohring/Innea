@@ -1,0 +1,15 @@
+add_core = NAD
+owner = NAD
+controller = NAD
+culture = dena
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = cotton
+capital = "Jeddran"
+is_city = yes
+discovered_by = western

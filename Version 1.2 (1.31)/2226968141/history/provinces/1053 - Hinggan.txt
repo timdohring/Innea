@@ -1,0 +1,16 @@
+add_core = ACR
+add_core = VEN
+owner = ACR
+controller = ACR
+culture = ventrian
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = grain
+capital = "Thornal"
+is_city = yes
+discovered_by = western

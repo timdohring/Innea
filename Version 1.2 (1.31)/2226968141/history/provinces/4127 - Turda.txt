@@ -1,0 +1,11 @@
+
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+capital = "Reefbay"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

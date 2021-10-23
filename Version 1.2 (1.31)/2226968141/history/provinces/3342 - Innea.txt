@@ -1,0 +1,15 @@
+add_core = KER
+owner = KER
+controller = KER
+culture = kerri
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = red_sugar
+capital = "Hanhari"
+is_city = yes
+discovered_by = western

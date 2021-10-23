@@ -1,0 +1,12 @@
+culture = rhaangoli
+religion = flame_temple
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+capital = "Pakar"
+is_city = yes
+tribal_owner = AGO
+discovered_by = western

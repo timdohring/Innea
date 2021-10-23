@@ -1,0 +1,18 @@
+add_core = RAL
+owner = RAL
+controller = RAL
+culture = laghan
+religion = sea_cult
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = coal
+capital = "Ey"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+
+

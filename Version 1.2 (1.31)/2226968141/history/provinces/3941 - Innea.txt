@@ -1,0 +1,17 @@
+add_core = KAQ
+owner = KAQ
+controller = KAQ
+culture = qaftal
+religion = abai
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = incense
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

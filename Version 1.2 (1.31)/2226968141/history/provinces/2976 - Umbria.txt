@@ -1,0 +1,16 @@
+add_core = ZEM
+owner = ZEM
+controller = ZEM
+culture = kesh
+religion = shuri
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 6
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

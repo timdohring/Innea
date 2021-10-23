@@ -1,0 +1,15 @@
+add_core = RUS
+owner = RUS
+controller = RUS
+culture = wastelander
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = slaves
+capital = "Uskar Vel"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = MRP
+owner = MRP
+controller = MRP
+culture = black_islander
+religion = blood_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 6
+
+trade_goods = slaves
+capital = "Mutant's Harbour"
+is_city = yes
+discovered_by = western

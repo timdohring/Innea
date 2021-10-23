@@ -1,0 +1,15 @@
+add_core = HAQ
+owner = HAQ
+controller = HAQ
+culture = qaftal
+religion = abai
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Riffali"
+is_city = yes
+discovered_by = western

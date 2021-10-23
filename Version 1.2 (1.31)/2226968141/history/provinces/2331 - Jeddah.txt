@@ -1,0 +1,15 @@
+add_core = UTE
+owner = UTE
+controller = UTE
+culture = gildan
+religion = star_house
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Reachwood"
+is_city = yes
+discovered_by = western

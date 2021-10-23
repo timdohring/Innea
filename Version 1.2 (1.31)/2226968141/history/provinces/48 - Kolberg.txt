@@ -1,0 +1,18 @@
+#48 - Kolberg
+
+
+add_core = RAS
+owner = RAS
+controller = RAS
+culture = dargish
+religion = yoneth
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 4
+
+trade_goods = stone
+capital = "Roskir's Rock"
+is_city = yes
+discovered_by = western

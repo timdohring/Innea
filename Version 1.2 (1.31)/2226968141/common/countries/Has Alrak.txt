@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 140  169  183}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Abbus #0" = 1
+	"Abdas #0" = 1
+	"Ahalon #0" = 1
+	"Akim #0" = 1
+	"Altasil #0" = 1
+	"Bahir #0" = 1
+	"Harim #0" = 1
+	"Rahmad #0" = 1
+	"Maluf #0" = 1
+	"Shirun #0" = 1
+	"Qasid #0" = 1
+	"Raad #0" = 1
+	"Katuf #0" = 1
+	"Anwasamir #0" = 1
+	"Fahdaq #0" = 1
+	"Fuq #0" = 1
+	"Zaifar #0" = 1
+	"Usar #0" = 1
+	"Usmol #0" = 1
+	"Malil #0" = 1
+	"Jamase #0" = 1
+	"Jerash #0" = 1
+	"Atubak #0" = 1
+	"Basris #0" = 1
+	"Uqalad #0" = 1
+	"Shemir #0" = 1
+	"Kad #0" = 1
+	"Umal #0" = 1
+	"Yousul #0" = 1
+	"Foun #0" = 1
+
+	"Saidail" = -1
+	"Asana" = -1
+	"Faimi" = -1
+	"Suharet" = -1
+	"Tawra" = -1
+	"Faimo" = -1
+	"Fati" = -1
+	"Anlia" = -1
+	"Cenia" = -1
+	"Haloda" = -1
+	"Marina" = -1
+	"Ranala" = -1
+	"Safila" = -1
+	"Fiyaran" = -1
+	"Majoda" = -1
+	"Douna" = -1
+	"Usmala" = -1
+	"Jera" = -1
+	"Ahala" = -1
+	"Usa" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

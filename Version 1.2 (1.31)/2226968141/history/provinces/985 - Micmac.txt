@@ -1,0 +1,17 @@
+add_core = MFZ
+owner = MFZ
+controller = MFZ
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 7
+
+trade_goods = fireiron
+capital = "Viudeco"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

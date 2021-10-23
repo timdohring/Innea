@@ -1,0 +1,18 @@
+add_core = CHA
+owner = CHA
+controller = CHA
+culture = murrian
+religion = altran_church
+hre = no
+
+base_tax = 14
+base_production = 16
+base_manpower = 11
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

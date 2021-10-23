@@ -1,0 +1,15 @@
+add_core = PAL
+owner = PAL
+controller = PAL
+culture = paldic
+religion = iskari_temple
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = ivory
+capital = "Nalta"
+is_city = yes
+discovered_by = western

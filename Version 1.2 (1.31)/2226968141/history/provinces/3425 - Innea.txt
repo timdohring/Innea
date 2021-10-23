@@ -1,0 +1,15 @@
+add_core = KAJ
+owner = KAJ
+controller = KAJ
+culture = kaji
+religion = ojal
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = grain
+capital = "Ratana"
+is_city = yes
+discovered_by = western

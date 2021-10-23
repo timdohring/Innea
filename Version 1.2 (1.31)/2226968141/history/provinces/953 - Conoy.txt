@@ -1,0 +1,15 @@
+add_core = VIV
+owner = VIV
+controller = VIV
+culture = villacian
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 3
+
+trade_goods = incense
+capital = "Jullum Tabea"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = DON
+owner = DON
+controller = DON
+culture = dongan
+religion = ejje_nvek
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

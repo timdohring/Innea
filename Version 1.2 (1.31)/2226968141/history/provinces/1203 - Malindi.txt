@@ -1,0 +1,15 @@
+add_core = IIM
+owner = IIM
+controller = IIM
+culture = iil
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Aqasait"
+is_city = yes
+discovered_by = western

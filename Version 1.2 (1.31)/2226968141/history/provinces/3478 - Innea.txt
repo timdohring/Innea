@@ -1,0 +1,15 @@
+add_core = TOM
+owner = TOM
+controller = TOM
+culture = ikathian
+religion = sea_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Expatrite"
+is_city = yes
+discovered_by = western

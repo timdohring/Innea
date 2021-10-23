@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 106  178  46 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Darren #0" = 1
+	"Haill #0" = 1
+	"Festem #0" = 1
+	"Kodren #0" = 1
+	"Alredde #0" = 1
+	"Kenrikk #0" = 1
+	"Kayneborne #0" = 1
+	"Edde #0" = 1
+	"Torran #0" = 1
+	"Oskairn #0" = 1
+	"Leosborre #0" = 1
+	"Uthrin #0" = 1
+	"Osmarn #0" = 1
+	"Veldmar #0" = 1
+	"Hanrey #0" = 1
+	"Rannan #0" = 1
+	"Borswain #0" = 1
+	"Alwen #0" = 1
+	"Alron #0" = 1
+	"Salakar #0" = 1
+	"Diewert #0" = 1
+	"Atse #0" = 1
+	"Heiek #0" = 1
+	"Japell #0" = 1
+	"Jurryht #0" = 1
+	"Klaesrikk #0" = 1
+	"Hitter #0" = 1
+	"Tieden #0" = 1
+	"Waatje #0" = 1
+	"Wubje #0" = 1
+	"Thomar #0" = 1
+	"Duwayn #0" = 1
+	"Pelter #0" = 1
+	"Sawan #0" = 1
+	"Mihde #0" = 1
+	"Shuhras #0" = 1
+	"Shekrur #0" = 1
+	"Amur #0" = 1
+	"Dilshaz #0" = 1
+	"Alishazmat #0" = 1
+
+	"Entje" = -1
+	"Diewekka" = -1
+	"Henna" = -1
+	"Imkje" = -1
+	"Taike" = -1
+	"Linke" = -1
+	"Jella" = -1
+	"Siette" = -1
+	"Atake" = -1
+	"Denne" = -1
+	"Kara" = -1
+	"Hura" = -1
+	"Marathe" = -1
+	"Tora" = -1
+	"Ona" = -1
+	"Kenrayl" = -1
+	"Narin" = -1
+	"Ala" = -1
+	"Dasa" = -1
+	"Loutwain" = -1
+	"Sarwain" = -1
+	"Heieka" = -1
+	"Maro" = -1
+	"Deunith" = -1
+	"Esla" = -1
+	"Jotanna" = -1
+	"Alwith" = -1
+	"Alinn" = -1
+	"Alswirda" = -1
+	"Aila" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

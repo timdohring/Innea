@@ -1,0 +1,15 @@
+add_core = SLK
+owner = SLK
+controller = SLK
+culture = okyma
+religion = woodmother
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+trade_goods = herbs
+capital = "Vondosohi"
+is_city = yes
+discovered_by = western

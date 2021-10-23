@@ -1,0 +1,18 @@
+#116 - Firenze
+
+
+add_core = HAL
+owner = HAL
+controller = HAL
+culture = haaken
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = "Adriggan"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = NAK
+owner = NAK
+controller = NAK
+add_core = ZEI
+culture = zeiy
+religion = nursari_temple
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 4
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western

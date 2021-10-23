@@ -1,0 +1,15 @@
+add_core = VAT
+owner = VAT
+controller = VAT
+culture = manafi
+religion = woodmother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Dramainabo"
+is_city = yes
+discovered_by = western

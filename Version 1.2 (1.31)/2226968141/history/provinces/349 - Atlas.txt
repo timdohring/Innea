@@ -1,0 +1,15 @@
+add_core = NIE
+owner = NIE
+controller = NIE
+culture = nievan
+religion = murtharic
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Lugowka"
+is_city = yes
+discovered_by = western

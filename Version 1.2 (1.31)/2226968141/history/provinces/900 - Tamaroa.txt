@@ -1,0 +1,15 @@
+add_core = MYL
+owner = MYL
+controller = MYL
+culture = mylith
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 3
+
+trade_goods = herbs
+capital = "Psaupact"
+is_city = yes
+discovered_by = western

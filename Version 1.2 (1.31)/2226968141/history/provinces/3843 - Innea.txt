@@ -1,0 +1,15 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+culture = sari
+religion = ishuli
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = cotton
+capital = "Damnan"
+is_city = yes
+discovered_by = western

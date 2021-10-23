@@ -1,0 +1,15 @@
+add_core = RAA
+owner = RAA
+controller = RAA
+culture = raalic
+religion = horsemother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Ersam"
+is_city = yes
+discovered_by = western

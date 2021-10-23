@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 153  0 0 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Daran #0" = 1
+	"Kodrin #0" = 1
+	"Alredder #0" = 1
+	"Kenrik #0" = 1
+	"Toran #0" = 1
+	"Oskar #0" = 1
+	"Utdrin #0" = 1
+	"Veldmar #0" = 1
+	"Salakan #0" = 1
+	"Atse #0" = 1
+	"Klasrik #0" = 1
+	"Tiden #0" = 1
+	"Waten #0" = 1
+	"Midde #0" = 1
+	"Peltar #0" = 1
+	"Kasbert #0" = 1
+	"Alof #0" = 1
+	"Artin #0" = 1
+	"Burn #0" = 1
+	"Dahart #0" = 1
+	"Ebhart #0" = 1
+	"Frehart #0" = 1
+	"Gerhilf #0" = 1
+	"Harthold #0" = 1
+	"Mutans #0" = 1
+	"Huchim #0" = 1
+	"Jochmar #0" = 1
+	"Karlsten #0" = 1
+	"Leonart #0" = 1
+	"Malria #0" = 1
+	"Thishard #0" = 1
+	"Moklas #0" = 1
+	"Ritzmar #0" = 1
+	"Pasmund #0" = 1
+	"Rechard #0" = 1
+	"Sastian #0" = 1
+	"Stester #0" = 1
+	"Tonsten #0" = 1
+	"Urs #0" = 1
+	"Volkedel #0" = 1
+
+	"Ente" = -1
+	"Hena" = -1
+	"Imke" = -1
+	"Taika" = -1
+	"Linka" = -1
+	"Jela" = -1
+	"Sietta" = -1
+	"Atake" = -1
+	"Denna" = -1
+	"Kara" = -1
+	"Maethe" = -1
+	"Onade" = -1
+	"Allana" = -1
+	"Ailane" = -1
+	"Eslane" = -1
+	"Bada" = -1
+	"Alreda" = -1
+	"Melia" = -1
+	"Ganika" = -1
+	"Tagma" = -1
+	"Elsi" = -1
+	"Fruin" = -1
+	"Gadweida" = -1
+	"Ilani" = -1
+	"Jennabell" = -1
+	"Lienel" = -1
+	"Ina" = -1
+	"Marne" = -1
+	"Ditzi" = -1
+	"Sibilsia" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = BLD
+owner = BLD
+controller = BLD
+culture = black_orc
+religion = ashar
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+capital = "Siab"
+is_city = yes
+discovered_by = western

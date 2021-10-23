@@ -1,0 +1,15 @@
+add_core = ESM
+owner = ESM
+controller = ESM
+culture = varal
+religion = dead_house
+hre = no
+
+base_tax = 10
+base_production = 9
+base_manpower = 10
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western

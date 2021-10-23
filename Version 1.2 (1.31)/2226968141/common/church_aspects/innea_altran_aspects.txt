@@ -1,0 +1,87 @@
+a1_aspect = {
+	cost = 100
+	modifier = {
+		army_tradition = 1		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a2_aspect = {
+	cost = 100
+	modifier = {
+		global_regiment_cost = -0.15	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a3_aspect = {
+	cost = 100
+	modifier = {
+		leader_land_shock = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a4_aspect = {
+	cost = 100
+	modifier = {
+		light_ship_cost = -0.2	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a5_aspect = {
+	cost = 100
+	modifier = {
+		diplomatic_upkeep = 2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a6_aspect = {
+	cost = 100
+	modifier = {
+		ae_impact = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a7_aspect = {
+	cost = 100
+	modifier = {
+		idea_cost = -0.1	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+a8_aspect = {
+	cost = 100
+	modifier = {
+		heir_chance = 2.0
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}

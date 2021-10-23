@@ -1,0 +1,16 @@
+add_core = NEF
+owner = NEF
+controller = NEF
+culture = khimut
+religion = ametic
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

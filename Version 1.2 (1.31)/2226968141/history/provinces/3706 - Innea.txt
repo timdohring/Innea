@@ -1,0 +1,15 @@
+add_core = DRM
+owner = DRM
+controller = DRM
+culture = dremoran
+religion = throne_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Udra"
+is_city = yes
+discovered_by = western

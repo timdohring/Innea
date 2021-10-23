@@ -1,0 +1,15 @@
+add_core = TYR
+owner = TYR
+controller = TYR
+culture = kyfan
+religion = fyzajak
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = fireiron
+capital = "Megaljak"
+is_city = yes
+discovered_by = western

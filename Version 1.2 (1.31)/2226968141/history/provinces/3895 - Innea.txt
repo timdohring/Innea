@@ -1,0 +1,15 @@
+add_core = SYS
+owner = SYS
+controller = SYS
+culture = saynan
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Yarj"
+is_city = yes
+discovered_by = western

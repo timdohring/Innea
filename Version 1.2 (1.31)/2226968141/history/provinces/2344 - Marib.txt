@@ -1,0 +1,15 @@
+add_core = SUL
+owner = SUL
+controller = SUL
+culture = suldan
+religion = ejje_nvek
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = fish
+capital = "Ha'ahzd"
+is_city = yes
+discovered_by = western

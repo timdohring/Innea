@@ -1,0 +1,17 @@
+add_core = DEB
+owner = DEB
+controller = DEB
+culture = aven
+religion = the_coin
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 8
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+
+

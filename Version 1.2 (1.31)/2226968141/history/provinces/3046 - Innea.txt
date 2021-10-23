@@ -1,0 +1,16 @@
+add_core = QUS
+owner = QUS
+controller = QUS
+culture = mafouin
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Khurbaya"
+is_city = yes
+discovered_by = western
+fort_15th = yes

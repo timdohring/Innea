@@ -1,0 +1,16 @@
+add_core = NAD
+owner = NAD
+controller = NAD
+culture = dena
+religion = shuri
+hre = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = livestock
+capital = "Medissin"
+is_city = yes
+discovered_by = western
+fort_15th = yes

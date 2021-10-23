@@ -1,0 +1,128 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 98 58 109 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Anas #0" = 1
+	"Alor #0" = 1
+	"Arvath #0" = 1
+	"Ardin #0" = 1
+	"Athos #0" = 1
+	"Belad #0" = 1
+	"Braveth #0" = 1
+	"Beses #0" = 1
+	"Borvus #0" = 1
+	"Daltho #0" = 1
+	"Daynith #0" = 1
+	"Deradon #0" = 1
+	"Durith #0" = 1
+	"Elem #0" = 1
+	"Endras #0" = 1
+	"Fellor #0" = 1
+	"Frov #0" = 1
+	"Farvar #0" = 1
+	"Folyr #0" = 1
+	"Galadis #0" = 1
+	"Gilsoth #0" = 1
+	"Gelth #0" = 1
+	"Lladriel #0" = 1
+	"Hlorn #0" = 1
+	"Hlasevan #0" = 1
+	"Odrin #0" = 1
+	"Odrev #0" = 1
+	"Sarim #0" = 1
+	"Mathis #0" = 1
+	"Mothryn #0" = 1
+	"Son #0" = 1
+	"Serevyn #0" = 1
+	"Tenuviel #0" = 1
+	"Terevain #0" = 1
+	"Toldrath #0" = 1
+	"Sinuth #0" = 1
+	"Viras #0" = 1
+	"Vyvain #0" = 1
+	"Vonur #0" = 1
+	"Ulvar #0" = 1
+
+	"Ada" = -1
+	"Arva" = -1
+	"Avra" = -1
+	"Ethos" = -1
+	"Aldina" = -1
+	"Deradran" = -1
+	"Tolsin" = -1
+	"Tenma" = -1
+	"Belvasu" = -1
+	"Ulvar" = -1
+	"Sa" = -1
+	"Tenmora" = -1
+	"Vira" = -1
+	"Vyva" = -1
+	"Vonu" = -1
+	"Galavi" = -1
+	"Enora" = -1
+	"Medossa" = -1
+	"Managi" = -1
+	"Olvatha" = -1
+	"Veratu" = -1
+	"Verau" = -1
+	"Sasenna" = -1
+	"Siluan" = -1
+	"Vivassa" = -1
+	"Ninare" = -1
+	"Hlani" = -1
+	"Sena" = -1
+	"Thesi" = -1
+	"Midragil" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

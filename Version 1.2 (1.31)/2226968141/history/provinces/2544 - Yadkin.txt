@@ -1,0 +1,15 @@
+add_core = ROO
+owner = ROO
+controller = ROO
+culture = weyk
+religion = ewafari_temple
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = spices
+capital = "Guwan"
+is_city = yes
+discovered_by = western

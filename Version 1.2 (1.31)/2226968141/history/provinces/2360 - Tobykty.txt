@@ -1,0 +1,15 @@
+add_core = GOZ
+owner = GOZ
+controller = GOZ
+culture = mokta
+religion = goz
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = honey
+capital = "Fell"
+is_city = yes
+discovered_by = western

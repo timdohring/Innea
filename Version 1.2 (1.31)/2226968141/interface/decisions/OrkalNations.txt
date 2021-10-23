@@ -1,0 +1,218 @@
+country_decisions = {
+
+	# Unite Halmskr
+	unite_halmskr = {
+		major = yes
+		potential = {
+			NOT = { tag = HLM }
+			NOT = { has_country_flag = formed_halmskr_flag }
+			has_reform = great_chiefdom
+			any_country = {
+				vassal_of = ROOT
+				OR = {
+					has_reform = orkal_kingdom
+					has_reform = baskar_kingdom
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2068
+				province_id = 2043
+				province_id = 2071
+				province_id = 2060
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			NOT = { exists = HLM }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			num_of_cities = 25
+			owns = 2068
+			owns = 2043
+			owns = 2071
+			owns = 2060
+		}
+		effect = {
+			remove_government_reform = great_chiefdom
+			set_government_rank = 5
+			custom_tooltip = unite_japan_subject_tooltip
+			hidden_effect = {
+				every_subject_country = {
+					limit = {
+						has_reform = orkal_kingdom
+					}
+					ROOT = {
+						free_vassal = PREV
+					}
+					remove_government_reform = orkal_kingdom
+					every_owned_province = {
+						remove_core = HLM
+					}
+				}
+				every_subject_country = {
+					limit = {
+						has_reform = baskar_kingdom
+					}
+					ROOT = {
+						free_vassal = PREV
+					}
+					remove_government_reform = baskar_kingdom
+					every_owned_province = {
+						remove_core = HLM
+					}
+				}
+			}
+			change_tag = HLM
+			set_country_flag = formed_halmskr_flag
+			add_government_reform = orcish_empire
+			swap_non_generic_missions = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			halmskr_superregion = {
+				add_permanent_claim = HLM
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_cities = 30 }
+			}
+		}
+	}
+	
+	# United Halmskr
+	united_halmskr = {
+		major = yes
+		potential = {
+			has_reform = great_chiefdom
+			NOT = { has_country_flag = formed_halmskr_flag }
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = HLM }
+		}
+		allow = {
+			NOT = { exists = HLM }
+			is_free_or_tributary_trigger = yes
+			owns = 2068
+			owns = 2043
+			owns = 2071
+			owns = 2060
+			all_country = {
+				NOT = {
+					OR = {
+						has_reform = orkal_kingdom
+						has_reform = baskar_kingdom
+					}
+				}
+				NOT = {
+					OR = {
+						has_reform = indep_orkal_kingdom
+						has_reform = indep_baskar_kingdom
+					}
+				}
+			}
+			is_at_war = no
+		}
+		effect = {
+			change_tag = HLM
+			remove_government_reform = great_chiefdom
+			set_country_flag = formed_halmskr_flag
+			set_government_rank = 5
+			add_government_reform = orcish_empire
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			swap_non_generic_missions = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			halmskr_superregion = {
+				add_permanent_claim = HLM
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# United Halmskr
+	united_halsmkr_daimyo = {
+		major = yes
+		potential = {
+			NOT = { tag = HLM }
+			NOT = { has_country_flag = formed_halmskr_flag }
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_reform = great_chiefdom }
+			OR = {
+					culture_group = zgo
+					culture_group = mdari
+					culture_group = orkal
+					culture_group = kuzic
+				}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2068
+				province_id = 2043
+				province_id = 2071
+				province_id = 2060
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			NOT = { exists = HLM }
+			is_free_or_tributary_trigger = yes
+			owns = 2068
+			owns = 2043
+			owns = 2071
+			owns = 2060
+			all_country = {
+				OR = {
+					tag = ROOT
+					AND = {
+						NOT = { has_reform = orkal_kingdom }
+						NOT = { has_reform = indep_orkal_kingdom }
+						NOT = { has_reform = baskar_kingdom }
+						NOT = { has_reform = indep_baskar_kingdom }
+						NOT = { has_reform = great_chiefdom }
+					}
+				}
+			}
+			is_at_war = no
+		}
+		effect = {
+			change_tag = HLM
+			set_country_flag = formed_halmskr_flag
+			remove_non_electors_emperors_from_empire_effect = yes
+			remove_government_reform = orkal_kingdom
+			remove_government_reform = indep_orkal_kingdom
+			remove_government_reform = baskar_kingdom
+			remove_government_reform = indep_baskar_kingdom
+			set_government_rank = 5
+			add_government_reform = orcish_empire
+			add_legitimacy = 100
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			swap_non_generic_missions = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			halmskr_superregion = {
+				add_permanent_claim = HLM
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

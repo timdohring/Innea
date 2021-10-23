@@ -1,0 +1,17 @@
+add_core = GON
+owner = GON
+controller = GON
+culture = ogol
+religion = ashar
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 13
+
+trade_goods = tea
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

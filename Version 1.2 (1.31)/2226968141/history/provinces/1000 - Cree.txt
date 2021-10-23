@@ -1,0 +1,18 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = dianean
+religion = the_one_truth
+hre = no
+
+base_tax = 17
+base_production = 12
+base_manpower = 17
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

@@ -1,0 +1,16 @@
+add_core = MAJ
+owner = MAJ
+controller = MAJ
+culture = maju
+religion = ojal
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = honey
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

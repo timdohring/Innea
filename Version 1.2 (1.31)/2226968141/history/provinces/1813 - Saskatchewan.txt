@@ -1,0 +1,15 @@
+add_core = DVE
+owner = DVE
+controller = DVE
+culture = minathi
+religion = yorik
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Udarak"
+is_city = yes
+discovered_by = western

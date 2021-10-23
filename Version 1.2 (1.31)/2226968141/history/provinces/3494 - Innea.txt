@@ -1,0 +1,12 @@
+
+culture = druhn
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+capital = "Gumbat"
+is_city = yes
+discovered_by = western

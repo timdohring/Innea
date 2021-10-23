@@ -1,0 +1,12 @@
+culture = celayphean
+religion = quatzalotl
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+capital = "Salaphya"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

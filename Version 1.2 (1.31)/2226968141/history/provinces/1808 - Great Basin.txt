@@ -1,0 +1,16 @@
+add_core = REK
+owner = REK
+controller = REK
+culture = rekar
+religion = yorik
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = gold
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

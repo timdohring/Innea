@@ -1,0 +1,98 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 138  193  231 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Apa #0" = 1
+	"Beinvor #0" = 1
+	"Elia #0" = 1
+	"Shano #0" = 1
+	"Pulas #0" = 1
+	"Eun #0" = 1
+	"Issitir #0" = 1
+	"Shanin #0" = 1
+	"Obo #0" = 1
+	"Tenmui #0" = 1
+	"Leonliwil #0" = 1
+	"Derarada #0" = 1
+	"Ponshin #0" = 1
+	"Welossh #0" = 1
+	"Hounmi #0" = 1
+	"Astal #0" = 1
+	"Peinru #0" = 1
+	"Sirul #0" = 1
+	"Falanmissh #0" = 1
+	"Vorasshinmi #0" = 1
+
+	"Sou" = -1
+	"Deanas" = -1
+	"Shanous" = -1
+	"Issis" = -1
+	"Astas" = -1
+	"Sirus" = -1
+	"Deras" = -1
+	"Loenis" = -1
+	"Teniul" = -1
+	"Enmis" = -1
+	"Firalassh" = -1
+	"Dweonida" = -1
+	"Tols" = -1
+	"Mirmimes" = -1
+	"Valwu" = -1
+	"Ienwe" = -1
+	"Aew" = -1
+	"Uinn" = -1
+	"Ulai" = -1
+	"Onodassha" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

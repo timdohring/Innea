@@ -1,0 +1,275 @@
+# A region can only belong to one super region.
+
+varland_superregion = {
+	jarlgraf_bay_region 
+	north_varland_region 
+	south_varland_region 
+	varsk_isles_region 
+	drengyr_region 
+	nuqitut_region
+	tjalle_region
+}
+
+brythawn_superregion = {
+	upper_briltan_region
+	ywekan_isles_region
+	lower_briltan_region
+	highlands_region
+}
+
+commonwealth_superregion = {
+	achakk_region
+	allarnia_region
+	syllos_region
+	west_moltran_region
+	east_moltran_region
+	free_states_region
+	tradeshore_region
+}
+
+acryllia_superregion = {
+	the_goldvale_region
+	tauria_region
+	maetia_region
+	greater_cothonia_region
+	empirium_region
+	acryllian_coast_region
+}
+
+heartlands_superregion = {
+	taroq_region
+	north_teltran_region
+	central_teltran_region
+	teltran_coast_region
+	rivwoudn_basin_region
+}
+
+altvarik_mountains_superregion = {
+	isschi_region
+	aldarukk_region
+	othal_region
+	altvar_region
+}
+
+halmskr_superregion = {
+	iron_isles_region
+	vehk_region
+	east_halmskr_region
+	lostland_region
+	mdarak_region
+	blacklands_region
+	orkal_plain_region
+}
+
+sun_coast_superregion = {
+	gorsand_region
+	upper_elldranor_region
+	lower_elldranor_region
+	tavrayll_region
+	aeden_region
+	kalasen_region
+	sylten_region
+	lower_evermore_region
+	upper_evermore_region
+}
+
+midlands_superregion = {
+	great_forest_region
+	upper_falfedo_region
+	lower_falfedo_region
+	naktaviri_region
+	emidyne_steppe_region
+}
+
+awapetanh_superregion = {
+	katlamak_isles_region
+	ondedetanh_region
+	long_grass_steppe_region
+	five_lake_basin_region
+}
+
+waking_earth_superregion = {
+	broken_lands_region
+	tyrfak_region
+	doron_river_region
+	dragontail_mountains_region
+}
+
+bahdakur_superregion = {
+	arman_region
+	erlat_region
+	najan_region
+	raman_region
+	bahdak_bay_region
+	akkan_region
+	qash_region
+}
+
+cape_of_good_fortune_superregion = {
+	sahidan_region
+	rain_coast_region
+	hran_region
+}
+
+majukistan_superregion = {
+	bone_coast_region
+	jihar_region
+	charat_region
+	majeen_region
+}
+
+avatrea_superregion = {
+	bluethorn_isles_region
+	itholan_coast_region
+	mehedruhn_region
+	mathi_avales_region
+}
+
+handaan_plain_superregion = {
+	north_handaan_region
+	the_hand_region
+	south_handaan_region
+}
+
+akal_superregion = {
+	western_waste_region
+	dremor_region
+	krattang_region
+	barahun_region
+}
+
+anhya_superregion = {
+	rhaangol_region
+	sar_region
+	esh_region
+	bashkal_region
+}
+
+fuam_superregion = {
+	fartu_region
+	cataqan_region
+	saif_region
+	dass_lehm_region
+}
+
+red_coast_superregion = {
+	slavers_shore_region
+	zekran_region
+}
+
+coral_archipelago_superregion = {
+	coral_archipelago_region
+}
+
+innea_sea_superregion = {
+	south_innea_sea_region
+	north_innea_sea_region
+	west_innea_sea_region
+	east_innea_sea_region
+}
+
+astrea_sea_superregion = {
+	east_astrea_sea_region
+	west_astrea_sea_region
+}
+
+great_waters_superregion = {
+	great_waters_region
+}
+
+new_world_superregion ={
+}
+
+
+# Deprecated stuff so it doesnt crash
+
+
+india_superregion = {
+
+}
+
+east_indies_superregion = {
+
+}
+
+oceania_superregion = {
+
+}
+
+china_superregion = {
+
+}
+
+europe_superregion = { #Western Europe
+
+}
+
+eastern_europe_superregion = {
+	
+}
+
+tartary_superregion = {
+	
+}
+
+far_east_superregion = {
+	
+}
+
+africa_superregion = {
+
+}
+
+south_america_superregion = {
+
+}
+
+north_america_superregion = {
+	
+}
+
+central_america_superregion = {
+
+}
+
+near_east_superregion = {
+	
+}
+
+persia_superregion = {
+
+}
+
+# Sea super regions are used by AI to plan naval bases (it wants at least one fleet in each it has non-home presence if possible).
+
+west_american_sea_superregion = {
+
+}
+
+east_american_sea_superregion = {
+
+}
+
+north_european_sea_superregion = {
+	
+}
+
+south_european_sea_superregion = {
+
+}
+
+west_african_sea_superregion = {
+	
+}
+
+east_african_sea_superregion = {
+	
+}
+
+indian_pacific_sea_superregion = {
+	
+}
+
+north_pacific_sea_superregion = {
+	
+}

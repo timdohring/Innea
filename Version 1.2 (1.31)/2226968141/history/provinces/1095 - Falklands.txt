@@ -1,0 +1,16 @@
+add_core = COT
+add_core = ALE
+owner = COT
+controller = COT
+culture = alletanian
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = cotton
+capital = "Lottica"
+is_city = yes
+discovered_by = western

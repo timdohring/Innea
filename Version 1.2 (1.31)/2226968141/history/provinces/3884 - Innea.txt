@@ -1,0 +1,16 @@
+add_core = MOS
+owner = MOS
+controller = MOS
+culture = mosani
+religion = flame_temple
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = cotton
+capital = "Rambal"
+is_city = yes
+discovered_by = western
+fort_15th = yes

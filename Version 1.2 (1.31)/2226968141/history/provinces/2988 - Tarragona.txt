@@ -1,0 +1,15 @@
+add_core = YAZ
+owner = YAZ
+controller = YAZ
+culture = yazidi
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = sugar
+capital = "Dharib"
+is_city = yes
+discovered_by = western

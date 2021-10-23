@@ -1,0 +1,15 @@
+add_core = LPT
+owner = LPT
+controller = LPT
+culture = yoshi
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = ships
+capital = "Little Port"
+is_city = yes
+discovered_by = western

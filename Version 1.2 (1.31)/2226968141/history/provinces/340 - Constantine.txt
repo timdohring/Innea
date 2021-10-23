@@ -1,0 +1,15 @@
+add_core = OTV
+owner = OTV
+controller = OTV
+culture = darkwoodsmen
+religion = murtharic
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = fur
+capital = "Ghav"
+is_city = yes
+discovered_by = western

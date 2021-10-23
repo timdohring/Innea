@@ -1,0 +1,15 @@
+add_core = EVI
+owner = EVI
+controller = EVI
+culture = viellon
+religion = paisadox
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 8
+
+trade_goods = grain
+capital = "Talian"
+is_city = yes
+discovered_by = western

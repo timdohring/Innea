@@ -1,0 +1,16 @@
+add_core = ESU
+owner = ESU
+controller = ESU
+culture = eshin
+religion = ishuli
+hre = no
+
+base_tax = 10
+base_production = 10
+base_manpower = 11
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

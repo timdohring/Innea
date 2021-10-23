@@ -1,0 +1,15 @@
+add_core = ARN
+owner = ARN
+controller = ARN
+culture = tevarroix
+religion = blood_cult
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = grain
+capital = "Bringon"
+is_city = yes
+discovered_by = western

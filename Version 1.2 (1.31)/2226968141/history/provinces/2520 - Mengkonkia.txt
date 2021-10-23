@@ -1,0 +1,15 @@
+add_core = AST
+owner = AST
+controller = AST
+culture = astaen
+religion = ewafari_temple
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Weidlow"
+is_city = yes
+discovered_by = western

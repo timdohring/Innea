@@ -1,0 +1,16 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = beer
+capital = "Safbad"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = HTA
+owner = HTA
+controller = HTA
+culture = sadeonqua
+religion = lakemother
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = fungi
+capital = "Pakinata"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,47 @@
+shka =
+{
+	army_tradition = 1		
+	siege_ability = 0.20
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}
+
+lavask =
+{
+	leader_land_fire = 1
+	leader_land_shock = 1
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}
+
+kavor =
+{
+	ae_impact = -0.25	
+	diplomatic_reputation = 2	
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}
+
+esarat =
+{
+	technology_cost = -0.1
+	advisor_cost = -0.15	
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}
+
+rakez =
+{
+	spy_offence = 0.5
+	tolerance_own = 2
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}
+
+virala =
+{
+	caravan_power = 0.33
+	trade_steering = 0.25
+	allow = { religion = nursari_temple }
+	#sprite = 12
+}

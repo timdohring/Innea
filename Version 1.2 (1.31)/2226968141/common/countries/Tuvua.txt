@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 98  206  253 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Terao #0" = 1
+	"Hapatao #0" = 1
+	"Tuearu #0" = 1
+	"Hauru #0" = 1
+	"Uruta #0" = 1
+	"Aifiro #0" = 1
+	"Tunutaha #0" = 1
+	"Manora #0" = 1
+	"Moepai #0" = 1
+	"Vanua #0" = 1
+	"Vari-Tua #0" = 1
+	"Teaui #0" = 1
+	"Taura-Tua #0" = 1
+	"Vaeve #0" = 1
+	"Tehmai #0" = 1
+	"Pafu #0" = 1
+	"Aia #0" = 1
+	"Toa #0" = 1
+	"Vaora #0" = 1
+	"Teofai #0" = 1
+
+	"Tuputu" = -1
+	"Purepiri" = -1
+	"Ino" = -1
+	"Tapra" = -1
+	"Taitera" = -1
+	"Terinia" = -1
+	"Tertua" = -1
+	"Hotro" = -1
+	"Aute" = -1
+	"Poipua" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

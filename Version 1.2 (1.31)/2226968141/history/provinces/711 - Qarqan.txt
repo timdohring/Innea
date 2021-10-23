@@ -1,0 +1,17 @@
+add_core = DLS
+owner = DLS
+controller = DLS
+culture = dalsch
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = stone
+capital = "Castle Verneth"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

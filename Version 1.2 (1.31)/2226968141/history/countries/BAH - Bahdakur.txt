@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 6
+mercantilism = 10
+technology_group = western
+religion = shuri
+primary_culture = akkad
+capital = 3119
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+
+

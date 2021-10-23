@@ -1,0 +1,15 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+culture = isoli
+religion = ishuli
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 3
+
+trade_goods = blackgrain
+capital = "Goropor"
+is_city = yes
+discovered_by = western

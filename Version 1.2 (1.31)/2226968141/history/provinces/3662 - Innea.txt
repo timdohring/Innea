@@ -1,0 +1,11 @@
+culture = lheyn
+religion = horsemother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+capital = "Shar-Ord"
+is_city = yes
+discovered_by = western

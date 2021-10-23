@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 99  160  39}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Alaon #0" = 1
+	"Akusary #0" = 1
+	"Bollahti #0" = 1
+	"Uerder #0" = 1
+	"Beagis #0" = 1
+	"Aawir #0" = 1
+	"Ceseon #0" = 1
+	"Celltu #0" = 1
+	"Caullthum #0" = 1
+	"Cijis #0" = 1
+	"Deravam #0" = 1
+	"Eleos #0" = 1
+	"Uwaii #0" = 1
+	"Fonwith #0" = 1
+	"Fysumir #0" = 1
+	"Iuell #0" = 1
+	"Dara #0" = 1
+	"Jouas #0" = 1
+	"Verrasnimilin #0" = 1
+	"Llann #0" = 1
+	"Llouthwer #0" = 1
+	"Talas #0" = 1
+	"Vimyaon #0" = 1
+	"Peres-Tarol #0" = 1
+	"Urellus #0" = 1
+	"Sisara #0" = 1
+	"Vulwara #0" = 1
+	"Ynyaoth #0" = 1
+	"Ylthrin #0" = 1
+	"Joe'Llotar #0" = 1
+
+	"Iuelle" = -1
+	"Darae" = -1
+	"Jousae" = -1
+	"Llanne" = -1
+	"Vulware" = -1
+	"Talase" = -1
+	"Aae" = -1
+	"Ceutue" = -1
+	"Cijie" = -1
+	"Llouthe" = -1
+	"Aardisith" = -1
+	"Yulwah" = -1
+	"Nornaes" = -1
+	"Zuwicce" = -1
+	"Llorana" = -1
+	"Uthyss" = -1
+	"Mirilis" = -1
+	"Opere" = -1
+	"Erae" = -1
+	"Fourlanithiras" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

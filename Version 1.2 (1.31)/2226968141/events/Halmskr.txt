@@ -1,0 +1,271 @@
+########################################
+# Halmskr Events                    #
+########################################
+
+namespace = halmskr
+
+# The DYNASTYNAME Chieftain has fallen!
+province_event = {
+	id = halmskr.1
+	title = "halmskr.EVTNAME1"
+	picture = COURT_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	desc = {
+		trigger = {
+			owner = { has_reform = great_chiefdom }
+			FROM = {
+				has_reform = great_chiefdom
+			}
+		}
+		desc = halmskr.EVTDESC1
+	}
+	
+	desc = {
+		trigger = {
+			owner = { has_reform = great_chiefdom }
+			FROM = {
+				NOT = { has_reform = great_chiefdom }
+			}
+		}
+		desc = halmskr.1.db
+	}
+	
+	desc = {
+		trigger = {
+			owner = {
+				NOT = { has_reform = great_chiefdom }
+			}
+		}
+		desc = halmskr.1.dc
+	}
+	
+	trigger = {
+		# OBS! These checks are also hard coded in WouldBecomeShogunIfTaking() for AI and interface reasons. Change code too if this trigger changes.
+		province_id = 2068
+		#owner = {
+		#	OR = {
+		#		has_reform = orkal_kingdom
+		#		has_reform = indep_orkal_kingdom
+		#	}
+		#}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			owner = {
+				if = {
+					limit = {
+						OR = {
+							has_reform = orkal_kingdom
+							has_reform = indep_orkal_kingdom
+							has_reform = baskar_kingdom
+							has_reform = indep_baskar_kingdom
+						}
+					}
+					add_core = 2068
+					set_capital = 2068
+					add_government_reform = great_chiefdom
+					save_event_target_as = new_great_chiefdom
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "halmskr.EVTOPTA1"
+		if = {
+			limit = {
+				owner = { has_reform = great_chiefdom }
+			}
+			custom_tooltip = claiming_the_great_chiefdom_tooltip
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					FROM = { exists = yes }
+					owner = { has_reform = great_chiefdom }
+					FROM = { has_reform = great_chiefdom }
+				}
+				FROM = {
+					free_vassal = PREV
+				}
+				FROM = {
+					every_subject_country = {
+						limit = {
+							OR = {
+								has_reform = orkal_kingdom
+								has_reform = indep_orkal_kingdom
+								has_reform = baskar_kingdom
+								has_reform = indep_baskar_kingdom
+							}
+							NOT = { war_with = event_target:new_great_chiefdom }
+						}
+						event_target:new_great_chiefdom = {
+							vassalize = PREV
+						}
+					}
+					every_subject_country = {
+						limit = {
+							OR = {
+								has_reform = orkal_kingdom
+								has_reform = indep_orkal_kingdom
+								has_reform = baskar_kingdom
+								has_reform = indep_baskar_kingdom
+							}
+							war_with = event_target:new_great_chiefdom
+						}
+						from = {
+							free_vassal = prev
+						}
+						if = {
+							limit = {
+								has_reform = orkal_kingdom
+							}
+							add_government_reform = indep_orkal_kingdom
+						}
+						if = {
+							limit = {
+								has_reform = baskar_kingdom
+							}
+							add_government_reform = indep_baskar_kingdom
+						}
+					}
+					if = {
+						limit = {
+							has_reform = baskar_kingdom
+						}
+						add_government_reform = indep_baskar_kingdom
+					}
+					add_government_reform = indep_orkal_kingdom
+				}
+			}
+			if = {
+				limit = {
+					FROM = { exists = yes }
+					NOT = { owner = { has_reform = great_chiefdom } }
+					FROM = { has_reform = great_chiefdom }
+				}
+				FROM = {
+					every_subject_country = {
+						limit = {
+							OR = {
+								has_reform = orkal_kingdom
+								has_reform = indep_orkal_kingdom
+								has_reform = baskar_kingdom
+								has_reform = indep_baskar_kingdom
+							}
+						}
+						FROM = {
+							free_vassal = PREV
+						}
+					}
+					if = {
+						limit = {
+							has_reform = baskar_kingdom
+						}
+						add_government_reform = indep_baskar_kingdom
+					}
+					add_government_reform = indep_orkal_kingdom
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						FROM = { exists = yes }
+					}
+					owner = { has_reform = great_chiefdom }
+				}
+				every_country = {
+					limit = {
+						OR = {
+							has_reform = orkal_kingdom
+							has_reform = baskar_kingdom
+						}
+						NOT = { war_with = event_target:new_great_chiefdom }
+					}
+					event_target:new_great_chiefdom = {
+						vassalize = PREV
+					}
+				}
+				every_country = {
+					limit = {
+						has_reform = orkal_kingdom
+						war_with = event_target:new_great_chiefdom
+					}
+					add_government_reform = indep_orkal_kingdom
+				}
+				every_country = {
+					limit = {
+						has_reform = baskar_kingdom
+						war_with = event_target:new_great_chiefdom
+					}
+					add_government_reform = indep_baskar_kingdom
+				}
+				#solution for So Pirates, took this out
+			}
+			if = {
+				limit = {
+					NOT = {
+						FROM = { exists = yes }
+					}
+					NOT = {
+						owner = { has_reform = great_chiefdom }
+					}
+				}
+				every_country = {
+					limit = { 
+						OR = {
+							has_reform = orkal_kingdom
+							has_reform = baskar_kingdom
+						}
+					}
+					overlord = {
+						free_vassal = PREV
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					owner = { has_reform = great_chiefdom }
+				}
+			}
+			owner = {
+				if = {
+					limit = { NOT = { has_country_flag = destroyed_great_chiefdom } }
+					add_prestige = 20
+					add_adm_power = 50
+					add_dip_power = 50
+					add_mil_power = 50
+					set_country_flag = destroyed_great_chiefdom
+				}
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					any_country = {
+						is_subject_of_type = daimyo_vassal
+						NOT = { overlord = { has_reform = great_chiefdom } }
+					}
+				}
+				every_country = {
+					limit = {
+						is_subject_of_type = daimyo_vassal
+						NOT = { overlord = { has_reform = great_chiefdom } }
+					}
+					overlord = {
+						free_vassal = PREV
+					}
+				}
+			}
+		}
+	}
+}
+
+# I couldn't actually find a way to get this event to fire from the last one, so I assume that the NOT = { exists = FROM } bit is actually unused. But just in case I missed something, it seems better to add this anyway.
+# New Shogun - join or not? Also ripped this out for now

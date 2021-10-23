@@ -1,0 +1,15 @@
+add_core = OTV
+owner = OTV
+controller = OTV
+culture = tvaric
+religion = murtharic
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Swielyw"
+is_city = yes
+discovered_by = western

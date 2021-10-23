@@ -1,0 +1,15 @@
+add_core = WAS
+owner = WAS
+controller = WAS
+culture = najid
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = salt
+capital = "Unayahb"
+is_city = yes
+discovered_by = western

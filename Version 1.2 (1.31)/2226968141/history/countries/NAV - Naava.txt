@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 15
+technology_group = western
+religion = dead_house
+primary_culture = naavan
+capital = 2234
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	
+}
+

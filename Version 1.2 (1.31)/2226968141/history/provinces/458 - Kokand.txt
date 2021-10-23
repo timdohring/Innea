@@ -1,0 +1,15 @@
+add_core = MOL
+owner = MOL
+controller = MOL
+culture = moltrese
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Ranton"
+is_city = yes
+discovered_by = western

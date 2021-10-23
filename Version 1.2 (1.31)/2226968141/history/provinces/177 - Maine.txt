@@ -1,0 +1,19 @@
+# 177 Maine - Principal cities: Le Mans, Laval
+
+
+add_core = SEL
+owner = SEL
+controller = SEL
+culture = selc
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = salt
+capital = "Eastwatch"
+is_city = yes
+discovered_by = western
+fort_15th = yes

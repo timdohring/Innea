@@ -1,0 +1,12 @@
+culture = mantic
+religion = horsemother
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Bisgam"
+is_city = yes
+discovered_by = western

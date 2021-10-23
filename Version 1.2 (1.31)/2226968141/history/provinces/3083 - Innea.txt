@@ -1,0 +1,16 @@
+add_core = MIS
+owner = MIS
+controller = MIS
+culture = misral
+religion = shuri
+hre = yes
+
+base_tax = 10
+base_production = 12
+base_manpower = 12
+
+trade_goods = wayda_silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2

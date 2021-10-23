@@ -1,0 +1,15 @@
+add_core = MEY
+owner = MEY
+controller = MEY
+culture = west_najean
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Af Farwa"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,109 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 49 115 90  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Einar" = 10
+	"Seahne" = 1
+	"Artek" = 1
+	"Artturi" = 1
+	"Arzhur" = 1
+	"Bedwyr" = 1
+	"Braen" = 1
+	"Breuw" = 1
+	"Brieg" = 1
+	"Casek" = 1
+	"Casworon" = 1
+	"Cinuedu" = 1
+	"Cuinn" = 1
+	"Cynwr" = 1
+	"Diogard" = 1
+	"Diuma" = 1
+	"Dlorath" = 1
+	"Duan" = 1
+	"Eonan" = 1
+	"Fiac" = 1
+	"Hedrek" = 1
+	"Kaelan" = 1
+	"Ky" = 1
+	"Lir" = 1
+	"Madoc" = 1
+	"Marsean" = 1
+	"Pwyaon" = 5
+	"Rhys" = 1
+	"Tadhg" = 1
+	"Ten" = 1
+	
+	"Arta" = -1
+	"Aife" = -1
+	"Ailidh" = -1
+	"Alula" = -1
+	"Bedelia" = -1
+	"Boducci" = -1
+	"Brightwyna" = -1
+	"Crad" = -1
+	"Dylynn" = -1
+	"Enyd" = -1
+	"Erna" = -1
+	"Glenna" = -1
+	"Imogen" = -1
+	"Jenev" = -1
+	"Kace" = -1
+	"Kelci" = -1
+	"Oonagha" = -1
+	"Pirjo" = -1
+	"Ria" = -1
+	"Sadbh" = -1
+	"Teranika" = -1
+	"Tiona" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

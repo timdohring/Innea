@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 27  109  107 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Grob #0" = 1
+	"Daan #0" = 1
+	"Shenvi #0" = 1
+	"Winat #0" = 1
+	"Bashan #0" = 1
+	"Gralthu #0" = 1
+	"Glada #0" = 1
+	"Nathol #0" = 1
+	"Wok #0" = 1
+	"Ulpek #0" = 1
+	"Besar #0" = 1
+	"Rezi #0" = 1
+	"Temodard #0" = 1
+	"Givi #0" = 1
+	"Revatz #0" = 1
+	"Baadiv #0" = 1
+	"Dato #0" = 1
+	"Arkad #0" = 1
+	"Tedoljan #0" = 1
+	"Gocha #0" = 1
+	"Gacha #0" = 1
+	"Raml #0" = 1
+	"Takbraa #0" = 1
+	"Sarim #0" = 1
+	"Kentam #0" = 1
+	"Malkhar #0" = 1
+	"Azat #0" = 1
+	"Koba #0" = 1
+	"Vepkhin #0" = 1
+	"Merab #0" = 1
+
+	"Nuta" = -1
+	"Guili" = -1
+	"Lado" = -1
+	"Zvia" = -1
+	"Gurgen" = -1
+	"Givi" = -1
+	"Sgana" = -1
+	"Yaton" = -1
+	"Osha" = -1
+	"Gwenash" = -1
+	"Giu" = -1
+	"Gasion" = -1
+	"Riamome" = -1
+	"Rejan" = -1
+	"Droseb" = -1
+	"Kropirnir" = -1
+	"Dzina" = -1
+	"Levit" = -1
+	"Tyoma" = -1
+	"Taja" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

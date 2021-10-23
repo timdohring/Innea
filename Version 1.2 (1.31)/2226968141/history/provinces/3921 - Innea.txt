@@ -1,0 +1,16 @@
+add_core = FUA
+owner = FUA
+controller = FUA
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 12
+base_production = 12
+base_manpower = 12
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

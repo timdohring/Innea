@@ -1,0 +1,18 @@
+add_core = FYR
+owner = FYR
+controller = FYR
+culture = aldon
+religion = altran_church
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 11
+
+trade_goods = iron
+capital = "Treason Hall"
+is_city = yes
+discovered_by = western
+
+
+fort_15th = yes

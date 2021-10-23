@@ -1,0 +1,3131 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+                                                                                                                                     
+
+varsk	= {
+	graphical_culture = westerngfx
+
+	haaken = {
+		primary = HAL
+		
+		male_names = {
+			Haak Uthr
+		}
+		female_names = {
+			Fjolti
+		}
+
+		dynasty_names = {
+			Haaksson Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving Theb Long-Axe "tir Host" "tir Steasof" "tir Varun"
+		}
+	}
+
+	azqu = {
+		primary = BOR
+		
+		male_names = {
+			Azqan Isvir Tochz
+		}
+		female_names = {
+			Azqa
+		}
+
+		dynasty_names = {
+			Azqun Starchild Star-Seer Ice-Eye Iglin Highstar Oz Cold Azan Irean Zaquni Bozheal
+		}
+	}
+
+
+	nyvarsk = {
+		primary = VAH
+		
+		male_names = {
+			Thorban
+		}
+		female_names = {
+			Alfhild
+		}
+
+		dynasty_names = {
+			Knur Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving "tir Bern"
+		}
+	}
+
+
+	ryykan = {
+		primary = MAL
+		
+		male_names = {
+			Erik
+		}
+		female_names = {
+			Helga
+		}
+
+		dynasty_names = {
+			Eriksson Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving Gottr Sifell Mjonat Uryyk "tir Sket"
+		}
+	}
+
+
+	falkish = {
+		primary = FAL
+		
+		male_names = {
+			Flokker
+		}
+		female_names = {
+			Falla
+		}
+
+		dynasty_names = {
+			Falken Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving
+		}
+	}
+
+
+	grafen = {
+		primary = GRF
+		
+		male_names = {
+			Asmund
+		}
+		female_names = {
+			Gunilla
+		}
+
+		dynasty_names = {
+			Graf Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving Alfing "tir Hross" Lyrvaer
+
+		}
+	}
+
+
+	bjorming = {
+		primary = TOR
+		
+		male_names = {
+			Bjorn
+		}
+		female_names = {
+			Hilda
+		}
+
+		dynasty_names = {
+			Bearborn Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving Altun Kerhtyr Tosfaln
+		}
+	}
+
+
+	ykran = {
+		primary = NYK
+		
+		male_names = {
+			Norek Timuhtyrr Njy
+		}
+		female_names = {
+			Kina
+		}
+
+		dynasty_names = {
+			Giantsbane Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving "tir Ykra" Kopr "tir Skund"
+		}
+	}
+
+
+	dargish = {
+		primary = DAR
+		
+		male_names = {
+			Holtr
+		}
+		female_names = {
+			Alva
+		}
+
+		dynasty_names = {
+			Darren Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving "tir Dal"
+		}
+	}
+
+
+	kynen = {
+		primary = KYN
+		
+		male_names = {
+			Isklas
+		}
+		female_names = {
+			Nolada
+		}
+
+		dynasty_names = {
+			Kyn Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving "tir Freyn"
+		}
+	}
+
+
+	drevarsk = {
+		primary = FJO
+		
+		male_names = {
+			Threin
+		}
+		female_names = {
+			Iggi
+		}
+
+		dynasty_names = {
+			Fjordaslon Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving Olsief "tir Helsing" Threinsson Svalr
+		}
+	}
+	
+	gildic = {
+		primary = HRE
+	
+	}	
+	
+	male_names = {
+		Agmund Alvis Asmund Arnfinn Asgeirr Asmund Bjarni Bjorn Birgir Dagfinn Egil Geirmund Gudbrand Gunarr Gunvald
+		Haakon Halfdan Hallr Halvard Havardr Hjalmar Helgi Ingvar Ivor Ketil Leif Orinn Oyvind Radulfr Ragnar Ravnar
+		Runar Sigarr Sigmund Steinn Steinar Stigr Sven Thorsteinn Torkel Ulf Valdbjorn Vidar Vragi Gunbald
+	}
+	female_names = {
+		Agny Alfhild Aslaug Astridr Bergrunn Brynja Eirunn Erna Eyvor Frigg Gudrun Gudridr Hella Hillevi Idunn
+		Ingeborg Kara Ragnbjorg Reidun Sighild Signy Sigrid Sigrun Skuld Thorveig Thorvi Torhild Valdis Ylva Myrdra
+	}
+
+	dynasty_names = {
+		Arm-Rend Ashen-Hair Ashen-Shield Asmunding Black-Hand Blood-Eagle Blood-Stone Dragon-Heart Giants-Blood
+		Gold-Hand Great-Bear Green-Cloak Grey-Beard Ice-Eye Iron-Blade Iron-Hand Oar-Maker Ornung Red-Beard
+		Silver-Stone Silver-Tongue Snake-Bane Star-Seer Svening Varsken West-Glen White-Mane White-Shield Wolfsbane
+		Worms-Blood Wolf-Heart Ylving
+	}
+}
+
+
+anuiq	= {
+	graphical_culture = inuitgfx
+
+	iqu = {
+		primary = UAQ
+		
+		male_names = {
+			Amaruq Adlartok Aput Atiqtalaaq Ikiaq Kallik Kumaglak Nootaikok Nuniq Tagtu Qimmiq Panuk
+		}
+		female_names = {
+			Akna Ahnah Alasie Anjij Arnaq Asiaq Cupun Elisapee Hitty Kanaaq Kireama Nukilik Siqiniq Tapeesa
+		}
+
+		dynasty_names = {
+			Iqun Toq "Son of Snow" Kellik Nuun Akkatu Iru Anut Pirii Uqur Qevallik Lorii
+		}
+	}
+	
+	iil = {
+		primary = IIM
+	}
+	
+	ujuu = {
+		primary = NUQ
+	}
+	
+	qunsut = {
+		primary = ANU
+	}
+	
+	aqlaug = {
+		primary = AQL
+	}
+
+	male_names = {
+		Alornek Amaruq Adlartok Aput Atiqtalaaq Ikiaq Kallik Kumaglak Nootaikok Nuniq Tagtu Qimmiq Panuk Narik Ilsat
+	}
+	female_names = {
+		Amka Akna Ahnah Alasie Anjij Arnaq Asiaq Cupun Elisapee Hitty Kanaaq Kireama Nukilik Siqiniq Tapeesa
+	}
+
+	dynasty_names = {
+		Akusak Toq "Son of Snow" Kellik Nuun Akkatu Iru Anut Pirii Uqur Qevallik Lorii Vo Anuis Qeur Iceborn
+	}
+}
+
+giant 	= {
+	graphical_culture = westerngfx
+
+	jogunin = {
+		primary = GIA
+	}
+
+	male_names = {
+		Ykkraslogenak Gogonak Teraggo Ysmir Noulates Mjor Bearnat Kul Retharynir
+	}
+	female_names = {
+		Gaginallithr Aata Biryoni Telatni Foronathr Solaed Hussala
+	}
+
+	dynasty_names = {
+		Tallborn Arm-Rend "Bear-Strong" "First Son" Hakkograk Ysmirassilison Okinwyr
+	}
+}
+
+saelic = {
+	graphical_culture = westerngfx
+
+	selc = {
+		primary = SEL
+		
+		male_names = {
+			Seal
+		}
+		female_names = {
+			Selci
+		}
+
+		dynasty_names = {
+			Isoselcii Sael Taethwen Sloc Irithwn Fisherman Ubrac Caer Navabhan Issuan Hillman Duadac Brechc Ubraxas Morr Ferr
+			Adurn Ywerek Bodhan Tod Hlonnach
+		}
+	}
+
+	einish = {
+		primary = HLO
+		
+		male_names = {
+			Einar
+		}
+		female_names = {
+			Ywon
+		}
+
+		dynasty_names = {
+			Nenetar Sael Taethwen Sloc Irithwn Fisherman Ubrac Caer Navabhan Issuan Hillman Duadac Brechc Ubraxas Morr Ferr
+			Adurn Ywerek Bodhan Tod Hlonnach
+		}
+	}
+
+	slein = {
+		primary = SLE
+		
+		male_names = {
+			Sleibhon
+		}
+		female_names = {
+			Isiohna
+		}
+
+		dynasty_names = {
+			Sleiran Sael Taethwen Sloc Irithwn Fisherman Ubrac Caer Navabhan Issuan Hillman Duadac Brechc Ubraxas Morr Ferr
+			Adurn Ywerek Bodhan Tod Hlonnach
+		}
+	}
+	
+	dunlandic = {
+		primary = FRG
+	}
+
+	issoan = {
+		primary = DBY
+	}
+
+	male_names = {
+		Seahne Artek Artturi Arzhur Bedwyr Braen Breuw Brieg Casek Casworon Cinuedu Cuinn Cynwr
+		Diogard Diuma Dlorath Duan Eonan Fiac Hedrek Kaelan Ky Lir Madoc Marsean Pwyaon Rhys Tadhg
+		Ten
+	}
+	female_names = {
+		Arta Aife Ailidh Alula Bedelia Boducci Brightwyna Crad Dylynn Enyd Erna Glenna Imogen
+		Jenev Kace Kelci Oonagha Pirjo Ria Sadbh Teranika Tiona
+	}
+
+	dynasty_names = {
+		Sael Taethwen Sloc Irithwn Fisherman Ubrac Caer Navabhan Issuan Hillman Duadac Brechc Ubraxas Morr Ferr
+		Adurn Ywerek Bodhan Tod Hlonnach Forelshciadg
+	}
+}
+
+ywekan = {
+	graphical_culture = westerngfx
+	
+	dhoilbridic = {
+		primary = FTD
+	}
+	
+	cahster = {
+		primary = CAH
+	}
+	
+	laghan = {
+		primary = RAL
+	}
+	
+	bottian = {
+		primary = YWE
+	}
+	
+	male_names = {
+		Seahn Artak Arhtu Arzuk Bedwair Brean Brawaegh Brothn Kaserwek Kasworohn Kinerk Kwinn Kynwar Dion Diumhe 
+		Doan Eos Fakke Jarke Jotan Hulmar Hedren Kalan Kye Ey Loac Madorak Marse Pwyak Rogart Tadokk
+	}
+	female_names = {
+		Arte Aifa Ailith Alura Bedelia Bodukkin Brightwinna Krad Dylain Aenyd Emarre Glen Imogen Jenev Kace Kelci
+		Oonaga Pirio Ria Sadbh Teranika Fiola
+	}
+	dynasty_names = {
+		Sael Whaler "of the Waves" Seaborn Skald Fisher Adran Cahstley "of Westoc" Tusan Orbotte Taswen-Orbotte
+		Kojh "Black Sail" Deadhands "Sunken Ship" Drunkard Martin Omhag Ballor Akrun Dorre "of Ralland"
+	}
+	
+}
+
+brilthic = {
+	graphical_culture = westerngfx
+	
+	upper_brilthic = {
+		primary = GRE
+	}
+	
+	lower_brilthic = {
+		primary = BAL
+	}
+	
+	blakkan = {
+		primary = BLA
+	}
+	
+	orsh = {
+		primary = ORE
+	}
+	
+	soling	= {
+		primary = CVL
+	}
+	
+	aven = {
+		primary = DEB
+	}
+	
+	graen = {
+		primary = UAW
+	}
+	
+	male_names = {
+		Ackaer Alvor Bernuth Brackton Coster Clarn Dawes Deale Durcley Dinnel Esgor Elwurd Haute Hornick Hense
+		Korn Igar Longclay Marnas Mingsley Nordard Puth Osbertar Radthcol Raeburn Aelswurre
+	}
+	female_names = {
+		Aisin Aelwith Arnis Bertrude Bevalin Carty Cawinn Colly Deard Dyle Eves Farna Goosewa Gurthala Herda
+		Ivia Inarwith Leiva Lossana Kyla Marta Mathwild Nassa Sarua Woudi
+	}
+	dynasty_names = {
+		Osbert Osward Eastleigh Coffin Bragart Ledern Uwith Uwaille Fockart Shourt Plasting Konnber Greyd Blakk Ipswurre
+		"Black Asher" "of the Greys" Aerth Shoreson Saught Gressing Calde Yorwin Kepperson Vonth Ballard Eddae Alkaer-Torwych
+		Oreborn
+	}
+	
+}
+
+highlander = {
+	graphical_culture = westerngfx
+	
+	steplandic = {
+		primary = CBR
+	}
+	
+	donairdan = {
+		primary = CLE
+	}
+	
+	ruwwesk = {
+		primary = CAG
+	}
+	
+	crowfoot = {
+		primary = CSL
+	}
+	
+	two_mountmen = {
+		primary = CEL
+	}
+	
+	male_names = {
+		Adaidh Ailig Amhlai Askill Beister Coisen Conn Cormag Deor Dubh
+		Ealar Ellair Frang Goiri Harail Iagan Lachlar Niall Oilbhean Padar Hrafnu
+	}
+	female_names = {
+		Ailis Aofie Aingealag Beileag Beasar Betidh Calaminag Cairit Cursta Deirdre 
+		Deonaidh Elsaid Gormlass Lucra Mor Milreach Raghna Rut Stineag Teasag Una
+	}
+	dynasty_names = {
+		Mountman Crowfoot Donair Steplander Ruwwan "of Mountains" Burraga Ceft Donark Kessairgh
+		"Deg a Iodh" "Deg a Diobh" DegRakk DegLhereg DegDunair DegForhoe Torre Bruxer Duhn Cheurtagg
+		"of Aberahx" "of Aggwuhd" "of Brich" "of Donagh" "of Elcnoe" "of Leihg" "of Slon"
+	}
+	
+}
+
+achakk = {
+	graphical_culture = westerngfx
+
+	pjotrish = {
+		primary = WAR
+	}
+
+	kevvan = {
+		primary = KEV
+	}
+
+	tvaric = {
+		primary = OTV
+	}
+
+	darkwoodsmen = {
+		primary = TAV
+	}
+
+	nievan = {
+		primary = NIE
+	}
+	
+	male_names = {
+		Rogr Ahlus Dren Bogslan Vari Kotov Elhajion Zukon Achon Achaljz
+		Verriyn Nosakov Uturdd Karros Mezjialkova Chestonat Geortavyie Krazin Udragost Premiri
+		Rado Iltiervwul Wutha Vanowyr Necesci Yolmnar Bergezwiec Yorupa Ikil Zvon Pjotar
+	}
+	female_names = {
+		Bordana Zhena Drenna Kotovana Zukaija Zvona Yolna Nosakovaca Witharnyee Radoka
+		Lyudwa Oroselt Aba Trenhult Woroje Owoit Ojelle Suza Aiscice Notha Pjota
+	}
+	dynasty_names = {
+		"yv Kev" "yv Niev" "yv Pjotran" "yv Warsvh" "yv Nalec" "yv Volot" "yv Ghav" Woodling Thirdborn Halfheart
+		Acharr Achouw Brisingr Elac Turohjinwe Leratz Zukovart Yontar Krazakk Pjakk
+		Radoman Seresci Wuordjakk Tvakk Woodsman Nec Koruvwa Varashintolg Ogormiri Yvoz
+	}
+	
+}
+
+wuerdic = {
+	graphical_culture = westerngfx
+
+	yearsend = {
+		primary = YEA
+	}
+
+	allar = {
+		primary = ALL
+	}
+
+	ormian = {
+		primary = ORA
+	}
+
+	verric = {
+		primary = VER
+	}
+
+	moonish = {
+		primary = REA
+	}
+
+	bernothic = {
+		primary = HUN
+	}
+
+	wealder = {
+		primary = TIN
+	}
+	
+	male_names = {
+		Varin Ahkon Swon Alus Draen Prenir Karos Neses Piothar Georthav
+		Aldar Borswald Irian Keppald Norrik Fester Hall Orlias Veron Salaciu 
+		Etrescu Ion Tior Dekinais Moskon Atan Codras Utheam Celaut Iohnij
+	}
+	female_names = {
+		Kara Ibea Virtu Leandishe Jota Furea Marata Nonise Verona Iona 
+		Tiora Atani Cela Eba Piota Susca Woraja Yondarahwiel Lyudiani Sukaia 
+	} 
+	dynasty_names = {
+		"a Year" "a Allar" "a Orm" "a Luz" "a Vera" "a Bernoth" "a Weald" Wealder Moon Half-Moon
+		Laure Estella Kofni Harras Tolcin Elats Lerats Yovan Neceas Seresti
+		Ivoull Rothkan Nurulesti Sabaroc Umea Latari Ovescu Morne Hunter Nonar
+ 	}
+	
+}
+
+high_elf = {
+	graphical_culture = westerngfx
+
+	rhaur = {
+		primary = RHO
+	}
+
+	aelean = {
+		primary = AYA
+	}
+
+	duwaring = {
+		primary = LLA
+	}
+
+	narinya = {
+		primary = NYA
+	}
+
+	senar = {
+		primary = SEN
+	}
+
+	lightborn = {
+		primary = LIU
+	}
+	
+	male_names = {
+		Alaon Akusary Bollahti Uerder Beagis Aawir Ceseon Celltu Caullthum Cijis
+		Deravam Eleos Uwaii Fonwith Fysumir Iuell Dara Jouas Verrasnimilin Llann
+		Llouthwer Talas Vimyaon Peres-Tarol Urellus Sisara Vulwara Ynyaoth Ylthrin Joe'Llotar
+	}
+	female_names = {
+		Iuelle Darae Jousae Llanne Vulware Talase Aae Ceutue Cijie Llouthe 
+		Aardisith Yulwah Nornaes Zuwicce Llorana Uthyss Mirilis Opere Erae Fourlanithiras
+	}
+	dynasty_names = {
+		Duwar Aele Nariny Rhau Sena Lightborn Jeethira Usotera Casca Illtyria
+		Asatuen Fyorlen Thanath Tharus Thalos Llorath Llerellen Opur Goldenhand Brightstar
+		Kingmaker Kingbreaker Turth Dedeon Kauliss Venerath Vullwari Yoneye Espar Sezeu
+	}
+	
+}
+
+moltranic = {
+	graphical_culture = westerngfx
+
+	moltrese = {
+		primary = MOL
+	}
+
+	nordic = {
+		primary = NLD
+	}
+
+	angmish = {
+		primary = VAY
+	}
+
+	rossing = {
+		primary = ROS
+	}
+
+	riverlandish = {
+		primary = RIV
+	}
+
+	aldon = {
+		primary = ALD
+	}
+	
+	male_names = {
+		Daren Georthar Aldar Borswall Hall Etrescar Salacar Festen Keppal Codren
+		Alred Alfwen Athelron Beornras Cenric Cyneborn Cynfrith Edberth Edden Edalstan
+		Leosborn Oskarn Osmern Uthric Weldmar Aldus Hanry Mackmorre Ranney Torrey
+		Angmar
+	}
+	female_names = {
+		Alfwith Alflinn Alfswirda Edburre Edgylth Fridana Milda Mildwith Wyla Sarawynne
+		Cara Fura Maratha Torra Onna Cenryl Narine Aala Dara Louthwyn
+	}
+	dynasty_names = {
+		"of the River" Aldsman "of the Linde" "of Cowlon" "of Cinder" "of Keltran" "of Karsan" "of the Vayne" Rossing "of the Reach"
+		Raykene Bearblood Lakelover Treetower Gothras Hurreigh Tinker Usberth Waylow Kearn
+		Tabath Lorke Naindurre Uworth Derring Shussel Codras Athelstarre Koppwing Tayroth 
+		Cains
+	}
+	
+}
+
+pallan = {
+	graphical_culture = westerngfx
+
+	lockan = {
+		primary = MUR
+	}
+
+	freestatesmen = {
+		primary = SAN
+	}
+
+	brongian = {
+		primary = BRG
+	}
+
+	wreckan = {
+		primary = PEE
+	}
+
+	shazan = {
+		primary = SHZ
+	}
+
+	southcoaster = {
+		primary = CRK
+	}
+
+	northcoaster = {
+		primary = PIC
+	}
+
+	graylen = {
+		primary = GRA
+	}
+
+	whetic = {
+		primary = BRO
+	}
+	
+	male_names = {
+		Darren Haill Festem Kodren Alredde Kenrikk Kayneborne Edde Torran Oskairn
+		Leosborre Uthrin Osmarn Veldmar Hanrey Rannan Borswain Alwen Alron Salakar
+		Diewert Atse Heiek Japell Jurryht Klaesrikk Hitter Tieden Waatje Wubje
+		Thomar Duwayn Pelter Sawan Mihde
+		#couple Shazan names, probably split this group a bit more up eventually
+		Shuhras Shekrur Amur Dilshaz Alishazmat
+		
+	}
+	female_names = {
+		Entje Diewekka Henna Imkje Taike Linke Jella Siette Atake Denne
+		Kara Hura Marathe Tora Ona Kenrayl Narin Ala Dasa Loutwain
+		Sarwain Aila Alswirda Alinn Alwith Jotanna Esla Deunith Maro Heieka
+		
+	}
+	dynasty_names = {
+		"of the Reach" "of Brongs" "of the Grayle" "of the Farm" "of the Locke" "of Marby" "of Ponder" "of Korre" "of Picket" "of Arrynal"
+		Cains Lorke Yorke Hurreigh Tinker Kearn Waylow Uworth Derring Codras
+		Southcoaster Northcoaster Miller Cliffer Fielder Goldsmith Copperminer Trader Oarsman Sailor
+		Herston Coffney Aulwin Durrel Yearning Wustelwurth Rought Adarne Lesley Shazrit
+	}
+	
+}
+
+taroquan = {
+	graphical_culture = westerngfx
+
+	arvacien = {
+		primary = TAR
+	}
+
+	naarn = {
+		primary = NAA
+	}
+
+	viellon = {
+		primary = EVI
+	}
+
+	tevarroix = {
+		primary = ARN
+	}
+
+	edessian = {
+		primary = YEO
+	}
+
+	laquis = {
+		primary = ARM
+	}
+	
+	male_names = {
+		Amit Enguerr Teudes Barnier Eoffrain Hidie Losse Gehan Nosse Tuarin
+		Muiscar Monfrai Ossard Biers Moul Rosse Ranquelin Rothber Vouill Arthis
+		Ulban Damand Reymour Baunoit Chesaite Dieris Flanand Gauges Vainpard Huston
+		
+	}
+	female_names = {
+		Vateline Emee Aulis Lisabeauc Mehanne Nohanne Teslisand Ulltie Derabeauc Colisse
+		Ilaide Ragnes Talana Vanelle Ubrea Darde Chloen Achlaresse Essvieu Sorathee
+	}
+	dynasty_names = {
+		"fil-Naath" "fil-Mittagne" "fil-Beuhtaux" "fil-Arim" "fil-Phantes" "fil-Orles" "fil-Arrun" "fil-Thalie" "fil-Surdoux" "fil-Sorraine"
+		Beautain Sidain Allerain Sonemain Tourain Tanac Ubranac Esscai Yvolle Chasset
+		Affouw Nauex Efys Raquis Mulquis Derchonne Valuis Frychaud Gaugnet Houliet
+	}
+	
+}
+
+teltranic = {
+	graphical_culture = westerngfx
+
+	murrian = {
+		primary = TYO
+	}
+
+	rhydic = {
+		primary = RHY
+	}
+
+	derzian = {
+		primary = DER
+	}
+
+	glenish = {
+		primary = NIG
+	}
+
+	nardic = {
+		primary = ELS
+	}
+
+	west_bergian = {
+		primary = BEN
+	}
+
+	east_bergian = {
+		primary = ING
+	}
+
+	dalsch = {
+		primary = DAL
+	}
+
+	kronnish = {
+		primary = KRO
+	}
+
+	forren = {
+		primary = FNG
+	}
+
+	upper_sternian = {
+		primary = STE
+	}
+
+	lower_sternian = {
+		primary = OLD
+	}
+
+	wayn = {
+		primary = RED
+	}
+
+	reuth = {
+		primary = REU
+	}
+
+	snyd = {
+		primary = SNY
+	}
+	
+	male_names = {
+		Daran Kodrin Alredder Kenrik Toran Oskar Utdrin Veldmar Salakan Atse
+		Klasrik Tiden Waten Midde Peltar Kasbert Alof Artin Burn Dahart 
+		Ebhart Frehart Gerhilf Harthold Mutans Huchim Jochmar Karlsten Leonart Malria
+		Thishard Moklas Ritzmar Pasmund Rechard Sastian Stester Tonsten Urs Volkedel
+	}
+	female_names = {
+		Ente Hena Imke Taika Linka Jela Sietta Atake Denna Kara
+		Maethe Onade Allana Ailane Eslane Bada Alreda Melia Ganika Tagma
+		Elsi Fruin Gadweida Ilani Jennabell Lienel Ina Marne Ditzi Sibilsia
+	}
+	dynasty_names = {
+		"vot Bergen" "vot Dales" "vot Stern" "vot Dern" "vot Assitz" "vot Terl" "vot Litz" "vot Schrenn" "vot Zulau" "vot Kaireuth"
+		Copperfield Cobblerstone Halfhill Winebrew Vintner Birch Beerhill Upperland Downtree Greyiron
+		"van Doverstall" "van Daltenburg" "van Verneth" Aarning Umbolt Terras Usaun Keppring Dunkle Osswitz
+		Testen Kaufling Erhacht Dunshied Kesslauf Zumbrich Asaker Leonflitte Gussn Ertanhof
+	}
+	
+}
+
+river_elf = {
+	graphical_culture = westerngfx
+
+	devan = {
+		primary = CID
+	}
+
+	cevan = {
+		primary = CEV
+	}
+
+	sedurii = {
+		primary = SED
+	}
+
+	rivwu = {
+		primary = RVW
+	}
+
+	silver_elf = {
+		primary = SIL
+	}
+
+	isafaan = {
+		primary = CII
+	}
+
+	avaric = {
+		primary = AVA
+	}
+
+	upwater_elf = {
+		primary = HIG
+	}
+
+	viithi = {
+		primary = AYO
+	}
+
+	liian = {
+		primary = CEI
+	}
+	
+	male_names = {
+		Eleon Eawir Ceseon Cijies Weleos Wuara Ewurr Donadis Aswoul Anuralaris
+		Iiath Iittari Iliithryn Wuolvwe Wuolradaii Loenthar Uwerdis Jolloth Axaxes Oroso
+		Orepurin Telaroso Uaawin Ecapas Viir Delatun Cel Celrath Ithys Thurndeasl
+	}
+	female_names = {
+		Cela Ceia Lloune Ecae Yuwahe Uarae Axare Oronomea Lotaris Uawynder
+		Sosoro Iian Wleanpurre Avii Nuande Epassh Joen Misay Telvin Dianethin
+	}
+	dynasty_names = {
+		Cevan Sedur Rivw Silverhand Isafaa Avar Viithin Lian River Waterborn
+		Weedspawn Teril Devan Celrii Iiathenmur Yolhti Neanderi Usswa Elaer Thera
+		Seduir Ciiphe Avanle Naita Rain Vwoulra Woulen Iiathi Necassa Ceiis
+	}
+	
+}
+
+acryllian= {
+	graphical_culture = westerngfx
+
+	vindese = {
+		primary = VIN
+	}
+
+	phracian = {
+		primary = PHR
+	}
+
+	mylith = {
+		primary = MYL
+	}
+
+	goldtrader = {
+		primary = GOL
+	}
+
+	rettar = {
+		primary = RET
+	}
+
+	axian = {
+		primary = AXO
+	}
+
+	remaa = {
+		primary = OME
+	}
+
+	lys_reman = {
+		primary = ROM
+	}
+
+	villacian = {
+		primary = VIV
+	}
+
+	tarrad = {
+		primary = OLT
+	}
+
+	ventrian = {
+		primary = VEN
+	}
+
+	corrusean = {
+		primary = ACR
+	}
+
+	kagnol = {
+		primary = KAN
+	}
+
+	othan = {
+		primary = HEA
+	}
+
+	veran = {
+		primary = VEG
+	}
+
+	padese = {
+		primary = PAD
+	}
+	
+	male_names = {
+		Vergius Vitas Vibius Liusius Valerens Tatian Septvin Senecae Slavola Quingulus 
+		Gulfinus Pontar Nervotho Othero Maxinas Scotur Narcell Marcell Lonkuos Iolus
+		Jovin Julit Genaudrian Flastus Fulvus Egnasi Eabrilix Caneis Crispix Cato
+		Lato Areito Canbresis Burtsar Caenius Brasaer Aurelbus Avitan Balbulus Aemgrippa
+	}
+	female_names = {
+		Dita Valertina Tatiana Tulli Teriane None Pona Prosca Paudia Juna
+		Cilli Marine Tinam Oca Octamare Licia Lucina Iotana Jule Laetensia 
+		Faucia Biola Viane Alla Casselia Nelia Decmita Bladia Ante Quilbina
+	}
+	dynasty_names = {
+		Goldblood Standardbearer "di Vindes" "di Phracia" "di Mylos" "di Rettari" "di Axias" "di Remaas" "di Villacius" "di Ventrilum" 
+		"di Corruse" "di Padua" "di Veranus" "di Scoffa" "di Umurnulus" "di Afacios" "di Cartalus" "di Opune" "di Lesti" "di Farunus"
+		Athax Artus Diletius Covinus Colra Certus Ebraus Gorga Frictus Fallasi 
+		Nullus Maletiu Mollepium Pira Pleos Veralli Vuthanim Lotensiu Bosdacci Cavenus
+	}
+	
+}
+
+celtan = {
+	graphical_culture = westerngfx
+	
+	gheltic = {
+		primary = GHE
+	}
+	
+	male_names = {
+		Cenhe Urtak Urttari Legwyr Lraon Lreus Bir Sasek Sacsoron Sinegu Suin Synsr Dboath Nyg Fobos
+	}
+	female_names = {
+		Urta Uife Uifil Legelia Logussi Lishtsyna Srad Emal Henav Adora 
+	}
+	dynasty_names = {
+		Belcos "Muw i Alkron" "i Kattan" "i Ghelar" Ghowsra Oswikkan Ellava Lonyes Roboto Veruz Nudred
+	}
+	
+}
+
+minotaur = {
+	graphical_culture = westerngfx
+	
+	tauros = {
+		primary = HAM
+	}
+	
+	male_names = {
+		Oftir Tarauk Zagoz Issiralagaz Fazir Ollgakir Deresur Lof Maranaz Hourfghe
+	}
+	female_names = {
+		Laya Horbphin Palaursa Zagox Xeje Jebr Uftagakis Lofkis Morunfaz Erlabbeig
+	}
+	dynasty_names = {
+		Hammerson "of Warm Heart" "Summer's Blood" "of Hill" Ironborn Narranadasur Decour Bunedasur Tlanour Vier
+	}
+	
+}
+
+lenaric = {
+	graphical_culture = westerngfx
+
+	north_maetian = {
+		primary = VAL
+	}
+
+	south_maetian = {
+		primary = MAE
+	}
+
+	dianean = {
+		primary = DIA
+	}
+
+	briiyan = {
+		primary = BRA
+	}
+
+	mothmen = {
+		primary = MOT
+	}
+
+	cothonian = {
+		primary = COT
+	}
+
+	alletanian = {
+		primary = ALE
+	}
+
+	thornic = {
+		primary = THO
+	}
+
+	sascilian = {
+		primary = SAS
+	}
+
+	thelan = {
+		primary = THE
+	}
+
+	narcetian = {
+		primary = NAR
+	}
+
+	lenathii = {
+		primary = LEN
+	}
+	
+	male_names = {
+		Aitan Bakaitz Eduzki Kain Eztisko Gainix Razka Ibair Zitzal Orpatxi
+		Adolso Gapito Alcidino Asdrubasier Bikentor Cecili Cheslio Danrio Dionato Edulio
+		Ferman Cisco Geralo Arcio Igonnol Bojafet Seporiam Lorenzas Margel Demolas
+		Ziorgos Annis Vasaritor Stefano Themisthis Prokoprapis Lukmar Matchile Guiodni Dimiefshat
+	}
+	female_names = {
+		Aintza Meya Bihotaroa Elixstine Goizea Idoya Itxaar Kistore Magore Zoruxue
+		Afikat Minia Gryotemisia Dimina Evalyn Kalli Natafeli Leta Sotoula Thalsia
+		Cili Yuna Anta Nelia Viana Hortanica Iriun Javiet Leoyrtica Luidesa
+	}
+	dynasty_names = {
+		"sa Maea" "sa Diana" "sa Brii" "sa Othane" "sa Alleta" "sa Sascile" "sa Thela" "sa Narcet" "sa Lenatii" "sa Verdanya"
+		"sa Caixos" "sa Daria" "sa Cotho" "sa Othoro" "sa Estat" "sa Itir" "sa Divile" "sa Ghare" "sa Gruggi" "sa Evos"
+		Attato Arceto Beonpraktis Cellikar Edas Deornayi Gargge Filun Melaktas Ise
+		Maenil Livi Veractis Valluni Zakutus Oporte Opolato Menelao Lefis Issacxis
+	}
+	
+}
+
+ice_elf = {
+	graphical_culture = westerngfx
+
+	paldic = {
+		primary = PAL
+	}
+	
+	sellic = {
+		primary = SLU
+	}
+	
+	perric = {
+		primary = TEA
+	}
+	
+	tosshan = {
+		primary = ISS
+	}
+	
+	frozen_elf = {
+		primary = ICW
+	}
+
+	male_names = {
+		Apa Beinvor Elia Shano Pulas Eun Issitir Shanin Obo Tenmui
+		Leonliwil Derarada Ponshin Welossh Hounmi Astal Peinru Sirul Falanmissh Vorasshinmi
+	}
+	female_names = {
+		Sou Deanas Shanous Issis Astas Sirus Deras Loenis Teniul Enmis
+		Firalassh Dweonida Tols Mirmimes Valwu Ienwe Aew Uinn Ulai Onodassha
+	}
+
+	dynasty_names = {
+		Mirmami Iss Palde Vonwui Wesa Eskarribi Donuil Shatterfrost Lonwui Elwui
+		Icestar Coldheart Frozenchild Yellowcourt Ilwai Nisshia Bolae Uldona Uinas Ansoshu
+	}
+}
+
+dverik = {
+	graphical_culture = westerngfx
+
+	yothr = {
+		primary = YOT
+	}
+	
+	grend = {
+		primary = STA
+	}
+	
+	boern = {
+		primary = BOE
+	}
+	
+	rekar = {
+		primary = REK
+	}
+	
+	minathi = {
+		primary = DVE
+	}
+	
+	winter_dwarf = {
+		primary = OBE
+	}
+	
+	grey_dwarf = {
+		primary = GHD
+	}
+	
+	athr = {
+		primary = JOR
+	}
+	
+	jute = {
+		primary = JUT
+	}
+	
+	kvin = {
+		primary = KVI
+	}
+	
+	kaar = {
+		primary = KAA
+	}
+	
+	drebyr = {
+		primary = DRE
+	}
+
+	reindur = {
+		primary = REI
+	}
+
+	male_names = {
+		Alta Bramm Harmel Asmir Alving Hatch Borki Berk Dasvar Emir
+		Bremel Ka Halfnir Elsar Horvak Kestwur Ionar Raldnir Ralnyr Geslek
+		Gunshar Rifni Sigi Stolgr Hatmul Tornaf Fernik Volwik Vestiburn Sogar
+		Geinvik Rothar Wunsyr Pershar Pon Barkan Stoen Thranmi Kass Bornis
+	}
+	female_names = {
+		Velm Asfi Alko Astrot Berla Bisna Egelt Eyon Gudtri Trina
+		Helni Idana Karli Reist Sigota Kull Yhonna Thostwil Valni Ollo
+		Berna Rifa Elsana Ketwar Pira Won Sogatha Thanne Letwurda Shanni
+	}
+
+	dynasty_names = {
+		Halfbeard Stormbeard Strongaxe Grayhand Stout Hammergrace Thunderboot Flint Madeyes Kindbrow
+		Thraut Bargen Klann Greyhome Karak Jarning Jork Duvining Ulving Jhei
+		Kelwur Eldenar Vulning Hett Dorka Shon Tenath Helvar Firanath Kornmat
+		Venim Solt Geirmunth Ilir Thornmir Ysen Kasstling Elding Ulsing Wekken
+	}
+}
+
+kuzic = {
+	graphical_culture = westerngfx
+
+	vehkan = {
+		primary = VEH
+	}
+	
+	black_orc = {
+		primary = BLD
+	}
+	
+	iron_orc = {
+		primary = IRO
+	}
+	
+	jarai = {
+		primary = JAR
+	}
+	
+	golkhar = {
+		primary = BOS
+	}
+	
+	skavith = {
+		primary = SKA
+	}
+	
+	qichond = {
+		primary = CHO
+	}
+	
+	ashkazi = {
+		primary = ASH
+	}
+	
+	tulsuq = {
+		primary = TUL
+	}
+
+	male_names = {
+		Rakhar Ainar Zatir Bekir Lashyr Saga Tuman Ulzhal Zhan Halgas
+		Sulon Rekvir Khanba Beknar Arkhal Estbek Lonmazh Imurduz Zarduz Gazbekar
+		Ylshek Dirbar Mavazhit Ryslem Taglam Tok Ktar Yerk Uzogaz Byl
+		
+	}
+	female_names = {
+		Ase Dilnu Hanat Aya Hakna Seyana Aina Earu Dilma Karasha
+		Gulkhati Raushana Kmosh Ygash Salashy Shangul Yry Turula Ulmezhe Zhulfi
+	}
+
+	dynasty_names = {
+		Skave Jarga Tulga Qichqa Vehkar Anzaq Milakyn Kiiro Mosghar Gubjyn
+		Anqi'Yu Kegan Anqi'Ter Rehkar Briihvak Borgol Dushjyn Almyn Nashagrazyn Eduguz
+		Khasia Velenemov Artuzh Deskavih Kolshas Zabrin Dashan Yosar Mirdan Golgunam
+	}
+}
+
+zgo = {
+	graphical_culture = westerngfx
+
+	ngona = {
+		primary = NGO
+	}
+	
+	mazdi = {
+		primary = MAZ
+	}
+	
+	akage = {
+		primary = AKA
+	}
+	
+	zabwe = {
+		primary = LOS
+	}
+	
+	ronar = {
+		primary = RON
+	}
+
+	male_names = {
+		Ndone Mgawes Ogode Ogonwe Gobawe Ndaran Lonwala Zdak Maszin Rod
+		Bdawamego Naakar Ewenaak Mgomg Goma Elguwag Dmgo Odo Ldanomaw Aspe
+	}
+	female_names = {
+		Awala Mgwe Asgod Elwari Sziraw Elgane Gwegu Gwega Gwugguri Naash
+	}
+
+	dynasty_names = {
+		Mgewu Agake Odm Szra Bwan Spesi Ronaari Qudu Shazat Dban 
+		Twe Lonmwgag Eganwg Dwd Asgir Mbadedwenu Ashkagu Ashkelru Ashdben Leweg
+	}
+}
+
+mdari = {
+	graphical_culture = westerngfx
+
+	treddan = {
+		primary = TRE
+	}
+	
+	shieldhand_orc = {
+		primary = SHI
+	}
+	
+	white_orc = {
+		primary = WHI
+	}
+	
+	kashak = {
+		primary = KAS
+	}
+	
+	gangyz = {
+		primary = GAR
+	}
+	
+	uyguz = {
+		primary = DOO
+	}
+
+	male_names = {
+		Waglen Denul Shdean Nidran Cashh Dekk Dened Ugdan Udar Luga
+		Ugo Weseg Egawnim Hosnaweg Gwegl Denuda Erfucch Ogob Brego Midogok
+		Marod Ghragh Gnogad Zabgha Sharg Hamugu Mul Vuguril Kogan Argal
+	}
+	female_names = {
+		Bor Atub Khashug Basha Sona Bulka Shel Bumgus Nargal Shadab
+		Mulag Zebg Homu Shdea Drana Gharagoan Maraod Braga Modi Egawar
+	}
+
+	dynasty_names = {
+		Shieldhand Tred Whiteface Kash Gangul Uygul Ragra Tobaq Ilshar Gorskk
+		Kzar Mdari Menes Uludz Aqudar Hornborn Shattered Doomed Blooded-One Spearfang
+		Shaqra Edukhiz Ulgun Ekatar Zhor Qichona Murdrak Konmak Dbar Dasan
+	}
+}
+
+orkal = {
+	graphical_culture = westerngfx
+
+	omagan = {
+		primary = OMA
+	}
+	
+	wla = {
+		primary = MAU
+	}
+	
+	lda = {
+		primary = LDA
+	}
+	
+	stone_orc = {
+		primary = STO
+	}
+	
+	anvan = {
+		primary = ANV
+	}
+	
+	or = {
+		primary = ORH
+	}
+	
+	stahvic = {
+		primary = SHN
+	}
+	
+	ogol = {
+		primary = GON
+	}
+
+	male_names = {
+		Ogrob Ogri Bogan Gweneg Bograb Wlan Ldaon Kagar Waong Okh
+		Naragol Mugar Ulagob Pega Jonyam Vron Grulnaq Yaundthra Maugh Gralthug
+		Thanok Gladba Daganu Agrob Shenvet Kis'Hruth El'Ogop D'Winar Udulhra Bashang
+	}
+	female_names = {
+		Sgal Mugur Orluas Agrulla Yata Zushtal Edeab Gogal Boga Ldarik 
+		Oshana Oshbir Udula Basha Drana Naragall Gwehega Hanash Kmosa Mistal
+	}
+
+	dynasty_names = {
+		Shmal'klar La'staw La'klu Voss'parssh Shmu'dka Maulad Omad Orad Ldad Djad
+		Hashen Dgogen Grauling Taikar Orhonmid Slavan Ordoan Sthavar Prs Shimbu
+		Murtag Uzugul Khabur Durbg Rimguk Guthral Uku Ghollog Bors Gortwag
+	}
+}
+
+gorsic = {
+	graphical_culture = westerngfx
+
+	kashtian = {
+		primary = KHA
+	}
+	
+	skhean = {
+		primary = GUZ
+	}
+	
+	joma = {
+		primary = JOM
+	}
+	
+	shekhajian = {
+		primary = VAN
+	}
+	
+	imur = {
+		primary = BFY
+	}
+	
+	dark_goblin = {
+		primary = TBA
+	}
+	
+	qashar = {
+		primary = QAS
+	}
+
+	male_names = {
+		Grob Daan Shenvi Winat Bashan Gralthu Glada Nathol Wok Ulpek
+		Besar Rezi Temodard Givi Revatz Baadiv Dato Arkad Tedoljan Gocha
+		Merab Vepkhin Koba Azat Malkhar Kentam Sarim Takbraa Raml Gacha
+	}
+	female_names = {
+		Nuta Guili Lado Zvia Gurgen Givi Sgana Yaton Osha Gwenash
+		Giu Gasion Riamome Rejan Droseb Kropirnir Dzina Levit Tyoma Taja 
+	}
+
+	dynasty_names = {
+		Ishvi Kreselidzi Ladzeon Tabagan Khazide Khishvire Javrishvi Jadzen Bolkva Kazbeluria
+		Zestaan Jomi Shekhaji Imuri Khashti Qashi Ozugili Termishi Banak Jvilala 
+		Tkvar Varivilina Tsabagedi Bolkalakan Hoban Leosndvi Artasu Denevilish Mirtag Nonatsuv
+	}
+}
+
+dark_elf = {
+	graphical_culture = westerngfx
+
+	ashlati = {
+		primary = ASV
+	}
+	
+	indrysian = {
+		primary = IND
+	}
+	
+	saith = {
+		primary = ALV
+	}
+	
+	telic = {
+		primary = STN
+	}
+	
+	wastelander = {
+		primary = RUS
+	}
+	
+	varal = {
+		primary = ESM
+	}
+	
+	duskborn = {
+		primary = DUS
+	}
+	
+	deadlander = {
+		primary = KRV
+	}
+	
+	myric = {
+		primary = MYV
+	}
+	
+	lucien = {
+		primary = NUV
+	}
+	
+	naavan = {
+		primary = NAV
+	}
+	
+	trithe = {
+		primary = ALM
+	}
+
+	male_names = {
+		Anas Alor Arvath Ardin Athos Belad Braveth Beses Borvus Daltho
+		Daynith Deradon Durith Elem Endras Fellor Frov Farvar Folyr Galadis
+		Gilsoth Gelth Lladriel Hlorn Hlasevan Odrin Odrev Sarim Mathis Mothryn 
+		Son Serevyn Tenuviel Terevain Toldrath Sinuth Viras Vyvain Vonur Ulvar
+	}
+	female_names = {
+		Ada Arva Avra Ethos Aldina Deradran Tolsin Tenma Belvasu Ulvar
+		Sa Tenmora Vira Vyva Vonu Galavi Enora Medossa Managi Olvatha
+		Veratu Verau Sasenna Siluan Vivassa Ninare Hlani Sena Thesi Midragil
+	}
+
+	dynasty_names = {
+		"tath Indrys" "tath Nulva" "tath Naa" "tath Kan" "tath Tir" Telasi Ruska "of the Deadlands" Vali Trin
+		Hlovath Llenmyr Andressa Shatha Salvori Llanagli Drethin Saalu Vanthir Thalathan
+		Othelas Vireloth Velas Virith Mangoran Turanadas Aloth Rolavyn Reses Rethavyn
+		Ulesses Uvaros Orindan Esobe Kotobe Adrun Ralmaroran Barsersalvi Hlaloth Athaniron
+	}
+}
+
+fire_elf = {
+	graphical_culture = westerngfx
+
+	arar = {
+		primary = ARA
+	}
+	
+	lovashi = {
+		primary = LOV
+	}
+	
+	vardesian = {
+		primary = VMA
+	}
+	
+	dzynic = {
+		primary = DZY
+	}
+
+	male_names = {
+		Narsis Ara Aban Kalon Navahran Antrisart Vakah Mnatson Varbar Sahom
+		Yezan Anastas Arzom Yeretav Vatavaloj Dashyn Beveram Takha Ashat Hrad
+	}
+	female_names = {
+		Hnazant Voslva Khoara Davedis Dzamaer Penyamin Vatapa Maran Argosa Khnava
+	}
+
+	dynasty_names = {
+		Dzaghonbria Bagakehimgosian Kiraferman Babayadza Gamkirian Marotoukh Muratyakh Ghukponov Yeghadonkhir Sarkasigogayn
+		"ye Masja" "ye Lov" "ye Vakyesev" "ye Meta" "ye Dzy" Ararian Vardevian Varavarian Kaparian Dragavian
+	}
+}
+
+sea_elf = {
+	graphical_culture = westerngfx
+
+	anowic = {
+		primary = ANO
+	}
+	
+	aethian = {
+		primary = DAW
+	}
+	
+	siric = {
+		primary = SIR
+	}
+	
+	dothic = {
+		primary = DOT
+	}
+	
+	uldan = {
+		primary = ULD
+	}
+	
+	runic = {
+		primary = RUL
+	}
+	
+	rifter = {
+		primary = RIF
+	}
+	
+	teyan = {
+		primary = UTE
+	}
+	
+	silavian = {
+		primary = SLV
+	}
+	
+	gildan = {
+		primary = GIL
+	}
+	male_names = {
+		Arvein Beled Dalthio Dered Edrin Serim Methan Seneth Tonave Sentar
+		Peledrion Pelanad Eilon Egon Umunel Neloraen Estor Tendor Emad Deledion
+		Telon Kelret Kelm Lenthir Oreses Eiath Eitar Kinsim Ewir Elon
+		
+	}
+	female_names = {
+		Anelle Kinura Eirin Eilin Ohape Umoin Penadil Hasuriona Telade Eita
+		Eia Leondi Kelra Seramina Metho Tonovo Ontap Pelanas Eisten Madissin
+	}
+
+	dynasty_names = {
+		Duinoth-Al Ut-Al Ec-Al Kaladan-Al Jael-Al Sirisin Silavsin Gilsin Anosin Aethaisin
+		Honshu Peladrin Velender Ecalras Shuntar Aethan Nowis Utalas Thadrian Elinomor 
+		Perpasin Lounthrin Deresadrin Falanthir Untho Kalarawe Undogewen Houtha Piro Udual
+	}
+}
+
+lyzanian = {
+	graphical_culture = westerngfx
+
+	saj = {
+		primary = NOK
+	}
+	
+	kai_jek = {
+		primary = KAI
+	}
+	
+	zondic = {
+		primary = ZON
+	}
+	
+	suldan = {
+		primary = SUL
+	}
+	
+	jetal = {
+		primary = HAJ
+	}
+	
+	mokta = {
+		primary = GOZ
+	}
+	
+	rohgii = {
+		primary = ILR
+	}
+	
+	deja_tafi = {
+		primary = VUJ
+	}
+	
+	koru = {
+		primary = KOG
+	}
+	
+	syltic = {
+		primary = SYL
+	}
+	
+	flamehatched = {
+		primary = AZT
+	}
+	
+	gazari = {
+		primary = GAZ
+	}
+	
+	mistborn = {
+		primary = NAH
+	}
+	
+	dongan = {
+		primary = DON
+	}
+	
+	northlander = {
+		primary = STH
+	}
+
+	male_names = {
+		"Kai -" "Nazu -" "Haje -" "Ko -" "Meema -" "Min -" "Jeb -" "Jei -" "Gur -" "Usan -"
+		"Kal -" "Aki -" "Ahje -" "Ajo -" "Ata -" "Azt -" "Bes -" "Geej -" "Genak -" "Tul -"
+		"Depa -" "Bako -" "Chee -" "Ei -" "Egoji -" "Muaz -" "Keest -" "Yoxal -" "Xil -" "Waruj -"
+		"Ejel -" "Gei -" "Noru -" "Hixon -" "Kiz -" "Shah -" "Not -" "Okas -" "Bur -" "Hetmal -"
+	}
+	female_names = {
+		"Hajin -" "Am -" "An -" "Ank -" "Telat -" "Jin -" "Jan -" "Ula -" "Owa -" "Uwa -"
+		"Onax -" "Dje -" "Dus -" "I -" "Vheeka -" "Vulja -" "Tao -" "Kei -" "Shen -" "Zata -"
+		"Xanu -" "Ila -" "Naji -" "Hkanu -" "Gejee -" "Jerai -" "Ija -" "Insamu -" "Velekejet -" "Ansu -"
+	}
+
+	dynasty_names = {
+		Jettan Is Punh Vilja Sejek Tau Hiljek Jek Vikra Tun 
+		Silijet Gozi Muja Evt Pal Gur Gurjek Gurjet Gas Gumi
+		Hili Tano Isk Hsin Jal Jun Jero Shotas Shirik Zeb
+		Tej Lo Isst Mundal Konrak Nomi So Ti Isstan Jekko
+	}
+}
+
+tval = {
+	graphical_culture = westerngfx
+
+	manafi = {
+		primary = MFE
+	}
+	
+	afarafi = {
+		primary = AFA
+	}
+	
+	okyma = {
+		primary = OKY
+	}
+	
+	lake = {
+		primary = SLK
+	}
+	
+	fiana = {
+		primary = FIA
+	}
+	
+	mahan = {
+		primary = MHA
+	}
+
+	male_names = {
+		Tovon Arilo Lova Anat Falim Andi Zotased Lalaigi Manahir Raza 
+		Raktotom Tsior Tahirim Hajanir Rivelo Anatlon Tovan Tsija Solofo Tirahas
+	}
+	female_names = {
+		Felana Hanta Mirantso Todisai Mijon Fiona Hanirij Saraha Vao Militian
+	}
+
+	dynasty_names = {
+		Raktoovinaivo Andrimafifadrabe Zkaleoro Randitonanibo Rabehamata Kotol Tolia Voa Anditsiton Pioninravaon
+		Manafihan Lakehan Fianahan Afarahan Anantosorovel Kandek Habominifola Tolianasataru Sirabelovan Atsilava
+	}
+}
+
+wood_elf = {
+	graphical_culture = westerngfx
+
+	oldwood_elf = {
+		primary = OLH
+	}
+	
+	ulfin = {
+		primary = ULF
+	}
+	
+	astaen = {
+		primary = AST
+	}
+	
+	elmenar = {
+		primary = ELM
+	}
+	
+	boek = {
+		primary = BOK
+	}
+	
+	tewar = {
+		primary = TWE
+	}
+	
+	weyk = {
+		primary = ROO
+	}
+	
+	falar = {
+		primary = FFD
+	}
+	
+	riverwood_elf = {
+		primary = RIW
+	}
+
+	male_names = {
+		Finander Filas Egelir Althafrin Araen Glathgwin Olmin Finthian Feror Boleth 
+		Ulwhar Elserond Galadrim Borca Caelthwhur Tisildun Malbrin Edagor Fan Gomlaf
+		Heremes Ungor Thodrin Relaf Filamin Felagast Cirdiwin Donthir Beradon Onbelon
+	}
+	female_names = {
+		Ada Nilieon Tharwha Lodriel Gawarin Efe Aen Lofara Dalsin Enduis
+		Glodis Galsaelphi Dontha Taralie Ulwhen Emana Forin Feralagath Fedrion Fana
+	}
+
+	dynasty_names = {
+		Birch Aster Root Juniper Beech Elm Fir Aspen Ash Willow
+		Cesswar Telandru Thelapp Condiun Malbronch Faral Feraluin Festin Anamor "Hollowed-Ashes"
+		Elmedath Ulfedath Falfe Boeketh Deidran Gaeni Ewido Lano Londirath Legano
+	}
+}
+
+night_elf = {
+	graphical_culture = westerngfx
+
+	zeiy = {
+		primary = ZEI
+	}
+	
+	nakti = {
+		primary = NAK
+	}
+	
+	shurrean = {
+		primary = SHU
+	}
+	
+	dinari = {
+		primary = TIR
+	}
+	
+	shade_elf = {
+		primary = SHQ
+	}
+	
+	lorcean = {
+		primary = LRC
+	}
+	
+	shkar = {
+		primary = SHK
+	}
+
+	male_names = {
+		Shaq Akam Shkenoba Nasir Lastar Thjesh Erlim Tumush Defrim Ahsin
+		Taturin Xhe Xhemain Larus Shqano Ushul Butuz Aldant Flabian Malgor
+		Gjerluz Palush Adnash Luiktor Edoxh Sear Sulshko Dhutero Raenv Ashqko
+	}
+	female_names = {
+		Dilini Aje Verata Daze Miosana Detare Yllno Ngaze Delqet Samivi
+		Shqanal Lidij Lume Dranvir Ezra Shprase Lula Vesara Aferana Illit
+	}
+
+	dynasty_names = {
+		Zei Ashto Shenq Shqao Isu Tenta Pinso Puris Shadow Shadowborn
+		Sele Asum Ivi Taos Nelvenshq Xoqa Lajan Trehj Isaj Uruj
+		Shkano Shakin Darepi Damir Darriv Dina Shepe Iskan Tepem Vul
+	}
+}
+
+katlamaki = {
+	graphical_culture = westerngfx
+
+	falconic = {
+		primary = SAI
+	}
+	
+	awk = {
+		primary = AWL
+	}
+	
+	katlic = {
+		primary = KAW
+	}
+
+	male_names = {
+		Krowanath Sekrunn Skoroi Ries Skenawan Asterbur Sowroon Tallet Tinst Kentleburd
+		Wentch Draum Thatakin Longsey Alwind Kalches Burdrwr Shampiwossh Khabawegrish Zhesqenno
+	}
+	female_names = {
+		Tilara Rhiana Iararrea Zhelkhine Askethaw Wiayle Grebeoyie Rhoshigenew Sqwebneiw Qhisha
+	}
+
+	dynasty_names = {
+		Kra Rara Ske Skuaw Wekew Sqotath Rokot Faw Kemrek Gown
+		Broadwing Flight Bronze-Eye Shess Coldbeak Coalburn Resty Shawkro Tealwing Farship
+	}
+}
+
+ondedean = {
+	graphical_culture = westerngfx
+
+	kanatagu = {
+		primary = KNT
+	}
+	
+	sgawe = {
+		primary = SGA
+	}
+	
+	ononda = {
+		primary = CHK
+	}
+	
+	ashlandic = {
+		primary = AHA
+	}
+	
+	tene = {
+		primary = TEN
+	}
+	
+	degani = {
+		primary = DEG
+	}
+
+	male_names = {
+		Tareg Hassul Deganawi Anak Urit Otetiano Adit Sunukkuh Iawath Onangowa
+		Kenan Tekawitho Wisendiye Doah Tiio Gawso Gwere Dune Eyweo Ononagi
+		Onon Beru Feleniwe Wierdu Hansage Geleh Sotaw Udegaw Weis Muwaga
+	}
+	female_names = {
+		Shata Sota Weia Muwa Tiona Gwera Eywo Onoonli Asweiga Nirswa
+		Sgane Ihea Gahe Ohnsa Naha Piiwra Hogesa Teretansi Piransi Nondawe
+	}
+
+	dynasty_names = {
+		Na'Tene Na'Dega Na'Asha Na'Sg Na'Kana We'Sade We'Iheku We'Deyo We'Haga We'Dawe
+		On'Saku On'Sawe On'Nage On'Dona On'Sotew Ki'Shanu Ki'Telu Ki'Siwa Ki'Chotwe Ki'Tana
+		Na'Sebe Na'Dewa Na'Haga Na'Daw Na'Sganu We'Maha We'Iwe We'Satu We'Iawa We'Tyo
+	}
+}
+
+litawan = {
+	graphical_culture = westerngfx
+
+	anandogaweni = {
+		primary = ANA
+	}
+	
+	peswan = {
+		primary = EWO
+	}
+	
+	sipichaw = {
+		primary = SIP
+	}
+	
+	stahy = {
+		primary = KWK
+	}
+
+	male_names = {
+		Atchu Ashagene Anandoga Tamene Shoka Wahkoopia Adowem Todalahwekte Hinish Howakhe
+	}
+	female_names = {
+		Wenqua Sulana Doymela Amashanee Kolasi Pawin Wanene Nittawospa Amadinok Atkomis
+	}
+
+	dynasty_names = {
+		Earthbreaker Horserider Saddleborn Waker Dogrunner Detih Pewas Ganawe Chawy Kegan
+	}
+}
+
+algonic = {
+	graphical_culture = westerngfx
+
+	laketrader = {
+		primary = HAA
+	}
+	
+	sadeonqua = {
+		primary = WOL
+	}
+	
+	kako = {
+		primary = KIS
+	}
+	
+	atobanaki = {
+		primary = ATO
+	}
+	
+	tsiani = {
+		primary = TEW
+	}
+	
+	wangouwean = {
+		primary = WAN
+	}
+	
+	ocha = {
+		primary = KIC
+	}
+	
+	riverman = {
+		primary = OCH
+	}
+
+	male_names = {
+		Tarag Wsandiya Gwara Aywa Muwego Ononade Felanis Galo Iowon Ongaw
+		Ikso Chowtri Ocumato Chosi Atsin Ahatu Malian Loshu Tooanah Skepta 
+		Gomas Abookchak Ahapi Kemit Miskwecanou Weminsqua Opechatan Takhild Watsepun Astomas
+	}
+	female_names = {
+		Abesoom Anangote Ngoka Soundassaw Komaya Wawage Daaba Chego Amashakwi Anis
+		Inikimak Tsinnima Ipitomawa Kaisowe Iwedinaa Maemang Misnaawa Oigunoton Osamkwas Sinokanma
+	}
+
+	dynasty_names = {
+		Atsian Akak Asadeon Abana Achar Awangou "of the Wolf" "of the River" "of the Lake" "of the Thread"
+		Chebawk Iseteru Hranan Loutseku Obje Kanseru Wouwalra Westawoug Chelan Bewougacte
+		Pitstin Kisona Ahktan Aan Hano Opkim Gaganish Tekasun Htan Ochanir
+	}
+}
+
+broken_men = {
+	graphical_culture = westerngfx
+
+	styric = {
+		primary = STY
+	}
+	
+	black_islander = {
+		primary = MRP
+	}
+	
+	yoshi = {
+		primary = YOS
+	}
+	
+	fjordic = {
+		primary = DRD
+	}
+	
+	vexed = {
+		primary = VEX
+	}
+	
+	fingerling = {
+		primary = VLT
+	}
+	
+	nightlandic = {
+		primary = NGH
+	}
+	
+	atlic = {
+		primary = ATL
+	}
+
+	male_names = {
+		Yos Sadar Zakar Izor Tana Hobble Comsten Millsur Garrow Burkard
+		Shontey Scarl Kirko Ainstor Chelden Darsouth Calda Halam Fraswin
+	}
+	female_names = {
+		Shakri Yosa Yoshe Ishaa Kazrin Halli Hilsin Oun Berna Bessey
+	}
+
+	dynasty_names = {
+		Yosak Keshar Zun Palsa Tesar Keelhorn Kaldack Ghostship Fenton Bris
+		Roug Desel Shawnbri Deserae Oldain Boatswain Privet Goldtooth Crabbe Capple
+	}
+}
+
+trovanic = {
+	graphical_culture = westerngfx
+
+	trovan = {
+		primary = NTR
+	}
+	
+	pirean = {
+		primary = PRC
+	}
+	
+	pellic = {
+		primary = PEL
+	}
+
+	male_names = {
+		Amadil Anaduil Arvethor Boron Anthar Antar Aranoth Malthor Farafin Branrod
+		Denelin Vorin Eradan Orthol Turhal Halbar Haelsin Drethir Thorhtar Malvelas
+	}
+	female_names = {
+		Gilaran Enas Iorwen Lothran Wendal Rowan Rethel Asain Pella Shouna
+	}
+
+	dynasty_names = {
+		Trov Pellis Pirain Feltan Atronos Kena Lasting Samor Dinim Elam
+		Sham Sholtan Tellan Fellas Fellus Perem Endic Vols Simus Ectas
+	}
+}
+
+fyrvar = {
+	graphical_culture = westerngfx
+
+	modan = {
+		primary = FAK
+	}
+	
+	kyfan = {
+		primary = TYR
+	}
+	
+	karadan = {
+		primary = KRH
+	}
+	
+	thalan = {
+		primary = TRN
+	}
+
+	male_names = {
+		Thrak Bokan Usgrim Thumrad Thradror Nurak Thagga Grolmum Kras Jorhag
+		Hemek Weradd Broun Nokran Tores Gradth Kirat Frekar Yanma Strota
+	}
+	female_names = {
+		Yundrae Whurhan Bosdrogi Nufama Tholga Kratmi Drithal Belynn Arfea Golrown
+	}
+
+	dynasty_names = {
+		Thal Kyf Kyr Modakk Karad Eyfji Fjakan Ofjul Jertu Yazj
+		Kanak Thas Shekar Kol Lonjearben Duin Elvekkar Nofras Scal Donbas
+	}
+}
+
+altvarik = {
+	graphical_culture = westerngfx
+
+	chezan = {
+		primary = MAG
+	}
+
+	male_names = {
+		Chezan Ucaz Gagazrun Gekeche Chezoth Zaraweth Ikanichakz Mundakaz Krakal Dezan
+	}
+	female_names = {
+		Dezana Cheza Ucaza Gagazra Gekelna Zatha Uzchinm Maelnath Ucrith Chegachze
+	}
+
+	dynasty_names = {
+		Chez Zakrtidki Mirkazda Ngochana Durvas Ikenthgrad Uzuxel Ecatshk Xaxu Illrakashz
+	}
+}
+
+aspic = {
+	graphical_culture = westerngfx
+
+	rohelin = {
+		primary = ROH
+	}
+	
+	dragonborn = {
+		primary = DVL
+	}
+	
+	sentic = {
+		primary = SNT
+	}
+	
+	nisten = {
+		primary = BLW
+	}
+	
+	dorean = {
+		primary = DOR
+	}
+
+	male_names = {
+		Vergus Lius Tathan Seneus Flan Lonkar Othen Brast Vithar Burtte
+		Amadon Ranoth Althor Afin Anron Rhal Barsin Thos Alven Rhon
+	}
+	female_names = {
+		Gilas Wenes Pela Owana Othra Dina Dian Arine Amacia Cia
+	}
+
+	dynasty_names = {
+		Rohan Dragonborn Niste Sente Dore Perel Bellard Selan Honard Gowin
+		Shees Telan Gameth Tondur Felad Winde Sondar Saugat Porter Keltig
+	}
+}
+
+nurkic = {
+	graphical_culture = westerngfx
+
+	trayish = {
+		primary = KAD
+	}
+	
+	mersic = {
+		primary = MRM
+	}
+	
+	raalic = {
+		primary = RAA
+	}
+	
+	mantic = {
+		primary = MTY
+	}
+
+	male_names = {
+		Altinhan Kamil Ayso Erdan Enur Tug Totuk Samet Irfan Koray
+		Varba Ucelak Tedenir Dorkut Sabit Demli Sarias Necdet Ozug Talat
+	}
+	female_names = {
+		Asya Sefa Gun Oz Ilke Dilatka Ayal Sonat Nurcip Altke
+	}
+
+	dynasty_names = {
+		Hasam Dincan Kopal Petker Kashazi Karker Aktser Ordak Verdari Curuk
+		Raa Man Trayok Mersi Tardaruf Some Tanak Safral Urteppan Takay
+	}
+}
+
+beghanic = {
+	graphical_culture = westerngfx
+
+	bagda = {
+		primary = BHA
+	}
+	
+	suduri = {
+		primary = SUD
+	}
+	
+	chimar = {
+		primary = CHI
+	}
+	
+	lumasi = {
+		primary = LUM
+	}
+	
+	rautak = {
+		primary = BAN
+	}
+
+	male_names = {
+		Harih Raj Sharatha Pankchud Rushsat Priman Niraj Bisham Virktha Amodh
+		Bishwan Ragkram Sritodh Nurjit Paramshwar Aasang Jagdi Harid Dhohit Gangendra
+		Chittarish Chittanmod Ekanand Akaa Diwathiv Deenash Dhirmir Nishpraw Sajekar Bhishwa
+	}
+	female_names = {
+		Rami Presis Himachan Sulans Gunsha Chhadha Ranuka Ainura Dheeka Mari
+		Jaya Anjibne Kainsha Beetapa Kamale Shworin Shandaya Abina Swenee Kanksha
+	}
+
+	dynasty_names = {
+		Shilpak Mokthapit Susinh Gartas Path Batamji Rajkjha Sijapal Gurchap Vaishnung
+		Modhra Oju Chaudadhi Sevaki Shraj Kolachpa Limral Kashwa Kocharya Ragaw
+		Bagdi Lumi Chima Suduth Raut Ghodak Nagarjung Raphan Badakhi Bhumshan
+	}
+}
+
+armoccan = {
+	graphical_culture = westerngfx
+
+	key_islander = {
+		primary = AMD
+	}
+	
+	chidal = {
+		primary = OUA
+	}
+	
+	sahkan = {
+		primary = AMA
+	}
+	
+	kesh = {
+		primary = AZK
+	}
+	
+	omiri = {
+		primary = OMI
+	}
+
+	male_names = {
+		Abadesar Adei Atikadar Ayz Benour Benchakr Chif Dedazoun Zouna Ghousam
+		Hajdou Hmidri Jboundi Khatfi Mamound Moafis Najou Ousram Rahid Souf
+	}
+	female_names = {
+		Anjoura Asse Basmche Chaima Fatou Ghonifa Hadara Kaimaj Jamilia Maroua
+	}
+
+	dynasty_names = {
+		"ben Hadidi" "ben Hasr" "ben Alcheif" "ben Alrada" "ben Kaim" "ben Shota" "ben Ulraida" "ben Ouma" "ben Ousrou" "ben Abadou"
+		"ben Amada" "ben Yousa" "ben Bechid" "ben Ouan" "ben Martail" "ben Oujatak" "ben Sahka" "ben Maad" "ben Saad" "ben Zemstras"
+		"ben Rasal" "ben Ufshar"
+	}
+}
+
+najric = {
+	graphical_culture = westerngfx
+
+	yazidi = {
+		primary = YAZ
+	}
+	
+	basjahn = {
+		primary = BAJ
+	}
+	
+	jhistan = {
+		primary = JHI
+	}
+	
+	west_najean = {
+		primary = NBY
+	}
+	
+	east_najean = {
+		primary = DEJ
+	}
+	
+	hestic = {
+		primary = HES
+	}
+
+	male_names = {
+		Abbus Abdas Ahalon Akim Altasil Bahir Harim Rahmad Maluf Shirun
+		Qasid Raad Katuf Anwasamir Fahdaq Fuq Zaifar Usar Usmol Malil
+		Jamase Jerash Atubak Basris Uqalad Shemir Kad Umal Yousul Foun
+	}
+	female_names = {
+		Saidail Asana Faimi Suharet Tawra Faimo Fati Anlia Cenia Haloda
+		Marina Ranala Safila Fiyaran Majoda Douna Usmala Jera Ahala Usa
+	}
+
+	dynasty_names = {
+		"ab Shiit" "ab Alkren" "ab Qutmal" "ab Shonoket" "ab Aldrus" "ab Hara" "ab Sra" "ab Centuf" "ab Tufwal" "ab Baj"
+		"ab Shukr" "ab Terot" "ab Anwal" "ab Jhist" "ab Yazi" "ab Baye" "ab Hestal" "ab Neyje" "ab Mayje" "ab Shep"
+		"ab Adan" "ab Zaj" "ab Suquds" "ab Zinjedd" "ab Bajdehat" "ab Qas" "ab Nalma" "ab Sistra" "ab Jarif" "ab Diyaf"
+	}
+}
+
+souli = {
+	graphical_culture = westerngfx
+
+	ghas = {
+		primary = GHA
+	}
+	
+	mafouin = {
+		primary = SHM
+	}
+	
+	eshari = {
+		primary = ESH
+	}
+	
+	yabran = {
+		primary = AQA
+	}
+	
+	gastal = {
+		primary = RAM
+	}
+
+	male_names = {
+		Jahair Sami Aladoo Aish Zareef Saasim Fahsad Ismaa Taimad Zain
+		Yaadr Mashat Maro Awheel Saam Jhatim Uqas Afooq Ameed Khalbah
+		Furleet Faashr Bateef Nalala Ismar Fale Ashim Qaanad Durdul Abas
+	}
+	female_names = {
+		Ahafa Mecha Leela Uma Tamasale Mannab Saja Haanqa Hisaar Juhaina
+		Hamruda Haaje Nutima Kanaa Mahzzi Ibiaida Saama Feebiq Biqa Udaila
+	}
+
+	dynasty_names = {
+		"ib Satr" "ib Mitris" "ib Fasari" "ib Wahsud" "ib Makar" "ib Sadr" "ib Altari" "ib Ullis" "ib Shatif" "ib Kran"
+		"ib Alymeej" "ib Mail" "ib Mhail" "ib Lomad" "ib Ghasri" "ib Mafou" "ib Gas" "ib Yabrun" "ib Shelf" "ib Zarbaq"
+		"ib Mahshariq" "ib Asbid" "ib Khurbay" "ib Maj" "ib Alfalatal" "ib Nadou" "ib Jara" "ib Baqa" "ib Kirat" "ib Kraywan"
+	}
+}
+
+bahdak = {
+	graphical_culture = westerngfx
+
+	keswic = {
+		primary = KEW
+	}
+	
+	misral = {
+		primary = MIS
+	}
+	
+	jidai = {
+		primary = JID
+	}
+	
+	karu = {
+		primary = YEM
+	}
+	
+	akkad = {
+		primary = AKK
+	}
+
+	male_names = {
+		Muah Ibrallah Abdu Ibhasa Manraib Jasul Muzafiidin Najdris Abduq Mirsmail
+		Isalib Haifi Abqulsha Quls Oqorron Kairidin Alifun Jabar Adrun-Elus Adrat-Afal
+		Bek-Jabar Bel-Fatr Sadi Idiziz Abulid Mauhbra Nasir Josephir Jibrun Abdakir
+	}
+	female_names = {
+		Naidid Taksmin Shamarand Ameshal Resatug Khaira Usha Maryna Tagahba Jaba
+		Ewoli Laylasa Nafira Shahzad Ussawa Wala Shota Sabakal Askira Souza
+	}
+
+	dynasty_names = {
+		"al Saifid" "al Waran" "al Ejutif" "al Keswan" "al Zaymi" "al Sauhba" "al Yaud" "al El-Orbeid" "al Tagan" "al Shutriq"
+		"al Akkad" "al Jid" "al Misr" "al Karuwan" "al Teshi" "al Hebres" "al Hara" "al Ebrin" "al Dae" "al Achem"
+		"al Nushal" "al Baim" "al Damish" "al Reida" "al Jebar" "al Ewok" "al Suwar" "al Shalamaham" "al Bulud" "al Hoqan"
+	}
+}
+
+tifhrean = {
+	graphical_culture = westerngfx
+
+	mahran = {
+		primary = MHR
+	}
+	
+	qalari = {
+		primary = QAL
+	}
+	
+	ruhnic = {
+		primary = RUH
+	}
+	
+	delean = {
+		primary = ADA
+	}
+	
+	tenegolic = {
+		primary = TWA
+		male_names = {
+			P'atgol 'Atur A'min 'Tarawan K'Bekog Sh'Vantir A'badu K'enris Badur T'an
+			P'atgol 'Atur A'min 'Tarawan K'Bekog Sh'Vantir A'badu K'enris Badur T'an
+			P'atgol 'Atur A'min 'Tarawan K'Bekog Sh'Vantir A'badu K'enris Badur T'an
+		}
+		female_names = {
+			Telemina Aruli As'Tere Bo'Tere She'Kur 'Hasa B'enchura K'duri 'Venshura A'lena
+			Telemina Aruli As'Tere Bo'Tere She'Kur 'Hasa B'enchura K'duri 'Venshura A'lena
+			Telemina Aruli As'Tere Bo'Tere She'Kur 'Hasa B'enchura K'duri 'Venshura A'lena
+		}
+		dynasty_names = {
+			T'Dene A'Togo Be'Enshur U'sham A'Gehestol K'Darin Sha'Pak T'venhul T'atri
+		}
+	}
+
+	male_names = {
+		Musan Muhalil Mamud Abraddin Jalen Khasri Ahsan Halid Rhamalid Fahiz
+		Zishtai Esratan Shameyd Oseph Samsayn Ussram Idahd Zaul Azul Hasllah
+	}
+	female_names = {
+		Faghmin Zayzan Zoudra Rashina Rama Saba Fasiya Amewe Para Qamsu
+	}
+
+	dynasty_names = {
+		"af Masud" "af Jabid" "af Yarus" "af Hashawan" "af Anid" "af Usfal" "af Qatuls" "af Shekr" "af Dakrim" "af Asul"
+		"af Zau" "af Qala" "af Dae" "af Rata" "af Mahran" "af Udhra" "af Shar" "af Taanbr" "af Ruhnal" "af Niwwus"
+	}
+}
+
+qasinic = {
+	graphical_culture = westerngfx
+
+	atalar = {
+		primary = UHA
+	}
+	
+	hajjid = {
+		primary = OAS
+	}
+	
+	najid = {
+		primary = WAS
+	}
+	
+	qashite = {
+		primary = QSH
+	}
+	
+	dena = {
+		primary = NAD
+	}
+
+	male_names = {
+		Nurad Abeli Ala Shontar Ab-Akar Ab-Hata Ab-Shuba Ab-Esiq Muzaridin Atah
+		Menara Shutariq Farew Weswew Afrahadin Elsahadin Musrahadin Esquiq Kenar Ulsman
+	}
+	female_names = {
+		Khama Aswi Wia Shutra Pawmara Rafina Afina Mara Mahdala Aseina
+	}
+
+	dynasty_names = {
+		"il Naid" "il Sukut" "il Tar" "il Jobas" "il Nadee" "il Oahat" "il Hajji" "il Qash" "il Naj" "il Wasru"
+		"il Sahmah" "il Wadrun" "il Bahqra" "il Shaib" "il Meqqos" "il Jedmma" "il Qam" "il Mediyaj" "il Qarihs" "il Alkhof"
+	}
+}
+
+capic = {
+	graphical_culture = westerngfx
+
+	hranan = {
+		primary = HRA
+	}
+	
+	dinali = {
+		primary = DIN
+	}
+	
+	walan = {
+		primary = WAL
+		male_names = {
+			Kuputa Gubton Upalo Etonmo Wolo Walo Wola Nawal Polowo 
+		}
+		female_names = {
+			Kupu Gbu Etona Walawa Wolowo
+		}
+
+		dynasty_names = {
+			Walando Weleondo Walo Poldagupta Edapojo Eloso Madja
+		}
+	}
+	
+	karian = {
+		primary = KAY
+	}
+	
+	pandu = {
+		primary = PAM
+	}
+	
+	waduli = {
+		primary = WFU
+	}
+	
+	lissean = {
+		primary = LIS
+	}
+	
+	akavan = {
+		primary = AVS
+	}
+	
+	cayyan = {
+		primary = CAY
+	}
+
+	male_names = {
+		Whangar Lisson Bravord Nawaz Makousen Udas Brdjen Afalban Izuzal Mastia
+		Angawas Amadhil Cucages Iwetas Carhi Azkiss Tasguar Barudas Ilrux Agduan
+		Winni Tufagay Hilmu Akakra Azregh Aziz Merwugh Madyan Mihemuk Gourazul
+	}
+	female_names = {
+		Titse Grisyst Lundyma Bibas Tuegsa Tatyur Ougganout Tlelila Tinalt Toubia
+		Dawmal Tazssa Uderet Berwn Bellja Turmuna Qayma Tershemass Thintran Wilalra
+	}
+
+	dynasty_names = {
+		Miamo Londi Mohawak Abader Mowal Hattar Islheed Farotri Shemi Seinhra
+		Qraqo Canchu Shervol Valayd Bravun Caydan Sealo Hamdon Thovik Akavan 
+		Hrano Nangor Karyan Kaltem Bakuls Andahon Leghoghan Laszhara Lhami Ghoznan
+	}
+}
+
+lost = {
+	graphical_culture = westerngfx
+
+	sahridan = {
+		primary = SAH
+	}
+
+	male_names = {
+		Sahalaadin Uzmeir Jagrabutak Shamesh Shjabak Kapum Kelsharr Durbadidin Sharrahok Eshimel
+	}
+	female_names = {
+		Amasta Arsheibe Uzmairla Joshabek Shantana
+	}
+
+	dynasty_names = {
+		Sahri Ilim Inah Apos Ehok Aban Ekin 
+	}
+}
+
+majuki = {
+	graphical_culture = westerngfx
+
+	zamenic = {
+		primary = MJZ
+	}
+	
+	kaji = {
+		primary = KAJ
+	}
+	
+	maju = {
+		primary = MAJ
+	}
+	
+	choli = {
+		primary = KSP
+	}
+	
+	charan = {
+		primary = VIT
+	}
+	
+	pardho = {
+		primary = ROT
+	}
+	
+	bengahri = {
+		primary = BEG
+	}
+	
+	dune_dweller = {
+		primary = DUN
+	}
+	
+	assarese = {
+		primary = ASA
+	}
+	
+	kerri = {
+		primary = KER
+	}
+	
+	punghali = {
+		primary = PUN
+	}
+	
+	lojani = {
+		primary = QOL
+	}
+
+	male_names = {
+		Mo'jahi Mo'johen Mo'ka An'qoho An'tari An'jahi An'johen Mo'lat An'lat Mo'qoho
+		Su'jahi Su'johen Su'ka Su'qol Su'lat Anfashir Anjet Jegar Geqq Shuz
+		Zadal Harzaq Bizshurr Arin Munurur Muljob Jildai Jz'anan Ilejar Daszo
+	}
+	female_names = {
+		Am'lati Am'qon Am'sheba Am'tur Am'jaha Un'jaha Un'qon Un'jori Un'hati Un'sheba
+		Uhija Shauzaba Inuyya Feaniri Fahapa Zayhera Ayrin Yushima Baza Azutha
+	}
+
+	dynasty_names = {
+		Saminin Kharab Khaonji Jetal Mahasudri Rotavavi Tavan Sibili Khorji Jen
+		Anabi Eswan Ujai Zakri Fast-Claw Split-Ear Thunder-Roar Zahad Tavus Sella
+		Maju Kaji Bhenga Pardho Lojo Assa Sambha Jamal Guloki Vadi
+	}
+}
+
+blue_elf = {
+	graphical_culture = westerngfx
+	
+	akoloan = {
+		primary = TUV
+	}
+	
+	fateonan = {
+		primary = NVI
+	}
+	
+	manan = {
+		primary = BLU
+	}
+
+	male_names = {
+		Terao Hapatao Tuearu Hauru Uruta Aifiro Tunutaha Manora Moepai Vanua
+		Vari-Tua Teaui Taura-Tua Vaeve Tehmai Pafu Aia Toa Vaora Teofai
+	}
+	female_names = {
+		Tuputu Purepiri Ino Tapra Taitera Terinia Tertua Hotro Aute Poipua
+	}
+
+	dynasty_names = {
+		Nukuliva Nukuloa Coralborn Yayku Fateon Akolo Mana Avaklo Lito Vito
+		Persal Kitathol White Viko Nito Avanu Mauko Petepatu Lua Muo
+	}
+}
+
+avalic = {
+	graphical_culture = westerngfx
+
+	ikathian = {
+		primary = MAK
+		
+		male_names = {
+			Aristeidis Sakos Ermaos Efinianos Seglias Nikloatos Apoll Venisianis Mistadis Michali
+			Demo Athansanthos Kosto Perebolu Fostas Kirivos Spiriani Spiriviadis Athankis Safos
+		}
+		female_names = {
+			Iri Theodrachi Ioula Xena Agatia Parana Emithe Ouradoula Glykka Doula
+		}
+
+		dynasty_names = {
+			Petaras Gerosakis Tipolides Pananessis Nasses Mutallas Rodopu Valialli Spankou Perraka
+			Ikath Tomade Noka Cetres Celay Phenea Denos Trian Iluma Sephos
+		}
+	}
+	
+	celayphean = {
+		primary = CET
+		
+		male_names = {
+			Aristeidis Sakos Ermaos Efinianos Seglias Nikloatos Apoll Venisianis Mistadis Michali
+			Demo Athansanthos Kosto Perebolu Fostas Kirivos Spiriani Spiriviadis Athankis Safos
+		}
+		female_names = {
+			Iri Theodrachi Ioula Xena Agatia Parana Emithe Ouradoula Glykka Doula
+		}
+
+		dynasty_names = {
+			Petaras Gerosakis Tipolides Pananessis Nasses Mutallas Rodopu Valialli Spankou Perraka
+			Ikath Tomade Noka Cetres Celay Phenea Denos Trian Iluma Sephos
+		}
+	}
+	
+	avalean = {
+		primary = AVE
+		
+		male_names = {
+			Tlalli Itzanan Toltecol Olchapal Malnyah Hutizol Tlacotch Huiazcalxo Azcuetl Matloxcaca
+		}
+		female_names = {
+			Tlalli Tapahuanza Citla Sacmatzi Nochtli
+		}
+
+		dynasty_names = {
+			Bluehorn Greeneye Eagleseer Birdfather Stoneone Hlachala Tletoal Manaxex Chopi Chicallal
+		}
+	}
+}
+
+handaan = {
+	graphical_culture = westerngfx
+
+	druhn = {
+		primary = BAD
+	}
+	
+	churat = {
+		primary = CHG
+	}
+	
+	oht = {
+		primary = OHT
+	}
+	
+	khat = {
+		primary = KRS
+	}
+	
+	lheyn = {
+		primary = LHE
+	}
+	
+	khal = {
+		primary = KHG
+	}
+	
+	grey_islander = {
+		primary = GRY
+	}
+	
+	lhemar = {
+		primary = DLM
+		male_names = {
+			Lhem Feran Thalo Seyd Wabher Bhera Doskith Yere Yeru
+		}
+		female_names = {
+			Lhema Yera Thala Syedi Wahhi
+		}
+		dynasty_names = {
+			Fertun Lahno Seylod Hiqosti Vhidawan Dosk Sumvod Leylod Lhamod Lherod
+		}
+	}
+
+	male_names = {
+		Erkedai Uranyildar Sachasar Xoryul Ogodei Chaperk Chobectar Teletyid Amghabai Dein
+		Jighodai Sdurtalji Ojeldob Bukida Ghengas Khono Ilugei Jungggei Bulqutut Qutumur
+		"Ögedei" "Ölmei" Tublai Joigedei "Münük" Manghun Monktgu Bayan Elgug Toltoq
+	}
+	female_names = {
+		"Temülea" "Börtakhai" Maai Tamar Zaumihan Mulandei Aigigi Sorbek Togenlun Khultun
+		Altotan Justeset Jugdaan Chota Enksuin Saranbeki Tuyaa Odtsteji Ergtuysy Qaya
+	}
+
+	dynasty_names = {
+		Sarutun Mukhabal Noyas Sartimur Urinkhaiseg Edenol Chatayod Borginim Kereylai Zorgid
+		Koydhan Drustah Tejdgluk Gumkeguz Kuhdhru Bagangov Ulimod Khatan Churatid Lheyheynan
+		Sükhbaatar Koqalqot "Öhtid" Dahados Ulonqo Naldaat Borsai Lhataan Bayaxid Urtanchoi
+	}
+}
+
+niir = {
+	graphical_culture = westerngfx
+
+	balbagean = {
+		primary = ABL
+	}
+	
+	quiweeran = {
+		primary = QUI
+	}
+	
+	gabbas = {
+		primary = AGA
+	}
+	
+	elano = {
+		primary = AEL
+	}
+	
+	goondjean = {
+		primary = AGO
+	}
+
+	male_names = {
+		Gungalla Carago Tooglip Bugee Nungerrlar Yalgigger Matchiga Chilbugn Jubuun Goorab
+		Nyako Mogopar Pinalti Alagul Yillglu Drjajowan Oraja Arunchum Dural Parsi 
+	}
+	female_names = {
+		Akala Truga Weema Wildah Kirro Corowa Amaris Wemegoo Wyun Watah
+	}
+
+	dynasty_names = {
+		Barbellary Dunjakman Munutallme Tjapatari Naomoka Ginibige Sodarra Lanne Quiwee Babago
+		Ela Djeandjeodjeo Gababak Awkron Diddirup Quirei Wyeer Hatha Koono Aregong
+	}
+}
+
+dremk = {
+	graphical_culture = westerngfx
+
+	dremoran = {
+		primary = DRM
+	}
+
+	male_names = {
+		Karayan Demivex Salvozabra Shados Norrdes Mazuk Elam Gosskel Ark Throl
+		Hadik Naxxo Xelem Keethranth Abranth Alarix Cyablud Arkzla Nebun Wizlan
+	}
+	female_names = {
+		Amaranth Lithio Xixsara Savixa Lunos Alabastra Alemki Karlena Rubi Nylo
+	}
+
+	dynasty_names = {
+		Dremka Kobol Ruleborn Throneborn Ember Rain Razor Wrathborn Crimson Tremk
+		Vondran Vaun Viceborn Sokran Ashborn Vigom Mazon Vosstling Edgem Tremal
+	}
+}
+
+sabalic = {
+	graphical_culture = westerngfx
+
+	wong = {
+		primary = WGG
+	}
+	
+	krattan = {
+		primary = KTT
+	}
+	
+	hakaz = {
+		primary = SKN
+	}
+
+	male_names = {
+		Taajhir Naifder Boncob Danag Bacyaya Aleeha Ghasim Sharkari Elkop Benderto
+		Rushaad Sju Elibaan Bugong Putib Raabin Taqaan Sagapli Aguntan Yaag
+	}
+	female_names = {
+		Lateeha Nussha Sumayy Watjah Masiam Naaieela Anineem Nastini Surinew Nawa
+	}
+
+	dynasty_names = {
+		Waakru Chewir Yaawail Bnaaqee Khaalwaan Zulyu Maahku Adusug Kunifal Naazro
+		Shakaag Bernbing Sbaj Sungjong Keltgebe Pekak Tasktuma Delrak Parakgek Kolog
+	}
+}
+
+anhyan = {
+	graphical_culture = westerngfx
+
+	barahin = {
+		primary = BHN
+	}
+	
+	rhaangoli = {
+		primary = RHA
+		male_names = {
+			Tshernam Pemgay Uygji Kinshwa Dawachen Rinshi Kinji Tashgen Tanzin Namzang
+			Chenzin Jigma Namdin Chonga Ngawan Chansuk Drukash Duk Wangzin Mal 
+		}
+		female_names = {
+			Dedra Wangshey Choman Monden Pasmo Ngama Dedhan Dechewa Tshemi Phuchen
+		}
+		dynasty_names = {
+			Dormo Raima Zangring Choma Gurchuk Wangley Tamshen Tenshomo Lhom Subsho
+			Ngalta Teleph Punphei Damshal Monkhata Samphuli Monahkhama Thidi Hpa Parsi 
+		}
+	}
+	
+	tersian = {
+		primary = TEH
+	}
+	
+	sari = {
+		primary = SRZ
+	}
+
+	azandari = {
+		primary = AZA
+	}
+	
+	isoli = {
+		primary = ISO
+	}
+	
+	ferhan = {
+		primary = FER
+	}
+	
+	mosani = {
+		primary = MOS
+	}
+	
+	eshin = {
+		primary = ESU
+	}
+
+	male_names = {
+		Ahmin Ashang Raftan Paydam Pezruz Pouyoush Sheryan Shahry Sepepeher Sasdad 
+		Vahana Ariod Armash Ahoand Avetiya Arvyan Bahjan Bahrio Behafsh Dariul
+		Danevin Eshizd Farghaz Gilgatas Hshmen Jamwed Mazishay Kezem Kaved Sasid
+		Mazduk Mehdeym Kirabeen Merhdram Payzar Mazrookh Fashysh Shapun Shapul Teroq
+	}
+	female_names = {
+		Amaza Donysheh Armita Arya Ashra Atonya Donu Bitshteh Fereshzneh Fanal 
+		Golita Golnam Jaldah Gonazdid Kamavin Manshida Mahtayam Minzheh Mozhgashin Niushd
+		Parfar Nazavand Parshin Nestu Reyya Roxanak Safrien Shirla Soraya Tahmin 
+	}
+
+	dynasty_names = {
+		Pavalavid Kesatvid Shupavid Eshavid Mokavid Nelid Mazkadavid Kordshah Turvid Solatanid
+		Barahid Osid Palid Sarid Ferhid Isopid Azanavid Eshid Osilavid Hedra Khathid
+		Shahrgrat Tehrid Persepolid Artahalavid Ervid Topori Qarchu Tarpot Eshranvad Bal
+		Pardi Baghesavalid Lavan Mosari Abasskid Ecnanamid Shagrid Sharyeli Shagasta Erd
+	}
+}
+
+amuric = {
+	graphical_culture = westerngfx
+
+	ashari = {
+		primary = ASR
+	}
+
+	saynan = {
+		primary = SYS
+	}
+	
+	nacin = {
+		primary = NAC
+	}
+	
+	fuan = {
+		primary = FUA
+	}
+	
+	qaftal = {
+		primary = HAQ
+	}
+
+	qar = {
+		primary = QAR
+	}
+	
+	catulan = {
+		primary = CAT
+	}
+
+	male_names = {
+		Mania Mushim Watsir Idallah Sauid Abdumad Abdull Faiman Khal Abubak 
+		Aduljal Adulqar Aduwah Adulah Aghin Alin Aram Arze Banaddin Fadl 
+		Fark Farok Gor Ghalifaz Halsn Hsan Hussayl Hamad Mahkhair Khaldi
+		Manza Muhama Murses Hiddin Jafara Najlish Shayeh Sulmon Thlabe Uyaha Zek
+	}
+	female_names = {
+		Adera Nadsha Asighira Habija Kamla Marys Nywand Parsameer Qmar Payfiq 
+		Rashwana Sabbghar Sahji Smarna Semetar Sharzad Sham Sharateftah Sheeval Shokoul 
+		Sholmin Soulab Tan Tanyaga Yasnabi 
+	}
+
+	dynasty_names = {
+		Tobi Zuwat Sirese Fayad Fuadi Nacad Baydal Sayyd Sabrat Ulash 
+		Caswal Tawen Teghse Mulpers Qra Kikli Qaead Esrawan Zawan Subathi
+		Qaftan Kanabuh Jambi Abidiyhn Qhirathi Hasii Qari Hamath Hatubya Sehenam
+		Moccwan Qaswan Telewan Beqe Listan Zefe Ud Qeleq Elion Ziyye
+	}
+}
+
+bashkalic = {
+	graphical_culture = westerngfx
+
+	moon_orc = {
+		primary = OCC
+	}
+	
+	ashrunner = {
+		primary = ASL
+	}
+
+	shathral = {
+		primary = SAA
+	}
+	
+	scarred_one = {
+		primary = SCA
+	}
+
+	male_names = {
+		Cacaus Ruzle Darna Ozaunal Asha Arudu Drgdec Ogzul Bagge Arbau
+		Kugdau Ghazbokhde Oldderg Ozegath Usha Osho Pito Venemul Dhaccs Phanta
+		Sradud Gilgagh Drebug Ardeh Ufgash Moldac Bofdu Shigut Asheth Oldrof
+	}
+	female_names = {
+		Ugozush Gonmalah Yazpha Lamsha Orbuol Eshi Todo Ugrosn Snaksn Ulugo 
+		Glamz Gon Slozug Tatba Taghmam Gluim Bolha Narlan Gulosh Roghuk
+	}
+
+	dynasty_names = {
+		Gatul Yara Zugask Shudub Gobfisk Mughzag Gloyu Tade Dhac Kolo
+		Tedhac Tekicc Tedro Teomca Teshath Skeil Shugacc Cau Bifnot Croaker
+		Muhohn Uskbu Lila Okrun Deccal Bakho Scarred Balbuan Reaver Fan
+	}
+}
+
+mixed = {
+	graphical_culture = westerngfx
+
+	slaver = {
+		primary = BKH
+	}
+
+	male_names = {
+		Fahyed Syehad Sunim Abdahm Abduman Salbak Mubaisal Fairak Saymesh Ramer
+		Saoul Rakdra Omeh Rajshad Basheem Basheel Sali Ratosh Tamad Shasuf 
+		Youyan Ashuf Sayn Surlik Daroz Omzal Sanaman Shain Razdep Harit
+	}
+	female_names = {
+		Aleha Amapi Amoka Baia Dunfa Elmifa Faima Fatame Gaha Hayneen
+		Isma Imodra Kadea Kufri Salba Ratosi Shasusa Hara Omza Dara
+	}
+
+	dynasty_names = {
+		Hashra Onasail Wakra Qohati Felnaiz Chained Refes Smarn Shaoq Quan
+		Verilic Barkana Utohan Qat Aghuwad Ansr Althani Mohajabin Khusadaj Duhain
+		Almed Khamar Mohan Abdud Naiman Ala Shaisari Salassan Hassad Yarma
+	}
+}
+
+zekranic = {
+	graphical_culture = westerngfx
+
+	wasut = {
+		primary = KHU
+	}
+
+	khimut = {
+		primary = NEF
+	}
+	
+	thebian = {
+		primary = THB
+	}
+	
+	rametic = {
+		primary = RMT
+	}
+
+	male_names = {
+		Ashtatenod Ashtarchefari Kaapei Mereops Un-Antef Un-Kpamuroto Ramakat Sebek Khaset Amonophis
+		Sekheqer Nehthesh Khakhet Qaneferk Ranedj Nyntejser Djokhet Neferjefa Sekhu Nafokatis
+	}
+	female_names = {
+		Soeb Hatshep Sutsut Nefernatra Neitona Ramata Kaferti Eferefeti Uaten Utamun
+	}
+
+	dynasty_names = {
+		Thinibes Ramet Khim Thebel Was Iunmeu Pis-Awan Pis-Efru Tephikh Senekhet
+		Djenefer Nekheban Hyet Taib Permenehet Ahkmun Tahkmun Udjen Tawe Sonozat
+	}
+}
+
+ywq = {
+	graphical_culture = westerngfx
+
+	nubite = {
+		primary = NBX
+	}
+
+	male_names = {
+		Wwiegie Xixgiel Wywyxy Ykregielkew Awuzurkw
+	}
+	female_names = {
+		Iwewkly Lylyxyx Wexekq
+	}
+
+	dynasty_names = {
+		Ywq
+	}
+}

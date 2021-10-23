@@ -1,0 +1,15 @@
+add_core = LAM
+owner = LAM
+controller = LAM
+culture = lake
+religion = woodmother
+hre = no
+
+base_tax = 4
+base_production = 2
+base_manpower = 2
+
+trade_goods = fur
+capital = "Miaifa"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = ALV
+owner = ALV
+controller = ALV
+culture = saith
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "All Cano"
+is_city = yes
+discovered_by = western

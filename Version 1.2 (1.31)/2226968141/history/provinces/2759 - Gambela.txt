@@ -1,0 +1,15 @@
+add_core = KIC
+owner = KIC
+controller = KIC
+culture = ocha
+religion = lakemother
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Kamiwek"
+is_city = yes
+discovered_by = western

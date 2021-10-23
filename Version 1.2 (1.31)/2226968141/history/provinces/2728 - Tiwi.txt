@@ -1,0 +1,17 @@
+add_core = KIS
+owner = KIS
+controller = KIS
+culture = kako
+religion = lakemother
+hre = no
+
+base_tax = 10
+base_production = 12
+base_manpower = 10
+
+trade_goods = glass
+capital = "Iksoko"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

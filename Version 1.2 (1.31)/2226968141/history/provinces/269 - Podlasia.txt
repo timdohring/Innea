@@ -1,0 +1,20 @@
+add_core = BAL
+owner = BAL
+controller = BAL
+culture = lower_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 12
+base_production = 10
+base_manpower = 14
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes
+
+

@@ -1,0 +1,18 @@
+# 168 Normandie - Principal cities: Caen
+
+
+add_core = KYN
+owner = KYN
+controller = KYN
+culture = kynen
+religion = celiicean
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = herbs
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = BEN
+owner = BEN
+controller = BEN
+culture = upper_sternian
+religion = altran_church
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = grain
+capital = "Karritz"
+is_city = yes
+discovered_by = western

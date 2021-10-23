@@ -1,0 +1,15 @@
+add_core = MFE
+owner = MFE
+controller = MFE
+culture = manafi
+religion = woodmother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Vsolala"
+is_city = yes
+discovered_by = western

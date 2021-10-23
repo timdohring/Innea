@@ -1,0 +1,15 @@
+add_core = NAH
+owner = NAH
+controller = NAH
+culture = gazari
+religion = the_mist
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = coal
+capital = "Lotham"
+is_city = yes
+discovered_by = western

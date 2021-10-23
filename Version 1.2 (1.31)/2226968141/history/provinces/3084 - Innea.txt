@@ -1,0 +1,16 @@
+add_core = KEW
+owner = KEW
+controller = KEW
+culture = keswic
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Damishq"
+is_city = yes
+discovered_by = western
+fort_15th = yes

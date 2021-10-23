@@ -1,0 +1,15 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = ventrian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 5
+
+trade_goods = tea
+capital = "Rosegarden"
+is_city = yes
+discovered_by = western

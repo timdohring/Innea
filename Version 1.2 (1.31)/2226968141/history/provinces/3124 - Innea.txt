@@ -1,0 +1,16 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 11
+base_production = 12
+base_manpower = 9
+
+trade_goods = wayda_silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

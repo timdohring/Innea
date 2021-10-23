@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = gheltic
+religion = oscaerwikkan
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Anyoles"
+is_city = yes
+discovered_by = western

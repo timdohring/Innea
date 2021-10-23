@@ -1,0 +1,16 @@
+add_core = DZY
+owner = DZY
+controller = DZY
+culture = dzynic
+religion = flame_house
+hre = no
+
+base_tax = 7
+base_production = 9
+base_manpower = 7
+
+trade_goods = fireiron
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

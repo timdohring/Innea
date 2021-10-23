@@ -1,0 +1,17 @@
+#Ume, Åsele, Piteå Lappmarks
+
+add_core = NOR
+owner = NOR
+controller = NOR
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 7
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "Northel"
+is_city = yes
+discovered_by = western

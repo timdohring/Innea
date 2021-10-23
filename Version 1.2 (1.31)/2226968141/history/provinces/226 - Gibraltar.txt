@@ -1,0 +1,19 @@
+add_core = GRE
+owner = GRE
+controller = GRE
+culture = upper_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Vul"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes
+
+

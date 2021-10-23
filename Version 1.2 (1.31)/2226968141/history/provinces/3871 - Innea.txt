@@ -1,0 +1,16 @@
+add_core = ESU
+owner = ESU
+controller = ESU
+culture = eshin
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Shahr Mazkal"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,17 @@
+add_core = KRA
+owner = KRA
+controller = KRA
+culture = shade_elf
+religion = nursari_temple
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

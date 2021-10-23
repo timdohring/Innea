@@ -1,0 +1,16 @@
+add_core = AMA
+owner = AMA
+controller = AMA
+add_core = OUA
+culture = chidal
+religion = shuri
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = copper
+capital = "Azzor"
+is_city = yes
+discovered_by = western

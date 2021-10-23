@@ -1,0 +1,12 @@
+
+culture = khimut
+religion = ametic
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+capital = "Nekhten"
+is_city = yes
+discovered_by = western

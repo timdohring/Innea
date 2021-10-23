@@ -1,0 +1,15 @@
+add_core = REU
+owner = REU
+controller = REU
+culture = reuth
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 8
+base_manpower = 6
+
+trade_goods = copper
+capital = "Minen"
+is_city = yes
+discovered_by = western

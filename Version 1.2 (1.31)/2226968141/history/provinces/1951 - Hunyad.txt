@@ -1,0 +1,15 @@
+add_core = DOO
+owner = DOO
+controller = DOO
+culture = zabwe
+religion = moon_cult
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Drusvr"
+is_city = yes
+discovered_by = western

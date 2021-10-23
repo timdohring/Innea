@@ -1,0 +1,17 @@
+add_core = CHI
+owner = CHI
+controller = CHI
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 16
+base_production = 15
+base_manpower = 12
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

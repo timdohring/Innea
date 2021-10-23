@@ -1,0 +1,17 @@
+add_core = PUN
+owner = PUN
+controller = PUN
+culture = punghali
+religion = ojal
+hre = no
+
+base_tax = 13
+base_production = 13
+base_manpower = 13
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

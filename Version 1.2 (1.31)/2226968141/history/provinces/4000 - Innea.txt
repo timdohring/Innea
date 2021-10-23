@@ -1,0 +1,16 @@
+add_core = MEH
+owner = MEH
+controller = MEH
+culture = lhemar
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = stone
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

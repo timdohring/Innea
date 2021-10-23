@@ -1,0 +1,15 @@
+add_core = QAT
+owner = QAT
+controller = QAT
+culture = slaver
+religion = shuri
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = sugar
+capital = ""
+is_city = yes
+discovered_by = western

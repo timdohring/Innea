@@ -1,0 +1,22 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = dochar
+primary_culture = donairdan
+capital = 303
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Harail"
+		dynasty = "of Aberahx"
+		birth_date = 1412.2.15
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+

@@ -1,0 +1,16 @@
+add_core = DEJ
+owner = DEJ
+controller = DEJ
+culture = east_najean
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

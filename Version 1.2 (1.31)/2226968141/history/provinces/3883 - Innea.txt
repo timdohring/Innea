@@ -1,0 +1,15 @@
+add_core = MOS
+owner = MOS
+controller = MOS
+culture = mosani
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = cotton
+capital = "Nenar"
+is_city = yes
+discovered_by = western

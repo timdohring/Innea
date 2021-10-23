@@ -1,0 +1,16 @@
+add_core = NIE
+owner = NIE
+controller = NIE
+culture = nievan
+religion = murtharic
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 5
+
+trade_goods = herbs
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

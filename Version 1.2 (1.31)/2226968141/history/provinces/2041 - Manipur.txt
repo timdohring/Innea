@@ -1,0 +1,15 @@
+add_core = LUK
+owner = LUK
+controller = LUK
+culture = ronar
+religion = ashar
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 6
+
+trade_goods = grain
+capital = "Lukanza"
+is_city = yes
+discovered_by = western

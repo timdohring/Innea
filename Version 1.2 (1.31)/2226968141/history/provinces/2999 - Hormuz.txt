@@ -1,0 +1,15 @@
+add_core = JHI
+owner = JHI
+controller = JHI
+culture = ghas
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Mukha"
+is_city = yes
+discovered_by = western

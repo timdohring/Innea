@@ -1,0 +1,124 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {40 110 140 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mania #0" = 1
+	"Mushim #0" = 1
+	"Watsir #0" = 1
+	"Idallah #0" = 1
+	"Sauid #0" = 1
+	"Abdumad #0" = 1
+	"Abdull #0" = 1
+	"Faiman #0" = 1
+	"Khal #0" = 1
+	"Abubak #0" = 1
+	"Aduljal #0" = 1
+	"Adulqar #0" = 1
+	"Aduwah #0" = 1
+	"Adulah #0" = 1
+	"Aghin #0" = 1
+	"Alin #0" = 1
+	"Aram #0" = 1
+	"Arze #0" = 1
+	"Banaddin #0" = 1
+	"Fadl #0" = 1
+	"Fark #0" = 1
+	"Farok #0" = 1
+	"Gor #0" = 1
+	"Ghalifaz #0" = 1
+	"Halsn #0" = 1
+	"Hsan #0" = 1
+	"Hussayl #0" = 1
+	"Hamad #0" = 1
+	"Mahkhair #0" = 1
+	"Khaldi #0" = 1
+	"Manza #0" = 1
+	"Muhama #0" = 1
+	"Murses #0" = 1
+	"Hiddin #0" = 1
+	"Jafara #0" = 1
+	"Najlish #0" = 1
+	"Shayeh #0" = 1
+	"Sulmon #0" = 1
+	"Thlabe #0" = 1
+	"Zek #0" = 1
+	"Uyaha #0" = 1
+
+	"Adera" = -1
+	"Nadsha" = -1
+	"Asighira" = -1
+	"Habija" = -1
+	"Kamla" = -1
+	"Marys" = -1
+	"Nywand" = -1
+	"Parsameer" = -1
+	"Qmar" = -1
+	"Payfiq" = -1
+	"Rashwana" = -1
+	"Sabbghar" = -1
+	"Sahji" = -1
+	"Smarna" = -1
+	"Semetar" = -1
+	"Sharzad" = -1
+	"Sham" = -1
+	"Sharateftah" = -1
+	"Sheeval" = -1
+	"Shokoul" = -1
+	"Sholmin" = -1
+	"Soulab" = -1
+	"Tan" = -1
+	"Tanyaga" = -1
+	"Yasnabi" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

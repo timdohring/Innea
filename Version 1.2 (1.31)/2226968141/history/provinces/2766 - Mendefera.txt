@@ -1,0 +1,15 @@
+add_core = WWG
+owner = WWG
+controller = WWG
+culture = riverman
+religion = lakemother
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 7
+
+trade_goods = silk
+capital = "Paskashihk"
+is_city = yes
+discovered_by = western

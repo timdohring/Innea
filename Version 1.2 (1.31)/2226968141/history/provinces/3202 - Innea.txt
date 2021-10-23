@@ -1,0 +1,15 @@
+add_core = ADA
+owner = ADA
+controller = ADA
+culture = ruhnic
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = cotton
+capital = "Shinstaq"
+is_city = yes
+discovered_by = western

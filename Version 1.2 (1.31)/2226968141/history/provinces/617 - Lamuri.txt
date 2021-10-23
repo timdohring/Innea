@@ -1,0 +1,18 @@
+add_core = ARM
+owner = ARM
+controller = ARM
+culture = laquis
+religion = paisadox
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 8
+
+trade_goods = copper
+capital = "Lorre Rock"
+is_city = yes
+discovered_by = western
+
+
+fort_15th = yes

@@ -1,0 +1,17 @@
+add_core = AMA
+owner = AMA
+controller = AMA
+add_core = OUA
+culture = chidal
+religion = shuri
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

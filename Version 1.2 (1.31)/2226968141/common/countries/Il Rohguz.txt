@@ -1,0 +1,128 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255  255  185 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Kai -" = 1
+	"Nazu -" = 1
+	"Haje -" = 1
+	"Ko -" = 1
+	"Meema -" = 1
+	"Min -" = 1
+	"Jeb -" = 1
+	"Jei -" = 1
+	"Gur -" = 1
+	"Usan -" = 1
+	"Kal -" = 1
+	"Aki -" = 1
+	"Ahje -" = 1
+	"Ajo -" = 1
+	"Ata -" = 1
+	"Azt -" = 1
+	"Bes -" = 1
+	"Geej -" = 1
+	"Genak -" = 1
+	"Tul -" = 1
+	"Depa -" = 1
+	"Bako -" = 1
+	"Chee -" = 1
+	"Ei -" = 1
+	"Egoji -" = 1
+	"Muaz -" = 1
+	"Keest -" = 1
+	"Yoxal -" = 1
+	"Xil -" = 1
+	"Waruj -" = 1
+	"Ejel -" = 1
+	"Gei -" = 1
+	"Noru -" = 1
+	"Hixon -" = 1
+	"Kiz -" = 1
+	"Shah -" = 1
+	"Not -" = 1
+	"Okas -" = 1
+	"Bur -" = 1
+	"Hetmal -" = 1
+
+	"Hajin -" = -1
+	"Am -" = -1
+	"An -" = -1
+	"Ank -" = -1
+	"Telat -" = -1
+	"Jin -" = -1
+	"Jan -" = -1
+	"Ula -" = -1
+	"Owa -" = -1
+	"Uwa -" = -1
+	"Onax -" = -1
+	"Dje -" = -1
+	"Dus -" = -1
+	"I -" = -1
+	"Vheeka -" = -1
+	"Vulja -" = -1
+	"Tao -" = -1
+	"Kei -" = -1
+	"Shen -" = -1
+	"Zata -" = -1
+	"Xanu -" = -1
+	"Ila -" = -1
+	"Naji -" = -1
+	"Hkanu -" = -1
+	"Gejee -" = -1
+	"Jerai -" = -1
+	"Ija -" = -1
+	"Insamu -" = -1
+	"Velekejet -" = -1
+	"Ansu -" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,17 @@
+#68 - Memmingen
+
+add_core = HRO
+owner = HRO
+controller = HRO
+culture = falkish
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 2
+
+trade_goods = wool
+capital = "Kajn"
+is_city = yes
+discovered_by = western

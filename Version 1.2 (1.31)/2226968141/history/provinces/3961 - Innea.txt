@@ -1,0 +1,16 @@
+add_core = OCC
+owner = OCC
+controller = OCC
+culture = moon_orc
+religion = moon_cult
+hre = no
+
+base_tax = 6
+base_production = 13
+base_manpower = 6
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,17 @@
+# 100 Friesland - Principal cities: Leeuwarden & Harlingen 
+
+add_core = ORK
+owner = ORK
+controller = ORK
+culture = ryykan
+religion = church_of_yon
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = fish
+capital = "Ysalstrong"
+is_city = yes
+discovered_by = western

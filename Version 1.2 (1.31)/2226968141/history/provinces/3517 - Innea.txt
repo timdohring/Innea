@@ -1,0 +1,15 @@
+add_core = CET
+owner = CET
+controller = CET
+culture = celayphean
+religion = quatzalotl
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = pearl
+capital = "Cetrea"
+is_city = yes
+discovered_by = western

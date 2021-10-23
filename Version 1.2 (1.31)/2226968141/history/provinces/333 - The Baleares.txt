@@ -1,0 +1,15 @@
+add_core = ETV
+owner = ETV
+controller = ETV
+culture = tvaric
+religion = murtharic
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Strzeny"
+is_city = yes
+discovered_by = western

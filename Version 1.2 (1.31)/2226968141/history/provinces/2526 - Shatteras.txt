@@ -1,0 +1,16 @@
+add_core = ROO
+owner = ROO
+controller = ROO
+add_core = TWE
+culture = tewar
+religion = ewafari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Nalmill"
+is_city = yes
+discovered_by = western

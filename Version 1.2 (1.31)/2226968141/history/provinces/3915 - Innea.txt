@@ -1,0 +1,15 @@
+add_core = SYS
+owner = SYS
+controller = SYS
+culture = saynan
+religion = abai
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western

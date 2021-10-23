@@ -1,0 +1,19 @@
+add_core = FTD
+owner = FTD
+controller = FTD
+culture = dhoilbridic
+religion = ywakra
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 4
+
+trade_goods = whales
+capital = "Haven upon Green"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes
+
+

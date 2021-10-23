@@ -1,0 +1,15 @@
+add_core = QOS
+owner = QOS
+controller = QOS
+culture = qunsut
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = fur
+capital = "Loopaari"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,12 @@
+
+culture = karian
+religion = sukkali
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+capital = "Thorvil"
+is_city = yes
+discovered_by = western

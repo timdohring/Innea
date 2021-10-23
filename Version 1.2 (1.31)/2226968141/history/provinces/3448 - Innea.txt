@@ -1,0 +1,16 @@
+add_core = TUV
+owner = TUV
+controller = TUV
+culture = akoloan
+religion = vua_avaku
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = whales
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

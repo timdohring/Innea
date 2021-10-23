@@ -1,0 +1,15 @@
+add_core = ZON
+owner = ZON
+controller = ZON
+culture = zondic
+religion = drekana
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = FUA
+owner = FUA
+controller = FUA
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 10
+base_production = 13
+base_manpower = 10
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western

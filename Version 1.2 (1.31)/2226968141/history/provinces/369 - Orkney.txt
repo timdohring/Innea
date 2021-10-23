@@ -1,0 +1,18 @@
+add_core = ORA
+owner = ORA
+controller = ORA
+culture = ormian
+religion = murtharic
+hre = no
+
+base_tax = 10
+base_production = 8
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

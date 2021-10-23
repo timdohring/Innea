@@ -1,0 +1,15 @@
+add_core = QAL
+owner = QAL
+controller = QAL
+culture = qalari
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = gold
+capital = "Ghawadrun"
+is_city = yes
+discovered_by = western

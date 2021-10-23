@@ -1,0 +1,15 @@
+add_core = MRN
+owner = MRN
+controller = MRN
+culture = sahkan
+religion = shuri
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = grain
+capital = "Teja"
+is_city = yes
+discovered_by = western

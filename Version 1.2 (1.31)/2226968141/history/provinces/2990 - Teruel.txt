@@ -1,0 +1,17 @@
+add_core = JHI
+owner = JHI
+controller = JHI
+culture = jhistan
+religion = shuri
+hre = yes
+
+base_tax = 12
+base_production = 16
+base_manpower = 10
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

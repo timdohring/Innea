@@ -1,0 +1,17 @@
+add_core = ORH
+owner = ORH
+controller = ORH
+culture = or
+religion = ashar
+hre = no
+
+base_tax = 17
+base_production = 17
+base_manpower = 19
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

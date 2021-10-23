@@ -1,0 +1,17 @@
+add_core = UAW
+owner = UAW
+controller = UAW
+culture = graen
+religion = brilthic_church
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = fruit
+capital = "Appletree"
+is_city = yes
+discovered_by = western
+
+

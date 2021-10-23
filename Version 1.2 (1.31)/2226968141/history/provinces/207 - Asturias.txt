@@ -1,0 +1,17 @@
+add_core = TUO
+owner = TUO
+controller = TUO
+culture = laghan
+religion = sea_cult
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = fish
+capital = "Nooncath"
+is_city = yes
+discovered_by = western
+
+

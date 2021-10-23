@@ -1,0 +1,17 @@
+add_core = NEW
+owner = NEW
+controller = NEW
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = iron
+capital = "Ulster"
+is_city = yes
+discovered_by = western
+
+

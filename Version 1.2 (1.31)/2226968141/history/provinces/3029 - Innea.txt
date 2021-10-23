@@ -1,0 +1,15 @@
+add_core = MEY
+owner = MEY
+controller = MEY
+culture = hestic
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = grain
+capital = "Qunmar"
+is_city = yes
+discovered_by = western

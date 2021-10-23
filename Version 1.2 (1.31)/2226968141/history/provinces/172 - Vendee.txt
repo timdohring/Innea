@@ -1,0 +1,18 @@
+# 172 Vendée - Principal cities: Nantes
+
+
+add_core = HLO
+owner = HLO
+controller = HLO
+culture = einish
+religion = celiicean
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Alga"
+is_city = yes
+discovered_by = western

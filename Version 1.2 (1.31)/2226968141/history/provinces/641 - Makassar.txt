@@ -1,0 +1,15 @@
+add_core = SAN
+owner = SAN
+controller = SAN
+culture = freestatesmen
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Wexby"
+is_city = yes
+discovered_by = western

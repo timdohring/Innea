@@ -1,0 +1,15 @@
+add_core = ULF
+owner = ULF
+controller = ULF
+culture = ulfin
+religion = ewafari_temple
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = fruit
+capital = "Etrien"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = VMA
+owner = VMA
+controller = VMA
+culture = vardesian
+religion = flame_house
+hre = no
+
+base_tax = 10
+base_production = 11
+base_manpower = 11
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

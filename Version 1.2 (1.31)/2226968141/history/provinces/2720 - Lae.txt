@@ -1,0 +1,15 @@
+add_core = IRQ
+owner = IRQ
+controller = IRQ
+culture = kako
+religion = lakemother
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = herbs
+capital = "Panaa"
+is_city = yes
+discovered_by = western

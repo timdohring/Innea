@@ -1,0 +1,16 @@
+add_core = NAC
+owner = NAC
+controller = NAC
+culture = saynan
+religion = ishuli
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "Kiklbaht"
+is_city = yes
+discovered_by = western
+fort_15th = yes

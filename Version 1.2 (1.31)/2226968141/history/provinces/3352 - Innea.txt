@@ -1,0 +1,15 @@
+add_core = VIT
+owner = VIT
+controller = VIT
+culture = kaji
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Bhagaya"
+is_city = yes
+discovered_by = western

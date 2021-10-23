@@ -1,0 +1,15 @@
+add_core = LOS
+owner = LOS
+controller = LOS
+culture = zabwe
+religion = moon_cult
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = herbs
+capital = "Shazr"
+is_city = yes
+discovered_by = western

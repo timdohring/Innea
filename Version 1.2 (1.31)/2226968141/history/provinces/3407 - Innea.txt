@@ -1,0 +1,15 @@
+add_core = VIJ
+owner = VIJ
+controller = VIJ
+culture = choli
+religion = ojal
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = khafri_peppers
+capital = "Raikaro"
+is_city = yes
+discovered_by = western

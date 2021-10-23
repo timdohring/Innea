@@ -1,0 +1,17 @@
+#134 - Wien
+
+add_core = ORV
+owner = ORV
+controller = ORV
+culture = drevarsk
+religion = church_of_yon
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western

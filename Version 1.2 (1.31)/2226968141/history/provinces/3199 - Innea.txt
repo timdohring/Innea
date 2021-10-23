@@ -1,0 +1,16 @@
+add_core = KHS
+owner = KHS
+controller = KHS
+culture = delean
+religion = shuri
+hre = yes
+
+base_tax = 10
+base_production = 10
+base_manpower = 10
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

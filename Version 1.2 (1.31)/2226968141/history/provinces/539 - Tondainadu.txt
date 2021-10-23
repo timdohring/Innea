@@ -1,0 +1,15 @@
+add_core = BRG
+owner = BRG
+controller = BRG
+culture = brongian
+religion = altran_church
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 6
+
+trade_goods = cloth
+capital = "Kaaveldorp"
+is_city = yes
+discovered_by = western

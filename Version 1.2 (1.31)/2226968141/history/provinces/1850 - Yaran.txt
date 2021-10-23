@@ -1,0 +1,15 @@
+add_core = RAE
+owner = RAE
+controller = RAE
+culture = kvin
+religion = yorik
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = copper
+capital = "Helvesten"
+is_city = yes
+discovered_by = western

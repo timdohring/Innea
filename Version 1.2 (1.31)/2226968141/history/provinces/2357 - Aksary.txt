@@ -1,0 +1,15 @@
+add_core = GOZ
+owner = GOZ
+controller = GOZ
+culture = jetal
+religion = drekana
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Scown"
+is_city = yes
+discovered_by = western

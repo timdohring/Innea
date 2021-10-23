@@ -1,0 +1,16 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = jidai
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Daqel"
+is_city = yes
+discovered_by = western
+fort_15th = yes

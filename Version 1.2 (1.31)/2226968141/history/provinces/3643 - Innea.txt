@@ -1,0 +1,17 @@
+add_core = KHG
+owner = KHG
+controller = KHG
+culture = khal
+religion = horsemother
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 9
+
+trade_goods = ancient_artifacts
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

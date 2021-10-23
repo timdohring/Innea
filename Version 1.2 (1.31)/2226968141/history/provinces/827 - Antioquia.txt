@@ -1,0 +1,18 @@
+add_core = RVW
+owner = RVW
+controller = RVW
+culture = rivwu
+religion = cindari_temple
+hre = no
+
+base_tax = 17
+base_production = 15
+base_manpower = 13
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

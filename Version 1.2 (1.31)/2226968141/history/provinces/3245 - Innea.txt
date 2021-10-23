@@ -1,0 +1,12 @@
+
+culture = karian
+religion = sukkali
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+capital = "Valamhg"
+is_city = yes
+discovered_by = western

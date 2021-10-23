@@ -1,0 +1,17 @@
+add_core = NYR
+owner = NYR
+controller = NYR
+culture = wayn
+religion = the_coin
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 4
+
+trade_goods = wine
+capital = "Weinreuth"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

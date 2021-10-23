@@ -1,0 +1,15 @@
+add_core = COR
+owner = COR
+controller = COR
+culture = akoloan
+religion = vua_avaku
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Tonfuka"
+is_city = yes
+discovered_by = western

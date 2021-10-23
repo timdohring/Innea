@@ -1,0 +1,15 @@
+add_core = BSH
+owner = BSH
+controller = BSH
+culture = hranan
+religion = sukkali
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+capital = "Sailim"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = HAC
+owner = HAC
+controller = HAC
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 11
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western

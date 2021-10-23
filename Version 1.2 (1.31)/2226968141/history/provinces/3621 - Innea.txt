@@ -1,0 +1,15 @@
+add_core = OHT
+owner = OHT
+controller = OHT
+culture = lheyn
+religion = horsemother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Qarabalqoto"
+is_city = yes
+discovered_by = western

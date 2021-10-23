@@ -1,0 +1,16 @@
+add_core = THT
+owner = THT
+controller = THT
+culture = rametic
+religion = ametic
+hre = no
+
+base_tax = 11
+base_production = 15
+base_manpower = 11
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

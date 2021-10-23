@@ -1,0 +1,18 @@
+add_core = ANT
+owner = ANT
+controller = ANT
+culture = briiyan
+religion = the_one_truth
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 7
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

@@ -1,0 +1,17 @@
+add_core = SPI
+owner = SPI
+controller = SPI
+culture = fjordic
+religion = the_coin
+hre = no
+
+base_tax = 14
+base_production = 16
+base_manpower = 10
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 3
+fort_15th = yes

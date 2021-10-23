@@ -1,0 +1,15 @@
+add_core = YAZ
+owner = YAZ
+controller = YAZ
+culture = yazidi
+religion = shuri
+hre = yes
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western

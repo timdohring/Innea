@@ -1,0 +1,16 @@
+add_core = RLO
+owner = RLO
+controller = RLO
+culture = maju
+religion = ojal
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 7
+
+trade_goods = khafri_peppers
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

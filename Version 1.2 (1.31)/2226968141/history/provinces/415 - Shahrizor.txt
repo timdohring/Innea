@@ -1,0 +1,16 @@
+add_core = INA
+owner = INA
+controller = INA
+culture = senar
+religion = syllari_temple
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = wine
+capital = "Lothalain"
+is_city = yes
+discovered_by = western
+

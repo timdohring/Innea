@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 61 61 61 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ogrob #0" = 1
+	"Ogri #0" = 1
+	"Bogan #0" = 1
+	"Gweneg #0" = 1
+	"Bograb #0" = 1
+	"Wlan #0" = 1
+	"Ldaon #0" = 1
+	"Kagar #0" = 1
+	"Waong #0" = 1
+	"Okh #0" = 1
+	"Naragol #0" = 1
+	"Mugar #0" = 1
+	"Ulagob #0" = 1
+	"Pega #0" = 1
+	"Jonyam #0" = 1
+	"Vron #0" = 1
+	"Grulnaq #0" = 1
+	"Yaundthra #0" = 1
+	"Maugh #0" = 1
+	"Gralthug #0" = 1
+	"Thanok #0" = 1
+	"Gladba #0" = 1
+	"Daganu #0" = 1
+	"Agrob #0" = 1
+	"Shenvet #0" = 1
+	"Kis'Hruth #0" = 1
+	"El'Ogop #0" = 1
+	"D'Winar #0" = 1
+	"Udulhra #0" = 1
+	"Bashang #0" = 1
+
+	"Sgal" = -1
+	"Mugur" = -1
+	"Orluas" = -1
+	"Agrulla" = -1
+	"Yata" = -1
+	"Zushtal" = -1
+	"Edeab" = -1
+	"Gogal" = -1
+	"Boga" = -1
+	"Ldarik" = -1
+	"Oshana" = -1
+	"Oshbir" = -1
+	"Udula" = -1
+	"Basha" = -1
+	"Drana" = -1
+	"Naragall" = -1
+	"Gwehega" = -1
+	"Hanash" = -1
+	"Kmosa" = -1
+	"Mistal" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,16 @@
+add_core = BAL
+owner = BAL
+controller = BAL
+culture = lower_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Grey Hearth"
+is_city = yes
+discovered_by = western
+

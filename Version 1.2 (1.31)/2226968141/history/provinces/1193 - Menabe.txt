@@ -1,0 +1,15 @@
+add_core = ANU
+owner = ANU
+controller = ANU
+culture = qunsut
+religion = aaqan
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+trade_goods = ivory
+capital = "Paminuu"
+is_city = yes
+discovered_by = western

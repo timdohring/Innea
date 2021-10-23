@@ -1,0 +1,16 @@
+add_core = IND
+owner = IND
+controller = IND
+culture = saith
+religion = dead_house
+hre = no
+
+base_tax = 8
+base_production = 11
+base_manpower = 7
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

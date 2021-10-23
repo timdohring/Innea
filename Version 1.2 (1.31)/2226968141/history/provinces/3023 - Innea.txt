@@ -1,0 +1,15 @@
+add_core = NBY
+owner = NBY
+controller = NBY
+culture = west_najean
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = sugar
+capital = "Amrasan"
+is_city = yes
+discovered_by = western

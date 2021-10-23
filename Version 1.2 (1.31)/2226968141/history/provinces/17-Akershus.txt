@@ -1,0 +1,17 @@
+#Akershus, incl. Oslo (Christiania), Tönsberg
+ 
+add_core = NOR
+owner = NOR
+controller = NOR
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Skimur"
+is_city = yes
+discovered_by = western

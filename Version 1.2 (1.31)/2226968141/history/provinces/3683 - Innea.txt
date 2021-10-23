@@ -1,0 +1,12 @@
+culture = balbagean
+religion = dreammother
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+capital = ""
+is_city = yes
+tribal_owner = ABL
+discovered_by = western

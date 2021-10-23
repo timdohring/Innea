@@ -1,0 +1,15 @@
+add_core = MRI
+owner = MRI
+controller = MRI
+culture = silver_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = jade
+capital = "Greenflow"
+is_city = yes
+discovered_by = western

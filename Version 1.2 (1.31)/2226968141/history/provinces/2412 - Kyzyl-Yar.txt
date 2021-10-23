@@ -1,0 +1,15 @@
+add_core = NAH
+owner = NAH
+controller = NAH
+culture = mistborn
+religion = ejje_nvek
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = fruit
+capital = "Ynzall"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = NAD
+owner = NAD
+controller = NAD
+culture = dena
+religion = shuri
+hre = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = cotton
+capital = "Riyaj"
+is_city = yes
+discovered_by = western

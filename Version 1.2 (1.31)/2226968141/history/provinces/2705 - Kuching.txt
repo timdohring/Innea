@@ -1,0 +1,17 @@
+add_core = AAK
+owner = AAK
+controller = AAK
+culture = laketrader
+religion = lakemother
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 12
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {231  96  158 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Gungalla #0" = 1
+	"Carago #0" = 1
+	"Tooglip #0" = 1
+	"Bugee #0" = 1
+	"Nungerrlar #0" = 1
+	"Yalgigger #0" = 1
+	"Matchiga #0" = 1
+	"Chilbugn #0" = 1
+	"Jubuun #0" = 1
+	"Goorab #0" = 1
+	"Nyako #0" = 1
+	"Mogopar #0" = 1
+	"Pinalti #0" = 1
+	"Alagul #0" = 1
+	"Yillglu #0" = 1
+	"Drjajowan #0" = 1
+	"Oraja #0" = 1
+	"Arunchum #0" = 1
+	"Dural #0" = 1
+	"Parsi #0" = 1
+
+	"Akala" = -1
+	"Truga" = -1
+	"Weema" = -1
+	"Wildah" = -1
+	"Kirro" = -1
+	"Corowa" = -1
+	"Amaris" = -1
+	"Wemegoo" = -1
+	"Wyun" = -1
+	"Watah" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

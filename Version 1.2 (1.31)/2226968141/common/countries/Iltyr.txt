@@ -1,0 +1,128 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 228  49  121 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Aitan #0" = 1
+	"Bakaitz #0" = 1
+	"Eduzki #0" = 1
+	"Kain #0" = 1
+	"Eztisko #0" = 1
+	"Gainix #0" = 1
+	"Razka #0" = 1
+	"Ibair #0" = 1
+	"Zitzal #0" = 1
+	"Orpatxi #0" = 1
+	"Adolso #0" = 1
+	"Gapito #0" = 1
+	"Alcidino #0" = 1
+	"Asdrubasier #0" = 1
+	"Bikentor #0" = 1
+	"Cecili #0" = 1
+	"Cheslio #0" = 1
+	"Danrio #0" = 1
+	"Dionato #0" = 1
+	"Edulio #0" = 1
+	"Ferman #0" = 1
+	"Cisco #0" = 1
+	"Geralo #0" = 1
+	"Arcio #0" = 1
+	"Igonnol #0" = 1
+	"Bojafet #0" = 1
+	"Seporiam #0" = 1
+	"Lorenzas #0" = 1
+	"Margel #0" = 1
+	"Demolas #0" = 1
+	"Ziorgos #0" = 1
+	"Annis #0" = 1
+	"Vasaritor #0" = 1
+	"Stefano #0" = 1
+	"Themisthis #0" = 1
+	"Prokoprapis #0" = 1
+	"Lukmar #0" = 1
+	"Matchile #0" = 1
+	"Guiodni #0" = 1
+	"Dimiefshat #0" = 1
+
+
+	"Aintza" = -1
+	"Meya" = -1
+	"Bihotaroa" = -1
+	"Elixstine" = -1
+	"Goizea" = -1
+	"Idoya" = -1
+	"Itxaar" = -1
+	"Kistore" = -1
+	"Magore" = -1
+	"Zoruxue" = -1
+	"Afikat" = -1
+	"Minia" = -1
+	"Gryotemisia" = -1
+	"Dimina" = -1
+	"Evalyn" = -1
+	"Kalli" = -1
+	"Natafeli" = -1
+	"Leta" = -1
+	"Sotoula" = -1
+	"Thalsia" = -1
+	"Cili" = -1
+	"Yuna" = -1
+	"Anta" = -1
+	"Nelia" = -1
+	"Viana" = -1
+	"Hortanica" = -1
+	"Iriun" = -1
+	"Javiet" = -1
+	"Leoyrtica" = -1
+	"Luidesa" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = MEL
+owner = MEL
+controller = MEL
+culture = gheltic
+religion = oscaerwikkan
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Nevei"
+is_city = yes
+discovered_by = western

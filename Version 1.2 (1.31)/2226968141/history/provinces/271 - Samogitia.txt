@@ -1,0 +1,17 @@
+add_core = BAL
+owner = BAL
+controller = BAL
+culture = soling
+religion = brilthic_church
+hre = no
+
+base_tax = 9
+base_production = 6
+base_manpower = 6
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+
+

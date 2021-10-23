@@ -1,0 +1,15 @@
+add_core = MOC
+owner = MOC
+controller = MOC
+culture = catulan
+religion = abai
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Elis"
+is_city = yes
+discovered_by = western

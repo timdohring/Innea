@@ -1,0 +1,15 @@
+add_core = DIA
+owner = DIA
+controller = DIA
+culture = dianean
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 8
+
+trade_goods = fish
+capital = "Binyana"
+is_city = yes
+discovered_by = western

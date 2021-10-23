@@ -1,0 +1,184 @@
+country_decisions = {
+	
+	forming_sahidan = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = SAH }
+			is_colonial_nation = no
+			development_in_provinces = {
+				value = 20
+				region = sahidan_region
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3227 #Sahid
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 3227 #Sahid
+		}
+		effect = {
+			change_tag = SAH
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			change_religion = sun_cult
+			set_capital = 3227
+			change_primary_culture = sahridan
+			sahidan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SAH
+			}
+			sahidan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = SAH
+				change_culture = sahridan
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+	
+	forming_grey_islands = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = GRY }
+			is_colonial_nation = no
+			capital_scope = {
+				superregion = handaan_plain_superregion
+			}
+			
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3656
+				province_id = 3655
+				province_id = 3654
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			AND = {
+				owns_core_province = 3656
+				owns_core_province = 3654
+				owns_core_province = 3655
+			}
+		}
+		effect = {
+			change_tag = GRY
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_capital = 3656
+			change_primary_culture = grey_islander
+			south_handaan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = GRY
+				change_culture = grey_islander
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+	
+	forming_avea = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = AVE }
+			is_colonial_nation = no
+			development_in_provinces = {
+				value = 20
+				region = mathi_avales_region
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3547
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 3547
+		}
+		effect = {
+			change_tag = AVE
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			change_religion = quatzalotl
+			set_capital = 3547
+			change_primary_culture = avalean
+			mathi_avales_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = AVE
+			}
+			sahidan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = AVE
+				change_culture = avalean
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+
+}

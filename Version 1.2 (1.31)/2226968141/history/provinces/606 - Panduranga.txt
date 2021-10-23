@@ -1,0 +1,15 @@
+add_core = ARN
+owner = ARN
+controller = ARN
+culture = tevarroix
+religion = paisadox
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Tarol"
+is_city = yes
+discovered_by = western

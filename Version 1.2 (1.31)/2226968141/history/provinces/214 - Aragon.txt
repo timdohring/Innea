@@ -1,0 +1,18 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 2
+
+trade_goods = copper
+capital = "Kopwick"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+
+

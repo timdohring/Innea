@@ -1,0 +1,17 @@
+add_core = CAB
+owner = CAB
+controller = CAB
+culture = donairdan
+religion = dochar
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 7
+
+trade_goods = wool
+capital = "Abrux"
+is_city = yes
+discovered_by = western
+
+

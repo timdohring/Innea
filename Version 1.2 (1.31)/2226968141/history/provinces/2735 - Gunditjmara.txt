@@ -1,0 +1,15 @@
+add_core = TEW
+owner = TEW
+controller = TEW
+culture = tsiani
+religion = lakemother
+hre = no
+
+base_tax = 9
+base_production = 6
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

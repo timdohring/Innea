@@ -1,0 +1,15 @@
+add_core = QOL
+owner = QOL
+controller = QOL
+culture = lojani
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = wool
+capital = "Ahmeda"
+is_city = yes
+discovered_by = western

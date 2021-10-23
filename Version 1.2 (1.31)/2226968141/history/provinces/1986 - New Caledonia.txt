@@ -1,0 +1,15 @@
+add_core = DOO
+owner = DOO
+controller = DOO
+culture = uyguz
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = salt
+capital = "Skab"
+is_city = yes
+discovered_by = western

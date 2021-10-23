@@ -1,0 +1,18 @@
+#132 - Steiermark
+
+
+add_core = SVA
+owner = SVA
+controller = SVA
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = fur
+capital = ""
+is_city = yes
+discovered_by = western
