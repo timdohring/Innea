@@ -1,0 +1,17 @@
+#Österbotten, down to Vasa.
+
+add_core = NYK
+owner = NYK
+controller = NYK
+culture = ykran
+religion = yoneth
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = salt
+capital = "Stockholm"
+is_city = yes
+discovered_by = western

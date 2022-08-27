@@ -1,0 +1,16 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+culture = shei_xi
+religion = death_cult
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 5
+
+trade_goods = ancient_artifacts
+capital = "Valkreath"
+is_city = yes
+discovered_by = western
+fort_15th = yes

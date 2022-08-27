@@ -1,0 +1,15 @@
+add_core = TRS
+owner = TRS
+controller = TRS
+culture = tulsuq
+religion = ashar
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = yv
+capital = "Tarvuz"
+is_city = yes
+discovered_by = western

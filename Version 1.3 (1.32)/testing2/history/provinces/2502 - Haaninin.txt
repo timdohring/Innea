@@ -1,0 +1,16 @@
+add_core = ULF
+owner = ULF
+controller = ULF
+culture = oldwood_elf
+religion = ewafari_temple
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

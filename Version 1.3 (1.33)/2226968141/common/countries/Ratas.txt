@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 205 10 10}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Musan #0" = 1
+	"Muhalil #0" = 1
+	"Mamud #0" = 1
+	"Abraddin #0" = 1
+	"Jalen #0" = 1
+	"Khasri #0" = 1
+	"Ahsan #0" = 1
+	"Halid #0" = 1
+	"Rhamalid #0" = 1
+	"Fahiz #0" = 1
+	"Zishtai #0" = 1
+	"Esratan #0" = 1
+	"Shameyd #0" = 1
+	"Oseph #0" = 1
+	"Samsayn #0" = 1
+	"Ussram #0" = 1
+	"Idahd #0" = 1
+	"Zaul #0" = 1
+	"Azul #0" = 1
+	"Hasllah #0" = 1
+
+	"Faghmin" = -1
+	"Zayzan" = -1
+	"Zoudra" = -1
+	"Rashina" = -1
+	"Rama" = -1
+	"Saba" = -1
+	"Fasiya" = -1
+	"Amewe" = -1
+	"Para" = -1
+	"Qamsu" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

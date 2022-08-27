@@ -1,0 +1,15 @@
+add_core = POV
+owner = POV
+controller = POV
+culture = dremoran
+religion = throne_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Hathe"
+is_city = yes
+discovered_by = western

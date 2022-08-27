@@ -1,0 +1,15 @@
+add_core = BEN
+owner = BEN
+controller = BEN
+culture = west_bergian
+religion = altran_church
+hre = no
+
+base_tax = 8
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Aath"
+is_city = yes
+discovered_by = western

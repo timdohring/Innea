@@ -1,0 +1,15 @@
+add_core = BAD
+owner = BAD
+controller = BAD
+culture = druhn
+religion = horsemother
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western

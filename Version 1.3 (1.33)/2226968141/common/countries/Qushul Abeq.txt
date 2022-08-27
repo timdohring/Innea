@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {155  147  180 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Jahair #0" = 1
+	"Sami #0" = 1
+	"Aladoo #0" = 1
+	"Aish #0" = 1
+	"Zareef #0" = 1
+	"Saasim #0" = 1
+	"Fahsad #0" = 1
+	"Ismaa #0" = 1
+	"Taimad #0" = 1
+	"Zain #0" = 1
+	"Yaadr #0" = 1
+	"Mashat #0" = 1
+	"Maro #0" = 1
+	"Awheel #0" = 1
+	"Saam #0" = 1
+	"Jhatim #0" = 1
+	"Uqas #0" = 1
+	"Afooq #0" = 1
+	"Ameed #0" = 1
+	"Khalbah #0" = 1
+	"Furleet #0" = 1
+	"Faashr #0" = 1
+	"Bateef #0" = 1
+	"Nalala #0" = 1
+	"Ismar #0" = 1
+	"Fale #0" = 1
+	"Ashim #0" = 1
+	"Qaanad #0" = 1
+	"Durdul #0" = 1
+	"Abas #0" = 1
+
+	"Ahafa" = -1
+	"Mecha" = -1
+	"Leela" = -1
+	"Uma" = -1
+	"Tamasale" = -1
+	"Mannab" = -1
+	"Saja" = -1
+	"Haanqa" = -1
+	"Hisaar" = -1
+	"Juhaina" = -1
+	"Hamruda" = -1
+	"Haaje" = -1
+	"Nutima" = -1
+	"Kanaa" = -1
+	"Mahzzi" = -1
+	"Ibiaida" = -1
+	"Saama" = -1
+	"Feebiq" = -1
+	"Biqa" = -1
+	"Udaila" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

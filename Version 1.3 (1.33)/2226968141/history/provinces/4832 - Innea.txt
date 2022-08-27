@@ -1,0 +1,15 @@
+add_core = SHE
+owner = SHE
+controller = SHE
+culture = shen
+religion = conhayna
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 12
+
+trade_goods = rice
+capital = "Anshu"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = THA
+owner = THA
+controller = THA
+culture = drebyr
+religion = yorik
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = wool
+capital = "Fennvar"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = KHS
+owner = KHS
+controller = KHS
+culture = ruhnic
+religion = shuri
+hre = yes
+
+base_tax = 7
+base_production = 7
+base_manpower = 8
+
+trade_goods = cotton
+capital = ""
+is_city = yes
+discovered_by = western

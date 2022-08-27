@@ -1,0 +1,47 @@
+ewau =
+{
+	galley_power = 0.25	
+	ship_durability = 0.33	
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}
+
+ponshar =
+{
+	same_culture_advisor_cost = -0.5
+	culture_conversion_cost = -0.25	
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}
+
+asiru =
+{
+	yearly_corruption = -0.15	
+	monthly_splendor = 5	
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}
+
+mirmiri =
+{
+	artillery_shock = 1
+	artillery_fire = 1		
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}
+
+onodanil =
+{
+	core_creation = -0.15	
+	country_military_power = 1
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}
+
+shabo =
+{
+	expand_administration_cost = -0.5
+	global_autonomy = -0.15
+	allow = { religion = iskari_temple }
+	#sprite = 12
+}

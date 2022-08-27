@@ -1,0 +1,15 @@
+add_core = SHI
+owner = SHI
+controller = SHI
+culture = shieldhand_orc
+religion = ashar
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = honey
+capital = ""
+is_city = yes
+discovered_by = western

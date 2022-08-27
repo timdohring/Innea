@@ -1,0 +1,12 @@
+culture = manafi
+religion = woodmother
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Ansokely"
+is_city = yes
+discovered_by = western

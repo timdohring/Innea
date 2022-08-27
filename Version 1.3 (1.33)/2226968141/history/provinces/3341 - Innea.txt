@@ -1,0 +1,16 @@
+add_core = KER
+owner = KER
+controller = KER
+culture = kerri
+religion = ojal
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = red_sugar
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

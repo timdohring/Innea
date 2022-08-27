@@ -1,0 +1,17 @@
+add_core = LRC
+owner = LRC
+controller = LRC
+culture = lorcean
+religion = nursari_temple
+hre = no
+
+base_tax = 12
+base_production = 14
+base_manpower = 14
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

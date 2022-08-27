@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 132  133  197  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ndone #0" = 1
+	"Mgawes #0" = 1
+	"Ogode #0" = 1
+	"Ogonwe #0" = 1
+	"Gobawe #0" = 1
+	"Ndaran #0" = 1
+	"Lonwala #0" = 1
+	"Zdak #0" = 1
+	"Maszin #0" = 1
+	"Rod #0" = 1
+	"Bdawamego #0" = 1
+	"Naakar #0" = 1
+	"Ewenaak #0" = 1
+	"Mgomg #0" = 1
+	"Goma #0" = 1
+	"Elguwag #0" = 1
+	"Dmgo #0" = 1
+	"Odo #0" = 1
+	"Ldanomaw #0" = 1
+	"Aspe #0" = 1
+
+	"Awala" = -1
+	"Mgwe" = -1
+	"Asgod" = -1
+	"Elwari" = -1
+	"Sziraw" = -1
+	"Elgane" = -1
+	"Gwegu" = -1
+	"Gwega" = -1
+	"Gwugguri" = -1
+	"Naash" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

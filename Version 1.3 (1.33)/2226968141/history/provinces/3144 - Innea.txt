@@ -1,0 +1,15 @@
+add_core = UHA
+owner = UHA
+controller = UHA
+culture = atalar
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Amwain"
+is_city = yes
+discovered_by = western

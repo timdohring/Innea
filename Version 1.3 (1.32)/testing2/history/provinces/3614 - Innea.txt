@@ -1,0 +1,11 @@
+culture = khat
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+capital = "Khov Predan"
+is_city = yes
+discovered_by = western

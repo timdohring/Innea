@@ -1,0 +1,15 @@
+add_core = YEM
+owner = YEM
+controller = YEM
+culture = karu
+religion = shuri
+hre = yes
+
+base_tax = 11
+base_production = 8
+base_manpower = 12
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

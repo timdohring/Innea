@@ -1,0 +1,15 @@
+add_core = MAJ
+owner = MAJ
+controller = MAJ
+culture = maju
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = "Durga"
+is_city = yes
+discovered_by = western

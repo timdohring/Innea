@@ -1,0 +1,140 @@
+spriteTypes = {
+
+	### INNEA INSTITUTIONS ###
+
+	spriteType = {
+		name = "GFX_icon_institution_scholasticism"
+		texturefile = "gfx//interface//institutions//renaissance.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_scholasticism"
+		texturefile = "gfx/interface/institutions//institution_tab_renaissance.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_trading_guilds"
+		texturefile = "gfx//interface//institutions//global_trade.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_trading_guilds"
+		texturefile = "gfx/interface/institutions//institution_tab_global_trade.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_dwarven_forges"
+		texturefile = "gfx//interface//institutions//manufactories.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_dwarven_forges"
+		texturefile = "gfx/interface/institutions//institution_tab_manufactories.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_human_enlightenment"
+		texturefile = "gfx//interface//institutions//enlightenment.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_human_enlightenment"
+		texturefile = "gfx/interface/institutions//institution_tab_enlightenment.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_elvish_renaissance"
+		texturefile = "gfx//interface//institutions//elvish_renaissance.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_elvish_renaissance"
+		texturefile = "gfx/interface/institutions//institution_tab_elvish_renaissance.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_orcish_renaissance"
+		texturefile = "gfx//interface//institutions//orcish_renaissance.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_orcish_renaissance"
+		texturefile = "gfx/interface/institutions//institution_tab_orcish_renaissance.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_statecraft"
+		texturefile = "gfx//interface//institutions//statecraft.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_statecraft"
+		texturefile = "gfx/interface/institutions//institution_tab_statecraft.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_imperialism"
+		texturefile = "gfx//interface//institutions//imperialism.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_imperialism"
+		texturefile = "gfx/interface/institutions//institution_tab_imperialism.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_institution_starmetal"
+		texturefile = "gfx//interface//institutions//starmetal.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_institution_tab_starmetal"
+		texturefile = "gfx/interface/institutions//institution_tab_starmetal.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+}

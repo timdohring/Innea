@@ -1,0 +1,15 @@
+add_core = JHI
+owner = JHI
+controller = JHI
+culture = jhistan
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = wine
+capital = "Thaghur"
+is_city = yes
+discovered_by = western

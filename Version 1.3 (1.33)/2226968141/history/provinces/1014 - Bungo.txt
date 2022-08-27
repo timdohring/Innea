@@ -1,0 +1,15 @@
+add_core = DIA
+owner = DIA
+controller = DIA
+culture = dianean
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Alpimosta"
+is_city = yes
+discovered_by = western

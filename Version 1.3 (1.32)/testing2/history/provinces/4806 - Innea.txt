@@ -1,0 +1,15 @@
+add_core = SYU
+owner = SYU
+controller = SYU
+culture = yun
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = rice
+capital = "Shangfu"
+is_city = yes
+discovered_by = western

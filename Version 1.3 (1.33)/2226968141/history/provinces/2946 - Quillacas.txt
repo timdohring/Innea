@@ -1,0 +1,15 @@
+add_core = BAS
+owner = BAS
+controller = BAS
+culture = key_islander
+religion = shuri
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 9
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western

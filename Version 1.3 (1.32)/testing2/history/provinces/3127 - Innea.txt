@@ -1,0 +1,15 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = grain
+capital = "Badirah"
+is_city = yes
+discovered_by = western

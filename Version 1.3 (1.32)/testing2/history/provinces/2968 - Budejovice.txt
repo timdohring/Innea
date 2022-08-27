@@ -1,0 +1,15 @@
+add_core = AZK
+owner = AZK
+controller = AZK
+culture = kesh
+religion = shuri
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 8
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western

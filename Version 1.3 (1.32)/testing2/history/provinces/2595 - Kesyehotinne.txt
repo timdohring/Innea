@@ -1,0 +1,12 @@
+culture = shurrean
+religion = nursari_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Avore"
+is_city = yes
+discovered_by = western

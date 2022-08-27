@@ -1,0 +1,16 @@
+add_core = KEW
+owner = KEW
+controller = KEW
+culture = keswic
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 7
+base_manpower = 9
+
+trade_goods = wayda_silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

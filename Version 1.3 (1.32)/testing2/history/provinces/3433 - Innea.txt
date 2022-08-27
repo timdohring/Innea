@@ -1,0 +1,16 @@
+add_core = PUN
+owner = PUN
+controller = PUN
+culture = punghali
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = red_sugar
+capital = "Redmoon"
+is_city = yes
+discovered_by = western
+fort_15th = yes

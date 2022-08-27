@@ -1,0 +1,15 @@
+add_core = MYI
+owner = MYI
+controller = MYI
+culture = konu
+religion = snow_goddess
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = ivory
+capital = "Cipyarpor"
+is_city = yes
+discovered_by = western

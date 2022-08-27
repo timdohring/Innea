@@ -1,0 +1,16 @@
+add_core = BGH
+owner = BGH
+controller = BGH
+culture = azandari
+religion = flame_temple
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = carpets
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

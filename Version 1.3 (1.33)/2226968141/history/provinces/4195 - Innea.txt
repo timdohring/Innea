@@ -1,0 +1,15 @@
+add_core = AGD
+owner = AGD
+controller = AGD
+culture = agadian
+religion = ametic
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = coal
+capital = "Urul"
+is_city = yes
+discovered_by = western

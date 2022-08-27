@@ -1,0 +1,15 @@
+add_core = YAN
+owner = YAN
+controller = YAN
+culture = pauthin
+religion = snow_goddess
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = jade
+capital = "Shwekai"
+is_city = yes
+discovered_by = western

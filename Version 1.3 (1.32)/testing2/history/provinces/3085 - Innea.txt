@@ -1,0 +1,15 @@
+add_core = MIS
+owner = MIS
+controller = MIS
+culture = misral
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = red_sugar
+capital = "Aletrin"
+is_city = yes
+discovered_by = western

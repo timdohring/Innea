@@ -1,0 +1,15 @@
+add_core = SHP
+owner = SHP
+controller = SHP
+culture = yazidi
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Suqudiyah"
+is_city = yes
+discovered_by = western

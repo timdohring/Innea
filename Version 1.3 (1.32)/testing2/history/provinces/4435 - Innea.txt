@@ -1,0 +1,15 @@
+add_core = REP
+owner = REP
+controller = REP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 10
+base_production = 12
+base_manpower = 11
+
+trade_goods = fruit
+capital = "Bataphoan"
+is_city = yes
+discovered_by = western

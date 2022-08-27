@@ -1,0 +1,15 @@
+add_core = YUJ
+owner = YUJ
+controller = YUJ
+culture = yun
+religion = bharatvadu
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Quli"
+is_city = yes
+discovered_by = western

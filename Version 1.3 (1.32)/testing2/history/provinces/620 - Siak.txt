@@ -1,0 +1,15 @@
+add_core = GAL
+owner = GAL
+controller = GAL
+culture = edessian
+religion = nurnadach
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = shellfish
+capital = "Ofyll"
+is_city = yes
+discovered_by = western

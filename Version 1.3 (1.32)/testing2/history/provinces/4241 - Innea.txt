@@ -1,0 +1,15 @@
+add_core = AKU
+owner = AKU
+controller = AKU
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 7
+base_production = 9
+base_manpower = 5
+
+trade_goods = beer
+capital = "Treehollow"
+is_city = yes
+discovered_by = western

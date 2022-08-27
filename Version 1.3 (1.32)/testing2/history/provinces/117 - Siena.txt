@@ -1,0 +1,19 @@
+#117 - Siena
+
+
+add_core = KIL
+owner = KIL
+controller = KIL
+culture = haaken
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 7
+base_manpower = 4
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2

@@ -1,0 +1,14 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = horsemother
+primary_culture = oht 
+capital = 3611
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+
+}
+

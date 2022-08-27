@@ -1,0 +1,15 @@
+add_core = ZAR
+owner = ZAR
+controller = ZAR
+culture = mafouin
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = livestock
+capital = "As-Zarbid"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = NYU
+culture = yun
+religion = conhayna
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = dyes
+capital = "Lili"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,15 @@
+add_core = PHR
+owner = PHR
+controller = PHR
+culture = phracian
+religion = the_one_truth
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Verinium"
+is_city = yes
+discovered_by = western

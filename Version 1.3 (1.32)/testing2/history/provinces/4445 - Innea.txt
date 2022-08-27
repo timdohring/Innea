@@ -1,0 +1,15 @@
+add_core = SIK
+owner = SIK
+controller = SIK
+culture = kapo
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Dvirad Rung"
+is_city = yes
+discovered_by = western

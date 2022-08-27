@@ -1,0 +1,15 @@
+add_core = DOR
+owner = DOR
+controller = DOR
+culture = dorean
+religion = the_coin
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = beer
+capital = "Essay"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+#146 - Athens
+
+add_core = HEL
+owner = HEL
+controller = HEL
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 2
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = JUA
+owner = JUA
+controller = JUA
+culture = juatchac
+religion = ator
+hre = no
+
+base_tax = 12
+base_production = 13
+base_manpower = 11
+
+trade_goods = silk
+capital = "Juar"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

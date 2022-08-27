@@ -1,0 +1,19 @@
+add_core = VEG
+add_core = SNY
+owner = VEG
+controller = VEG
+culture = snyd
+religion = the_one_truth
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = gold
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

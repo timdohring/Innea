@@ -1,0 +1,122 @@
+########################################
+# Events for Religious Reforms system
+#
+# written by Martin Anward
+########################################
+#edited by INNEA
+namespace = religious_reforms
+
+#INNEA
+# Fyzajak reform
+country_event = {
+	id = religious_reforms.5
+	title = religious_reforms.5.t
+	desc = religious_reforms.5.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = fyzajak
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {		
+			add_authority = -100 
+			add_stability = -2
+			
+			random_owned_province = {
+				limit = { 
+					is_in_capital_area = yes 
+					is_capital = no
+				}
+				set_province_flag = civil_war_prov_1
+			}		
+			random_owned_province = {
+				limit = { 
+					is_in_capital_area = yes
+					is_capital = no
+					NOT = { has_province_flag = civil_war_prov_1 }
+				}
+				set_province_flag = civil_war_prov_2
+			}
+			random_owned_province = {
+				limit = { 
+					is_in_capital_area = yes 
+					is_capital = no
+					NOT = { has_province_flag = civil_war_prov_1 }
+					NOT = { has_province_flag = civil_war_prov_2 }
+				}
+				set_province_flag = civil_war_prov_3
+			}			
+			
+			random_owned_province = {
+				limit = { has_province_flag = civil_war_prov_1 }
+				pretender_rebels = 4
+				clr_province_flag = civil_war_prov_1
+			}
+			random_owned_province = {
+				limit = { has_province_flag = civil_war_prov_2 }
+				pretender_rebels = 3
+				clr_province_flag = civil_war_prov_2
+			}
+			random_owned_province = {
+				limit = { has_province_flag = civil_war_prov_3 }
+				pretender_rebels = 3
+				clr_province_flag = civil_war_prov_3
+			}			
+		}
+		
+	}	
+	
+	option = {
+		name = religious_reforms.1.a
+		tooltip = {
+			add_stability = -2
+			add_authority = -100			
+		}		
+	}
+}
+
+# Zakritz reform
+country_event = {
+	id = religious_reforms.4
+	title = religious_reforms.4.t
+	desc = religious_reforms.4.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = zakritz
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = { 
+			add_stability = -2
+			add_adm_power = -250
+			add_dip_power = -250
+			add_mil_power = -250
+			add_authority = -100
+		}
+	}
+	
+	option = {
+		name = religious_reforms.1.a
+		tooltip = {
+			add_stability = -2
+			add_adm_power = -250
+			add_dip_power = -250
+			add_mil_power = -250
+			add_authority = -100
+		}
+	}
+}

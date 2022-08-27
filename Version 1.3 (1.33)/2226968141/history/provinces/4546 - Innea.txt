@@ -1,0 +1,15 @@
+add_core = NAY
+owner = NAY
+controller = NAY
+culture = askyan
+religion = three_moons
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = fungi
+capital = "Lashwy"
+is_city = yes
+discovered_by = western

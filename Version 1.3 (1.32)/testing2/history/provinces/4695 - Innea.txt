@@ -1,0 +1,15 @@
+add_core = DXG
+owner = DXG
+controller = DXG
+culture = heilong
+religion = conhayna
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = rice
+capital = "Donxu"
+is_city = yes
+discovered_by = western

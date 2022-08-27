@@ -1,0 +1,15 @@
+add_core = DZY
+owner = DZY
+controller = DZY
+culture = vardesian
+religion = flame_house
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = fish
+capital = "Mayrum"
+is_city = yes
+discovered_by = western

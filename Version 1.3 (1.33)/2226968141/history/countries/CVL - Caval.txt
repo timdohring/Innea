@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = brilthic_church
+primary_culture = soling
+capital = 282
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Alvor II"
+		dynasty = "Calde"
+		birth_date = 1403.1.25
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+

@@ -1,0 +1,18 @@
+#59 - Wittenberg
+
+add_core = JFR
+owner = JFR
+controller = JFR
+culture = grafen
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Refaxja"
+is_city = yes
+discovered_by = western
+fort_15th = yes

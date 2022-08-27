@@ -1,0 +1,15 @@
+add_core = RHY
+owner = RHY
+controller = RHY
+culture = rhydic
+religion = altran_church
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 5
+
+trade_goods = beer
+capital = "Druxen"
+is_city = yes
+discovered_by = western

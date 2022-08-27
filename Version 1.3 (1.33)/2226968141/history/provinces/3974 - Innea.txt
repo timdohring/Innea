@@ -1,0 +1,16 @@
+add_core = SKI
+owner = SKI
+controller = SKI
+add_core = ASL
+culture = ashrunner
+religion = moon_cult
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western

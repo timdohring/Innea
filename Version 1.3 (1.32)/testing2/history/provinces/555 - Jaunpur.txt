@@ -1,0 +1,16 @@
+add_core = STD
+owner = STD
+controller = STD
+culture = southcoaster
+religion = altran_church
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 13
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2

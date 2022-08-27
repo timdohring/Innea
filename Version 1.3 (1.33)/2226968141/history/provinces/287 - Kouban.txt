@@ -1,0 +1,19 @@
+add_core = UAW
+owner = UAW
+controller = UAW
+culture = graen
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 2
+
+trade_goods = herbs
+capital = "Wauodhen"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes
+
+

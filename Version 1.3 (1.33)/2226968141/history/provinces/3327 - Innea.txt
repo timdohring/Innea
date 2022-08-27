@@ -1,0 +1,15 @@
+add_core = VIT
+owner = VIT
+controller = VIT
+culture = pardho
+religion = ojal
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = cotton
+capital = "Sahasin"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = OCC
+owner = OCC
+controller = OCC
+culture = moon_orc
+religion = moon_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = wool
+capital = "Ga Kicce"
+is_city = yes
+discovered_by = western

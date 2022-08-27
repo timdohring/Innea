@@ -1,0 +1,15 @@
+add_core = LPH
+owner = LPH
+controller = LPH
+culture = banglan
+religion = bharatvadu
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = herbs
+capital = "Vongtri"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = OCH
+owner = OCH
+controller = OCH
+culture = riverman
+religion = lakemother
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = silk
+capital = "Mege"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 123 96 130}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Seiqin #0" = 1
+	"Cadurow #0" = 1
+	"Cragrim #0" = 1
+	"Ihura #0" = 1
+	"Kirlekai #0" = 1
+	"Gozhul #0" = 1
+	"Xohar #0" = 1
+	"Wkhazis #0" = 1
+	"Otakin #0" = 1
+	"Zukar #0" = 1
+	"Vrodun #0" = 1
+	"Dizhar #0" = 1
+	"Vaezur #0" = 1
+	"Karael #0" = 1
+	"Chuxin #0" = 1
+	"Sheikar #0" = 1
+	"Xara #0" = 1
+	"Bortan #0" = 1
+	"Kroxa #0" = 1
+	"Zrau #0" = 1
+
+	"Zrau" = -1
+	"Kroxa" = -1
+	"Vrauti" = -1
+	"Raupris" = -1
+	"Vavezza" = -1
+	"Sha-Xi" = -1
+	"Uzol-Shan" = -1
+	"Xeroi" = -1
+	"Chruva" = -1
+	"Ghana" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

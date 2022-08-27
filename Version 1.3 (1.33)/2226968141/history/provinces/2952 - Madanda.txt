@@ -1,0 +1,16 @@
+add_core = AMA
+owner = AMA
+controller = AMA
+add_core = OUA
+culture = chidal
+religion = shuri
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = incense
+capital = "Taobechid"
+is_city = yes
+discovered_by = western

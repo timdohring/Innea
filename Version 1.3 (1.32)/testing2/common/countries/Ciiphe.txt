@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255 73 7 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Eleon #0" = 1
+	"Eawir #0" = 1
+	"Ceseon #0" = 1
+	"Cijies #0" = 1
+	"Weleos #0" = 1
+	"Wuara #0" = 1
+	"Ewurr #0" = 1
+	"Donadis #0" = 1
+	"Aswoul #0" = 1
+	"Anuralaris #0" = 1
+	"Iiath #0" = 1
+	"Iittari #0" = 1
+	"Iliithryn #0" = 1
+	"Wuolvwe #0" = 1
+	"Wuolradaii #0" = 1
+	"Loenthar #0" = 1
+	"Uwerdis #0" = 1
+	"Jolloth #0" = 1
+	"Axaxes #0" = 1
+	"Oroso #0" = 1
+	"Orepurin #0" = 1
+	"Telaroso #0" = 1
+	"Uaawin #0" = 1
+	"Ecapas #0" = 1
+	"Viir #0" = 1
+	"Delatun #0" = 1
+	"Cel #0" = 1
+	"Celrath #0" = 1
+	"Ithys #0" = 1
+	"Thurndeasl #0" = 1
+
+	"Cela" = -1
+	"Ceia" = -1
+	"Lloune" = -1
+	"Ecae" = -1
+	"Yuwahe" = -1
+	"Uarae" = -1
+	"Axare" = -1
+	"Oronomea" = -1
+	"Lotaris" = -1
+	"Uawynder" = -1
+	"Sosoro" = -1
+	"Iian" = -1
+	"Wleanpurre" = -1
+	"Avii" = -1
+	"Nuande" = -1
+	"Epassh" = -1
+	"Joen" = -1
+	"Misay" = -1
+	"Telvin" = -1
+	"Dianethin" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

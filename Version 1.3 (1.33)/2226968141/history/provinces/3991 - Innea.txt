@@ -1,0 +1,15 @@
+add_core = OKR
+owner = OKR
+controller = OKR
+culture = scarred_one
+religion = blood_cult
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = obsidian
+capital = ""
+is_city = yes
+discovered_by = western

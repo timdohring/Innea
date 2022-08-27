@@ -1,0 +1,63 @@
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = MEI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = ZUX
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = JIX
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = ANC
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = NCG
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = BAO
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = HZI
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = B4N
+	second = ZHU
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+alliance = {
+	first = B4N
+	second = DJG
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+

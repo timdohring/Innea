@@ -1,0 +1,15 @@
+add_core = ONC
+owner = ONC
+controller = ONC
+culture = onchu
+religion = conhayna
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 9
+
+trade_goods = wool
+capital = "Xiongli"
+is_city = yes
+discovered_by = western

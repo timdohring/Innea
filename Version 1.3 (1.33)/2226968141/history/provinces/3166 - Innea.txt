@@ -1,0 +1,15 @@
+add_core = NAD
+owner = NAD
+controller = NAD
+culture = dena
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Shasil"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = SIK
+owner = SIK
+controller = SIK
+culture = khmon
+religion = bharatvadu
+hre = no
+
+base_tax = 11
+base_production = 6
+base_manpower = 8
+
+trade_goods = rice
+capital = "Chait"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 35  220  240 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Harih #0" = 1
+	"Raj #0" = 1
+	"Sharatha #0" = 1
+	"Pankchud #0" = 1
+	"Rushsat #0" = 1
+	"Priman #0" = 1
+	"Niraj #0" = 1
+	"Bisham #0" = 1
+	"Virktha #0" = 1
+	"Amodh #0" = 1
+	"Bishwan #0" = 1
+	"Ragkram #0" = 1
+	"Sritodh #0" = 1
+	"Nurjit #0" = 1
+	"Paramshwar #0" = 1
+	"Aasang #0" = 1
+	"Jagdi #0" = 1
+	"Harid #0" = 1
+	"Dhohit #0" = 1
+	"Gangendra #0" = 1
+	"Chittarish #0" = 1
+	"Chittanmod #0" = 1
+	"Ekanand #0" = 1
+	"Akaa #0" = 1
+	"Diwathiv #0" = 1
+	"Deenash #0" = 1
+	"Dhirmir #0" = 1
+	"Nishpraw #0" = 1
+	"Sajekar #0" = 1
+	"Bhishwa #0" = 1
+
+	"Rami" = -1
+	"Presis" = -1
+	"Himachan" = -1
+	"Sulans" = -1
+	"Gunsha" = -1
+	"Chhadha" = -1
+	"Ranuka" = -1
+	"Ainura" = -1
+	"Dheeka" = -1
+	"Mari" = -1
+	"Jaya" = -1
+	"Anjibne" = -1
+	"Kainsha" = -1
+	"Beetapa" = -1
+	"Kamale" = -1
+	"Shworin" = -1
+	"Shandaya" = -1
+	"Abina" = -1
+	"Swenee" = -1
+	"Kanksha" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

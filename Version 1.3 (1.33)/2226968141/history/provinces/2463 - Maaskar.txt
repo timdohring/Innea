@@ -1,0 +1,16 @@
+add_core = AMB
+owner = AMB
+controller = AMB
+culture = okyma
+religion = woodmother
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

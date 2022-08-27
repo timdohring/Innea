@@ -1,0 +1,15 @@
+add_core = SEW
+owner = SEW
+controller = SEW
+culture = uldan
+religion = star_house
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 9
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,12 @@
+culture = sentic
+religion = manolic
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = grain
+capital = "Kari's Field"
+is_city = yes
+discovered_by = western

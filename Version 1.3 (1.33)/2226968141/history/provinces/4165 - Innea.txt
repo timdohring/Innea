@@ -1,0 +1,15 @@
+add_core = SFF
+owner = SFF
+controller = SFF
+culture = panarak
+religion = old_yorr
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = fish
+capital = "Uvondrait"
+is_city = yes
+discovered_by = western

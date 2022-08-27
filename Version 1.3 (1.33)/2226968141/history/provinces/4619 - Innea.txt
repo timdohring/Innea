@@ -1,0 +1,15 @@
+add_core = NPN
+owner = NPN
+controller = NPN
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = ivory
+capital = "Ruykpar"
+is_city = yes
+discovered_by = western

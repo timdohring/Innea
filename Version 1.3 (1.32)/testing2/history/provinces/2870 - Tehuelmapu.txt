@@ -1,0 +1,15 @@
+add_core = CHI
+owner = CHI
+controller = CHI
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+trade_goods = silk
+capital = "Ghodaghmak"
+is_city = yes
+discovered_by = western

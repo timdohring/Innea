@@ -1,0 +1,15 @@
+add_core = KHA
+owner = KHA
+controller = KHA
+culture = kashtian
+religion = shatvili
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Chaidaban"
+is_city = yes
+discovered_by = western

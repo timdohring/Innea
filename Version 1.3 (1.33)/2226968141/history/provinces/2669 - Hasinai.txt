@@ -1,0 +1,15 @@
+add_core = WEG
+owner = WEG
+controller = WEG
+culture = sgawe
+religion = lakemother
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 5
+
+trade_goods = grain
+capital = "Nondawega"
+is_city = yes
+discovered_by = western

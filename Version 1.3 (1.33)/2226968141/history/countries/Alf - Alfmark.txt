@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = grafen
+capital = 60
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Asmund II"
+		dynasty = "Alfing"
+		birth_date = 1420.1.8
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+

@@ -1,0 +1,15 @@
+add_core = SOK
+owner = SOK
+controller = SOK
+culture = sokuro
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 7
+
+trade_goods = beer
+capital = "Machibe"
+is_city = yes
+discovered_by = western

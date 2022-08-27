@@ -1,0 +1,16 @@
+add_core = DMO
+owner = DMO
+controller = DMO
+culture = imur
+religion = shatvili
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

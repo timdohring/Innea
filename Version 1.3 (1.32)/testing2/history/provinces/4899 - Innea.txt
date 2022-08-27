@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = ban
+religion = shao
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = porcelain
+capital = "Haizhol"
+is_city = yes
+discovered_by = western

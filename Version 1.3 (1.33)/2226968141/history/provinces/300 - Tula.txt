@@ -1,0 +1,16 @@
+add_core = CLE
+owner = CLE
+controller = CLE
+culture = ruwwesk
+religion = dochar
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = ancient_artifacts
+capital = "Osbec"
+is_city = yes
+discovered_by = western
+

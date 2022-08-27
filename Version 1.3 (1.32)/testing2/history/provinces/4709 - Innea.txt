@@ -1,0 +1,15 @@
+add_core = SOK
+owner = SOK
+controller = SOK
+culture = sokuro
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = honey
+capital = "Soha"
+is_city = yes
+discovered_by = western

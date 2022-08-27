@@ -1,0 +1,17 @@
+add_core = DAS
+owner = DAS
+controller = DAS
+culture = dasan
+religion = shao
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 11
+
+trade_goods = ships
+capital = "Seosan"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

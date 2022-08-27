@@ -1,0 +1,15 @@
+add_core = CAT
+owner = CAT
+controller = CAT
+culture = catulan
+religion = abai
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = wine
+capital = "Bialtak"
+is_city = yes
+discovered_by = western

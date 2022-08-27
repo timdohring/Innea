@@ -1,0 +1,16 @@
+add_core = PAM
+owner = PAM
+controller = PAM
+culture = pandu
+religion = sukkali
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 9
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

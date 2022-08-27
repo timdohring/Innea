@@ -1,0 +1,16 @@
+add_core = SAT
+owner = SAT
+controller = SAT
+culture = atalar
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Tanodil"
+is_city = yes
+discovered_by = western
+fort_15th = yes

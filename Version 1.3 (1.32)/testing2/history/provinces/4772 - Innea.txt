@@ -1,0 +1,15 @@
+add_core = GUA
+owner = GUA
+controller = GUA
+culture = guanglo
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 10
+
+trade_goods = glass
+capital = "Maoxong"
+is_city = yes
+discovered_by = western

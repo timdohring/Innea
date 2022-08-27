@@ -1,0 +1,18 @@
+add_core = MOL
+owner = MOL
+controller = MOL
+culture = moltrese
+religion = altran_church
+hre = no
+
+base_tax = 18
+base_production = 14
+base_manpower = 16
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

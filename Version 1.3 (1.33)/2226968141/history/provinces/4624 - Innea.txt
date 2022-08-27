@@ -1,0 +1,16 @@
+add_core = KPN
+owner = KPN
+controller = KPN
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 9
+
+trade_goods = wool
+capital = "Penionkur"
+is_city = yes
+discovered_by = western
+fort_15th = yes

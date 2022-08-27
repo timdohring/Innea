@@ -1,0 +1,17 @@
+add_core = CHP
+owner = CHP
+controller = CHP
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 15
+base_production = 13
+base_manpower = 7
+
+trade_goods = shellfish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

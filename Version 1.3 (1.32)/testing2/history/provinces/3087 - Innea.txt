@@ -1,0 +1,15 @@
+add_core = HBL
+owner = HBL
+controller = HBL
+culture = misral
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 8
+base_manpower = 9
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western

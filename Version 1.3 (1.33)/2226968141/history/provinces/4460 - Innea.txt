@@ -1,0 +1,15 @@
+add_core = SHO
+owner = SHO
+controller = SHO
+culture = nongthai
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = fruit
+capital = "Kanenpao"
+is_city = yes
+discovered_by = western

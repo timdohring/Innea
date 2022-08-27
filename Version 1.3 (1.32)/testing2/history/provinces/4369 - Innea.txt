@@ -1,0 +1,15 @@
+add_core = CHH
+owner = CHH
+controller = CHH
+culture = muonh
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Trang Si"
+is_city = yes
+discovered_by = western

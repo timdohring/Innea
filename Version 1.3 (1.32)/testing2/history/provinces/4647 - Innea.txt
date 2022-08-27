@@ -1,0 +1,15 @@
+add_core = DAS
+owner = DAS
+controller = DAS
+culture = dasan
+religion = shao
+hre = no
+
+base_tax = 17
+base_production = 16
+base_manpower = 16
+
+trade_goods = paper
+capital = "Daesan"
+is_city = yes
+discovered_by = western

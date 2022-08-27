@@ -1,0 +1,15 @@
+add_core = ATL
+owner = ATL
+controller = ATL
+culture = atlic
+religion = manolic
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western

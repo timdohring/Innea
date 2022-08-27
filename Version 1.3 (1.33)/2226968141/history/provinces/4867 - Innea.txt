@@ -1,0 +1,15 @@
+add_core = ZHU
+owner = ZHU
+controller = ZHU
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = horses
+capital = "Lizhoung"
+is_city = yes
+discovered_by = western

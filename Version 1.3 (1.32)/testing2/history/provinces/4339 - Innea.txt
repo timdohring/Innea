@@ -1,0 +1,15 @@
+add_core = VIE
+owner = VIE
+controller = VIE
+culture = bo_vao
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = rice
+capital = "Hagian"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = ILR
+owner = ILR
+controller = ILR
+culture = rohgii
+religion = drekana
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = tea
+capital = "Ikuol"
+is_city = yes
+discovered_by = western

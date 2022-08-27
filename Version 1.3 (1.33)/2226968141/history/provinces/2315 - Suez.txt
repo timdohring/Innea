@@ -1,0 +1,16 @@
+add_core = ECA
+owner = ECA
+controller = ECA
+add_core = SLV
+culture = silavian
+religion = moon_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Russal"
+is_city = yes
+discovered_by = western

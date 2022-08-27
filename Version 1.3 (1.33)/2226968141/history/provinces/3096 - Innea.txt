@@ -1,0 +1,15 @@
+add_core = MHR
+owner = MHR
+controller = MHR
+culture = mahran
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = wool
+capital = "Tarjib"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = DME
+owner = DME
+controller = DME
+culture = fingerling
+religion = manolic
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = grain
+capital = "Fondre"
+is_city = yes
+discovered_by = western

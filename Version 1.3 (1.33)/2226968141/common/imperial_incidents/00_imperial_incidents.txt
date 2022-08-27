@@ -1,0 +1,83 @@
+# default options are 0-based
+# In console, can use imperial_incident [key] to immediately begin an incident
+
+
+incident_arman_wants_to_join = {
+	event = incidents.2
+	default_option = 1
+	
+	can_stop = {
+		OR = {
+			NOT = {
+				exists = AMA
+			}
+			AMA = {
+				is_emperor = yes
+			}
+			AMA = {
+				is_subject = yes
+			}
+		}
+	}
+	
+	0 = { # arman joins
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_friendly
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_loyal
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_allied
+				}
+			}
+		}
+	}
+	
+	1 = { # arman denied
+		factor = 1
+		modifier = {
+			factor = 100
+			is_neighbor_of = AMA
+			NOT = {
+				alliance_with = AMA
+			}
+		}
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_rivalry
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_disloyal
+				}
+				ai_attitude = {
+					who = AMA
+					attitude = attitude_rebellious
+				}
+			}
+		}
+	}
+}

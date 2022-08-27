@@ -1,0 +1,15 @@
+add_core = NCG
+owner = NCG
+controller = NCG
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = beer
+capital = "Nancheng"
+is_city = yes
+discovered_by = western

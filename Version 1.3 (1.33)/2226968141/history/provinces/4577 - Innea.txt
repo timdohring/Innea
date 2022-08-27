@@ -1,0 +1,15 @@
+add_core = TWY
+owner = TWY
+controller = TWY
+culture = taw
+religion = snow_goddess
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = fur
+capital = "Shwedo"
+is_city = yes
+discovered_by = western

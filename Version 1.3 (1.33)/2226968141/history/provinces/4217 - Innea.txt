@@ -1,0 +1,15 @@
+add_core = NGX
+owner = NGX
+controller = NGX
+culture = ekweni
+religion = asite
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 8
+
+trade_goods = tropical_wood
+capital = "Lonumu"
+is_city = yes
+discovered_by = western

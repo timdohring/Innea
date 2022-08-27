@@ -1,0 +1,18 @@
+#122 - Apulia
+
+
+add_core = IQI
+owner = IQI
+controller = IQI
+culture = azqu
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 3
+
+trade_goods = gems
+capital = ""
+is_city = yes
+discovered_by = western

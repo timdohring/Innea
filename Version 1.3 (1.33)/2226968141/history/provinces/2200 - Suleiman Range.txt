@@ -1,0 +1,15 @@
+add_core = DUS
+owner = DUS
+controller = DUS
+culture = duskborn
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = stone
+capital = "Ambant"
+is_city = yes
+discovered_by = western

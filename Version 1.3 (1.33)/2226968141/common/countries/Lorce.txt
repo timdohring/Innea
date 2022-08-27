@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 63  20  177 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Shaq #0" = 1
+	"Akam #0" = 1
+	"Shkenoba #0" = 1
+	"Nasir #0" = 1
+	"Lastar #0" = 1
+	"Thjesh #0" = 1
+	"Erlim #0" = 1
+	"Tumush #0" = 1
+	"Defrim #0" = 1
+	"Ahsin #0" = 1
+	"Taturin #0" = 1
+	"Xhe #0" = 1
+	"Xhemain #0" = 1
+	"Larus #0" = 1
+	"Shqano #0" = 1
+	"Ushul #0" = 1
+	"Butuz #0" = 1
+	"Aldant #0" = 1
+	"Flabian #0" = 1
+	"Malgor #0" = 1
+	"Gjerluz #0" = 1
+	"Palush #0" = 1
+	"Adnash #0" = 1
+	"Luiktor #0" = 1
+	"Edoxh #0" = 1
+	"Sear #0" = 1
+	"Sulshko #0" = 1
+	"Dhutero #0" = 1
+	"Raenv #0" = 1
+	"Ashqko #0" = 1
+
+	"Dilini" = -1
+	"Aje" = -1
+	"Verata" = -1
+	"Daze" = -1
+	"Miosana" = -1
+	"Detare" = -1
+	"Yllno" = -1
+	"Ngaze" = -1
+	"Delqet" = -1
+	"Samivi" = -1
+	"Shqanal" = -1
+	"Lidij" = -1
+	"Lume" = -1
+	"Dranvir" = -1
+	"Ezra" = -1
+	"Shprase" = -1
+	"Lula" = -1
+	"Vesara" = -1
+	"Aferana" = -1
+	"Illit" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = BAK
+owner = BAK
+controller = BAK
+culture = ashrunner
+religion = moon_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = ivory
+capital = "Omcal"
+is_city = yes
+discovered_by = western

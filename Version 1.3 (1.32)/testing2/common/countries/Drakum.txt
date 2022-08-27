@@ -1,0 +1,128 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {122  179  97 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Alta #0" = 1
+	"Bramm #0" = 1
+	"Harmel #0" = 1
+	"Asmir #0" = 1
+	"Alving #0" = 1
+	"Hatch #0" = 1
+	"Borki #0" = 1
+	"Berk #0" = 1
+	"Dasvar #0" = 1
+	"Emir #0" = 1
+	"Bremel #0" = 1
+	"Ka #0" = 1
+	"Halfnir #0" = 1
+	"Elsar #0" = 1
+	"Horvak #0" = 1
+	"Kestwur #0" = 1
+	"Ionar #0" = 1
+	"Raldnir #0" = 1
+	"Ralnyr #0" = 1
+	"Geslek #0" = 1
+	"Gunshar #0" = 1
+	"Rifni #0" = 1
+	"Sigi #0" = 1
+	"Stolgr #0" = 1
+	"Hatmul #0" = 1
+	"Tornaf #0" = 1
+	"Fernik #0" = 1
+	"Volwik #0" = 1
+	"Vestiburn #0" = 1
+	"Sogar #0" = 1
+	"Geinvik #0" = 1
+	"Rothar #0" = 1
+	"Wunsyr #0" = 1
+	"Pershar #0" = 1
+	"Pon #0" = 1
+	"Barkan #0" = 1
+	"Stoen #0" = 1
+	"Thranmi #0" = 1
+	"Kass #0" = 1
+	"Bornis #0" = 1
+
+	"Velm" = -1
+	"Asfi" = -1
+	"Alko" = -1
+	"Astrot" = -1
+	"Berla" = -1
+	"Bisna" = -1
+	"Egelt" = -1
+	"Eyon" = -1
+	"Gudtri" = -1
+	"Trina" = -1
+	"Helni" = -1
+	"Idana" = -1
+	"Karli" = -1
+	"Reist" = -1
+	"Sigota" = -1
+	"Kull" = -1
+	"Yhonna" = -1
+	"Thostwil" = -1
+	"Valni" = -1
+	"Ollo" = -1
+	"Berna" = -1
+	"Rifa" = -1
+	"Elsana" = -1
+	"Ketwar" = -1
+	"Pira" = -1
+	"Won" = -1
+	"Sogatha" = -1
+	"Thanne" = -1
+	"Letwurda" = -1
+	"Shanni" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

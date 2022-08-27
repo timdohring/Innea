@@ -1,0 +1,17 @@
+add_core = DOO
+owner = DOO
+controller = DOO
+culture = uyguz
+religion = ashar
+hre = no
+
+base_tax = 14
+base_production = 11
+base_manpower = 16
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

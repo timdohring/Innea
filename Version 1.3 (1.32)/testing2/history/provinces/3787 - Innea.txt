@@ -1,0 +1,16 @@
+add_core = AGO
+owner = AGO
+controller = AGO
+culture = goondjean
+religion = dreammother
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

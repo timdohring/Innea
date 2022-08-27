@@ -1,0 +1,18 @@
+add_core = FRX
+owner = FRX
+controller = FRX
+culture = laquis
+religion = paisadox
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 8
+
+trade_goods = beer
+capital = ""
+is_city = yes
+discovered_by = western
+
+
+fort_15th = yes

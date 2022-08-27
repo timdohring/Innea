@@ -1,0 +1,15 @@
+add_core = TAR
+owner = TAR
+controller = TAR
+culture = arvacien
+religion = paisadox
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = fish
+capital = "Anserre-fil-Capache"
+is_city = yes
+discovered_by = western

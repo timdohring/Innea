@@ -1,0 +1,15 @@
+add_core = INU
+owner = INU
+controller = INU
+culture = sokuro
+religion = shao
+hre = no
+
+base_tax = 10
+base_production = 13
+base_manpower = 11
+
+trade_goods = paper
+capital = "Inumayo"
+is_city = yes
+discovered_by = western

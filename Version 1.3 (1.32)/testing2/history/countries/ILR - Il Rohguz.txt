@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 10
+technology_group = western
+religion = ejje_nvek
+primary_culture = rohgii
+capital = 2365
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Bur -"
+		dynasty = "Rohi"
+		birth_date = 1374.6.16
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+

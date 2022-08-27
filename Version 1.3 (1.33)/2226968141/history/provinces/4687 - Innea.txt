@@ -1,0 +1,15 @@
+add_core = NIN
+owner = NIN
+controller = NIN
+culture = heilong
+religion = conhayna
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 7
+
+trade_goods = blackgrain
+capital = "Heihel"
+is_city = yes
+discovered_by = western

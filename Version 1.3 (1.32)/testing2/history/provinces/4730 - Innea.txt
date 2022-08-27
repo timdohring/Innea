@@ -1,0 +1,15 @@
+add_core = HOM
+owner = HOM
+controller = HOM
+culture = homagara
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 8
+base_manpower = 8
+
+trade_goods = salt
+capital = "Tajigaki"
+is_city = yes
+discovered_by = western

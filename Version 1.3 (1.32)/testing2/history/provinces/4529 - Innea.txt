@@ -1,0 +1,15 @@
+add_core = SWA
+owner = SWA
+controller = SWA
+culture = shei_kar
+religion = death_cult
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = blackgrain
+capital = "Yeti"
+is_city = yes
+discovered_by = western

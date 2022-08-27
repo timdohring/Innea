@@ -1,0 +1,15 @@
+add_core = JAT
+owner = JAT
+controller = JAT
+culture = panarak
+religion = yonjorr
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = livestock
+capital = "Uldwigatr"
+is_city = yes
+discovered_by = western

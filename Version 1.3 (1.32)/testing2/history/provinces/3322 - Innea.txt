@@ -1,0 +1,15 @@
+add_core = PRA
+owner = PRA
+controller = PRA
+culture = charan
+religion = ojal
+hre = no
+
+base_tax = 9
+base_production = 13
+base_manpower = 9
+
+trade_goods = marble
+capital = ""
+is_city = yes
+discovered_by = western

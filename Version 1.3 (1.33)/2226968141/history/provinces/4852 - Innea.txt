@@ -1,0 +1,16 @@
+add_core = DJG
+owner = DJG
+controller = DJG
+add_core = XA0
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = blackgrain
+capital = "Xilitian"
+is_city = yes
+discovered_by = western

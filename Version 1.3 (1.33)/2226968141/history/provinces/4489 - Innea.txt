@@ -1,0 +1,17 @@
+add_core = IRA
+owner = IRA
+controller = IRA
+culture = iraavi
+religion = death_cult
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 9
+
+trade_goods = cloth
+capital = "Iraak"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

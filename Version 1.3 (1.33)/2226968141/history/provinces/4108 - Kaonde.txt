@@ -1,0 +1,15 @@
+add_core = CAT
+owner = CAT
+controller = CAT
+culture = catulan
+religion = abai
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "Beqest"
+is_city = yes
+discovered_by = western

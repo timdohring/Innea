@@ -1,0 +1,16 @@
+add_core = SUP
+owner = SUP
+controller = SUP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = shellfish
+capital = "Ankor Rung"
+is_city = yes
+discovered_by = western
+fort_15th = yes

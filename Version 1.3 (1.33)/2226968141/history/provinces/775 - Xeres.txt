@@ -1,0 +1,15 @@
+add_core = OLD
+owner = OLD
+controller = OLD
+culture = lower_sternian
+religion = the_coin
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 8
+
+trade_goods = fish
+capital = "Durn"
+is_city = yes
+discovered_by = western

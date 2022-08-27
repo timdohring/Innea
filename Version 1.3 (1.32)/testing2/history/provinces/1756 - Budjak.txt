@@ -1,0 +1,15 @@
+add_core = PAL
+owner = PAL
+controller = PAL
+culture = paldic
+religion = iskari_temple
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = ivory
+capital = ""
+is_city = yes
+discovered_by = western

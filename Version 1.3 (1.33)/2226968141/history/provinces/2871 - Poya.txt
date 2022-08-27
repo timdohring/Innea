@@ -1,0 +1,15 @@
+add_core = GAN
+owner = GAN
+controller = GAN
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = wool
+capital = "Srudaw"
+is_city = yes
+discovered_by = western

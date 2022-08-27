@@ -1,0 +1,18 @@
+#149 - Edirne
+
+add_core = FJO
+owner = FJO
+controller = FJO
+culture = drevarsk
+religion = yoneth
+hre = no
+
+base_tax = 15
+base_production = 11
+base_manpower = 14
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2

@@ -1,0 +1,16 @@
+add_core = RAD
+owner = RAD
+controller = RAD
+culture = torvarik
+religion = asite
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Hranad"
+is_city = yes
+discovered_by = western
+fort_15th = yes

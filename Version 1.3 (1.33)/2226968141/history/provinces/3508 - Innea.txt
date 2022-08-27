@@ -1,0 +1,15 @@
+add_core = HAD
+owner = HAD
+controller = HAD
+culture = druhn
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = druh
+capital = "Saratel"
+is_city = yes
+discovered_by = western

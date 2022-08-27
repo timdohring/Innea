@@ -1,0 +1,17 @@
+add_core = EDG
+owner = EDG
+controller = EDG
+culture = murrian
+religion = altran_church
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 4
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+

@@ -1,0 +1,15 @@
+add_core = RUL
+owner = RUL
+controller = RUL
+culture = runic
+religion = star_house
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 4
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western

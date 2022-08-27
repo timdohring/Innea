@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Luzhu"
+is_city = yes
+discovered_by = western

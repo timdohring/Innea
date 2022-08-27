@@ -1,0 +1,15 @@
+add_core = AMB
+owner = AMB
+controller = AMB
+culture = okyma
+religion = woodmother
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = fur
+capital = "Manabeta"
+is_city = yes
+discovered_by = western

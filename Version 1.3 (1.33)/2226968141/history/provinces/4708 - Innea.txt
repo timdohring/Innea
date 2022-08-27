@@ -1,0 +1,15 @@
+add_core = INU
+owner = INU
+controller = INU
+culture = sokuro
+religion = shao
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 6
+
+trade_goods = rice
+capital = "Ozo"
+is_city = yes
+discovered_by = western

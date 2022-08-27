@@ -1,0 +1,12 @@
+culture = paldic
+religion = iskari_temple
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 0
+
+trade_goods = fish
+capital = "Uliun"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 126 180 154  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Tovon #0" = 1
+	"Arilo #0" = 1
+	"Lova #0" = 1
+	"Anat #0" = 1
+	"Falim #0" = 1
+	"Andi #0" = 1
+	"Zotased #0" = 1
+	"Lalaigi #0" = 1
+	"Manahir #0" = 1
+	"Raza #0" = 1
+	"Raktotom #0" = 1
+	"Tsior #0" = 1
+	"Tahirim #0" = 1
+	"Hajanir #0" = 1
+	"Rivelo #0" = 1
+	"Anatlon #0" = 1
+	"Tovan #0" = 1
+	"Tsija #0" = 1
+	"Solofo #0" = 1
+	"Tirahas #0" = 1
+
+	"Felana" = -1
+	"Hanta" = -1
+	"Mirantso" = -1
+	"Todisai" = -1
+	"Mijon" = -1
+	"Fiona" = -1
+	"Hanirij" = -1
+	"Saraha" = -1
+	"Vao" = -1
+	"Militian" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 34 202 249}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Sahak #0" = 1
+	"Aehyon #0" = 1
+	"Yomtae #0" = 1
+	"Noyou #0" = 1
+	"Hyonjun #0" = 1
+	"Yongjin #0" = 1
+	"Kunong #0" = 1
+	"Sipchaen #0" = 1
+	"Hanjae #0" = 1
+	"Mowu #0" = 1
+	"Tae #0" = 1
+	"Sumochu #0" = 1
+	"Tongasun #0" = 1
+	"Kunon #0" = 1
+	"Naeseon #0" = 1
+	"Ryomi #0" = 1
+	"Nanean #0" = 1
+	"Malum #0" = 1
+	"Haneon #0" = 1
+	"Cheoljin #0" = 1
+
+	"Tonahwa" = -1
+	"Kumsin" = -1
+	"Hwamu" = -1
+	"Pangum" = -1
+	"Inchool" = -1
+	"Pang" = -1
+	"Homa" = -1
+	"Yunchu" = -1
+	"Rimu" = -1
+	"Pilae" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

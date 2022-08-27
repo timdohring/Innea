@@ -1,0 +1,13 @@
+
+culture = sahridan
+religion = sun_cult
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

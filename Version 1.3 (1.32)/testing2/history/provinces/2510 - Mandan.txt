@@ -1,0 +1,15 @@
+add_core = WIN
+owner = WIN
+controller = WIN
+culture = ulfin
+religion = ewafari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fruit
+capital = "Uprule"
+is_city = yes
+discovered_by = western

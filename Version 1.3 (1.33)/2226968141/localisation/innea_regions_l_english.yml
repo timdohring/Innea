@@ -1,0 +1,49 @@
+﻿l_english:
+ varland_superregion:0 "Varland"
+ varland_superregion_name:0 "Varland"
+ varland_superregion_adj:0 "Varsk"
+ brythawn_superregion:0 "Brythawn"
+ brythawn_superregion_name:0 "Brythawn"
+ brythawn_superregion_adj:0 "Brythic"
+ 
+ varsk_sea_region:0 "Varsk Sea"
+
+
+ north_varland_region:0 "North Varland"
+ north_varland_region_name:0 "North Varland"
+ north_varland_region_adj:0 "North Varsk"
+ jarlgraf_bay_region:0 "Jarlgraf Bay"
+ jarlgraf_bay_region_name:0 "Jarlgraf Bay"
+ jarlgraf_bay_region_adj:0 "Grafish"
+ south_varland_region:0 "South Varland"
+ south_varland_region_name:0 "South Varland"
+ south_varland_region_adj:0 "South Varsk"
+ varsk_isles_region:0 "Varsk Isles"
+ varsk_isles_region_name:0 "Varsk Isles"
+ varsk_isles_region_adj:0 "Varsk Islander"
+ drengyr_region:0 "Drengyr"
+ drengyr_region_name:0 "Drengyr"
+ drengyr_region_adj:0 "Drevarsk"
+ tjalle_region:0 "Tjalle"
+ tjalle_region_name:0 "Tjalle"
+ tjalle_region_adj:0 "Saelic"
+ upper_briltan_region:0 "Upper Briltan"
+ upper_briltan_region_name:0 "Upper Briltan"
+ upper_briltan_region_adj:0 "Upper Brilthic"
+ ywekan_isles_region:0 "Ywekan Isles"
+ ywekan_isles_region_name:0 "Ywekan Isles"
+ ywekan_isles_region_adj:0 "Ywekan"
+ lower_briltan_region:0 "Lower Briltan"
+ lower_briltan_region_name:0 "Lower Briltan"
+ lower_briltan_region_adj:0 "Lower Brilthic"
+ highlands_region:0 "Highlands"
+ highlands_region_name:0 "Highlands"
+ highlands_region_adj:0 "Highlander"
+ #_region:0 ""
+ #_region_name:0 ""
+ #_region_adj:0 ""
+
+
+ #province groups
+
+ 

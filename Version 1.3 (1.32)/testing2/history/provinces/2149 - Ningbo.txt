@@ -1,0 +1,12 @@
+culture = zabwe
+religion = blood_cult
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Hrsoik"
+is_city = yes
+discovered_by = western

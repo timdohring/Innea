@@ -1,0 +1,15 @@
+add_core = TVS
+owner = TVS
+controller = TVS
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = chofo
+capital = "Roznske"
+is_city = yes
+discovered_by = western

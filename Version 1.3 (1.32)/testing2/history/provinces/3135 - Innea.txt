@@ -1,0 +1,15 @@
+add_core = TWA
+owner = TWA
+controller = TWA
+culture = tenegolic
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = wool
+capital = "T'umin"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = ATS
+owner = ATS
+controller = ATS
+culture = atsuna
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = dragon_hide
+capital = "Akihonjo"
+is_city = yes
+discovered_by = western

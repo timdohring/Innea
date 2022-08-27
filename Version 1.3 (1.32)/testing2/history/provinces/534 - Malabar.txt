@@ -1,0 +1,15 @@
+add_core = BRG
+owner = BRG
+controller = BRG
+culture = brongian
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = iron
+capital = "Aanhuiz"
+is_city = yes
+discovered_by = western

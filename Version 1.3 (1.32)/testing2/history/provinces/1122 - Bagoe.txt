@@ -1,0 +1,15 @@
+add_core = VEG
+owner = VEG
+controller = VEG
+culture = thornic
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 1
+base_manpower = 4
+
+trade_goods = slaves
+capital = "Nuscaeta"
+is_city = yes
+discovered_by = western

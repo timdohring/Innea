@@ -1,0 +1,16 @@
+add_core = NBY
+owner = NBY
+controller = NBY
+culture = west_najean
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

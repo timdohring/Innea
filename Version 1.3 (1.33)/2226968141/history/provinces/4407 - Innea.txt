@@ -1,0 +1,16 @@
+add_core = BGL
+owner = BGL
+controller = BGL
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Nonthahat"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

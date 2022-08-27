@@ -1,0 +1,15 @@
+add_core = GTH
+owner = GTH
+controller = GTH
+culture = rossing
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = paper
+capital = "Elderweigh"
+is_city = yes
+discovered_by = western

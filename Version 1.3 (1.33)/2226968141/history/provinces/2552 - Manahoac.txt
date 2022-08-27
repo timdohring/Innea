@@ -1,0 +1,15 @@
+add_core = DRU
+owner = DRU
+controller = DRU
+culture = weyk
+religion = ewafari_temple
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 8
+
+trade_goods = herbs
+capital = "Mallst"
+is_city = yes
+discovered_by = western

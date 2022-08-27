@@ -1,0 +1,15 @@
+add_core = WGD
+owner = WGD
+controller = WGD
+culture = dhoilbridic
+religion = sea_cult
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 5
+
+trade_goods = whales
+capital = "Fishhead"
+is_city = yes
+discovered_by = western

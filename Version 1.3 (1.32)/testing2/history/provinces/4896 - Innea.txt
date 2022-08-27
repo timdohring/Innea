@@ -1,0 +1,15 @@
+add_core = ZHU
+owner = ZHU
+controller = ZHU
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = beer
+capital = "Longshan"
+is_city = yes
+discovered_by = western

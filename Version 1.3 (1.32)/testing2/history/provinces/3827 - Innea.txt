@@ -1,0 +1,15 @@
+add_core = ISO
+owner = ISO
+controller = ISO
+culture = isoli
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = cotton
+capital = "Goles"
+is_city = yes
+discovered_by = western

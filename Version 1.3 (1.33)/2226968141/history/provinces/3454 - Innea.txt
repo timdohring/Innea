@@ -1,0 +1,15 @@
+add_core = NVI
+owner = NVI
+controller = NVI
+culture = fateonan
+religion = vua_avaku
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western

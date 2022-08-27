@@ -1,0 +1,16 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = ONC
+culture = onchu
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = rice
+capital = "Huaming"
+is_city = yes
+discovered_by = western

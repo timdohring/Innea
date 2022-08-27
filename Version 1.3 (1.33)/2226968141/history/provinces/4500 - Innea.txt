@@ -1,0 +1,15 @@
+add_core = IRA
+owner = IRA
+controller = IRA
+culture = iraavi
+religion = death_cult
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Odrol"
+is_city = yes
+discovered_by = western

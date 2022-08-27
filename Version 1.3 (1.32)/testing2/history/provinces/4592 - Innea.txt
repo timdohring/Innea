@@ -1,0 +1,15 @@
+add_core = AYE
+owner = AYE
+controller = AYE
+culture = kon
+religion = snow_goddess
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = fur
+capital = "Paukguyn"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = MJZ
+owner = MJZ
+controller = MJZ
+culture = zamenic
+religion = ojal
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 5
+
+trade_goods = slaves
+capital = "Zament"
+is_city = yes
+discovered_by = western
+fort_15th = yes

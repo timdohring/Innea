@@ -1,0 +1,15 @@
+add_core = EDR
+owner = EDR
+controller = EDR
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = stone
+capital = "Elder's Rock"
+is_city = yes
+discovered_by = western

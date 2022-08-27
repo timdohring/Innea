@@ -1,0 +1,15 @@
+add_core = KSN
+owner = KSN
+controller = KSN
+culture = gohair
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = chofo
+capital = "Multarad"
+is_city = yes
+discovered_by = western

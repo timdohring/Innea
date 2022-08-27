@@ -1,0 +1,18 @@
+add_core = TAR
+owner = TAR
+controller = TAR
+culture = arvacien
+religion = paisadox
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 13
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

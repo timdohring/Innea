@@ -1,0 +1,15 @@
+add_core = BEL
+owner = BEL
+controller = BEL
+culture = southcoaster
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fish
+capital = "Ethron"
+is_city = yes
+discovered_by = western

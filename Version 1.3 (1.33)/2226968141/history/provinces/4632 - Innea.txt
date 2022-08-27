@@ -1,0 +1,15 @@
+add_core = ATS
+owner = ATS
+controller = ATS
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = wool
+capital = "Nukaram"
+is_city = yes
+discovered_by = western

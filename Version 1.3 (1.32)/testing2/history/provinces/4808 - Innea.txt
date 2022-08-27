@@ -1,0 +1,15 @@
+add_core = SYU
+owner = SYU
+controller = SYU
+culture = yun
+religion = conhayna
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 8
+
+trade_goods = silk
+capital = "Yuxong"
+is_city = yes
+discovered_by = western

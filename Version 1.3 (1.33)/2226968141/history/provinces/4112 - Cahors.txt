@@ -1,0 +1,15 @@
+add_core = UDA
+owner = UDA
+controller = UDA
+culture = catulan
+religion = abai
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = sugar
+capital = "Tiva"
+is_city = yes
+discovered_by = western

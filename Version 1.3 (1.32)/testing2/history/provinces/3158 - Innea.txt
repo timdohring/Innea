@@ -1,0 +1,15 @@
+add_core = OAS
+owner = OAS
+controller = OAS
+culture = hajjid
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Mubaskh"
+is_city = yes
+discovered_by = western

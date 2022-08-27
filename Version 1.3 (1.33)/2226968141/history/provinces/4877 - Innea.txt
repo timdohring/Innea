@@ -1,0 +1,16 @@
+add_core = MEI
+owner = MEI
+controller = MEI
+add_core = MEI
+culture = meilin
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = tea
+capital = "Huadu"
+is_city = yes
+discovered_by = western

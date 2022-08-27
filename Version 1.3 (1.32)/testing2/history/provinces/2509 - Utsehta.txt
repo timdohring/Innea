@@ -1,0 +1,16 @@
+add_core = ADN
+owner = ADN
+controller = ADN
+culture = astaen
+religion = ewafari_temple
+hre = no
+
+base_tax = 11
+base_production = 13
+base_manpower = 9
+
+trade_goods = blue_copper
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

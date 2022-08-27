@@ -1,0 +1,15 @@
+add_core = SCK
+owner = SCK
+controller = SCK
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = copper
+capital = "Perslantal"
+is_city = yes
+discovered_by = western

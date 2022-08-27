@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {235 190 110 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Erkedai #0" = 1
+	"Uranyildar #0" = 1
+	"Sachasar #0" = 1
+	"Xoryul #0" = 1
+	"Ogodei #0" = 1
+	"Chaperk #0" = 1
+	"Chobectar #0" = 1
+	"Teletyid #0" = 1
+	"Amghabai #0" = 1
+	"Dein #0" = 1
+	"Jighodai #0" = 1
+	"Sdurtalji #0" = 1
+	"Ojeldob #0" = 1
+	"Bukida #0" = 1
+	"Ghengas #0" = 1
+	"Khono #0" = 1
+	"Ilugei #0" = 1
+	"Jungggei #0" = 1
+	"Bulqutut #0" = 1
+	"Qutumur #0" = 1
+	"Ögedei #0" = 1
+	"Ölmei #0" = 1
+	"Tublai #0" = 1
+	"Joigedei #0" = 1
+	"Münük #0" = 1
+	"Manghun #0" = 1
+	"Monktgu #0" = 1
+	"Bayan #0" = 1
+	"Elgug #0" = 1
+	"Toltoq #0" = 1
+
+	"Temülea" = -1
+	"Börtakhai" = -1
+	"Maai" = -1
+	"Tamar" = -1
+	"Zaumihan" = -1
+	"Mulandei" = -1
+	"Aigigi" = -1
+	"Sorbek" = -1
+	"Togenlun" = -1
+	"Khultun" = -1
+	"Altotan" = -1
+	"Justeset" = -1
+	"Jugdaan" = -1
+	"Chota" = -1
+	"Enksuin" = -1
+	"Saranbeki" = -1
+	"Tuyaa" = -1
+	"Odtsteji" = -1
+	"Ergtuysy" = -1
+	"Qaya" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

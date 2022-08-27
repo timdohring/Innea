@@ -1,0 +1,15 @@
+add_core = MUA
+owner = MUA
+controller = MUA
+culture = pret_run
+religion = bharatvadu
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = ivory
+capital = "Te Samra"
+is_city = yes
+discovered_by = western

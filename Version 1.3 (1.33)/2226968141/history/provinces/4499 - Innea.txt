@@ -1,0 +1,16 @@
+add_core = IRA
+owner = IRA
+controller = IRA
+culture = iraavi
+religion = death_cult
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = iron
+capital = "Ironhold"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = ELE
+owner = ELE
+controller = ELE
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Midia"
+is_city = yes
+discovered_by = western

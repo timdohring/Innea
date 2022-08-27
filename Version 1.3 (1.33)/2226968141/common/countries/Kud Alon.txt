@@ -1,0 +1,106 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 26 57 178}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Niisu #0" = 1
+	"Suria #0" = 1
+	"Dimert #0" = 1
+	"Sin-Na #0" = 1
+	"Atukun #0" = 1
+	"Uktanu #0" = 1
+	"Kurgal #0" = 1
+	"Libdu #0" = 1
+	"Shu-Ni #0" = 1
+	"Kurish #0" = 1
+	"Marduk #0" = 1
+	"Belisna #0" = 1
+	"Abi-Shu #0" = 1
+	"Nabu-Sur #0" = 1
+	"Ashun #0" = 1
+	"Ilishu #0" = 1
+	"Naulu #0" = 1
+	"Ameldug #0" = 1
+	"Erib #0" = 1
+	"Mulu #0" = 1
+	"Akmar #0" = 1
+	"Pesta #0" = 1
+	"Manwa #0" = 1
+	"Hasutanu #0" = 1
+	"Nakshi #0" = 1
+	"Waswalla #0" = 1
+	"Kahip #0" = 1
+	"Lakwalla #0" = 1
+	"Ranu #0" = 1
+	"Tik #0" = 1
+
+	"Zaka" = -1
+	"Aya-Ku" = -1
+	"Yadid" = -1
+	"Ishkasu" = -1
+	"Enhedu" = -1
+	"Yasunu" = -1
+	"Iltashu" = -1
+	"Ashuldana" = -1
+	"Ku-Basu" = -1
+	"Alit" = -1
+	"Davnit" = -1
+	"Ninsum" = -1
+	"Analsu" = -1
+	"Belki" = -1
+	"Gemsur" = -1
+	"Annaya" = -1
+	"Mala" = -1
+	"Asdu" = -1
+	"Alina" = -1
+	"Kawi" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

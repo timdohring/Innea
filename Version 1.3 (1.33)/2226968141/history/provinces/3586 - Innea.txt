@@ -1,0 +1,15 @@
+add_core = BLS
+owner = BLS
+controller = BLS
+culture = fingerling
+religion = sea_cult
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = shellfish
+capital = ""
+is_city = yes
+discovered_by = western

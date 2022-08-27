@@ -1,0 +1,15 @@
+add_core = AGD
+owner = AGD
+controller = AGD
+culture = agadian
+religion = ametic
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = obsidian
+capital = "Jem"
+is_city = yes
+discovered_by = western

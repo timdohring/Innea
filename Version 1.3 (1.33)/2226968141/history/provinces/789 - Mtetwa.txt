@@ -1,0 +1,15 @@
+add_core = KAF
+owner = KAF
+controller = KAF
+culture = wayn
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = wine
+capital = "Laurel"
+is_city = yes
+discovered_by = western

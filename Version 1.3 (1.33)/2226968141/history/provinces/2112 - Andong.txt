@@ -1,0 +1,15 @@
+add_core = JOM
+owner = JOM
+controller = JOM
+culture = joma
+religion = shatvili
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 5
+
+trade_goods = fish
+capital = "Sore"
+is_city = yes
+discovered_by = western

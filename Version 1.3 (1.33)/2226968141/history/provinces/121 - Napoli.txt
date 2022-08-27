@@ -1,0 +1,19 @@
+#121 - Napoli
+
+
+add_core = ZAN
+owner = ZAN
+controller = ZAN
+culture = azqu
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 4
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

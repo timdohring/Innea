@@ -1,0 +1,15 @@
+add_core = FAR
+owner = FAR
+controller = FAR
+culture = wreckan
+religion = sea_cult
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = whales
+capital = "Lostman"
+is_city = yes
+discovered_by = western

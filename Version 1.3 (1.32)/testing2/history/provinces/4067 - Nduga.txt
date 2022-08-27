@@ -1,0 +1,15 @@
+add_core = RAW
+owner = RAW
+controller = RAW
+culture = thebian
+religion = ametic
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

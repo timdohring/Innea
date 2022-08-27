@@ -1,0 +1,15 @@
+add_core = ASV
+owner = ASV
+controller = ASV
+culture = ashlati
+religion = dead_house
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = fungi
+capital = "Ell Nabru"
+is_city = yes
+discovered_by = western

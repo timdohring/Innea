@@ -1,0 +1,15 @@
+add_core = LUO
+owner = LUO
+controller = LUO
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = iron
+capital = "Sawan"
+is_city = yes
+discovered_by = western

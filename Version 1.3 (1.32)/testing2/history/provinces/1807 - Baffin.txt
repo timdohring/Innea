@@ -1,0 +1,15 @@
+add_core = REK
+owner = REK
+controller = REK
+culture = rekar
+religion = yorik
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = dragon_hide
+capital = "Allgard"
+is_city = yes
+discovered_by = western

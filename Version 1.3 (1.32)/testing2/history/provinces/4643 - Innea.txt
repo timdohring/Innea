@@ -1,0 +1,15 @@
+add_core = CHE
+owner = CHE
+controller = CHE
+culture = dasan
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 13
+base_manpower = 13
+
+trade_goods = paper
+capital = "Cheonju"
+is_city = yes
+discovered_by = western

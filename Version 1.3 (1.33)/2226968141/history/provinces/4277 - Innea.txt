@@ -1,0 +1,15 @@
+add_core = CAI
+owner = CAI
+controller = CAI
+culture = caiman
+religion = ator
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = iron
+capital = "Temi"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = NPN
+owner = NPN
+controller = NPN
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = fur
+capital = "Minapa"
+is_city = yes
+discovered_by = western

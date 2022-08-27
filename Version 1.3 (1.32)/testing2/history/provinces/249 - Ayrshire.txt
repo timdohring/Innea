@@ -1,0 +1,18 @@
+add_core = FRG
+owner = FRG
+controller = FRG
+culture = dunlandic
+religion = celiicean
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = wool
+capital = "Ketwic"
+is_city = yes
+discovered_by = western
+
+
+

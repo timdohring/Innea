@@ -1,0 +1,11 @@
+culture = khal
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+capital = "Urt-Choib"
+is_city = yes
+discovered_by = western

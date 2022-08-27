@@ -1,0 +1,15 @@
+add_core = HZI
+owner = HZI
+controller = HZI
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Bilje"
+is_city = yes
+discovered_by = western

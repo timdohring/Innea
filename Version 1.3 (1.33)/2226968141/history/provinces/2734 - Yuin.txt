@@ -1,0 +1,15 @@
+add_core = TEW
+owner = TEW
+controller = TEW
+culture = tsiani
+religion = lakemother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+trade_goods = fungi
+capital = "Kitta"
+is_city = yes
+discovered_by = western

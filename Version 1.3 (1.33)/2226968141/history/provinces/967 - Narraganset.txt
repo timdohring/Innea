@@ -1,0 +1,17 @@
+add_core = GHE
+owner = GHE
+controller = GHE
+culture = gheltic
+religion = oscaerwikkan
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 8
+
+trade_goods = livestock
+capital = "Vastulez"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

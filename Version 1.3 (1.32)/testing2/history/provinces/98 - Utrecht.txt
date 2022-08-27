@@ -1,0 +1,17 @@
+# 98 Utrecht - Principal cities: Utrecht
+
+add_core = GOT
+owner = GOT
+controller = GOT
+culture = ryykan
+religion = church_of_yon
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Runr"
+is_city = yes
+discovered_by = western

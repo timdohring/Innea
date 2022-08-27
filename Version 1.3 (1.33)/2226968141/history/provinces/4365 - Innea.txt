@@ -1,0 +1,17 @@
+add_core = AHU
+owner = AHU
+controller = AHU
+culture = muonh
+religion = bharatvadu
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 12
+
+trade_goods = springwater
+capital = "Anhua"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

@@ -1,0 +1,18 @@
+#43 - Danzig
+
+
+add_core = TOR
+owner = TOR
+controller = TOR
+culture = bjorming
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

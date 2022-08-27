@@ -1,0 +1,15 @@
+add_core = AQA
+owner = AQA
+controller = AQA
+culture = yabran
+religion = shuri
+hre = yes
+
+base_tax = 9
+base_production = 8
+base_manpower = 6
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

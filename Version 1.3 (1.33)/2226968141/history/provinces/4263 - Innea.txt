@@ -1,0 +1,16 @@
+add_core = JUA
+owner = JUA
+controller = JUA
+culture = waikaram
+religion = ator
+hre = no
+
+base_tax = 6
+base_production = 9
+base_manpower = 9
+
+trade_goods = chofo
+capital = "Kaijara"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,16 @@
+add_core = SKR
+owner = SKR
+controller = SKR
+culture = taloch
+religion = ojal
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = spices
+capital = "Shikarpud"
+is_city = yes
+discovered_by = western
+fort_15th = yes

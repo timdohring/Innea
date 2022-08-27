@@ -1,0 +1,15 @@
+add_core = GUA
+owner = GUA
+controller = GUA
+culture = guanglo
+religion = conhayna
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 9
+
+trade_goods = cloth
+capital = "Chagow"
+is_city = yes
+discovered_by = western

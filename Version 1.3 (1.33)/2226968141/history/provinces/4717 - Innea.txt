@@ -1,0 +1,16 @@
+add_core = HOM
+owner = HOM
+controller = HOM
+culture = homagara
+religion = shao
+hre = no
+
+base_tax = 13
+base_production = 11
+base_manpower = 11
+
+trade_goods = paper
+capital = "Kamino"
+is_city = yes
+discovered_by = western
+fort_15th = yes

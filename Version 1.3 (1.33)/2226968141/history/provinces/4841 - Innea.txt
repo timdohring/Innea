@@ -1,0 +1,15 @@
+add_core = ONC
+owner = ONC
+controller = ONC
+culture = onchu
+religion = shao
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = rice
+capital = "Zhouwu"
+is_city = yes
+discovered_by = western

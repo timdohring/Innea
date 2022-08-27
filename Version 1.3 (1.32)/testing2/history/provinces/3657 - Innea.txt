@@ -1,0 +1,11 @@
+culture = lheyn
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 4
+
+capital = ""
+is_city = yes
+discovered_by = western

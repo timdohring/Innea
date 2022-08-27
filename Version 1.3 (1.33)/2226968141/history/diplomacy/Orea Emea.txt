@@ -1,0 +1,71 @@
+#VIETRANG
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = QUC
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = HNM
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = DOK
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = CHH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = TNA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = AHU
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = YEC
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = VIE
+	second = BNH
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+
+#Sihkampong
+vassal = {
+	first = SIK
+	second = KHM
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = SIK
+	second = MUA
+	start_date = 1444.1.1
+	end_date = 1821.1.1
+}

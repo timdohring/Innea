@@ -1,0 +1,18 @@
+add_core = KAN
+owner = KAN
+controller = KAN
+culture = kagnol
+religion = the_one_truth
+hre = no
+
+base_tax = 16
+base_production = 17
+base_manpower = 13
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

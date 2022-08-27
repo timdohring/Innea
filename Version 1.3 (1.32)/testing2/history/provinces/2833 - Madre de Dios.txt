@@ -1,0 +1,16 @@
+add_core = FRK
+owner = FRK
+controller = FRK
+culture = kyfan
+religion = fyzajak
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = AKU
+owner = AKU
+controller = AKU
+culture = shamyrian
+religion = asite
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = chofo
+capital = "Qumium"
+is_city = yes
+discovered_by = western

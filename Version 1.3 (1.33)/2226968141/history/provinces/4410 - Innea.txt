@@ -1,0 +1,17 @@
+add_core = LUO
+owner = LUO
+controller = LUO
+culture = phit_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 12
+
+trade_goods = spices
+capital = "Luong That"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

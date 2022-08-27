@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {159  127  255 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Tshernam #0" = 1
+	"Pemgay #0" = 1
+	"Uygji #0" = 1
+	"Kinshwa #0" = 1
+	"Dawachen #0" = 1
+	"Rinshi #0" = 1
+	"Kinji #0" = 1
+	"Tashgen #0" = 1
+	"Tanzin #0" = 1
+	"Namzang #0" = 1
+	"Chenzin #0" = 1
+	"Jigma #0" = 1
+	"Namdin #0" = 1
+	"Chonga #0" = 1
+	"Ngawan #0" = 1
+	"Chansuk #0" = 1
+	"Drukash #0" = 1
+	"Duk #0" = 1
+	"Wangzin #0" = 1
+	"Mal #0" = 1
+
+	"Dedra" = -1
+	"Wangshey" = -1
+	"Choman" = -1
+	"Monden" = -1
+	"Pasmo" = -1
+	"Ngama" = -1
+	"Dedhan" = -1
+	"Dechewa" = -1
+	"Tshemi" = -1
+	"Phuchen" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

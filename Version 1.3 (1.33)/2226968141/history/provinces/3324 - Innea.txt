@@ -1,0 +1,15 @@
+add_core = VIT
+owner = VIT
+controller = VIT
+culture = charan
+religion = ojal
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = cotton
+capital = "Tenyal"
+is_city = yes
+discovered_by = western

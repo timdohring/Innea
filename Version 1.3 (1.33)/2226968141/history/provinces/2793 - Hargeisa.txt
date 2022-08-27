@@ -1,0 +1,17 @@
+add_core = YOS
+owner = YOS
+controller = YOS
+culture = yoshi
+religion = blood_cult
+hre = no
+
+base_tax = 10
+base_production = 9
+base_manpower = 13
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

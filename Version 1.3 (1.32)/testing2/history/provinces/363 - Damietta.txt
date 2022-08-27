@@ -1,0 +1,18 @@
+add_core = ALL
+owner = ALL
+controller = ALL
+culture = allar
+religion = murtharic
+hre = no
+
+base_tax = 7
+base_production = 10
+base_manpower = 4
+
+trade_goods = magic_goods
+capital = "Nine Towers"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

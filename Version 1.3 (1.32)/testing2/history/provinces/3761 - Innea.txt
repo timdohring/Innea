@@ -1,0 +1,15 @@
+add_core = PLS
+owner = PLS
+controller = PLS
+culture = barahin
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = horses
+capital = "Purmor"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = KRH
+owner = KRH
+controller = KRH
+culture = karadan
+religion = zakritz
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = gold
+capital = "Bresvak"
+is_city = yes
+discovered_by = western

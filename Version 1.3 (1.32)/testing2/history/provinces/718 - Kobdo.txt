@@ -1,0 +1,15 @@
+ add_core = BEN
+owner = BEN
+controller = BEN
+culture = west_bergian
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Varnfingen"
+is_city = yes
+discovered_by = western

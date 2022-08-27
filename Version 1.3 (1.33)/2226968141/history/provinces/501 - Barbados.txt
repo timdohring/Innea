@@ -1,0 +1,15 @@
+add_core = BRN
+owner = BRN
+controller = BRN
+culture = lockan
+religion = altran_church
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 9
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

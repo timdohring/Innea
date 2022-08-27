@@ -1,0 +1,16 @@
+add_core = NAK
+owner = NAK
+controller = NAK
+add_core = ZEI
+culture = zeiy
+religion = nursari_temple
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Tepemar"
+is_city = yes
+discovered_by = western

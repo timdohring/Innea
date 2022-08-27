@@ -1,0 +1,16 @@
+add_core = GOZ
+owner = GOZ
+controller = GOZ
+culture = jetal
+religion = goz
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = fish
+capital = "Muria"
+is_city = yes
+discovered_by = western
+fort_15th = yes

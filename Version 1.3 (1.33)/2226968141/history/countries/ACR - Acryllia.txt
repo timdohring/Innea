@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 5
+mercantilism = 10
+technology_group = western
+religion = the_one_truth
+primary_culture = corrusean
+capital = 1046
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Vitas I"
+		dynasty = "di Lesti"
+		birth_date = 1415.11.11
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+

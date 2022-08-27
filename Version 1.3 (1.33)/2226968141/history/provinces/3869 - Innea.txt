@@ -1,0 +1,15 @@
+add_core = ESU
+owner = ESU
+controller = ESU
+culture = eshin
+religion = ishuli
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = wine
+capital = ""
+is_city = yes
+discovered_by = western

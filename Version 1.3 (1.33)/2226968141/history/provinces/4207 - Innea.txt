@@ -1,0 +1,15 @@
+add_core = SPR
+owner = SPR
+controller = SPR
+culture = sippari
+religion = asite
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = slaves
+capital = "Elot"
+is_city = yes
+discovered_by = western

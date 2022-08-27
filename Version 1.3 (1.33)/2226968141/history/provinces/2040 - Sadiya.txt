@@ -1,0 +1,15 @@
+add_core = LUK
+owner = LUK
+controller = LUK
+culture = omagan
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Mbonmwe"
+is_city = yes
+discovered_by = western

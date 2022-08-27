@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = south_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = marble
+capital = "Ercobe"
+is_city = yes
+discovered_by = western

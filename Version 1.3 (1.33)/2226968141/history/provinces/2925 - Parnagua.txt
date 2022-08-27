@@ -1,0 +1,15 @@
+add_core = SOM
+owner = SOM
+controller = SOM
+culture = raalic
+religion = horsemother
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 7
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

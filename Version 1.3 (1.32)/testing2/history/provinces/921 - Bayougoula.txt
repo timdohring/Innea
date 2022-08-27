@@ -1,0 +1,17 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = axian
+religion = the_one_truth
+hre = no
+
+add_core = VEI
+
+base_tax = 5
+base_production = 4
+base_manpower = 3
+
+trade_goods = wool
+capital = "Cumeneras"
+is_city = yes
+discovered_by = western

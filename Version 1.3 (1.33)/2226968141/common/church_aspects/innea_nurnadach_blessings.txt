@@ -1,0 +1,58 @@
+d1_blessing = {
+	is_blessing = yes
+	allow = { religion = nurnadach}
+	modifier = {
+		country_admin_power = 1		
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+d2_blessing = {
+	is_blessing = yes
+	allow = { religion = nurnadach}
+	modifier = {
+		country_diplomatic_power = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+d3_blessing = {
+	is_blessing = yes
+	allow = { religion = nurnadach}
+	modifier = {
+		country_military_power = 1	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+d4_blessing = {
+	is_blessing = yes
+	allow = { religion = nurnadach}
+	modifier = {
+		prestige_decay = -0.025		
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+
+d5_blessing = {
+	is_blessing = yes
+	allow = { religion = nurnadach}
+	modifier = {
+		global_missionary_strength = 0.02	
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+

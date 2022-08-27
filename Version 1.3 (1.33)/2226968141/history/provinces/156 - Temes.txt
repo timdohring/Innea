@@ -1,0 +1,19 @@
+#156 - Temes
+
+
+add_core = FRE
+owner = FRE
+controller = FRE
+culture = kynen
+religion = church_of_yon
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = grain
+capital = "Votungard"
+is_city = yes
+discovered_by = western
+fort_15th = yes

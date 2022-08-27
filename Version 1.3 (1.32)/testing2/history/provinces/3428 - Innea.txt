@@ -1,0 +1,16 @@
+add_core = BEG
+owner = BEG
+controller = BEG
+culture = bengahri
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Vanatha"
+is_city = yes
+discovered_by = western
+fort_15th = yes

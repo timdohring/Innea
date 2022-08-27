@@ -1,0 +1,16 @@
+add_core = EDI
+owner = EDI
+controller = EDI
+culture = orsh
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western
+

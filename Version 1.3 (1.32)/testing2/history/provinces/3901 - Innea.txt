@@ -1,0 +1,15 @@
+add_core = EHR
+owner = EHR
+controller = EHR
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = whales
+capital = "Zlirayan"
+is_city = yes
+discovered_by = western

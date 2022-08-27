@@ -1,0 +1,16 @@
+add_core = IRA
+owner = IRA
+controller = IRA
+culture = iraavi
+religion = death_cult
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = livestock
+capital = "Death's Grasp"
+is_city = yes
+discovered_by = western
+fort_15th = yes

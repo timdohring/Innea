@@ -1,0 +1,16 @@
+add_core = LAS
+owner = LAS
+controller = LAS
+culture = lashu
+religion = asite
+hre = no
+
+base_tax = 9
+base_production = 11
+base_manpower = 7
+
+trade_goods = glass
+capital = "Lashak"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

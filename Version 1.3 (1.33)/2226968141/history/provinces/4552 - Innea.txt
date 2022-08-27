@@ -1,0 +1,17 @@
+add_core = PYA
+owner = PYA
+controller = PYA
+culture = askyan
+religion = three_moons
+hre = no
+
+base_tax = 13
+base_production = 13
+base_manpower = 12
+
+trade_goods = instruments
+capital = "Pya-U"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

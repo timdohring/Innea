@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = rat_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = ivory
+capital = "Lom-Puk"
+is_city = yes
+discovered_by = western

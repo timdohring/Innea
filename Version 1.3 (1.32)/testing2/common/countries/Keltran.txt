@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 26 89 163 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Daren #0" = 1
+	"Georthar #0" = 1
+	"Aldar #0" = 1
+	"Borswall #0" = 1
+	"Hall #0" = 1
+	"Etrescar #0" = 1
+	"Salacar #0" = 1
+	"Festen #0" = 1
+	"Keppal #0" = 1
+	"Codren #0" = 1
+	"Alred #0" = 1
+	"Alfwen #0" = 1
+	"Athelron #0" = 1
+	"Beornras #0" = 1
+	"Cenric #0" = 1
+	"Cyneborn #0" = 1
+	"Cynfrith #0" = 1
+	"Edberth #0" = 1
+	"Edden #0" = 1
+	"Edalstan #0" = 1
+	"Leosborn #0" = 1
+	"Oskarn #0" = 1
+	"Osmern #0" = 1
+	"Uthric #0" = 1
+	"Weldmar #0" = 1
+	"Aldus #0" = 1
+	"Hanry #0" = 1
+	"Mackmorre #0" = 1
+	"Ranney #0" = 1
+	"Torrey #0" = 1
+	"Angmar #0" = 1
+
+	"Alfwith" = -1
+	"Alflinn" = -1
+	"Alfswirda" = -1
+	"Edburre" = -1
+	"Edgylth" = -1
+	"Fridana" = -1
+	"Milda" = -1
+	"Mildwith" = -1
+	"Wyla" = -1
+	"Sarawynne" = -1
+	"Cara" = -1
+	"Fura" = -1
+	"Maratha" = -1
+	"Torra" = -1
+	"Onna" = -1
+	"Cenryl" = -1
+	"Narine" = -1
+	"Aala" = -1
+	"Dara" = -1
+	"Louthwyn" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

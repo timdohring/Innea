@@ -1,0 +1,15 @@
+add_core = WAS
+owner = WAS
+controller = WAS
+culture = qashite
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Hofal"
+is_city = yes
+discovered_by = western

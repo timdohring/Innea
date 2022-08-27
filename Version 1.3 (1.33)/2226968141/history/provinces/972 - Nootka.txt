@@ -1,0 +1,15 @@
+add_core = OLT
+owner = OLT
+controller = OLT
+culture = tarrad
+religion = the_one_truth
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Calrraso"
+is_city = yes
+discovered_by = western

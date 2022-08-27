@@ -1,0 +1,16 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+culture = shei_xi
+religion = shao
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = magic_goods
+capital = "Yes Tari"
+is_city = yes
+discovered_by = western
+fort_15th = yes

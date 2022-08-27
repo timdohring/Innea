@@ -1,0 +1,15 @@
+add_core = SYU
+owner = SYU
+controller = SYU
+culture = yun
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = rice
+capital = "Tenwei"
+is_city = yes
+discovered_by = western

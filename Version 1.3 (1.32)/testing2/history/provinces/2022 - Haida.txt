@@ -1,0 +1,16 @@
+add_core = CHO
+owner = CHO
+controller = CHO
+culture = qichond
+religion = zakritz
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = ancient_artifacts
+capital = "Zemukrakdz"
+is_city = yes
+discovered_by = western
+fort_15th = yes

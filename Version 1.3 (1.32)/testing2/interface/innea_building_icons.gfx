@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_fort_19th"
+		texturefile = "gfx//interface//buildings//latin_fort_10.dds"
+		loadType = "INGAME"
+	}
+
+}

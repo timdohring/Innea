@@ -1,0 +1,15 @@
+add_core = ALD
+owner = ALD
+controller = ALD
+culture = aldon
+religion = altran_church
+hre = no
+
+base_tax = 8
+base_production = 10
+base_manpower = 5
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western

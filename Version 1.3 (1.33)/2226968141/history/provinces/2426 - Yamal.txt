@@ -1,0 +1,15 @@
+add_core = DON
+owner = DON
+controller = DON
+culture = dongan
+religion = ashatapul
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = herbs
+capital = "Goth-Lar"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = LAM
+owner = LAM
+controller = LAM
+culture = lake
+religion = woodmother
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = fungi
+capital = "Iklamonovo"
+is_city = yes
+discovered_by = western

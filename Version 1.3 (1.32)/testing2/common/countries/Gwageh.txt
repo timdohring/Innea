@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {251 245 104 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Tareg #0" = 1
+	"Hassul #0" = 1
+	"Deganawi #0" = 1
+	"Anak #0" = 1
+	"Urit #0" = 1
+	"Otetiano #0" = 1
+	"Adit #0" = 1
+	"Sunukkuh #0" = 1
+	"Iawath #0" = 1
+	"Onangowa #0" = 1
+	"Kenan #0" = 1
+	"Tekawitho #0" = 1
+	"Wisendiye #0" = 1
+	"Doah #0" = 1
+	"Tiio #0" = 1
+	"Gawso #0" = 1
+	"Gwere #0" = 1
+	"Dune #0" = 1
+	"Eyweo #0" = 1
+	"Ononagi #0" = 1
+	"Onon #0" = 1
+	"Beru #0" = 1
+	"Feleniwe #0" = 1
+	"Wierdu #0" = 1
+	"Hansage #0" = 1
+	"Geleh #0" = 1
+	"Sotaw #0" = 1
+	"Udegaw #0" = 1
+	"Weis #0" = 1
+	"Muwaga #0" = 1
+
+	"Shata" = -1
+	"Sota" = -1
+	"Weia" = -1
+	"Muwa" = -1
+	"Tiona" = -1
+	"Gwera" = -1
+	"Eywo" = -1
+	"Onoonli" = -1
+	"Asweiga" = -1
+	"Nirswa" = -1
+	"Ihea" = -1
+	"Sgane" = -1
+	"Gahe" = -1
+	"Ohnsa" = -1
+	"Naha" = -1
+	"Piiwra" = -1
+	"Hogesa" = -1
+	"Teretansi" = -1
+	"Piransi" = -1
+	"Nondawe" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

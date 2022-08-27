@@ -1,0 +1,15 @@
+add_core = AYE
+owner = AYE
+controller = AYE
+culture = kon
+religion = three_moons
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 5
+
+trade_goods = stone
+capital = "Yinegyun"
+is_city = yes
+discovered_by = western

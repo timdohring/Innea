@@ -1,0 +1,17 @@
+add_core = AQA
+owner = AQA
+controller = AQA
+culture = yabran
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = gems
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

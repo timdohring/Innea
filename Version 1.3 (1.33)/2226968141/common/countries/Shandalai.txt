@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 170 46 87}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Yelin #0" = 1
+	"Khino #0" = 1
+	"Myane #0" = 1
+	"Hteyo #0" = 1
+	"Zeyar #0" = 1
+	"Myora #0" = 1
+	"Myin #0" = 1
+	"Khinoko #0" = 1
+	"Thurna #0" = 1
+	"Kywa #0" = 1
+	"Maungsun #0" = 1
+	"Koye #0" = 1
+	"Zeyant #0" = 1
+	"Bowa #0" = 1
+	"Sein #0" = 1
+	"Zin #0" = 1
+	"U-Wazura #0" = 1
+	"Mauntu #0" = 1
+	"Zawal #0" = 1
+	"Thehein #0" = 1
+	"Bolin #0" = 1
+	"Pyasuk #0" = 1
+	"Linar #0" = 1
+	"Arakar #0" = 1
+	"Thuzar #0" = 1
+	"Thrubo #0" = 1
+	"Khain #0" = 1
+	"Zeyza #0" = 1
+	"Yaru #0" = 1
+	"Thiuy #0" = 1
+
+	"Myitzu" = -1
+	"Thuran" = -1
+	"Mon" = -1
+	"Nal" = -1
+	"Mhsu" = -1
+	"Nila" = -1
+	"Phone" = -1
+	"Htuyi" = -1
+	"Taidra" = -1
+	"Nanza" = -1
+	"Phona" = -1
+	"Sukhin" = -1
+	"Myinan" = -1
+	"Hlaisi" = -1
+	"Thawat" = -1
+	"Ydana" = -1
+	"Nilanin" = -1
+	"Thinyi" = -1
+	"U-Auna" = -1
+	"Kaya" = -1
+	"Nwya" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

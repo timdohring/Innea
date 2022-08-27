@@ -1,0 +1,15 @@
+add_core = HUN
+owner = HUN
+controller = HUN
+culture = bernothic
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = fungi
+capital = "Orknaswic"
+is_city = yes
+discovered_by = western

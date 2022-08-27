@@ -1,0 +1,15 @@
+add_core = BGL
+owner = BGL
+controller = BGL
+culture = phit_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 13
+base_production = 14
+base_manpower = 14
+
+trade_goods = silk
+capital = "Banglei"
+is_city = yes
+discovered_by = western

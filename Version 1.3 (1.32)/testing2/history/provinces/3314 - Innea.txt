@@ -1,0 +1,15 @@
+add_core = ASA
+owner = ASA
+controller = ASA
+culture = assarese
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+capital = "Ilwar"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+culture = shei_xi
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 12
+
+trade_goods = cloth
+capital = "Fallhaven"
+is_city = yes
+discovered_by = western

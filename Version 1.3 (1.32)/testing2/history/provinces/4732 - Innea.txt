@@ -1,0 +1,15 @@
+add_core = ONI
+owner = ONI
+controller = ONI
+culture = homagara
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = tea
+capital = "Kirutosutsu"
+is_city = yes
+discovered_by = western

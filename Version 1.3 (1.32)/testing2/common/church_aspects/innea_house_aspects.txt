@@ -1,0 +1,205 @@
+flame_aspect1 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 150
+	trigger = {
+		NOT = {
+			mil_power = 899
+		}
+	}
+	effect = {
+		add_mil_power = 100
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+flame_aspect2 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 50
+	effect = {
+		change_government_reform_progress = 25
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+flame_aspect3 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 200
+	trigger = {
+		NOT = {
+			manpower_percentage = 0.50
+		}
+		
+	}
+	effect = {
+		add_yearly_manpower = 2.5
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+star_aspect1 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 150
+	trigger = {
+		NOT = {
+			dip_power = 899
+		}
+	}
+	effect = {
+		add_dip_power = 100
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+star_aspect2 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 50
+	trigger = {
+		NOT = {
+			prestige = 95
+		}
+	}
+	effect = {
+		add_prestige = 10
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+star_aspect3 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 200
+	potential = {
+		mil_tech = 7
+	}
+	trigger = {
+		NOT = {
+			army_size_percentage = 1.0
+		}
+		mil_tech = 7
+	}
+	effect = {
+		capital_scope = {
+   			ROOT = {
+        			artillery = PREV
+				artillery = PREV
+				artillery = PREV
+    			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+dead_aspect1 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 150
+	trigger = {
+		NOT = {
+			adm_power = 899
+		}
+	}
+	effect = {
+		add_adm_power = 100
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+dead_aspect2 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 50
+	trigger = {
+		NOT = {
+			legitimacy_equivalent = 90
+		}
+	}
+	effect = {
+		add_legitimacy = 10
+		add_devotion = 10
+		add_scaled_republican_tradition = 2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+dead_aspect3 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 200
+	effect = {
+		create_general = { tradition = 75 }
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+house_aspect1 = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_income = 0.25
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_in_large_debt = yes
+		}
+	}
+}
+
+house_aspect2 = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			mercantilism = 100
+		}
+	}
+	effect = {
+		add_mercantilism = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trade_income_percentage = 0.4
+		}
+	}
+}
+
+house_aspect3 = {
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 200
+	trigger = {
+		NOT = {
+			stability = 3
+		}
+	}
+	effect = {
+		add_stability = 1
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 0.5
+			stability = 0
+		}
+		modifier = {
+			factor = 0.5
+			stability = 1
+		}
+		modifier = {
+			factor = 0.5
+			stability = 2
+		}
+	}
+}

@@ -1,0 +1,18 @@
+#Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
+
+
+add_core = DAR
+owner = DAR
+controller = DAR
+culture = dargish
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Sojoten"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = TAR
+owner = TAR
+controller = TAR
+culture = arvacien
+religion = paisadox
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Paix-Theudo"
+is_city = yes
+discovered_by = western

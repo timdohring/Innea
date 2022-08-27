@@ -1,0 +1,15 @@
+add_core = MAH
+owner = MAH
+controller = MAH
+culture = kanatagu
+religion = lakemother
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Ilama Mahwi"
+is_city = yes
+discovered_by = western

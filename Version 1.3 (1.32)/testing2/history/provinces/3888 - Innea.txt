@@ -1,0 +1,15 @@
+add_core = FER
+owner = FER
+controller = FER
+culture = ferhan
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = salt
+capital = "Galrud"
+is_city = yes
+discovered_by = western

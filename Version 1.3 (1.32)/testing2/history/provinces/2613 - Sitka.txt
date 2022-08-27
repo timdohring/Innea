@@ -1,0 +1,16 @@
+add_core = TIR
+owner = TIR
+controller = TIR
+culture = dinari
+religion = nursari_temple
+hre = no
+
+base_tax = 5
+base_production = 8
+base_manpower = 5
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

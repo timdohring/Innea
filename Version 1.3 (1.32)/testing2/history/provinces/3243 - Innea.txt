@@ -1,0 +1,15 @@
+add_core = DIN
+owner = DIN
+controller = DIN
+culture = dinali
+religion = sukkali
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Us Agahs"
+is_city = yes
+discovered_by = western

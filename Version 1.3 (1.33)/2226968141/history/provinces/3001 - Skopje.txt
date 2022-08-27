@@ -1,0 +1,15 @@
+add_core = GHA
+owner = GHA
+controller = GHA
+culture = ghas
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 4
+
+trade_goods = horses
+capital = "Zinjeddah"
+is_city = yes
+discovered_by = western

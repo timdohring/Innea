@@ -1,0 +1,15 @@
+add_core = EWO
+owner = EWO
+controller = EWO
+culture = peswan
+religion = lakemother
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 2
+
+trade_goods = fungi
+capital = "Waaki"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = FAC
+owner = FAC
+controller = FAC
+culture = northcoaster
+religion = altran_church
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = "Conn"
+is_city = yes
+discovered_by = western

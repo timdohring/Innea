@@ -1,0 +1,15 @@
+add_core = SEP
+owner = SEP
+controller = SEP
+culture = dremoran
+religion = throne_cult
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = fish
+capital = "Kobol"
+is_city = yes
+discovered_by = western

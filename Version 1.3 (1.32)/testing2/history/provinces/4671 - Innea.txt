@@ -1,0 +1,15 @@
+add_core = SUY
+owner = SUY
+controller = SUY
+culture = suyeol
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = honey
+capital = "Onyanpo"
+is_city = yes
+discovered_by = western

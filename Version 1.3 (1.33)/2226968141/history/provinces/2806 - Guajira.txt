@@ -1,0 +1,15 @@
+add_core = MRP
+owner = MRP
+controller = MRP
+culture = trovan
+religion = the_coin
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = cotton
+capital = "Tark"
+is_city = yes
+discovered_by = western

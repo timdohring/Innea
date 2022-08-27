@@ -1,0 +1,16 @@
+add_core = CID
+owner = CID
+controller = CID
+culture = devan
+religion = springmother
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 4
+
+trade_goods = springwater
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

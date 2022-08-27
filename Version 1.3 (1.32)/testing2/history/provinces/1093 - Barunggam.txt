@@ -1,0 +1,16 @@
+add_core = COT
+owner = COT
+controller = COT
+culture = cothonian
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 13
+base_manpower = 3
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

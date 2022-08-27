@@ -1,0 +1,18 @@
+add_core = ARN
+owner = ARN
+controller = ARN
+culture = tevarroix
+religion = paisadox
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = stone
+capital = "Humlithe"
+is_city = yes
+discovered_by = western
+
+
+fort_15th = yes

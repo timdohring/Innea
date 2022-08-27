@@ -1,0 +1,17 @@
+add_core = QUV
+owner = QUV
+controller = QUV
+culture = bo_vao
+religion = bharatvadu
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 13
+
+trade_goods = spices
+capital = "Quanglo"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

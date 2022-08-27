@@ -1,0 +1,15 @@
+add_core = NIN
+owner = NIN
+controller = NIN
+culture = heilong
+religion = conhayna
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = blackgrain
+capital = "Wudalshan"
+is_city = yes
+discovered_by = western

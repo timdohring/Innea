@@ -1,0 +1,17 @@
+add_core = OMH
+owner = OMH
+controller = OMH
+culture = laghan
+religion = sea_cult
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = wool
+capital = "Omhaill"
+is_city = yes
+discovered_by = western
+
+

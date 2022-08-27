@@ -1,0 +1,15 @@
+add_core = DAE
+owner = DAE
+controller = DAE
+culture = rivwu
+religion = cindari_temple
+hre = no
+
+base_tax = 8
+base_production = 12
+base_manpower = 7
+
+trade_goods = riverweed
+capital = ""
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = MSH
+owner = MSH
+controller = MSH
+culture = mashkud
+religion = asite
+hre = no
+
+base_tax = 13
+base_production = 10
+base_manpower = 9
+
+trade_goods = cloth
+capital = "Mashkan"
+is_city = yes
+discovered_by = western

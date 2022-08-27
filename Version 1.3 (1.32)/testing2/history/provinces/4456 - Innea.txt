@@ -1,0 +1,15 @@
+add_core = GUA
+owner = GUA
+controller = GUA
+culture = guanglo
+religion = conhayna
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 14
+
+trade_goods = naval_supplies
+capital = "Foshomen"
+is_city = yes
+discovered_by = western

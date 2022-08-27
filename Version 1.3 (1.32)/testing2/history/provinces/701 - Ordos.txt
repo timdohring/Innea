@@ -1,0 +1,15 @@
+add_core = DLS
+owner = DLS
+controller = DLS
+culture = dalsch
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western

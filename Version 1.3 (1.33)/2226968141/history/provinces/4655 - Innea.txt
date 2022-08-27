@@ -1,0 +1,16 @@
+add_core = DAS
+owner = DAS
+controller = DAS
+culture = anyeol
+religion = shao
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 8
+
+trade_goods = rice
+capital = "Seojin"
+is_city = yes
+discovered_by = western
+fort_15th = yes

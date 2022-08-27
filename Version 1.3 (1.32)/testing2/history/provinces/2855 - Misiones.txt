@@ -1,0 +1,15 @@
+add_core = BHA
+owner = BHA
+controller = BHA
+culture = bagda
+religion = the_word
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fish
+capital = "Biranag"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = BRG
+owner = BRG
+controller = BRG
+culture = brongian
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Tekkersdorp"
+is_city = yes
+discovered_by = western

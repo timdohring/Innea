@@ -1,0 +1,17 @@
+add_core = SKI
+owner = SKI
+controller = SKI
+add_core = ASL
+culture = ashrunner
+religion = moon_cult
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

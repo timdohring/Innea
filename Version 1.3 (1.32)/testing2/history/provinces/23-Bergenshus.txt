@@ -1,0 +1,18 @@
+#Bergenshus, 
+
+
+add_core = NYK
+owner = NYK
+controller = NYK
+culture = ykran
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 3
+base_manpower = 5
+
+trade_goods = wool
+capital = "Kapstad"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = MUA
+owner = MUA
+controller = MUA
+culture = pret_run
+religion = bharatvadu
+hre = no
+
+base_tax = 12
+base_production = 12
+base_manpower = 12
+
+trade_goods = silk
+capital = "Muang Rung"
+is_city = yes
+discovered_by = western

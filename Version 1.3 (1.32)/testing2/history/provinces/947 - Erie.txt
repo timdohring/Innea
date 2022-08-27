@@ -1,0 +1,17 @@
+add_core = ROM
+owner = ROM
+controller = ROM
+culture = lys_reman
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = grain
+capital = "Arolis"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = SPR
+owner = SPR
+controller = SPR
+culture = sippari
+religion = asite
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+capital = "Eshuti"
+is_city = yes
+discovered_by = western

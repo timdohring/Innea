@@ -1,0 +1,15 @@
+add_core = YAZ
+owner = YAZ
+controller = YAZ
+culture = yazidi
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = salt
+capital = "Adan"
+is_city = yes
+discovered_by = western

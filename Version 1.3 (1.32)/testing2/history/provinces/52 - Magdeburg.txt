@@ -1,0 +1,19 @@
+#52 - Altmark
+
+
+add_core = ALT
+owner = ALT
+controller = ALT
+culture = bjorming
+religion = yoneth
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 4
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

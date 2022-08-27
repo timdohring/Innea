@@ -1,0 +1,17 @@
+#61 - Saxony
+
+add_core = JFR
+owner = JFR
+controller = JFR
+culture = grafen
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 3
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

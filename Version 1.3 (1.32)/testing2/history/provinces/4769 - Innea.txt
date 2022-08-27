@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = guanglo
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 14
+
+trade_goods = slaves
+capital = "Maocho"
+is_city = yes
+discovered_by = western

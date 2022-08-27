@@ -1,0 +1,15 @@
+add_core = ALM
+owner = ALM
+controller = ALM
+culture = lucien
+religion = dead_house
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Scain"
+is_city = yes
+discovered_by = western

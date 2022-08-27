@@ -1,0 +1,15 @@
+add_core = FUA
+owner = FUA
+controller = FUA
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 11
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western

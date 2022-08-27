@@ -1,0 +1,16 @@
+add_core = JUA
+owner = JUA
+controller = JUA
+culture = juatchac
+religion = ator
+hre = no
+
+base_tax = 10
+base_production = 9
+base_manpower = 9
+
+trade_goods = chofo
+capital = "Jeritomo"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

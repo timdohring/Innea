@@ -1,0 +1,18 @@
+add_core = NAA
+owner = NAA
+controller = NAA
+culture = naarn
+religion = paisadox
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 10
+
+trade_goods = salt
+capital = "Intermitte Keep"
+is_city = yes
+discovered_by = western
+
+
+fort_15th = yes

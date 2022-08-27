@@ -1,0 +1,17 @@
+add_core = TVS
+owner = TVS
+controller = TVS
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 9
+
+trade_goods = fireiron
+capital = "Valass"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

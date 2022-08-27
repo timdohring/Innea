@@ -1,0 +1,20 @@
+add_core = ORE
+owner = ORE
+controller = ORE
+culture = orsh
+religion = brilthic_church
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 9
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes
+
+

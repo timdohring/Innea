@@ -1,0 +1,15 @@
+add_core = LAS
+owner = LAS
+controller = LAS
+culture = lashu
+religion = asite
+hre = no
+
+base_tax = 3
+base_production = 6
+base_manpower = 4
+
+trade_goods = salt
+capital = "Shurpad"
+is_city = yes
+discovered_by = western

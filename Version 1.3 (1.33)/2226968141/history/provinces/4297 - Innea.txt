@@ -1,0 +1,16 @@
+add_core = BHD
+owner = BHD
+controller = BHD
+culture = taloch
+religion = ojal
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 9
+
+trade_goods = red_sugar
+capital = "Mukhalt"
+is_city = yes
+discovered_by = western
+fort_15th = yes

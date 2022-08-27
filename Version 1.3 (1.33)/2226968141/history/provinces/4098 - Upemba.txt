@@ -1,0 +1,15 @@
+add_core = NEF
+owner = NEF
+controller = NEF
+culture = khimut
+religion = ametic
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Pi-Sweneb"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = ACR
+owner = ACR
+controller = ACR
+culture = corrusean
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = marble
+capital = "Libison"
+is_city = yes
+discovered_by = western

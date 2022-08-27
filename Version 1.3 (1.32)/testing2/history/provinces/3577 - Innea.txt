@@ -1,0 +1,15 @@
+add_core = VEX
+owner = VEX
+controller = VEX
+culture = vexed
+religion = manolic
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = dyes
+capital = "Ockre"
+is_city = yes
+discovered_by = western

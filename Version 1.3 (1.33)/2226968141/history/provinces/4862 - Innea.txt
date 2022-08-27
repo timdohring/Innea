@@ -1,0 +1,17 @@
+add_core = DJG
+owner = DJG
+controller = DJG
+add_core = XA0
+culture = xa
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = rice
+capital = "Liliyao"
+is_city = yes
+discovered_by = western
+fort_15th = yes

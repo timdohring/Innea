@@ -1,0 +1,16 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+culture = sari
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Mnan"
+is_city = yes
+discovered_by = western
+fort_15th = yes

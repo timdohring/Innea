@@ -1,0 +1,16 @@
+add_core = YWE
+owner = YWE
+controller = YWE
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = salt
+capital = "Doakinton"
+is_city = yes
+discovered_by = western
+

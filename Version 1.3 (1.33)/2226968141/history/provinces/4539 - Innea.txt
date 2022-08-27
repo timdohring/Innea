@@ -1,0 +1,15 @@
+add_core = NAY
+owner = NAY
+controller = NAY
+culture = yhan
+religion = three_moons
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = fur
+capital = "Bhomwy"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = ban
+religion = shao
+hre = no
+
+base_tax = 19
+base_production = 18
+base_manpower = 17
+
+trade_goods = paper
+capital = "Liuning"
+is_city = yes
+discovered_by = western

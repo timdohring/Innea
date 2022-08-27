@@ -1,0 +1,11 @@
+culture = avalean
+religion = quatzalotl
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+capital = "Huecobaca"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,12 @@
+
+culture = wasut
+religion = ametic
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+capital = "Abydes"
+is_city = yes
+discovered_by = western

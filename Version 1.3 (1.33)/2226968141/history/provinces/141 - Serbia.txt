@@ -1,0 +1,17 @@
+#141 - Serbia
+
+add_core = UAQ
+owner = UAQ
+controller = UAQ
+culture = iqu
+religion = aaqan
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = fish
+capital = "Nutseruk"
+is_city = yes
+discovered_by = western

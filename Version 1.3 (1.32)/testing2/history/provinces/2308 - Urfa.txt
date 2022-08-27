@@ -1,0 +1,15 @@
+add_core = UTE
+owner = UTE
+controller = UTE
+culture = teyan
+religion = star_house
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Tifwen"
+is_city = yes
+discovered_by = western

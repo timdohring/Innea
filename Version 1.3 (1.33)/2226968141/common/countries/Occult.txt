@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {48  49  121 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Cacaus #0" = 1
+	"Ruzle #0" = 1
+	"Darna #0" = 1
+	"Ozaunal #0" = 1
+	"Asha #0" = 1
+	"Arudu #0" = 1
+	"Drgdec #0" = 1
+	"Ogzul #0" = 1
+	"Bagge #0" = 1
+	"Arbau #0" = 1
+	"Kugdau #0" = 1
+	"Ghazbokhde #0" = 1
+	"Oldderg #0" = 1
+	"Ozegath #0" = 1
+	"Usha #0" = 1
+	"Osho #0" = 1
+	"Pito #0" = 1
+	"Venemul #0" = 1
+	"Dhaccs #0" = 1
+	"Phanta #0" = 1
+	"Sradud #0" = 1
+	"Gilgagh #0" = 1
+	"Drebug #0" = 1
+	"Ardeh #0" = 1
+	"Ufgash #0" = 1
+	"Moldac #0" = 1
+	"Bofdu #0" = 1
+	"Shigut #0" = 1
+	"Asheth #0" = 1
+	"Oldrof #0" = 1
+
+	"Ugozush" = -1
+	"Gonmalah" = -1
+	"Yazpha" = -1
+	"Lamsha" = -1
+	"Orbuol" = -1
+	"Eshi" = -1
+	"Todo" = -1
+	"Ugrosn" = -1
+	"Snaksn" = -1
+	"Ulugo" = -1
+	"Glamz" = -1
+	"Gon" = -1
+	"Slozug" = -1
+	"Tatba" = -1
+	"Taghmam" = -1
+	"Gluim" = -1
+	"Bolha" = -1
+	"Narlan" = -1
+	"Gulosh" = -1
+	"Roghuk" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

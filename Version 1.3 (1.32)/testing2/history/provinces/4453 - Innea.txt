@@ -1,0 +1,15 @@
+add_core = SHO
+owner = SHO
+controller = SHO
+culture = nongthai
+religion = bharatvadu
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 9
+
+trade_goods = slaves
+capital = "Nong-Suk"
+is_city = yes
+discovered_by = western

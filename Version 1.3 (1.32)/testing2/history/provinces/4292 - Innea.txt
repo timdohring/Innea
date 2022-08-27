@@ -1,0 +1,15 @@
+add_core = KA1
+owner = KA1
+controller = KA1
+culture = juatchac
+religion = ator
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 8
+
+trade_goods = spices
+capital = "Kaipina"
+is_city = yes
+discovered_by = western

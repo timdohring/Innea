@@ -1,0 +1,15 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 6
+base_production = 6
+base_manpower = 7
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

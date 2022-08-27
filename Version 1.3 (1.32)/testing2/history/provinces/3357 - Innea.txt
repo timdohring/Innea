@@ -1,0 +1,15 @@
+add_core = JAM
+owner = JAM
+controller = JAM
+culture = bengahri
+religion = ojal
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 4
+
+trade_goods = jade
+capital = "Samultan"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = SCA
+owner = SCA
+controller = SCA
+culture = scarred_one
+religion = blood_cult
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 5
+
+trade_goods = slaves
+capital = "Balbuz"
+is_city = yes
+discovered_by = western

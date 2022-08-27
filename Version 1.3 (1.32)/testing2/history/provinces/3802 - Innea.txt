@@ -1,0 +1,16 @@
+add_core = RHA
+owner = RHA
+controller = RHA
+culture = rhaangoli
+religion = flame_temple
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 7
+
+trade_goods = yv
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

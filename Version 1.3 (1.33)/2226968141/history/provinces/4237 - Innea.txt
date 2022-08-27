@@ -1,0 +1,15 @@
+add_core = AKU
+owner = AKU
+controller = AKU
+culture = uru
+religion = asite
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = copper
+capital = "Nerigalzu"
+is_city = yes
+discovered_by = western

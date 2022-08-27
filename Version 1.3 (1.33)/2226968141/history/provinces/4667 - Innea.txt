@@ -1,0 +1,15 @@
+add_core = BUG
+owner = BUG
+controller = BUG
+culture = anyeol
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = rice
+capital = "Gyernam"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = STN
+owner = STN
+controller = STN
+culture = telic
+religion = dead_house
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Nirthyn"
+is_city = yes
+discovered_by = western

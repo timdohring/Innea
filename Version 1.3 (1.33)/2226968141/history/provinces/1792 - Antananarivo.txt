@@ -1,0 +1,15 @@
+add_core = DRA
+owner = DRA
+controller = DRA
+culture = yothr
+religion = old_yorr
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Kuram"
+is_city = yes
+discovered_by = western

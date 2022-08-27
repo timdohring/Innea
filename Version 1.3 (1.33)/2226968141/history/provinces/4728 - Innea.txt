@@ -1,0 +1,17 @@
+add_core = TSU
+owner = TSU
+controller = TSU
+culture = tsu
+religion = conhayna
+hre = no
+
+base_tax = 7
+base_production = 11
+base_manpower = 11
+
+trade_goods = fur
+capital = "Nakuki"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

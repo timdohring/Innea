@@ -1,0 +1,16 @@
+add_core = AZK
+owner = AZK
+controller = AZK
+culture = kesh
+religion = shuri
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 9
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = GUA
+culture = guanglo
+religion = shao
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 12
+
+trade_goods = porcelain
+capital = "Leijang"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

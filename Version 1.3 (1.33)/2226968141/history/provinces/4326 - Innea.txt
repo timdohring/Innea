@@ -1,0 +1,15 @@
+add_core = MGU
+owner = MGU
+controller = MGU
+culture = uru
+religion = asite
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = chofo
+capital = "Martar"
+is_city = yes
+discovered_by = western

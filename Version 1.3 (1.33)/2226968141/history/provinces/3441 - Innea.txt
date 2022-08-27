@@ -1,0 +1,16 @@
+add_core = BEG
+owner = BEG
+controller = BEG
+culture = bengahri
+religion = ojal
+hre = no
+
+base_tax = 13
+base_production = 14
+base_manpower = 14
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2

@@ -1,0 +1,15 @@
+add_core = VEX
+owner = VEX
+controller = VEX
+culture = vexed
+religion = manolic
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = iron
+capital = "Boccle"
+is_city = yes
+discovered_by = western

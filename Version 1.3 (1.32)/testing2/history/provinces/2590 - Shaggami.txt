@@ -1,0 +1,17 @@
+add_core = NAK
+owner = NAK
+controller = NAK
+culture = nakti
+religion = nursari_temple
+hre = no
+
+base_tax = 10
+base_production = 11
+base_manpower = 8
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

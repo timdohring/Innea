@@ -1,0 +1,15 @@
+add_core = FFD
+owner = FFD
+controller = FFD
+culture = riverwood_elf
+religion = ewafari_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = wine
+capital = "Redrese"
+is_city = yes
+discovered_by = western

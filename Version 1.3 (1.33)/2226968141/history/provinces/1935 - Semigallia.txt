@@ -1,0 +1,17 @@
+add_core = MAZ
+owner = MAZ
+controller = MAZ
+culture = mazdi
+religion = ashar
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 8
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

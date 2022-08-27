@@ -1,0 +1,106 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 52 87 235}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Fahyed #0" = 1
+	"Syehad #0" = 1
+	"Sunim #0" = 1
+	"Abdahm #0" = 1
+	"Abduman #0" = 1
+	"Salbak #0" = 1
+	"Mubaisal #0" = 1
+	"Fairak #0" = 1
+	"Saymesh #0" = 1
+	"Ramer #0" = 1
+	"Saoul #0" = 1
+	"Rakdra #0" = 1
+	"Omeh #0" = 1
+	"Rajshad #0" = 1
+	"Basheem #0" = 1
+	"Basheel #0" = 1
+	"Sali #0" = 1
+	"Ratosh #0" = 1
+	"Tamad #0" = 1
+	"Shasuf #0" = 1
+	"Youyan #0" = 1
+	"Ashuf #0" = 1
+	"Sayn #0" = 1
+	"Surlik #0" = 1
+	"Daroz #0" = 1
+	"Omzal #0" = 1
+	"Sanaman #0" = 1
+	"Shain #0" = 1
+	"Razdep #0" = 1
+	"Harit #0" = 1
+
+	"Aleha" = -1
+	"Amapi" = -1
+	"Amoka" = -1
+	"Baia" = -1
+	"Dunfa" = -1
+	"Elmifa" = -1
+	"Faima" = -1
+	"Fatame" = -1
+	"Gaha" = -1
+	"Hayneen" = -1
+	"Isma" = -1
+	"Imodra" = -1
+	"Kadea" = -1
+	"Kufri" = -1
+	"Salba" = -1
+	"Ratosi" = -1
+	"Shasusa" = -1
+	"Hara" = -1
+	"Omza" = -1
+	"Dara" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

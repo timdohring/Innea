@@ -1,0 +1,15 @@
+add_core = RAD
+owner = RAD
+controller = RAD
+culture = torvarik
+religion = asite
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = tropical_wood
+capital = "Zlirova"
+is_city = yes
+discovered_by = western

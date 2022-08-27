@@ -1,0 +1,126 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 134 72 98}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Zhao #0" = 1
+	"Xinha #0" = 1
+	"Suwan #0" = 1
+	"Lei #0" = 1
+	"Wie #0" = 1
+	"Yan #0" = 1
+	"Du #0" = 1
+	"Geng #0" = 1
+	"Cao #0" = 1
+	"Yian #0" = 1
+	"Feng #0" = 1
+	"Xiao #0" = 1
+	"Liao #0" = 1
+	"Xinei #0" = 1
+	"Teng #0" = 1
+	"Zean #0" = 1
+	"Yue #0" = 1
+	"Tan #0" = 1
+	"Qun #0" = 1
+	"Suin #0" = 1
+	"Tin #0" = 1
+	"Lao #0" = 1
+	"Dan #0" = 1
+	"Puan #0" = 1
+	"Zhu #0" = 1
+	"Lhen #0" = 1
+	"Mu #0" = 1
+	"Deng #0" = 1
+	"Jheng #0" = 1
+	"Zin #0" = 1
+	"Men #0" = 1
+	"Cho #0" = 1
+	"Fui #0" = 1
+	"Heng #0" = 1
+	"Xion #0" = 1
+	"Xai #0" = 1
+	"Luang #0" = 1
+	"Hiu #0" = 1
+	"Qen #0" = 1
+	"Zian #0" = 1
+
+	"Yiao" = -1
+	"Qang" = -1
+	"Tuan" = -1
+	"Qeng" = -1
+	"Han" = -1
+	"Zhao" = -1
+	"Yang" = -1
+	"Fi" = -1
+	"Wo" = -1
+	"Mei" = -1
+	"Chan" = -1
+	"Feng" = -1
+	"Te" = -1
+	"Yeng" = -1
+	"Hang" = -1
+	"Tuo" = -1
+	"Lu" = -1
+	"Lang" = -1
+	"Wong" = -1
+	"Long" = -1
+	"Meng" = -1
+	"Po" = -1
+	"Lion" = -1
+	"Kian" = -1
+	"Zhang" = -1
+	"Wuan" = -1
+	"Jhao" = -1
+	"Zia" = -1
+	"Dao" = -1
+	"Ging" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

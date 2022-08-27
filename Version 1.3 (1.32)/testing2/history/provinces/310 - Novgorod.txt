@@ -1,0 +1,17 @@
+add_core = CLE
+owner = CLE
+controller = CLE
+culture = crowfoot
+religion = dochar
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+trade_goods = coal
+capital = "Cheurtaigh"
+is_city = yes
+discovered_by = western
+
+

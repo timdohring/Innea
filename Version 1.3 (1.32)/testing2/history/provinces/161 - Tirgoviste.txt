@@ -1,0 +1,19 @@
+#161 - Tîrgoviste
+
+
+add_core = SLE
+owner = SLE
+controller = SLE
+culture = slein
+religion = celiicean
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

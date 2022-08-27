@@ -1,0 +1,16 @@
+add_core = YUJ
+owner = YUJ
+controller = YUJ
+culture = banglan
+religion = bharatvadu
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = iron
+capital = "Trathaya"
+is_city = yes
+discovered_by = western
+fort_15th = yes

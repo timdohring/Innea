@@ -1,0 +1,16 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = XA0
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 5
+
+trade_goods = rice
+capital = "Huang"
+is_city = yes
+discovered_by = western

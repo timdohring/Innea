@@ -1,0 +1,15 @@
+add_core = KA1
+owner = KA1
+controller = KA1
+culture = juatchac
+religion = ator
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 5
+
+trade_goods = iron
+capital = "Astersti"
+is_city = yes
+discovered_by = western

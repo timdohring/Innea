@@ -1,0 +1,15 @@
+add_core = ILB
+owner = ILB
+controller = ILB
+culture = gangyz
+religion = blood_cult
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Ilkrag"
+is_city = yes
+discovered_by = western

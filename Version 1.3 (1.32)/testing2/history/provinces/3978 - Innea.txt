@@ -1,0 +1,16 @@
+add_core = SKI
+owner = SKI
+controller = SKI
+add_core = ASL
+culture = ashrunner
+religion = moon_cult
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = herbs
+capital = "Godhill"
+is_city = yes
+discovered_by = western

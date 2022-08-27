@@ -1,0 +1,16 @@
+add_core = DJG
+owner = DJG
+controller = DJG
+add_core = XA0
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 7
+
+trade_goods = rice
+capital = "Taigon"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = goldtrader
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = beer
+capital = "Buramp"
+is_city = yes
+discovered_by = western

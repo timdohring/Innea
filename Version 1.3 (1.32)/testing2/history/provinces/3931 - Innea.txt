@@ -1,0 +1,15 @@
+add_core = ZAW
+owner = ZAW
+controller = ZAW
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 7
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

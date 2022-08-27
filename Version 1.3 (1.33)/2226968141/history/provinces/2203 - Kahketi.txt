@@ -1,0 +1,12 @@
+culture = deadlander
+religion = blood_cult
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = ancient_artifacts
+capital = "Zukotanas"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = RUH
+owner = RUH
+controller = RUH
+culture = ruhnic
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Uzquril"
+is_city = yes
+discovered_by = western

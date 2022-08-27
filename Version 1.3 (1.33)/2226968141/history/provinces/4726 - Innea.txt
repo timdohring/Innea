@@ -1,0 +1,15 @@
+add_core = DXG
+owner = DXG
+controller = DXG
+culture = heilong
+religion = conhayna
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Mushunin"
+is_city = yes
+discovered_by = western

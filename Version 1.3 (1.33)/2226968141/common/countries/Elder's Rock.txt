@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 85 43 170}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Hjaldren #0" = 1
+	"Bromohr #0" = 1
+	"Grammar #0" = 1
+	"Thorgrom #0" = 1
+	"Draman #0" = 1
+	"Umthrum #0" = 1
+	"Urmnum #0" = 1
+	"Tyadal #0" = 1
+	"Doldrum #0" = 1
+	"Bhald #0" = 1
+	"Tharnyl #0" = 1
+	"Tyakgarn #0" = 1
+	"Morgran #0" = 1
+	"Morgram #0" = 1
+	"Hjulthi #0" = 1
+	"Baldain #0" = 1
+	"Thakham #0" = 1
+	"Theridr #0" = 1
+	"Bermand #0" = 1
+	"Khomni #0" = 1
+
+	"Tordyna" = -1
+	"Berdelle" = -1
+	"Runwynna" = -1
+	"Einris" = -1
+	"Solba" = -1
+	"Tisdi" = -1
+	"Katdiel" = -1
+	"Lyeswyn" = -1
+	"Reynana" = -1
+	"Thaka" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

@@ -1,0 +1,16 @@
+add_core = KAY
+owner = KAY
+controller = KAY
+culture = karian
+religion = sukkali
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 9
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

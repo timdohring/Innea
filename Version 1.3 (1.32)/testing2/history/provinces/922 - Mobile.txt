@@ -1,0 +1,17 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = rettar
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 2
+
+trade_goods = beer
+capital = "Lixasserri"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

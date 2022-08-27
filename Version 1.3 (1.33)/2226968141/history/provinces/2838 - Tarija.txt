@@ -1,0 +1,15 @@
+add_core = TRN
+owner = TRN
+controller = TRN
+culture = thalan
+religion = zakritz
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = dragon_hide
+capital = "Dolven"
+is_city = yes
+discovered_by = western

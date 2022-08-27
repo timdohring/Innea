@@ -1,0 +1,15 @@
+add_core = RKY
+owner = RKY
+controller = RKY
+culture = pauthin
+religion = snow_goddess
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = tea
+capital = "Kuamaraw"
+is_city = yes
+discovered_by = western

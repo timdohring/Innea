@@ -1,0 +1,15 @@
+add_core = DRD
+owner = DRD
+controller = DRD
+culture = fjordic
+religion = blood_cult
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 7
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western

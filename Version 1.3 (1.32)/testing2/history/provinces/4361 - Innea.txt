@@ -1,0 +1,15 @@
+add_core = SUP
+owner = SUP
+controller = SUP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 3
+
+trade_goods = iron
+capital = "Jaysorei"
+is_city = yes
+discovered_by = western

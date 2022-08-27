@@ -1,0 +1,15 @@
+add_core = NYU
+owner = NYU
+controller = NYU
+culture = yun
+religion = conhayna
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Dang"
+is_city = yes
+discovered_by = western

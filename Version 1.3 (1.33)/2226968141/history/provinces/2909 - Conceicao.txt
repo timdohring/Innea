@@ -1,0 +1,17 @@
+add_core = GLT
+owner = GLT
+controller = GLT
+culture = dorean
+religion = the_coin
+hre = no
+
+base_tax = 11
+base_production = 9
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

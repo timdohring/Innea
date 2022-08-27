@@ -1,0 +1,16 @@
+add_core = AZA
+owner = AZA
+controller = AZA
+culture = azandari
+religion = flame_temple
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 7
+
+trade_goods = honey
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

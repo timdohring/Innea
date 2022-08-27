@@ -1,0 +1,18 @@
+add_core = MRI
+owner = MRI
+controller = MRI
+culture = silver_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 11
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

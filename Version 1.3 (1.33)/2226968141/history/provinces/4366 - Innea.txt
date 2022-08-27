@@ -1,0 +1,16 @@
+add_core = YEC
+owner = YEC
+controller = YEC
+culture = nam
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = copper
+capital = "Tay Minh"
+is_city = yes
+discovered_by = western
+fort_15th = yes

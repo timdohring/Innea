@@ -1,0 +1,47 @@
+myrnas =
+{
+	diplomatic_upkeep = 2
+	diplomats = 1
+	allow = { religion = yorik }
+	#sprite = 8
+}
+
+doldrak =
+{
+	development_cost = -0.1	
+	trade_efficiency = 0.1	
+	allow = { religion = yorik }
+	#sprite = 8
+}
+
+rogvar =
+{
+	siege_ability = 0.25
+	stability_cost_modifier = -0.5
+	allow = { religion = yorik }
+	#sprite = 8
+}
+
+tala =
+{
+	global_spy_defence = 0.75
+	missionaries = 2
+	allow = { religion = yorik }
+	#sprite = 8
+}
+
+alfnu =
+{
+	caravan_power = 0.25	
+	global_trade_power = 0.2	
+	allow = { religion = yorik }
+	#sprite = 8
+}
+
+yotha =
+{
+	idea_cost = -0.15	
+	global_institution_spread = 0.25	
+	allow = { religion = yorik }
+	#sprite = 8
+}

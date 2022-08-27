@@ -1,0 +1,17 @@
+add_core = ZON
+owner = ZON
+controller = ZON
+culture = zondic
+religion = goz
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 12
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

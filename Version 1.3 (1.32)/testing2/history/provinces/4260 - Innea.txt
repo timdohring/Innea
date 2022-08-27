@@ -1,0 +1,15 @@
+add_core = TRY
+owner = TRY
+controller = TRY
+culture = waikaram
+religion = ator
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Arrayray"
+is_city = yes
+discovered_by = western

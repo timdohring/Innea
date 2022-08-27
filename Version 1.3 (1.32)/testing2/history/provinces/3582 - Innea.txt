@@ -1,0 +1,16 @@
+add_core = VLT
+owner = VLT
+controller = VLT
+culture = fingerling
+religion = old_doxian
+hre = no
+
+base_tax = 10
+base_production = 10
+base_manpower = 11
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

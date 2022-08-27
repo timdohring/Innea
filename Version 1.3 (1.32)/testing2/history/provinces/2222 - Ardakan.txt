@@ -1,0 +1,15 @@
+add_core = NUV
+owner = NUV
+controller = NUV
+culture = lucien
+religion = dead_house
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = fungi
+capital = "Tell Kanu"
+is_city = yes
+discovered_by = western

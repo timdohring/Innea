@@ -1,0 +1,15 @@
+add_core = RVW
+owner = RVW
+controller = RVW
+culture = rivwu
+religion = cindari_temple
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 6
+
+trade_goods = riverweed
+capital = ""
+is_city = yes
+discovered_by = western

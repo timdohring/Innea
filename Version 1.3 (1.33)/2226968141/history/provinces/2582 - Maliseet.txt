@@ -1,0 +1,16 @@
+add_core = NAK
+owner = NAK
+controller = NAK
+add_core = ZEI
+culture = zeiy
+religion = nursari_temple
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = fruit
+capital = "Libum"
+is_city = yes
+discovered_by = western

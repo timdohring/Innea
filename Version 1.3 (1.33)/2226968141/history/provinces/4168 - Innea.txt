@@ -1,0 +1,16 @@
+add_core = KAT
+owner = KAT
+controller = KAT
+culture = exiled
+religion = the_coin
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+capital = "Lost Port"
+is_city = yes
+discovered_by = western
+fort_15th = yes

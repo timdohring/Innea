@@ -1,0 +1,15 @@
+add_core = SIN
+owner = SIN
+controller = SIN
+culture = dasan
+religion = gongye_keo
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+capital = "Chunam"
+is_city = yes
+discovered_by = western

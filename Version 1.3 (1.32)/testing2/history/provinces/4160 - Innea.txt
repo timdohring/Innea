@@ -1,0 +1,15 @@
+add_core = TUR
+owner = TUR
+controller = TUR
+culture = panarak
+religion = yonjorr
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = fur
+capital = "Halfhill"
+is_city = yes
+discovered_by = western

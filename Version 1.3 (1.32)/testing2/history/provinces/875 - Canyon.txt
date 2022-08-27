@@ -1,0 +1,15 @@
+add_core = CEI
+owner = CEI
+controller = CEI
+culture = liian
+religion = cindari_temple
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Omlith"
+is_city = yes
+discovered_by = western

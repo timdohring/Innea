@@ -1,0 +1,16 @@
+add_core = HAD
+owner = HAD
+controller = HAD
+culture = druhn
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 7
+
+trade_goods = druh
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

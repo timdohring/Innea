@@ -1,0 +1,15 @@
+add_core = DVL
+owner = DVL
+controller = DVL
+culture = dragonborn
+religion = manolic
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = dragon_hide
+capital = "Heaven's Peak"
+is_city = yes
+discovered_by = western

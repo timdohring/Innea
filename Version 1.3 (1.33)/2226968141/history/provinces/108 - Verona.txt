@@ -1,0 +1,18 @@
+#108 - Verona
+
+
+add_core = HOS
+owner = HOS
+controller = HOS
+culture = haaken
+religion = church_of_yon
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = ships
+capital = "Grenlard"
+is_city = yes
+discovered_by = western

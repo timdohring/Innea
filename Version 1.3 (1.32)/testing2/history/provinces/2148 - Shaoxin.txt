@@ -1,0 +1,12 @@
+culture = zabwe
+religion = blood_cult
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = herbs
+capital = "Mwegwun"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = AMA
+owner = AMA
+controller = AMA
+culture = sahkan
+religion = shuri
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 3
+
+trade_goods = wool
+capital = "Fezagad"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = ejje_nvek
+primary_culture = jetal
+capital = 2354
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	monarch = {
+		name = "Gur -"
+		dynasty = "Tun"
+		birth_date = 1412.10.19
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+

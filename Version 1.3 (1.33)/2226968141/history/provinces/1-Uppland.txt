@@ -1,0 +1,19 @@
+#Uppland, contains Stockholm, Uppsala & Nyköping.
+
+add_core = VAH
+owner = VAH
+controller = VAH
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 17
+base_production = 14
+base_manpower = 11
+
+trade_goods = paper
+capital = "Varhall"
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+

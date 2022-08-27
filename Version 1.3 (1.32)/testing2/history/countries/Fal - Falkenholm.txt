@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = yoneth
+primary_culture = falkish
+capital = 75
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+historical_rival = ORM
+
+1444.1.1 = {
+	monarch = {
+		name = "Asgeirr I"
+		dynasty = "Falken"
+		birth_date = 1400.2.8
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+

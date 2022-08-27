@@ -1,0 +1,15 @@
+add_core = MRN
+owner = MRN
+controller = MRN
+culture = sahkan
+religion = shuri
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = fish
+capital = "Khenga"
+is_city = yes
+discovered_by = western

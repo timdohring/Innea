@@ -1,0 +1,15 @@
+add_core = FVL
+owner = FVL
+controller = FVL
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 3
+
+trade_goods = yv
+capital = "Falcre's Forge"
+is_city = yes
+discovered_by = western

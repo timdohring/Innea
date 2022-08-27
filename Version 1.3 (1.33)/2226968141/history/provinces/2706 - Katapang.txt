@@ -1,0 +1,17 @@
+add_core = MTN
+owner = MTN
+controller = MTN
+culture = laketrader
+religion = lakemother
+hre = no
+
+base_tax = 14
+base_production = 14
+base_manpower = 11
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

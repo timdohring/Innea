@@ -1,0 +1,15 @@
+add_core = LGT
+owner = LGT
+controller = LGT
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 11
+
+trade_goods = tropical_wood
+capital = "Khansur"
+is_city = yes
+discovered_by = western

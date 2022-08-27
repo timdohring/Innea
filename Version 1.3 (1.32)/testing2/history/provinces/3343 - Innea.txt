@@ -1,0 +1,15 @@
+add_core = JAM
+owner = JAM
+controller = JAM
+culture = assarese
+religion = ojal
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 5
+
+trade_goods = gold
+capital = "Sunheart"
+is_city = yes
+discovered_by = western

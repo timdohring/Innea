@@ -1,0 +1,18 @@
+# 176 Béarn - Principal cities: Pau
+
+
+add_core = SEL
+owner = SEL
+controller = SEL
+culture = selc
+religion = celiicean
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = shellfish
+capital = "Brivan"
+is_city = yes
+discovered_by = western

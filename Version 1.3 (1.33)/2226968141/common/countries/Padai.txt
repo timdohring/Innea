@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 67 31 159}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Vuong Mi #0" = 1
+	"Huyn Hoh #0" = 1
+	"Bui Tao #0" = 1
+	"Shan Tao #0" = 1
+	"Nguyhon Hao #0" = 1
+	"Bui Pho #0" = 1
+	"Huvu Thea #0" = 1
+	"Duon Phuc #0" = 1
+	"Lan Nam #0" = 1
+	"Nguy Hai #0" = 1
+	"Vien Vao #0" = 1
+	"Vien Bao #0" = 1
+	"Vien Tao #0" = 1
+	"Bui Pho #0" = 1
+	"Duon Nam #0" = 1
+	"Nguyhon Hai #0" = 1
+	"Nguyhon Hoh #0" = 1
+	"Nguyhon Mi #0" = 1
+	"Ngo Ngu #0" = 1
+	"Pac Hoanm #0" = 1
+	"Diep Hu #0" = 1
+	"Thit #0" = 1
+	"Kamalme #0" = 1
+	"Krisdana #0" = 1
+	"Thisik #0" = 1
+	"Traime #0" = 1
+	"Kanatta #0" = 1
+	"Niphit #0" = 1
+	"Nisowit #0" = 1
+	"Trangpan #0" = 1
+	"Mongkawin #0" = 1
+	"Tulaphar #0" = 1
+	"Thanan #0" = 1
+	"Nathagot #0" = 1
+	"Kromluan #0" = 1
+	"Alasi #0" = 1
+	"Piuy #0" = 1
+	"Kitchitau #0" = 1
+	"Therapatong #0" = 1
+	"Skakawin #0" = 1
+	"Tangam #0" = 1
+
+	"Vien Dao" = -1
+	"Nguyhon Dao" = -1
+	"Nguyhon Phanta" = -1
+	"Vien Phatan" = -1
+	"Duon Ta" = -1
+	"Lan Ta" = -1
+	"Kimli Anh" = -1
+	"Kimli Ngan" = -1
+	"Shao Tua" = -1
+	"Vivaga Shastu" = -1
+	"Prawe" = -1
+	"Maliwa" = -1
+	"Dari" = -1
+	"Preeya" = -1
+	"Wanba" = -1
+	"Kulasnee" = -1
+	"Tulay" = -1
+	"Atnon" = -1
+	"Phatsam" = -1
+	"Nopji" = -1
+	"Chontiltha" = -1
+	"Talae" = -1
+	"Uthanphen" = -1
+	"Mathawan" = -1
+	"Sujicho" = -1
+	"Chavee" = -1
+	"Nomla" = -1
+	"Lalsua" = -1
+	"Sasiratana" = -1
+	"Phayo" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

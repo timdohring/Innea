@@ -1,0 +1,15 @@
+add_core = HLG
+owner = HLG
+controller = HLG
+culture = heilong
+religion = conhayna
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = jade
+capital = "Nejiang"
+is_city = yes
+discovered_by = western

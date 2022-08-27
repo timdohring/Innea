@@ -1,0 +1,17 @@
+add_core = BLA
+owner = BLA
+controller = BLA
+culture = blakkan
+religion = brilthic_church
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Bebeck"
+is_city = yes
+discovered_by = western
+
+

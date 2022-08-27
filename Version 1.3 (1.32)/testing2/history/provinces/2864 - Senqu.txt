@@ -1,0 +1,15 @@
+add_core = SUD
+owner = SUD
+controller = SUD
+culture = suduri
+religion = the_word
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Kalachingar"
+is_city = yes
+discovered_by = western

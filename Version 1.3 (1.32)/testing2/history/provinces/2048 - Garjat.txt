@@ -1,0 +1,17 @@
+add_core = ASH
+owner = ASH
+controller = ASH
+culture = ashkazi
+religion = zakritz
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

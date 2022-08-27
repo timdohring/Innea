@@ -1,0 +1,17 @@
+add_core = SOK
+owner = SOK
+controller = SOK
+culture = sokuro
+religion = shao
+hre = no
+
+base_tax = 13
+base_production = 12
+base_manpower = 12
+
+trade_goods = instruments
+capital = "Yatome"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

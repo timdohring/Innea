@@ -1,0 +1,17 @@
+add_core = RVG
+owner = RVG
+controller = RVG
+culture = nightlandic
+religion = manolic
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 13
+
+trade_goods = coal
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

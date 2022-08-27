@@ -1,0 +1,18 @@
+add_core = COT
+add_core = ALE
+owner = COT
+controller = COT
+culture = alletanian
+religion = the_one_truth
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 7
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

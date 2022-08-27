@@ -1,0 +1,18 @@
+#Östergötland, contains Norrköping, Linköping etc.
+
+add_core = VAH
+owner = VAH
+controller = VAH
+culture = nyvarsk
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 8
+
+trade_goods = naval_supplies
+capital = "Storm's Pass"
+is_city = yes
+discovered_by = western
+fort_15th = yes

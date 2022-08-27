@@ -1,0 +1,16 @@
+add_core = ASQ
+owner = ASQ
+controller = ASQ
+culture = shei_xi
+religion = death_cult
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 9
+
+trade_goods = ivory
+capital = "Adrak Shei"
+is_city = yes
+discovered_by = western
+fort_15th = yes

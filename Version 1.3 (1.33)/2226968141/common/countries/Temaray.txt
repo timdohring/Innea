@@ -1,0 +1,87 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 197 190 188}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Juata #0" = 1
+	"Xascan #0" = 1
+	"Vutacin #0" = 1
+	"Tajo #0" = 1
+	"Charu #0" = 1
+	"Jui #0" = 1
+	"Astelo #0" = 1
+	"Yomi #0" = 1
+	"Pasco #0" = 1
+	"Jomi #0" = 1
+	"Caya #0" = 1
+	"Waitun #0" = 1
+	"Potisu #0" = 1
+	"Komana #0" = 1
+	"Jerio #0" = 1
+	"Saikuqa #0" = 1
+	"Quana #0" = 1
+	"Quabi #0" = 1
+	"Astepo #0" = 1
+	"Tupal #0" = 1
+	"Jain #0" = 1
+
+	"Yinyas" = -1
+	"Vinyas" = -1
+	"Juas" = -1
+	"Jonlis" = -1
+	"Quabis" = -1
+	"Astepas" = -1
+	"Jainas" = -1
+	"Caes" = -1
+	"Komas" = -1
+	"Cayas" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

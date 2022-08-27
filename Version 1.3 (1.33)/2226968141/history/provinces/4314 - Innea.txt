@@ -1,0 +1,15 @@
+add_core = TVS
+owner = TVS
+controller = TVS
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = glass
+capital = "Zloti"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 89  84  255}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Aristeidis #0" = 1
+	"Sakos #0" = 1
+	"Ermaos #0" = 1
+	"Efinianos #0" = 1
+	"Seglias #0" = 1
+	"Nikloatos #0" = 1
+	"Apoll #0" = 1
+	"Venisianis #0" = 1
+	"Mistadis #0" = 1
+	"Michali #0" = 1
+	"Demo #0" = 1
+	"Athansanthos #0" = 1
+	"Kosto #0" = 1
+	"Perebolu #0" = 1
+	"Fostas #0" = 1
+	"Kirivos #0" = 1
+	"Spiriani #0" = 1
+	"Spiriviadis #0" = 1
+	"Athankis #0" = 1
+	"Safos #0" = 1
+
+	"Iri" = -1
+	"Theodrachi" = -1
+	"Ioula" = -1
+	"Xena" = -1
+	"Agatia" = -1
+	"Parana" = -1
+	"Emithe" = -1
+	"Ouradoula" = -1
+	"Glykka" = -1
+	"Doula" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

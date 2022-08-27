@@ -1,0 +1,128 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {117  146  167 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ahmin #0" = 1
+	"Ashang #0" = 1
+	"Raftan #0" = 1
+	"Paydam #0" = 1
+	"Pezruz #0" = 1
+	"Pouyoush #0" = 1
+	"Sheryan #0" = 1
+	"Shahry #0" = 1
+	"Sepepeher #0" = 1
+	"Sasdad #0" = 1
+	"Vahana #0" = 1
+	"Ariod #0" = 1
+	"Armash #0" = 1
+	"Ahoand #0" = 1
+	"Avetiya #0" = 1
+	"Arvyan #0" = 1
+	"Bahjan #0" = 1
+	"Bahrio #0" = 1
+	"Behafsh #0" = 1
+	"Dariul #0" = 1
+	"Danevin #0" = 1
+	"Eshizd #0" = 1
+	"Farghaz #0" = 1
+	"Gilgatas #0" = 1
+	"Hshmen #0" = 1
+	"Jamwed #0" = 1
+	"Mazishay #0" = 1
+	"Kezem #0" = 1
+	"Kaved #0" = 1
+	"Sasid #0" = 1
+	"Mazduk #0" = 1
+	"Mehdeym #0" = 1
+	"Kirabeen #0" = 1
+	"Merhdram #0" = 1
+	"Payzar #0" = 1
+	"Mazrookh #0" = 1
+	"Fashysh #0" = 1
+	"Shapun #0" = 1
+	"Shapul #0" = 1
+	"Teroq #0" = 1
+
+	"Amaza" = -1
+	"Donysheh" = -1
+	"Armita" = -1
+	"Arya" = -1
+	"Ashra" = -1
+	"Atonya" = -1
+	"Donu" = -1
+	"Bitshteh" = -1
+	"Fereshzneh" = -1
+	"Fanal" = -1
+	"Golita" = -1
+	"Golnam" = -1
+	"Jaldah" = -1
+	"Gonazdid" = -1
+	"Kamavin" = -1
+	"Manshida" = -1
+	"Mahtayam" = -1
+	"Minzheh" = -1
+	"Mozhgashin" = -1
+	"Niushd" = -1
+	"Parfar" = -1
+	"Nazavand" = -1
+	"Parshin" = -1
+	"Nestu" = -1
+	"Reyya" = -1
+	"Roxanak" = -1
+	"Safrien" = -1
+	"Shirla" = -1
+	"Soraya" = -1
+	"Tahmin" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

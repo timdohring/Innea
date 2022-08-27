@@ -1,0 +1,15 @@
+add_core = VAL
+owner = VAL
+controller = VAL
+culture = north_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = naval_supplies
+capital = "Menedes"
+is_city = yes
+discovered_by = western

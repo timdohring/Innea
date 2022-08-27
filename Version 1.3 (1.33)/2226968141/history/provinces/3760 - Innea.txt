@@ -1,0 +1,16 @@
+add_core = PLS
+owner = PLS
+controller = PLS
+culture = barahin
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 7
+base_manpower = 5
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

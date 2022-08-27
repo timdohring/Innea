@@ -1,0 +1,15 @@
+add_core = SHE
+owner = SHE
+controller = SHE
+culture = shen
+religion = conhayna
+hre = no
+
+base_tax = 12
+base_production = 14
+base_manpower = 11
+
+trade_goods = jade
+capital = "Shenzhou"
+is_city = yes
+discovered_by = western

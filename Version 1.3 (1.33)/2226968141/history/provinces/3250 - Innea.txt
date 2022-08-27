@@ -1,0 +1,15 @@
+add_core = WAL
+owner = WAL
+controller = WAL
+culture = walan
+religion = sukkali
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = herbs
+capital = "Dra Gupta"
+is_city = yes
+discovered_by = western

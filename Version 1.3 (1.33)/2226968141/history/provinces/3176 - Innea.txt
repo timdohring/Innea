@@ -1,0 +1,15 @@
+add_core = DUN
+owner = DUN
+controller = DUN
+culture = dune_dweller
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 1
+
+trade_goods = springwater
+capital = ""
+is_city = yes
+discovered_by = western

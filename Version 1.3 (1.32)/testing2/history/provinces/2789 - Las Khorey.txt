@@ -1,0 +1,12 @@
+culture = black_islander
+religion = blood_cult
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+trade_goods = fish
+capital = "Helldocks"
+is_city = yes
+discovered_by = western

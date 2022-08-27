@@ -1,0 +1,18 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+add_core = R4T
+culture = rat_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = ivory
+capital = "Luong Udon"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

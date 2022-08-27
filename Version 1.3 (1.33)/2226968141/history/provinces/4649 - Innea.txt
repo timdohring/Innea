@@ -1,0 +1,15 @@
+add_core = DAS
+owner = DAS
+controller = DAS
+culture = dasan
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 9
+
+trade_goods = rice
+capital = "Anyeoju"
+is_city = yes
+discovered_by = western

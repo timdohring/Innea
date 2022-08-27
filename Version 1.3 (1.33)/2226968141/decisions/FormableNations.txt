@@ -1,0 +1,3695 @@
+country_decisions = {
+	
+	forming_sahidan = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = SAH }
+			is_colonial_nation = no
+			development_in_provinces = {
+				value = 20
+				region = sahidan_region
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3227 #Sahid
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 3227 #Sahid
+		}
+		effect = {
+			change_tag = SAH
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			change_religion = sun_cult
+			set_capital = 3227
+			change_primary_culture = sahridan
+			sahidan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SAH
+			}
+			sahidan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = SAH
+				change_culture = sahridan
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+	
+	forming_grey_islands = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = GRY }
+			is_colonial_nation = no
+			capital_scope = {
+				superregion = handaan_plain_superregion
+			}
+			
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3656
+				province_id = 3655
+				province_id = 3654
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			AND = {
+				owns_core_province = 3656
+				owns_core_province = 3654
+				owns_core_province = 3655
+			}
+		}
+		effect = {
+			change_tag = GRY
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_capital = 3656
+			change_primary_culture = grey_islander
+			south_handaan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = GRY
+				change_culture = grey_islander
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+	
+	forming_avea = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = AVE }
+			is_colonial_nation = no
+			development_in_provinces = {
+				value = 5
+				region = mathi_avales_region
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3547
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 3547
+		}
+		effect = {
+			change_tag = AVE
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			change_religion = quatzalotl
+			set_capital = 3547
+			change_primary_culture = avalean
+			mathi_avales_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = AVE
+			}
+			sahidan_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = AVE
+				change_culture = avalean
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 50
+	}
+	
+	forming_moltran = {
+		major = yes
+		potential = {
+			NOT = { tag = MOL }
+			NOT = { tag = KLT }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = moltranic
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 451
+				province_id = 455
+				province_id = 461
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = MOL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			AND = {
+				owns_core_province = 451
+				owns_core_province = 455
+				owns_core_province = 461
+			}
+		}
+		effect = {
+			change_tag = MOL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 455
+			change_primary_culture = moltrese
+			old_moltran_area = {
+				add_core = MOL
+			}
+			new_moltran_area = {
+				add_core = MOL
+			}
+			east_moltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOL
+			}
+			west_moltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+
+	forming_isschi = {
+		major = yes
+		potential = {
+			NOT = { tag = ISS }
+			normal_or_historical_nations = yes			
+			is_colonial_nation = no
+			culture_group = ice_elf
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1769
+				province_id = 1772
+				province_id = 1766
+				province_id = 1754
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ISS }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			AND = {
+				owns_core_province = 1769
+				owns_core_province = 1772
+				owns_core_province = 1766
+				owns_core_province = 1754
+			}
+		}
+		effect = {
+			change_tag = ISS
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			isschi_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ISS
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_allarnia = {
+		major = yes
+		potential = {
+			NOT = { tag = ALL }
+			normal_or_historical_nations = yes
+			culture_group = wuerdic
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 365
+				province_id = 364
+				province_id = 363
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ALL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			AND = {
+				owns_core_province = 365
+				owns_core_province = 364
+				owns_core_province = 363
+			}
+		}
+		effect = {
+			change_tag = ALL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 365
+			change_primary_culture = allar
+			allarnia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALL
+			}
+			allarnia_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_core = ALL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_falfedo = {
+		major = yes
+		potential = {
+			NOT = { tag = FFD }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = wood_elf
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2562
+				province_id = 2544
+				province_id = 2554
+				province_id = 2537
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = FFD }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			AND = {
+				owns_core_province = 2562
+				owns_core_province = 2537
+				owns_core_province = 2554
+				owns_core_province = 2544
+			}
+			num_of_owned_provinces_with = {
+				value = 15
+				region = lower_falfedo_region
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				region = upper_falfedo_region
+			}
+		}
+		effect = {
+			change_tag = FFD
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 2562
+			change_primary_culture = falar
+			lower_falfedo_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FFD
+			}
+			upper_falfedo_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FFD
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_taroq = {
+		major = yes
+		potential = {
+			NOT = { tag = TAR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = taroquan
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 585
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TAR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 585
+			num_of_owned_provinces_with = {
+				value = 25
+				region = taroq_region
+			}
+		}
+		effect = {
+			change_tag = TAR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 585
+			change_primary_culture = arvacien
+			taroq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TAR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_naktaviri = {
+		major = yes
+		potential = {
+			NOT = { tag = NAK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = night_elf
+		}
+		provinces_to_highlight = {
+			NOT = { exists = NAK }
+			OR = {
+				province_id = 2588
+				province_id = 2622
+				province_id = 2597
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			AND = {
+				owns_core_province = 2588
+				owns_core_province = 2622
+				owns_core_province = 2597
+			}
+		}
+		effect = {
+			change_tag = NAK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			naktaviri_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NAK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_tyrfak = {
+		major = yes
+		potential = {
+			NOT = { tag = TYR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = fyrvar
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2839
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 2839
+			NOT = { exists = TYR }
+		}
+		effect = {
+			change_tag = TYR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 2839
+			change_primary_culture = kyfan
+			tyrfak_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TYR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_acryllia = {
+		major = yes
+		potential = {
+			NOT = { tag = ACR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no			
+			culture_group = acryllian
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = corruse_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ACR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_all_provinces = {
+				area = corruse_area
+			}
+			development_in_provinces = {
+				value = 1000
+				superregion = acryllia_superregion
+			}
+		}
+		effect = {
+			change_tag = ACR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 1046
+			change_primary_culture = corrusean
+			acryllia_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ACR
+			}
+			allegrum_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ACR
+			}
+			lestium_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ACR
+			}
+			rose_forest_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ACR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_raal = {
+		major = yes
+		potential = {
+			NOT = { tag = RAA }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = nurkic
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2917
+				province_id = 2918
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = RAA }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			stability = 1
+			AND = {
+				owns_core_province = 2917
+				owns_core_province = 2918
+			}
+		}
+		effect = {
+			change_tag = RAA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 2917
+			change_primary_culture = raalic
+			emidyne_steppe_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					culture_group = nurkic
+				}
+				add_permanent_claim = RAA
+			}
+			doron_river_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					culture_group = nurkic
+				}
+				add_permanent_claim = RAA
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_brongs = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = BRG }
+			is_colonial_nation = no
+			primary_culture = brongian
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 541
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 541
+		}
+		effect = {
+			change_tag = BRG
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			set_capital = 541
+			free_states_region = {
+				limit = {
+					culture = brongian
+				}
+				add_core = BRG
+			}
+			tradeshore_region = {
+				limit = {
+					culture = brongian
+				}
+				add_core = BRG
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_dales = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = DLS }
+			is_colonial_nation = no
+			primary_culture = dalsch
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+		}
+		effect = {
+			change_tag = DLS
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			teltran_coast_region = {
+				limit = {
+					culture = dalsch
+				}
+				add_core = DLS
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_arman = {
+		major = yes
+		potential = {
+			NOT = { tag = AMA }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = armoccan
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2954
+				province_id = 2961
+				province_id = 2950
+				province_id = 2956
+				province_id = 2969
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AMA }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			AND = {
+				owns_core_province = 2954
+				owns_core_province = 2969
+				owns_core_province = 2961
+				owns_core_province = 2956
+				owns_core_province = 2950
+			}
+		}
+		effect = {
+			change_tag = AMA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			arman_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMA
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_hranmal = {
+		major = yes
+		potential = {
+			NOT = { tag = HRA }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				primary_culture = hranan
+				primary_culture = waduli
+				primary_culture = pandu
+				primary_culture = lissean
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3281
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = HRA }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			owns_core_province = 3281
+		}
+		effect = {
+			change_tag = HRA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 3281
+			change_primary_culture = hranan
+			hran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HRA
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_akkan = {
+		major = yes
+		potential = {
+			NOT = { tag = AKK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			culture_group = bahdak
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3119
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AKK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 3119
+		}
+		effect = {
+			change_tag = AKK
+			swap_non_generic_missions = yes
+			set_government_rank = 4
+			set_capital = 3119
+			change_primary_culture = akkad
+			akkan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AKK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_fuad = {
+		major = yes
+		potential = {
+			NOT = { tag = FUA }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			primary_culture = fuan
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3903
+				province_id = 3904
+				province_id = 3905
+				province_id = 3906
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = FUA }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_all_provinces = {
+				area = greater_fuad_area
+			} 
+		}
+		effect = {
+			change_tag = FUA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = fuad
+			saif_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FUA
+			}
+			fartu_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FUA
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_dremor = {
+		major = yes
+		potential = {
+			NOT = { tag = DRM }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			primary_culture = dremoran
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3694
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = DRM }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 3694
+		}
+		effect = {
+			change_tag = DRM
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 3694
+			change_religion = throne_cult
+			dremor_region = {
+				limit = {
+					culture = dremoran
+				}
+				add_core = DRM
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_keltran = {
+		major = yes
+		potential = {
+			NOT = { tag = KLT }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = moltranic
+				culture_group = teltranic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 455
+				province_id = 732
+				region = east_moltran_region
+				region = west_moltran_region
+				region = north_teltran_region
+				region = central_teltran_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = KLT }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 455
+			owns_core_province = 732
+			OR = {
+				AND = {
+					tag = TEL
+					NOT = { exists = MOL }
+					num_of_owned_provinces_with = {
+						value = 30
+						OR = {
+							region = east_moltran_region
+							region = west_moltran_region
+						}
+					}
+				}
+				AND = {
+					tag = MOL
+					NOT = { exists = TEL }
+					num_of_owned_provinces_with = {
+						value = 30
+						OR = {
+							region = north_teltran_region
+							region = central_teltran_region
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = KLT
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 6
+			heartlands_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KLT
+			}
+			commonwealth_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KLT
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_varland = {
+		major = yes
+		potential = {
+			NOT = { tag = VAR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = varsk
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1
+				province_id = 732
+				province_id = 21
+				province_id = 7
+				province_id = 115
+				province_id = 107
+				province_id = 41
+				province_id = 64
+				province_id = 83
+				province_id = 166
+				province_id = 75
+				province_id = 178
+				province_id = 125
+				province_id = 149
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = VAR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 1
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					province_id = 21
+					province_id = 7
+					province_id = 115
+					province_id = 107
+					province_id = 41
+					province_id = 64
+					province_id = 83
+					province_id = 166
+					province_id = 75
+					province_id = 178
+					province_id = 125
+					province_id = 149
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 50
+				superregion = varland_superregion
+			}
+		}
+		effect = {
+			change_tag = VAR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 1
+			varland_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = VAR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_the_united_clans = {
+		major = yes
+		potential = {
+			NOT = { tag = TUC }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = highlander
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 319
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TUC }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			owns_core_province = 319
+			num_of_owned_provinces_with = {
+				value = 20
+				region = highlands_region
+			}
+		}
+		effect = {
+			change_tag = TUC
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			highlands_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_core = TUC
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_briltan = {
+		major = yes
+		potential = {
+			NOT = { tag = BRL }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = brilthic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 244
+				province_id = 255
+				province_id = 269
+				province_id = 230
+				province_id = 277
+				province_id = 263
+				area = briltan_heart_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = BRL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			OR = {
+				owns_core_province = 263
+				owns_core_province = 255
+			}
+			OR = {
+				AND = {
+					owns_core_province = 244
+					owns_core_province = 230
+				}
+				AND = {
+					owns_core_province = 269
+					owns_core_province = 277
+				}
+			}
+			owns_all_provinces = {
+				area = briltan_heart_area
+			}
+		}
+		effect = {
+			change_tag = BRL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			lower_briltan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BRL
+			}
+			upper_briltan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BRL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_elldranor = {
+		major = yes
+		potential = {
+			NOT = { tag = ELL }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = dark_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = vara_area
+				area = duskvale_area
+				area = east_indrys_area
+				area = fungal_hills_area
+				area = south_scraw_area
+				area = north_scraw_area
+				area = shuria_area
+				area = nulvar_area
+				area = naava_area
+				area = eastern_naav_area
+				area = naavan_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ELL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			owns_all_provinces = {
+				area = vara_area
+			}
+			OR = {
+				owns_all_provinces = {
+					OR = {
+						area = duskvale_area
+						area = east_indrys_area
+						area = fungal_hills_area
+						area = south_scraw_area
+						area = north_scraw_area
+					}
+				}
+				owns_all_provinces = {
+					OR = {
+						area = shuria_area
+						area = nulvar_area
+						area = naava_area
+						area = eastern_naav_area
+						area = naavan_coast_area
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = ELL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			upper_elldranor_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ELL
+			}
+			lower_elldranor_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ELL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_tavrayll = {
+		major = yes
+		potential = {
+			NOT = { tag = TYL }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = fire_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2252
+				province_id = 2248
+				province_id = 2259
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TYL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			owns_core_province = 2252
+			owns_core_province = 2248
+			owns_core_province = 2259
+		}
+		effect = {
+			change_tag = TYL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			tavrayll_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_core = TYL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_gorsand = {
+		major = yes
+		potential = {
+			NOT = { tag = GOR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = gorsic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2106
+				region = gorsand_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GOR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			owns_core_province = 2106
+			num_of_owned_provinces_with = {
+				value = 25
+				region = gorsand_region
+			}
+		}
+		effect = {
+			change_tag = GOR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 2106
+			gorsand_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GOR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_syllos = {
+		major = yes
+		potential = {
+			NOT = { tag = SOS }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = high_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 389
+				province_id = 396
+				province_id = 392
+				province_id = 385
+				province_id = 378
+				province_id = 388
+				province_id = 387
+				province_id = 399
+				province_id = 411
+				province_id = 414
+				province_id = 409
+				province_id = 417
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SOS }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 389
+			owns_core_province = 396
+			OR = {
+				AND = {
+					owns_core_province = 392
+					owns_core_province = 385
+					owns_core_province = 378
+					owns_core_province = 388
+					owns_core_province = 387
+				}
+				AND = {
+					owns_core_province = 399
+					owns_core_province = 411
+					owns_core_province = 414
+					owns_core_province = 417
+					owns_core_province = 409
+				}
+			}
+		}
+		effect = {
+			change_tag = SOS
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 389
+			syllos_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOS
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_kalas_aed = {
+		major = yes
+		potential = {
+			NOT = { tag = KAE }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = sea_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = munass_area
+				area = north_silavan_forest_area
+				area = south_silavan_forest_area
+				area = dothrin_area
+				area = aethoin_coast_area
+				area = anowen_isles_area
+				area = adan_area
+				area = kalas_area
+				area = gildur_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = KAE }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			OR = {
+				owns_all_provinces = {
+					OR = {
+						area = adan_area
+						area = kalas_area
+					}
+				}
+				owns_all_provinces = {
+					OR = {
+						area = gildur_area
+						area = dothrin_area
+					}
+				}
+			}
+			OR = {
+				owns_all_provinces = {
+					OR = {
+						area = aethoin_coast_area
+						area = anowen_isles_area
+					}
+				}
+				owns_all_provinces = {
+					OR = {
+						area = north_silavan_forest_area
+						area = south_silavan_forest_area
+					}
+				}
+			}
+			owns_all_provinces = {
+				area = munass_area
+			}
+		}
+		effect = {
+			change_tag = KAE
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			kalasen_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KAE
+			}
+			aeden_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KAE
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_evermore = {
+		major = yes
+		potential = {
+			NOT = { tag = EVR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = lyzanian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = upper_sylten_area
+				area = lower_sylten_area
+				area = greater_gozma_area
+				area = deii_area
+				area = palemarshes_area
+				area = the_mist_area
+				area = nahmisst_area
+				area = gazak_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = EVR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_all_provinces = {
+				OR = {
+					area = upper_sylten_area
+					area = lower_sylten_area
+				}
+			}
+			OR = {
+				owns_all_provinces = {
+					OR = {
+						area = greater_gozma_area
+						area = deii_area
+						area = palemarshes_area
+					}
+				}
+				owns_all_provinces = {
+					OR = {
+						area = the_mist_area
+						area = nahmisst_area
+						area = gazak_area
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = EVR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			sylten_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EVR
+			}
+			upper_evermore_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EVR
+			}
+			lower_evermore_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EVR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_great_lake_kingdom = {
+		major = yes
+		potential = {
+			NOT = { tag = GLK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = algonic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = four_lakes_area
+				area = between_two_wolves_area
+				province_id = 2755
+				province_id = 2731
+				province_id = 2728
+				province_id = 2718
+				province_id = 2763
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GLK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			num_of_owned_provinces_with = {
+				value = 3
+				OR = {
+					province_id = 2755
+					province_id = 2731
+					province_id = 2728
+					province_id = 2718
+					province_id = 2763
+				}
+			}
+			four_lakes_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			between_two_wolves_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = GLK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			five_lake_basin_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GLK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_trovenam = {
+		major = yes
+		potential = {
+			NOT = { tag = TRV }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = trovanic
+				accepted_culture = trovan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = north_trove_area
+				area = trovenam_area
+				area = pirec_area
+				area = trovan_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TRV }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			north_trove_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			trovenam_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			pirec_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			trovan_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = TRV
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 2803
+			change_primary_culture = trovan
+			broken_lands_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_core = TRV
+			}
+			the_hand_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TRV
+			}
+			five_lake_basin_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TRV
+			}
+			tyrfak_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TRV
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_tvala_lak = {
+		major = yes
+		potential = {
+			NOT = { tag = TVL }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = tval
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2482
+				province_id = 2480
+				province_id = 2470
+				province_id = 2472
+				province_id = 2459
+				province_id = 2452
+				province_id = 2490
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TVL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			owns_core_province = 2470
+			num_of_owned_provinces_with = {
+				value = 4
+				OR = {
+					province_id = 2482
+					province_id = 2480
+					province_id = 2472
+					province_id = 2459
+					province_id = 2452
+					province_id = 2490
+				}
+			}
+		}
+		effect = {
+			change_tag = TVL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			great_forest_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TVL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_dvarlendur = {
+		major = yes
+		potential = {
+			NOT = { tag = DVA }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = dverik
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1814
+				province_id = 1812
+				province_id = 1831
+				province_id = 1835
+				province_id = 1837
+				province_id = 1841
+				province_id = 1824
+				province_id = 1845
+				province_id = 1849
+				province_id = 1854
+				province_id = 1859
+				province_id = 1862
+				province_id = 1804
+				province_id = 1808
+				province_id = 1798
+				province_id = 1790
+				province_id = 1791
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = DVA }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 1814
+			owns_core_province = 1831
+			owns_core_province = 1812
+			num_of_owned_provinces_with = {
+				value = 7
+				OR = {
+					province_id = 1835
+					province_id = 1837
+					province_id = 1841
+					province_id = 1824
+					province_id = 1845
+					province_id = 1849
+					province_id = 1854
+					province_id = 1859
+					province_id = 1862
+					province_id = 1804
+					province_id = 1808
+					province_id = 1798
+					province_id = 1790
+					province_id = 1791
+				}
+			}
+		}
+		effect = {
+			change_tag = DVA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			othal_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = DVA
+			}
+			altvar_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = DVA
+			}
+			aldarukk_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = DVA
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_great_botte = {
+		major = yes
+		potential = {
+			NOT = { tag = GBT }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = ywekan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = old_botte_area
+				area = new_botte_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GBT }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			primary_culture = bottian
+			stability = 1
+			new_botte_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			old_botte_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = GBT
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			ywekan_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GBT
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_achakk = {
+		major = yes
+		potential = {
+			NOT = { tag = ACH }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = achakk
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 354
+				province_id = 339
+				province_id = 322
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ACH }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 354
+			owns_core_province = 339
+			owns_core_province = 322
+		}
+		effect = {
+			change_tag = ACH
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			achakk_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ACH
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_avan = {
+		major = yes
+		potential = {
+			NOT = { tag = AVN }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				accepted_culture = aven
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = avan_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AVN }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			primary_culture = aven
+			avan_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			279 = {
+				has_great_project = {
+					type = gaer_avan
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			change_tag = AVN
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			set_capital = 279
+			lower_briltan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AVN
+			}
+			tradeshore_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AVN
+			}
+			east_moltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AVN
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_shazir = {
+		major = yes
+		potential = {
+			NOT = { tag = SZR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				accepted_culture = shazan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = tevan_borders_area
+				province_id = 564
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SZR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			primary_culture = shazan
+			owns_core_province = 564
+			tevan_borders_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			564 = {
+				has_great_project = {
+					type = azarat
+					tier = 3
+				}
+			}
+		}
+		effect = {
+			change_tag = SZR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 564
+			tradeshore_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SZR
+			}
+			east_moltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SZR
+			}
+			free_states_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SZR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_teltran = {
+		major = yes
+		potential = {
+			NOT = { tag = TEL }
+			NOT = { tag = KLT }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = teltranic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = bergen_area
+				area = zahlitz_area
+				area = silver_vale_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TEL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			num_of_owned_provinces_with = {
+				value = 40
+				OR = {
+					region = central_teltran_region
+					region = north_teltran_region
+					region = teltran_coast_region
+				}
+			}
+			bergen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zahlitz_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			silver_vale_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = TEL
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 732
+			central_teltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEL
+			}
+			north_teltran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEL
+			}
+			teltran_coast_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TEL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_airoth = {
+		major = yes
+		potential = {
+			NOT = { tag = AIR }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = river_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = rivwoudn_basin_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AIR }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			num_of_owned_provinces_with = {
+				value = 25
+				region = rivwoudn_basin_region
+			}
+		}
+		effect = {
+			change_tag = AIR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			rivwoudn_basin_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AIR
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_tauria = {
+		major = yes
+		potential = {
+			NOT = { tag = TAU }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				accepted_culture = tarrad
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = old_tauria_area
+				area = new_tauria_area
+				area = west_gold_plain_area
+				area = ghelticca_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TAU }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			primary_culture = tarrad
+			old_tauria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			new_tauria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				west_gold_plain_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				ghelticca_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = TAU
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			tauria_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TAU
+			}
+			maetia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TAU
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_ithola = {
+		major = yes
+		potential = {
+			NOT = { tag = ITH }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				primary_culture = ikathian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3482
+				province_id = 3480
+				province_id = 3475
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ITH }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			owns_core_province = 3482
+			owns_core_province = 3480
+			owns_core_province = 3475
+		}
+		effect = {
+			change_tag = ITH
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			itholan_coast_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_core = ITH
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_mehedruhn = {
+		major = yes
+		potential = {
+			NOT = { tag = MHD }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				primary_culture = druhn
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = mehedruhn_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = MHD }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			stability = 2
+			num_of_owned_provinces_with = {
+				value = 15
+				region = mehedruhn_region
+			}
+		}
+		effect = {
+			change_tag = MHD
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			mehedruhn_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MHD
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_handaan = {
+		major = yes
+		potential = {
+			NOT = { tag = HAN }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = handaan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = first_banner_area
+				area = second_banner_area
+				area = third_banner_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = HAN }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			stability = 3
+			first_banner_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			second_banner_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			third_banner_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 30
+				superregion = handaan_plain_superregion
+			}
+		}
+		effect = {
+			change_tag = HAN
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			handaan_plain_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HAN
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_the_broken_empire = {
+		major = yes
+		potential = {
+			NOT = { tag = TBE }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = broken_men
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = the_hand_region
+				region = broken_lands_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TBE }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 25
+					region = the_hand_region
+				}
+				num_of_owned_provinces_with = {
+					value = 25
+					region = broken_lands_region
+				}
+			}
+		}
+		effect = {
+			change_tag = TBE
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			the_hand_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TBE
+			}
+			broken_lands_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TBE
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_blue_isles = {
+		major = yes
+		potential = {
+			NOT = { tag = BLI }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = blue_elf
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = blue_isle_area
+				area = feteo_area
+				area = fateona_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = BLI }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			blue_isle_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			feteo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			fateona_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = BLI
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			bluethorn_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BLI
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_majukistan = {
+		major = yes
+		potential = {
+			NOT = { tag = MJK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = majuki
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = jantak_area
+				area = ja_hori_area
+				area = katagal_area
+				area = punhar_area
+				area = central_maj_area
+				area = kerram_area
+				area = mahapur_area
+				area = pardhan_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = MJK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			jantak_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ja_hori_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				katagal_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				central_maj_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			OR = {
+				mahapur_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				pardhan_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			OR = {
+				punhar_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				kerram_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = MJK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 3369
+			majukistan_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MJK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_erlat = {
+		major = yes
+		potential = {
+			NOT = { tag = ERL }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = najric
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = jhistal_vale_area
+				area = sheppal_area
+				area = artan_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ERL }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			jhistal_vale_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sheppal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			artan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = ERL
+			swap_non_generic_missions = yes
+			set_government_rank = 4
+			set_capital = 2990
+			erlat_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ERL
+			}
+			najan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ERL
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_zekrat = {
+		major = yes
+		potential = {
+			NOT = { tag = ZEK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = zekranic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = akenaht_area
+				area = iwanwaht_area
+				area = raswat_area
+				area = senwat_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ZEK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			akenaht_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			iwanwaht_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			raswat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			senwat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = ZEK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			set_capital = 4061
+			zekran_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZEK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_cataqan = {
+		major = yes
+		potential = {
+			NOT = { tag = CTQ }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				primary_culture = qar
+				primary_culture = catulan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = catul_area
+				area = qariim_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = CTQ }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 2
+			catul_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			qariim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = CTQ
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			cataqan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CTQ
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_slavers_shore = {
+		major = yes
+		potential = {
+			NOT = { tag = SLS }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				primary_culture = slaver
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = slave_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = SLS }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			slave_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = SLS
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			slavers_shore_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SLS
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_bashkal = {
+		major = yes
+		potential = {
+			NOT = { tag = BSK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = bashkalic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = bashral_area
+				area = upper_esh_area
+				area = south_scarred_lands_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = BSK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			bashral_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				upper_esh_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				south_scarred_lands_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = BSK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			bashkal_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BSK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_anhya = {
+		major = yes
+		potential = {
+			NOT = { tag = ANH }
+			NOT = { tag = SRZ }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = anhyan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = sar_river_plain_area
+				area = upper_rhaang_area
+				area = west_khoran_area
+				area = balum_area
+				area = eshhan_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ANH }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			sar_river_plain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_rhaang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_khoran_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			balum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eshhan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = ANH
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 6
+			anhya_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ANH
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_awk_ewaggi = {
+		major = yes
+		potential = {
+			NOT = { tag = AWK }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = niir
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				has_terrain = niirlands
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AWK }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 1
+			num_of_owned_provinces_with = {
+				value = 10
+				has_terrain = niirlands
+			}	
+		}
+		effect = {
+			change_tag = AWK
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			astrea = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					has_terrain = niirlands
+				}
+				add_core = AWK
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_lethia = {
+		major = yes
+		potential = {
+			NOT = { tag = LET }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = lenaric
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = maetia_area
+				area = caixol_river_delta_area
+				area = briiyan_coast_area
+				area = cothonia_area
+				area = south_narcetia_area
+				area = north_narcetia_area
+				area = itira_area
+				area = condelatium_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = LET }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			OR = {
+				AND = {
+					maetia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					caixol_river_delta_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					briiyan_coast_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					cothonia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				AND = {
+					south_narcetia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					north_narcetia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					itira_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					condelatium_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+			
+		}
+		effect = {
+			change_tag = LET
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 5
+			greater_cothonia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			acryllian_coast_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			maetian_coast_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			caixol_river_delta_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			pearlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			dianeth_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			maetia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LET
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+	forming_the_cape = {
+		major = yes
+		potential = {
+			NOT = { tag = CAP }
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+			OR = {
+				culture_group = capic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = cayyos_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = CAP }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			stability = 3
+			cayyos_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			development_in_provinces = {
+				value = 250
+				superregion = cape_of_good_fortune_superregion
+			}
+		}
+		effect = {
+			change_tag = CAP
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 4
+			cape_of_good_fortune_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAP
+			}
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 50
+	}
+	
+}

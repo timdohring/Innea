@@ -1,0 +1,15 @@
+add_core = ORH
+owner = ORH
+controller = ORH
+culture = anvan
+religion = ashar
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 4
+
+trade_goods = salt
+capital = "Ilgorak"
+is_city = yes
+discovered_by = western

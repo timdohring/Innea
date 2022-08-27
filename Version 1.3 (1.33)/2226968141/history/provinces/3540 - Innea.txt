@@ -1,0 +1,11 @@
+culture = avalean
+religion = quatzalotl
+hre = no
+
+base_tax = 1
+base_production = 3
+base_manpower = 1
+
+capital = "Espemathii"
+is_city = yes
+discovered_by = western

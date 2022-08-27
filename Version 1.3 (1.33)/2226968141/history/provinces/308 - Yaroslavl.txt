@@ -1,0 +1,17 @@
+add_core = CLE
+owner = CLE
+controller = CLE
+culture = donairdan
+religion = dochar
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = wool
+capital = "Crai a Lone"
+is_city = yes
+discovered_by = western
+
+

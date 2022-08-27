@@ -1,0 +1,17 @@
+add_core = CAH
+owner = CAH
+controller = CAH
+culture = cahster
+religion = ywakra
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = wool
+capital = "Braevalor"
+is_city = yes
+discovered_by = western
+
+

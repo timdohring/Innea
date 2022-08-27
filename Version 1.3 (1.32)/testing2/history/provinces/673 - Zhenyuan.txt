@@ -1,0 +1,17 @@
+add_core = CID
+owner = CID
+controller = CID
+culture = devan
+religion = springmother
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Naatyr's Keep"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

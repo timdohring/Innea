@@ -1,0 +1,15 @@
+add_core = DZY
+owner = DZY
+controller = DZY
+culture = dzynic
+religion = flame_house
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = fireiron
+capital = "Nor Takhal"
+is_city = yes
+discovered_by = western

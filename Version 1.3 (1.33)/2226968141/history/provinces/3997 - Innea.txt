@@ -1,0 +1,16 @@
+add_core = RVR
+owner = RVR
+controller = RVR
+culture = scarred_one
+religion = blood_cult
+hre = no
+
+base_tax = 9
+base_production = 10
+base_manpower = 12
+
+trade_goods = obsidian
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

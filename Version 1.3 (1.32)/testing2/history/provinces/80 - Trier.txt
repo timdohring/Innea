@@ -1,0 +1,16 @@
+
+add_core = ORM
+owner = ORM
+controller = ORM
+culture = falkish
+religion = church_of_yon
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = horses
+capital = "Ytann"
+is_city = yes
+discovered_by = western

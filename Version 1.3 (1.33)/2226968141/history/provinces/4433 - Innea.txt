@@ -1,0 +1,15 @@
+add_core = REP
+owner = REP
+controller = REP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Raja Rung"
+is_city = yes
+discovered_by = western

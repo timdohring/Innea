@@ -1,0 +1,15 @@
+add_core = MYI
+owner = MYI
+controller = MYI
+culture = taw
+religion = snow_goddess
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = iron
+capital = "Pankya"
+is_city = yes
+discovered_by = western

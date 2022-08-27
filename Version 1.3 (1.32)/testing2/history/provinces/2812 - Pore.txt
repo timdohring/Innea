@@ -1,0 +1,17 @@
+add_core = NTR
+owner = NTR
+controller = NTR
+add_core = PRC
+culture = pirean
+religion = old_doxian
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 6
+
+trade_goods = incense
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

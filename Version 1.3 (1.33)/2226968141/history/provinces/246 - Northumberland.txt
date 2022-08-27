@@ -1,0 +1,17 @@
+add_core = BLA
+owner = BLA
+controller = BLA
+culture = blakkan
+religion = brilthic_church
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western
+
+

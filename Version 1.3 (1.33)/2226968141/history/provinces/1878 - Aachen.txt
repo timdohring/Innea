@@ -1,0 +1,15 @@
+add_core = VEH
+owner = VEH
+controller = VEH
+culture = vehkan
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = "Lagense"
+is_city = yes
+discovered_by = western

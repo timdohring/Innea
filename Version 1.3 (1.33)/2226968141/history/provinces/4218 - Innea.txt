@@ -1,0 +1,15 @@
+add_core = NGX
+owner = NGX
+controller = NGX
+culture = ekweni
+religion = asite
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = chofo
+capital = "iThekhlodlini"
+is_city = yes
+discovered_by = western

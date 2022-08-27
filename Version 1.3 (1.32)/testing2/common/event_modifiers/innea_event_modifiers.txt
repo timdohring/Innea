@@ -1,0 +1,128 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#Innea
+
+
+##################################################
+# Harmonized Modifiers for Ashar
+##################################################
+
+harmonized_shatvili = {
+	production_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_yordic = {
+	land_morale = 0.05	
+	religion = yes
+}
+
+harmonized_megechezd = {
+	global_trade_goods_size_modifier = 0.05
+	religion = yes
+}
+
+harmonized_elven_houses = {
+	global_institution_spread = 0.25
+	religion = yes
+}
+
+harmonized_isht = {
+	global_trade_power = 0.07
+	religion = yes
+}
+
+harmonized_anuidic = {
+	num_accepted_cultures = 2
+	religion = yes
+}
+
+harmonized_kaelthic = {
+	legitimacy = 1	
+	republican_tradition = 0.5
+	devotion = 1
+	horde_unity = 1		
+	meritocracy = 1	
+	religion = yes
+}
+
+harmonized_cults = {
+	years_of_nationalism = -2
+	religion = yes
+}
+
+harmonized_church = {
+	global_tax_modifier = 0.05
+	religion = yes
+}
+
+harmonized_elven_temples = {
+	advisor_cost = -0.05
+	religion = yes
+}
+
+harmonized_all_mothers = {
+	global_unrest = -1.0
+	religion = yes
+}
+
+harmonized_doxian = {
+	merchants = 1
+	religion = yes
+}
+
+harmonized_taurosian = {
+	defensiveness = 0.20
+	religion = yes
+}
+
+#Institution Birthplaces
+birthplace_of_scholasticism = {
+	technology_cost = -0.05
+}
+
+great_dwarven_forge = {
+	trade_goods_size = 1.5
+	build_time = -0.10
+}
+
+birthplace_of_elven_renaissance = {
+	local_development_cost = -0.15
+	great_project_upgrade_cost = -0.10
+}
+
+birthplace_of_printing_press = {
+	local_institution_spread = 0.25
+	improve_relation_modifier = 0.1	
+}
+
+birthplace_of_trading_guilds = {
+	province_trade_power_modifier = 0.1
+	merchants = 1
+}
+
+birthplace_of_statecraft = {
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1	
+}
+
+birthplace_of_imperialism = {
+	administrative_efficiency = 0.05
+	army_tradition = 0.5	
+}
+
+birthplace_of_human_enlightenment = {
+	global_autonomy = -0.1
+	min_autonomy_in_territories = -0.2	
+}
+
+birthplace_of_orcish_renaissance = {
+	allowed_num_of_buildings = 1
+	build_cost = -0.1
+}
+
+starmetal_mine = {
+	trade_goods_size = 0.5
+	production_efficiency = 0.2
+}

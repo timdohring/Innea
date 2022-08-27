@@ -1,0 +1,15 @@
+add_core = KRO
+owner = KRO
+controller = KRO
+culture = kronnish
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "Jearheim"
+is_city = yes
+discovered_by = western

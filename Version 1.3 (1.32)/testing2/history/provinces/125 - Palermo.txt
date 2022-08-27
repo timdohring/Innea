@@ -1,0 +1,19 @@
+#125 - Palermo
+
+
+
+add_core = BOR
+owner = BOR
+controller = BOR
+culture = azqu
+religion = yoneth
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 5
+
+trade_goods = salt
+capital = ""
+is_city = yes
+discovered_by = western

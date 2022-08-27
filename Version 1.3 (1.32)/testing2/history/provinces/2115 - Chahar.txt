@@ -1,0 +1,17 @@
+add_core = DMO
+owner = DMO
+controller = DMO
+culture = joma
+religion = shatvili
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 11
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

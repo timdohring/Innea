@@ -1,0 +1,16 @@
+add_core = SAA
+owner = SAA
+controller = SAA
+add_core = ASL
+culture = ashrunner
+religion = blood_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Muhul"
+is_city = yes
+discovered_by = western

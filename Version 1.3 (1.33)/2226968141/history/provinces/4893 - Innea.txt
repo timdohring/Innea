@@ -1,0 +1,16 @@
+add_core = ZHU
+owner = ZHU
+controller = ZHU
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 8
+base_manpower = 9
+
+trade_goods = beer
+capital = "Sanyu"
+is_city = yes
+discovered_by = western
+fort_15th = yes

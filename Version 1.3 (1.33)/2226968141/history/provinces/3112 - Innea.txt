@@ -1,0 +1,16 @@
+add_core = YEM
+owner = YEM
+controller = YEM
+culture = karu
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = marble
+capital = "Daraysh"
+is_city = yes
+discovered_by = western
+ fort_15th = yes

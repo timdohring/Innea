@@ -1,0 +1,15 @@
+add_core = SUY
+owner = SUY
+controller = SUY
+culture = suyeol
+religion = shao
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = honey
+capital = "Jeonchon"
+is_city = yes
+discovered_by = western

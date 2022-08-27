@@ -1,0 +1,15 @@
+add_core = LIM
+owner = LIM
+controller = LIM
+culture = aelean
+religion = syllari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Estasil"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = QUF
+owner = QUF
+controller = QUF
+culture = slaver
+religion = shuri
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Hasha"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 195 82 29 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Narsis #0" = 1
+	"Ara #0" = 1
+	"Aban #0" = 1
+	"Kalon #0" = 1
+	"Navahran #0" = 1
+	"Antrisart #0" = 1
+	"Vakah #0" = 1
+	"Mnatson #0" = 1
+	"Varbar #0" = 1
+	"Sahom #0" = 1
+	"Yezan #0" = 1
+	"Anastas #0" = 1
+	"Arzom #0" = 1
+	"Yeretav #0" = 1
+	"Vatavaloj #0" = 1
+	"Dashyn #0" = 1
+	"Beveram #0" = 1
+	"Takha #0" = 1
+	"Ashat #0" = 1
+	"Hrad #0" = 1
+
+	"Hnazant" = -1
+	"Voslva" = -1
+	"Khoara" = -1
+	"Davedis" = -1
+	"Dzamaer" = -1
+	"Penyamin" = -1
+	"Vatapa" = -1
+	"Maran" = -1
+	"Argosa" = -1
+	"Khnava" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

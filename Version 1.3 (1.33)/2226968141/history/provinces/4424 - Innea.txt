@@ -1,0 +1,16 @@
+add_core = LPH
+owner = LPH
+controller = LPH
+culture = banglan
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = blue_copper
+capital = "Luong Ratchat"
+is_city = yes
+discovered_by = western
+fort_15th = yes

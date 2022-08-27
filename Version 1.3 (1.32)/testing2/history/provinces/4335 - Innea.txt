@@ -1,0 +1,15 @@
+add_core = KOR
+owner = KOR
+controller = KOR
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = obsidian
+capital = "Hrankovic"
+is_city = yes
+discovered_by = western

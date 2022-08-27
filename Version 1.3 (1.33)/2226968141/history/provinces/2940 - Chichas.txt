@@ -1,0 +1,16 @@
+add_core = SAF
+owner = SAF
+controller = SAF
+add_core = MRM
+culture = mersic
+religion = horsemother
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = grain
+capital = "Bodmar"
+is_city = yes
+discovered_by = western

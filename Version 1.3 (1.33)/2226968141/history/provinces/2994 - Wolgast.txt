@@ -1,0 +1,15 @@
+add_core = SHP
+owner = SHP
+controller = SHP
+culture = jhistan
+religion = shuri
+hre = yes
+
+base_tax = 7
+base_production = 7
+base_manpower = 6
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

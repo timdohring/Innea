@@ -1,0 +1,19 @@
+add_core = NEW
+owner = NEW
+controller = NEW
+culture = bottian
+religion = ywakra
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 7
+
+trade_goods = naval_supplies
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes
+
+

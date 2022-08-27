@@ -1,0 +1,15 @@
+add_core = RAT
+owner = RAT
+controller = RAT
+culture = qalari
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 9
+base_manpower = 8
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

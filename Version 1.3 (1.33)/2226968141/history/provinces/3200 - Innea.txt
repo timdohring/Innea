@@ -1,0 +1,15 @@
+add_core = KHS
+owner = KHS
+controller = KHS
+culture = delean
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Taanbr"
+is_city = yes
+discovered_by = western

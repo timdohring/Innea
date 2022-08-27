@@ -1,0 +1,15 @@
+add_core = SYU
+owner = SYU
+controller = SYU
+culture = yun
+religion = conhayna
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Lucho"
+is_city = yes
+discovered_by = western

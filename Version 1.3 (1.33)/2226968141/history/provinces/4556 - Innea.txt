@@ -1,0 +1,16 @@
+add_core = SDL
+owner = SDL
+controller = SDL
+culture = askyan
+religion = three_moons
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = rice
+capital = "Kensu"
+is_city = yes
+discovered_by = western
+fort_15th = yes

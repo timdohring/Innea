@@ -1,0 +1,15 @@
+add_core = SUY
+owner = SUY
+controller = SUY
+culture = suyeol
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = naval_supplies
+capital = "Daecheol"
+is_city = yes
+discovered_by = western

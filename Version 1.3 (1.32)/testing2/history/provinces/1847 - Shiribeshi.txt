@@ -1,0 +1,15 @@
+add_core = KVI
+owner = KVI
+controller = KVI
+culture = kvin
+religion = yorik
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = wool
+capital = "Alveron"
+is_city = yes
+discovered_by = western

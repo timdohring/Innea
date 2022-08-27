@@ -1,0 +1,18 @@
+
+add_core = MAL
+owner = MAL
+controller = MAL
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 12
+base_production = 10
+base_manpower = 11
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

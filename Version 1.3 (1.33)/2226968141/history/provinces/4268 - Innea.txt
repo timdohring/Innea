@@ -1,0 +1,15 @@
+add_core = WAI
+owner = WAI
+controller = WAI
+culture = waikaram
+religion = ator
+hre = no
+
+base_tax = 8
+base_production = 6
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Yper"
+is_city = yes
+discovered_by = western

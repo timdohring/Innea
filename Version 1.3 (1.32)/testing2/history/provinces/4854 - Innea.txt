@@ -1,0 +1,15 @@
+add_core = DJG
+owner = DJG
+controller = DJG
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = rice
+capital = "Zhangding"
+is_city = yes
+discovered_by = western

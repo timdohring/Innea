@@ -1,0 +1,15 @@
+add_core = CHO
+owner = CHO
+controller = CHO
+culture = qichond
+religion = ashar
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 7
+
+trade_goods = fish
+capital = "Duvochiq"
+is_city = yes
+discovered_by = western

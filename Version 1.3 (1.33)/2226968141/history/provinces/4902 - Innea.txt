@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = ZHG
+culture = zhong
+religion = shao
+hre = no
+
+base_tax = 13
+base_production = 10
+base_manpower = 9
+
+trade_goods = naval_supplies
+capital = "Weijian"
+is_city = yes
+discovered_by = western
+fort_15th = yes

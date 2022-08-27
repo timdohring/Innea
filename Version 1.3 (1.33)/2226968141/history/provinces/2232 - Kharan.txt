@@ -1,0 +1,15 @@
+add_core = NUV
+owner = NUV
+controller = NUV
+culture = naavan
+religion = dead_house
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 5
+
+trade_goods = honey
+capital = "Elvaan"
+is_city = yes
+discovered_by = western

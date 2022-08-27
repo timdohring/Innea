@@ -1,0 +1,16 @@
+add_core = NGH
+owner = NGH
+controller = NGH
+culture = nightlandic
+religion = moon_cult
+hre = no
+
+base_tax = 8
+base_production = 12
+base_manpower = 9
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

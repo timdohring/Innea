@@ -1,0 +1,15 @@
+add_core = HZI
+owner = HZI
+controller = HZI
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 11
+
+trade_goods = porcelain
+capital = "Haizi"
+is_city = yes
+discovered_by = western

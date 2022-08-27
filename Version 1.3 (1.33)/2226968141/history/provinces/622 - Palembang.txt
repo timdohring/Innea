@@ -1,0 +1,18 @@
+add_core = GAL
+owner = GAL
+controller = GAL
+culture = laquis
+religion = paisadox
+hre = no
+
+base_tax = 13
+base_production = 11
+base_manpower = 13
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

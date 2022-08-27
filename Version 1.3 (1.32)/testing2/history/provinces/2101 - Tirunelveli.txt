@@ -1,0 +1,15 @@
+add_core = DWE
+owner = DWE
+controller = DWE
+culture = gangyz
+religion = blood_cult
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 5
+
+trade_goods = slaves
+capital = "Dwenu"
+is_city = yes
+discovered_by = western

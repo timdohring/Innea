@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 44  51  65 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Thrak #0" = 1
+	"Bokan #0" = 1
+	"Usgrim #0" = 1
+	"Thumrad #0" = 1
+	"Thradror #0" = 1
+	"Nurak #0" = 1
+	"Thagga #0" = 1
+	"Grolmum #0" = 1
+	"Kras #0" = 1
+	"Jorhag #0" = 1
+	"Hemek #0" = 1
+	"Weradd #0" = 1
+	"Broun #0" = 1
+	"Nokran #0" = 1
+	"Tores #0" = 1
+	"Gradth #0" = 1
+	"Kirat #0" = 1
+	"Frekar #0" = 1
+	"Yanma #0" = 1
+	"Strota #0" = 1
+
+	"Yundrae" = -1
+	"Whurhan" = -1
+	"Bosdrogi" = -1
+	"Nufama" = -1
+	"Tholga" = -1
+	"Kratmi" = -1
+	"Drithal" = -1
+	"Belynn" = -1
+	"Arfea" = -1
+	"Golrown" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

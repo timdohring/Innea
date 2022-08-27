@@ -1,0 +1,55 @@
+namespace = starmetal_events
+
+province_event = {
+	id = starmetal_events.1
+	title = "starmetal_events.1.t"
+	desc = "starmetal_events.1.d"
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	
+	trigger = {
+		development = 25
+		OR = {
+			province_id = 2884
+			province_id = 1005
+			province_id = 2829
+			province_id = 2746
+			province_id = 3854
+			province_id = 3375
+			province_id = 3824
+			province_id = 3364
+			province_id = 2966
+			province_id = 810
+			province_id = 714
+			province_id = 2629
+			province_id = 521
+			province_id = 2220
+			province_id = 2171
+			province_id = 2129
+			province_id = 2128
+			province_id = 1875
+			province_id = 2054
+			province_id = 2030
+			province_id = 1788
+			province_id = 1797
+			province_id = 1822
+			province_id = 1839
+			province_id = 1856
+			province_id = 355
+			province_id = 300
+			province_id = 122
+			province_id = 34
+		}
+		starmetal = 100
+		OWNER = { has_institution = starmetal }
+		NOT = { trade_goods = starmetals }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "starmetal_events.1.a"
+		FROM = { change_trade_goods = starmetals }
+	}
+}

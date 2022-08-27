@@ -1,0 +1,15 @@
+add_core = BKK
+owner = BKK
+controller = BKK
+culture = shei_kar
+religion = death_cult
+hre = no
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Kozkis"
+is_city = yes
+discovered_by = western

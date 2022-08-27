@@ -1,0 +1,15 @@
+add_core = BHO
+owner = BHO
+controller = BHO
+culture = rakar
+religion = death_cult
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = copper
+capital = "Abarix"
+is_city = yes
+discovered_by = western

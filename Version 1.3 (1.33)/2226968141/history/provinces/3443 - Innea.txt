@@ -1,0 +1,17 @@
+add_core = BEG
+owner = BEG
+controller = BEG
+culture = bengahri
+religion = ojal
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 9
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

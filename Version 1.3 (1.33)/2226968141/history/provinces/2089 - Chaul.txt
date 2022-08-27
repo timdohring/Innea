@@ -1,0 +1,15 @@
+add_core = BKW
+owner = BKW
+controller = BKW
+culture = ogol
+religion = ashar
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = tea
+capital = ""
+is_city = yes
+discovered_by = western

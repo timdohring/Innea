@@ -1,0 +1,12 @@
+culture = ononda
+religion = lakemother
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Waomono"
+is_city = yes
+discovered_by = western

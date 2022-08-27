@@ -1,0 +1,15 @@
+add_core = NEF
+owner = NEF
+controller = NEF
+culture = khimut
+religion = ametic
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = marble
+capital = "Menouth-Hyet"
+is_city = yes
+discovered_by = western

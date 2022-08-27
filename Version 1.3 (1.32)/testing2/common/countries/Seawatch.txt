@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {   126 147 196  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Arvein #0" = 1
+	"Beled #0" = 1
+	"Dalthio #0" = 1
+	"Dered #0" = 1
+	"Edrin #0" = 1
+	"Serim #0" = 1
+	"Methan #0" = 1
+	"Seneth #0" = 1
+	"Tonave #0" = 1
+	"Sentar #0" = 1
+	"Peledrion #0" = 1
+	"Pelanad #0" = 1
+	"Eilon #0" = 1
+	"Egon #0" = 1
+	"Umunel #0" = 1
+	"Neloraen #0" = 1
+	"Estor #0" = 1
+	"Tendor #0" = 1
+	"Emad #0" = 1
+	"Deledion #0" = 1
+	"Telon #0" = 1
+	"Kelret #0" = 1
+	"Kelm #0" = 1
+	"Lenthir #0" = 1
+	"Oreses #0" = 1
+	"Eiath #0" = 1
+	"Eitar #0" = 1
+	"Kinsim #0" = 1
+	"Ewir #0" = 1
+	"Elon #0" = 1
+
+	"Anelle" = -1
+	"Kinura" = -1
+	"Eirin" = -1
+	"Eilin" = -1
+	"Ohape" = -1
+	"Umoin" = -1
+	"Penadil" = -1
+	"Hasuriona" = -1
+	"Telade" = -1
+	"Eita" = -1
+	"Eia" = -1
+	"Leondi" = -1
+	"Kelra" = -1
+	"Seramina" = -1
+	"Metho" = -1
+	"Tonovo" = -1
+	"Ontap" = -1
+	"Pelanas" = -1
+	"Eisten" = -1
+	"Madissin" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = DEG
+owner = DEG
+controller = DEG
+culture = degani
+religion = sun_cult
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 6
+
+trade_goods = iron
+capital = "Ntsiipik"
+is_city = yes
+discovered_by = western

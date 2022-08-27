@@ -1,0 +1,15 @@
+add_core = BOE
+owner = BOE
+controller = BOE
+culture = boern
+religion = yorik
+hre = no
+
+base_tax = 2
+base_production = 5
+base_manpower = 5
+
+trade_goods = iron
+capital = "Bargengard"
+is_city = yes
+discovered_by = western

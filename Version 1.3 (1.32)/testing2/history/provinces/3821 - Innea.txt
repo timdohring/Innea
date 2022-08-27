@@ -1,0 +1,17 @@
+add_core = ISO
+owner = ISO
+controller = ISO
+culture = isoli
+religion = ishuli
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 11
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

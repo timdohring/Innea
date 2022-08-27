@@ -1,0 +1,16 @@
+add_core = TVS
+owner = TVS
+controller = TVS
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 7
+
+trade_goods = coal
+capital = "Hearthwood"
+is_city = yes
+discovered_by = western
+fort_15th = yes

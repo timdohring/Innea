@@ -1,0 +1,15 @@
+add_core = HNM
+owner = HNM
+controller = HNM
+culture = nam
+religion = bharatvadu
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = rice
+capital = "Ngan Loa"
+is_city = yes
+discovered_by = western

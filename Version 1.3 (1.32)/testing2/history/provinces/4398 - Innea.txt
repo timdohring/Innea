@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = khuchang_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Makhon Prae"
+is_city = yes
+discovered_by = western

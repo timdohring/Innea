@@ -1,0 +1,17 @@
+add_core = ATO
+owner = ATO
+controller = ATO
+culture = atobanaki
+religion = lakemother
+hre = no
+
+base_tax = 17
+base_production = 14
+base_manpower = 14
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

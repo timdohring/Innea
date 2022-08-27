@@ -1,0 +1,15 @@
+add_core = KAF
+owner = KAF
+controller = KAF
+culture = wayn
+religion = the_one_truth
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = grain
+capital = "Veritrude"
+is_city = yes
+discovered_by = western

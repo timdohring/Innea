@@ -1,0 +1,15 @@
+add_core = LAS
+owner = LAS
+controller = LAS
+culture = lashu
+religion = ametic
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 7
+
+trade_goods = dyes
+capital = "Larzi"
+is_city = yes
+discovered_by = western

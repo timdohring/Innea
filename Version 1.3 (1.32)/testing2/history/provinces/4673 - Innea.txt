@@ -1,0 +1,15 @@
+add_core = BUG
+owner = BUG
+controller = BUG
+culture = suyeol
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = iron
+capital = "Jangsuk"
+is_city = yes
+discovered_by = western

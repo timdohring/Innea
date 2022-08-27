@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = phit_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 7
+
+trade_goods = springwater
+capital = "Phitsung"
+is_city = yes
+discovered_by = western

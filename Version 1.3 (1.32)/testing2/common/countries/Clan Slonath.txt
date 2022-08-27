@@ -1,0 +1,100 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 87  92  104 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Adaidh" = 1
+	"Ailig" = 1
+	"Amhlai" = 1 
+	"Askill" = 1 
+	"Beister" = 1 
+	"Coisen" = 1 
+	"Conn" = 1 
+	"Cormag" = 1 
+	"Deor" = 1 
+	"Dubh" = 1
+	"Ealar" = 1 
+	"Ellair" = 1 
+	"Frang" = 1 
+	"Goiri" = 1 
+	"Harail" = 1 
+	"Iagan" = 1 
+	"Lachlar" = 1 
+	"Niall" = 1 
+	"Oilbhean" = 1 
+	"Padar" = 1 
+	"Hrafnu" = 1
+
+	"Ailis" = -1
+	"Aofie" = -1 
+	"Aingealag" = -1 
+	"Beileag" = -1 
+	"Beasar" = -1 
+	"Betidh" = -1 
+	"Calaminag" = -1
+	"Cairit" = -1 
+	"Cursta" = -1 
+	"Deirdre" = -1 
+	"Deonaidh" = -1 
+	"Elsaid" = -1 
+	"Gormlass" = -1 
+	"Lucra" = -1 
+	"Mor" = -1 
+	"Milreach" = -1 
+	"Raghna" = -1 
+	"Rut" = -1 
+	"Stineag" = -1 
+	"Teasag" = -1 
+	"Una" = -1
+}
+
+leader_names = {
+	
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

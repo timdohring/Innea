@@ -1,0 +1,15 @@
+add_core = AMD
+owner = AMD
+controller = AMD
+culture = key_islander
+religion = shuri
+hre = no
+
+base_tax = 9
+base_production = 11
+base_manpower = 7
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

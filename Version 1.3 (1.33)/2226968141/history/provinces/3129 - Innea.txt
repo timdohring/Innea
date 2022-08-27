@@ -1,0 +1,15 @@
+add_core = AKK
+owner = AKK
+controller = AKK
+culture = akkad
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Manjibril"
+is_city = yes
+discovered_by = western

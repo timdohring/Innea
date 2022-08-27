@@ -1,0 +1,15 @@
+add_core = FLU
+owner = FLU
+controller = FLU
+culture = riverwood_elf
+religion = springmother
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = naval_supplies
+capital = "Wonten"
+is_city = yes
+discovered_by = western

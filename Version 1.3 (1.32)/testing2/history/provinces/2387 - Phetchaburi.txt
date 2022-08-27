@@ -1,0 +1,15 @@
+add_core = PEA
+owner = PEA
+controller = PEA
+culture = mokta
+religion = ejje_nvek
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = ships
+capital = "Greatshore"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = XA0
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 11
+
+trade_goods = porcelain
+capital = "Wenzhai"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

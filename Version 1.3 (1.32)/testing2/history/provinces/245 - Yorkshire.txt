@@ -1,0 +1,16 @@
+add_core = BLA
+owner = BLA
+controller = BLA
+culture = blakkan
+religion = brilthic_church
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = grain
+capital = "Cottle"
+is_city = yes
+discovered_by = western
+

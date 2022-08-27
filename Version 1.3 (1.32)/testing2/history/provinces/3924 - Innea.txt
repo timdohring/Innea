@@ -1,0 +1,15 @@
+add_core = NAC
+owner = NAC
+controller = NAC
+culture = nacin
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = salt
+capital = "Soknassa"
+is_city = yes
+discovered_by = western

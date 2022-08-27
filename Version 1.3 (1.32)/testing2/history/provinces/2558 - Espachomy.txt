@@ -1,0 +1,15 @@
+add_core = BOK
+owner = BOK
+controller = BOK
+culture = boek
+religion = ewafari_temple
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = fungi
+capital = "Londir"
+is_city = yes
+discovered_by = western

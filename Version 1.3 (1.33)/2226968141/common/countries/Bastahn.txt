@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {73  152  76  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Abadesar #0" = 1
+	"Adei #0" = 1
+	"Atikadar #0" = 1
+	"Ayz #0" = 1
+	"Benour #0" = 1
+	"Benchakr #0" = 1
+	"Chif #0" = 1
+	"Dedazoun #0" = 1
+	"Zouna #0" = 1
+	"Ghousam #0" = 1
+	"Hajdou #0" = 1
+	"Hmidri #0" = 1
+	"Jboundi #0" = 1
+	"Khatfi #0" = 1
+	"Mamound #0" = 1
+	"Moafis #0" = 1
+	"Najou #0" = 1
+	"Ousram #0" = 1
+	"Rahid #0" = 1
+	"Souf #0" = 1
+
+	"Anjoura" = -1
+	"Asse" = -1
+	"Basmche" = -1
+	"Chaima" = -1
+	"Fatou" = -1
+	"Ghonifa" = -1
+	"Hadara" = -1
+	"Kaimaj" = -1
+	"Jamilia" = -1
+	"Maroua" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

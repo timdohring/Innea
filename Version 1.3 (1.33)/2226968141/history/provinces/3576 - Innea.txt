@@ -1,0 +1,17 @@
+add_core = VEX
+owner = VEX
+controller = VEX
+culture = vexed
+religion = manolic
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 13
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

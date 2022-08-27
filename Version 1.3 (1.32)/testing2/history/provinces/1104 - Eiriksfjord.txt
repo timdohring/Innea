@@ -1,0 +1,16 @@
+add_core = COT
+add_core = ALE
+owner = COT
+controller = COT
+culture = alletanian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = fruit
+capital = "Denturii"
+is_city = yes
+discovered_by = western

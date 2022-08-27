@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {196  126  126 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Taajhir #0" = 1
+	"Naifder #0" = 1
+	"Boncob #0" = 1
+	"Danag #0" = 1
+	"Bacyaya #0" = 1
+	"Aleeha #0" = 1
+	"Ghasim #0" = 1
+	"Sharkari #0" = 1
+	"Elkop #0" = 1
+	"Benderto #0" = 1
+	"Rushaad #0" = 1
+	"Sju #0" = 1
+	"Elibaan #0" = 1
+	"Bugong #0" = 1
+	"Putib #0" = 1
+	"Raabin #0" = 1
+	"Taqaan #0" = 1
+	"Sagapli #0" = 1
+	"Aguntan #0" = 1
+	"Yaag #0" = 1
+
+	"Lateeha" = -1
+	"Nussha" = -1
+	"Sumayy" = -1
+	"Watjah" = -1
+	"Masiam" = -1
+	"Naaieela" = -1
+	"Anineem" = -1
+	"Nastini" = -1
+	"Surinew" = -1
+	"Nawa" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = EHR
+owner = EHR
+controller = EHR
+culture = fuan
+religion = abai
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = fish
+capital = "Danad"
+is_city = yes
+discovered_by = western

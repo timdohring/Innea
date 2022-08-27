@@ -1,0 +1,15 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = rettar
+religion = the_one_truth
+hre = no
+
+base_tax = 7
+base_production = 11
+base_manpower = 8
+
+trade_goods = iron
+capital = "Ansol Mine"
+is_city = yes
+discovered_by = western

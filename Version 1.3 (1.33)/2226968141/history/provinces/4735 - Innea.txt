@@ -1,0 +1,15 @@
+add_core = SUY
+owner = SUY
+controller = SUY
+culture = suyeol
+religion = shao
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Seonsul"
+is_city = yes
+discovered_by = western

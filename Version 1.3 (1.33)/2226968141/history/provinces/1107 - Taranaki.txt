@@ -1,0 +1,18 @@
+add_core = ACR
+add_core = SNY
+owner = ACR
+controller = ACR
+culture = snyd
+religion = the_one_truth
+hre = no
+
+add_core = VEG
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = slaves
+capital = "Kesswall"
+is_city = yes
+discovered_by = western

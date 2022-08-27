@@ -1,0 +1,17 @@
+add_core = QAT
+owner = QAT
+controller = QAT
+culture = slaver
+religion = shuri
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 13
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

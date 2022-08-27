@@ -1,0 +1,15 @@
+add_core = JAT
+owner = JAT
+controller = JAT
+culture = panarak
+religion = yonjorr
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = fur
+capital = "Stosak"
+is_city = yes
+discovered_by = western

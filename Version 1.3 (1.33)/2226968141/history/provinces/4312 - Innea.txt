@@ -1,0 +1,16 @@
+add_core = AHJ
+owner = AHJ
+controller = AHJ
+culture = ahjut
+religion = ojal
+hre = no
+
+base_tax = 14
+base_production = 11
+base_manpower = 10
+
+trade_goods = ivory
+capital = "Kanotabad"
+is_city = yes
+discovered_by = western
+center_of_trade = 2

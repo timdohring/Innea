@@ -1,0 +1,15 @@
+add_core = QAR
+owner = QAR
+controller = QAR
+culture = qar
+religion = abai
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = incense
+capital = "Unn Hajar"
+is_city = yes
+discovered_by = western

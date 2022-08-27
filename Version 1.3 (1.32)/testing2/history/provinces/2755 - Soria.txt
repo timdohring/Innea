@@ -1,0 +1,17 @@
+add_core = WAN
+owner = WAN
+controller = WAN
+culture = wangouwean
+religion = lakemother
+hre = no
+
+base_tax = 13
+base_production = 11
+base_manpower = 14
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

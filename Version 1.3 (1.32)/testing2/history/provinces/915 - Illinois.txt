@@ -1,0 +1,15 @@
+add_core = RET
+owner = RET
+controller = RET
+culture = rettar
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Iriscas"
+is_city = yes
+discovered_by = western

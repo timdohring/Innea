@@ -1,0 +1,17 @@
+# 87 Calais - Principal cities: Calais
+
+add_core = MAL
+owner = MAL
+controller = MAL
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western

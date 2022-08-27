@@ -1,0 +1,15 @@
+add_core = GHO
+owner = GHO
+controller = GHO
+culture = bagda
+religion = the_word
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 8
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western

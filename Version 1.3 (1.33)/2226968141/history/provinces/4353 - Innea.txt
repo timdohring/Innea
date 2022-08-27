@@ -1,0 +1,17 @@
+add_core = HNM
+owner = HNM
+controller = HNM
+culture = nam
+religion = bharatvadu
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 13
+
+trade_goods = silk
+capital = "Hung Bao"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

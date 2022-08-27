@@ -1,0 +1,16 @@
+add_core = MIS
+owner = MIS
+controller = MIS
+culture = misral
+religion = shuri
+hre = yes
+
+base_tax = 6
+base_production = 6
+base_manpower = 5
+
+trade_goods = fish
+capital = "Asreida"
+is_city = yes
+discovered_by = western
+fort_15th = yes

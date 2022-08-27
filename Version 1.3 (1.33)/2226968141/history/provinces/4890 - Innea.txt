@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = zhu
+religion = shao
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 6
+
+trade_goods = naval_supplies
+capital = "Yande"
+is_city = yes
+discovered_by = western

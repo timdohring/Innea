@@ -1,0 +1,15 @@
+add_core = DMT
+owner = DMT
+controller = DMT
+culture = rohgii
+religion = the_mist
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 9
+
+trade_goods = crystal
+capital = "The Arkulaj"
+is_city = yes
+discovered_by = western

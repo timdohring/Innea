@@ -1,0 +1,16 @@
+add_core = LAS
+owner = LAS
+controller = LAS
+culture = lashu
+religion = asite
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = incense
+capital = "Isidu"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = SIK
+owner = SIK
+controller = SIK
+culture = kapo
+religion = bharatvadu
+hre = no
+
+base_tax = 15
+base_production = 14
+base_manpower = 14
+
+trade_goods = paper
+capital = "Kampong"
+is_city = yes
+discovered_by = western

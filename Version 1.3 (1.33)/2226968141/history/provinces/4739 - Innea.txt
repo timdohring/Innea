@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = JON
+culture = jong
+religion = shao
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = honey
+capital = "Zidu"
+is_city = yes
+discovered_by = western
+fort_15th = yes

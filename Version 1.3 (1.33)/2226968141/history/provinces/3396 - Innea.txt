@@ -1,0 +1,15 @@
+add_core = VIJ
+owner = VIJ
+controller = VIJ
+culture = lojani
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = sugar
+capital = "Phugar"
+is_city = yes
+discovered_by = western

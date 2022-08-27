@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = north_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = stone
+capital = "Ceralada"
+is_city = yes
+discovered_by = western

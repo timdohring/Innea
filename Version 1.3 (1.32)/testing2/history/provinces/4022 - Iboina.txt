@@ -1,0 +1,16 @@
+add_core = AHK
+owner = AHK
+controller = AHK
+culture = slaver
+religion = shuri
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 4
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

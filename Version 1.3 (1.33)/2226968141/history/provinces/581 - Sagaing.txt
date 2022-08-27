@@ -1,0 +1,15 @@
+add_core = GRA
+owner = GRA
+controller = GRA
+culture = graylen
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = grain
+capital = "New Asson"
+is_city = yes
+discovered_by = western

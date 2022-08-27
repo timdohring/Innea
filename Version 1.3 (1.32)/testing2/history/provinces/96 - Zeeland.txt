@@ -1,0 +1,17 @@
+# 96 Zeeland - Principal cities: Middelburg, Vlissingen & Zierikzee
+
+add_core = ORK
+owner = ORK
+controller = ORK
+culture = ryykan
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 8
+
+trade_goods = livestock
+capital = "Ryykhelm"
+is_city = yes
+discovered_by = western

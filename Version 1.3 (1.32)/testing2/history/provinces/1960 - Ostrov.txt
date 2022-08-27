@@ -1,0 +1,16 @@
+add_core = NAS
+owner = NAS
+controller = NAS
+culture = treddan
+religion = ashar
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 11
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

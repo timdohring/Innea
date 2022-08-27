@@ -1,0 +1,5 @@
+1444.1.1 = { emperor = AKK }
+
+1444.1.1 = {
+    celestial_emperor = B4N
+}

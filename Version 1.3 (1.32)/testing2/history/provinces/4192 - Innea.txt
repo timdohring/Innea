@@ -1,0 +1,15 @@
+add_core = ISH
+owner = ISH
+controller = ISH
+culture = agadian
+religion = ametic
+hre = no
+
+base_tax = 8
+base_production = 7
+base_manpower = 9
+
+trade_goods = dyes
+capital = "Ish"
+is_city = yes
+discovered_by = western

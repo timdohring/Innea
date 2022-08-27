@@ -1,0 +1,18 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = south_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 19
+base_production = 16
+base_manpower = 18
+
+trade_goods = glass
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

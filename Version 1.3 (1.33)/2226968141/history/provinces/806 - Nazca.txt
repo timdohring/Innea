@@ -1,0 +1,17 @@
+add_core = REU
+owner = REU
+controller = REU
+culture = reuth
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = iron
+capital = "Cobblerbridge"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

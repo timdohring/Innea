@@ -1,0 +1,17 @@
+add_core = HET
+owner = HET
+controller = HET
+culture = bagda
+religion = the_word
+hre = no
+
+base_tax = 14
+base_production = 12
+base_manpower = 9
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

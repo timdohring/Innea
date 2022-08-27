@@ -1,0 +1,15 @@
+add_core = LGT
+owner = LGT
+controller = LGT
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = iron
+capital = "Saluthai"
+is_city = yes
+discovered_by = western

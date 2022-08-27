@@ -1,0 +1,19 @@
+# 175 Armagnac - Principal cities: Auch
+
+
+add_core = DIO
+owner = DIO
+controller = DIO
+culture = einish
+religion = celiicean
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fish
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,16 @@
+add_core = REF
+owner = REF
+controller = REF
+culture = slaver
+religion = ametic
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = red_sugar
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

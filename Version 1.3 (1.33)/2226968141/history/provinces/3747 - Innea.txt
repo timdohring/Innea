@@ -1,0 +1,15 @@
+add_core = BHN
+owner = BHN
+controller = BHN
+culture = barahin
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = grain
+capital = "Teraq"
+is_city = yes
+discovered_by = western

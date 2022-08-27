@@ -1,0 +1,16 @@
+add_core = KAS
+owner = KAS
+controller = KAS
+culture = or
+religion = ashar
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 7
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

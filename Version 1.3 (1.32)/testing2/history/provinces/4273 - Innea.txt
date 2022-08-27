@@ -1,0 +1,15 @@
+add_core = CAI
+owner = CAI
+controller = CAI
+culture = caiman
+religion = ator
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = iron
+capital = "Ara"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = MOS
+owner = MOS
+controller = MOS
+culture = mosani
+religion = flame_temple
+hre = no
+
+base_tax = 12
+base_production = 12
+base_manpower = 12
+
+trade_goods = carpets
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

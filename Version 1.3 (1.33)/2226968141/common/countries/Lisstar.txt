@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {  2  135   96 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Whangar #0" = 1
+	"Lisson #0" = 1
+	"Bravord #0" = 1
+	"Nawaz #0" = 1
+	"Makousen #0" = 1
+	"Udas #0" = 1
+	"Brdjen #0" = 1
+	"Afalban #0" = 1
+	"Izuzal #0" = 1
+	"Mastia #0" = 1
+	"Angawas #0" = 1
+	"Amadhil #0" = 1
+	"Cucages #0" = 1
+	"Iwetas #0" = 1
+	"Carhi #0" = 1
+	"Azkiss #0" = 1
+	"Tasguar #0" = 1
+	"Barudas #0" = 1
+	"Ilrux #0" = 1
+	"Agduan #0" = 1
+	"Winni #0" = 1
+	"Tufagay #0" = 1
+	"Hilmu #0" = 1
+	"Akakra #0" = 1
+	"Azregh #0" = 1
+	"Aziz #0" = 1
+	"Merwugh #0" = 1
+	"Madyan #0" = 1
+	"Mihemuk #0" = 1
+	"Gourazul #0" = 1
+
+	"Titse" = -1
+	"Grisyst" = -1
+	"Lundyma" = -1
+	"Bibas" = -1
+	"Tuegsa" = -1
+	"Tatyur" = -1
+	"Ougganout" = -1
+	"Tlelila" = -1
+	"Tinalt" = -1
+	"Toubia" = -1
+	"Dawmal" = -1
+	"Tazssa" = -1
+	"Uderet" = -1
+	"Berwn" = -1
+	"Bellja" = -1
+	"Turmuna" = -1
+	"Qayma" = -1
+	"Tershemass" = -1
+	"Thintran" = -1
+	"Wilalra" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = SHU
+owner = SHU
+controller = SHU
+culture = nakti
+religion = nursari_temple
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = wine
+capital = "Pateke"
+is_city = yes
+discovered_by = western

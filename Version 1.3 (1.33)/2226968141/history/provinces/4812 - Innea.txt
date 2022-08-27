@@ -1,0 +1,16 @@
+add_core = NYU
+owner = NYU
+controller = NYU
+culture = yun
+religion = conhayna
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 9
+
+trade_goods = copper
+capital = "Pujing"
+is_city = yes
+discovered_by = western
+fort_15th = yes

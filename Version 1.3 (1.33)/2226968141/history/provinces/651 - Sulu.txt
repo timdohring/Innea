@@ -1,0 +1,15 @@
+add_core = EDG
+owner = EDG
+controller = EDG
+culture = murrian
+religion = altran_church
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = salt
+capital = "Meander"
+is_city = yes
+discovered_by = western

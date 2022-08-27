@@ -1,0 +1,15 @@
+add_core = VLD
+owner = VLD
+controller = VLD
+culture = tauros
+religion = hammerlord
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+trade_goods = silk
+capital = "Denebueg"
+is_city = yes
+discovered_by = western

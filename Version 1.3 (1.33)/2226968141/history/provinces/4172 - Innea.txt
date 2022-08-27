@@ -1,0 +1,15 @@
+add_core = CRA
+owner = CRA
+controller = CRA
+culture = exiled
+religion = the_coin
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = shellfish
+capital = "Crabben"
+is_city = yes
+discovered_by = western

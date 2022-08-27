@@ -1,0 +1,15 @@
+add_core = MDK
+owner = MDK
+controller = MDK
+culture = oht
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = horses
+capital = "Böröm"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = KNT
+owner = KNT
+controller = KNT
+culture = kanatagu
+religion = lakemother
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = wool
+capital = "Iheku"
+is_city = yes
+discovered_by = western

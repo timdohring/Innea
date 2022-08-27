@@ -1,0 +1,15 @@
+add_core = QAR
+owner = QAR
+controller = QAR
+culture = qar
+religion = abai
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = blackgrain
+capital = "Teriq"
+is_city = yes
+discovered_by = western

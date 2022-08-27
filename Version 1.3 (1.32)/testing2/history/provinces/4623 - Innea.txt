@@ -1,0 +1,15 @@
+add_core = KPN
+owner = KPN
+controller = KPN
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 4
+base_production = 2
+base_manpower = 2
+
+trade_goods = wool
+capital = "Otan"
+is_city = yes
+discovered_by = western

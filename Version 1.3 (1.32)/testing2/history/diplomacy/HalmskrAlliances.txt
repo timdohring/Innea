@@ -1,0 +1,274 @@
+#Anvar
+
+vassal = {
+	first = ANV
+	second = ORH
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = IRO
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = BRI
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = VEH
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = NGO
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = MAZ
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = BWA
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = AKA
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = LOS
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = TRE
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = ADR
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = NAS
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = SHI
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = RAG
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = AMN
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = WHI
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = GAR
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = DOO
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = KAS
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = JAR
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = SKA
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = BOS
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = KOL
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = PAN
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = BLD
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = CHO
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = MAG
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = RON
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = OMA
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = LUK
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = MAU
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = ASH
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = TUL
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = TRS
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = LDA
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = STO
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = SHN
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = BKW
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = GON
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = ULG
+	start_date = 1444.1.1
+}
+
+
+vassal = {
+	first = ANV
+	second = ILB
+	start_date = 1444.1.1
+}
+
+vassal = {
+	first = ANV
+	second = DWE
+	start_date = 1444.1.1
+}

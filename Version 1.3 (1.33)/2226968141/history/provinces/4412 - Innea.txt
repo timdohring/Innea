@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = khuchang_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 9
+
+trade_goods = dyes
+capital = "Ammarat"
+is_city = yes
+discovered_by = western

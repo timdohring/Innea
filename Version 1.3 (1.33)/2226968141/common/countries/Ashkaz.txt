@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 137  98  195 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Rakhar #0" = 1
+	"Ainar #0" = 1
+	"Zatir #0" = 1
+	"Bekir #0" = 1
+	"Lashyr #0" = 1
+	"Saga #0" = 1
+	"Tuman #0" = 1
+	"Ulzhal #0" = 1
+	"Zhan #0" = 1
+	"Halgas #0" = 1
+	"Sulon #0" = 1
+	"Rekvir #0" = 1
+	"Khanba #0" = 1
+	"Beknar #0" = 1
+	"Arkhal #0" = 1
+	"Estbek #0" = 1
+	"Lonmazh #0" = 1
+	"Imurduz #0" = 1
+	"Zarduz #0" = 1
+	"Gazbekar #0" = 1
+	"Ylshek #0" = 1
+	"Dirbar #0" = 1
+	"Mavazhit #0" = 1
+	"Ryslem #0" = 1
+	"Taglam #0" = 1
+	"Tok #0" = 1
+	"Ktar #0" = 1
+	"Yerk #0" = 1
+	"Uzogaz #0" = 1
+	"Byl #0" = 1
+
+	"Ase" = -1
+	"Dilnu" = -1
+	"Hanat" = -1
+	"Aya" = -1
+	"Hakna" = -1
+	"Seyana" = -1
+	"Aina" = -1
+	"Earu" = -1
+	"Dilma" = -1
+	"Karasha" = -1
+	"Gulkhati" = -1
+	"Raushana" = -1
+	"Kmosh" = -1
+	"Ygash" = -1
+	"Salashy" = -1
+	"Shangul" = -1
+	"Yry" = -1
+	"Turula" = -1
+	"Ulmezhe" = -1
+	"Zhulfi" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

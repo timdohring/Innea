@@ -1,0 +1,15 @@
+add_core = HAI
+owner = HAI
+controller = HAI
+culture = tsu
+religion = conhayna
+hre = no
+
+base_tax = 10
+base_production = 12
+base_manpower = 12
+
+trade_goods = magic_goods
+capital = "Towaka"
+is_city = yes
+discovered_by = western

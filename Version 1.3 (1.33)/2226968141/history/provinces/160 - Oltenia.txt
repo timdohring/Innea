@@ -1,0 +1,19 @@
+#160 - Oltenia
+
+
+add_core = SLE
+owner = SLE
+controller = SLE
+culture = slein
+religion = celiicean
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = honey
+capital = "Lacht"
+is_city = yes
+discovered_by = western
+fort_15th = yes

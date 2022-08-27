@@ -1,0 +1,15 @@
+add_core = TUR
+owner = TUR
+controller = TUR
+culture = panarak
+religion = old_yorr
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+trade_goods = copper
+capital = "Kajag"
+is_city = yes
+discovered_by = western

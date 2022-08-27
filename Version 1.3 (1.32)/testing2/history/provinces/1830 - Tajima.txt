@@ -1,0 +1,16 @@
+add_core = ATM
+owner = ATM
+controller = ATM
+culture = minathi
+religion = yorik
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 8
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

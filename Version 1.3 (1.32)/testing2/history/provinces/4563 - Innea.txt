@@ -1,0 +1,15 @@
+add_core = AYE
+owner = AYE
+controller = AYE
+culture = kon
+religion = three_moons
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 14
+
+trade_goods = art
+capital = "Chauy"
+is_city = yes
+discovered_by = western

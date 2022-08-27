@@ -1,0 +1,16 @@
+add_core = ISS
+owner = ISS
+controller = ISS
+culture = tosshan
+religion = iskari_temple
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 4
+
+trade_goods = iron
+capital = "Snowfort"
+is_city = yes
+discovered_by = western
+fort_15th = yes

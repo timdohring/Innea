@@ -1,0 +1,15 @@
+add_core = RED
+owner = RED
+controller = RED
+culture = wayn
+religion = altran_church
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 10
+
+trade_goods = fruit
+capital = "Redde"
+is_city = yes
+discovered_by = western

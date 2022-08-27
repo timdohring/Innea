@@ -1,0 +1,15 @@
+add_core = SON
+owner = SON
+controller = SON
+culture = nisten
+religion = manolic
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = iron
+capital = ""
+is_city = yes
+discovered_by = western

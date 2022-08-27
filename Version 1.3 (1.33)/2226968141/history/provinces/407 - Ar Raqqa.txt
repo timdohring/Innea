@@ -1,0 +1,17 @@
+add_core = FEL
+owner = FEL
+controller = FEL
+culture = duwaring
+religion = blood_cult
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 5
+
+trade_goods = iron
+capital = "Man's Folly"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

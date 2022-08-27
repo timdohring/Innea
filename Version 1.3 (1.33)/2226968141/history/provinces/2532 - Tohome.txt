@@ -1,0 +1,15 @@
+add_core = ROO
+owner = ROO
+controller = ROO
+culture = astaen
+religion = ewafari_temple
+hre = no
+
+base_tax = 6
+base_production = 4
+base_manpower = 7
+
+trade_goods = naval_supplies
+capital = "Celramwin"
+is_city = yes
+discovered_by = western

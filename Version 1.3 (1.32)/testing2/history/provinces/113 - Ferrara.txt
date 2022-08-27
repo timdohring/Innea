@@ -1,0 +1,18 @@
+#113 - Ferrara
+
+
+add_core = LOR
+owner = LOR
+controller = LOR
+culture = haaken
+religion = sea_cult
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 3
+
+trade_goods = slaves
+capital = ""
+is_city = yes
+discovered_by = western

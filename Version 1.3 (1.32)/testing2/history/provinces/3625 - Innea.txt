@@ -1,0 +1,15 @@
+add_core = KHL
+owner = KHL
+controller = KHL
+culture = lheyn
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = ""
+is_city = yes
+discovered_by = western

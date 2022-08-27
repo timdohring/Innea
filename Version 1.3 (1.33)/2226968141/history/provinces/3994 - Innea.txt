@@ -1,0 +1,15 @@
+add_core = SCA
+owner = SCA
+controller = SCA
+culture = scarred_one
+religion = blood_cult
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = obsidian
+capital = "Ga Chod"
+is_city = yes
+discovered_by = western

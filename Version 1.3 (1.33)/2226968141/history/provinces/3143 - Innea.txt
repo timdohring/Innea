@@ -1,0 +1,15 @@
+add_core = UHA
+owner = UHA
+controller = UHA
+culture = hajjid
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 6
+base_manpower = 6
+
+trade_goods = grain
+capital = "Artaween"
+is_city = yes
+discovered_by = western

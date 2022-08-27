@@ -1,0 +1,15 @@
+add_core = JUA
+owner = JUA
+controller = JUA
+culture = juatchac
+religion = ator
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = chofo
+capital = "Be"
+is_city = yes
+discovered_by = western

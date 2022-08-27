@@ -1,0 +1,15 @@
+add_core = MUD
+owner = MUD
+controller = MUD
+culture = ghas
+religion = shuri
+hre = yes
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Dahsriq"
+is_city = yes
+discovered_by = western

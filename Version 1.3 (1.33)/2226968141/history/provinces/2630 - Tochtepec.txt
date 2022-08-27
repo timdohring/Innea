@@ -1,0 +1,15 @@
+add_core = FLS
+owner = FLS
+controller = FLS
+culture = shkar
+religion = nursari_temple
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = wine
+capital = "Krasta"
+is_city = yes
+discovered_by = western

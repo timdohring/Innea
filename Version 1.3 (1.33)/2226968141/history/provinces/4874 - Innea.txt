@@ -1,0 +1,16 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = ZHG
+culture = zhong
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = rice
+capital = "Xingbo"
+is_city = yes
+discovered_by = western

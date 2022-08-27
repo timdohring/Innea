@@ -1,0 +1,88 @@
+b1_aspect = {
+	cost = 100
+	modifier = {
+		reform_progress_growth = 0.5	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b2_aspect = {
+	cost = 100
+	modifier = {
+		yearly_corruption = -0.1	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b3_aspect = {
+	cost = 100
+	modifier = {
+		state_maintenance_modifier = -0.33	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b4_aspect = {
+	cost = 100
+	modifier = {
+		diplomats = 1	
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b5_aspect = {
+	cost = 100
+	modifier = {
+		heavy_ship_cost = -0.30
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b6_aspect = {
+	cost = 100
+	modifier = {
+		cav_to_inf_ratio = 0.2
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b7_aspect = {
+	cost = 100
+	modifier = {
+		drill_gain_modifier = 1.0
+		drill_decay_modifier = -0.1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}
+
+b8_aspect = {
+	cost = 100
+	modifier = {
+		diplomatic_annexation_cost = -0.15
+	}
+	ai_will_do = {
+		factor = 1
+	}
+
+}

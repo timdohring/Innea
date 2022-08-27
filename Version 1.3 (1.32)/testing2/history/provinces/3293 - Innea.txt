@@ -1,0 +1,15 @@
+add_core = HRA
+owner = HRA
+controller = HRA
+culture = pandu
+religion = sukkali
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Kanq"
+is_city = yes
+discovered_by = western

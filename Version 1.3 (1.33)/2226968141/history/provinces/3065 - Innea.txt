@@ -1,0 +1,15 @@
+add_core = RAM
+owner = RAM
+controller = RAM
+culture = yabran
+religion = shuri
+hre = yes
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "As-Rama"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = REF
+owner = REF
+controller = REF
+culture = slaver
+religion = ametic
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Arayyn"
+is_city = yes
+discovered_by = western

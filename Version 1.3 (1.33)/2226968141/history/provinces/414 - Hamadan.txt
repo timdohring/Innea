@@ -1,0 +1,16 @@
+add_core = INA
+owner = INA
+controller = INA
+culture = senar
+religion = syllari_temple
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 11
+
+trade_goods = wine
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,14 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = woodmother
+primary_culture = mahan
+capital = 2490
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+	
+}
+

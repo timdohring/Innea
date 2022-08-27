@@ -1,0 +1,17 @@
+add_core = KSN
+owner = KSN
+controller = KSN
+culture = gohair
+religion = ojal
+hre = no
+
+base_tax = 10
+base_production = 7
+base_manpower = 13
+
+trade_goods = cloth
+capital = "Khasaq"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

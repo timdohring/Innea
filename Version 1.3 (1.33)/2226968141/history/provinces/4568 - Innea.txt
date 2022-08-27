@@ -1,0 +1,16 @@
+add_core = SLI
+owner = SLI
+controller = SLI
+culture = pauthin
+religion = snow_goddess
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+capital = "Paunthul"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 100 24 128}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Muah #0" = 1
+	"Ibrallah #0" = 1
+	"Abdu #0" = 1
+	"Ibhasa #0" = 1
+	"Manraib #0" = 1
+	"Jasul #0" = 1
+	"Muzafiidin #0" = 1
+	"Najdris #0" = 1
+	"Abduq #0" = 1
+	"Mirsmail #0" = 1
+	"Isalib #0" = 1
+	"Haifi #0" = 1
+	"Abqulsha #0" = 1
+	"Quls #0" = 1
+	"Oqorron #0" = 1
+	"Kairidin #1" = 25
+	"Alifun #0" = 1
+	"Jabar #0" = 1
+	"Adrun-Elus #0" = 1
+	"Adrat-Afal #0" = 1
+	"Bek-Jabar #0" = 1
+	"Bel-Fatr #0" = 1
+	"Sadi #0" = 1
+	"Idiziz #0" = 1
+	"Abulid #0" = 1
+	"Mauhbra #0" = 1
+	"Nasir #0" = 1
+	"Josephir #0" = 1
+	"Jibrun #0" = 1
+	"Abdakir #0" = 1
+
+	"Naidid" = -1
+	"Taksmin" = -1
+	"Shamarand" = -1
+	"Ameshal" = -1
+	"Resatug" = -1
+	"Khaira" = -1
+	"Usha" = -1
+	"Maryna" = -1
+	"Tagahba" = -1
+	"Jaba" = -1
+	"Ewoli" = -1
+	"Laylasa" = -1
+	"Nafira" = -1
+	"Shahzad" = -1
+	"Ussawa" = -1
+	"Wala" = -1
+	"Shota" = -1
+	"Sabakal" = -1
+	"Askira" = -1
+	"Souza" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

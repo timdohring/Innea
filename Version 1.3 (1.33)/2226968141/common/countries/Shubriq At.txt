@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 199  175  12}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Nurad #0" = 1
+	"Abeli #0" = 1
+	"Ala #0" = 1
+	"Shontar #0" = 1
+	"Ab-Akar #0" = 1
+	"Ab-Hata #0" = 1
+	"Ab-Shuba #0" = 1
+	"Ab-Esiq #0" = 1
+	"Muzaridin #0" = 1
+	"Atah #0" = 1
+	"Menara #0" = 1
+	"Shutariq #0" = 1
+	"Farew #0" = 1
+	"Weswew #0" = 1
+	"Afrahadin #0" = 1
+	"Elsahadin #0" = 1
+	"Musrahadin #0" = 1
+	"Esquiq #0" = 1
+	"Kenar #0" = 1
+	"Ulsman #0" = 1
+
+	"Khama" = -1
+	"Aswi" = -1
+	"Wia" = -1
+	"Shutra" = -1
+	"Pawmara" = -1
+	"Rafina" = -1
+	"Afina" = -1
+	"Mara" = -1
+	"Mahdala" = -1
+	"Aseina" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

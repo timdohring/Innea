@@ -1,0 +1,18 @@
+#44 - Hamburg
+
+
+add_core = TOR
+owner = TOR
+controller = TOR
+culture = bjorming
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = fur
+capital = ""
+is_city = yes
+discovered_by = western

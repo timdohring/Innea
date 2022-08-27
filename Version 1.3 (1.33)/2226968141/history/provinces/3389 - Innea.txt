@@ -1,0 +1,15 @@
+add_core = RLO
+owner = RLO
+controller = RLO
+culture = pardho
+religion = ojal
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = wool
+capital = "Sonipat"
+is_city = yes
+discovered_by = western

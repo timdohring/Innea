@@ -1,0 +1,15 @@
+add_core = UTE
+owner = UTE
+controller = UTE
+culture = teyan
+religion = star_house
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = grain
+capital = "Kel-Rapas"
+is_city = yes
+discovered_by = western

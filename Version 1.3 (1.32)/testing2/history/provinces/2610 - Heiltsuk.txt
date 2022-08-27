@@ -1,0 +1,16 @@
+add_core = LIB
+owner = LIB
+controller = LIB
+culture = dinari
+religion = nursari_temple
+hre = no
+
+base_tax = 8
+base_production = 12
+base_manpower = 4
+
+trade_goods = magic_goods
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

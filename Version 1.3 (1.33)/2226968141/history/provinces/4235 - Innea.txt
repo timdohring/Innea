@@ -1,0 +1,16 @@
+add_core = SHY
+owner = SHY
+controller = SHY
+culture = shamyrian
+religion = asite
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = blue_copper
+capital = "Malgi"
+is_city = yes
+discovered_by = western
+fort_15th = yes

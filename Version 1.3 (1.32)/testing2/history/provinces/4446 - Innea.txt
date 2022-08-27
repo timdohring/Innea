@@ -1,0 +1,15 @@
+add_core = SIK
+owner = SIK
+controller = SIK
+culture = kapo
+religion = bharatvadu
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = rice
+capital = "Chboun"
+is_city = yes
+discovered_by = western

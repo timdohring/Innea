@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 164 80 102}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Thembinok #0" = 1
+	"Thalzina #0" = 1
+	"Jamwakh #0" = 1
+	"Behimza #0" = 1
+	"Mzo #0" = 1
+	"Faldi #0" = 1
+	"Fumgon #0" = 1
+	"Mgawele #0" = 1
+	"Bangizgane #0" = 1
+	"Linqondi #0" = 1
+	"Sibmpi #0" = 1
+	"Nkoshinsa #0" = 1
+	"Nkoshanzi #0" = 1
+	"Amekili #0" = 1
+	"Azi #0" = 1
+	"Eethkinbu #0" = 1
+	"Habkhanda #0" = 1
+	"Mfangile #0" = 1
+	"Musu #0" = 1
+	"Kumuthaba #0" = 1
+
+	"Dumazile" = -1
+	"Siphokaelelo" = -1
+	"Kholasi" = -1
+	"Indlovu" = -1
+	"Thanma" = -1
+	"Ngovu" = -1
+	"Mhani" = -1
+	"Xolbisa" = -1
+	"Thanemba" = -1
+	"Sibmgagqondi" = -1
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+
+}
+
+monarch_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+
+}

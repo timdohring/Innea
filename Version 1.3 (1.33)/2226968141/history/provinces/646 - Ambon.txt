@@ -1,0 +1,15 @@
+add_core = TER
+owner = TER
+controller = TER
+culture = rhydic
+religion = altran_church
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 7
+
+trade_goods = beer
+capital = "Aussatz"
+is_city = yes
+discovered_by = western

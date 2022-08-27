@@ -1,0 +1,18 @@
+# 167 Caux - Principal cities: Rouen
+
+
+add_core = KYN
+owner = KYN
+controller = KYN
+culture = kynen
+religion = church_of_yon
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = grain
+capital = "Mornholm"
+is_city = yes
+discovered_by = western

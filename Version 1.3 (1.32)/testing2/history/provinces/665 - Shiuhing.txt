@@ -1,0 +1,15 @@
+add_core = NIG
+owner = NIG
+controller = NIG
+culture = glenish
+religion = altran_church
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = naval_supplies
+capital = "Unterlinden"
+is_city = yes
+discovered_by = western

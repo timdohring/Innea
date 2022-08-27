@@ -1,0 +1,17 @@
+add_core = THE
+owner = THE
+controller = THE
+culture = thelan
+religion = the_one_truth
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+
+trade_goods = fish
+capital = "Fisher's Keep"
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

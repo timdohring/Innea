@@ -1,0 +1,17 @@
+add_core = OME
+owner = OME
+controller = OME
+culture = remaa
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+
+fort_15th = yes

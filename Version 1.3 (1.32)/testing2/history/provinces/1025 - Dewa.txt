@@ -1,0 +1,15 @@
+add_core = NET
+owner = NET
+controller = NET
+culture = tarrad
+religion = the_one_truth
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = honey
+capital = "Algaion"
+is_city = yes
+discovered_by = western

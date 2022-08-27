@@ -1,0 +1,15 @@
+add_core = BKK
+owner = BKK
+controller = BKK
+culture = shei_kar
+religion = death_cult
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = naval_supplies
+capital = "Modar"
+is_city = yes
+discovered_by = western

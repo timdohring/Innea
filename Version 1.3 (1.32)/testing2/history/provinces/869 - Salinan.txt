@@ -1,0 +1,18 @@
+add_core = HIG
+owner = HIG
+controller = HIG
+culture = upwater_elf
+religion = cindari_temple
+hre = no
+
+base_tax = 14
+base_production = 11
+base_manpower = 13
+
+trade_goods = riverweed
+capital = "Highwater Gate"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

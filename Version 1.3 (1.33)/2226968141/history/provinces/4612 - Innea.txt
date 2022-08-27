@@ -1,0 +1,16 @@
+add_core = ATA
+owner = ATA
+controller = ATA
+culture = atsuna
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = whales
+capital = "Anjomaki"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

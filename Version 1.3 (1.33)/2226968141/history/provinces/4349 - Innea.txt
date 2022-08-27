@@ -1,0 +1,15 @@
+add_core = TNA
+owner = TNA
+controller = TNA
+culture = muonh
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = shellfish
+capital = "Buo Khaghia"
+is_city = yes
+discovered_by = western

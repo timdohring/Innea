@@ -1,0 +1,15 @@
+add_core = ABE
+owner = ABE
+controller = ABE
+culture = shade_elf
+religion = nursari_temple
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = stone
+capital = "Diverrik"
+is_city = yes
+discovered_by = western

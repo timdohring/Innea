@@ -1,0 +1,12 @@
+culture = sentic
+religion = manolic
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = wool
+capital = "Londin"
+is_city = yes
+discovered_by = western

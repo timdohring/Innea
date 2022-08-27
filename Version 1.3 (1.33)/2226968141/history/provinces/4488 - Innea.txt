@@ -1,0 +1,15 @@
+add_core = IRA
+owner = IRA
+controller = IRA
+culture = iraavi
+religion = death_cult
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = ancient_artifacts
+capital = "Moxas"
+is_city = yes
+discovered_by = western

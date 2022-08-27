@@ -1,0 +1,15 @@
+add_core = PUN
+owner = PUN
+controller = PUN
+culture = punghali
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = spices
+capital = "Purjat"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = SAW
+owner = SAW
+controller = SAW
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = stone
+capital = "Chianpang"
+is_city = yes
+discovered_by = western

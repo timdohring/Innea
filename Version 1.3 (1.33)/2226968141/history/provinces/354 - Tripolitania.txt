@@ -1,0 +1,18 @@
+add_core = NIE
+owner = NIE
+controller = NIE
+culture = nievan
+religion = murtharic
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 8
+
+trade_goods = beer
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+
+fort_15th = yes

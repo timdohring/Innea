@@ -1,0 +1,15 @@
+add_core = LAM
+owner = LAM
+controller = LAM
+culture = mahan
+religion = woodmother
+hre = no
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Tsirampan"
+is_city = yes
+discovered_by = western

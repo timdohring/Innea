@@ -1,0 +1,15 @@
+add_core = NAC
+owner = NAC
+controller = NAC
+culture = nacin
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = salt
+capital = "Qaeade"
+is_city = yes
+discovered_by = western

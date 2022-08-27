@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 11
+
+trade_goods = cloth
+capital = "Beibo"
+is_city = yes
+discovered_by = western

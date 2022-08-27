@@ -1,0 +1,15 @@
+add_core = RIW
+owner = RIW
+controller = RIW
+culture = riverwood_elf
+religion = springmother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = fruit
+capital = "Anthenum"
+is_city = yes
+discovered_by = western

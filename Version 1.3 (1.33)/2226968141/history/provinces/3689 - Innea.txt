@@ -1,0 +1,12 @@
+culture = balbagean
+religion = dreammother
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

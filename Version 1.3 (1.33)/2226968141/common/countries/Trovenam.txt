@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {  20 100 124 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Amadil #0" = 1
+	"Anaduil #0" = 1
+	"Arvethor #0" = 1
+	"Boron #0" = 1
+	"Anthar #0" = 1
+	"Antar #0" = 1
+	"Aranoth #0" = 1
+	"Malthor #0" = 1
+	"Farafin #0" = 1
+	"Branrod #0" = 1
+	"Denelin #0" = 1
+	"Vorin #0" = 1
+	"Eradan #0" = 1
+	"Orthol #0" = 1
+	"Turhal #0" = 1
+	"Halbar #0" = 1
+	"Haelsin #0" = 1
+	"Drethir #0" = 1
+	"Thorhtar #0" = 1
+	"Malvelas #0" = 1
+
+	"Gilaran" = -1
+	"Enas" = -1
+	"Iorwen" = -1
+	"Lothran" = -1
+	"Wendal" = -1
+	"Rowan" = -1
+	"Rethel" = -1
+	"Asain" = -1
+	"Pella" = -1
+	"Shouna" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

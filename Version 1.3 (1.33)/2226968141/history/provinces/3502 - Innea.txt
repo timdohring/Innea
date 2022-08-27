@@ -1,0 +1,15 @@
+add_core = KOY
+owner = KOY
+controller = KOY
+culture = druhn
+religion = horsemother
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Murap"
+is_city = yes
+discovered_by = western

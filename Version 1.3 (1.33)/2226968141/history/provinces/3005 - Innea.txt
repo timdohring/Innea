@@ -1,0 +1,15 @@
+add_core = MUD
+owner = MUD
+controller = MUD
+culture = jhistan
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 5
+base_manpower = 3
+
+trade_goods = fish
+capital = "Lahjribb"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = ban
+religion = shao
+hre = no
+
+base_tax = 13
+base_production = 13
+base_manpower = 13
+
+trade_goods = porcelain
+capital = "Fuxi"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

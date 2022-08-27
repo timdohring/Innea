@@ -1,0 +1,15 @@
+add_core = MYW
+owner = MYW
+controller = MYW
+culture = askyan
+religion = three_moons
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 7
+
+trade_goods = blackgrain
+capital = "Mywadan"
+is_city = yes
+discovered_by = western

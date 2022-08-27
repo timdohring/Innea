@@ -1,0 +1,15 @@
+add_core = KSN
+owner = KSN
+controller = KSN
+culture = gohair
+religion = ojal
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = fireiron
+capital = "Samhyatab"
+is_city = yes
+discovered_by = western

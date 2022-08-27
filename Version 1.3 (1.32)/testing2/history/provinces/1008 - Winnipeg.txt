@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = south_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 8
+
+trade_goods = wine
+capital = "Tanreix"
+is_city = yes
+discovered_by = western

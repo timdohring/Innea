@@ -1,0 +1,15 @@
+add_core = RAK
+owner = RAK
+controller = RAK
+culture = rakar
+religion = death_cult
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+trade_goods = rice
+capital = "Thanbo"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = KOL
+owner = KOL
+controller = KOL
+culture = skavith
+religion = ashar
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+trade_goods = fur
+capital = "Beand"
+is_city = yes
+discovered_by = western

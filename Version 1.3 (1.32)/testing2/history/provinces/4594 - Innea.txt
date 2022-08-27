@@ -1,0 +1,15 @@
+add_core = AYE
+owner = AYE
+controller = AYE
+culture = kon
+religion = snow_goddess
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = tea
+capital = "Mongpau"
+is_city = yes
+discovered_by = western

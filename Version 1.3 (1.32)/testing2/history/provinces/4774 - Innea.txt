@@ -1,0 +1,15 @@
+add_core = GUA
+owner = GUA
+controller = GUA
+culture = guanglo
+religion = conhayna
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Xincho"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = BOK
+owner = BOK
+controller = BOK
+culture = boek
+religion = ewafari_temple
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = herbs
+capital = "Esawit"
+is_city = yes
+discovered_by = western

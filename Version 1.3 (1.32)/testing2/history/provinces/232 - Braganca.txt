@@ -1,0 +1,17 @@
+add_core = DBY
+owner = DBY
+controller = DBY
+culture = issoan
+religion = celiicean
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = iron
+capital = "Ekton"
+is_city = yes
+discovered_by = western
+
+

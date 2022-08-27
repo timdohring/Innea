@@ -1,0 +1,15 @@
+add_core = KOG
+owner = KOG
+controller = KOG
+culture = koru
+religion = goz
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = livestock
+capital = "Yjgak"
+is_city = yes
+discovered_by = western

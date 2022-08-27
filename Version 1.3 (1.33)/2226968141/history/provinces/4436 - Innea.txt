@@ -1,0 +1,15 @@
+add_core = REP
+owner = REP
+controller = REP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = fruit
+capital = "Poibang"
+is_city = yes
+discovered_by = western

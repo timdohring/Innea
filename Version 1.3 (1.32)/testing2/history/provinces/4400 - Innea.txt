@@ -1,0 +1,15 @@
+add_core = XIE
+owner = XIE
+controller = XIE
+culture = bo_vao
+religion = bharatvadu
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = rice
+capital = "Bei Bao"
+is_city = yes
+discovered_by = western

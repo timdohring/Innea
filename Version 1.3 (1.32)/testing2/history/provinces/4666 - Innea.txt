@@ -1,0 +1,15 @@
+add_core = CHJ
+owner = CHJ
+controller = CHJ
+culture = anyeol
+religion = shao
+hre = no
+
+base_tax = 12
+base_production = 13
+base_manpower = 13
+
+trade_goods = porcelain
+capital = "Cheokbang"
+is_city = yes
+discovered_by = western

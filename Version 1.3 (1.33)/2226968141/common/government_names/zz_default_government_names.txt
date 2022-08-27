@@ -1,0 +1,265 @@
+# Fallback defaults
+# Will pick the first valid one it finds in list
+
+default_monarchy = {
+	rank = {
+		1 = BARONY
+		2 = COUNTY
+		3 = DUCHY
+		4 = KINGDOM
+		5 = EMPIRE
+		6 = GREAT_EMPIRE
+	}
+
+	ruler_male = {
+		1 = BARON
+		2 = COUNT
+		3 = DUKE
+		4 = KING
+		5 = EMPEROR
+		6 = ARCH_EMPEROR
+	}
+
+	ruler_female = {
+		1 = BARONESS
+		2 = COUNTESS
+		3 = DUCHESS
+		4 = QUEEN
+		5 = EMPRESS
+		6 = ARCH_EMPRESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+		4 = PRINCE_CONSORT
+		5 = PRINCE_CONSORT
+		6 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = QUEEN_CONSORT
+		5 = EMPRESS_CONSORT
+		6 = EMPRESS_CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+		4 = HEIR_fem
+		5 = HEIR_fem
+		6 = HEIR_fem
+	}
+
+	government_reform = monarchy_mechanic
+
+	trigger = {
+		has_reform = monarchy_mechanic
+	}
+}
+
+default_republic = {
+	rank = {
+		1 = CITY_STATE
+		2 = REPUBLIC
+		3 = GRAND_REPUBLIC
+		4 = GREAT_REPUBLIC
+		5 = GRAND_STATE
+		6 = GREAT_STATE
+	}
+
+	ruler_male = {
+		1 = MAYOR
+		2 = CONSUL
+		3 = GRAND_CONSUL
+		4 = GREAT_CONSUL
+		5 = PRESIDENT
+		6 = GREAT_SPEAKER
+	}
+
+	ruler_female = {
+		1 = MAYOR
+		2 = CONSULESS
+		3 = GRAND_CONSULESS
+		4 = GREAT_CONSULESS
+		5 = PRESIDENT
+		6 = GREAT_SPEAKER
+	}
+
+	government_reform = republic_mechanic
+
+	trigger = {
+		government = republic
+	}
+}
+
+default_theocracy = {
+	rank = {
+		1 = PRIESTHOOD
+		2 = BISHOPRIC
+		3 = ARCHBISHOPRIC
+		4 = KINGBISHOPRIC
+		5 = PATRIARCHATE
+		6 = GREAT_PATRIARCHATE
+	}
+
+	ruler_male = {
+		1 = PRIEST
+		2 = BISHOP
+		3 = ARCHBISHOP
+		4 = KING_BISHOP
+		5 = PATRIARCH
+		6 = GREAT_PATRIARCH
+	}
+
+	ruler_female = {
+		1 = PRIESTESS
+		2 = BISHOP_fem
+		3 = ARCHBISHOP_fem
+		4 = QUEEN_BISHOP
+		5 = MATRIARCH
+		6 = GREAT_MATRIARCH
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+		4 = HEIR_fem
+		5 = HEIR_fem
+		6 = HEIR_fem
+	}
+
+	government_reform = theocracy_mechanic
+
+	trigger = {
+		government = theocracy
+	}
+}
+
+default_tribal = {
+	rank = {
+		1 = PETTY_CHIEFDOM
+		2 = CHIEFDOM
+		3 = GREAT_CHIEFDOM
+		4 = TRIBAL_KINGDOM
+		5 = TRIBAL_EMPIRE
+		6 = TRIBAL_GREAT_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = PETTY_CHIEF
+		2 = CHIEF
+		3 = GREAT_CHIEF
+		4 = KING
+		5 = EMPEROR
+		6 = ARCH_EMPEROR
+	}
+	
+	ruler_female = {
+		1 = PETTY_CHIEFTESS
+		2 = CHIEFTESS
+		3 = GREAT_CHIEFTESS
+		4 = QUEEN
+		5 = EMPRESS
+		6 = ARCH_EMPRESS
+	}
+	
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+		4 = PRINCE_CONSORT
+		5 = PRINCE_CONSORT
+		6 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = QUEEN_CONSORT
+		5 = EMPRESS_CONSORT
+		6 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+		4 = HEIR_fem
+		5 = HEIR_fem
+		6 = HEIR_fem
+	}
+
+	government_reform = tribe_mechanic
+
+	trigger = {
+		government = tribal
+	}
+}
+
+default_native = {
+	rank = {
+		1 = SMALL_TRIBE
+		2 = TRIBE
+		3 = TRIBE
+		4 = GREAT_TRIBE
+		5 = GREAT_TRIBE
+		6 = TRIBE_UNION
+	}
+	
+	ruler_male = {
+		1 = PETTY_CHIEF
+		2 = CHIEF
+		3 = HIGH_CHIEF
+		4 = GREAT_CHIEF
+		5 = PARAMOUNT_CHIEF
+		6 = THE_GREAT_ONE
+	}
+	
+	ruler_female = {
+		1 = PETTY_CHIEFTESS
+		2 = CHIEFTESS
+		3 = HIGH_CHIEFTESS
+		4 = GREAT_CHIEFTESS
+		5 = PARAMOUNT_CHIEFTESS
+		6 = THE_GREAT_ONE
+	}
+	
+	trigger = {
+		government = native
+	}
+}

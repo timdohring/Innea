@@ -1,0 +1,15 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+culture = paleborn
+religion = death_cult
+hre = no
+
+base_tax = 5
+base_production = 8
+base_manpower = 7
+
+trade_goods = marble
+capital = "Whiterose"
+is_city = yes
+discovered_by = western

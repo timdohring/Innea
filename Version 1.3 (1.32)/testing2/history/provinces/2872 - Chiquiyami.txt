@@ -1,0 +1,17 @@
+add_core = GAN
+owner = GAN
+controller = GAN
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 13
+base_production = 13
+base_manpower = 13
+
+trade_goods = instruments
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = TBZ
+owner = TBZ
+controller = TBZ
+culture = ekweni
+religion = asite
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 10
+
+trade_goods = cloth
+capital = "Mgondi"
+is_city = yes
+discovered_by = western

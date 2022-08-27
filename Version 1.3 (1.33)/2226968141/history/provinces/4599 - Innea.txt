@@ -1,0 +1,15 @@
+add_core = RKY
+owner = RKY
+controller = RKY
+culture = dethom_pyw
+religion = snow_goddess
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = wool
+capital = "Ayaphaw"
+is_city = yes
+discovered_by = western

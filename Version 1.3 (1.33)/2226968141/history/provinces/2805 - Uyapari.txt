@@ -1,0 +1,17 @@
+add_core = PEL
+owner = PEL
+controller = PEL
+culture = pellic
+religion = old_doxian
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = ancient_artifacts
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = AQA
+owner = AQA
+controller = AQA
+culture = yabran
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = beer
+capital = "As-Narak"
+is_city = yes
+discovered_by = western

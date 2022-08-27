@@ -1,0 +1,15 @@
+add_core = RHA
+owner = RHA
+controller = RHA
+culture = rhaangoli
+religion = flame_temple
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+trade_goods = iron
+capital = "Thelephim"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,13 @@
+culture = anandogaweni
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

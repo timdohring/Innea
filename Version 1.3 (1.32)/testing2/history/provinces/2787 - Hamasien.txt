@@ -1,0 +1,16 @@
+add_core = MRP
+owner = MRP
+controller = MRP
+culture = black_islander
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = jade
+capital = "Scall"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,18 @@
+add_core = ARR
+owner = ARR
+controller = ARR
+culture = southcoaster
+religion = altran_church
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 13
+
+trade_goods = art
+capital = "Port Arrynal"
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

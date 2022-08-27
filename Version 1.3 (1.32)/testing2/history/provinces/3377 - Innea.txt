@@ -1,0 +1,15 @@
+add_core = RLO
+owner = RLO
+controller = RLO
+culture = pardho
+religion = ojal
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = gems
+capital = ""
+is_city = yes
+discovered_by = western

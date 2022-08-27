@@ -1,0 +1,15 @@
+add_core = SIK
+owner = SIK
+controller = SIK
+culture = kapo
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+trade_goods = rice
+capital = "Svachhan"
+is_city = yes
+discovered_by = western

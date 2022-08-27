@@ -1,0 +1,17 @@
+add_core = DJG
+owner = DJG
+controller = DJG
+add_core = XA0
+culture = xa
+religion = conhayna
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 7
+
+trade_goods = blackgrain
+capital = "Taishou"
+is_city = yes
+discovered_by = western
+fort_15th = yes

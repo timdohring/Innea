@@ -1,0 +1,15 @@
+add_core = BNH
+owner = BNH
+controller = BNH
+culture = nam
+religion = bharatvadu
+hre = no
+
+base_tax = 11
+base_production = 11
+base_manpower = 11
+
+trade_goods = cloth
+capital = "Treng Na"
+is_city = yes
+discovered_by = western

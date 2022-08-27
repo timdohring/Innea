@@ -1,0 +1,15 @@
+add_core = MAE
+owner = MAE
+controller = MAE
+culture = south_maetian
+religion = the_one_truth
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 7
+
+trade_goods = fruit
+capital = "Llanyes"
+is_city = yes
+discovered_by = western

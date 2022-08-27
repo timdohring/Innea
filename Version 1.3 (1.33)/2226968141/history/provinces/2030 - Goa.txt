@@ -1,0 +1,15 @@
+add_core = OMA
+owner = OMA
+controller = OMA
+culture = omagan
+religion = ashar
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 6
+
+trade_goods = livestock
+capital = "Kunrako"
+is_city = yes
+discovered_by = western

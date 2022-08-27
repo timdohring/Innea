@@ -1,0 +1,15 @@
+add_core = JIX
+owner = JIX
+controller = JIX
+culture = jong
+religion = shao
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = porcelain
+capital = "Jixyun"
+is_city = yes
+discovered_by = western

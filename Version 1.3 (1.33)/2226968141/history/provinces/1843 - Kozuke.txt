@@ -1,0 +1,15 @@
+add_core = JOR
+owner = JOR
+controller = JOR
+culture = athr
+religion = zakritz
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = ancient_artifacts
+capital = "Oportaed"
+is_city = yes
+discovered_by = western

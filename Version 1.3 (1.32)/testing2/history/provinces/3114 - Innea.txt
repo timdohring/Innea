@@ -1,0 +1,17 @@
+add_core = JID
+owner = JID
+controller = JID
+culture = jidai
+religion = shuri
+hre = yes
+
+base_tax = 11
+base_production = 14
+base_manpower = 8
+
+trade_goods = wayda_silk
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

@@ -1,0 +1,109 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 240  227  27}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Rogr #0" = 1
+	"Ahlus #0" = 1
+	"Dren #0" = 1
+	"Bogslan #0" = 1
+	"Vari #0" = 1
+	"Kotov #0" = 1
+	"Elhajion #0" = 1
+	"Zukon #0" = 1
+	"Achon #0" = 1
+	"Achaljz #0" = 1
+	"Verriyn #0" = 1
+	"Nosakov #0" = 1
+	"Uturdd #0" = 1
+	"Karros #0" = 1
+	"Mezjialkova #0" = 1
+	"Chestonat #0" = 1
+	"Geortavyie #0" = 1
+	"Krazin #0" = 1
+	"Udragost #0" = 1
+	"Premiri #0" = 1
+	"Rado #0" = 1
+	"Iltiervwul #0" = 1
+	"Wutha #0" = 1
+	"Vanowyr #0" = 1
+	"Necesci #0" = 1
+	"Yolmnar #0" = 1
+	"Bergezwiec #0" = 1
+	"Yorupa #0" = 1
+	"Ikil #0" = 1
+	"Zvon #0" = 1
+	"Pjotar #0" = 1
+
+	"Bordana" = -1
+	"Zhena" = -1
+	"Drenna" = -1
+	"Kotovana" = -1
+	"Zukaija" = -1
+	"Zvona" = -1
+	"Yolna" = -1
+	"Nosakovaca" = -1
+	"Witharnyee" = -1
+	"Radoka" = -1
+	"Lyudwa" = -1
+	"Oroselt" = -1
+	"Aba" = -1
+	"Trenhult" = -1
+	"Woroje" = -1
+	"Owoit" = -1
+	"Ojelle" = -1
+	"Suza" = -1
+	"Aiscice" = -1
+	"Notha" = -1
+	"Pjota" = -1
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

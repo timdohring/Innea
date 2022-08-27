@@ -1,0 +1,16 @@
+add_core = WRU
+owner = WRU
+controller = WRU
+culture = wasut
+religion = ametic
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 7
+
+trade_goods = livestock
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

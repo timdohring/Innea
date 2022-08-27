@@ -1,0 +1,19 @@
+#158 - Maros
+
+
+add_core = FRE
+owner = FRE
+controller = FRE
+culture = kynen
+religion = church_of_yon
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = tea
+capital = "Freynhall"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

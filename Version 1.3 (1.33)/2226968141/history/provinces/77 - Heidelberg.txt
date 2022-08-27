@@ -1,0 +1,17 @@
+#77 - Heidelberg
+
+add_core = FAL
+owner = FAL
+controller = FAL
+culture = falkish
+religion = yoneth
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
+trade_goods = naval_supplies
+capital = "Hershing"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = ING
+owner = ING
+controller = ING
+culture = east_bergian
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = iron
+capital = "Enzwehl"
+is_city = yes
+discovered_by = western

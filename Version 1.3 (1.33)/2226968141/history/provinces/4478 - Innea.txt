@@ -1,0 +1,15 @@
+add_core = BUE
+owner = BUE
+controller = BUE
+culture = banglan
+religion = bharatvadu
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = herbs
+capital = "Thungara"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {200 215 130  }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ashtatenod #0" = 1
+	"Ashtarchefari #0" = 1
+	"Kaapei #0" = 1
+	"Mereops #0" = 1
+	"Un-Antef #0" = 1
+	"Un-Kpamuroto #0" = 1
+	"Ramakat #0" = 1
+	"Sebek #0" = 1
+	"Khaset #0" = 1
+	"Amonophis #0" = 1
+	"Sekheqer #0" = 1
+	"Nehthesh #0" = 1
+	"Khakhet #0" = 1
+	"Qaneferk #0" = 1
+	"Ranedj #0" = 1
+	"Nyntejser #0" = 1
+	"Djokhet #0" = 1
+	"Neferjefa #0" = 1
+	"Sekhu #0" = 1
+	"Nafokatis #0" = 1
+
+	"Soeb" = -1
+	"Hatshep" = -1
+	"Sutsut" = -1
+	"Nefernatra" = -1
+	"Neitona" = -1
+	"Ramata" = -1
+	"Kaferti" = -1
+	"Eferefreti" = -1
+	"Uaten" = -1
+	"Utamun" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

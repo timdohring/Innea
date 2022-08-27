@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {81  144  126 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mo'jahi #0" = 1
+	"Mo'johen #0" = 1
+	"Mo'ka #0" = 1
+	"An'qoho #0" = 1
+	"An'tari #0" = 1
+	"An'jahi #0" = 1
+	"An'johen #0" = 1
+	"Mo'lat #0" = 1
+	"An'lat #0" = 1
+	"Mo'qoho #0" = 1
+	"Su'jahi #0" = 1
+	"Su'johen #0" = 1
+	"Su'ka #0" = 1
+	"Su'qol #0" = 1
+	"Su'lat #0" = 1
+	"Anfashir #0" = 1
+	"Anjet #0" = 1
+	"Jegar #0" = 1
+	"Geqq #0" = 1
+	"Shuz #0" = 1
+	"Zadal #0" = 1
+	"Harzaq #0" = 1
+	"Bizshurr #0" = 1
+	"Arin #0" = 1
+	"Munurur #0" = 1
+	"Muljob #0" = 1
+	"Jildai #0" = 1
+	"Jz'anan #0" = 1
+	"Ilejar #0" = 1
+	"Daszo #0" = 1
+
+	"Am'lati" = -1
+	"Am'qon" = -1
+	"Am'sheba" = -1
+	"Am'tur" = -1
+	"Am'jaha" = -1
+	"Un'jaha" = -1
+	"Un'qon" = -1
+	"Un'jori" = -1
+	"Un'hati" = -1
+	"Un'sheba" = -1
+	"Uhija" = -1
+	"Shauzaba" = -1
+	"Inuyya" = -1
+	"Feaniri" = -1
+	"Fahapa" = -1
+	"Zayhera" = -1
+	"Ayrin" = -1
+	"Yushima" = -1
+	"Baza" = -1
+	"Azutha" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

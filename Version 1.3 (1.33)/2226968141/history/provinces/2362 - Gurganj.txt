@@ -1,0 +1,17 @@
+add_core = GOZ
+owner = GOZ
+controller = GOZ
+culture = mokta
+religion = ashatapul
+hre = no
+
+base_tax = 12
+base_production = 11
+base_manpower = 12
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

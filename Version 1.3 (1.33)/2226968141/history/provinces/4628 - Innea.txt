@@ -1,0 +1,16 @@
+add_core = KUN
+owner = KUN
+controller = KUN
+culture = konu
+religion = mountain_mother
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 9
+
+trade_goods = livestock
+capital = "Uk"
+is_city = yes
+discovered_by = western
+fort_15th = yes

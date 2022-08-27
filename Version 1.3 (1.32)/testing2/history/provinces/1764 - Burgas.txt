@@ -1,0 +1,15 @@
+add_core = TEA
+owner = TEA
+controller = TEA
+culture = perric
+religion = iskari_temple
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 3
+
+trade_goods = marble
+capital = "Puldur"
+is_city = yes
+discovered_by = western

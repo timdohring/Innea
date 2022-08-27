@@ -1,0 +1,16 @@
+add_core = MGU
+owner = MGU
+controller = MGU
+culture = uru
+religion = asite
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 9
+
+trade_goods = magic_goods
+capital = "Eylon"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

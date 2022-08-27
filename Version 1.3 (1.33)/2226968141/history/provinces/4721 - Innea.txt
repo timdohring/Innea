@@ -1,0 +1,16 @@
+add_core = NCG
+owner = NCG
+controller = NCG
+add_core = JON
+culture = jong
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = horses
+capital = "Fuxkou"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = PMR
+owner = PMR
+controller = PMR
+culture = pamiri
+religion = ojal
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 7
+
+trade_goods = cloth
+capital = "Faisa"
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

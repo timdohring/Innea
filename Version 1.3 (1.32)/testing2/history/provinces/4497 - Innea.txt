@@ -1,0 +1,15 @@
+add_core = NEZ
+owner = NEZ
+controller = NEZ
+culture = nezhan
+religion = death_cult
+hre = no
+
+base_tax = 10
+base_production = 13
+base_manpower = 12
+
+trade_goods = paper
+capital = "Aszath"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,16 @@
+add_core = TWY
+owner = TWY
+controller = TWY
+culture = taw
+religion = snow_goddess
+hre = no
+
+base_tax = 10
+base_production = 9
+base_manpower = 9
+
+trade_goods = beer
+capital = "Madapyaw"
+is_city = yes
+discovered_by = western
+fort_15th = yes

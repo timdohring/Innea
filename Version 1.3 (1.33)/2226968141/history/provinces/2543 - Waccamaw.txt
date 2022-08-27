@@ -1,0 +1,17 @@
+add_core = ROO
+owner = ROO
+controller = ROO
+culture = astaen
+religion = ewafari_temple
+hre = no
+
+base_tax = 11
+base_production = 12
+base_manpower = 11
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

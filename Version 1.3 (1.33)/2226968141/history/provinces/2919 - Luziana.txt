@@ -1,0 +1,15 @@
+add_core = DOR
+owner = DOR
+controller = DOR
+culture = trayish
+religion = horsemother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Karani"
+is_city = yes
+discovered_by = western

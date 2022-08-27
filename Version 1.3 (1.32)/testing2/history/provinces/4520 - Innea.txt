@@ -1,0 +1,15 @@
+add_core = NAY
+owner = NAY
+controller = NAY
+culture = yhan
+religion = three_moons
+hre = no
+
+base_tax = 15
+base_production = 17
+base_manpower = 14
+
+trade_goods = paper
+capital = "Magthagaing"
+is_city = yes
+discovered_by = western

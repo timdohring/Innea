@@ -1,0 +1,16 @@
+add_core = MDK
+owner = MDK
+controller = MDK
+culture = oht
+religion = horsemother
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = horses
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

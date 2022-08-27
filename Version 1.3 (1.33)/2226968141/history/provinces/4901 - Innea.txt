@@ -1,0 +1,16 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+add_core = ZHG
+culture = zhong
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 7
+
+trade_goods = fruit
+capital = "Zouchan"
+is_city = yes
+discovered_by = western

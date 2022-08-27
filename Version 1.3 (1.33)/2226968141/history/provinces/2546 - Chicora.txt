@@ -1,0 +1,15 @@
+add_core = ROO
+owner = ROO
+controller = ROO
+culture = weyk
+religion = ewafari_temple
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = gold
+capital = "Adones"
+is_city = yes
+discovered_by = western

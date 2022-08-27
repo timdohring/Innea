@@ -1,0 +1,19 @@
+#Nyland, incl. Raseborg, Borgå, Helsingfors.
+
+
+add_core = GIA
+owner = GIA
+controller = GIA
+culture = jogunin
+religion = old_yorr
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = livestock
+capital = "Storak"
+is_city = yes
+discovered_by = western
+fort_15th = yes

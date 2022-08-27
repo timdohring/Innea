@@ -1,0 +1,12 @@
+culture = frozen_elf
+religion = iskari_temple
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 0
+
+trade_goods = coal
+capital = "Oliun"
+is_city = yes
+discovered_by = western

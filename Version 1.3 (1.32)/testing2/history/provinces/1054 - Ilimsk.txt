@@ -1,0 +1,19 @@
+add_core = ACR
+add_core = VEN
+owner = ACR
+controller = ACR
+culture = ventrian
+religion = the_one_truth
+hre = no
+
+base_tax = 14
+base_production = 13
+base_manpower = 11
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+
+fort_15th = yes

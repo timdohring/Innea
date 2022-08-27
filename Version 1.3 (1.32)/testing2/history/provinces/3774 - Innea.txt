@@ -1,0 +1,12 @@
+culture = elano
+religion = dreammother
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+capital = ""
+is_city = yes
+tribal_owner = AEL
+discovered_by = western

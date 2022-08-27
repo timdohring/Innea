@@ -1,0 +1,15 @@
+add_core = UWO
+owner = UWO
+controller = UWO
+culture = weyk
+religion = ewafari_temple
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+trade_goods = tea
+capital = "Legandil"
+is_city = yes
+discovered_by = western

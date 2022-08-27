@@ -1,0 +1,15 @@
+add_core = ATA
+owner = ATA
+controller = ATA
+culture = atsuna
+religion = shao
+hre = no
+
+base_tax = 8
+base_production = 9
+base_manpower = 9
+
+trade_goods = fish
+capital = "Nishi"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = LPH
+owner = LPH
+controller = LPH
+culture = lang_tai
+religion = bharatvadu
+hre = no
+
+base_tax = 6
+base_production = 12
+base_manpower = 11
+
+trade_goods = tea
+capital = "Langkok"
+is_city = yes
+discovered_by = western

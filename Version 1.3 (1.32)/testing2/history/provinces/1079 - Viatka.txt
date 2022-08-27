@@ -1,0 +1,15 @@
+add_core = HEA
+owner = HEA
+controller = HEA
+culture = othan
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = grain
+capital = "Ellipsus"
+is_city = yes
+discovered_by = western

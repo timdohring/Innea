@@ -1,0 +1,12 @@
+culture = zeiy
+religion = nursari_temple
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = fur
+capital = "Konis"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = ILR
+owner = ILR
+controller = ILR
+culture = rohgii
+religion = ejje_nvek
+hre = no
+
+base_tax = 13
+base_production = 15
+base_manpower = 13
+
+trade_goods = art
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 2
+fort_15th = yes

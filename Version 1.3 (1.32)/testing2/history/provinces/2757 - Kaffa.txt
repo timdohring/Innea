@@ -1,0 +1,16 @@
+add_core = KIC
+owner = KIC
+controller = KIC
+add_core = KWK
+culture = stahy
+religion = lakemother
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Kege"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = ban
+religion = shao
+hre = no
+
+base_tax = 12
+base_production = 13
+base_manpower = 11
+
+trade_goods = instruments
+capital = "Lioquing"
+is_city = yes
+discovered_by = western

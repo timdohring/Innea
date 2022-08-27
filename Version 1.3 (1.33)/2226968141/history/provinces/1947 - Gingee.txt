@@ -1,0 +1,15 @@
+add_core = AKA
+owner = AKA
+controller = AKA
+culture = akage
+religion = blood_cult
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = naval_supplies
+capital = "Lekdab"
+is_city = yes
+discovered_by = western

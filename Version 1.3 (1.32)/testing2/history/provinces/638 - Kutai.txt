@@ -1,0 +1,15 @@
+add_core = TYO
+owner = TYO
+controller = TYO
+culture = murrian
+religion = altran_church
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Ersen"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,15 @@
+add_core = AYE
+owner = AYE
+controller = AYE
+culture = pauthin
+religion = three_moons
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+trade_goods = fish
+capital = "Labuo-U"
+is_city = yes
+discovered_by = western

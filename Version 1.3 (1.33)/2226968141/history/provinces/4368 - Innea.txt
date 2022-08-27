@@ -1,0 +1,16 @@
+add_core = TNA
+owner = TNA
+controller = TNA
+culture = muonh
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 6
+base_manpower = 6
+
+trade_goods = jade
+capital = "Thuan Na"
+is_city = yes
+discovered_by = western
+fort_15th = yes

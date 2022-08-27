@@ -1,0 +1,16 @@
+add_core = BAK
+owner = BAK
+controller = BAK
+add_core = ASL
+culture = ashrunner
+religion = blood_cult
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = dyes
+capital = "Brolle"
+is_city = yes
+discovered_by = western

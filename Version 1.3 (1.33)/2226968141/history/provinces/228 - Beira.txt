@@ -1,0 +1,17 @@
+add_core = GRE
+owner = GRE
+controller = GRE
+culture = upper_brilthic
+religion = brilthic_church
+hre = no
+
+base_tax = 5
+base_production = 7
+base_manpower = 6
+
+trade_goods = ships
+capital = "Wharf Point"
+is_city = yes
+discovered_by = western
+
+

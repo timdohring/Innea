@@ -1,0 +1,18 @@
+add_core = LEN
+owner = LEN
+controller = LEN
+culture = lenathii
+religion = the_one_truth
+hre = no
+
+base_tax = 15
+base_production = 13
+base_manpower = 17
+
+trade_goods = spices
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 3
+
+fort_15th = yes

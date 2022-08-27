@@ -1,0 +1,15 @@
+add_core = QSH
+owner = QSH
+controller = QSH
+culture = qashite
+religion = shuri
+hre = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = livestock
+capital = "Tabkhon"
+is_city = yes
+discovered_by = western

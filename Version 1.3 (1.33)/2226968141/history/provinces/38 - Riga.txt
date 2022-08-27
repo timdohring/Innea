@@ -1,0 +1,18 @@
+#Riga Bight, incl. the city of Riga, and Dünamünde.
+
+
+add_core = RAS
+owner = RAS
+controller = RAS
+culture = bjorming
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = fish
+capital = "Torigg's Ford"
+is_city = yes
+discovered_by = western

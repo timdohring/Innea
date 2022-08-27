@@ -1,0 +1,15 @@
+add_core = JUN
+owner = JUN
+controller = JUN
+culture = ahjut
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = ivory
+capital = "Rawaho"
+is_city = yes
+discovered_by = western

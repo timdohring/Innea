@@ -1,0 +1,15 @@
+add_core = B4N
+owner = B4N
+controller = B4N
+culture = meilin
+religion = shao
+hre = no
+
+base_tax = 7
+base_production = 4
+base_manpower = 4
+
+trade_goods = rice
+capital = "Taijong"
+is_city = yes
+discovered_by = western

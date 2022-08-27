@@ -1,0 +1,13 @@
+culture = trovan
+religion = old_doxian
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 7
+
+trade_goods = ancient_artifacts
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

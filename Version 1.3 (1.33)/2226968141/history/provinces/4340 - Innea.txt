@@ -1,0 +1,17 @@
+add_core = VIE
+owner = VIE
+controller = VIE
+culture = kinh_vao
+religion = bharatvadu
+hre = no
+
+base_tax = 16
+base_production = 14
+base_manpower = 14
+
+trade_goods = paper
+capital = "Qui Ca"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

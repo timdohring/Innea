@@ -1,0 +1,16 @@
+add_core = LOK
+owner = LOK
+controller = LOK
+culture = chimar
+religion = the_word
+hre = no
+
+base_tax = 11
+base_production = 8
+base_manpower = 9
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = MSH
+owner = MSH
+controller = MSH
+culture = mashkud
+religion = asite
+hre = no
+
+base_tax = 3
+base_production = 5
+base_manpower = 4
+
+trade_goods = tropical_wood
+capital = "Yabil"
+is_city = yes
+discovered_by = western

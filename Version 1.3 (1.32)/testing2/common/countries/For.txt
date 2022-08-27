@@ -1,0 +1,130 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 74  87  138 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+		"Agmund" = 1
+	"Alvis" = 1
+	"Asgeirr" = 1
+	"Asmund" = 1
+	"Arnfinn" = 1
+	"Bjarni" = 1
+	"Bjorn" = 1
+	"Birgir" = 1
+	"Dagfinn" = 1
+	"Egil" = 1
+	"Geirmund" = 1
+	"Gudbrand" = 1
+	"Gunarr" = 1
+	"Gunvald" = 1
+	"Haakon" = 1
+	"Halfdan" = 1
+	"Hallr" = 1
+	"Halvard" = 1
+	"Havardr" = 1
+	"Hjalmar" = 1
+	"Helgi" = 1
+	"Ingvar" = 1
+	"Ivor" = 1
+	"Ketil" = 1
+	"Leif" = 1
+	"Orinn" = 1
+	"Oyvind" = 1
+	"Radulfr" = 1
+	"Ragnar" = 1
+	"Ravnar" = 1
+	"Runar" = 1
+	"Sigarr" = 1
+	"Sigmund" = 1
+	"Steinar" = 1
+	"Steinn" = 1
+	"Stigr" = 1
+	"Sven" = 1
+	"Thorsteinn" = 1
+	"Torkel" = 1
+	"Ulf" = 1
+	"Valdbjorn" = 1
+	"Vidar" = 1
+	"Vragi" = 1
+
+	"Agny" = -1
+	"Alfhild" = -1
+	"Aslaug" = -1
+	"Astridr" = -1
+	"Bergrunn" = -1
+	"Brynja" = -1
+	"Eirunn" = -1
+	"Erna" = -1
+	"Eyvor" = -1
+	"Frigg" = -1
+	"Gudrun" = -1
+	"Gudridr" = -1
+	"Hella" = -1
+	"Hillevi" = -1
+	"Idunn" = -1
+	"Ingeborg" = -1
+	"Kara" = -1
+	"Ragnbjorg" = -1
+	"Reidun" = -1
+	"Sighild" = -1
+	"Signy" = -1
+	"Sigrid" = -1
+	"Sigrun" = -1
+	"Skuld" = -1
+	"Thorveig" = -1
+	"Thorvi" = -1
+	"Torhild" = -1
+	"Valdis" = -1
+	"Ylva" = -1
+
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

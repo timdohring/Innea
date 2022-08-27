@@ -1,0 +1,12 @@
+culture = drebyr
+religion = zakritz
+hre = no
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = wool
+capital = "Muradt"
+is_city = yes
+discovered_by = western

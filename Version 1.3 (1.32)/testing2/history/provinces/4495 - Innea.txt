@@ -1,0 +1,15 @@
+add_core = NEZ
+owner = NEZ
+controller = NEZ
+culture = nezhan
+religion = death_cult
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = slaves
+capital = "Moxan Vexis"
+is_city = yes
+discovered_by = western

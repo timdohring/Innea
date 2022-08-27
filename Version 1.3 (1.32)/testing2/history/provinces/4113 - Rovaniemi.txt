@@ -1,0 +1,15 @@
+add_core = SHF
+owner = SHF
+controller = SHF
+culture = catulan
+religion = abai
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Yatta"
+is_city = yes
+discovered_by = western

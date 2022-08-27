@@ -1,0 +1,15 @@
+add_core = RIW
+owner = RIW
+controller = RIW
+culture = riverwood_elf
+religion = springmother
+hre = no
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = tea
+capital = "Lila"
+is_city = yes
+discovered_by = western

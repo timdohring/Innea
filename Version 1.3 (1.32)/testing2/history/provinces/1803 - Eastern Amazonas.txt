@@ -1,0 +1,16 @@
+add_core = BOE
+owner = BOE
+controller = BOE
+culture = boern
+religion = yorik
+hre = no
+
+base_tax = 4
+base_production = 6
+base_manpower = 7
+
+trade_goods = iron
+capital = "Klannenborg"
+is_city = yes
+discovered_by = western
+fort_15th = yes

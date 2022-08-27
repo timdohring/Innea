@@ -1,0 +1,15 @@
+add_core = SHQ
+owner = SHQ
+controller = SHQ
+culture = dinari
+religion = nursari_temple
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = dyes
+capital = "Nukth"
+is_city = yes
+discovered_by = western

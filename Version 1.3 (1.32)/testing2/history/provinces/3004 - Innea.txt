@@ -1,0 +1,17 @@
+add_core = MUD
+owner = MUD
+controller = MUD
+culture = jhistan
+religion = shuri
+hre = yes
+
+base_tax = 8
+base_production = 8
+base_manpower = 6
+
+trade_goods = red_sugar
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

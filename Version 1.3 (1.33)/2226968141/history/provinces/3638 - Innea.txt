@@ -1,0 +1,15 @@
+add_core = MON
+owner = MON
+controller = MON
+culture = lheyn
+religion = horsemother
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Doth Lhatuu"
+is_city = yes
+discovered_by = western

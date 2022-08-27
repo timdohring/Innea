@@ -1,0 +1,16 @@
+add_core = KRH
+owner = KRH
+controller = KRH
+culture = karadan
+religion = fyzajak
+hre = no
+
+base_tax = 9
+base_production = 8
+base_manpower = 8
+
+trade_goods = yv
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes

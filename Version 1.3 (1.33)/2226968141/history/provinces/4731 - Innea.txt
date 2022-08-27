@@ -1,0 +1,15 @@
+add_core = ONI
+owner = ONI
+controller = ONI
+culture = homagara
+religion = shao
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = stone
+capital = "Motosari"
+is_city = yes
+discovered_by = western

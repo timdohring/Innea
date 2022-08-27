@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = khuchang_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 12
+base_production = 12
+base_manpower = 11
+
+trade_goods = cloth
+capital = "Phitsum"
+is_city = yes
+discovered_by = western

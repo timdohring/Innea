@@ -1,0 +1,15 @@
+add_core = AKU
+owner = AKU
+controller = AKU
+culture = shamyrian
+religion = asite
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = "Harasum"
+is_city = yes
+discovered_by = western

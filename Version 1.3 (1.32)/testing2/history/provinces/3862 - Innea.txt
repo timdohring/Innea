@@ -1,0 +1,15 @@
+add_core = AZA
+owner = AZA
+controller = AZA
+culture = azandari
+religion = flame_temple
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = tropical_wood
+capital = "Ebyek"
+is_city = yes
+discovered_by = western

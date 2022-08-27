@@ -1,0 +1,17 @@
+#Sjaelland, incl. København, Roskilde, Helsingør, Ringsted
+
+add_core = RUN
+owner = RUN
+controller = RUN
+culture = ykran
+religion = yoneth
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 2
+
+trade_goods = iron
+capital = "Runskopr"
+is_city = yes
+discovered_by = western

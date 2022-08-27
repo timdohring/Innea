@@ -1,0 +1,12 @@
+culture = rhaangoli
+religion = flame_temple
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+capital = "Ngaltse"
+is_city = yes
+tribal_owner = AGO
+discovered_by = western

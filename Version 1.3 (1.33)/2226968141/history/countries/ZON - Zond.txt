@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 10
+technology_group = western
+religion = goz
+primary_culture = zondic
+capital = 2350
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+		monarch = {
+		name = "Bes -"
+		dynasty = "Zja"
+		birth_date = 1407.8.9
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+

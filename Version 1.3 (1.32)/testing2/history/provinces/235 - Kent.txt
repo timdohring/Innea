@@ -1,0 +1,17 @@
+add_core = BLA
+owner = BLA
+controller = BLA
+culture = blakkan
+religion = brilthic_church
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Tainwich"
+is_city = yes
+discovered_by = western
+
+

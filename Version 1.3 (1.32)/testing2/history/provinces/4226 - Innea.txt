@@ -1,0 +1,15 @@
+add_core = AKU
+owner = AKU
+controller = AKU
+culture = shamyrian
+religion = asite
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 7
+
+trade_goods = grain
+capital = "Antub"
+is_city = yes
+discovered_by = western

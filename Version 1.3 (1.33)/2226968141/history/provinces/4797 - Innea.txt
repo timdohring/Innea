@@ -1,0 +1,16 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+add_core = SK4
+culture = shei_kar
+religion = death_cult
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 5
+
+trade_goods = incense
+capital = "Odil"
+is_city = yes
+discovered_by = western

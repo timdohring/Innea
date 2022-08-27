@@ -1,0 +1,16 @@
+add_core = YAN
+owner = YAN
+controller = YAN
+culture = pauthin
+religion = snow_goddess
+hre = no
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+trade_goods = whales
+capital = "Hmosi"
+is_city = yes
+discovered_by = western
+fort_15th = yes

@@ -1,0 +1,15 @@
+add_core = RAM
+owner = RAM
+controller = RAM
+culture = mafouin
+religion = shuri
+hre = yes
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+trade_goods = livestock
+capital = "Nadoun"
+is_city = yes
+discovered_by = western

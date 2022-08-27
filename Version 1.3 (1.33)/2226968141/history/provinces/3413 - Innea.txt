@@ -1,0 +1,15 @@
+add_core = ROT
+owner = ROT
+controller = ROT
+culture = maju
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = grain
+capital = "Jharwad"
+is_city = yes
+discovered_by = western

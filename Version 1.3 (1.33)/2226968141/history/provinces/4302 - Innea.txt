@@ -1,0 +1,17 @@
+add_core = TJA
+owner = TJA
+controller = TJA
+culture = taloch
+religion = ojal
+hre = no
+
+base_tax = 7
+base_production = 9
+base_manpower = 8
+
+trade_goods = spices
+capital = "Charsak"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

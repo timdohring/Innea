@@ -1,0 +1,17 @@
+add_core = MAK
+owner = MAK
+controller = MAK
+culture = ikathian
+religion = sea_cult
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 14
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 2

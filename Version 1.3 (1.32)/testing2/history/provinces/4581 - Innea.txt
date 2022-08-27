@@ -1,0 +1,15 @@
+add_core = MYI
+owner = MYI
+controller = MYI
+culture = dethom_pyw
+religion = snow_goddess
+hre = no
+
+base_tax = 6
+base_production = 5
+base_manpower = 6
+
+trade_goods = copper
+capital = "Myittalaw"
+is_city = yes
+discovered_by = western

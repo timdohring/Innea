@@ -1,0 +1,17 @@
+add_core = SHK
+owner = SHK
+controller = SHK
+culture = shkar
+religion = nursari_temple
+hre = no
+
+base_tax = 9
+base_production = 7
+base_manpower = 8
+
+trade_goods = dyes
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

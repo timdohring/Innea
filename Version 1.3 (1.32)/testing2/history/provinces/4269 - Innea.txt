@@ -1,0 +1,15 @@
+add_core = WAI
+owner = WAI
+controller = WAI
+culture = waikaram
+religion = ator
+hre = no
+
+base_tax = 6
+base_production = 8
+base_manpower = 5
+
+trade_goods = chofo
+capital = "Agymo"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,17 @@
+add_core = QOL
+owner = QOL
+controller = QOL
+culture = lojani
+religion = ojal
+hre = no
+
+base_tax = 14
+base_production = 14
+base_manpower = 14
+
+trade_goods = ships
+capital = ""
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 3

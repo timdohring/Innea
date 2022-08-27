@@ -1,0 +1,88 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {  110 48 50 }
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Altinhan #0" = 1
+	"Kamil #0" = 1
+	"Ayso #0" = 1
+	"Erdan #0" = 1
+	"Enur #0" = 1
+	"Tug #0" = 1
+	"Totuk #0" = 1
+	"Samet #0" = 1
+	"Irfan #0" = 1
+	"Koray #0" = 1
+	"Varba #0" = 1
+	"Ucelak #0" = 1
+	"Tedenir #0" = 1
+	"Dorkut #0" = 1
+	"Sabit #0" = 1
+	"Demli #0" = 1
+	"Sarias #0" = 1
+	"Necdet #0" = 1
+	"Ozug #0" = 1
+	"Talat #0" = 1
+
+	"Asya" = -1
+	"Sefa" = -1
+	"Gun" = -1
+	"Oz" = -1
+	"Ilke" = -1
+	"Dilatka" = -1
+	"Ayal" = -1
+	"Sonat" = -1
+	"Nurcip" = -1
+	"Altke" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

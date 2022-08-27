@@ -1,0 +1,16 @@
+add_core = SHN
+owner = SHN
+controller = SHN
+culture = or
+religion = ashar
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1

@@ -1,0 +1,15 @@
+add_core = ZUX
+owner = ZUX
+controller = ZUX
+culture = jong
+religion = shao
+hre = no
+
+base_tax = 4
+base_production = 5
+base_manpower = 5
+
+trade_goods = rice
+capital = "Xilian"
+is_city = yes
+discovered_by = western

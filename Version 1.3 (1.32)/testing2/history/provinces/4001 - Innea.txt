@@ -1,0 +1,15 @@
+add_core = DLM
+owner = DLM
+controller = DLM
+culture = lhemar
+religion = horsemother
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = livestock
+capital = "Der Fertu"
+is_city = yes
+discovered_by = western

@@ -1,0 +1,18 @@
+#109 - Mantua
+ 
+
+add_core = NRT
+owner = NRT
+controller = NRT
+culture = haaken
+religion = church_of_yon
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+trade_goods = fish
+capital = "Uthr"
+is_city = yes
+discovered_by = western

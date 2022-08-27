@@ -1,0 +1,17 @@
+add_core = BHA
+owner = BHA
+controller = BHA
+culture = bagda
+religion = the_word
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 8
+
+trade_goods = silk
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

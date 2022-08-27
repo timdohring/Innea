@@ -1,0 +1,15 @@
+add_core = REP
+owner = REP
+controller = REP
+culture = phoan
+religion = bharatvadu
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 9
+
+trade_goods = rice
+capital = "Svayhad"
+is_city = yes
+discovered_by = western

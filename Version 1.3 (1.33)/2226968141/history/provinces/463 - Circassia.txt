@@ -1,0 +1,15 @@
+add_core = KAR
+owner = KAR
+controller = KAR
+culture = angmish
+religion = altran_church
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = grain
+capital = "Oldton"
+is_city = yes
+discovered_by = western

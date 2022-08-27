@@ -1,0 +1,15 @@
+add_core = VIJ
+owner = VIJ
+controller = VIJ
+culture = choli
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 6
+
+trade_goods = khafri_peppers
+capital = "Bijaga"
+is_city = yes
+discovered_by = western

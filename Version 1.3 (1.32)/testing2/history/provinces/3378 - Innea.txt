@@ -1,0 +1,15 @@
+add_core = ROT
+owner = ROT
+controller = ROT
+culture = pardho
+religion = ojal
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+trade_goods = crystal
+capital = "Surbad"
+is_city = yes
+discovered_by = western

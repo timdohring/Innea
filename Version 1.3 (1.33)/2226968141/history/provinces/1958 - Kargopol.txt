@@ -1,0 +1,15 @@
+add_core = TRE
+owner = TRE
+controller = TRE
+culture = treddan
+religion = ashar
+hre = no
+
+base_tax = 4
+base_production = 2
+base_manpower = 5
+
+trade_goods = fish
+capital = "Arqstan"
+is_city = yes
+discovered_by = western

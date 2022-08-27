@@ -1,0 +1,15 @@
+add_core = OLD
+owner = OLD
+controller = OLD
+culture = lower_sternian
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 7
+base_manpower = 5
+
+trade_goods = beer
+capital = ""
+is_city = yes
+discovered_by = western

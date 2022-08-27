@@ -1,0 +1,15 @@
+add_core = KEV
+owner = KEV
+controller = KEV
+culture = kevvan
+religion = murtharic
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = wool
+capital = "Klotynka"
+is_city = yes
+discovered_by = western

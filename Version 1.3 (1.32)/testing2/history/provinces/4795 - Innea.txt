@@ -1,0 +1,15 @@
+add_core = SHX
+owner = SHX
+controller = SHX
+culture = paleborn
+religion = death_cult
+hre = no
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+trade_goods = incense
+capital = "Ob Belgur"
+is_city = yes
+discovered_by = western

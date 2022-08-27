@@ -1,0 +1,1636 @@
+##################################################
+# Institutions 
+#
+# written by Johan Andersson & Henrik Lohmander
+##################################################
+
+
+namespace = institution_events
+
+
+
+########################################
+# Feudalism
+########################################
+# no event needed, available from the start
+
+#######################################
+# Scholasticism
+#######################################
+country_event = {
+	id = institution_events.2
+	title = institution_events.2.t
+	desc = institution_events.2.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.2.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.2.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_scholasticism"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.200 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.201 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.200
+	title = institution_events.2.t
+	desc = institution_events.200.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.2.a
+		custom_tooltip = institution_events.2.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.201
+	title = institution_events.2.t
+	desc = institution_events.201.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.2.a
+		custom_tooltip = institution_events.2.a.tt
+	}
+}
+
+#######################################
+# Dwarven Forges
+#######################################
+country_event = {
+	id = institution_events.3
+	title = institution_events.3.t
+	desc = institution_events.3.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.3.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.3.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "great_dwarven_forge"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.300 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.301 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.300
+	title = institution_events.3.t
+	desc = institution_events.300.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.3.a
+		custom_tooltip = institution_events.3.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.301
+	title = institution_events.3.t
+	desc = institution_events.301.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.3.a
+		custom_tooltip = institution_events.3.a.tt
+	}
+}
+
+#######################################
+# Trading Guilds
+#######################################
+country_event = {
+	id = institution_events.4
+	title = institution_events.4.t
+	desc = institution_events.4.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.4.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.4.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_trading_guilds"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.400 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.401 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.400
+	title = institution_events.4.t
+	desc = institution_events.400.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.4.a
+		custom_tooltip = institution_events.4.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.401
+	title = institution_events.4.t
+	desc = institution_events.401.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.4.a
+		custom_tooltip = institution_events.4.a.tt
+	}
+}
+
+#######################################
+# Elvish Renaissance
+#######################################
+country_event = {
+	id = institution_events.5
+	title = institution_events.5.t
+	desc = institution_events.5.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.5.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.5.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_elven_renaissance"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.500 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.501 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.500
+	title = institution_events.5.t
+	desc = institution_events.500.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.5.a
+		custom_tooltip = institution_events.5.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.501
+	title = institution_events.5.t
+	desc = institution_events.501.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.5.a
+		custom_tooltip = institution_events.5.a.tt
+	}
+}
+
+#######################################
+# Printing Press
+#######################################
+country_event = {
+	id = institution_events.6
+	title = institution_events.6.t
+	desc = institution_events.6.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.6.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.6.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_printing_press"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.600 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.601 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.600
+	title = institution_events.6.t
+	desc = institution_events.600.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.6.a
+		custom_tooltip = institution_events.6.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.601
+	title = institution_events.6.t
+	desc = institution_events.601.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.6.a
+		custom_tooltip = institution_events.6.a.tt
+	}
+}
+
+#######################################
+# Statecraft
+#######################################
+country_event = {
+	id = institution_events.7
+	title = institution_events.7.t
+	desc = institution_events.7.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.7.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.7.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_statecraft"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.700 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.701 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.700
+	title = institution_events.7.t
+	desc = institution_events.700.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.7.a
+		custom_tooltip = institution_events.7.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.701
+	title = institution_events.7.t
+	desc = institution_events.701.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.7.a
+		custom_tooltip = institution_events.7.a.tt
+	}
+}
+
+#######################################
+# Imperialism
+#######################################
+country_event = {
+	id = institution_events.12
+	title = institution_events.12.t
+	desc = institution_events.12.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.12.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.12.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_imperialism"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.1200 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.1201 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.1200
+	title = institution_events.12.t
+	desc = institution_events.1200.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.12.a
+		custom_tooltip = institution_events.12.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.1201
+	title = institution_events.12.t
+	desc = institution_events.1201.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.12.a
+		custom_tooltip = institution_events.12.a.tt
+	}
+}
+
+#######################################
+# Orcish Renaissance
+#######################################
+country_event = {
+	id = institution_events.13
+	title = institution_events.13.t
+	desc = institution_events.13.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.13.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.13.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_orcish_renaissance"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.1300 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.1301 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.1300
+	title = institution_events.13.t
+	desc = institution_events.1300.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.13.a
+		custom_tooltip = institution_events.13.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.1301
+	title = institution_events.13.t
+	desc = institution_events.1301.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.13.a
+		custom_tooltip = institution_events.13.a.tt
+	}
+}
+
+#######################################
+# Starmetal
+#######################################
+country_event = {
+	id = institution_events.1
+	title = institution_events.1.t
+	desc = institution_events.1.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.1.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.1.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "starmetal_mine"
+				duration = -1
+			}
+			change_trade_goods = starmetals
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.100 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.101 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.100
+	title = institution_events.1.t
+	desc = institution_events.100.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.1.a
+		custom_tooltip = institution_events.1.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.101
+	title = institution_events.1.t
+	desc = institution_events.101.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.1.a
+		custom_tooltip = institution_events.1.a.tt
+	}
+}
+
+#######################################
+# Human Enlightenment
+#######################################
+country_event = {
+	id = institution_events.14
+	title = institution_events.14.t
+	desc = institution_events.14.d
+	
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+	
+	is_triggered_only = yes
+
+	goto = institution_origin
+	
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			from = { save_event_target_as = institution_origin }
+		}
+	}
+
+	option = {
+		name = institution_events.14.a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_prestige = 20
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_medium_effect = yes
+		}
+		custom_tooltip = institution_events.14.a.tt
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_human_enlightenment"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					knows_country = ROOT
+				}
+				country_event = { id = institution_events.1400 }
+			}
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+				}
+				country_event = { id = institution_events.1401 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = institution_events.1400
+	title = institution_events.14.t
+	desc = institution_events.1400.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	goto = institution_origin
+	
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.14.a
+		custom_tooltip = institution_events.14.a.tt
+	}
+}
+
+#Far away travellers...
+country_event = {
+	id = institution_events.1401
+	title = institution_events.14.t
+	desc = institution_events.1401.d
+	picture = {
+		trigger = {
+			OR = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+				NOT = { religion_group = muslim }
+			}
+		}
+		picture = PAINTER_ARTIST_eventPicture
+	}
+	picture = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	}
+
+	is_triggered_only = yes
+	
+
+	trigger = {
+		always = yes			#
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = institution_events.14.a
+		custom_tooltip = institution_events.14.a.tt
+	}
+}

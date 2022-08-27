@@ -1,0 +1,15 @@
+add_core = GAZ
+owner = GAZ
+controller = GAZ
+culture = gazari
+religion = the_mist
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 6
+
+trade_goods = dyes
+capital = "Ada'Pal"
+is_city = yes
+discovered_by = western

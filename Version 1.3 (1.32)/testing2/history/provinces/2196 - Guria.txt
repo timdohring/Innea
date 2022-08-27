@@ -1,0 +1,15 @@
+add_core = KRV
+owner = KRV
+controller = KRV
+culture = duskborn
+religion = dead_house
+hre = no
+
+base_tax = 9
+base_production = 9
+base_manpower = 9
+
+trade_goods = cloth
+capital = ""
+is_city = yes
+discovered_by = western

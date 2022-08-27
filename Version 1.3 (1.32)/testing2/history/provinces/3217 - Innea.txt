@@ -1,0 +1,12 @@
+
+culture = hranan
+religion = sukkali
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+capital = "Jaloot"
+is_city = yes
+discovered_by = western

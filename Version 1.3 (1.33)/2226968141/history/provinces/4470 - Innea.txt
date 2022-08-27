@@ -1,0 +1,17 @@
+add_core = BUE
+owner = BUE
+controller = BUE
+culture = banglan
+religion = bharatvadu
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 11
+
+trade_goods = ivory
+capital = "Bangjo"
+is_city = yes
+discovered_by = western
+fort_15th = yes
+center_of_trade = 1

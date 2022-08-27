@@ -1,0 +1,16 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+add_core = TEH
+culture = tersian
+religion = ishuli
+hre = no
+
+base_tax = 7
+base_production = 5
+base_manpower = 4
+
+trade_goods = grain
+capital = "Pursa"
+is_city = yes
+discovered_by = western

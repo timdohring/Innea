@@ -1,0 +1,15 @@
+add_core = SHO
+owner = SHO
+controller = SHO
+culture = nongthai
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+trade_goods = sugar
+capital = "Tak"
+is_city = yes
+discovered_by = western

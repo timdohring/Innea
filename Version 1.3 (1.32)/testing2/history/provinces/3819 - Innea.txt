@@ -1,0 +1,15 @@
+add_core = SRZ
+owner = SRZ
+controller = SRZ
+culture = isoli
+religion = ishuli
+hre = no
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = grain
+capital = "Shahr Markan"
+is_city = yes
+discovered_by = western

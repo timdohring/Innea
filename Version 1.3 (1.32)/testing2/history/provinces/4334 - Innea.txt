@@ -1,0 +1,15 @@
+add_core = KOR
+owner = KOR
+controller = KOR
+culture = torvarik
+religion = ator
+hre = no
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+trade_goods = gems
+capital = "Ceskslav"
+is_city = yes
+discovered_by = western

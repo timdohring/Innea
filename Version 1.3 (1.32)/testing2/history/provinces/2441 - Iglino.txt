@@ -1,0 +1,16 @@
+add_core = VAT
+owner = VAT
+controller = VAT
+culture = manafi
+religion = woodmother
+hre = no
+
+base_tax = 5
+base_production = 4
+base_manpower = 5
+
+trade_goods = fur
+capital = "Vatomalean"
+is_city = yes
+discovered_by = western
+center_of_trade = 1

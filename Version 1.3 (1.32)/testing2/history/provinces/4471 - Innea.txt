@@ -1,0 +1,15 @@
+add_core = SHO
+owner = SHO
+controller = SHO
+culture = nongthai
+religion = bharatvadu
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 6
+
+trade_goods = ivory
+capital = "Sanrat"
+is_city = yes
+discovered_by = western

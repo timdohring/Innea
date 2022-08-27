@@ -1,0 +1,15 @@
+add_core = SKI
+owner = SKI
+controller = SKI
+culture = moon_orc
+religion = moon_cult
+hre = no
+
+base_tax = 3
+base_production = 2
+base_manpower = 3
+
+trade_goods = iron
+capital = "Aulfgat"
+is_city = yes
+discovered_by = western

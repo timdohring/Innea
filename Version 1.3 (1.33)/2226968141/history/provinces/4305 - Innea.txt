@@ -1,0 +1,17 @@
+add_core = BHD
+owner = BHD
+controller = BHD
+culture = taloch
+religion = ojal
+hre = no
+
+base_tax = 12
+base_production = 12
+base_manpower = 11
+
+trade_goods = spices
+capital = "Bhadhral"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

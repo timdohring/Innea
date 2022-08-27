@@ -1,0 +1,15 @@
+add_core = BKV
+owner = BKV
+controller = BKV
+culture = athr
+religion = the_coin
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = blue_copper
+capital = ""
+is_city = yes
+discovered_by = western

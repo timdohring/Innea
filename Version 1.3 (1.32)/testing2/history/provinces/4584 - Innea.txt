@@ -1,0 +1,15 @@
+add_core = RKY
+owner = RKY
+controller = RKY
+culture = dethom_pyw
+religion = snow_goddess
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 7
+
+trade_goods = crystal
+capital = "Khamsaung"
+is_city = yes
+discovered_by = western

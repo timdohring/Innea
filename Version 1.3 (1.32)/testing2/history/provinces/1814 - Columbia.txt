@@ -1,0 +1,17 @@
+add_core = DVE
+owner = DVE
+controller = DVE
+culture = minathi
+religion = yorik
+hre = no
+
+base_tax = 15
+base_production = 13
+base_manpower = 13
+
+trade_goods = paper
+capital = ""
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

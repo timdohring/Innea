@@ -1,0 +1,15 @@
+add_core = ELE
+owner = ELE
+controller = ELE
+culture = duwaring
+religion = syllari_temple
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+trade_goods = wine
+capital = "Kohyn"
+is_city = yes
+discovered_by = western

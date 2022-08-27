@@ -1,0 +1,20 @@
+#Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
+
+
+add_core = NYK
+owner = NYK
+controller = NYK
+culture = ykran
+religion = yoneth
+hre = no
+
+base_tax = 5
+base_production = 6
+base_manpower = 11
+
+trade_goods = wool
+capital = "Nykra"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+fort_15th = yes

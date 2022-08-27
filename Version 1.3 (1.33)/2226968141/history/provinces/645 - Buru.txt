@@ -1,0 +1,17 @@
+add_core = TER
+owner = TER
+controller = TER
+culture = rhydic
+religion = altran_church
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 8
+
+trade_goods = beer
+capital = "Lenton City"
+is_city = yes
+discovered_by = western
+center_of_trade = 1
+

@@ -1,0 +1,17 @@
+add_core = SYL
+owner = SYL
+controller = SYL
+culture = syltic
+religion = goz
+hre = no
+
+base_tax = 18
+base_production = 17
+base_manpower = 17
+
+trade_goods = paper
+capital = "Sylt"
+is_city = yes
+discovered_by = western
+center_of_trade = 3
+fort_15th = yes

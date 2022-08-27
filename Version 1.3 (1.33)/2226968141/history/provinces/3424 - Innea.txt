@@ -1,0 +1,15 @@
+add_core = ROT
+owner = ROT
+controller = ROT
+culture = maju
+religion = ojal
+hre = no
+
+base_tax = 7
+base_production = 8
+base_manpower = 8
+
+trade_goods = beer
+capital = ""
+is_city = yes
+discovered_by = western

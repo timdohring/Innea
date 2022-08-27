@@ -1,0 +1,11 @@
+government = republic
+add_government_reform = altvarik_city_reform
+government_rank = 1
+mercantilism = 20
+technology_group = western
+religion = zakritz
+primary_culture = chezan
+capital = 2028
+#fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+

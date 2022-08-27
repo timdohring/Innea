@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = {  24  50  123}
+
+#revolutionary_colors = { 8 1 8 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Waglen #0" = 1
+	"Denul #0" = 1
+	"Shdean #0" = 1
+	"Nidran #0" = 1
+	"Cashh #0" = 1
+	"Dekk #0" = 1
+	"Dened #0" = 1
+	"Ugdan #0" = 1
+	"Udar #0" = 1
+	"Luga #0" = 1
+	"Ugo #0" = 1
+	"Weseg #0" = 1
+	"Egawnim #0" = 1
+	"Hosnaweg #0" = 1
+	"Gwegl #0" = 1
+	"Denuda #0" = 1
+	"Erfucch #0" = 1
+	"Ogob #0" = 1
+	"Brego #0" = 1
+	"Midogok #0" = 1
+	"Marod #0" = 1
+	"Ghragh #0" = 1
+	"Gnogad #0" = 1
+	"Zabgha #0" = 1
+	"Sharg #0" = 1
+	"Hamugu #0" = 1
+	"Mul #0" = 1
+	"Vuguril #0" = 1
+	"Kogan #0" = 1
+	"Argal #0" = 1
+
+	"Bor" = -1
+	"Atub" = -1
+	"Khashug" = -1
+	"Basha" = -1
+	"Sona" = -1
+	"Bulka" = -1
+	"Shel" = -1
+	"Bumgus" = -1
+	"Nargal" = -1
+	"Shadab" = -1
+	"Mulag" = -1
+	"Zebg" = -1
+	"Homu" = -1
+	"Shdea" = -1
+	"Drana" = -1
+	"Gharagoan" = -1
+	"Maraod" = -1
+	"Braga" = -1
+	"Modi" = -1
+	"Egawar" = -1
+}
+
+leader_names = {
+
+}
+
+
+ship_names = {
+	
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	
+}

@@ -1,0 +1,15 @@
+add_core = KHC
+owner = KHC
+controller = KHC
+culture = khuchang_lou
+religion = bharatvadu
+hre = no
+
+base_tax = 11
+base_production = 10
+base_manpower = 13
+
+trade_goods = rice
+capital = "Chainag"
+is_city = yes
+discovered_by = western

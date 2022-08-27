@@ -1,0 +1,15 @@
+add_core = JHI
+owner = JHI
+controller = JHI
+culture = ghas
+religion = shuri
+hre = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = salt
+capital = "Sanr'a"
+is_city = yes
+discovered_by = western

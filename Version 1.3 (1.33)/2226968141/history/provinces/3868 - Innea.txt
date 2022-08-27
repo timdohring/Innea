@@ -1,0 +1,15 @@
+add_core = ESU
+owner = ESU
+controller = ESU
+culture = eshin
+religion = ishuli
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 5
+
+trade_goods = tropical_wood
+capital = "Eqvin"
+is_city = yes
+discovered_by = western

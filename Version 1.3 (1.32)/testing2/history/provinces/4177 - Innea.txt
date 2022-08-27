@@ -1,0 +1,15 @@
+add_core = PAJ
+owner = PAJ
+controller = PAJ
+culture = pajshru
+religion = ojal
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 5
+
+trade_goods = spices
+capital = "Pajshrit"
+is_city = yes
+discovered_by = western
