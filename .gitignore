@@ -1,0 +1,15 @@
+# --- Backups ---
+# NOTE: never leave .bak files inside the mod's glob-loaded dirs (e.g.
+# map_data/named_locations/) - the game loads every file there and duplicates
+# break the map. Keep backups in C:\Users\timdo\eu5_mod_backups\.
+*.bak
+
+# --- Python (map/debug scripts) ---
+__pycache__/
+*.py[cod]
+
+# --- OS / editor junk ---
+Thumbs.db
+desktop.ini
+~$*
+*.swp
