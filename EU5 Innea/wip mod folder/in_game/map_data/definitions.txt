@@ -1,0 +1,1393 @@
+innea_continent = {
+	eastern_innea_subcontinent = {
+		varland_region = {
+			north_varland_area = {
+				rokkfangr_province = { varhall storms_point logunar vryn lindby }
+				orbonfell_province = { skallor orbonfell gleifingr bjorlan sjaldan }
+				raga_province = { jorekkr runland neifland sona }
+				sunland_province = { hronnland bernstone bone_coast northel }
+				jatann_province = { oddgarm hofen nykra lower_eyslo east_kapland gleifing_mountains }
+				thud_province = { njarla icerun frys roslagn gagasla }
+				urikka_province = { west_kapland upper_eyslo savolen skund }
+				valgard_province = { norra talmyr tojun sojot }
+				north_rekkyr_province = { greyland torvas flodden rasland }
+				south_rekkyr_province = { tormund mudrson_isle hjalvheim kasten }
+				hrafnland_province = { dalland odoal hrafnborg roskir }
+				west_varland_sea_province = { jarlgraf_bay south_rekkyran_coast north_rekkryan_coast storming_sea skaborjum_sea }
+			}
+			jarlgraf_bay_area = {
+				dagland_province = { dagholm ufalla ironstone altmund }
+				glamfella_province = { sturing osfell thalheim ris sixja }
+				dvalstava_province = { nedland forderen alfdran mundren }
+				jarlgraf_province = { galmer torben jofur heterland }
+				balmerja_province = { hross gothesdan south_hovn north_hovn }
+				haken_province = { agvellir sark hakland }
+			}
+			south_varland_area = {
+				west_falk_province = { south_belaff north_belaff falkenholm west_pass hersh }
+				east_falk_province = { skarrun harland ytland ormsdalr harals }
+				kastland_province = { malkast little_rock merstrond lathur }
+				skjollan_woods_province = { fjoltan west_skjoll uldr_skjoll south_skjoll }
+				southfjord_province = { nufhjav skerten iskafjord big_rock }
+				jaskmar_province = { blackhill central_ryyk gottholm tethan valrunin }
+				coldbrine_province = { ysa trejaslo othenheim }
+				heron_lake_province = { sundborg south_heron kuning heron_lake }
+				upper_pinehold_province = { norun_plain votun blackwoods freyn caerwikk }
+				lower_pinehold_province = { kynshelm morn tanvik greyrun }
+			}
+			varsk_isles_area = {
+				seaway_isles_province = { serpent_isle yjoll_isles seastone varun }
+				nortland_province = { northeim host uthrenland selke }
+				skellnyr_isles_province = { reyknor ulurskellnyr lorvik }
+				hallsey_province = { west_hallsey hallenheim east_hallsey kilhorn }
+				blackpearl_isles_province = { northpearl lofta_isle uqaruq }
+				azqur_province = { coldhearth highstar southshore azqer_isles borelia }
+			}
+			drengyr_area = {
+				imaqanluk_province = { pinnituq ipikhasaa ugujaai }
+				tralso_river_valley_province = { svaldran aslo jhorlan skalhall }
+				west_drengyr_province = { reykjaby orvik ijaran tvar }
+				midvelling_province = { ogosland daggas ikonun }
+				mitquqii_province = { uugaq taliq uaqhivik tiggak }
+				lesser_fjords_province = { seahome otalar helsing solven }
+				greater_fjordheim_province = { basbergan fjordheim leden rukksland }
+				aqaulan_province = { iqin tsooba moorvilik sushen anti }
+			}
+			tjalle_area = {
+				southern_tjalle_province = { enoc_brenn druada sleiporg renna }
+				a_vriltra_province = { klar tjil_vantan tjil_eirse north_duedhin_mountains }
+				northern_tjalle_province = { riohme tagocs neaendh }
+				amarse_province = { diobhan hlorma enoc_torse selc_marsh lake_aglaug }
+				kjafan_province = { selse taselc nukk abrunanach lake_seol }
+				tjalle_sea_province = { southern_sea_of_whales south_varsk_sea tjalle_sea the_blue_bay saelic_coast eirmunds_pass }
+			}
+			nuqitut_area = {
+				aanland_province = { aan tulku aqal pamiiu haaqland }
+				qotlaa_province = { qosskot usskot ilut_plains snowport }
+				the_shelves_province = { loopar_shelf kiito_shelf uka barrenland }
+				iilaam_province = { aqaslu ukriin issoh iime }
+				seal_bay_province = { sealshore nuqun_isle porri iatuqu }
+				miqursain_province = { konsait kollnavi maaq saiilorqon }
+				ice_plain_province = { ice_plain ice_plain_2 ice_plain_3 ice_plain_4 }
+				nuqitut_sea_province = { gulf_of_ice northern_sea_of_whales bay_of_seals miqur_coast sanukit_coast }
+				far_sea_province = { cold_banks far_sea }
+			}
+			drengry_area = {
+				north_varland_sea_province = { rift_sea thuden_coast steringr_gulf strait_of_bjorlan coast_of_drengyr north_varsk_sea southern_rift_sea skallor_sea }
+			}
+		}
+		brythawn_region = {
+			upper_briltan_area = {
+				gilder_point_province = { drengey hreimgild milvrik gildhaven }
+				black_ash_woods_province = { shores kettle_forest aer }
+				morrowshire_province = { morrows dun_briach dun_hlohsich dun_darhbh }
+				blackmouth_province = { vul ilkshire northmouth galens gresmond }
+				califfe_province = { calestone dun_ekvyirks toderegg in_castel }
+				wain_province = { ostershire dun_ferreg wayfurd becken fourning }
+				north_dunland_province = { dun_kilkrac dun_bodhe dun_ywerdunll }
+				first_sea_province = { easerly_fish_banks gildic_coast black_coast first_sea black_bay cape_of_the_old_rock }
+			}
+			ywekan_isles_area = {
+				cahst_province = { keiarn_isles kingcahst duoloch_hills ardenchills westoc toudh_isles }
+				whaler_isles_province = { whale_island traitors_isle kilrock keymartin }
+				littlefish_isles_province = { in_udny kojh_island first_isle }
+				ragged_isles_province = { lagh_omhaill lagh_balan hallick_ralland oberton_isles }
+				uddodrach_province = { poachers_isle lagh_tuo lagh_akrunac lagh_doubhanill herring_isle }
+				new_botte_province = { southrocks newcorpse estshire elderstone ulstanshire }
+				old_botte_province = { rocks_above kopper_hills darshire breakers_point doak ywellke }
+				big_fish_isle_province = { edinsbern corath fishpoint }
+				whale_sea_province = { north_whale_sea eastern_sea_of_ooku weastern_sea_of_ooku gildic_sea north_fish_banks south_whale_sea icewind_stretch }
+				north_ywekan_sea_province = { troubled_sea whale_coast south_fish_banks north_bottean north_ywekan_sea rockpoints south_ywekan_sea }
+				silent_sea_province = { eastern_passage ragged_sea silent_current }
+				south_ywekan_sea_province = { ragged_coast herring_sea rallands_water uddon_sea ywekan_strait east_trader_sea bay_of_botte south_bottean east_farwind_sea }
+			}
+			lower_briltan_area = {
+				blackshores_province = { yorwikke blackhorse cottleshores ironhoof braster }
+				south_dunland_province = { nuardernec dun_ketwic yoht dun_hlololthl foregg_dun }
+				lakeside_province = { yoren eastbridge orenheim south_oren west_oren lake_oren }
+				briltan_heart_province = { burrough cegwend whitefield myles eldershire }
+				ballanshire_province = { morarch caewind karkow ballan solstire_end shacktown }
+				solstire_province = { north_solstire ywes dun_murdrach }
+				avan_coast_province = { lindow whelby debbes kalren avan }
+				east_greyswood_province = { kintown fallows_ridge cavalshire greythen }
+				west_greyswood_province = { central_greyswood north_greyswood hillockburn loguntar }
+				briltan_sea_province = { ijeals_channel briltan_coast gull_sea coast_of_avan shipwreck_banks }
+			}
+			highlands_area = {
+				the_steps_province = { iodh athben_steps brich }
+				carrhain_province = { arvahn diobhne carren_hill isidhuan arghcle haral_mountains mount_om }
+				adh_province = { bebenoe asthoe aethelbas taghmore skyross eastern_harals }
+				leihg_province = { carredmuir cohcne donnall ballin_brugg lecan leithin }
+				brobbaigh_province = { ballin_caer lone ichuer usscaer allar_mountains }
+				snowrise_province = { crowfoot_pass ac_fher cottersbrouw slonon gotnesaig duedhin_mountains }
+				two_mountains_province = { asterlands mount_crow ballin_estecc mount_owain elcnoe }
+			}
+		}
+		commonwealth_region = {
+			achakk_area = {
+				achakk_highlands_province = { karolwyn warshvat okran_steps razca nalecusnyr bovrobec }
+				greater_kev_province = { uka_rathiv brezniewo kev }
+				ev-tvan_province = { uka_ivihyn volots besakd przygodla }
+				ociaskie_province = { tvaryn tranvryw lakkoc }
+				ov-tvan_province = { olowiets altarsk bydogyz ghavrar }
+				darkwoods_province = { tarov darkwood ulstyzycyn wielnowas }
+				upper_niev_province = { uka_povra janna akrunachez dewesie }
+				lower_niev_province = { zlathocs drazangownie chaluzka obreneh zelen nievosov lake_niev }
+			}
+			allarnia_area = {
+				years_end_province = { highview vinewood yearlake aere }
+				allar_frontier_province = { rivermark luz_forest aonem saurgh }
+				central_laure_province = { towerway lienne laurien south_laure athen }
+				ormean_province = { kaval ormion allar_gate celwood }
+				verras_province = { veradan bufte aranes usilan maurwood }
+			}
+			syllos_area = {
+				rhoelas_province = { west_border rhoen limara roehen }
+				aenmyr_province = { north_border fel_aenmyr cistern }
+				auormyr_province = { auorside syrd hyles sunwater lake_auor }
+				sylmyr_province = { vigil aeljandor balas }
+				aruin_province = { mereneth limyer eeaster sunfall }
+				liren_province = { westlake eleon gandalur emerald_lake }
+				llanat_province = { threin llandar vaalwood lake_divithne }
+				narinya_province = { fel_narinya naerine arthynwyn }
+				bloodlands_province = { elvendale mithras felloan broken_hills }
+				rivervale_province = { urent dunmane riverend }
+				senmyr_province = { senon plumwood duvaran }
+				felthur_province = { inall yovann jeeth }
+				lightvale_province = { doshiyr pamia lowlight starlight }
+			}
+			west_moltran_area = {
+				palemarsh_province = { upper_moon ten_stones reamoon }
+				bernot_wood_province = { huntsville northtree treeshores calsey }
+				greater_oden_province = { dove_hills elvenwoods negetta aldor lake_oden }
+				riverlands_province = { barlet calrshire riverway firstbridge hillhome }
+				giantswood_province = { north_giantswood south_giantswood connor heyshire }
+				lindershire_province = { irburn linderton willdey moons_end }
+				lower_vayne_province = { lowersif merilan mallish }
+				upper_vayne_province = { germont aster oselham casineld }
+				haunt_province = { haunton krochil churling }
+				polenia_province = { battleford elfall glen_hills }
+				new_rossland_province = { alloweiss edden_hills eshire gothram massex }
+				old_rossland_province = { ralvan glenbrooke leternshire norwikk utterburgh mosserlis }
+				northwood_province = { north_weald treemont murhold }
+				southwood_province = { west_weald tinderwood murwood nonne brotherhood_of_the_twelve }
+			}
+			east_moltran_area = {
+				greater_nordland_province = { westmoon nordland cinderbrooke keith }
+				new_moltran_province = { opirs_tears ninthstead cowlon astershire kerrington candleton }
+				old_moltran_province = { keltran north_kingsway baleright south_kingsway avendale esfamlends }
+				karshire_province = { karsan branet the_ellan crossings sumersyle }
+				northlocke_province = { keywick southstead borne mayshire elbrose }
+				lower_greyswood_province = { south_greyswood byway_sides reach }
+				shropshire_province = { west_auckshire east_auckshire nirrweigh fainway }
+				steadfordshire_province = { briston millerstead geldon_commons doddey }
+				the_whey_province = { wheyfield kelshire marby barleytown }
+				high-on-ketter_province = { farmers_bridge ester_heights darmuth bronn fintonshire }
+			}
+			free_states_area = {
+				greater_murlocke_province = { urndell murlocke eastlocke darwex tanners_fields murlocke_lake }
+				otenland_province = { north_oten vinton south_oten }
+				sanshire_province = { ixsley sandrill ursland }
+				upper_brongs_province = { brongs_pass kaperin northrise eesland beer_hills north_brongian_mountains west_brongian_mountains }
+				lower_brongs_province = { shieldstone kaaveling schipje arham glaswijk }
+				herst_province = { herstonshores herston kalon }
+			}
+			tradeshore_area = {
+				tekker_and_peels_province = { tekkers_heights south_tekker lower_peels upper_peels great_bird_island }
+				wrecker_isles_province = { shipwreck_archipelago farwind_isles trader_isles }
+				seatonshire_province = { wheaton seagull_harbour south_tevan }
+				southshore_province = { milton_keyns cliffers_rock welding arrynal belsen }
+				whelshire_province = { belverdale wheldeross old_shaaz kaverstead }
+				northshore_province = { under_pickets pickets sayel marat perlton }
+				farmerlands_province = { faction_point flagpeak fielsenay coverton }
+				tevan_borders_province = { shazot north_tevan parvahk yorkey dolstead }
+				grayle_hills_province = { lakeview assonfield northil grayle westhil }
+				trader_sea_province = { west_trader_sea sea_of_shipwrecks west_farwind_sea oots_waters peel_sea }
+				tradeshore_sea_province = { north_tradeshore south_tradeshore seagull_cape coast_of_brongs }
+			}
+		}
+		heartlands_region = {
+			taroq_area = {
+				arvence_province = { orlone ellerham seaview sorraine }
+				sprucewood_province = { lessez_u_iht querrol allsunar upper_sprucewood spruce_lake }
+				mittagne_province = { setcaire overpool naarth intermitte }
+				charady_province = { outelles meaucy sellaine surdoux }
+				eviellen_province = { umbridge seanie thalie hammer_mounds }
+				carroy_province = { beaugin arrun cliffpoint lamalie }
+				tevanny_province = { peasants_rock hammerkeep cherrain nothan knights_landing }
+				quentaine_province = { qorraine mourdeaux three_sisters }
+				lorrelaix_province = { mor_fil_erriac lorre arimire lenns }
+				galeview_province = { kolochnach vielle gales old_vielle }
+				five_stones_province = { yeotown east_edess longshore elder_lake }
+				balledoc_province = { aparesin senigal elan_chambris frells_ring avieu }
+				west_edess_province = { heangrie beuhvinne dordranach mor_fil_ussauex edess_lagoon }
+				taroq_sea_province = { gulf_of_noth mitten_coast spruce_coast seaview_cape sisters_channel sellaine_bay }
+				sea_of_gales_province = { lorre_coast frell_strait hammer_sound coast_of_dales tanne_bay coast_of_yworr coast_of_gales }
+				great_ocean_province = { northern_great_ocean the_great_ocean southern_great_ocean northeastern_great_ocean southeastern_great_ocean }
+			}
+			north_teltran_area = {
+				twin_cities_province = { lakerest tyosse uthan chambot }
+				kaupland_province = { plains_of_iss wearshire kaupton forly }
+				lerril_river_province = { urallen lenton onrell terl }
+				north_rhydon_province = { referingen den labach }
+				edgefield_province = { riverrest gorgnot westwoods eastwoods }
+				upper_dern_province = { sandule zerill ashen nurnach }
+				lower_dern_province = { litz lattsingen birchwood kastach }
+				middenlands_province = { breiten_plains clenland orassland noekkern }
+				south_rhydon_province = { honeywell beybury druxing }
+				lingen_province = { copperfield teltran_border holtland grinningen wallamh ellisai }
+				plains_of_leridon_province = { eshing aarnach openfield terringen isel }
+			}
+			central_teltran_area = {
+				northvale_province = { birchvale hemlach lond asmyre neulin }
+				asmyre_glen_province = { grevitz essing weix north_wild_lake south_wild_lake wild_lake }
+				west_bergen_province = { oberplatz karlsund kern mundau bierre }
+				upper_bergen_province = { grafingen stockshire kelhus butland }
+				merchants_vale_province = { uwl aerd ingsbruck gilded_hills }
+				silver_vale_province = { merchant_hills silver_hills authing vern }
+				bergen_province = { bergendale kington upper_aating glockvein }
+				zahlitz_province = { lower_aating north_zahlitz south_zahlitz erpfad zahlitz_lake }
+				lower_bergen_province = { xylung thulberg ammers oltendoch labeck }
+				kronnland_province = { aberhus ivis jearing dulingen kaapers kronn }
+				foring_province = { upper_foring foring_head appleling foringwoods woods_end aadach }
+				tanne_river_province = { less traders_watch haland lobach }
+				uberland_province = { uberach tutz offling rehten }
+				greater_tarthen_province = { tarthen highkey tanneview tannebend rottsen stern_mountains }
+			}
+			rivwoudn_basin_area = {
+				cidersprings_province = { naat devu ciderfalls waterspring bluetree }
+				ciderwoods_province = { south_cider_forest north_cider_forest west_cider_forest }
+				cloudrise_province = { cloudwatch skystep avais ivithne relanii cloudy_mountains }
+				southpine_province = { lower_southpine brac seduin upper_southpine }
+				celmyr_province = { oron lafiess merenil celrun sulas }
+				rivat_province = { bluewater daelyon naavir riverfall }
+				rivwoudn_hills_province = { muiness avaland teneth ecia lorrelaie }
+				isafaal_river_province = { chalna aue varan muir ciilo }
+				northsilver_province = { silvermist skywater liviean osshtar silver_mountains }
+				merena_province = { south_merena fuisnat merenaii rivnyyr north_merena }
+				volamnyr_province = { uinme volam bluewest }
+				amyr_province = { fewiaj summerlands avantis isildei north_summerlands }
+				weu_province = { blue_mountains longforst sassuwe weyik }
+				lithmyr_province = { steel_mills waterbridge lithryr rivenall }
+				viiath_province = { elderflow zuwe viijandor crescent_crossings naita }
+				upper_isafaal_province = { oponyr highwater ilsguewe vaaenen }
+				liivyr_province = { east_liivwhan_mountains north_liivwhan_mountains coihonne omuwe liivwhan_mountains }
+				ceiisat_province = { crideth avryn tfaille ceiis hlonaii }
+				owaille_province = { northriver stonewater omnoland magalii }
+			}
+			teltran_coast_area = {
+				dalian_coast_province = { nightshore botlorn greyport knights_mouth }
+				krugental_province = { nervonshire hills_of_ire beiring_downs thaler doverland }
+				lower_dales_province = { schrenstonn daltenburg barbrucht vernen euwex nillland skycradle }
+				slendingen_province = { karland slendos bierlach robbers_crest }
+				tanne_coast_province = { elbestone durnshore tanne_mouth odensbur old_catter catter stone_isle }
+				avinland_province = { wayne_coast avinor redshore greyspring wine_hills }
+				wine_country_province = { upper_vintage lower_vintage between_hills westyard }
+				redwayne_by_river_province = { spressingen bierass nyrthe igelten oftland zierlatz }
+				hill_country_province = { upper_kaff lower_kaff west_durms east_durms }
+				reuthvale_province = { scheppeland uckring lerten uthelingen kaireuth ausex cobblers_gate }
+				lower_reuth_province = { luerland copper_hills borderlands }
+			}
+		}
+		acryllia_region = {
+			the_goldvale_area = {
+				upper_vindes_province = { livia laran_hills averas }
+				lower_vindes_province = { mercant_square dilum lutera noretium }
+				phracian_highlands_province = { miktria veras emgardum opoll ceres_vetrinum ceres_ascolum }
+				mylades_province = { east_mylades north_mylades naupathos kallos elkenshield }
+				gold_river_province = { goldvale manillo copper_bridge goldenshores cerses_buram logino }
+				longfire_hills_province = { nassia gavern firehills }
+				greater_forge_province = { forge saldosa ironhill legri veixas }
+				low_rettaria_province = { panus cerses_erii tanetin magol eras_abillo }
+				southcloud_province = { cerses_lixas tovinya certus urum_ier }
+				upper_axos_province = { exixerre segium cavino solet anclis }
+				lower_axos_province = { naran_peum cerses_laranium naran_ubrex }
+			}
+			tauria_area = {
+				remian_highlands_province = { east_errastas west_errastas omeilia pancona livio_telum livio_qum }
+				sanctus_province = { romenis nuria beseentio vetrium abroa livio_valium busticum }
+				lower_sanctum_province = { corolis salt_hills keesticum golden_hills }
+				collus_argenfor_province = { romaan luesnagotum tabea quarun spoletum }
+				septe_augorium_province = { vividox suretia livio_verax prium suastium naxis tirelle }
+				ghelticca_province = { banatria galuca meren augorium lamadura }
+				old_tauria_province = { the_orren varalusia oss_taur upper_elonia lower_elonia nurcian_forest }
+				new_tauria_province = { mar_bedo ponton rachan lys_taur lusetia ilrena mar_casta }
+				west-gold_plain_province = { nudria mar_algo dacete ilramon urriba porgos }
+			}
+			maetia_area = {
+				tyrnia_province = { upper_tyrn lonia ongell lower_tyrn }
+				verdanya_province = { east_verdanya west_verdanya nalanos melra vallreix }
+				maetian_highlands_province = { escroix farmhills marraf legues }
+				maetia_province = { celoni aroxta bivissa uvorra eastshore saphire_lake }
+				pearlands_province = { puixol calofe lonsia pearwood orchard_downs }
+				caixol_river_delta_province = { bestaras doran ranacans hava enia }
+				hammer_hills_province = { bruega tosona vara_plains south_bruega hammers_reach }
+				dianeth_province = { lusatt reixbrix llsarre diana vilat }
+				maetian_coast_province = { nolgarra melva varragone elona volost }
+			}
+			greater_cothonia_area = {
+				darian_plateau_province = { lorritz biscai brava albar darian_cliffs tortus }
+				briiyan_coast_province = { antiqua esar_coast argin meax penekran intxau }
+				othorica_province = { darepta lidogo oettica myran }
+				upper_hearten_province = { loretania nuremetum northbridges upper_leia manorre lower_leia }
+				leritania_province = { moth_forest lersis_waters southwater rattica ochrum }
+				cothonia_province = { audrin old_cotone traders_haven lurica cothone phage nes_sidium }
+				estate_province = { north_alletania south_alletania allica myland puras ayriem }
+				hearten_river_province = { downheart phoettica mounne goldflow arbor narsis }
+			}
+			empirium_area = {
+				allegrum_province = { persinium lavitinum allegra juvun }
+				corruse_province = { valaris capus vetrilum paladium balar }
+				lestium_province = { scundili ostralestia augustin ventrila faler }
+				rose_forest_province = { rosewood west_rose_forest east_rose_forest paradellius }
+				upper_kaneth_province = { nuceria marruvia lau silium vrixia }
+				lower_kaneth_province = { gilden shyril tosa alium lake_kaneth }
+				farun_plains_province = { cross puesca ravere silverfield_ }
+				east-gold_plain_province = { kessing south_plains snyder murtte ashire }
+				vegnum_province = { vegnium salasum massino imper_penar ario muria }
+				bolkan_hills_province = { imper_cede ceanza bolise varaglia perablia }
+				cabresium_province = { corvitano tabata imper_fin cabrela }
+				arvoni_province = { ravona corvii neletus deglasia }
+				arkanum_province = { volaria arkanos impar_pomo elano impar_civit }
+				south_padona_province = { ravio caria fawn impar_lecco luro bolkan_mountains }
+			}
+			acryllian_coast_area = {
+				itira_province = { iltierre tradewatch vitejo element }
+				divilum_province = { reira nuretego cadae estrela hayfield }
+				eldan_province = { ferreiseta aesyr avadura miath_spires }
+				condelatium_province = { valdan nesao ganymera raoho }
+				avarn_province = { edroso agria opontao merta }
+				thelas_province = { westmarsh eastmarsh thelis mastic thelan_marsh }
+				gharecilum_province = { thorne beran littor votta_hills peradma }
+				north_narcetia_province = { morana quidrema ogre_isle movium }
+				south_narcetia_province = { vodiss talin atania zazara port_oceanus }
+				upper_sascile_province = { aftanissotta fellisin upper_geccar valewood lower_geccar }
+				lower_sascile_province = { umbrino beonyma massari oltasia vilizia }
+				acryllian_sea_province = { redwayne_coast itiran_coast coast_of_lenatis bay_of_thel }
+				narcetian_sea_province = { narcetian_coast sascilian_coast cothonian_coast coast_of_briiya maetian_delta }
+			}
+		}
+	}
+	western_innea_subcontinent = {
+		altvarik_mountains_region = {
+			isschi_area = {
+				rift_isles_province = { southern_alrik south_varga north_varga tueby rift_isles }
+				isschan_coast_province = { teu_aper nanper_coast uviels_shore solper }
+				paldan_province = { paldar sotvin emtar asshen isschan_mountains }
+				ice_river_valley_province = { ice_river eper selluin verp euper white_lake }
+				eshe_province = { shest lisspa prias_pass }
+				glacier_coast_province = { pulasper ulda tear teu_nen }
+				poldam_province = { pilssh crystal south_poldam }
+				tosshi_province = { issholas illuin teu_pot jephar }
+				glacier_pass_province = { mopar darpa_pass oban western_glaciers western_altvarik_mountains }
+				lot_province = { low_lotshal high_lotshal cold_passage saruin }
+				icefire_province = { icewind narpi crystal_fields star_pass lehper epor_ice_fields glacier_of_fire }
+				crystal_sea_province = { isschan_sea paldan_strait ice_river_bay glacier_strait tosshen_pass crystal_sea glacial_sea }
+			}
+			aldarukk_area = {
+				yothiin_province = { yothelheim ostram south_yothiin white_forge yor_forest }
+				grendyr_province = { jothan evredd lower_alda staaldan upper_alda staal_mountains }
+				east_boernheim_province = { thraum washjat north_boern }
+				west_boernheim_province = { lethe boernheim undar_rise hallrend boern_mountains }
+				rekurn_province = { hjemvald desskarn rekran nurtadsin kargvit }
+			}
+			altvar_area = {
+				minath_province = { karsain east_way highstone sothn greyhome ironstone_mountains }
+				southstone_province = { south_end behen andaron }
+				greyhold_province = { stoenmil dorak kalran }
+				stonevale_province = { minin old_forge andurock jarnstein the_great_undar_ridge }
+				brevik_province = { redsteel duril central_altvar minheim }
+				north_athbalht_province = { stallrvan garven karecht mount_ath athbal_spires }
+				south_athbalht_province = { jorkansaed rivers_shore edurn lokan }
+			}
+			othal_area = {
+				othal_pass_province = { north_way winter_forge loravit alkastelle the_othal }
+				judtholm_province = { derunn jutd holming kyshvek_woods }
+				kvindul_province = { merock duvinn doern jheiss velming }
+				westmine_province = { zavrin jofor avernik ferovit }
+				kaarnasst_province = { holkarg ulv firewood kaarn kaar_crags burnt_mountains }
+				drebynholm_province = { kridan west_end drebynheim dergard dreb_pass }
+			}
+		}
+		halmskr_region = {
+			iron_isles_area = {
+				ironhelm_isles_province = { upper_iron_isles lower_iron_isles nashagraz kifra }
+				iron_sea_province = { south_iron_sea west_iron_sea east_iron_sea west_pelatic }
+				pelatic_sea_province = { northern_sea east_northern_sea east_pelatic northern_coast pelatic_sea }
+			}
+			vehk_area = {
+				briihk_province = { tavehk east_briihk odd_isle west_briihk }
+				vehkan_coast_province = { rehk hodla bruvek }
+				east_ngonak_province = { uvada lower_ngon aspesi ngonak_range }
+				denchiq_province = { yutepa akkuma lichiq lerga narak }
+				tonchad_province = { kashdremul tertepa kond magkchezd chezan_mountains }
+				oqoz_province = { chartor uzkhakkul oqorako qoztepa }
+				ashkaz_province = { dagoz ashkazgarul lower_ashkaz isbray }
+				briivan_sea_province = { east_briivan_sea gors_coast vehk_gully tonchad_coast west_briivan_sea black_gulf }
+			}
+			east_halmskr_area = {
+				gors_plateau_province = { scarred_shore north_dbaa south_dbaa gors_rise gors_cliff }
+				gdor_province = { mga bder allvat edonzd odmgo mount_drus }
+				zdakk_province = { bradzd kasht lorat gerdin }
+				greater_ul_province = { ulmid_pass stoneden agal irade skeins }
+				ron_province = { shiramd dashtand mong ronaak }
+			}
+			lostland_area = {
+				east_lostwood_province = { upper_lostwood maszr north_drt south_drt last_spire }
+				west_lostwood_province = { rodr left_ leklins_clearing lostwood_flank }
+				meneg_bur_province = { wausda umludened mzrin addohd }
+				lower_lostwood_province = { elr_hlot adganul senud bragerd elr_mwe }
+				udul_province = { udverl lopurszd elr_lpu sagzdum }
+			}
+			mdarak_area = {
+				tred_province = { nashak trereborg aidken nidrborg occhol }
+				aqudarak_province = { kyzd uvlord adrak nashde }
+				the_shield_province = { shieldpeak bishkol karamin navka }
+				halmskr_mountains_province = { baltad talamok murkta great_halmskr_range }
+				white_river_province = { uzgul jeqash white_rock sulus }
+				garak_province = { ganara isata kekbat gorsk }
+				outerdoom_province = { levrit kenchy ykek ata_mahk }
+				doomed_land_province = { doom ochkor drecashh mountain_shore mount_fadug mount_baltar fishlake }
+				kash_province = { lugd ata_ukash kashraz }
+				shield_coast_province = { shield_channel tredic_coast gukar_gulf orkal_straight }
+			}
+			blacklands_area = {
+				ragr_horn_province = { teddek shal_ragraz kosh seraz damant }
+				anzol_province = { obiyon kiirogh gazdag anzar }
+				dernush_province = { dernehborg boldhar seyten tagdag }
+				west_ogolr_province = { khoru gubdep skave bokhan borgonn }
+				azarbad_province = { milak muryat kazarat koloda sazket }
+				southern_blacklands_province = { dshuvulborg khtar panserh mosgha gubjak }
+				northern_blacklands_province = { blackcliff gulraz ketag black_hill terdmal }
+				shekhan_province = { khanda sumqar sheven adsta mbunakh }
+				black_sea_province = { upper_black_coast lower_black_coast azar_coast tagad_coast megdum_ridge south_pelatic }
+			}
+			orkal_plain_area = {
+				omag_province = { omagdul arukor lobod djenwi kitogu }
+				kadwad_province = { wlatad maul dwasam kagang walugd }
+				adek_lna_province = { mirkedezmul ldrnach bagraul beylak kaggraz_mountains }
+				narov_province = { stonehall great_oak pakvrk imotske }
+				deja_province = { rabr opataik delnjsk gndombele }
+				central_halmskr_province = { chieftains_rock mnv slavk }
+				or_province = { orhone nopvgak zlok slag_hill vlakdehsn }
+				stavrog_province = { nwa_sanke ustahv prsn ledejok zvomenne }
+				do_province = { dohone morlach nwa_karr mount_lyg }
+				demirad_province = { matopog lorhon parsal hlod }
+				the_wall_province = { blackwall kress malred }
+				north_ogolr_province = { speartree hashmoll nwa_eswo slank }
+				south_ogolr_province = { gahand gehsh lsnevek }
+			}
+		}
+		sun_coast_region = {
+			gorsand_area = {
+				goblin_sea_province = { goblin_cape shekhaji_coast dranic_coast }
+				khashti_province = { khash pospi gonahk }
+				skhedja_province = { chisa umuzgul jeomarn rusta }
+				jacha-guseti_province = { grimshore jomi mazesti kutsasikhe karegeti }
+				dmonetli_province = { dushtsaq dmoni tnori }
+				leveno_sha_province = { iravi elderhollow vari khobad }
+				shekhaji_shore_province = { dati onvili waterpoint tsbani }
+				imureti_province = { lagoali blackfyhr tsigh tkvagri }
+				tbankaz_sha_province = { deephold guldashi west_tban east_tban }
+				minahketi_province = { burn vask tskhihumi }
+				ozamt_province = { lower_ozamt tshkari upper_ozamt }
+				qashti_province = { dauta qadmo kvani udivili tbandsi }
+			}
+			upper_elldranor_area = {
+				shlacht_province = { bleakpoint ras_ebeleth nas_end goblin_pass lesser mount_shlachtar }
+				west_indrys_province = { fester ras_dinryl westrim inner_indyl wyvern_harbour }
+				east_indrys_province = { tell_indrylan rimar molt ras_vesen balyndar molten_lake }
+				dark_mines_province = { stalmire mudoth zarocs_star dead_steps gor_range }
+				fungal_hills_province = { kenthral telgar malbourn }
+				ruskari_waste_province = { duvilrvyn synister othedas }
+				north_scraw_province = { upper_telas lower_telas adaron kelas_tell_vinir scraw_lake }
+				south_scraw_province = { ras_tir shank sabassa }
+				vara_province = { drethen blackrose rudrin esmere collara varalin_lake }
+				duskvale_province = { vision kelas_alkanor magelight south_dawnwood }
+				shanrya_province = { shanrya_plains dusk_valley recreath }
+				upper_dawnwood_province = { east_dawnwood ludras kelas_rea stonewood }
+				deadlands_province = { eastern_deadlands nothern_deadlands dead_hills }
+				kryn_val_province = { velath kryn ashmount western_deadlands }
+			}
+			lower_elldranor_area = {
+				myrwood_province = { raclatha sathrone birch_throne torwood scarbark }
+				myrath_val_province = { kaen yaria uvollis north_lestan_forest south_lestan_forest }
+				shuria_province = { mana shur_mal azora blue_tower kelas_nu }
+				ruined_plain_province = { ruine volvaan venmir }
+				verant_province = { kelas_ath reverent drake }
+				nulvar_province = { upper_nulvar sinderion tell_nulvanan }
+				naava_province = { north_embers ember farvos moria ember_lake }
+				eastern_naav_province = { kelas_scar miras_uvola kelpmarsh almorr }
+				naavan_coast_province = { east_trinning elvos taria west_trinning lake_navva }
+			}
+			tavrayll_area = {
+				ararak_province = { gyum_pash masjavan arar_isthmus mount_yllras aravros_range }
+				lovash_province = { lower_lovash dragonshore gyum_yegh kapara southern_tavras }
+				aragatyk_province = { burning_shore akhtadza tenyll gyum_bera crimson_height }
+				vardell_province = { byanim firehold vrasin varavan northern_tavras }
+				dzyll_province = { scorn gyum_taha metalaver ranrak hellsand dzyllan_mountains }
+				dragon_sea_province = { north_dragons_coast south_dragons_coast cape_of_fire straight_of_daggers }
+			}
+			aeden_area = {
+				anowen_isles_province = { searise_isle five_towers southern_ellain ithoduin }
+				aethoin_coast_province = { dawn alas nirnas }
+				west_salasuin_province = { greysand west_oaks piroll central_salasuin }
+				sinsil_province = { siret elien salren uposs }
+				hallrend_province = { firegold sunhall valion }
+				dothrin_province = { dothrin_coast southpeak starain duinas_kal }
+				salasuin_plains_province = { nanein_wood nur_deledein menien }
+				fallheart_province = { great_throne_hall nur_falswe falsuin outer_silv }
+				gildur_province = { gil_kal_kur yesermin nur_udal }
+				sunrise_sea_province = { south_lodhar_ridge doth_pass aethoin_sea anowen_sea sunrise_sea uldar_sea north_lodhar_ridge }
+			}
+			kalasen_area = {
+				adan_province = { bridgeport tienduvin jaelis inner_adan lonsar }
+				uldar_coast_province = { utfal amere seawatch northdocks }
+				kalas_province = { ironvale highrune burell lower_kalas uldaran_mountains }
+				north_kalas_province = { elend dathuil tire }
+				kai-mundin_hills_province = { north_reywith kaisil_coast relacassht south_reywith lissht mundin }
+				munass_province = { uteya relon two_shores ecas }
+				rift_plain_province = { alades_plain uthin bluerift nuthrin tiowen }
+				north_silavan_forest_province = { oakmurdir sece upper_silavan lesrain }
+				sulil_province = { sinswain uwen muinste weyes }
+				south_silavan_forest_province = { esmedera oakenrest emeth lower_silavan crescent_lake }
+			}
+			sylten_area = {
+				sajental_isles_province = { southern_islets dreygoz sapphire northern_islets }
+				eskawoun_province = { esme_rake west_eskawo korul blacktree }
+				kogruun_province = { yjg gokun jeii lake_ija }
+				greenscales_birth_province = { jedei_purash tohvit greenscale }
+				upper_sylten_province = { sylt ul_sudd pearl khorveej }
+				lower_sylten_province = { vek_tanal slajan denul saltmarsh apaji_sylt }
+				firefish_coast_province = { shellfire garak_ja udanhet }
+				jotass_province = { kesta blackrain liss southern_jotass }
+				az-thimun_province = { thime eljen doradeii nom firefish_end hemakept }
+				sajental_sea_province = { bluewaters misty_sea sajental_sea sylten_coast coast_of_gozma_deii gildur_narrows }
+			}
+			lower_evemore_area = {
+				suld_province = { suld_border kurthic_shore dafur lower_greystone }
+				greyhills_province = { shotar shazzul limaj drakush greystone_mountains }
+				zond_province = { vek_aba central_zond highreach }
+				deii_province = { lakash othryss hajtel inner_deii lejtal }
+				greater_gozma_province = { gozma vek_farj bej_kha under ajga_hisst }
+				palemarshes_province = { shiverscale shipal silvermarsh stone_pale darkmist }
+				il-rohguz_province = { adhasst upper_sola eje_rho szaal vek_wvi }
+			}
+			upper_evermore_area = {
+				nahmisst_province = { cothhan daira litisst goth_rul }
+				gazak_province = { palestone scalemarsh north_blackmyre inner_gazak kol_ti }
+				sthilmar_province = { ebbwater west_northlands reckless east_northlands }
+				dongaran_province = { gilthe dongar lizard_falls shitano nelvara }
+				laje_province = { kol_rani sokso kol_veej }
+				the_mist_province = { south_blackmyre kane gyrrmun shellwater_bridge }
+				golwood_province = { lower_fian goliant_forest upper_fian }
+			}
+		}
+		midlands_region = {
+			great_forest_area = {
+				fianaribe_forest_province = { vatov sofivakina karatra avanebe fotavina }
+				vatomakari_province = { enabava inany vatoma }
+				lovribe_province = { north_lov melake south_lov tasy vohonale southern_altvarik_mountains }
+				dianrokari_province = { horomon dianmatsi bonegola }
+				afarakari_province = { traders_post diny afarahy }
+				hillwood_province = { west_hillwood ihote_matsia atsniboka east_hillwood ihote_ambi grey_mountains }
+				okymbekari_province = { nagola okymbe ihote_melakny atsidi }
+				fianakari_province = { wreath sirabe fianaha mirobe dekoha }
+				ambakari_province = { vananana ambazoa ihote_tolia osydrola }
+				antosikari_province = { anlatsi rofotosy nanagifo losanabo }
+				selakari_province = { selake manala ivoanala fanadre lampytoro }
+				manakari_province = { mafianatoa toliarasy manafeno vokatana antselode }
+				drazakari_province = { drotsifana disdrava manakanosy }
+				mahakari_province = { mitfefmia ledrolovo vatvaka fitohanga mahanogo }
+				great_northern_forest_province = { great_northern_forest }
+				great_eastern_forest_province = { great_eastern_forest }
+				great_western_forest_province = { great_western_forest }
+			}
+			upper_falfedo_area = {
+				brackenwood_province = { jasperwood thulil upper_bracken oldheart lower_bracken }
+				ulfedo_province = { ewide ulster fonder noklas charduin }
+				nestrim_province = { gileas birchhill feignheart thilde estre }
+				aldano_province = { north_aldano bluebark south_aldano tainde }
+				windleaf_valley_province = { dwenede windleaf elanoe theonas gawiel }
+				thorn_forest_province = { thornroot ferel eweste fongoion }
+				astae_province = { alonmede astaena conmo adochas elaindur }
+				weys_province = { galwit minolon tolnmid chamion uwon }
+				elmedo_province = { bredalar lenthin endgap hlaul }
+				southern_great_woods_province = { southern_great_woods }
+			}
+			lower_falfedo_area = {
+				ulnwood_province = { denas foldes deade perlino }
+				denwul_province = { onglmin silverleaf dermion elphion }
+				outer_trees_province = { gaenad lowleaf looseleaf loute lilede }
+				boekedo_province = { thronde bokemer east_boek }
+				falan_province = { fionada thede bronch unwil falansyr }
+				larswin_province = { root wewe erefion dalbow }
+				druthe_province = { ganosede treegate central_druthe denwood }
+				elwen_province = { west_elwen chonduin chanson lodan }
+				osper_province = { omanede ewesnido belb charm calwin }
+				riverwood_province = { whistle reapers_hedge fluten_shore dalwe }
+			}
+			naktaviri_area = {
+				nightwood_province = { kamez males voran }
+				zeiyet_province = { fele_libi vultin fellspar }
+				elvanson_province = { north_elvan south_elvan tepes esper }
+				nakt_province = { moonfall delvesh tieva roshi rrogonis }
+				darkness_province = { telankt fele_sili vorrik cevaje }
+				shurres_province = { avanakt fierdec livorrik south_shurres }
+				abere_province = { upper_abere rrive days_end }
+				upper_shade_province = { fele_kali prene morning_hills kravane durris nightshade_ridge }
+				lower_shade_province = { shkoke libraz mirdas ode }
+				kezh_province = { nightshade_rise korzhd jedite rravn }
+				tirolore_province = { vire west_tirol fele_rini tarankt }
+				lorce_province = { grace shkodha dusk ambar }
+				dukal_province = { pogram furshkan telanir shadowspire }
+				shkana_province = { malier fele_repi shkoji central_shka rrulze }
+			}
+			emidyne_steppe_area = {
+				antara_province = { south_antara north_antara karaeli }
+				trayon_province = { ceybuk seagili talya gilofa irdun }
+				bitlaray_province = { guldaeli gantep bitkari orat }
+				new_raal_province = { izat somare soyol bilesa hacik taraal }
+				old_raal_province = { old_taraal mugayd kirkatay }
+				mantasy_province = { samli mertin aydirne safrak }
+				konyon_province = { east_manta tekir even_wes even_don }
+				mersirum_province = { balkili west_mersi burtinmar east_mersi }
+			}
+		}
+		awapetanh_region = {
+			katlamak_isles_area = {
+				falcon_isles_province = { saire kallok_and_perils tall_isle }
+				kestern_province = { kurn_and_solk firn shempet wiehen furlow }
+				awk_archipelago_province = { korn_islets three_moons kampe_island fawlok }
+				north_katlas_province = { ewl upper_winds lower_winds nomar_keys }
+				south_katlas_province = { kawn remk sorrolok }
+				katlas_sea_province = { upper_katlas sgaw_sea peril_sea kestern_waters cape_of_the_western_wind aak_coast kawn_sea katlas_sea awk_sea kampe_banks starlit_waters green_swell }
+			}
+			onedetanh_area = {
+				hagana_hills_province = { hagana_coast henwa shotate }
+				kanata_province = { shoonwhe north_kanata hebewasu ahse ilama_kanatu }
+				sgaw_province = { upper_sgaw central_sgaw ilama_sgaru tehono }
+				onondawe_province = { gadah sadekonn ononaha chaleske lower_onondawe }
+				wega_valley_province = { wehon wega niedeh weheni }
+				mahana_province = { mahasenwe gnoih inogedeh }
+				hollow_hills_province = { denohwdh windhills doweme shotwe }
+				ashen_coast_province = { asheda gwageh iwenwi agege burnt_hollow }
+				tene_province = { shahatsi matene north_tene south_tene }
+				deyo_province = { deyodoke ogeno dabani neheta }
+				degan_point_province = { degan_coast magohes ilame_dega askawi anatsi }
+				outerland_province = { kopi owei_sado central_outerlands }
+			}
+			long_grass_steppe_area = {
+				dageh_province = { north_dageh eweh nowata south_dageh }
+				anadonogaw_province = { dushanagwe kepananga anandogowe }
+				ewe-owe_province = { woken_earth delake taweno pewo_sado }
+				pesnamstow_steppe_province = { pesnam west_peswatow east_peswatow katonwe }
+				sipih-chewat_province = { hespha sipih detihs west_chewa east_chewa }
+				chisai-stahy_province = { stahyin indijwe kelwakunenw pane }
+			}
+			five_lake_basin_area = {
+				three_ports_province = { aaksi moton haan }
+				okpi_river_province = { kokpi emagwewe shoulder anaho }
+				wouwaga_province = { mapo sinakliit shinpah many_rivers lake_wouwaga }
+				wolfside_province = { tsia_sado wolfs_tail tenida kiwa }
+				kisonakak_province = { ewaduwh hasene takak kisona iksoko }
+				between-two-wolves_province = { apio_sado htawa inata_sado little_wolf_lake }
+				tewetsi_province = { taka_sado nitsino wetwondi nowistisi }
+				four_lakes_province = { peyakene anipi kaganishwa nemesemeh wetasgoost great_wolf_lake lake_itikak }
+				wangou_province = { onodanewa nemaeyou shanti wanipi aksew spring_lake }
+				ochaniki_province = { upper_ochaniki hewakichi ochakik kenawest }
+				springshore_province = { springside ochane weyo }
+			}
+		}
+		waking_earth_region = {
+			broken_lands_area = {
+				west_styre_province = { dawnhill kampen belter }
+				east_styre_province = { headen shelterpoint haddock bainth }
+				wanton_shores_province = { keel cove shanty_port upper_whale_isles lower_whale_isles }
+				north_trove_province = { elim_avarice elim_lath bran pell shamor }
+				black_isles_province = { seagull_tower highgull caldera odd_island }
+				red_crags_province = { east_maroon_isle west_maroon_isle luckers_point shant kaross }
+				breaking_isle_province = { kraz vauckland middle_break yosh sadal }
+				trovan_coast_province = { upper_trovan_coast elim_fast lower_trovan_coast }
+				trovenam_province = { elim_auoborum dinim_mountains dasamor atrim elim_kenoc }
+				pirec_province = { tonim brassroad feltas south_pirec }
+				jagged_fjords_province = { mourning_lands inner_jags dread spiceport tears_embrace }
+				broken_sea_province = { harbour_coast upper_whale_bay lower_whale_bay broken_sea jagged_straight east_broken_sea west_broken_sea styre_coast little_wave_sea }
+			}
+			tyrfak_area = {
+				stone_bay_province = { south_border stoneport farak waterhold }
+				fireshore__province = { elvekken duinbar forge_habour brasten lower_tyrfak }
+				karahin_province = { coldmine sarakul andar brenwith tyrfak_mountains }
+				western_pass_province = { donbarak frek aiden }
+				kyfen_province = { scunt whelps_hill gonrim flamehold mount_kyfak }
+				eastern_pass_province = { abrax_pass dofos_pass thoron abrax_ridge }
+				thalhin_province = { lanrak east_thalhin west_thalhin minehold mount_dofosn }
+			}
+			doron_river_area = {
+				rohel_province = { waterport gohan scepter_isle augors_hill onwen eastern_valley_mountains western_valley_mountains }
+				dragon_vale_province = { lower_dragon_vale sabel upper_dragon_vale }
+				upper_sent_province = { sentic_hills cawn elberland sonar }
+				lower_sent_province = { anthem north_belk south_belk lound gonwin }
+				goldhills_province = { glimmer_hills boran goldhill mundar }
+				tricity__province = { sondeth parth nym }
+				riverside_province = { bellows wide_banks central_doron doron south_doron }
+				greater_gilton_province = { vogney gilton milis kadifar osmarli }
+				dragonfire_bay_province = { charred_sea pirecan_coast stone_bay gulf_of_dragons bagda_sea hammer_coast }
+			}
+			dragontail_mountains_area = {
+				hammers_strand_province = { volarada kavetwanchok domonian huega }
+				forge_vale_province = { puigaxa horns_reach }
+				bagdaki_province = { bharatunj ghorama hetwal gorknawal }
+				sudurpash_province = { parding chitwanchok central_sudur baglekh the_pashyas horn_mountains }
+				chimati_province = { lokha chandipur bhakdawar east_chim west_chim }
+				ganrali_province = { vhaka dhalbat jajarkum surja }
+				lumati_province = { syanhun morayang rapha ilamwas bhandu dragonfire_mountains rautali_range }
+				rautari_province = { mahadha bhumshi jhapam dhantari }
+			}
+		}
+	}
+}
+astrea_continent = {
+	northern_astrea_subcontinent = {
+		bahdakur_region = {
+			arman_area = {
+				key_isles_province = { loan amdorra birdcliffe bastahn krivara }
+				nelil_province = { ejad_isle dranit ilshaf setmar beres }
+				lionshead_province = { marrchid ouan dcheskar zembal }
+				lions_jaw_province = { martain slimkar guirt mella }
+				upper_azkesh_province = { oujat cifrat saftat azkit arman_mountains }
+				central_arman_province = { sahkara inezsset taosi yousarlil zemstrasha }
+				lower_azkesh_province = { nakar kesban saadha lounver }
+				omir_province = { omir lifel rabe sahran azdra }
+				rafna_province = { kusma jeddar tasfrit soumm tulas }
+				sea_of_stars_province = { red_sand_banks calming_sea taroq_sea northern_sea_of_gales southern_sea_of_gales upper_sea_of_stars lower_sea_of_stars capecian_sea }
+				arman_sea_province = { east_arman_sea north_arman_sea arman_coast }
+				lion_sea_province = { lions_mouth lions_coast }
+			}
+			erlat_area = {
+				artan_province = { am_sadarat zajj faqal yarayn dhamah madra }
+				jhistal_vale_province = { jhistal dhismir hism_jabal mofuq abaiz towers_of_stone }
+				sheppal_province = { khamra am_suqudi hudar yade }
+				north_ghas_province = { marwh am_zin hajjkal sanrit shabaq }
+				sugar_coast_province = { bajdehar jhat seqal dhalj atash }
+				south_ghas_province = { am_jaqra ghait abyan }
+			}
+			najan_area = {
+				basjah_province = { an_mostar basjah hadran shamis }
+				central_najan_province = { nalman an_sharyil baija djed qasyr }
+				eastern_marsh_province = { halaqim qaim samarwa bahs qasyyah }
+				western_marsh_province = { hism_ghar babith an_amara baqun }
+				djelan_province = { djeta manruh anbeswa jarif }
+				hakrith_province = { hestan an_ermil khansira quduk wamih }
+				western_desert_province = { hism_alquh jhubran tilan shasr an_zarbiq qushrin bahdakur_desert }
+				eshas_province = { hism_alfalat ayur jara dejdan karahtel shanwah }
+				sea_of_songs_province = { sea_of_songs }
+				spice_gulf_province = { western_spice_gulf eastern_spice_gulf jhistal_coast west_sugar_coast east_sugar_coast calm_waters celayphean_sea }
+				triplets_province = { the_triplets }
+			}
+			raman_area = {
+				eastern_desert_province = { khur an_hama saidamah jhetran majran }
+				wadjum_province = { an_nadir bashriq husran jebral anwara }
+				gastar_province = { khartoul gastan adamra kartour sanrih hashma }
+				yabrus_province = { aqabir zatersi mulah sardaq an_nardil irbais white_sands }
+				atal_province = { ahn_shawri hajjin jizmah rafh ahn_uma umqan }
+				haran_province = { hism_sahra qaiki buksumah safwigh thulrad }
+				oasis_province = { oasis hareem ahl_shayba badrat meqqon }
+				await_province = { gatjal dumaq saflih gherrwah }
+			}
+			bahdak_bay_area = {
+				harpy_cliffs_province = { hism_qatal harpys_rest jarbun tadqan qudsay atal harpy_hills }
+				qalar_province = { qalar ajwi bahlcat mudhra thuwal }
+				detenegol_province = { agayib goffa tagol eshurbi south_coin_ridge }
+				karesh_province = { ratkaresh rustas marnah ruham manbid }
+				adael_province = { mahbrin delat duqala jazar madhay }
+				meshwal_province = { hism_alsharq haisah samraiyh niwwur }
+				khas_province = { bidca masis_khas saiwi }
+				ruhn_province = { awh_jabra awh_uzqaa samhair awh_sohn }
+				bahdakuri_sea_province = { bahdakuri_sea south_arman_coast atwan_sandbanks karu_bay bahdak_bay south_bahdakuri_sea sahidan_shores dinar_coast west_deep }
+			}
+			akkan_area = {
+				keswar_province = { an_madrin ramid karwan hism_sakh quna baimmah red_desert }
+				lower_abas_province = { hillat latahr an_damin salya jebou }
+				misra_province = { bidal safb rozaba homrat alqus }
+				upper_abas_province = { dayak an_maya suwath salamy }
+				artesh_province = { talmhen hism_daekal artesh fuq atabad north_coin_ridge }
+				karu_province = { jefhar yemenkaru malenkaru rama damankaru haryaf }
+				shasiq_province = { an_daqur an_uthas tal_hoqq hism_mada }
+				banwes_province = { jidarr jeddoh sayykaf tal_sen jamur }
+				greater_akkur_province = { talbiwa salawayda akkur raqqo bosrasta }
+				burnt_desert_province = { jaraqib an_berem marhas tawa qaru }
+			}
+			qash_area = {
+				nadeena_province = { nadena majmah basai ahn_ajj }
+				shasail_province = { khofir ajiqa ahn_qait quccar qammur }
+				wasut_province = { alnam najram ahl_rabim tabaikah ahn_unaya the_sahfr }
+				north_fayu_province = { aljai thanbaq hism_almaji yanbut dharb }
+				qashul_province = { ahl_qarih bukunabani taraq sharkhaf qunfurayy ahn_halil }
+				central_fayu_province = { dune southrock an_fayu deserts_rest derre fayu_desert dune_lake }
+			}
+		}
+		majukistan_region = {
+			bone_coast_area = {
+				bone_coast_province = { bird_islands kharreb buqala mudham halarah }
+				upper_bone_coast_province = { nuzhain amila south_zilah north_zilah }
+				assar_province = { elveli madrai majhin qohojen hydermam }
+				bidhi_province = { kattrassa shalgawad agraj jambad sambhal }
+				guhattis_province = { karvadja nizwad naintel sarapur satur_pra }
+			}
+			jihar_area = {
+				vadesh_province = { zangh redcrab_isle sugarmoon_island dread_isle }
+				punhar_province = { wake vijyay new_moon aba_ersul myre lake_pun }
+				anattar_province = { lonji mojen gunkulam fejas shahjan }
+				kerram_province = { okojen bhagal aba_pradja hapra_lo nojda samdur }
+				bijat_province = { hanabad aba_ramagun jade_hill ohojal kochapur }
+				karjasthan_province = { raijat panidar obhanva fetrash }
+				feljung_province = { qohojass kaphna bemeka agadhgar jahmbh }
+				kaspadra_province = { bluelight jahanbhals golbad }
+				choni_province = { karwasman gulore spice_hills koni }
+				bengarh_province = { puralas auran pajapat ohipuri qohojal }
+				nadum_province = { nabai sune raighar bijkur }
+			}
+			charat_area = {
+				ujaran_province = { djennai mauphat aba_kham haltur ahna }
+				gutarj_province = { tirsur dinvell vittor east_kurjen west_kurjen }
+				prandh_province = { ambath jellore ajtal jena }
+				harat_province = { jokhtar purpur jahanpu bhiyam }
+				mahapur_province = { pathar aba_barpet maneheart }
+				uttana_province = { simurkesh atjesh dudhrej noiaransi teljarpas dongish }
+				moonfields_province = { etalor auranchal oqondis laruto elwatahal }
+			}
+			majeen_area = {
+				central_maj_province = { kajental bhindor amsala yamonkal lejtawal }
+				pardhan_province = { coldheart kirlai raebare raiganj seramam }
+				odij_province = { chanpat bhatsat kufni birwa paru }
+				jantak_province = { majar sonati vadam nadis jiharr }
+				katagal_province = { raihi panchu jettal urad_karpat usgeli }
+				delsha_province = { lojass khali bidhanlly }
+				punkataka_province = { ulti delja urat_farida bhila gopaldum }
+				jhar_province = { iron_mountains bhavakot chinhati rajat }
+				jatalento_province = { urat_anad keylight srinjam bangas urad_roh }
+				jahori_province = { lochi thirunpal thrissan kotta }
+				asjat_province = { jangal dharson davanary jalpur }
+			}
+		}
+		cape_of_good_fortune_region = {
+			sahidan_area = {
+				akahad_province = { baka_rapi arinah akapos zabana baka_mard }
+				sahrahad_province = { hism_khar carcehuk sarehok baka_tushnan sahid }
+				sharrahad_province = { dimetrin baka_kirkel sharrmal erlah sahid_desert }
+			}
+			rain_coast_area = {
+				west_dinar_province = { sheim shatir nefte ulap venegetera }
+				dinar_coast_province = { qragos vanbu ucham shord sheria }
+				walando_province = { we_amipa we_kiwo lajoro we_upao anjo polopo }
+				cayyos_province = { whangale cayd cayn_coast saelon bravu }
+				north_akavos_province = { antenpe north_antil pouli keltone westea }
+				south_akavos_province = { south_antil dadorn musto tonka }
+				kary_province = { dunewood bundam kary sabgaea satagwah }
+			}
+			hran_area = {
+				liss_and_mitarah_province = { kaliss north_liss west_liss mitarah }
+				north_hran_province = { ghaz ifmand takh nangar terat khal }
+				wadi_dunes_province = { erduz laghor sandhills evahran_wadi_ joghlan lashzar }
+				south_hran_province = { shad farbul aleik barshan andahar }
+				pand_province = { khomand herhar ghamd ghozni pandur }
+				ozun_province = { lokh ghormand ferah sramand pardahn }
+				spice_banks_province = { spice_banks upper_hran_coast lower_hran_coast fayu_coast spiced_waters }
+			}
+		}
+		avatrea_region = {
+			bluethorn_isles_area = {
+				akoloa_province = { greenbird_isle hankao afa_kolo sonemata }
+				feteo_province = { reef halateiho havetoka motuptapu }
+				fateona_province = { tafateo starlight_hill nukulua afa_makaun longetempe vahlulu }
+				manafolo_province = { coral fonsuka coveport nukum tafaiu }
+				naralona_province = { nukulau afa_malano }
+				flower_isles_province = { vaohau whitereef afa_hamliku }
+				blue_isle_province = { bluethorn east_isle rainshore west_isle }
+				bluethorn_sea_province = { south_bluethorn_sea adventurers_coast horse_bay sea_of_the_landings flower_reefs north_bluethorn_sea feteoalan_sea }
+			}
+			itholan_coast_area = {
+				matrea_province = { ikythos sakaris pheino lamapea sephat }
+				utapa_province = { utohn tomia ashanktis ikonma makedama }
+				hellanoi_province = { delphik tria kalapis katatis }
+				four_islands_province = { fourth_isle_ koaramet ake_and_ilu }
+				itholan_sea_province = { itholan_coast matrean_coast }
+			}
+			mehedruhn_area = {
+				ashabal_province = { ashabat druhnbat dasu sharti }
+				etrahn_province = { lebahal sathal etrap west_rolling_plains faraguz }
+				badhur_province = { badahyan mahal koytehs }
+				hadruhn_province = { hadruhn balksaz esengluk east_rolling_plains }
+				horse_coast_province = { nahal deydi koyten kundhrum boldogly }
+				gokal_province = { serahal arygan brajak kerhal gokejak }
+				central_druhn_province = { mehen gadan hahsan deslahal soyunduz horse_mounds }
+			}
+			mathi_avales_area = {
+				celayphean_isles_province = { upper_pheans lower_pheans salaphya }
+				avale_maztu_province = { escuino quetzago chimtitlo chiquinamo natha_chizu }
+				zlatopeque_province = { natha_mavii tepeque zacage jacaltuncalco natha_elii }
+				mayaquice_province = { jutipo natha_vagu solocapa palin mount_huetlal }
+				eles_zacu_province = { zetera veletoya panajach natha_poto tholan_heights }
+				black_jungle_province = { jalqui angopiu jamo patzul black_wilds mixtescon_mountains }
+				adventurers_shore_province = { natha_gii quetzaljap trove_coast adventurers_bay south_bay }
+				mistvale_province = { stepenes mixcol tepezta quico }
+				nahti_province = { natha_nithii zaltenan quizato karal_ridge mount_azta }
+				aval_sea_province = { aval_reef xitcon_sea }
+			}
+		}
+		handaan_plain_region = {
+			north_handaan_area = {
+				first_landing_province = { haidun_cliffs sukhdaan ulimod govisum }
+				second_landing_province = { khentol darkov ulbaan }
+				third_landing_province = { bagangovi bayakhal uve nor_urt }
+				eleventh_banner_province = { ban_ol khoetl ban_sukh borom ohtor }
+				tenth_banner_province = { govdan mandkhorin daham suttor }
+				fifth_banner_province = { bayados leyndhan chelmak ban_daln urtai }
+				ninth_banner_province = { ban_urdos borkhas dorob uruqi chansu }
+				fourth_banner_province = { vorkhang tobaalt ban_khari modzai vosgol doth_khadri }
+				third_banner_province = { nuhlbaatar sukutar sulukh urlohn emribi }
+			}
+			the_hand_area = {
+				guernes_province = { cradon gruhsey wharftown cod_isle }
+				vexed_shore_province = { duskshard billen blight onswed shoal }
+				valant_province = { valant volos rockcliffe arnsbrugh grief }
+				long_finger_province = { shelfe pirates_cove endgate flamon khard }
+				ravenhold_province = { nocturne stetton blackshore farbus }
+				nightshore_province = { tain_on_the_wes kingcley nanton lonefield coven fos }
+				atley_isle_province = { pitmedeyn midwell atcross }
+				deepmure_province = { deeppool staugh callhill leins_field }
+				crippled_hand_banks_province = { crippled_hand_banks hand_coast middle_finger_sea }
+				thumb_sea_province = { widows_straight the_blue_abyss thumb_sea }
+				ruined_sea_province = { treasure_depths ruined_sea }
+			}
+			south_handaan_area = {
+				fourtheen_banner_province = { daruul sukhbaat khom undgom }
+				thirtheen_banner_province = { darkhatar erdaat selegon ban_altu }
+				twelfth_banner_province = { alontar korya boltan ban_balqoto }
+				sixth_banner_province = { lheyse doth_khasul kukaatar altar lhaan han_sea }
+				second_banner_province = { khaleesh_predan prelash ordoi ulisai karami }
+				seventh_banner_province = { ban_lha ongiil ovarkhal ulaang sharkhol }
+				first_banner_province = { berdash qimay doth_khagan urutay usul mothers_grasp }
+				grey_islands_province = { altanchun entli_isles dorkhaat }
+				eighth_banner_province = { angai glitan ban_tobaq kharkul ornogov }
+				north_green_sea_province = { north_green_sea handan_coast }
+				south_green_sea_province = { south_green_sea western_coast grey_sea }
+			}
+		}
+		akal_region = {
+			western_waste_area = {
+				parwuega_province = { barrak parilga wuegalanga }
+				bunowagni_province = { tarabundego towmi goondijni bundagung arerong perderimgu }
+				balabago_province = { diddidin korrewaling balabagee quenakerup }
+			}
+			dremor_area = {
+				hadeath_province = { marvek sephir asmar vonmar shard }
+				throneland_province = { rule throne ember_point asver trist }
+				crimson_mountains_province = { wrath crimson_heights tremor blackgate }
+				vythral_province = { vaunt vythra udrmar ashen_fields }
+				vicehold_province = { grimhold deepmure vice hatmar }
+				vigil_shore_province = { virile vomar wyeeroong neera }
+				mazin_province = { mazor edremar tarawanthin jinnakun }
+				jiquigoon_province = { quiwin wanagoon abarain corei }
+				dremor_sea_province = { tremor_coast gulf_of_akal dremor_sea }
+			}
+			krattang_area = {
+				krattal_province = { purge brugai senile solice seriwan }
+				shakran_province = { shakaz tamosokaz srjajan mukul_tum taskeama }
+				sabal_jungle_province = { mukul_dalam maknei mukul_bangak sabajong belimbinyan }
+				jongak_province = { mukul_gai ulojong seridar kualabe mukul_gon sungalbun }
+			}
+			barahun_area = {
+				sadrat_province = { terhun baral sadrat lotarah jarhun }
+				palash_province = { evkhal osil palash purhun }
+				osul_province = { sahun osul hedhun bhathun }
+				sindhsul_province = { mhas terbrahm sindhsul dahun khat }
+				gabba_province = { koonatin gabba kriup brunalmup eragewoi }
+				erjunbucca_province = { erirban jundam telabucco niirwahnaa }
+				elano_province = { naragagello elan burataldaroo koomer }
+			}
+		}
+		fuam_region = {
+			cataqan_area = {
+				ashar_province = { ashar }
+				shasta_province = { qhirash west_shasta east_shasta buday }
+				qariim_province = { ydanat qar ybiya hamawa sadaib }
+				anurbis_province = { ykreqielk red_dunes blazing_sand foshan_edge anur_desert anur_desert_2 anur_desert_3 anur_desert_4 anur_desert_5 anur_desert_6 }
+				mokra_province = { moccis herziyya heshdarat qelon qivat_shemuel }
+				catul_province = { teles qivat_elom lis zefat qivat_yon qivat_aqi }
+				masreal_province = { udana qivat_tuvo shqel berashan foshaif_waste }
+				farlam_province = { qivat_kafar faram qivat_rot tiqanna erotaq }
+				foshaif_coast_province = { foshaif_coast }
+			}
+			saif_area = {
+				says_province = { ispoli sayhel yerna yabha usram }
+				wonggem_province = { kelegg pajbus elonei wonggerek uchei }
+				salt_desert_province = { nacib mawiyye nuqedes laminis marlubi alkhams }
+				esharr_province = { hayaan tobwiya ghabi wahabi esharr }
+				jubayya_province = { gharslat juman bayya naluk qurbuk }
+				hunlat_province = { wufrti hunlat lutub mafara watrun }
+				lower_sar_province = { pershan alshassa qrak ekhomeni }
+			}
+			fartu_area = {
+				greater_fuad_province = { fuad zuwar bayd sire }
+				merchant_coast_province = { shirat ulat casiin tawezuk }
+				lower_esh_province = { winbha zawrata afodi channa shubari }
+				aqai_province = { north_aqai south_aqai walwam hasiin sehlwa }
+				heej_province = { hedda rakaib karalla heejar }
+				kanbiy_province = { markhaz kanabis jamb aibiyda zaloor }
+				fuad_bay_province = { catul_sea bay_of_fuad }
+			}
+			dass_lehm_area = {
+				leylhen_province = { yer fertu_lahm hiqaon leylom }
+				seylhen_province = { jukhem lan_lahm seylom isti_lahm wadwa_lahm }
+				sumlhen_province = { thah sumvom vhido_lahm kif lherrem_lham }
+				nherlhen_province = { hisqon_lahm nherad yazu_desert uhfa_lahm doskth }
+			}
+		}
+		anhya_region = {
+			sar_area = {
+				gooparowol_province = { kurralerra goodbururum paara kanowo }
+				rabas_province = { tronpang karagerd shahr_rabas }
+				harasan_province = { harral_mountains bilem_aras south_har }
+				albom_province = { meshkadarr tehron taleqas asali bardasba }
+				khuzshan_province = { hagsus tankad qasahud zr }
+				sar_river_plain_province = { parahan anbeyg erdopor pasarpor bilem_lahn }
+				sisman_province = { nivi bilem_savyl kolraim bukhsas vahshak byushy }
+				balum_province = { isopor artashan tarpor south_bal eshran }
+				hormol_province = { nasirshrar dakiz sharyeh eramatan feyzagab cholchek }
+				khulan_province = { kianshej sarabal samsakal sappur sanshej }
+			}
+			rhaangol_area = {
+				lower_rhaang_province = { parshi punphu jonphaang punjakh }
+				goonzhe_province = { olkyee haapang zhempang rabinmal goondjeta }
+				werraburo_province = { gabbal werridu nerporinne sarkhan }
+				upper_rhaang_province = { damshi monkha samphu monakham rhaan thi_haphun anhyan_mountains }
+			}
+			esh_area = {
+				qastan_province = { bilem_thap qarchuk ardaz gardan }
+				isfaban_province = { taqgan ferhun kilad abasan balageh }
+				markaljan_province = { qol bandam sadakiz bilem_baghe tirsham }
+				west_khoran_province = { lafat mosar behlus golpaye }
+				east_khoran_province = { nishamar bajehad sefidashn pardanzar sar_kun }
+				tene_berehan_province = { taqashat azvin gujru shol dashdan }
+				buvazi_berehan_province = { eshli kashtabal koshksada elvon kohsh damol }
+				eshhan_province = { east_eshhan nafez bari tamol irduz fuldstan mobakes }
+				tehmadar_province = { oktrud bostan bonhanshal shabsuj }
+			}
+			bashkal_area = {
+				upper_esh_province = { qarro occult dhuzzal_ega kiccan etrosh_ega ga_vroz }
+				fernwood_province = { dhacci dercci_ega keveg skein }
+				whaleport_province = { afn gazri bregnu dro_ega whaleport }
+				ash_jungle_province = { croak krescro caud zrid broln_ega scalemount mount_ire }
+				bashral_province = { raddo ogroz gkuzu shathra rgag mount_bashr }
+				north_scarred_lands_province = { omo_ega rubum bakhast uducron scar mount_dragons_breath }
+				okrul_province = { bildral ushbukh lilac ghogri_ega okrul }
+				south_scarred_lands_province = { urdus kocroz reaver fang balbega the_great_volcano }
+			}
+		}
+	}
+	southern_astrea_subcontinent = {
+		red_coast_region = {
+			slavers_shore_area = {
+				qatul_province = { sha_farif lekhrin anasr qatul utoriha }
+				ahkaif_province = { sha_karaan akhail sha_umbab dukho }
+				blackfields_province = { sha_wakr aruray shakryn khuwswait }
+				qohaf_province = { blackhills qoha sha_sou ayjah tusynmir }
+				chained_plain_province = { refeda refwahta lijilah smarya chains }
+				slave_coast_province = { shade aghanim despots_gate barkanash aghuwar verile }
+				slavers_bay_province = { slavers_bay moon_bay whale_banks blacksand_gulf slavers_shore theban_coast }
+			}
+			zekran_area = {
+				burning_dunes_province = { akredet swais glittering_dunes burning_sands shetdju }
+				nefrat_province = { gesrutat khmut asys marble_hills antaset amu_beswen }
+				senwat_province = { dehsu medpotjer khimt menheka fanetset }
+				akenaht_province = { der_khasjet aken ptkhatum zerat akhetaw }
+				iwanwaht_province = { huthis amu_timon amu_rabak iwanw kupi }
+				raswat_province = { djawaret wephrehamun pi_assmenehet neyb }
+				thebe_province = { theban nekhedet amu_bekdjen amu_nefera sadhmas }
+				djedaht_province = { iunmenu djeda ankhenu }
+				ahkaht_province = { ahk amu_nabis qulsodjet amu_djon akmu }
+				south_ramet_province = { epu kunoudet tarkhahenet pi_aswa hebsi }
+				aswaht_province = { tepikhent aswed khnut amu_ta ta_waset }
+				swirling_sea_province = { north_char_coast south_char_coast swirling_sea redcrab_sea coast_of_ak hyet_cape }
+				marsh_banks_province = { marsh_banks }
+				salt_sea_province = { salt_sea west_salt_sea }
+			}
+		}
+		coral_archipelago_region = {
+			coral_archipelago_area = {
+				coral_archipelago_province = { reef_islands longfin oceans_rise }
+				sea_of_bones_province = { ashar_sea longfairn_islands sea_of_bones }
+			}
+		}
+	}
+}
+panoria_continent = {
+	panoria_subcontinent = {
+		panoria_region = {
+			south_panoria_area = {
+				jatharn_province = { stosak stones_fall halfa jegathrn panorian_mountains }
+				ostviel_province = { isle_of_bone grasshill altaram kofn kepwud }
+				turbjut_province = { keverel jesejak duntobor halfhill stone_fjords }
+				saffen_province = { yedr tyrven_bor saffenwighe uvondrait }
+				frozen_ocean_province = { fetid_waters east_frozen_ocean frothing_sea outer_banks west_frozen_ocean }
+				panorian_sea_province = { east_panorian_coast south_panorian_sea west_panorian_coast }
+			}
+		}
+	}
+}
+orea_continent = {
+	orea_subcontinent = {
+		orean_islands_region = {
+			wayfarer_isles_area = {
+				exile_archipelago_province = { kato_and_rang westward_shore wells south_cliffs outer_reef_isles }
+				leyvos_province = { longshore_isle sayad lorvos }
+				spice_islands_province = { north_spice_banks pajshrit west_spice_island east_spice_island }
+				pamin_province = { hygor bahakot joliput sialput jhanput faisa }
+				sweltering_sea_province = { sweltering_sea cape_of_good_fortune akavor_coast east_deep }
+			}
+			godshead_area = {
+				salted_isle_province = { karuk isidu salt_cliffs lashak }
+				ashatapul_province = { larzi hatelur ish kashupu }
+				laruk_province = { lagadu urul jopu kipu kuaruk }
+				dragons_head_province = { fudul hibashul umush }
+				isles_of_sippar_province = { upper_aym lower_aym treasure_isle nerborsippa kalum elot }
+			}
+			akosa_area = {
+				ndonga_province = { mgozi ulung mgondi zukwadusu qunta }
+				ewekanu_province = { ikhanango abwamu agwenu }
+				ukwandi_province = { lundlilu empagolata kwama ndaku }
+				mgosa_province = { andonka thakawini lonumu athek ezweratundi }
+			}
+		}
+		orea_region = {
+			southern_orea_area = {
+				coppershore_province = { sasum an tumlib malgi umluk nerigalzu }
+				shamysh_province = { hittas karlip ko_shamu mashkan shapan dupir }
+				elder_highlands_province = { elders_rock sulcek atovice jacek }
+				kornost_province = { mappun treehollow kornocany farsu_ve hrankovic }
+				urul_province = { durshnunna eylon topis agium malspa }
+				gilgit_pass_province = { kilheput shikar kenawal khasaq bird_pass ator_caldera }
+				spice_coast_province = { sasuput bhadhral kotoput jalash tajput }
+				islastan_province = { mulwar abbotopul sarput rozni tarbots }
+				chistun_province = { sheikan raput sengarh kanotabad }
+				jagged_shore_province = { jotri isle_of_wind chodni jar_nav_blz gratuk }
+				varak_mountains_province = { valass hearthwood asti berochod brat_nav_tot briven_ridge }
+				orean_sea_province = { rainbow_reefs waters_head astrean_sea astrean_coast north_astrean_sea southern_still_sea }
+			}
+			northern_orea_area = {
+				esh_kapir_province = { eslip yabil kavice bron kaliptu }
+				mush_kapir_province = { atonis tridelon askon ralon kazu }
+				redwood_province = { urube caiwood bloom hranad wooden_heights }
+				taja_province = { potikama natjeri temino chari jascay }
+				caimar_province = { wood_forge caimacan jofi_mountains amoara aymobe }
+				waik_province = { waitiri atacaz kaijara yper agymo hellwood }
+				seitoca_province = { juiro jeritomo juar caeb vinyano }
+				juantchoc_province = { tartaray astersti kaipina astebe kaapo }
+				goj-koka_province = { kokaqua hadash tupin chinoput }
+				balochab_province = { ajaput senaput safaput raimya }
+				azakhyb_province = { shikarpud mukhalt mirshera khukot }
+				sinkhawd_province = { balput charsak thattalput minfiz }
+				still_sea_province = { still_sea northern_still_sea kazen_rift west_waterdunes east_waterdunes }
+			}
+		}
+	}
+}
+emea_continent = {
+	emea_subcontinent = {
+		layan_region = {
+			phrom_area = {
+				an_guoy_province = { kingfisher_island qui_ca buo_phong dien_thao xuye_minh yen_bin }
+				an_thap_province = { longnoi phin_menh danui vung_tao trabao quanglo }
+				trang_nam_province = { lak_tri phin_ton pheibin phin_chi }
+				khuchang_province = { sukotab vienmarat chainag phitsum nonkok nakham }
+				noc_sawathi_province = { sawan xi_nang ca_minh luong_that samuttaya }
+				ubon_guong_province = { xi_nga xi_logye roisong sisthamai thap_an }
+				phitsouk_province = { udonmai luong_ko ngochit songrang }
+				ayuthabuthankok_province = { ammarat nakhphum lrabi phitsung phiphu }
+				phaytuket_province = { luong_prey thuri_skrid buenthai chalas }
+				shomkeut_province = { nong_suk maeson kanenpao anapak }
+			}
+			vietrang_area = {
+				quan_phu_province = { song_noi thonang quan_nai bin_duomg buo_bang }
+				thai_la_province = { phin_cah chi_binh sobei tuy_ngu thuan_na phin_ong }
+				ha_giang_province = { gicabao dian treng_na anhua }
+				soc_vinh_province = { binh_hoc hung_bao phin_linh ha_giang bac_lao }
+				phnobang_province = { kampung_at lingahear bataphoan bhavasvay odanouk }
+				siem_khmuk_province = { kampung_veng phno_rep kampung_bang koh_pail kampung_poi }
+				da_hue_province = { phin_cao dong_ki langso yen_bi lower_karials }
+			}
+			sutuyai_area = {
+				chianthom_province = { chonttani sawathayya yalburi kaenlau }
+				langtang_province = { rayburi narkha rasikhat ayuphai khansur }
+				nonchaburi_province = { paksurasak matung banglei amnaphum thuri_gong }
+				lamphat_province = { thailam langkok thong kantang chanatha }
+				buenthabur_province = { athai kanchan ratchun bangjo lhumpho }
+				chai_yala_province = { charang phatteng uttanoburi chaike }
+				sa_kaenatut_province = { thuri_sanga khamphung leining padai thuri_wei }
+				ayujiang_province = { deqeshul shangfu tenwei shiben yasung }
+			}
+			kampun_area = {
+				takeveng_province = { svayhad viheri kho_khim svaysat }
+				south_sihkampong_province = { muang_rung pretchetabri krat este_prang kampong kamlung }
+				north_sihkampong_province = { sihanste este_dvir chboun este_vilum kampur_pur chait }
+				ratanchey_province = { sihanchey kampung_yas meansam upper_karials }
+				preah_chom_province = { muanpura thomang kampung_pre vihonorom sutzu }
+				western_iraav_province = { kraun ukrath jumzi adrak_shei jes_tax }
+				luong_kong_province = { telnuss chenxiong nuju kaishan deshan wenchong }
+			}
+		}
+		eastern_emea_region = {
+			xalar_area = {
+				central_iraav_province = { west_skeletal_shore skaross deathfield odren }
+				eastern_iraav_province = { east_skeletal_shore iraak deaths_grasp iron_wastes }
+				deaths_head_province = { ano_bei gioze mauqus ano_tux aszath }
+				nezh_province = { moxan_vexis churuz bloodstone cry as_zhei }
+				barrens_province = { uva_shei the_barrens coldshore boar_reaches necrom }
+				pale_hills_province = { kom titans_fist morrow xaba pallid_waste }
+				sheivanth_province = { arisun whiterose dan_shei uzam }
+				bone_plain_province = { ano_jan ano_tod stugol shabri burnfield }
+			}
+			mapithdaw_area = {
+				swan_hills_province = { ton_evu shainsbright swanville masked_wood }
+				east_rak_province = { lower_mei taungo syiwi nyankyne thanbo }
+				kaychin_province = { upper_mei dalai singpauk nganeye patheng }
+				naypithari_province = { yanyeii myngok magthagaing pwint dawlay }
+				kachay_province = { kyentong thabo kypaudu salingwe banlauk }
+				west_rak_province = { singhin bhomo pinpyin thandau monglao }
+				askya_province = { mywadan palawi kunlao thabegyi shandalai kensu }
+			}
+		}
+		zho_region = {
+			xihei_area = {
+				xuban_province = { an_ye lansun veil xibei odil }
+				hain_long_province = { yaka xixhou liliyao beixou yuxhou anjang }
+				upper_shenyan_province = { anshu kaixhou changtou boxhou hoxhou loyong }
+				shangjiang_province = { tiexhou tiean lixhoung lukou sanyu }
+				chongxi_province = { mianzhou gonkou jingxia meixou yanan anxhou }
+				lower_shenyan_province = { nanxhou weixhou shenzhou beiling weizhua alamyd_mountains }
+				taighur_province = { xiongli jinhshai dujing sixhou lixon }
+				jilibin_province = { qinhou laxian qufe lenji ancheng }
+				zhongxiang_province = { shixhoung tonghu luhu yanhu xianxhoung }
+			}
+			honan_area = {
+				guijang_province = { xuxhou haizi baoling dongfeng }
+				guiqing_province = { longhu shedong changzu fuyun nagxian }
+				liao_beiwin_province = { anchuan zuxian shijichun hebma jixyun }
+				liao_anxi_province = { fuxi lhabei pinzhuang lioquing tongquan }
+				bandong_province = { yulin liuning bao luomen panchuan }
+				heiben_zhu_province = { haizhol binshan jianli nansu }
+				laoxang_province = { kaitong changhou guangzho leijang qincho liuping }
+				guangzhi_province = { maocho hongua macashan maoxong guixi hecho }
+				guangsu_province = { lanxa sishing foshomen chagow heshuyang guango wuchow }
+				ujiangou_province = { qinlo taixhou hangang yanqing dongjiang danshi }
+			}
+			yonyi_area = {
+				xei_ran_province = { cairn_mount yes_tari fallhaven nos_tari an_dreix }
+				angsu_hills_province = { shox_kabak boulderfield qujong yushuang pujing mount_zhazeng }
+				guanhou_province = { wuzang fuhu zizhong zhacheng leiyou }
+				yuxi_province = { longli weijian shuzhu huanhu zouhu meihu }
+				zhezheng_province = { alcho nisho beichow huchuan qubo yuxong }
+				sichulio_province = { yongxia danshan lili qaixhou baotong wuxhou }
+				yunin_province = { nujiliang xuanming manghe mengli sha }
+			}
+		}
+		uren_nai_region = {
+			burolung_area = {
+				magain_province = { hpani kamteng thadon pya_u }
+				kon_mau_province = { kyak mraayan kyato_u nattshibin oktgon }
+				ayeryago_province = { kawtamu chauy monmala montau paukguyn }
+				mawlaggi_province = { yekbaun thanwegu awagon mingla pyisu }
+				jingheilom_province = { hanshan baohua mudanxi xaling wuhar }
+				macing_province = { heihel qihot ninhar qijiang beijin }
+			}
+			snow_coast_area = {
+				pon_province = { yinegyun laulau salkwen thabinton putasi mongpau }
+				rakwady_province = { khamsaung ingdaut kambwey thaydaung hpasi }
+				yanghine_province = { hmosi pawlangin mogadon madapyaw lauk madalwy }
+				taway_province = { nansung tauk_u ngwedaut shwedo apadudaw mawaldaw }
+				panathawadary_province = { pankya myittalaw degon natmgon myogaing gwo the_ren }
+			}
+			kunokurowuro_area = {
+				frozen_coast_province = { cipyarpor cikunkur hurakur ummo }
+				rukanuwur_province = { rokunkur wakkakur rukpakur iruskpankur noyaunkur }
+				noyatekawur_province = { mintat paykamuy hamkep kewnupe minapakur uk }
+				mongaskawur_province = { yakur rakur nakaito ekur roskara }
+				kerawur_province = { kekur moyuk otan penionkur etukur kayekur }
+				atseida_province = { chibai lukano nukarakur chiyo miyono }
+			}
+		}
+		onogu_region = {
+			hikaturo_area = {
+				miyakata_province = { ichi nishi amata karobu inumayo yatome }
+				ishite_province = { kobashi tatoyo katsukuchuo kiridai nihamo }
+				yamashino_province = { daiju bucheon gowon fukokuo itokai }
+				homagana_province = { odawa higashi satsumake anoda oamishi kamino }
+				okinazuki_province = { dogame bakaide naiju onimo hadan odasaka }
+				shizutaima_province = { jobai nakamarai harayo tajigaki yokumiha }
+				kanatagi_province = { izubae mizujo atsuka kamedana }
+			}
+			tsun_jiao_area = {
+				tsuzu_province = { sanuji hachinaki shabai ichinojiwa tsumawa }
+				hokabari_province = { towaka shibuko tsudo nakuki kitama }
+				hyonagata_province = { joma hitogawa joyochi domi etaporo }
+				fujuan_province = { yanzhen harhan wushan jinhai nichibeoka }
+				henjiang_province = { beibo wenzhai laochan dangdao }
+				huwen_ling_province = { shijiao fuhe taishou koyang taigon zhangxhou }
+				ninghai_province = { muhe jianchu tong donxu helin }
+			}
+			geongte_area = {
+				gangyeon_province = { cheonju gimtaek manjiyon jeonchon onyanpo kimsul }
+				dasea_province = { pyeonang sihejeon daesan seosan ujleonpo anyeoju }
+				jegu_province = { hwaseng hampo sinchon }
+				kyonhae_province = { seojin kaejul hyesong jeonpu }
+				chajeo_province = { kanggok andeon cheokbang hoeryn cheongju }
+				incheol_province = { gunam tonsul kimchaen hezhou }
+				bugeonggi_province = { bokcheol tanju sarisong pansong anoeyong }
+				gyengang_province = { anchom kimyang pyonje hongla shiono }
+				jian_ti_province = { xianlu zheng zhushui shenzhuan anchang zidu }
+				emean_shore_province = { northeast_emean_shore battered_coast western_emean_coast cape_of_recompense ninth_bay emean_gulf monkey_shores south_emean_coast otic_reefs south_palatial_coast north_palatial_coast lower_mountain_coast mountain_coast upper_mountain_coast northwest_emean_shore }
+			}
+		}
+	}
+}
+menea_continent = {
+	menea_subcontinent = {
+		menea_region = {
+			menea_area = {
+				lure_ocean_province = { katlas_reaches kelp_sea drowned_reef lost_sea northern_lure lure_ocean southeastern_lure southwestern_lure vast_waters coral_trenches northwest_lure west_lure sunset_sea }
+				deep_ocean_province = { deep_ocean }
+				aten_sea_province = { gonlar_straight null_sea unknown_depths east_aten_coast east_atic_pass shallow_sea west_atic_pass fourth_sea }
+				mayn_ocean_province = { south_mayn lower_mayn mayn_ocean upper_mayn north_mayn }
+				sea_of_snow_province = { sea_of_snow cape_of_sorrow bleak_bay coldwater wet_expanse }
+				west_menean_sea_province = { giant_bay shelled_banks coral_sea west_menean_coast cod_seas tyrants_sea first_gulf }
+				east_menean_sea_province = { bay_of_the_last east_menean_coast south_spire_coast north_spire_coast }
+				menea_province = { menea unnamed_location_252 unnamed_location_253 unnamed_location_254 unnamed_location_255 unnamed_location_256 unnamed_location_257 unnamed_location_258 unnamed_location_259 unnamed_location_260 unnamed_location_261 unnamed_location_262 unnamed_location_263 unnamed_location_264 unnamed_location_265 unnamed_location_266 unnamed_location_267 unnamed_location_268 unnamed_location_269 unnamed_location_270 unnamed_location_271 unnamed_location_272 unnamed_location_273 unnamed_location_274 unnamed_location_275 unnamed_location_276 unnamed_location_277 unnamed_location_278 unnamed_location_279 unnamed_location_280 unnamed_location_281 unnamed_location_282 unnamed_location_283 unnamed_location_284 unnamed_location_285 unnamed_location_286 unnamed_location_287 unnamed_location_288 unnamed_location_289 unnamed_location_290 unnamed_location_291 unnamed_location_292 unnamed_location_293 unnamed_location_294 unnamed_location_295 unnamed_location_296 unnamed_location_297 unnamed_location_298 unnamed_location_299 unnamed_location_300 unnamed_location_301 unnamed_location_302 unnamed_location_303 unnamed_location_304 unnamed_location_305 unnamed_location_306 unnamed_location_307 unnamed_location_308 unnamed_location_309 unnamed_location_310 unnamed_location_311 unnamed_location_312 unnamed_location_313 unnamed_location_314 unnamed_location_315 unnamed_location_316 unnamed_location_317 unnamed_location_106 unnamed_location_107 unnamed_location_108 }
+			}
+		}
+	}
+}
+perlea_continent = {
+	perlea_subcontinent = {
+		perlea_region = {
+			perlea_area = {
+				perlean_sea_province = { western_endless_ocean endless_ocean pearl_bay perlean_coast south_perlean_sea west_perlean_sea north_perlean_sea lagana_straight }
+				perlea_province = { perlea unnamed_location_172 unnamed_location_173 unnamed_location_174 unnamed_location_175 unnamed_location_176 unnamed_location_177 unnamed_location_178 unnamed_location_179 unnamed_location_180 unnamed_location_181 unnamed_location_182 unnamed_location_183 unnamed_location_184 unnamed_location_185 unnamed_location_186 unnamed_location_187 unnamed_location_188 unnamed_location_189 unnamed_location_190 unnamed_location_191 unnamed_location_192 unnamed_location_193 unnamed_location_194 unnamed_location_195 unnamed_location_196 unnamed_location_197 unnamed_location_198 unnamed_location_199 unnamed_location_200 unnamed_location_201 unnamed_location_202 unnamed_location_203 unnamed_location_204 unnamed_location_205 unnamed_location_206 unnamed_location_207 unnamed_location_208 unnamed_location_209 unnamed_location_210 unnamed_location_211 unnamed_location_212 unnamed_location_213 unnamed_location_214 unnamed_location_215 unnamed_location_216 unnamed_location_217 unnamed_location_218 unnamed_location_219 unnamed_location_220 unnamed_location_221 unnamed_location_222 unnamed_location_223 unnamed_location_224 unnamed_location_225 unnamed_location_226 unnamed_location_227 unnamed_location_228 unnamed_location_229 unnamed_location_230 unnamed_location_231 unnamed_location_232 unnamed_location_233 unnamed_location_234 unnamed_location_235 unnamed_location_236 unnamed_location_237 unnamed_location_238 unnamed_location_239 unnamed_location_240 unnamed_location_241 unnamed_location_242 unnamed_location_243 unnamed_location_244 unnamed_location_245 unnamed_location_246 unnamed_location_247 unnamed_location_248 unnamed_location_249 unnamed_location_250 unnamed_location_251 unnamed_location_102 unnamed_location_103 unnamed_location_104 unnamed_location_105 }
+			}
+		}
+	}
+}
+vulthark_continent = {
+	vulthark_subcontinent = {
+		vulthark_region = {
+			vulthark_area = {
+				letic_ocean_province = { southern_letic letic northern_letic western_letic }
+				thark_sea_province = { pale_banks vul_coast southpoint_ridge southern_thark_coast northern_thark_coast }
+				trenches_province = { upper_trenches lower_trenches chain_banks }
+				icewind_sea_province = { icewind_waters }
+				vulthark_province = { vulthark unnamed_location_99 unnamed_location_100 unnamed_location_101 unnamed_location_109 unnamed_location_110 unnamed_location_111 unnamed_location_112 unnamed_location_113 unnamed_location_114 unnamed_location_115 unnamed_location_116 unnamed_location_117 unnamed_location_118 unnamed_location_119 unnamed_location_120 unnamed_location_121 unnamed_location_122 unnamed_location_123 unnamed_location_124 unnamed_location_125 unnamed_location_126 unnamed_location_127 unnamed_location_128 unnamed_location_129 unnamed_location_130 unnamed_location_131 unnamed_location_132 unnamed_location_133 unnamed_location_134 unnamed_location_135 unnamed_location_136 unnamed_location_137 unnamed_location_138 unnamed_location_139 unnamed_location_140 unnamed_location_141 unnamed_location_142 unnamed_location_143 unnamed_location_144 unnamed_location_145 unnamed_location_146 unnamed_location_147 unnamed_location_148 unnamed_location_149 unnamed_location_150 unnamed_location_151 unnamed_location_152 unnamed_location_153 unnamed_location_154 unnamed_location_155 unnamed_location_156 unnamed_location_157 unnamed_location_158 unnamed_location_159 unnamed_location_160 unnamed_location_161 unnamed_location_162 unnamed_location_163 unnamed_location_164 unnamed_location_165 unnamed_location_166 unnamed_location_167 unnamed_location_168 unnamed_location_169 unnamed_location_170 unnamed_location_171 }
+			}
+		}
+	}
+}

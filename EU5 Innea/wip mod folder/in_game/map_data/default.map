@@ -1,0 +1,85 @@
+provinces = "locations.png"
+rivers = "rivers.png"
+topology = "heightmap.heightmap"
+adjacencies = "adjacencies.csv"
+setup = "definitions.txt"
+ports = "ports.csv"
+location_templates = "location_templates.txt"
+
+equator_y = 3340 #to change later
+wrap_x = yes
+
+
+sound_toll = {
+
+}
+
+#############
+# VOLCANOES
+#############
+volcanoes = {
+
+	#Corresponding location - Name of volcano - Important Eruptions - Strength - Link
+	#klikitat #Mount St. Helens - 1980 - 5 - https://en.wikipedia.org/wiki/Mount_St._Helens
+
+}
+
+###################################
+# All possible earthquake zones
+###################################
+earthquakes = {
+ 
+
+}
+
+#############
+# SEA ZONES
+#############
+sea_zones = { 
+	lake_aglaug lake_seol jarlgraf_bay south_rekkyran_coast north_rekkryan_coast storming_sea skaborjum_sea rift_sea thuden_coast steringr_gulf strait_of_bjorlan skallor_sea coast_of_drengyr gulf_of_ice northern_sea_of_whales north_varsk_sea southern_sea_of_whales south_varsk_sea tjalle_sea the_blue_bay saelic_coast eirmunds_pass lake_oren lake_auor emerald_lake lake_divithne lake_oden murlocke_lake spruce_lake elder_lake edess_lagoon zahlitz_lake wild_lake 
+	lake_kaneth saphire_lake white_lake lake_niev fishlake molten_lake scraw_lake varalin_lake ember_lake lake_navva crescent_lake little_wolf_lake great_wolf_lake lake_itikak spring_lake lake_wouwaga heron_lake bay_of_seals miqur_coast sanukit_coast cold_banks north_whale_sea eastern_sea_of_ooku weastern_sea_of_ooku gildic_sea north_fish_banks south_whale_sea icewind_stretch far_sea troubled_sea whale_coast south_fish_banks easerly_fish_banks gildic_coast black_coast 
+	first_sea north_bottean north_ywekan_sea rockpoints eastern_passage ragged_sea ragged_coast south_ywekan_sea ijeals_channel cape_of_the_old_rock black_bay briltan_coast gull_sea south_bottean bay_of_botte herring_sea rallands_water uddon_sea ywekan_strait east_trader_sea west_trader_sea shipwreck_banks coast_of_avan north_tradeshore south_tradeshore seagull_cape coast_of_brongs gulf_of_noth mitten_coast spruce_coast seaview_cape sisters_channel sellaine_bay lorre_coast 
+	frell_strait hammer_sound coast_of_dales tanne_bay coast_of_yworr coast_of_gales redwayne_coast itiran_coast coast_of_lenatis bay_of_thel narcetian_coast sascilian_coast cothonian_coast coast_of_briiya maetian_delta sea_of_shipwrecks west_farwind_sea east_farwind_sea northern_great_ocean peel_sea oots_waters red_sand_banks calming_sea taroq_sea northern_sea_of_gales the_great_ocean southern_great_ocean east_arman_sea capecian_sea southern_sea_of_gales upper_sea_of_stars 
+	lower_sea_of_stars charred_sea upper_katlas south_lodhar_ridge fetid_waters south_iron_sea northern_sea southern_rift_sea east_northern_sea isschan_sea paldan_strait ice_river_bay glacier_strait tosshen_pass crystal_sea glacial_sea east_briivan_sea gors_coast vehk_gully west_briivan_sea tonchad_coast northern_coast black_gulf upper_black_coast east_pelatic lower_black_coast azar_coast tagad_coast shield_channel tredic_coast goblin_cape orkal_straight gukar_gulf 
+	shekhaji_coast dranic_coast north_dragons_coast south_dragons_coast cape_of_fire straight_of_daggers bluewaters misty_sea sajental_sea sylten_coast coast_of_gozma_deii gildur_narrows doth_pass aethoin_sea anowen_sea sunrise_sea uldar_sea north_lodhar_ridge sunset_sea sgaw_sea peril_sea kestern_waters cape_of_the_western_wind aak_coast harbour_coast upper_whale_bay lower_whale_bay broken_sea jagged_straight east_broken_sea west_broken_sea styre_coast little_wave_sea 
+	kawn_sea katlas_sea awk_sea kampe_banks pirecan_coast stone_bay gulf_of_dragons bagda_sea hammer_coast ruined_sea treasure_depths green_swell starlit_waters outer_banks frothing_sea megdum_ridge south_pelatic pelatic_sea east_iron_sea west_iron_sea west_pelatic east_panorian_coast south_panorian_sea east_frozen_ocean kelp_sea katlas_reaches drowned_reef crippled_hand_banks widows_straight south_bluethorn_sea aval_reef itholan_coast sea_of_songs lions_coast western_spice_gulf 
+	eastern_spice_gulf bahdakuri_sea sweltering_sea spice_banks slavers_bay redcrab_sea salt_sea waters_head rainbow_reefs astrean_sea western_endless_ocean endless_ocean pearl_bay perlean_coast south_perlean_sea west_perlean_sea north_perlean_sea lagana_straight southern_letic letic northern_letic pale_banks vul_coast southpoint_ridge western_letic chain_banks upper_trenches lower_trenches southern_thark_coast northern_thark_coast icewind_waters northeast_emean_shore battered_coast 
+	western_emean_coast cape_of_recompense ninth_bay emean_gulf monkey_shores south_emean_coast otic_reefs south_palatial_coast north_palatial_coast lower_mountain_coast silent_current mountain_coast upper_mountain_coast northwest_emean_shore northeastern_great_ocean southeastern_great_ocean astrean_coast north_astrean_sea southern_still_sea still_sea northern_still_sea kazen_rift west_waterdunes east_waterdunes north_green_sea south_green_sea dremor_sea catul_sea 
+	ashar_sea foshaif_coast sea_of_bones deep_ocean longfairn_islands gonlar_straight null_sea unknown_depths south_mayn lower_mayn mayn_ocean upper_mayn north_mayn sea_of_snow cape_of_sorrow bleak_bay coldwater wet_expanse west_panorian_coast west_frozen_ocean lost_sea northern_lure lure_ocean southeastern_lure southwestern_lure east_aten_coast east_atic_pass shallow_sea west_atic_pass fourth_sea giant_bay shelled_banks coral_sea west_menean_coast cod_seas tyrants_sea first_gulf 
+	vast_waters coral_trenches northwest_lure west_lure bay_of_the_last east_menean_coast south_spire_coast north_spire_coast north_arman_sea arman_coast lions_mouth south_arman_coast atwan_sandbanks karu_bay bahdak_bay south_bahdakuri_sea sahidan_shores dinar_coast west_deep jhistal_coast cape_of_good_fortune akavor_coast east_deep upper_hran_coast west_sugar_coast lower_hran_coast fayu_coast spiced_waters north_char_coast south_char_coast moon_bay whale_banks blacksand_gulf 
+	east_sugar_coast slavers_shore theban_coast hyet_cape coast_of_ak marsh_banks swirling_sea west_salt_sea calm_waters celayphean_sea matrean_coast xitcon_sea adventurers_coast horse_bay sea_of_the_landings thumb_sea flower_reefs north_bluethorn_sea feteoalan_sea the_blue_abyss middle_finger_sea hand_coast tremor_coast handan_coast grey_sea western_coast gulf_of_akal bay_of_fuad lake_ija han_sea dune_lake lake_pun
+
+} 
+
+
+###############
+# MAJOR RIVERS
+###############
+#river_provinces = { 628 630 }		#Thames
+
+########
+# LAKES
+########
+lakes = {
+	#first edition lakes 
+    lake_aglaug lake_seol lake_oren lake_auor emerald_lake lake_divithne lake_oden murlocke_lake spruce_lake elder_lake edess_lagoon zahlitz_lake wild_lake lake_kaneth saphire_lake white_lake lake_niev fishlake molten_lake scraw_lake varalin_lake ember_lake lake_navva crescent_lake little_wolf_lake great_wolf_lake lake_itikak spring_lake lake_wouwaga heron_lake lake_ija han_sea dune_lake lake_pun
+} 
+
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbors.
+# Blocks unit movement.
+
+impassable_mountains = {
+	south_cider_forest north_cider_forest west_cider_forest ice_plain ice_plain_2 ice_plain_3 ice_plain_4 rift_isles gleifing_mountains haral_mountains mount_om north_duedhin_mountains duedhin_mountains allar_mountains brotherhood_of_the_twelve north_brongian_mountains west_brongian_mountains hammer_mounds stern_mountains cloudy_mountains silver_mountains liivwhan_mountains miath_spires bolkan_mountains isschan_mountains ironstone_mountains kaggraz_mountains mount_shlachtar northern_tavras uldaran_mountains greystone_mountains great_northern_forest great_eastern_forest nightshade_ridge great_western_forest southern_great_woods western_valley_mountains abrax_ridge mount_kyfak mount_dofosn tyrfak_mountains the_othal glacier_of_fire epor_ice_fields western_glaciers kaar_crags burnt_mountains athbal_spires boern_mountains staal_mountains eastern_harals gors_cliff ngonak_range chezan_mountains mount_drus last_spire mount_lyg mount_fadug mount_baltar western_altvarik_mountains great_halmskr_range gor_range dzyllan_mountains crimson_heights southern_tavras mount_yllras aravros_range eastern_valley_mountains dragonfire_mountains the_pashyas horn_mountains rautali_range southern_altvarik_mountains grey_mountains the_great_undar_ridge panorian_mountains menea lower_karials vulthark perlea ator_caldera sahid_desert mothers_grasp niirwahnaa foshaif_waste anur_desert anur_desert_2 anur_desert_3 anur_desert_4 anur_desert_5 anur_desert_6 anhyan_mountains red_desert towers_of_stone bahdakur_desert white_sands the_sahfr north_coin_ridge south_coin_ridge harpy_hills tholan_heights mixtescon_mountains karal_ridge scalemount mount_bashr mount_ire mount_dragons_breath the_great_volcano fayu_desert briven_ridge upper_karials mount_zhazeng pallid_waste alamyd_mountains the_ren 
+	unnamed_location_99 unnamed_location_100 unnamed_location_101 unnamed_location_102 unnamed_location_103 unnamed_location_104 unnamed_location_105 unnamed_location_106 unnamed_location_107 unnamed_location_108
+}
+
+
+non_ownable = {
+	
+}
+
+

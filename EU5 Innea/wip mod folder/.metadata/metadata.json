@@ -1,0 +1,14 @@
+﻿{
+	"name": "Tim Modding test",
+	"id": "test",
+	"version": "1.0.0",
+	"supported_game_version": "1.0.*",
+	"short_description": "test",
+	"tags": [
+		"Map",
+		"User Interface"
+	],
+	"picture": "thumbnail.png",
+	"relationships": [],
+	"game_custom_data": {}
+}

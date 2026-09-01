@@ -1,0 +1,2 @@
+# DEBUG NEUTRALISATION 2026-08-30 - vanilla holy sites all point at Earth locations
+# that do not exist on Innea; holy_site.cpp:345 then null-derefs. Delete to restore.

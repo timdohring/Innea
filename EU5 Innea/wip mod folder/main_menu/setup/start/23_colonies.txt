@@ -1,0 +1,6 @@
+# DEBUG NEUTRALISATION 2026-08-30 - empty override of vanilla's Earth game-start.
+# Vanilla setup/start names Earth locations that do not exist on the Innea map.
+# Delete this file to fall back to vanilla's version.
+colony_manager = {
+}
+
