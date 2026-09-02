@@ -1,0 +1,696 @@
+# Innea languages - family: human_innea
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+varsk_language = {
+	color = language_varsk
+	family = human_innea_language_family
+
+	male_names = {
+		Agmund Alvis Asmund Arnfinn Asgeirr Asmund Bjarni Bjorn Birgir Dagfinn
+		Egil Geirmund Gudbrand Gunarr Gunvald Haakon Halfdan Hallr Halvard Havardr
+		Hjalmar Helgi Ingvar Ivor Ketil Leif Orinn Oyvind Radulfr Ragnar
+		Ravnar Runar Sigarr Sigmund Steinn Steinar Stigr Sven Thorsteinn Torkel
+		Ulf Valdbjorn Vidar Vragi Gunbald Haak Uthr Azqan Isvir Tochz
+		Thorban Erik Flokker Norek Timuhtyrr Njy Holtr Isklas Threin
+	}
+	female_names = {
+		Agny Alfhild Aslaug Astridr Bergrunn Brynja Eirunn Erna Eyvor Frigg
+		Gudrun Gudridr Hella Hillevi Idunn Ingeborg Kara Ragnbjorg Reidun Sighild
+		Signy Sigrid Sigrun Skuld Thorveig Thorvi Torhild Valdis Ylva Myrdra
+		Fjolti Azqa Helga Falla Gunilla Hilda Kina Alva Nolada Iggi
+	}
+	dynasty_names = {
+		Arm Rend Ashen Hair Ashen Shield Asmunding Black Hand Blood
+		Eagle Blood Stone Dragon Heart Giants Blood Gold Hand Great
+		Bear Green Cloak Grey Beard Ice Eye Iron Blade Iron
+		Hand Oar Maker Ornung Red Beard Silver Stone Silver Tongue
+		Snake Bane Star Seer Svening Varsken West Glen White Mane
+		White Shield Wolfsbane Worms Blood Wolf Heart Ylving Haaksson Theb
+		Long Axe "tir Host" "tir Steasof" "tir Varun" Azqun Starchild Iglin Highstar Oz
+		Cold Azan Irean Zaquni Bozheal Knur "tir Bern" Eriksson Gottr Sifell
+		Mjonat Uryyk "tir Sket" Falken Graf Alfing "tir Hross" Lyrvaer Bearborn Altun
+		Kerhtyr Tosfaln Giantsbane "tir Ykra" Kopr "tir Skund" Darren "tir Dal" Kyn "tir Freyn"
+		Fjordaslon Olsief "tir Helsing" Threinsson Svalr
+	}
+	lowborn = {
+	}
+}
+
+anuiq_language = {
+	color = language_anuiq
+	family = human_innea_language_family
+
+	male_names = {
+		Alornek Amaruq Adlartok Aput Atiqtalaaq Ikiaq Kallik Kumaglak Nootaikok Nuniq
+		Tagtu Qimmiq Panuk Narik Ilsat
+	}
+	female_names = {
+		Amka Akna Ahnah Alasie Anjij Arnaq Asiaq Cupun Elisapee Hitty
+		Kanaaq Kireama Nukilik Siqiniq Tapeesa
+	}
+	dynasty_names = {
+		Akusak Toq "Son of Snow" Kellik Nuun Akkatu Iru Anut Pirii Uqur
+		Qevallik Lorii Vo Anuis Qeur Iceborn Iqun
+	}
+	lowborn = {
+	}
+}
+
+saelic_language = {
+	color = language_saelic
+	family = human_innea_language_family
+
+	male_names = {
+		Seahne Artek Artturi Arzhur Bedwyr Braen Breuw Brieg Casek Casworon
+		Cinuedu Cuinn Cynwr Diogard Diuma Dlorath Duan Eonan Fiac Hedrek
+		Kaelan Ky Lir Madoc Marsean Pwyaon Rhys Tadhg Ten Seal
+		Einar Sleibhon
+	}
+	female_names = {
+		Arta Aife Ailidh Alula Bedelia Boducci Brightwyna Crad Dylynn Enyd
+		Erna Glenna Imogen Jenev Kace Kelci Oonagha Pirjo Ria Sadbh
+		Teranika Tiona Selci Ywon Isiohna
+	}
+	dynasty_names = {
+		Sael Taethwen Sloc Irithwn Fisherman Ubrac Caer Navabhan Issuan Hillman
+		Duadac Brechc Ubraxas Morr Ferr Adurn Ywerek Bodhan Tod Hlonnach
+		Forelshciadg Isoselcii Nenetar Sleiran
+	}
+	lowborn = {
+	}
+}
+
+ywekan_language = {
+	color = language_ywekan
+	family = human_innea_language_family
+
+	male_names = {
+		Seahn Artak Arhtu Arzuk Bedwair Brean Brawaegh Brothn Kaserwek Kasworohn
+		Kinerk Kwinn Kynwar Dion Diumhe Doan Eos Fakke Jarke Jotan
+		Hulmar Hedren Kalan Kye Ey Loac Madorak Marse Pwyak Rogart
+		Tadokk
+	}
+	female_names = {
+		Arte Aifa Ailith Alura Bedelia Bodukkin Brightwinna Krad Dylain Aenyd
+		Emarre Glen Imogen Jenev Kace Kelci Oonaga Pirio Ria Sadbh
+		Teranika Fiola
+	}
+	dynasty_names = {
+		Sael Whaler "of the Waves" Seaborn Skald Fisher Adran Cahstley "of Westoc" Tusan
+		Orbotte Taswen Orbotte Kojh "Black Sail" Deadhands "Sunken Ship" Drunkard Martin Omhag
+		Ballor Akrun Dorre "of Ralland"
+	}
+	lowborn = {
+	}
+}
+
+brilthic_language = {
+	color = language_brilthic
+	family = human_innea_language_family
+
+	male_names = {
+		Ackaer Alvor Bernuth Brackton Coster Clarn Dawes Deale Durcley Dinnel
+		Esgor Elwurd Haute Hornick Hense Korn Igar Longclay Marnas Mingsley
+		Nordard Puth Osbertar Radthcol Raeburn Aelswurre
+	}
+	female_names = {
+		Aisin Aelwith Arnis Bertrude Bevalin Carty Cawinn Colly Deard Dyle
+		Eves Farna Goosewa Gurthala Herda Ivia Inarwith Leiva Lossana Kyla
+		Marta Mathwild Nassa Sarua Woudi
+	}
+	dynasty_names = {
+		Osbert Osward Eastleigh Coffin Bragart Ledern Uwith Uwaille Fockart Shourt
+		Plasting Konnber Greyd Blakk Ipswurre "Black Asher" "of the Greys" Aerth Shoreson Saught
+		Gressing Calde Yorwin Kepperson Vonth Ballard Eddae Alkaer Torwych Oreborn
+	}
+	lowborn = {
+	}
+}
+
+highlander_language = {
+	color = language_highlander
+	family = human_innea_language_family
+
+	male_names = {
+		Adaidh Ailig Amhlai Askill Beister Coisen Conn Cormag Deor Dubh
+		Ealar Ellair Frang Goiri Harail Iagan Lachlar Niall Oilbhean Padar
+		Hrafnu
+	}
+	female_names = {
+		Ailis Aofie Aingealag Beileag Beasar Betidh Calaminag Cairit Cursta Deirdre
+		Deonaidh Elsaid Gormlass Lucra Mor Milreach Raghna Rut Stineag Teasag
+		Una
+	}
+	dynasty_names = {
+		Mountman Crowfoot Donair Steplander Ruwwan "of Mountains" Burraga Ceft Donark Kessairgh
+		"Deg a Iodh" "Deg a Diobh" DegRakk DegLhereg DegDunair DegForhoe Torre Bruxer Duhn Cheurtagg
+		"of Aberahx" "of Aggwuhd" "of Brich" "of Donagh" "of Elcnoe" "of Leihg" "of Slon"
+	}
+	lowborn = {
+	}
+}
+
+achakk_language = {
+	color = language_achakk
+	family = human_innea_language_family
+
+	male_names = {
+		Rogr Ahlus Dren Bogslan Vari Kotov Elhajion Zukon Achon Achaljz
+		Verriyn Nosakov Uturdd Karros Mezjialkova Chestonat Geortavyie Krazin Udragost Premiri
+		Rado Iltiervwul Wutha Vanowyr Necesci Yolmnar Bergezwiec Yorupa Ikil Zvon
+		Pjotar
+	}
+	female_names = {
+		Bordana Zhena Drenna Kotovana Zukaija Zvona Yolna Nosakovaca Witharnyee Radoka
+		Lyudwa Oroselt Aba Trenhult Woroje Owoit Ojelle Suza Aiscice Notha
+		Pjota
+	}
+	dynasty_names = {
+		"yv Kev" "yv Niev" "yv Pjotran" "yv Warsvh" "yv Nalec" "yv Volot" "yv Ghav" Woodling Thirdborn Halfheart
+		Acharr Achouw Brisingr Elac Turohjinwe Leratz Zukovart Yontar Krazakk Pjakk
+		Radoman Seresci Wuordjakk Tvakk Woodsman Nec Koruvwa Varashintolg Ogormiri Yvoz
+	}
+	lowborn = {
+	}
+}
+
+wuerdic_language = {
+	color = language_wuerdic
+	family = human_innea_language_family
+
+	male_names = {
+		Varin Ahkon Swon Alus Draen Prenir Karos Neses Piothar Georthav
+		Aldar Borswald Irian Keppald Norrik Fester Hall Orlias Veron Salaciu
+		Etrescu Ion Tior Dekinais Moskon Atan Codras Utheam Celaut Iohnij
+	}
+	female_names = {
+		Kara Ibea Virtu Leandishe Jota Furea Marata Nonise Verona Iona
+		Tiora Atani Cela Eba Piota Susca Woraja Yondarahwiel Lyudiani Sukaia
+	}
+	dynasty_names = {
+		"a Year" "a Allar" "a Orm" "a Luz" "a Vera" "a Bernoth" "a Weald" Wealder Moon Half
+		Moon Laure Estella Kofni Harras Tolcin Elats Lerats Yovan Neceas
+		Seresti Ivoull Rothkan Nurulesti Sabaroc Umea Latari Ovescu Morne Hunter
+		Nonar
+	}
+	lowborn = {
+	}
+}
+
+moltranic_language = {
+	color = language_moltranic
+	family = human_innea_language_family
+
+	male_names = {
+		Daren Georthar Aldar Borswall Hall Etrescar Salacar Festen Keppal Codren
+		Alred Alfwen Athelron Beornras Cenric Cyneborn Cynfrith Edberth Edden Edalstan
+		Leosborn Oskarn Osmern Uthric Weldmar Aldus Hanry Mackmorre Ranney Torrey
+		Angmar
+	}
+	female_names = {
+		Alfwith Alflinn Alfswirda Edburre Edgylth Fridana Milda Mildwith Wyla Sarawynne
+		Cara Fura Maratha Torra Onna Cenryl Narine Aala Dara Louthwyn
+	}
+	dynasty_names = {
+		"of the River" Aldsman "of the Linde" "of Cowlon" "of Cinder" "of Keltran" "of Karsan" "of the Vayne" Rossing "of the Reach"
+		Raykene Bearblood Lakelover Treetower Gothras Hurreigh Tinker Usberth Waylow Kearn
+		Tabath Lorke Naindurre Uworth Derring Shussel Codras Athelstarre Koppwing Tayroth
+		Cains
+	}
+	lowborn = {
+	}
+}
+
+pallan_language = {
+	color = language_pallan
+	family = human_innea_language_family
+
+	male_names = {
+		Darren Haill Festem Kodren Alredde Kenrikk Kayneborne Edde Torran Oskairn
+		Leosborre Uthrin Osmarn Veldmar Hanrey Rannan Borswain Alwen Alron Salakar
+		Diewert Atse Heiek Japell Jurryht Klaesrikk Hitter Tieden Waatje Wubje
+		Thomar Duwayn Pelter Sawan Mihde Shuhras Shekrur Amur Dilshaz Alishazmat
+	}
+	female_names = {
+		Entje Diewekka Henna Imkje Taike Linke Jella Siette Atake Denne
+		Kara Hura Marathe Tora Ona Kenrayl Narin Ala Dasa Loutwain
+		Sarwain Aila Alswirda Alinn Alwith Jotanna Esla Deunith Maro Heieka
+	}
+	dynasty_names = {
+		"of the Reach" "of Brongs" "of the Grayle" "of the Farm" "of the Locke" "of Marby" "of Ponder" "of Korre" "of Picket" "of Arrynal"
+		Cains Lorke Yorke Hurreigh Tinker Kearn Waylow Uworth Derring Codras
+		Southcoaster Northcoaster Miller Cliffer Fielder Goldsmith Copperminer Trader Oarsman Sailor
+		Herston Coffney Aulwin Durrel Yearning Wustelwurth Rought Adarne Lesley Shazrit
+	}
+	lowborn = {
+	}
+}
+
+taroquan_language = {
+	color = language_taroquan
+	family = human_innea_language_family
+
+	male_names = {
+		Amit Enguerr Teudes Barnier Eoffrain Hidie Losse Gehan Nosse Tuarin
+		Muiscar Monfrai Ossard Biers Moul Rosse Ranquelin Rothber Vouill Arthis
+		Ulban Damand Reymour Baunoit Chesaite Dieris Flanand Gauges Vainpard Huston
+	}
+	female_names = {
+		Vateline Emee Aulis Lisabeauc Mehanne Nohanne Teslisand Ulltie Derabeauc Colisse
+		Ilaide Ragnes Talana Vanelle Ubrea Darde Chloen Achlaresse Essvieu Sorathee
+	}
+	dynasty_names = {
+		fil-Naath fil-Mittagne fil-Beuhtaux fil-Arim fil-Phantes fil-Orles fil-Arrun fil-Thalie fil-Surdoux fil-Sorraine
+		Beautain Sidain Allerain Sonemain Tourain Tanac Ubranac Esscai Yvolle Chasset
+		Affouw Nauex Efys Raquis Mulquis Derchonne Valuis Frychaud Gaugnet Houliet
+	}
+	lowborn = {
+	}
+}
+
+teltranic_language = {
+	color = language_teltranic
+	family = human_innea_language_family
+
+	male_names = {
+		Daran Kodrin Alredder Kenrik Toran Oskar Utdrin Veldmar Salakan Atse
+		Klasrik Tiden Waten Midde Peltar Kasbert Alof Artin Burn Dahart
+		Ebhart Frehart Gerhilf Harthold Mutans Huchim Jochmar Karlsten Leonart Malria
+		Thishard Moklas Ritzmar Pasmund Rechard Sastian Stester Tonsten Urs Volkedel
+	}
+	female_names = {
+		Ente Hena Imke Taika Linka Jela Sietta Atake Denna Kara
+		Maethe Onade Allana Ailane Eslane Bada Alreda Melia Ganika Tagma
+		Elsi Fruin Gadweida Ilani Jennabell Lienel Ina Marne Ditzi Sibilsia
+	}
+	dynasty_names = {
+		"vot Bergen" "vot Dales" "vot Stern" "vot Dern" "vot Assitz" "vot Terl" "vot Litz" "vot Schrenn" "vot Zulau" "vot Kaireuth"
+		Copperfield Cobblerstone Halfhill Winebrew Vintner Birch Beerhill Upperland Downtree Greyiron
+		"van Doverstall" "van Daltenburg" "van Verneth" Aarning Umbolt Terras Usaun Keppring Dunkle Osswitz
+		Testen Kaufling Erhacht Dunshied Kesslauf Zumbrich Asaker Leonflitte Gussn Ertanhof
+	}
+	lowborn = {
+	}
+}
+
+acryllian_language = {
+	color = language_acryllian
+	family = human_innea_language_family
+
+	male_names = {
+		Vergius Vitas Vibius Liusius Valerens Tatian Septvin Senecae Slavola Quingulus
+		Gulfinus Pontar Nervotho Othero Maxinas Scotur Narcell Marcell Lonkuos Iolus
+		Jovin Julit Genaudrian Flastus Fulvus Egnasi Eabrilix Caneis Crispix Cato
+		Lato Areito Canbresis Burtsar Caenius Brasaer Aurelbus Avitan Balbulus Aemgrippa
+	}
+	female_names = {
+		Dita Valertina Tatiana Tulli Teriane None Pona Prosca Paudia Juna
+		Cilli Marine Tinam Oca Octamare Licia Lucina Iotana Jule Laetensia
+		Faucia Biola Viane Alla Casselia Nelia Decmita Bladia Ante Quilbina
+	}
+	dynasty_names = {
+		Goldblood Standardbearer "di Vindes" "di Phracia" "di Mylos" "di Rettari" "di Axias" "di Remaas" "di Villacius" "di Ventrilum"
+		"di Corruse" "di Padua" "di Veranus" "di Scoffa" "di Umurnulus" "di Afacios" "di Cartalus" "di Opune" "di Lesti" "di Farunus"
+		Athax Artus Diletius Covinus Colra Certus Ebraus Gorga Frictus Fallasi
+		Nullus Maletiu Mollepium Pira Pleos Veralli Vuthanim Lotensiu Bosdacci Cavenus
+	}
+	lowborn = {
+	}
+}
+
+celtan_language = {
+	color = language_celtan
+	family = human_innea_language_family
+
+	male_names = {
+		Cenhe Urtak Urttari Legwyr Lraon Lreus Bir Sasek Sacsoron Sinegu
+		Suin Synsr Dboath Nyg Fobos
+	}
+	female_names = {
+		Urta Uife Uifil Legelia Logussi Lishtsyna Srad Emal Henav Adora
+	}
+	dynasty_names = {
+		Belcos "Muw i Alkron" "i Kattan" "i Ghelar" Ghowsra Oswikkan Ellava Lonyes Roboto Veruz
+		Nudred
+	}
+	lowborn = {
+	}
+}
+
+lenaric_language = {
+	color = language_lenaric
+	family = human_innea_language_family
+
+	male_names = {
+		Aitan Bakaitz Eduzki Kain Eztisko Gainix Razka Ibair Zitzal Orpatxi
+		Adolso Gapito Alcidino Asdrubasier Bikentor Cecili Cheslio Danrio Dionato Edulio
+		Ferman Cisco Geralo Arcio Igonnol Bojafet Seporiam Lorenzas Margel Demolas
+		Ziorgos Annis Vasaritor Stefano Themisthis Prokoprapis Lukmar Matchile Guiodni Dimiefshat
+	}
+	female_names = {
+		Aintza Meya Bihotaroa Elixstine Goizea Idoya Itxaar Kistore Magore Zoruxue
+		Afikat Minia Gryotemisia Dimina Evalyn Kalli Natafeli Leta Sotoula Thalsia
+		Cili Yuna Anta Nelia Viana Hortanica Iriun Javiet Leoyrtica Luidesa
+	}
+	dynasty_names = {
+		"sa Maea" "sa Diana" "sa Brii" "sa Othane" "sa Alleta" "sa Sascile" "sa Thela" "sa Narcet" "sa Lenatii" "sa Verdanya"
+		"sa Caixos" "sa Daria" "sa Cotho" "sa Othoro" "sa Estat" "sa Itir" "sa Divile" "sa Ghare" "sa Gruggi" "sa Evos"
+		Attato Arceto Beonpraktis Cellikar Edas Deornayi Gargge Filun Melaktas Ise
+		Maenil Livi Veractis Valluni Zakutus Oporte Opolato Menelao Lefis Issacxis
+	}
+	lowborn = {
+	}
+}
+
+kuzic_language = {
+	color = language_kuzic
+	family = human_innea_language_family
+
+	male_names = {
+		Rakhar Ainar Zatir Bekir Lashyr Saga Tuman Ulzhal Zhan Halgas
+		Sulon Rekvir Khanba Beknar Arkhal Estbek Lonmazh Imurduz Zarduz Gazbekar
+		Ylshek Dirbar Mavazhit Ryslem Taglam Tok Ktar Yerk Uzogaz Byl
+	}
+	female_names = {
+		Ase Dilnu Hanat Aya Hakna Seyana Aina Earu Dilma Karasha
+		Gulkhati Raushana Kmosh Ygash Salashy Shangul Yry Turula Ulmezhe Zhulfi
+	}
+	dynasty_names = {
+		Skave Jarga Tulga Qichqa Vehkar Anzaq Milakyn Kiiro Mosghar Gubjyn
+		Anqi Yu Kegan Anqi Ter Rehkar Briihvak Borgol Dushjyn Almyn
+		Nashagrazyn Eduguz Khasia Velenemov Artuzh Deskavih Kolshas Zabrin Dashan Yosar
+		Mirdan Golgunam
+	}
+	lowborn = {
+	}
+}
+
+zgo_language = {
+	color = language_zgo
+	family = human_innea_language_family
+
+	male_names = {
+		Ndone Mgawes Ogode Ogonwe Gobawe Ndaran Lonwala Zdak Maszin Rod
+		Bdawamego Naakar Ewenaak Mgomg Goma Elguwag Dmgo Odo Ldanomaw Aspe
+	}
+	female_names = {
+		Awala Mgwe Asgod Elwari Sziraw Elgane Gwegu Gwega Gwugguri Naash
+	}
+	dynasty_names = {
+		Mgewu Agake Odm Szra Bwan Spesi Ronaari Qudu Shazat Dban
+		Twe Lonmwgag Eganwg Dwd Asgir Mbadedwenu Ashkagu Ashkelru Ashdben Leweg
+	}
+	lowborn = {
+	}
+}
+
+mdari_language = {
+	color = language_mdari
+	family = human_innea_language_family
+
+	male_names = {
+		Waglen Denul Shdean Nidran Cashh Dekk Dened Ugdan Udar Luga
+		Ugo Weseg Egawnim Hosnaweg Gwegl Denuda Erfucch Ogob Brego Midogok
+		Marod Ghragh Gnogad Zabgha Sharg Hamugu Mul Vuguril Kogan Argal
+	}
+	female_names = {
+		Bor Atub Khashug Basha Sona Bulka Shel Bumgus Nargal Shadab
+		Mulag Zebg Homu Shdea Drana Gharagoan Maraod Braga Modi Egawar
+	}
+	dynasty_names = {
+		Shieldhand Tred Whiteface Kash Gangul Uygul Ragra Tobaq Ilshar Gorskk
+		Kzar Mdari Menes Uludz Aqudar Hornborn Shattered Doomed Blooded One
+		Spearfang Shaqra Edukhiz Ulgun Ekatar Zhor Qichona Murdrak Konmak Dbar
+		Dasan
+	}
+	lowborn = {
+	}
+}
+
+gorsic_language = {
+	color = language_gorsic
+	family = human_innea_language_family
+
+	male_names = {
+		Grob Daan Shenvi Winat Bashan Gralthu Glada Nathol Wok Ulpek
+		Besar Rezi Temodard Givi Revatz Baadiv Dato Arkad Tedoljan Gocha
+		Merab Vepkhin Koba Azat Malkhar Kentam Sarim Takbraa Raml Gacha
+	}
+	female_names = {
+		Nuta Guili Lado Zvia Gurgen Givi Sgana Yaton Osha Gwenash
+		Giu Gasion Riamome Rejan Droseb Kropirnir Dzina Levit Tyoma Taja
+	}
+	dynasty_names = {
+		Ishvi Kreselidzi Ladzeon Tabagan Khazide Khishvire Javrishvi Jadzen Bolkva Kazbeluria
+		Zestaan Jomi Shekhaji Imuri Khashti Qashi Ozugili Termishi Banak Jvilala
+		Tkvar Varivilina Tsabagedi Bolkalakan Hoban Leosndvi Artasu Denevilish Mirtag Nonatsuv
+	}
+	lowborn = {
+	}
+}
+
+lyzanian_language = {
+	color = language_lyzanian
+	family = human_innea_language_family
+
+	male_names = {
+		"Kai -" "Nazu -" "Haje -" "Ko -" "Meema -" "Min -" "Jeb -" "Jei -" "Gur -" "Usan -"
+		"Kal -" "Aki -" "Ahje -" "Ajo -" "Ata -" "Azt -" "Bes -" "Geej -" "Genak -" "Tul -"
+		"Depa -" "Bako -" "Chee -" "Ei -" "Egoji -" "Muaz -" "Keest -" "Yoxal -" "Xil -" "Waruj -"
+		"Ejel -" "Gei -" "Noru -" "Hixon -" "Kiz -" "Shah -" "Not -" "Okas -" "Bur -" "Hetmal -"
+	}
+	female_names = {
+		"Hajin -" "Am -" "An -" "Ank -" "Telat -" "Jin -" "Jan -" "Ula -" "Owa -" "Uwa -"
+		"Onax -" "Dje -" "Dus -" "I -" "Vheeka -" "Vulja -" "Tao -" "Kei -" "Shen -" "Zata -"
+		"Xanu -" "Ila -" "Naji -" "Hkanu -" "Gejee -" "Jerai -" "Ija -" "Insamu -" "Velekejet -" "Ansu -"
+	}
+	dynasty_names = {
+		Jettan Is Punh Vilja Sejek Tau Hiljek Jek Vikra Tun
+		Silijet Gozi Muja Evt Pal Gur Gurjek Gurjet Gas Gumi
+		Hili Tano Isk Hsin Jal Jun Jero Shotas Shirik Zeb
+		Tej Lo Isst Mundal Konrak Nomi So Ti Isstan Jekko
+	}
+	lowborn = {
+	}
+}
+
+tval_language = {
+	color = language_tval
+	family = human_innea_language_family
+
+	male_names = {
+		Tovon Arilo Lova Anat Falim Andi Zotased Lalaigi Manahir Raza
+		Raktotom Tsior Tahirim Hajanir Rivelo Anatlon Tovan Tsija Solofo Tirahas
+	}
+	female_names = {
+		Felana Hanta Mirantso Todisai Mijon Fiona Hanirij Saraha Vao Militian
+	}
+	dynasty_names = {
+		Raktoovinaivo Andrimafifadrabe Zkaleoro Randitonanibo Rabehamata Kotol Tolia Voa Anditsiton Pioninravaon
+		Manafihan Lakehan Fianahan Afarahan Anantosorovel Kandek Habominifola Tolianasataru Sirabelovan Atsilava
+	}
+	lowborn = {
+	}
+}
+
+katlamaki_language = {
+	color = language_katlamaki
+	family = human_innea_language_family
+
+	male_names = {
+		Krowanath Sekrunn Skoroi Ries Skenawan Asterbur Sowroon Tallet Tinst Kentleburd
+		Wentch Draum Thatakin Longsey Alwind Kalches Burdrwr Shampiwossh Khabawegrish Zhesqenno
+	}
+	female_names = {
+		Tilara Rhiana Iararrea Zhelkhine Askethaw Wiayle Grebeoyie Rhoshigenew Sqwebneiw Qhisha
+	}
+	dynasty_names = {
+		Kra Rara Ske Skuaw Wekew Sqotath Rokot Faw Kemrek Gown
+		Broadwing Flight Bronze Eye Shess Coldbeak Coalburn Resty Shawkro Tealwing
+		Farship
+	}
+	lowborn = {
+	}
+}
+
+ondedean_language = {
+	color = language_ondedean
+	family = human_innea_language_family
+
+	male_names = {
+		Tareg Hassul Deganawi Anak Urit Otetiano Adit Sunukkuh Iawath Onangowa
+		Kenan Tekawitho Wisendiye Doah Tiio Gawso Gwere Dune Eyweo Ononagi
+		Onon Beru Feleniwe Wierdu Hansage Geleh Sotaw Udegaw Weis Muwaga
+	}
+	female_names = {
+		Shata Sota Weia Muwa Tiona Gwera Eywo Onoonli Asweiga Nirswa
+		Sgane Ihea Gahe Ohnsa Naha Piiwra Hogesa Teretansi Piransi Nondawe
+	}
+	dynasty_names = {
+		Na Tene Na Dega Na Asha Na Sg Na Kana
+		We Sade We Iheku We Deyo We Haga We Dawe
+		On Saku On Sawe On Nage On Dona On Sotew
+		Ki Shanu Ki Telu Ki Siwa Ki Chotwe Ki Tana
+		Na Sebe Na Dewa Na Haga Na Daw Na Sganu
+		We Maha We Iwe We Satu We Iawa We Tyo
+	}
+	lowborn = {
+	}
+}
+
+litawan_language = {
+	color = language_litawan
+	family = human_innea_language_family
+
+	male_names = {
+		Atchu Ashagene Anandoga Tamene Shoka Wahkoopia Adowem Todalahwekte Hinish Howakhe
+	}
+	female_names = {
+		Wenqua Sulana Doymela Amashanee Kolasi Pawin Wanene Nittawospa Amadinok Atkomis
+	}
+	dynasty_names = {
+		Earthbreaker Horserider Saddleborn Waker Dogrunner Detih Pewas Ganawe Chawy Kegan
+	}
+	lowborn = {
+	}
+}
+
+algonic_language = {
+	color = language_algonic
+	family = human_innea_language_family
+
+	male_names = {
+		Tarag Wsandiya Gwara Aywa Muwego Ononade Felanis Galo Iowon Ongaw
+		Ikso Chowtri Ocumato Chosi Atsin Ahatu Malian Loshu Tooanah Skepta
+		Gomas Abookchak Ahapi Kemit Miskwecanou Weminsqua Opechatan Takhild Watsepun Astomas
+	}
+	female_names = {
+		Abesoom Anangote Ngoka Soundassaw Komaya Wawage Daaba Chego Amashakwi Anis
+		Inikimak Tsinnima Ipitomawa Kaisowe Iwedinaa Maemang Misnaawa Oigunoton Osamkwas Sinokanma
+	}
+	dynasty_names = {
+		Atsian Akak Asadeon Abana Achar Awangou "of the Wolf" "of the River" "of the Lake" "of the Thread"
+		Chebawk Iseteru Hranan Loutseku Obje Kanseru Wouwalra Westawoug Chelan Bewougacte
+		Pitstin Kisona Ahktan Aan Hano Opkim Gaganish Tekasun Htan Ochanir
+	}
+	lowborn = {
+	}
+}
+
+trovanic_language = {
+	color = language_trovanic
+	family = human_innea_language_family
+
+	male_names = {
+		Amadil Anaduil Arvethor Boron Anthar Antar Aranoth Malthor Farafin Branrod
+		Denelin Vorin Eradan Orthol Turhal Halbar Haelsin Drethir Thorhtar Malvelas
+	}
+	female_names = {
+		Gilaran Enas Iorwen Lothran Wendal Rowan Rethel Asain Pella Shouna
+	}
+	dynasty_names = {
+		Trov Pellis Pirain Feltan Atronos Kena Lasting Samor Dinim Elam
+		Sham Sholtan Tellan Fellas Fellus Perem Endic Vols Simus Ectas
+	}
+	lowborn = {
+	}
+}
+
+fyrvar_language = {
+	color = language_fyrvar
+	family = human_innea_language_family
+
+	male_names = {
+		Thrak Bokan Usgrim Thumrad Thradror Nurak Thagga Grolmum Kras Jorhag
+		Hemek Weradd Broun Nokran Tores Gradth Kirat Frekar Yanma Strota
+	}
+	female_names = {
+		Yundrae Whurhan Bosdrogi Nufama Tholga Kratmi Drithal Belynn Arfea Golrown
+	}
+	dynasty_names = {
+		Thal Kyf Kyr Modakk Karad Eyfji Fjakan Ofjul Jertu Yazj
+		Kanak Thas Shekar Kol Lonjearben Duin Elvekkar Nofras Scal Donbas
+	}
+	lowborn = {
+	}
+}
+
+altvarik_language = {
+	color = language_altvarik
+	family = human_innea_language_family
+
+	male_names = {
+		Chezan Ucaz Gagazrun Gekeche Chezoth Zaraweth Ikanichakz Mundakaz Krakal Dezan
+	}
+	female_names = {
+		Dezana Cheza Ucaza Gagazra Gekelna Zatha Uzchinm Maelnath Ucrith Chegachze
+	}
+	dynasty_names = {
+		Chez Zakrtidki Mirkazda Ngochana Durvas Ikenthgrad Uzuxel Ecatshk Xaxu Illrakashz
+	}
+	lowborn = {
+	}
+}
+
+aspic_language = {
+	color = language_aspic
+	family = human_innea_language_family
+
+	male_names = {
+		Vergus Lius Tathan Seneus Flan Lonkar Othen Brast Vithar Burtte
+		Amadon Ranoth Althor Afin Anron Rhal Barsin Thos Alven Rhon
+	}
+	female_names = {
+		Gilas Wenes Pela Owana Othra Dina Dian Arine Amacia Cia
+	}
+	dynasty_names = {
+		Rohan Dragonborn Niste Sente Dore Perel Bellard Selan Honard Gowin
+		Shees Telan Gameth Tondur Felad Winde Sondar Saugat Porter Keltig
+	}
+	lowborn = {
+	}
+}
+
+nurkic_language = {
+	color = language_nurkic
+	family = human_innea_language_family
+
+	male_names = {
+		Altinhan Kamil Ayso Erdan Enur Tug Totuk Samet Irfan Koray
+		Varba Ucelak Tedenir Dorkut Sabit Demli Sarias Necdet Ozug Talat
+	}
+	female_names = {
+		Asya Sefa Gun Oz Ilke Dilatka Ayal Sonat Nurcip Altke
+	}
+	dynasty_names = {
+		Hasam Dincan Kopal Petker Kashazi Karker Aktser Ordak Verdari Curuk
+		Raa Man Trayok Mersi Tardaruf Some Tanak Safral Urteppan Takay
+	}
+	lowborn = {
+	}
+}
+
+beghanic_language = {
+	color = language_beghanic
+	family = human_innea_language_family
+
+	male_names = {
+		Harih Raj Sharatha Pankchud Rushsat Priman Niraj Bisham Virktha Amodh
+		Bishwan Ragkram Sritodh Nurjit Paramshwar Aasang Jagdi Harid Dhohit Gangendra
+		Chittarish Chittanmod Ekanand Akaa Diwathiv Deenash Dhirmir Nishpraw Sajekar Bhishwa
+	}
+	female_names = {
+		Rami Presis Himachan Sulans Gunsha Chhadha Ranuka Ainura Dheeka Mari
+		Jaya Anjibne Kainsha Beetapa Kamale Shworin Shandaya Abina Swenee Kanksha
+	}
+	dynasty_names = {
+		Shilpak Mokthapit Susinh Gartas Path Batamji Rajkjha Sijapal Gurchap Vaishnung
+		Modhra Oju Chaudadhi Sevaki Shraj Kolachpa Limral Kashwa Kocharya Ragaw
+		Bagdi Lumi Chima Suduth Raut Ghodak Nagarjung Raphan Badakhi Bhumshan
+	}
+	lowborn = {
+	}
+}
+

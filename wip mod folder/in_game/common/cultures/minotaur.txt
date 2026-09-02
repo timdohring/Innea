@@ -1,0 +1,16 @@
+# Minotaur cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+tauros_culture = {
+	language = minotaur_language
+	color = culture_tauros
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		minotaur_group
+	}
+}
+

@@ -1,0 +1,76 @@
+# High Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+rhaur_culture = {
+	language = high_elf_language
+	color = culture_rhaur
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+
+aelean_culture = {
+	language = high_elf_language
+	color = culture_aelean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+
+duwaring_culture = {
+	language = high_elf_language
+	color = culture_duwaring
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+
+narinya_culture = {
+	language = high_elf_language
+	color = culture_narinya
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+
+senar_culture = {
+	language = high_elf_language
+	color = culture_senar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+
+lightborn_culture = {
+	language = high_elf_language
+	color = culture_lightborn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		high_elf_group
+	}
+}
+

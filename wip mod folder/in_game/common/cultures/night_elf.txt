@@ -1,0 +1,88 @@
+# Night Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+zeiy_culture = {
+	language = night_elf_language
+	color = culture_zeiy
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+nakti_culture = {
+	language = night_elf_language
+	color = culture_nakti
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+shurrean_culture = {
+	language = night_elf_language
+	color = culture_shurrean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+dinari_culture = {
+	language = night_elf_language
+	color = culture_dinari
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+shade_elf_culture = {
+	language = night_elf_language
+	color = culture_shade_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+lorcean_culture = {
+	language = night_elf_language
+	color = culture_lorcean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+
+shkar_culture = {
+	language = night_elf_language
+	color = culture_shkar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		night_elf_group
+	}
+}
+

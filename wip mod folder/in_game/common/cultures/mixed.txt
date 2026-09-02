@@ -1,0 +1,28 @@
+# Mixed cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+slaver_culture = {
+	language = mixed_language
+	color = culture_slaver
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mixed_group
+	}
+}
+
+exiled_culture = {
+	language = mixed_language
+	color = culture_exiled
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mixed_group
+	}
+}
+

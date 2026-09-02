@@ -1,0 +1,16 @@
+# Dremk cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+dremoran_culture = {
+	language = dremk_language
+	color = culture_dremoran
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dremk_group
+	}
+}
+

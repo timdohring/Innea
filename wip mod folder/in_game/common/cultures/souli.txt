@@ -1,0 +1,64 @@
+# Souli cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ghas_culture = {
+	language = souli_language
+	color = culture_ghas
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		souli_group
+	}
+}
+
+mafouin_culture = {
+	language = souli_language
+	color = culture_mafouin
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		souli_group
+	}
+}
+
+eshari_culture = {
+	language = souli_language
+	color = culture_eshari
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		souli_group
+	}
+}
+
+yabran_culture = {
+	language = souli_language
+	color = culture_yabran
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		souli_group
+	}
+}
+
+gastal_culture = {
+	language = souli_language
+	color = culture_gastal
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		souli_group
+	}
+}
+

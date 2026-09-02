@@ -1,0 +1,88 @@
+# Wuerdic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+yearsend_culture = {
+	language = wuerdic_language
+	color = culture_yearsend
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+allar_culture = {
+	language = wuerdic_language
+	color = culture_allar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+ormian_culture = {
+	language = wuerdic_language
+	color = culture_ormian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+verric_culture = {
+	language = wuerdic_language
+	color = culture_verric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+moonish_culture = {
+	language = wuerdic_language
+	color = culture_moonish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+bernothic_culture = {
+	language = wuerdic_language
+	color = culture_bernothic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+
+wealder_culture = {
+	language = wuerdic_language
+	color = culture_wealder
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wuerdic_group
+	}
+}
+

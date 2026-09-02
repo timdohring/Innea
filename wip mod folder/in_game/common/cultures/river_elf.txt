@@ -1,0 +1,124 @@
+# River Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+devan_culture = {
+	language = river_elf_language
+	color = culture_devan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+cevan_culture = {
+	language = river_elf_language
+	color = culture_cevan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+sedurii_culture = {
+	language = river_elf_language
+	color = culture_sedurii
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+rivwu_culture = {
+	language = river_elf_language
+	color = culture_rivwu
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+silver_elf_culture = {
+	language = river_elf_language
+	color = culture_silver_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+isafaan_culture = {
+	language = river_elf_language
+	color = culture_isafaan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+avaric_culture = {
+	language = river_elf_language
+	color = culture_avaric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+upwater_elf_culture = {
+	language = river_elf_language
+	color = culture_upwater_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+viithi_culture = {
+	language = river_elf_language
+	color = culture_viithi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+
+liian_culture = {
+	language = river_elf_language
+	color = culture_liian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		river_elf_group
+	}
+}
+

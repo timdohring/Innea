@@ -1,0 +1,16 @@
+# Celtan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+gheltic_culture = {
+	language = celtan_language
+	color = culture_gheltic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		celtan_group
+	}
+}
+

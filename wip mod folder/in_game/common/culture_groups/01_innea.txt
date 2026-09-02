@@ -1,0 +1,231 @@
+# Innea culture groups - one per EU4 culture group.
+# Bodies are intentionally empty: only 1 of vanilla's 209 groups carries modifiers.
+
+varsk_group = {   # 12 cultures
+}
+
+anuiq_group = {   # 5 cultures
+}
+
+giant_group = {   # 2 cultures
+}
+
+saelic_group = {   # 5 cultures
+}
+
+ywekan_group = {   # 4 cultures
+}
+
+brilthic_group = {   # 7 cultures
+}
+
+highlander_group = {   # 5 cultures
+}
+
+achakk_group = {   # 5 cultures
+}
+
+wuerdic_group = {   # 7 cultures
+}
+
+high_elf_group = {   # 6 cultures
+}
+
+moltranic_group = {   # 6 cultures
+}
+
+pallan_group = {   # 9 cultures
+}
+
+taroquan_group = {   # 6 cultures
+}
+
+teltranic_group = {   # 15 cultures
+}
+
+river_elf_group = {   # 10 cultures
+}
+
+acryllian_group = {   # 16 cultures
+}
+
+celtan_group = {   # 1 cultures
+}
+
+minotaur_group = {   # 1 cultures
+}
+
+lenaric_group = {   # 12 cultures
+}
+
+ice_elf_group = {   # 5 cultures
+}
+
+dverik_group = {   # 13 cultures
+}
+
+kuzic_group = {   # 9 cultures
+}
+
+zgo_group = {   # 5 cultures
+}
+
+mdari_group = {   # 6 cultures
+}
+
+orkal_group = {   # 8 cultures
+}
+
+gorsic_group = {   # 7 cultures
+}
+
+dark_elf_group = {   # 12 cultures
+}
+
+fire_elf_group = {   # 4 cultures
+}
+
+sea_elf_group = {   # 10 cultures
+}
+
+lyzanian_group = {   # 15 cultures
+}
+
+tval_group = {   # 6 cultures
+}
+
+wood_elf_group = {   # 9 cultures
+}
+
+night_elf_group = {   # 7 cultures
+}
+
+katlamaki_group = {   # 3 cultures
+}
+
+ondedean_group = {   # 6 cultures
+}
+
+litawan_group = {   # 4 cultures
+}
+
+algonic_group = {   # 8 cultures
+}
+
+broken_men_group = {   # 8 cultures
+}
+
+trovanic_group = {   # 3 cultures
+}
+
+fyrvar_group = {   # 4 cultures
+}
+
+altvarik_group = {   # 1 cultures
+}
+
+aspic_group = {   # 5 cultures
+}
+
+nurkic_group = {   # 4 cultures
+}
+
+beghanic_group = {   # 5 cultures
+}
+
+armoccan_group = {   # 5 cultures
+}
+
+najric_group = {   # 6 cultures
+}
+
+souli_group = {   # 5 cultures
+}
+
+bahdak_group = {   # 5 cultures
+}
+
+tifhrean_group = {   # 5 cultures
+}
+
+qasinic_group = {   # 5 cultures
+}
+
+capic_group = {   # 9 cultures
+}
+
+lost_group = {   # 1 cultures
+}
+
+majuki_group = {   # 17 cultures
+}
+
+blue_elf_group = {   # 3 cultures
+}
+
+avalic_group = {   # 3 cultures
+}
+
+handaan_group = {   # 8 cultures
+}
+
+niir_group = {   # 5 cultures
+}
+
+dremk_group = {   # 1 cultures
+}
+
+sabalic_group = {   # 3 cultures
+}
+
+anhyan_group = {   # 9 cultures
+}
+
+amuric_group = {   # 7 cultures
+}
+
+bashkalic_group = {   # 4 cultures
+}
+
+mixed_group = {   # 2 cultures
+}
+
+zekranic_group = {   # 4 cultures
+}
+
+ywq_group = {   # 1 cultures
+}
+
+kaddian_group = {   # 6 cultures
+}
+
+lost_elf_group = {   # 1 cultures
+}
+
+wood_dwarf_group = {   # 1 cultures
+}
+
+wood_orc_group = {   # 3 cultures
+}
+
+layanic_group = {   # 14 cultures
+}
+
+erazi_group = {   # 5 cultures
+}
+
+snow_majuki_group = {   # 7 cultures
+}
+
+konkonu_group = {   # 1 cultures
+}
+
+onu_group = {   # 5 cultures
+}
+
+zholin_group = {   # 11 cultures
+}
+
+goeguye_group = {   # 3 cultures
+}
+

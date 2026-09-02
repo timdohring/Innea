@@ -1,0 +1,52 @@
+# Ywekan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+dhoilbridic_culture = {
+	language = ywekan_language
+	color = culture_dhoilbridic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ywekan_group
+	}
+}
+
+cahster_culture = {
+	language = ywekan_language
+	color = culture_cahster
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ywekan_group
+	}
+}
+
+laghan_culture = {
+	language = ywekan_language
+	color = culture_laghan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ywekan_group
+	}
+}
+
+bottian_culture = {
+	language = ywekan_language
+	color = culture_bottian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ywekan_group
+	}
+}
+

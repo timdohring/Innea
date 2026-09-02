@@ -1,0 +1,64 @@
+# Niir cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+balbagean_culture = {
+	language = niir_language
+	color = culture_balbagean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		niir_group
+	}
+}
+
+quiweeran_culture = {
+	language = niir_language
+	color = culture_quiweeran
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		niir_group
+	}
+}
+
+gabbas_culture = {
+	language = niir_language
+	color = culture_gabbas
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		niir_group
+	}
+}
+
+elano_culture = {
+	language = niir_language
+	color = culture_elano
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		niir_group
+	}
+}
+
+goondjean_culture = {
+	language = niir_language
+	color = culture_goondjean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		niir_group
+	}
+}
+

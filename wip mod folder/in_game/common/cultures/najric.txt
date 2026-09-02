@@ -1,0 +1,76 @@
+# Najric cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+yazidi_culture = {
+	language = najric_language
+	color = culture_yazidi
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+
+basjahn_culture = {
+	language = najric_language
+	color = culture_basjahn
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+
+jhistan_culture = {
+	language = najric_language
+	color = culture_jhistan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+
+west_najean_culture = {
+	language = najric_language
+	color = culture_west_najean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+
+east_najean_culture = {
+	language = najric_language
+	color = culture_east_najean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+
+hestic_culture = {
+	language = najric_language
+	color = culture_hestic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		najric_group
+	}
+}
+

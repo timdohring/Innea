@@ -1,0 +1,52 @@
+# Zekranic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+wasut_culture = {
+	language = zekranic_language
+	color = culture_wasut
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zekranic_group
+	}
+}
+
+khimut_culture = {
+	language = zekranic_language
+	color = culture_khimut
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zekranic_group
+	}
+}
+
+thebian_culture = {
+	language = zekranic_language
+	color = culture_thebian
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zekranic_group
+	}
+}
+
+rametic_culture = {
+	language = zekranic_language
+	color = culture_rametic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zekranic_group
+	}
+}
+

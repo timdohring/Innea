@@ -1,0 +1,16 @@
+# Wood Dwarf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+torvarik_culture = {
+	language = wood_dwarf_language
+	color = culture_torvarik
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_dwarf_group
+	}
+}
+

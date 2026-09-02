@@ -1,0 +1,64 @@
+# Ice Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+paldic_culture = {
+	language = ice_elf_language
+	color = culture_paldic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ice_elf_group
+	}
+}
+
+sellic_culture = {
+	language = ice_elf_language
+	color = culture_sellic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ice_elf_group
+	}
+}
+
+perric_culture = {
+	language = ice_elf_language
+	color = culture_perric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ice_elf_group
+	}
+}
+
+tosshan_culture = {
+	language = ice_elf_language
+	color = culture_tosshan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ice_elf_group
+	}
+}
+
+frozen_elf_culture = {
+	language = ice_elf_language
+	color = culture_frozen_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ice_elf_group
+	}
+}
+

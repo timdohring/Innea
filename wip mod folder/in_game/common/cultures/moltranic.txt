@@ -1,0 +1,76 @@
+# Moltranic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+moltrese_culture = {
+	language = moltranic_language
+	color = culture_moltrese
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+
+nordic_culture = {
+	language = moltranic_language
+	color = culture_nordic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+
+angmish_culture = {
+	language = moltranic_language
+	color = culture_angmish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+
+rossing_culture = {
+	language = moltranic_language
+	color = culture_rossing
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+
+riverlandish_culture = {
+	language = moltranic_language
+	color = culture_riverlandish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+
+aldon_culture = {
+	language = moltranic_language
+	color = culture_aldon
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		moltranic_group
+	}
+}
+

@@ -144,7 +144,18 @@ Delete a file to fall back to vanilla's version.
    `history/provinces/` (its keys are already snake_case and match the ported names — a better source than
    `location_info.csv` labels). The 212 still on `catholic` are Perlea/Menea/Vulthark, three continents
    that were **never authored in the EU4 mod** — see `TODO.md` §7. `culture` there is still the `swedish`
-   placeholder, blocked on porting cultures.
+   placeholder... superseded, see below.
+
+   **Progress — cultures are ported and wired (2026-09-02, untested):** 466 cultures, 76 culture groups,
+   76 languages, 8 language families, 550 colour tokens, from the EU4 mod's
+   `common/cultures/innea_cultures.txt`. EU4 keeps name lists on the culture *group*, EU5 on the
+   *language* — so each EU4 group became one language plus one culture group, and each EU4 culture an EU5
+   culture pointing at it. Families are hybrid: lineage (elvish/dwarven/orcish/other non-human) where EU4's
+   own group names imply one, geography otherwise. EU4 defines no culture colours, so all 466 were
+   generated (one hue band per group). `location_templates.txt` now carries real cultures on 4306 land
+   templates — **all 466 are placed**. `pamiri`/`uru` collided with vanilla and are prefixed `innea_`.
+   Note EU5 also supports dialects nested inside a language (`dialects = { }`); the first pass does not
+   use them — see `TODO.md` §3.
 
    **Additive, never overriding vanilla:** per the user's standing preference, ported content adds new
    Innea files alongside vanilla's rather than copying or emptying base-game files, so nothing goes stale

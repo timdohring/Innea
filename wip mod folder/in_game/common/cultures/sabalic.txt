@@ -1,0 +1,40 @@
+# Sabalic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+wong_culture = {
+	language = sabalic_language
+	color = culture_wong
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sabalic_group
+	}
+}
+
+krattan_culture = {
+	language = sabalic_language
+	color = culture_krattan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sabalic_group
+	}
+}
+
+hakaz_culture = {
+	language = sabalic_language
+	color = culture_hakaz
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sabalic_group
+	}
+}
+

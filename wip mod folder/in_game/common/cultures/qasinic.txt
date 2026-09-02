@@ -1,0 +1,64 @@
+# Qasinic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+atalar_culture = {
+	language = qasinic_language
+	color = culture_atalar
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		qasinic_group
+	}
+}
+
+hajjid_culture = {
+	language = qasinic_language
+	color = culture_hajjid
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		qasinic_group
+	}
+}
+
+najid_culture = {
+	language = qasinic_language
+	color = culture_najid
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		qasinic_group
+	}
+}
+
+qashite_culture = {
+	language = qasinic_language
+	color = culture_qashite
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		qasinic_group
+	}
+}
+
+dena_culture = {
+	language = qasinic_language
+	color = culture_dena
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		qasinic_group
+	}
+}
+

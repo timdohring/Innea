@@ -1,0 +1,64 @@
+# Beghanic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+bagda_culture = {
+	language = beghanic_language
+	color = culture_bagda
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		beghanic_group
+	}
+}
+
+suduri_culture = {
+	language = beghanic_language
+	color = culture_suduri
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		beghanic_group
+	}
+}
+
+chimar_culture = {
+	language = beghanic_language
+	color = culture_chimar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		beghanic_group
+	}
+}
+
+lumasi_culture = {
+	language = beghanic_language
+	color = culture_lumasi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		beghanic_group
+	}
+}
+
+rautak_culture = {
+	language = beghanic_language
+	color = culture_rautak
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		beghanic_group
+	}
+}
+

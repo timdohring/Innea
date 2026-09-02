@@ -1,0 +1,88 @@
+# Gorsic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+kashtian_culture = {
+	language = gorsic_language
+	color = culture_kashtian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+skhean_culture = {
+	language = gorsic_language
+	color = culture_skhean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+joma_culture = {
+	language = gorsic_language
+	color = culture_joma
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+shekhajian_culture = {
+	language = gorsic_language
+	color = culture_shekhajian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+imur_culture = {
+	language = gorsic_language
+	color = culture_imur
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+dark_goblin_culture = {
+	language = gorsic_language
+	color = culture_dark_goblin
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+
+qashar_culture = {
+	language = gorsic_language
+	color = culture_qashar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		gorsic_group
+	}
+}
+

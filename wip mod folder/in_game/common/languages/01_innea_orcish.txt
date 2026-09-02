@@ -1,0 +1,49 @@
+# Innea languages - family: orcish
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+orkal_language = {
+	color = language_orkal
+	family = orcish_language_family
+
+	male_names = {
+		Ogrob Ogri Bogan Gweneg Bograb Wlan Ldaon Kagar Waong Okh
+		Naragol Mugar Ulagob Pega Jonyam Vron Grulnaq Yaundthra Maugh Gralthug
+		Thanok Gladba Daganu Agrob Shenvet Kis Hruth El Ogop D
+		Winar Udulhra Bashang
+	}
+	female_names = {
+		Sgal Mugur Orluas Agrulla Yata Zushtal Edeab Gogal Boga Ldarik
+		Oshana Oshbir Udula Basha Drana Naragall Gwehega Hanash Kmosa Mistal
+	}
+	dynasty_names = {
+		Shmal klar La staw La klu Voss parssh Shmu dka
+		Maulad Omad Orad Ldad Djad Hashen Dgogen Grauling Taikar Orhonmid
+		Slavan Ordoan Sthavar Prs Shimbu Murtag Uzugul Khabur Durbg Rimguk
+		Guthral Uku Ghollog Bors Gortwag
+	}
+	lowborn = {
+	}
+}
+
+wood_orc_language = {
+	color = language_wood_orc
+	family = orcish_language_family
+
+	male_names = {
+		Juata Xascan Vutacin Tajo Charu Jui Astelo Yomi Pasco Jomi
+		Caya Waitun Potisu Komana Jerio Saikuqa Quana Quabi Astepo Tupal
+		Jain
+	}
+	female_names = {
+		Yinyas Vinyas Juas Jonlis Quabis Astepas Jainas Caes Komas Cayas
+	}
+	dynasty_names = {
+		Caimar Temeran Waiti Juac Kain Ayombi Jascal Atacin Yp Caebar
+		Vinya Juara Taratani Juriolo Kaijan Ataci Potika Uruba Taha Seito
+	}
+	lowborn = {
+	}
+}
+

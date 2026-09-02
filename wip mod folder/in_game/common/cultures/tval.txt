@@ -1,0 +1,76 @@
+# Tval cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+manafi_culture = {
+	language = tval_language
+	color = culture_manafi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+
+afarafi_culture = {
+	language = tval_language
+	color = culture_afarafi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+
+okyma_culture = {
+	language = tval_language
+	color = culture_okyma
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+
+lake_culture = {
+	language = tval_language
+	color = culture_lake
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+
+fiana_culture = {
+	language = tval_language
+	color = culture_fiana
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+
+mahan_culture = {
+	language = tval_language
+	color = culture_mahan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tval_group
+	}
+}
+

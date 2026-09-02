@@ -1,0 +1,709 @@
+# Innea culture / language / language-family colours.
+# Generated: one hue band per EU4 culture group, shades within it.
+# EU4 defines no culture colours, so these are new - safe to hand-tune.
+colors = {
+	# --- language families ---
+	language_family_dwarven                  = rgb { 184 113  83 }
+	language_family_elvish                   = rgb { 179 184  83 }
+	language_family_human_astrea             = rgb { 103 184  83 }
+	language_family_human_emea               = rgb {  83 184 138 }
+	language_family_human_innea              = rgb {  83 153 184 }
+	language_family_human_orea               = rgb {  88  83 184 }
+	language_family_orcish                   = rgb { 163  83 184 }
+	language_family_other_nonhuman           = rgb { 184  83 128 }
+
+	# --- varsk (12 cultures, family: human_innea) ---
+	language_varsk                           = rgb { 204  87  78 }
+	culture_haaken                            = rgb { 235 136 148 }
+	culture_azqu                              = rgb { 228 124 132 }
+	culture_nyvarsk                           = rgb { 221 112 117 }
+	culture_ryykan                            = rgb { 214 101 102 }
+	culture_falkish                           = rgb { 207  93  90 }
+	culture_grafen                            = rgb { 200  87  80 }
+	culture_bjorming                          = rgb { 193  82  70 }
+	culture_ykran                             = rgb { 186  77  61 }
+	culture_dargish                           = rgb { 179  73  52 }
+	culture_kynen                             = rgb { 172  70  43 }
+	culture_drevarsk                          = rgb { 165  67  36 }
+	culture_gildic                            = rgb { 158  64  28 }
+
+	# --- anuiq (5 cultures, family: human_innea) ---
+	language_anuiq                           = rgb { 204  97  78 }
+	culture_iqu                               = rgb { 235 144 136 }
+	culture_iil                               = rgb { 215 117 103 }
+	culture_ujuu                              = rgb { 196  94  75 }
+	culture_qunsut                            = rgb { 177  74  50 }
+	culture_aqlaug                            = rgb { 158  58  28 }
+
+	# --- giant (2 cultures, family: other_nonhuman) ---
+	language_giant                           = rgb { 204 107  78 }
+	culture_jogunin                           = rgb { 235 158 136 }
+	culture_panarak                           = rgb { 158  61  28 }
+
+	# --- saelic (5 cultures, family: human_innea) ---
+	language_saelic                          = rgb { 204 117  78 }
+	culture_selc                              = rgb { 235 160 136 }
+	culture_einish                            = rgb { 215 135 103 }
+	culture_slein                             = rgb { 196 113  75 }
+	culture_dunlandic                         = rgb { 177  94  50 }
+	culture_issoan                            = rgb { 158  79  28 }
+
+	# --- ywekan (4 cultures, family: human_innea) ---
+	language_ywekan                          = rgb { 204 127  78 }
+	culture_dhoilbridic                       = rgb { 235 170 136 }
+	culture_cahster                           = rgb { 209 137  93 }
+	culture_laghan                            = rgb { 184 109  58 }
+	culture_bottian                           = rgb { 158  87  28 }
+
+	# --- brilthic (7 cultures, family: human_innea) ---
+	language_brilthic                        = rgb { 204 137  78 }
+	culture_upper_brilthic                    = rgb { 235 172 136 }
+	culture_lower_brilthic                    = rgb { 222 157 114 }
+	culture_blakkan                           = rgb { 209 144  93 }
+	culture_orsh                              = rgb { 196 132  75 }
+	culture_soling                            = rgb { 184 122  58 }
+	culture_aven                              = rgb { 171 112  42 }
+	culture_graen                             = rgb { 158 104  28 }
+
+	# --- highlander (5 cultures, family: human_innea) ---
+	language_highlander                      = rgb { 204 147  78 }
+	culture_steplandic                        = rgb { 235 183 136 }
+	culture_donairdan                         = rgb { 215 161 103 }
+	culture_ruwwesk                           = rgb { 196 142  75 }
+	culture_crowfoot                          = rgb { 177 125  50 }
+	culture_two_mountmen                      = rgb { 158 109  28 }
+
+	# --- achakk (5 cultures, family: human_innea) ---
+	language_achakk                          = rgb { 204 157  78 }
+	culture_pjotrish                          = rgb { 235 191 136 }
+	culture_kevvan                            = rgb { 215 170 103 }
+	culture_tvaric                            = rgb { 196 151  75 }
+	culture_darkwoodsmen                      = rgb { 177 135  50 }
+	culture_nievan                            = rgb { 158 120  28 }
+
+	# --- wuerdic (7 cultures, family: human_innea) ---
+	language_wuerdic                         = rgb { 204 167  78 }
+	culture_yearsend                          = rgb { 235 195 136 }
+	culture_allar                             = rgb { 222 183 114 }
+	culture_ormian                            = rgb { 209 171  93 }
+	culture_verric                            = rgb { 196 161  75 }
+	culture_moonish                           = rgb { 184 152  58 }
+	culture_bernothic                         = rgb { 171 143  42 }
+	culture_wealder                           = rgb { 158 134  28 }
+
+	# --- high_elf (6 cultures, family: elvish) ---
+	language_high_elf                        = rgb { 204 177  78 }
+	culture_rhaur                             = rgb { 235 205 136 }
+	culture_aelean                            = rgb { 219 190 110 }
+	culture_duwaring                          = rgb { 204 177  86 }
+	culture_narinya                           = rgb { 189 165  64 }
+	culture_senar                             = rgb { 173 153  45 }
+	culture_lightborn                         = rgb { 158 142  28 }
+
+	# --- moltranic (6 cultures, family: human_innea) ---
+	language_moltranic                       = rgb { 204 187  78 }
+	culture_moltrese                          = rgb { 235 213 136 }
+	culture_nordic                            = rgb { 219 199 110 }
+	culture_angmish                           = rgb { 204 186  86 }
+	culture_rossing                           = rgb { 189 174  64 }
+	culture_riverlandish                      = rgb { 173 163  45 }
+	culture_aldon                             = rgb { 158 153  28 }
+
+	# --- pallan (9 cultures, family: human_innea) ---
+	language_pallan                          = rgb { 204 197  78 }
+	culture_lockan                            = rgb { 235 215 136 }
+	culture_freestatesmen                     = rgb { 225 208 119 }
+	culture_brongian                          = rgb { 215 201 103 }
+	culture_wreckan                           = rgb { 206 195  89 }
+	culture_shazan                            = rgb { 196 190  75 }
+	culture_southcoaster                      = rgb { 187 185  62 }
+	culture_northcoaster                      = rgb { 175 177  50 }
+	culture_graylen                           = rgb { 161 168  39 }
+	culture_whetic                            = rgb { 146 158  28 }
+
+	# --- taroquan (6 cultures, family: human_innea) ---
+	language_taroquan                        = rgb { 201 204  78 }
+	culture_arvacien                          = rgb { 235 228 136 }
+	culture_naarn                             = rgb { 219 216 110 }
+	culture_viellon                           = rgb { 203 204  86 }
+	culture_tevarroix                         = rgb { 183 189  64 }
+	culture_edessian                          = rgb { 163 173  45 }
+	culture_laquis                            = rgb { 143 158  28 }
+
+	# --- teltranic (15 cultures, family: human_innea) ---
+	language_teltranic                       = rgb { 191 204  78 }
+	culture_murrian                           = rgb { 235 220 136 }
+	culture_rhydic                            = rgb { 229 218 126 }
+	culture_derzian                           = rgb { 224 216 117 }
+	culture_glenish                           = rgb { 218 214 108 }
+	culture_nardic                            = rgb { 213 212  99 }
+	culture_west_bergian                      = rgb { 204 207  91 }
+	culture_east_bergian                      = rgb { 194 202  82 }
+	culture_dalsch                            = rgb { 184 196  75 }
+	culture_kronnish                          = rgb { 174 191  67 }
+	culture_forren                            = rgb { 163 185  60 }
+	culture_upper_sternian                    = rgb { 153 180  53 }
+	culture_lower_sternian                    = rgb { 143 174  46 }
+	culture_wayn                              = rgb { 132 169  40 }
+	culture_reuth                             = rgb { 122 164  34 }
+	culture_snyd                              = rgb { 112 158  28 }
+
+	# --- river_elf (10 cultures, family: elvish) ---
+	language_river_elf                       = rgb { 181 204  78 }
+	culture_devan                             = rgb { 233 235 136 }
+	culture_cevan                             = rgb { 220 226 121 }
+	culture_sedurii                           = rgb { 207 218 107 }
+	culture_rivwu                             = rgb { 194 209  93 }
+	culture_silver_elf                        = rgb { 181 201  81 }
+	culture_isafaan                           = rgb { 167 192  69 }
+	culture_avaric                            = rgb { 154 184  58 }
+	culture_upwater_elf                       = rgb { 140 175  47 }
+	culture_viithi                            = rgb { 127 167  37 }
+	culture_liian                             = rgb { 113 158  28 }
+
+	# --- acryllian (16 cultures, family: human_innea) ---
+	language_acryllian                       = rgb { 171 204  78 }
+	culture_vindese                           = rgb { 235 234 136 }
+	culture_phracian                          = rgb { 227 230 127 }
+	culture_mylith                            = rgb { 218 224 118 }
+	culture_goldtrader                        = rgb { 208 219 110 }
+	culture_rettar                            = rgb { 199 214 101 }
+	culture_axian                             = rgb { 189 209  93 }
+	culture_remaa                             = rgb { 179 204  86 }
+	culture_lys_reman                         = rgb { 169 199  78 }
+	culture_villacian                         = rgb { 159 194  71 }
+	culture_tarrad                            = rgb { 149 189  64 }
+	culture_ventrian                          = rgb { 139 184  58 }
+	culture_corrusean                         = rgb { 129 179  51 }
+	culture_kagnol                            = rgb { 119 173  45 }
+	culture_othan                             = rgb { 109 168  39 }
+	culture_veran                             = rgb {  99 163  34 }
+	culture_padese                            = rgb {  89 158  28 }
+
+	# --- celtan (1 cultures, family: human_innea) ---
+	language_celtan                          = rgb { 161 204  78 }
+	culture_gheltic                           = rgb { 166 209  84 }
+
+	# --- minotaur (1 cultures, family: other_nonhuman) ---
+	language_minotaur                        = rgb { 151 204  78 }
+	culture_tauros                            = rgb { 156 209  84 }
+
+	# --- lenaric (12 cultures, family: human_innea) ---
+	language_lenaric                         = rgb { 141 204  78 }
+	culture_north_maetian                     = rgb { 205 235 136 }
+	culture_south_maetian                     = rgb { 193 228 124 }
+	culture_dianean                           = rgb { 180 221 112 }
+	culture_briiyan                           = rgb { 167 214 101 }
+	culture_mothmen                           = rgb { 155 207  90 }
+	culture_cothonian                         = rgb { 142 200  80 }
+	culture_alletanian                        = rgb { 129 193  70 }
+	culture_thornic                           = rgb { 117 186  61 }
+	culture_sascilian                         = rgb { 104 179  52 }
+	culture_thelan                            = rgb {  92 172  43 }
+	culture_narcetian                         = rgb {  80 165  36 }
+	culture_lenathii                          = rgb {  68 158  28 }
+
+	# --- ice_elf (5 cultures, family: elvish) ---
+	language_ice_elf                         = rgb { 131 204  78 }
+	culture_paldic                            = rgb { 185 235 136 }
+	culture_sellic                            = rgb { 155 215 103 }
+	culture_perric                            = rgb { 126 196  75 }
+	culture_tosshan                           = rgb {  99 177  50 }
+	culture_frozen_elf                        = rgb {  74 158  28 }
+
+	# --- dverik (13 cultures, family: dwarven) ---
+	language_dverik                          = rgb { 121 204  78 }
+	culture_yothr                             = rgb { 191 235 136 }
+	culture_grend                             = rgb { 179 228 125 }
+	culture_boern                             = rgb { 166 222 114 }
+	culture_rekar                             = rgb { 154 215 103 }
+	culture_minathi                           = rgb { 141 209  93 }
+	culture_winter_dwarf                      = rgb { 129 203  84 }
+	culture_grey_dwarf                        = rgb { 116 196  75 }
+	culture_athr                              = rgb { 104 190  66 }
+	culture_jute                              = rgb {  92 184  58 }
+	culture_kvin                              = rgb {  80 177  50 }
+	culture_kaar                              = rgb {  68 171  42 }
+	culture_drebyr                            = rgb {  56 164  35 }
+	culture_reindur                           = rgb {  45 158  28 }
+
+	# --- kuzic (9 cultures, family: human_innea) ---
+	language_kuzic                           = rgb { 111 204  78 }
+	culture_vehkan                            = rgb { 176 235 136 }
+	culture_black_orc                         = rgb { 159 225 119 }
+	culture_iron_orc                          = rgb { 141 215 103 }
+	culture_jarai                             = rgb { 124 206  89 }
+	culture_golkhar                           = rgb { 107 196  75 }
+	culture_skavith                           = rgb {  90 187  62 }
+	culture_qichond                           = rgb {  74 177  50 }
+	culture_ashkazi                           = rgb {  59 168  39 }
+	culture_tulsuq                            = rgb {  44 158  28 }
+
+	# --- zgo (5 cultures, family: human_innea) ---
+	language_zgo                             = rgb { 101 204  78 }
+	culture_ngona                             = rgb { 161 235 136 }
+	culture_mazdi                             = rgb { 128 215 103 }
+	culture_akage                             = rgb {  97 196  75 }
+	culture_zabwe                             = rgb {  69 177  50 }
+	culture_ronar                             = rgb {  43 158  28 }
+
+	# --- mdari (6 cultures, family: human_innea) ---
+	language_mdari                           = rgb {  91 204  78 }
+	culture_treddan                           = rgb { 155 235 136 }
+	culture_shieldhand_orc                    = rgb { 127 219 110 }
+	culture_white_orc                         = rgb { 100 204  86 }
+	culture_kashak                            = rgb {  75 189  64 }
+	culture_gangyz                            = rgb {  52 173  45 }
+	culture_uyguz                             = rgb {  31 158  28 }
+
+	# --- orkal (8 cultures, family: orcish) ---
+	language_orkal                           = rgb {  81 204  78 }
+	culture_omagan                            = rgb { 151 235 136 }
+	culture_wla                               = rgb { 129 224 117 }
+	culture_lda                               = rgb { 108 213  99 }
+	culture_stone_orc                         = rgb {  88 202  82 }
+	culture_anvan                             = rgb {  68 191  67 }
+	culture_or                                = rgb {  53 180  56 }
+	culture_stahvic                           = rgb {  40 169  48 }
+	culture_ogol                              = rgb {  28 158  41 }
+
+	# --- gorsic (7 cultures, family: human_innea) ---
+	language_gorsic                          = rgb {  78 204  84 }
+	culture_kashtian                          = rgb { 142 235 136 }
+	culture_skhean                            = rgb { 116 222 114 }
+	culture_joma                              = rgb {  93 209  95 }
+	culture_shekhajian                        = rgb {  75 196  81 }
+	culture_imur                              = rgb {  58 184  69 }
+	culture_dark_goblin                       = rgb {  42 171  58 }
+	culture_qashar                            = rgb {  28 158  49 }
+
+	# --- dark_elf (12 cultures, family: elvish) ---
+	language_dark_elf                        = rgb {  78 204  94 }
+	culture_ashlati                           = rgb { 143 235 136 }
+	culture_indrysian                         = rgb { 127 228 124 }
+	culture_saith                             = rgb { 112 221 112 }
+	culture_telic                             = rgb { 101 214 105 }
+	culture_wastelander                       = rgb {  90 207  99 }
+	culture_varal                             = rgb {  80 200  93 }
+	culture_duskborn                          = rgb {  70 193  88 }
+	culture_deadlander                        = rgb {  61 186  84 }
+	culture_myric                             = rgb {  52 179  80 }
+	culture_lucien                            = rgb {  43 172  76 }
+	culture_naavan                            = rgb {  36 165  74 }
+	culture_trithe                            = rgb {  28 158  71 }
+
+	# --- fire_elf (4 cultures, family: elvish) ---
+	language_fire_elf                        = rgb {  78 204 104 }
+	culture_arar                              = rgb { 136 235 151 }
+	culture_lovashi                           = rgb {  93 209 116 }
+	culture_vardesian                         = rgb {  58 184  86 }
+	culture_dzynic                            = rgb {  28 158  63 }
+
+	# --- sea_elf (10 cultures, family: elvish) ---
+	language_sea_elf                         = rgb {  78 204 114 }
+	culture_anowic                            = rgb { 136 235 149 }
+	culture_aethian                           = rgb { 121 226 138 }
+	culture_siric                             = rgb { 107 218 129 }
+	culture_dothic                            = rgb {  93 209 121 }
+	culture_uldan                             = rgb {  81 201 113 }
+	culture_runic                             = rgb {  69 192 107 }
+	culture_rifter                            = rgb {  58 184 101 }
+	culture_teyan                             = rgb {  47 175  96 }
+	culture_silavian                          = rgb {  37 167  91 }
+	culture_gildan                            = rgb {  28 158  87 }
+
+	# --- lyzanian (15 cultures, family: human_innea) ---
+	language_lyzanian                        = rgb {  78 204 124 }
+	culture_saj                               = rgb { 136 235 147 }
+	culture_kai_jek                           = rgb { 126 229 142 }
+	culture_zondic                            = rgb { 117 224 137 }
+	culture_suldan                            = rgb { 108 218 133 }
+	culture_jetal                             = rgb {  99 213 129 }
+	culture_mokta                             = rgb {  91 207 125 }
+	culture_rohgii                            = rgb {  82 202 122 }
+	culture_deja_tafi                         = rgb {  75 196 119 }
+	culture_koru                              = rgb {  67 191 117 }
+	culture_syltic                            = rgb {  60 185 115 }
+	culture_flamehatched                      = rgb {  53 180 113 }
+	culture_gazari                            = rgb {  46 174 112 }
+	culture_mistborn                          = rgb {  40 169 111 }
+	culture_dongan                            = rgb {  34 164 110 }
+	culture_northlander                       = rgb {  28 158 109 }
+
+	# --- tval (6 cultures, family: human_innea) ---
+	language_tval                            = rgb {  78 204 134 }
+	culture_manafi                            = rgb { 136 235 171 }
+	culture_afarafi                           = rgb { 110 219 153 }
+	culture_okyma                             = rgb {  86 204 136 }
+	culture_lake                              = rgb {  64 189 122 }
+	culture_fiana                             = rgb {  45 173 109 }
+	culture_mahan                             = rgb {  28 158  98 }
+
+	# --- wood_elf (9 cultures, family: elvish) ---
+	language_wood_elf                        = rgb {  78 204 144 }
+	culture_oldwood_elf                       = rgb { 136 235 174 }
+	culture_ulfin                             = rgb { 119 225 163 }
+	culture_astaen                            = rgb { 103 215 154 }
+	culture_elmenar                           = rgb {  89 206 146 }
+	culture_boek                              = rgb {  75 196 139 }
+	culture_tewar                             = rgb {  62 187 132 }
+	culture_weyk                              = rgb {  50 177 126 }
+	culture_falar                             = rgb {  39 168 120 }
+	culture_riverwood_elf                     = rgb {  28 158 115 }
+
+	# --- night_elf (7 cultures, family: elvish) ---
+	language_night_elf                       = rgb {  78 204 154 }
+	culture_zeiy                              = rgb { 136 235 185 }
+	culture_nakti                             = rgb { 114 222 171 }
+	culture_shurrean                          = rgb {  93 209 159 }
+	culture_dinari                            = rgb {  75 196 148 }
+	culture_shade_elf                         = rgb {  58 184 138 }
+	culture_lorcean                           = rgb {  42 171 129 }
+	culture_shkar                             = rgb {  28 158 121 }
+
+	# --- katlamaki (3 cultures, family: human_innea) ---
+	language_katlamaki                       = rgb {  78 204 164 }
+	culture_falconic                          = rgb { 136 235 200 }
+	culture_awk                               = rgb {  75 196 158 }
+	culture_katlic                            = rgb {  28 158 122 }
+
+	# --- ondedean (6 cultures, family: human_innea) ---
+	language_ondedean                        = rgb {  78 204 174 }
+	culture_kanatagu                          = rgb { 136 235 202 }
+	culture_sgawe                             = rgb { 110 219 187 }
+	culture_ononda                            = rgb {  86 204 174 }
+	culture_ashlandic                         = rgb {  64 189 161 }
+	culture_tene                              = rgb {  45 173 150 }
+	culture_degani                            = rgb {  28 158 139 }
+
+	# --- litawan (4 cultures, family: human_innea) ---
+	language_litawan                         = rgb {  78 204 184 }
+	culture_anandogaweni                      = rgb { 136 235 214 }
+	culture_peswan                            = rgb {  93 209 189 }
+	culture_sipichaw                          = rgb {  58 184 166 }
+	culture_stahy                             = rgb {  28 158 145 }
+
+	# --- algonic (8 cultures, family: human_innea) ---
+	language_algonic                         = rgb {  78 204 194 }
+	culture_laketrader                        = rgb { 136 235 214 }
+	culture_sadeonqua                         = rgb { 117 224 206 }
+	culture_kako                              = rgb {  99 213 198 }
+	culture_atobanaki                         = rgb {  82 202 190 }
+	culture_tsiani                            = rgb {  67 191 183 }
+	culture_wangouwean                        = rgb {  53 180 177 }
+	culture_ocha                              = rgb {  40 168 169 }
+	culture_riverman                          = rgb {  28 152 158 }
+
+	# --- broken_men (8 cultures, family: other_nonhuman) ---
+	language_broken_men                      = rgb {  78 204 204 }
+	culture_styric                            = rgb { 136 235 222 }
+	culture_black_islander                    = rgb { 117 224 214 }
+	culture_yoshi                             = rgb {  99 213 206 }
+	culture_fjordic                           = rgb {  82 202 200 }
+	culture_vexed                             = rgb {  67 189 191 }
+	culture_fingerling                        = rgb {  53 173 180 }
+	culture_nightlandic                       = rgb {  40 158 169 }
+	culture_atlic                             = rgb {  28 142 158 }
+
+	# --- trovanic (3 cultures, family: human_innea) ---
+	language_trovanic                        = rgb {  78 194 204 }
+	culture_trovan                            = rgb { 136 230 235 }
+	culture_pirean                            = rgb {  75 187 196 }
+	culture_pellic                            = rgb {  28 143 158 }
+
+	# --- fyrvar (4 cultures, family: human_innea) ---
+	language_fyrvar                          = rgb {  78 184 204 }
+	culture_modan                             = rgb { 136 224 235 }
+	culture_kyfan                             = rgb {  93 193 209 }
+	culture_karadan                           = rgb {  58 162 184 }
+	culture_thalan                            = rgb {  28 131 158 }
+
+	# --- altvarik (1 cultures, family: human_innea) ---
+	language_altvarik                        = rgb {  78 174 204 }
+	culture_chezan                            = rgb {  84 180 209 }
+
+	# --- aspic (5 cultures, family: human_innea) ---
+	language_aspic                           = rgb {  78 164 204 }
+	culture_rohelin                           = rgb { 136 211 235 }
+	culture_dragonborn                        = rgb { 103 184 215 }
+	culture_sentic                            = rgb {  75 158 196 }
+	culture_nisten                            = rgb {  50 132 177 }
+	culture_dorean                            = rgb {  28 108 158 }
+
+	# --- nurkic (4 cultures, family: human_innea) ---
+	language_nurkic                          = rgb {  78 154 204 }
+	culture_trayish                           = rgb { 136 201 235 }
+	culture_mersic                            = rgb {  93 166 209 }
+	culture_raalic                            = rgb {  58 132 184 }
+	culture_mantic                            = rgb {  28 100 158 }
+
+	# --- beghanic (5 cultures, family: human_innea) ---
+	language_beghanic                        = rgb {  78 144 204 }
+	culture_bagda                             = rgb { 136 195 235 }
+	culture_suduri                            = rgb { 103 167 215 }
+	culture_chimar                            = rgb {  75 139 196 }
+	culture_lumasi                            = rgb {  50 112 177 }
+	culture_rautak                            = rgb {  28  87 158 }
+
+	# --- armoccan (5 cultures, family: human_astrea) ---
+	language_armoccan                        = rgb {  78 134 204 }
+	culture_key_islander                      = rgb { 136 187 235 }
+	culture_chidal                            = rgb { 103 158 215 }
+	culture_sahkan                            = rgb {  75 129 196 }
+	culture_kesh                              = rgb {  50 102 177 }
+	culture_omiri                             = rgb {  28  77 158 }
+
+	# --- najric (6 cultures, family: human_astrea) ---
+	language_najric                          = rgb {  78 124 204 }
+	culture_yazidi                            = rgb { 136 181 235 }
+	culture_basjahn                           = rgb { 110 156 219 }
+	culture_jhistan                           = rgb {  86 132 204 }
+	culture_west_najean                       = rgb {  64 108 189 }
+	culture_east_najean                       = rgb {  45  86 173 }
+	culture_hestic                            = rgb {  28  65 158 }
+
+	# --- souli (5 cultures, family: human_astrea) ---
+	language_souli                           = rgb {  78 114 204 }
+	culture_ghas                              = rgb { 136 172 235 }
+	culture_mafouin                           = rgb { 103 140 215 }
+	culture_eshari                            = rgb {  75 110 196 }
+	culture_yabran                            = rgb {  50  82 177 }
+	culture_gastal                            = rgb {  28  57 158 }
+
+	# --- bahdak (5 cultures, family: human_astrea) ---
+	language_bahdak                          = rgb {  78 104 204 }
+	culture_keswic                            = rgb { 136 164 235 }
+	culture_misral                            = rgb { 103 131 215 }
+	culture_jidai                             = rgb {  75 100 196 }
+	culture_karu                              = rgb {  50  72 177 }
+	culture_akkad                             = rgb {  28  47 158 }
+
+	# --- tifhrean (5 cultures, family: human_astrea) ---
+	language_tifhrean                        = rgb {  78  94 204 }
+	culture_mahran                            = rgb { 136 156 235 }
+	culture_qalari                            = rgb { 103 122 215 }
+	culture_ruhnic                            = rgb {  75  91 196 }
+	culture_delean                            = rgb {  50  62 177 }
+	culture_tenegolic                         = rgb {  28  36 158 }
+
+	# --- qasinic (5 cultures, family: human_astrea) ---
+	language_qasinic                         = rgb {  78  84 204 }
+	culture_atalar                            = rgb { 136 148 235 }
+	culture_hajjid                            = rgb { 103 113 215 }
+	culture_najid                             = rgb {  75  81 196 }
+	culture_qashite                           = rgb {  50  52 177 }
+	culture_dena                              = rgb {  31  28 158 }
+
+	# --- capic (9 cultures, family: human_astrea) ---
+	language_capic                           = rgb {  81  78 204 }
+	culture_hranan                            = rgb { 136 148 235 }
+	culture_dinali                            = rgb { 119 128 225 }
+	culture_walan                             = rgb { 103 109 215 }
+	culture_karian                            = rgb {  89  90 206 }
+	culture_pandu                             = rgb {  78  75 196 }
+	culture_waduli                            = rgb {  69  62 187 }
+	culture_lissean                           = rgb {  62  50 177 }
+	culture_akavan                            = rgb {  56  39 168 }
+	culture_cayyan                            = rgb {  50  28 158 }
+
+	# --- lost (1 cultures, family: other_nonhuman) ---
+	language_lost                            = rgb {  91  78 204 }
+	culture_sahridan                          = rgb {  97  84 209 }
+
+	# --- majuki (17 cultures, family: human_astrea) ---
+	language_majuki                          = rgb { 101  78 204 }
+	culture_zamenic                           = rgb { 136 146 235 }
+	culture_kaji                              = rgb { 128 135 230 }
+	culture_maju                              = rgb { 119 123 225 }
+	culture_choli                             = rgb { 112 111 220 }
+	culture_charan                            = rgb { 108 103 215 }
+	culture_pardho                            = rgb { 105  96 211 }
+	culture_bengahri                          = rgb { 102  89 206 }
+	culture_dune_dweller                      = rgb {  99  81 201 }
+	culture_assarese                          = rgb {  97  75 196 }
+	culture_kerri                             = rgb {  95  68 192 }
+	culture_punghali                          = rgb {  94  62 187 }
+	culture_lojani                            = rgb {  92  56 182 }
+	culture_pajshru                           = rgb {  91  50 177 }
+	culture_pamiri                            = rgb {  91  44 172 }
+	culture_gohair                            = rgb {  90  39 168 }
+	culture_taloch                            = rgb {  90  33 163 }
+	culture_ahjut                             = rgb {  90  28 158 }
+
+	# --- blue_elf (3 cultures, family: elvish) ---
+	language_blue_elf                        = rgb { 111  78 204 }
+	culture_akoloan                           = rgb { 158 136 235 }
+	culture_fateonan                          = rgb { 107  75 196 }
+	culture_manan                             = rgb {  67  28 158 }
+
+	# --- avalic (3 cultures, family: human_astrea) ---
+	language_avalic                          = rgb { 121  78 204 }
+	culture_ikathian                          = rgb { 166 136 235 }
+	culture_celayphean                        = rgb { 116  75 196 }
+	culture_avalean                           = rgb {  77  28 158 }
+
+	# --- handaan (8 cultures, family: human_astrea) ---
+	language_handaan                         = rgb { 131  78 204 }
+	culture_druhn                             = rgb { 165 136 235 }
+	culture_churat                            = rgb { 152 117 224 }
+	culture_oht                               = rgb { 141  99 213 }
+	culture_khat                              = rgb { 130  82 202 }
+	culture_lheyn                             = rgb { 121  67 191 }
+	culture_khal                              = rgb { 113  53 180 }
+	culture_grey_islander                     = rgb { 106  40 169 }
+	culture_lhemar                            = rgb {  99  28 158 }
+
+	# --- niir (5 cultures, family: human_astrea) ---
+	language_niir                            = rgb { 141  78 204 }
+	culture_balbagean                         = rgb { 178 136 235 }
+	culture_quiweeran                         = rgb { 155 103 215 }
+	culture_gabbas                            = rgb { 135  75 196 }
+	culture_elano                             = rgb { 118  50 177 }
+	culture_goondjean                         = rgb { 102  28 158 }
+
+	# --- dremk (1 cultures, family: human_astrea) ---
+	language_dremk                           = rgb { 151  78 204 }
+	culture_dremoran                          = rgb { 156  84 209 }
+
+	# --- sabalic (3 cultures, family: human_astrea) ---
+	language_sabalic                         = rgb { 161  78 204 }
+	culture_wong                              = rgb { 197 136 235 }
+	culture_krattan                           = rgb { 155  75 196 }
+	culture_hakaz                             = rgb { 118  28 158 }
+
+	# --- anhyan (9 cultures, family: human_astrea) ---
+	language_anhyan                          = rgb { 171  78 204 }
+	culture_barahin                           = rgb { 194 136 235 }
+	culture_rhaangoli                         = rgb { 186 119 225 }
+	culture_tersian                           = rgb { 178 103 215 }
+	culture_sari                              = rgb { 171  89 206 }
+	culture_azandari                          = rgb { 164  75 196 }
+	culture_isoli                             = rgb { 158  62 187 }
+	culture_ferhan                            = rgb { 153  50 177 }
+	culture_mosani                            = rgb { 148  39 168 }
+	culture_eshin                             = rgb { 143  28 158 }
+
+	# --- amuric (7 cultures, family: human_astrea) ---
+	language_amuric                          = rgb { 181  78 204 }
+	culture_ashari                            = rgb { 206 136 235 }
+	culture_saynan                            = rgb { 194 114 222 }
+	culture_nacin                             = rgb { 184  93 209 }
+	culture_fuan                              = rgb { 174  75 196 }
+	culture_qaftal                            = rgb { 165  58 184 }
+	culture_qar                               = rgb { 156  42 171 }
+	culture_catulan                           = rgb { 148  28 158 }
+
+	# --- bashkalic (4 cultures, family: human_astrea) ---
+	language_bashkalic                       = rgb { 191  78 204 }
+	culture_moon_orc                          = rgb { 219 136 235 }
+	culture_ashrunner                         = rgb { 195  93 209 }
+	culture_shathral                          = rgb { 172  58 184 }
+	culture_scarred_one                       = rgb { 151  28 158 }
+
+	# --- mixed (2 cultures, family: other_nonhuman) ---
+	language_mixed                           = rgb { 201  78 204 }
+	culture_slaver                            = rgb { 230 136 235 }
+	culture_exiled                            = rgb { 157  28 158 }
+
+	# --- zekranic (4 cultures, family: human_astrea) ---
+	language_zekranic                        = rgb { 204  78 197 }
+	culture_wasut                             = rgb { 234 136 235 }
+	culture_khimut                            = rgb { 209  93 205 }
+	culture_thebian                           = rgb { 184  58 175 }
+	culture_rametic                           = rgb { 158  28 144 }
+
+	# --- ywq (1 cultures, family: human_astrea) ---
+	language_ywq                             = rgb { 204  78 187 }
+	culture_nubite                            = rgb { 209  84 193 }
+
+	# --- kaddian (6 cultures, family: human_orea) ---
+	language_kaddian                         = rgb { 204  78 177 }
+	culture_lashu                             = rgb { 235 136 223 }
+	culture_agadian                           = rgb { 219 110 202 }
+	culture_sippari                           = rgb { 204  86 181 }
+	culture_shamyrian                         = rgb { 189  64 160 }
+	culture_mashkud                           = rgb { 173  45 140 }
+	culture_uru                               = rgb { 158  28 119 }
+
+	# --- lost_elf (1 cultures, family: elvish) ---
+	language_lost_elf                        = rgb { 204  78 168 }
+	culture_ekweni                            = rgb { 209  84 173 }
+
+	# --- wood_dwarf (1 cultures, family: dwarven) ---
+	language_wood_dwarf                      = rgb { 204  78 158 }
+	culture_torvarik                          = rgb { 209  84 163 }
+
+	# --- wood_orc (3 cultures, family: orcish) ---
+	language_wood_orc                        = rgb { 204  78 148 }
+	culture_caiman                            = rgb { 235 136 194 }
+	culture_waikaram                          = rgb { 196  75 142 }
+	culture_juatchac                          = rgb { 158  28  96 }
+
+	# --- layanic (14 cultures, family: human_emea) ---
+	language_layanic                         = rgb { 204  78 138 }
+	culture_bo_vao                            = rgb { 235 136 206 }
+	culture_kinh_vao                          = rgb { 229 126 195 }
+	culture_muonh                             = rgb { 223 116 184 }
+	culture_nam                               = rgb { 217 106 173 }
+	culture_phoan                             = rgb { 211  96 161 }
+	culture_khuchang_lou                      = rgb { 205  87 150 }
+	culture_lang_tai                          = rgb { 199  79 138 }
+	culture_phit_lou                          = rgb { 193  71 127 }
+	culture_rat_lou                           = rgb { 188  63 115 }
+	culture_banglan                           = rgb { 182  55 104 }
+	culture_khmon                             = rgb { 176  48  92 }
+	culture_pret_run                          = rgb { 170  41  81 }
+	culture_kapo                              = rgb { 164  35  70 }
+	culture_nongthai                          = rgb { 158  28  60 }
+
+	# --- erazi (5 cultures, family: human_emea) ---
+	language_erazi                           = rgb { 204  78 128 }
+	culture_iraavi                            = rgb { 235 136 182 }
+	culture_nezhan                            = rgb { 215 103 152 }
+	culture_paleborn                          = rgb { 196  75 123 }
+	culture_shei_kar                          = rgb { 177  50  96 }
+	culture_shei_xi                           = rgb { 158  28  70 }
+
+	# --- snow_majuki (7 cultures, family: human_emea) ---
+	language_snow_majuki                     = rgb { 204  78 118 }
+	culture_rakar                             = rgb { 235 136 178 }
+	culture_yhan                              = rgb { 222 114 156 }
+	culture_askyan                            = rgb { 209  93 134 }
+	culture_kon                               = rgb { 196  75 113 }
+	culture_pauthin                           = rgb { 184  58  93 }
+	culture_taw                               = rgb { 171  42  74 }
+	culture_dethom_pyw                        = rgb { 158  28  56 }
+
+	# --- konkonu (1 cultures, family: human_emea) ---
+	language_konkonu                         = rgb { 204  78 108 }
+	culture_konu                              = rgb { 209  84 113 }
+
+	# --- onu (5 cultures, family: human_emea) ---
+	language_onu                             = rgb { 204  78  98 }
+	culture_atsuna                            = rgb { 235 136 159 }
+	culture_homagara                          = rgb { 215 103 125 }
+	culture_ondai                             = rgb { 196  75  94 }
+	culture_tsu                               = rgb { 177  50  65 }
+	culture_sokuro                            = rgb { 158  28  40 }
+
+	# --- zholin (11 cultures, family: human_emea) ---
+	language_zholin                          = rgb { 204  78  88 }
+	culture_jong                              = rgb { 235 136 162 }
+	culture_xa                                = rgb { 227 123 146 }
+	culture_heilong                           = rgb { 219 110 130 }
+	culture_zhong                             = rgb { 212  97 115 }
+	culture_shen                              = rgb { 204  86  99 }
+	culture_ban                               = rgb { 196  75  84 }
+	culture_guanglo                           = rgb { 189  64  70 }
+	culture_yun                               = rgb { 181  54  55 }
+	culture_zhu                               = rgb { 173  49  45 }
+	culture_onchu                             = rgb { 166  45  36 }
+	culture_meilin                            = rgb { 158  41  28 }
+
+	# --- goeguye (3 cultures, family: human_emea) ---
+	language_goeguye                         = rgb { 204  78  78 }
+	culture_dasan                             = rgb { 235 136 140 }
+	culture_anyeol                            = rgb { 196  75  75 }
+	culture_suyeol                            = rgb { 158  33  28 }
+
+}

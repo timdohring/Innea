@@ -1,0 +1,148 @@
+# Lenaric cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+north_maetian_culture = {
+	language = lenaric_language
+	color = culture_north_maetian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+south_maetian_culture = {
+	language = lenaric_language
+	color = culture_south_maetian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+dianean_culture = {
+	language = lenaric_language
+	color = culture_dianean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+briiyan_culture = {
+	language = lenaric_language
+	color = culture_briiyan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+mothmen_culture = {
+	language = lenaric_language
+	color = culture_mothmen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+cothonian_culture = {
+	language = lenaric_language
+	color = culture_cothonian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+alletanian_culture = {
+	language = lenaric_language
+	color = culture_alletanian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+thornic_culture = {
+	language = lenaric_language
+	color = culture_thornic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+sascilian_culture = {
+	language = lenaric_language
+	color = culture_sascilian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+thelan_culture = {
+	language = lenaric_language
+	color = culture_thelan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+narcetian_culture = {
+	language = lenaric_language
+	color = culture_narcetian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+
+lenathii_culture = {
+	language = lenaric_language
+	color = culture_lenathii
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lenaric_group
+	}
+}
+

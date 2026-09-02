@@ -1,0 +1,52 @@
+# Bashkalic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+moon_orc_culture = {
+	language = bashkalic_language
+	color = culture_moon_orc
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bashkalic_group
+	}
+}
+
+ashrunner_culture = {
+	language = bashkalic_language
+	color = culture_ashrunner
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bashkalic_group
+	}
+}
+
+shathral_culture = {
+	language = bashkalic_language
+	color = culture_shathral
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bashkalic_group
+	}
+}
+
+scarred_one_culture = {
+	language = bashkalic_language
+	color = culture_scarred_one
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bashkalic_group
+	}
+}
+

@@ -1,0 +1,124 @@
+# Sea Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+anowic_culture = {
+	language = sea_elf_language
+	color = culture_anowic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+aethian_culture = {
+	language = sea_elf_language
+	color = culture_aethian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+siric_culture = {
+	language = sea_elf_language
+	color = culture_siric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+dothic_culture = {
+	language = sea_elf_language
+	color = culture_dothic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+uldan_culture = {
+	language = sea_elf_language
+	color = culture_uldan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+runic_culture = {
+	language = sea_elf_language
+	color = culture_runic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+rifter_culture = {
+	language = sea_elf_language
+	color = culture_rifter
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+teyan_culture = {
+	language = sea_elf_language
+	color = culture_teyan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+silavian_culture = {
+	language = sea_elf_language
+	color = culture_silavian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+
+gildan_culture = {
+	language = sea_elf_language
+	color = culture_gildan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		sea_elf_group
+	}
+}
+

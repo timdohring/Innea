@@ -1,0 +1,64 @@
+# Bahdak cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+keswic_culture = {
+	language = bahdak_language
+	color = culture_keswic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bahdak_group
+	}
+}
+
+misral_culture = {
+	language = bahdak_language
+	color = culture_misral
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bahdak_group
+	}
+}
+
+jidai_culture = {
+	language = bahdak_language
+	color = culture_jidai
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bahdak_group
+	}
+}
+
+karu_culture = {
+	language = bahdak_language
+	color = culture_karu
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bahdak_group
+	}
+}
+
+akkad_culture = {
+	language = bahdak_language
+	color = culture_akkad
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		bahdak_group
+	}
+}
+

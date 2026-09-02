@@ -1,0 +1,40 @@
+# Avalic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ikathian_culture = {
+	language = avalic_language
+	color = culture_ikathian
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		avalic_group
+	}
+}
+
+celayphean_culture = {
+	language = avalic_language
+	color = culture_celayphean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		avalic_group
+	}
+}
+
+avalean_culture = {
+	language = avalic_language
+	color = culture_avalean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		avalic_group
+	}
+}
+

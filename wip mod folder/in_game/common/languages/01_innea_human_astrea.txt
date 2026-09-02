@@ -1,0 +1,415 @@
+# Innea languages - family: human_astrea
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+armoccan_language = {
+	color = language_armoccan
+	family = human_astrea_language_family
+
+	male_names = {
+		Abadesar Adei Atikadar Ayz Benour Benchakr Chif Dedazoun Zouna Ghousam
+		Hajdou Hmidri Jboundi Khatfi Mamound Moafis Najou Ousram Rahid Souf
+	}
+	female_names = {
+		Anjoura Asse Basmche Chaima Fatou Ghonifa Hadara Kaimaj Jamilia Maroua
+	}
+	dynasty_names = {
+		"ben Hadidi" "ben Hasr" "ben Alcheif" "ben Alrada" "ben Kaim" "ben Shota" "ben Ulraida" "ben Ouma" "ben Ousrou" "ben Abadou"
+		"ben Amada" "ben Yousa" "ben Bechid" "ben Ouan" "ben Martail" "ben Oujatak" "ben Sahka" "ben Maad" "ben Saad" "ben Zemstras"
+		"ben Rasal" "ben Ufshar"
+	}
+	lowborn = {
+	}
+}
+
+najric_language = {
+	color = language_najric
+	family = human_astrea_language_family
+
+	male_names = {
+		Abbus Abdas Ahalon Akim Altasil Bahir Harim Rahmad Maluf Shirun
+		Qasid Raad Katuf Anwasamir Fahdaq Fuq Zaifar Usar Usmol Malil
+		Jamase Jerash Atubak Basris Uqalad Shemir Kad Umal Yousul Foun
+	}
+	female_names = {
+		Saidail Asana Faimi Suharet Tawra Faimo Fati Anlia Cenia Haloda
+		Marina Ranala Safila Fiyaran Majoda Douna Usmala Jera Ahala Usa
+	}
+	dynasty_names = {
+		"ab Shiit" "ab Alkren" "ab Qutmal" "ab Shonoket" "ab Aldrus" "ab Hara" "ab Sra" "ab Centuf" "ab Tufwal" "ab Baj"
+		"ab Shukr" "ab Terot" "ab Anwal" "ab Jhist" "ab Yazi" "ab Baye" "ab Hestal" "ab Neyje" "ab Mayje" "ab Shep"
+		"ab Adan" "ab Zaj" "ab Suquds" "ab Zinjedd" "ab Bajdehat" "ab Qas" "ab Nalma" "ab Sistra" "ab Jarif" "ab Diyaf"
+	}
+	lowborn = {
+	}
+}
+
+souli_language = {
+	color = language_souli
+	family = human_astrea_language_family
+
+	male_names = {
+		Jahair Sami Aladoo Aish Zareef Saasim Fahsad Ismaa Taimad Zain
+		Yaadr Mashat Maro Awheel Saam Jhatim Uqas Afooq Ameed Khalbah
+		Furleet Faashr Bateef Nalala Ismar Fale Ashim Qaanad Durdul Abas
+	}
+	female_names = {
+		Ahafa Mecha Leela Uma Tamasale Mannab Saja Haanqa Hisaar Juhaina
+		Hamruda Haaje Nutima Kanaa Mahzzi Ibiaida Saama Feebiq Biqa Udaila
+	}
+	dynasty_names = {
+		"ib Satr" "ib Mitris" "ib Fasari" "ib Wahsud" "ib Makar" "ib Sadr" "ib Altari" "ib Ullis" "ib Shatif" "ib Kran"
+		"ib Alymeej" "ib Mail" "ib Mhail" "ib Lomad" "ib Ghasri" "ib Mafou" "ib Gas" "ib Yabrun" "ib Shelf" "ib Zarbaq"
+		"ib Mahshariq" "ib Asbid" "ib Khurbay" "ib Maj" "ib Alfalatal" "ib Nadou" "ib Jara" "ib Baqa" "ib Kirat" "ib Kraywan"
+	}
+	lowborn = {
+	}
+}
+
+bahdak_language = {
+	color = language_bahdak
+	family = human_astrea_language_family
+
+	male_names = {
+		Muah Ibrallah Abdu Ibhasa Manraib Jasul Muzafiidin Najdris Abduq Mirsmail
+		Isalib Haifi Abqulsha Quls Oqorron Kairidin Alifun Jabar Adrun Elus
+		Adrat Afal Bek Jabar Bel Fatr Sadi Idiziz Abulid Mauhbra
+		Nasir Josephir Jibrun Abdakir
+	}
+	female_names = {
+		Naidid Taksmin Shamarand Ameshal Resatug Khaira Usha Maryna Tagahba Jaba
+		Ewoli Laylasa Nafira Shahzad Ussawa Wala Shota Sabakal Askira Souza
+	}
+	dynasty_names = {
+		"al Saifid" "al Waran" "al Ejutif" "al Keswan" "al Zaymi" "al Sauhba" "al Yaud" "al El-Orbeid" "al Tagan" "al Shutriq"
+		"al Akkad" "al Jid" "al Misr" "al Karuwan" "al Teshi" "al Hebres" "al Hara" "al Ebrin" "al Dae" "al Achem"
+		"al Nushal" "al Baim" "al Damish" "al Reida" "al Jebar" "al Ewok" "al Suwar" "al Shalamaham" "al Bulud" "al Hoqan"
+	}
+	lowborn = {
+	}
+}
+
+tifhrean_language = {
+	color = language_tifhrean
+	family = human_astrea_language_family
+
+	male_names = {
+		Musan Muhalil Mamud Abraddin Jalen Khasri Ahsan Halid Rhamalid Fahiz
+		Zishtai Esratan Shameyd Oseph Samsayn Ussram Idahd Zaul Azul Hasllah
+		P atgol Atur A min Tarawan K Bekog Sh Vantir
+		badu enris Badur T an
+	}
+	female_names = {
+		Faghmin Zayzan Zoudra Rashina Rama Saba Fasiya Amewe Para Qamsu
+		Telemina Aruli As Tere Bo She Kur Hasa B enchura
+		K duri Venshura A lena
+	}
+	dynasty_names = {
+		"af Masud" "af Jabid" "af Yarus" "af Hashawan" "af Anid" "af Usfal" "af Qatuls" "af Shekr" "af Dakrim" "af Asul"
+		"af Zau" "af Qala" "af Dae" "af Rata" "af Mahran" "af Udhra" "af Shar" "af Taanbr" "af Ruhnal" "af Niwwus"
+		T Dene A Togo Be Enshur U sham Gehestol K
+		Darin Sha Pak venhul atri
+	}
+	lowborn = {
+	}
+}
+
+qasinic_language = {
+	color = language_qasinic
+	family = human_astrea_language_family
+
+	male_names = {
+		Nurad Abeli Ala Shontar Ab Akar Ab Hata Ab Shuba
+		Ab Esiq Muzaridin Atah Menara Shutariq Farew Weswew Afrahadin Elsahadin
+		Musrahadin Esquiq Kenar Ulsman
+	}
+	female_names = {
+		Khama Aswi Wia Shutra Pawmara Rafina Afina Mara Mahdala Aseina
+	}
+	dynasty_names = {
+		"il Naid" "il Sukut" "il Tar" "il Jobas" "il Nadee" "il Oahat" "il Hajji" "il Qash" "il Naj" "il Wasru"
+		"il Sahmah" "il Wadrun" "il Bahqra" "il Shaib" "il Meqqos" "il Jedmma" "il Qam" "il Mediyaj" "il Qarihs" "il Alkhof"
+	}
+	lowborn = {
+	}
+}
+
+capic_language = {
+	color = language_capic
+	family = human_astrea_language_family
+
+	male_names = {
+		Whangar Lisson Bravord Nawaz Makousen Udas Brdjen Afalban Izuzal Mastia
+		Angawas Amadhil Cucages Iwetas Carhi Azkiss Tasguar Barudas Ilrux Agduan
+		Winni Tufagay Hilmu Akakra Azregh Aziz Merwugh Madyan Mihemuk Gourazul
+		Kuputa Gubton Upalo Etonmo Wolo Walo Wola Nawal Polowo
+	}
+	female_names = {
+		Titse Grisyst Lundyma Bibas Tuegsa Tatyur Ougganout Tlelila Tinalt Toubia
+		Dawmal Tazssa Uderet Berwn Bellja Turmuna Qayma Tershemass Thintran Wilalra
+		Kupu Gbu Etona Walawa Wolowo
+	}
+	dynasty_names = {
+		Miamo Londi Mohawak Abader Mowal Hattar Islheed Farotri Shemi Seinhra
+		Qraqo Canchu Shervol Valayd Bravun Caydan Sealo Hamdon Thovik Akavan
+		Hrano Nangor Karyan Kaltem Bakuls Andahon Leghoghan Laszhara Lhami Ghoznan
+		Walando Weleondo Walo Poldagupta Edapojo Eloso Madja
+	}
+	lowborn = {
+	}
+}
+
+majuki_language = {
+	color = language_majuki
+	family = human_astrea_language_family
+
+	male_names = {
+		Mo jahi Mo johen Mo ka An qoho An tari
+		An jahi An johen Mo lat An lat Mo qoho
+		Su jahi Su johen Su ka Su qol Su lat
+		Anfashir Anjet Jegar Geqq Shuz Zadal Harzaq Bizshurr Arin Munurur
+		Muljob Jildai Jz anan Ilejar Daszo Ta loh Ta sim
+		Ta ka Ta jahi Ta ljo Gohai Paj Siba Jukan
+		Seijozso
+	}
+	female_names = {
+		Am lati Am qon Am sheba Am tur Am jaha
+		Un jaha Un qon Un jori Un hati Un sheba
+		Uhija Shauzaba Inuyya Feaniri Fahapa Zayhera Ayrin Yushima Baza Azutha
+		Ma saa Ma hati Ma qon Ma tur Ma kari
+		Sa jaha Sa tur Sa sheba Sa jori Sa sima
+	}
+	dynasty_names = {
+		Saminin Kharab Khaonji Jetal Mahasudri Rotavavi Tavan Sibili Khorji Jen
+		Anabi Eswan Ujai Zakri Fast Claw Split Ear Thunder Roar
+		Zahad Tavus Sella Maju Kaji Bhenga Pardho Lojo Assa Sambha
+		Jamal Guloki Vadi Ahju Pajri Gohairi Talochi Pamira Fai Charu
+		Bhadi Mulwari Kanot
+	}
+	lowborn = {
+	}
+}
+
+avalic_language = {
+	color = language_avalic
+	family = human_astrea_language_family
+
+	male_names = {
+		Aristeidis Sakos Ermaos Efinianos Seglias Nikloatos Apoll Venisianis Mistadis Michali
+		Demo Athansanthos Kosto Perebolu Fostas Kirivos Spiriani Spiriviadis Athankis Safos
+		Tlalli Itzanan Toltecol Olchapal Malnyah Hutizol Tlacotch Huiazcalxo Azcuetl Matloxcaca
+	}
+	female_names = {
+		Iri Theodrachi Ioula Xena Agatia Parana Emithe Ouradoula Glykka Doula
+		Tlalli Tapahuanza Citla Sacmatzi Nochtli
+	}
+	dynasty_names = {
+		Petaras Gerosakis Tipolides Pananessis Nasses Mutallas Rodopu Valialli Spankou Perraka
+		Ikath Tomade Noka Cetres Celay Phenea Denos Trian Iluma Sephos
+		Bluehorn Greeneye Eagleseer Birdfather Stoneone Hlachala Tletoal Manaxex Chopi Chicallal
+	}
+	lowborn = {
+	}
+}
+
+handaan_language = {
+	color = language_handaan
+	family = human_astrea_language_family
+
+	male_names = {
+		Erkedai Uranyildar Sachasar Xoryul Ogodei Chaperk Chobectar Teletyid Amghabai Dein
+		Jighodai Sdurtalji Ojeldob Bukida Ghengas Khono Ilugei Jungggei Bulqutut Qutumur
+		Ögedei Ölmei Tublai Joigedei Münük Manghun Monktgu Bayan Elgug Toltoq
+		Lhem Feran Thalo Seyd Wabher Bhera Doskith Yere Yeru
+	}
+	female_names = {
+		Temülea Börtakhai Maai Tamar Zaumihan Mulandei Aigigi Sorbek Togenlun Khultun
+		Altotan Justeset Jugdaan Chota Enksuin Saranbeki Tuyaa Odtsteji Ergtuysy Qaya
+		Lhema Yera Thala Syedi Wahhi
+	}
+	dynasty_names = {
+		Sarutun Mukhabal Noyas Sartimur Urinkhaiseg Edenol Chatayod Borginim Kereylai Zorgid
+		Koydhan Drustah Tejdgluk Gumkeguz Kuhdhru Bagangov Ulimod Khatan Churatid Lheyheynan
+		S khbaatar Koqalqot Öhtid Dahados Ulonqo Naldaat Borsai Lhataan Bayaxid
+		Urtanchoi Fertun Lahno Seylod Hiqosti Vhidawan Dosk Sumvod Leylod Lhamod
+		Lherod
+	}
+	lowborn = {
+	}
+}
+
+niir_language = {
+	color = language_niir
+	family = human_astrea_language_family
+
+	male_names = {
+		Gungalla Carago Tooglip Bugee Nungerrlar Yalgigger Matchiga Chilbugn Jubuun Goorab
+		Nyako Mogopar Pinalti Alagul Yillglu Drjajowan Oraja Arunchum Dural Parsi
+	}
+	female_names = {
+		Akala Truga Weema Wildah Kirro Corowa Amaris Wemegoo Wyun Watah
+	}
+	dynasty_names = {
+		Barbellary Dunjakman Munutallme Tjapatari Naomoka Ginibige Sodarra Lanne Quiwee Babago
+		Ela Djeandjeodjeo Gababak Awkron Diddirup Quirei Wyeer Hatha Koono Aregong
+	}
+	lowborn = {
+	}
+}
+
+dremk_language = {
+	color = language_dremk
+	family = human_astrea_language_family
+
+	male_names = {
+		Karayan Demivex Salvozabra Shados Norrdes Mazuk Elam Gosskel Ark Throl
+		Hadik Naxxo Xelem Keethranth Abranth Alarix Cyablud Arkzla Nebun Wizlan
+	}
+	female_names = {
+		Amaranth Lithio Xixsara Savixa Lunos Alabastra Alemki Karlena Rubi Nylo
+	}
+	dynasty_names = {
+		Dremka Kobol Ruleborn Throneborn Ember Rain Razor Wrathborn Crimson Tremk
+		Vondran Vaun Viceborn Sokran Ashborn Vigom Mazon Vosstling Edgem Tremal
+	}
+	lowborn = {
+	}
+}
+
+sabalic_language = {
+	color = language_sabalic
+	family = human_astrea_language_family
+
+	male_names = {
+		Taajhir Naifder Boncob Danag Bacyaya Aleeha Ghasim Sharkari Elkop Benderto
+		Rushaad Sju Elibaan Bugong Putib Raabin Taqaan Sagapli Aguntan Yaag
+	}
+	female_names = {
+		Lateeha Nussha Sumayy Watjah Masiam Naaieela Anineem Nastini Surinew Nawa
+	}
+	dynasty_names = {
+		Waakru Chewir Yaawail Bnaaqee Khaalwaan Zulyu Maahku Adusug Kunifal Naazro
+		Shakaag Bernbing Sbaj Sungjong Keltgebe Pekak Tasktuma Delrak Parakgek Kolog
+	}
+	lowborn = {
+	}
+}
+
+anhyan_language = {
+	color = language_anhyan
+	family = human_astrea_language_family
+
+	male_names = {
+		Ahmin Ashang Raftan Paydam Pezruz Pouyoush Sheryan Shahry Sepepeher Sasdad
+		Vahana Ariod Armash Ahoand Avetiya Arvyan Bahjan Bahrio Behafsh Dariul
+		Danevin Eshizd Farghaz Gilgatas Hshmen Jamwed Mazishay Kezem Kaved Sasid
+		Mazduk Mehdeym Kirabeen Merhdram Payzar Mazrookh Fashysh Shapun Shapul Teroq
+		Tshernam Pemgay Uygji Kinshwa Dawachen Rinshi Kinji Tashgen Tanzin Namzang
+		Chenzin Jigma Namdin Chonga Ngawan Chansuk Drukash Duk Wangzin Mal
+	}
+	female_names = {
+		Amaza Donysheh Armita Arya Ashra Atonya Donu Bitshteh Fereshzneh Fanal
+		Golita Golnam Jaldah Gonazdid Kamavin Manshida Mahtayam Minzheh Mozhgashin Niushd
+		Parfar Nazavand Parshin Nestu Reyya Roxanak Safrien Shirla Soraya Tahmin
+		Dedra Wangshey Choman Monden Pasmo Ngama Dedhan Dechewa Tshemi Phuchen
+	}
+	dynasty_names = {
+		Pavalavid Kesatvid Shupavid Eshavid Mokavid Nelid Mazkadavid Kordshah Turvid Solatanid
+		Barahid Osid Palid Sarid Ferhid Isopid Azanavid Eshid Osilavid Hedra
+		Khathid Shahrgrat Tehrid Persepolid Artahalavid Ervid Topori Qarchu Tarpot Eshranvad
+		Bal Pardi Baghesavalid Lavan Mosari Abasskid Ecnanamid Shagrid Sharyeli Shagasta
+		Erd Dormo Raima Zangring Choma Gurchuk Wangley Tamshen Tenshomo Lhom
+		Subsho Ngalta Teleph Punphei Damshal Monkhata Samphuli Monahkhama Thidi Hpa
+		Parsi
+	}
+	lowborn = {
+	}
+}
+
+amuric_language = {
+	color = language_amuric
+	family = human_astrea_language_family
+
+	male_names = {
+		Mania Mushim Watsir Idallah Sauid Abdumad Abdull Faiman Khal Abubak
+		Aduljal Adulqar Aduwah Adulah Aghin Alin Aram Arze Banaddin Fadl
+		Fark Farok Gor Ghalifaz Halsn Hsan Hussayl Hamad Mahkhair Khaldi
+		Manza Muhama Murses Hiddin Jafara Najlish Shayeh Sulmon Thlabe Uyaha
+		Zek
+	}
+	female_names = {
+		Adera Nadsha Asighira Habija Kamla Marys Nywand Parsameer Qmar Payfiq
+		Rashwana Sabbghar Sahji Smarna Semetar Sharzad Sham Sharateftah Sheeval Shokoul
+		Sholmin Soulab Tan Tanyaga Yasnabi
+	}
+	dynasty_names = {
+		Tobi Zuwat Sirese Fayad Fuadi Nacad Baydal Sayyd Sabrat Ulash
+		Caswal Tawen Teghse Mulpers Qra Kikli Qaead Esrawan Zawan Subathi
+		Qaftan Kanabuh Jambi Abidiyhn Qhirathi Hasii Qari Hamath Hatubya Sehenam
+		Moccwan Qaswan Telewan Beqe Listan Zefe Ud Qeleq Elion Ziyye
+	}
+	lowborn = {
+	}
+}
+
+bashkalic_language = {
+	color = language_bashkalic
+	family = human_astrea_language_family
+
+	male_names = {
+		Cacaus Ruzle Darna Ozaunal Asha Arudu Drgdec Ogzul Bagge Arbau
+		Kugdau Ghazbokhde Oldderg Ozegath Usha Osho Pito Venemul Dhaccs Phanta
+		Sradud Gilgagh Drebug Ardeh Ufgash Moldac Bofdu Shigut Asheth Oldrof
+	}
+	female_names = {
+		Ugozush Gonmalah Yazpha Lamsha Orbuol Eshi Todo Ugrosn Snaksn Ulugo
+		Glamz Gon Slozug Tatba Taghmam Gluim Bolha Narlan Gulosh Roghuk
+	}
+	dynasty_names = {
+		Gatul Yara Zugask Shudub Gobfisk Mughzag Gloyu Tade Dhac Kolo
+		Tedhac Tekicc Tedro Teomca Teshath Skeil Shugacc Cau Bifnot Croaker
+		Muhohn Uskbu Lila Okrun Deccal Bakho Scarred Balbuan Reaver Fan
+	}
+	lowborn = {
+	}
+}
+
+zekranic_language = {
+	color = language_zekranic
+	family = human_astrea_language_family
+
+	male_names = {
+		Ashtatenod Ashtarchefari Kaapei Mereops Un Antef Un Kpamuroto Ramakat Sebek
+		Khaset Amonophis Sekheqer Nehthesh Khakhet Qaneferk Ranedj Nyntejser Djokhet Neferjefa
+		Sekhu Nafokatis
+	}
+	female_names = {
+		Soeb Hatshep Sutsut Nefernatra Neitona Ramata Kaferti Eferefeti Uaten Utamun
+	}
+	dynasty_names = {
+		Thinibes Ramet Khim Thebel Was Iunmeu Pis Awan Pis Efru
+		Tephikh Senekhet Djenefer Nekheban Hyet Taib Permenehet Ahkmun Tahkmun Udjen
+		Tawe Sonozat
+	}
+	lowborn = {
+	}
+}
+
+ywq_language = {
+	color = language_ywq
+	family = human_astrea_language_family
+
+	male_names = {
+		Wwiegie Xixgiel Wywyxy Ykregielkew Awuzurkw Xhax Uzurqkw Zixy Ahtq Xuwwy
+	}
+	female_names = {
+		Iwewkly Lylyxyx Wexekq Xonnxe Ywwoszcx
+	}
+	dynasty_names = {
+		Ywq Awx Owx Xylo Ykw Zx Whutx
+	}
+	lowborn = {
+	}
+}
+

@@ -1,0 +1,43 @@
+# Innea language families. EU4 has no equivalent concept - this grouping is new:
+# lineage where EU4's own group names imply one (elvish/dwarven/orcish), geography otherwise.
+
+dwarven_language_family = {
+	color = language_family_dwarven
+	# languages: dverik, wood_dwarf
+}
+
+elvish_language_family = {
+	color = language_family_elvish
+	# languages: high_elf, river_elf, ice_elf, dark_elf, fire_elf, sea_elf, wood_elf, night_elf, blue_elf, lost_elf
+}
+
+human_astrea_language_family = {
+	color = language_family_human_astrea
+	# languages: armoccan, najric, souli, bahdak, tifhrean, qasinic, capic, majuki, avalic, handaan, niir, dremk, sabalic, anhyan, amuric, bashkalic, zekranic, ywq
+}
+
+human_emea_language_family = {
+	color = language_family_human_emea
+	# languages: layanic, erazi, snow_majuki, konkonu, onu, zholin, goeguye
+}
+
+human_innea_language_family = {
+	color = language_family_human_innea
+	# languages: varsk, anuiq, saelic, ywekan, brilthic, highlander, achakk, wuerdic, moltranic, pallan, taroquan, teltranic, acryllian, celtan, lenaric, kuzic, zgo, mdari, gorsic, lyzanian, tval, katlamaki, ondedean, litawan, algonic, trovanic, fyrvar, altvarik, aspic, nurkic, beghanic
+}
+
+human_orea_language_family = {
+	color = language_family_human_orea
+	# languages: kaddian
+}
+
+orcish_language_family = {
+	color = language_family_orcish
+	# languages: orkal, wood_orc
+}
+
+other_nonhuman_language_family = {
+	color = language_family_other_nonhuman
+	# languages: giant, minotaur, broken_men, lost, mixed
+}
+

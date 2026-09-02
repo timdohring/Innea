@@ -1,0 +1,100 @@
+# Orkal cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+omagan_culture = {
+	language = orkal_language
+	color = culture_omagan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+wla_culture = {
+	language = orkal_language
+	color = culture_wla
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+lda_culture = {
+	language = orkal_language
+	color = culture_lda
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+stone_orc_culture = {
+	language = orkal_language
+	color = culture_stone_orc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+anvan_culture = {
+	language = orkal_language
+	color = culture_anvan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+or_culture = {
+	language = orkal_language
+	color = culture_or
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+stahvic_culture = {
+	language = orkal_language
+	color = culture_stahvic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+
+ogol_culture = {
+	language = orkal_language
+	color = culture_ogol
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		orkal_group
+	}
+}
+

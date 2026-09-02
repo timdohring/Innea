@@ -1,0 +1,112 @@
+# Anhyan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+barahin_culture = {
+	language = anhyan_language
+	color = culture_barahin
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+rhaangoli_culture = {
+	language = anhyan_language
+	color = culture_rhaangoli
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+tersian_culture = {
+	language = anhyan_language
+	color = culture_tersian
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+sari_culture = {
+	language = anhyan_language
+	color = culture_sari
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+azandari_culture = {
+	language = anhyan_language
+	color = culture_azandari
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+isoli_culture = {
+	language = anhyan_language
+	color = culture_isoli
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+ferhan_culture = {
+	language = anhyan_language
+	color = culture_ferhan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+mosani_culture = {
+	language = anhyan_language
+	color = culture_mosani
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+
+eshin_culture = {
+	language = anhyan_language
+	color = culture_eshin
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anhyan_group
+	}
+}
+

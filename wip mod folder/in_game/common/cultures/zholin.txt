@@ -1,0 +1,136 @@
+# Zholin cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+jong_culture = {
+	language = zholin_language
+	color = culture_jong
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+xa_culture = {
+	language = zholin_language
+	color = culture_xa
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+heilong_culture = {
+	language = zholin_language
+	color = culture_heilong
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+zhong_culture = {
+	language = zholin_language
+	color = culture_zhong
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+shen_culture = {
+	language = zholin_language
+	color = culture_shen
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+ban_culture = {
+	language = zholin_language
+	color = culture_ban
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+guanglo_culture = {
+	language = zholin_language
+	color = culture_guanglo
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+yun_culture = {
+	language = zholin_language
+	color = culture_yun
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+zhu_culture = {
+	language = zholin_language
+	color = culture_zhu
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+onchu_culture = {
+	language = zholin_language
+	color = culture_onchu
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+
+meilin_culture = {
+	language = zholin_language
+	color = culture_meilin
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zholin_group
+	}
+}
+

@@ -1,0 +1,184 @@
+# Teltranic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+murrian_culture = {
+	language = teltranic_language
+	color = culture_murrian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+rhydic_culture = {
+	language = teltranic_language
+	color = culture_rhydic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+derzian_culture = {
+	language = teltranic_language
+	color = culture_derzian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+glenish_culture = {
+	language = teltranic_language
+	color = culture_glenish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+nardic_culture = {
+	language = teltranic_language
+	color = culture_nardic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+west_bergian_culture = {
+	language = teltranic_language
+	color = culture_west_bergian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+east_bergian_culture = {
+	language = teltranic_language
+	color = culture_east_bergian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+dalsch_culture = {
+	language = teltranic_language
+	color = culture_dalsch
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+kronnish_culture = {
+	language = teltranic_language
+	color = culture_kronnish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+forren_culture = {
+	language = teltranic_language
+	color = culture_forren
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+upper_sternian_culture = {
+	language = teltranic_language
+	color = culture_upper_sternian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+lower_sternian_culture = {
+	language = teltranic_language
+	color = culture_lower_sternian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+wayn_culture = {
+	language = teltranic_language
+	color = culture_wayn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+reuth_culture = {
+	language = teltranic_language
+	color = culture_reuth
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+
+snyd_culture = {
+	language = teltranic_language
+	color = culture_snyd
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		teltranic_group
+	}
+}
+

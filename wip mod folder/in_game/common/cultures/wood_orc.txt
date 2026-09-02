@@ -1,0 +1,40 @@
+# Wood Orc cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+caiman_culture = {
+	language = wood_orc_language
+	color = culture_caiman
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_orc_group
+	}
+}
+
+waikaram_culture = {
+	language = wood_orc_language
+	color = culture_waikaram
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_orc_group
+	}
+}
+
+juatchac_culture = {
+	language = wood_orc_language
+	color = culture_juatchac
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_orc_group
+	}
+}
+

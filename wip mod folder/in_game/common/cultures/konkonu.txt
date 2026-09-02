@@ -1,0 +1,16 @@
+# Konkonu cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+konu_culture = {
+	language = konkonu_language
+	color = culture_konu
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		konkonu_group
+	}
+}
+

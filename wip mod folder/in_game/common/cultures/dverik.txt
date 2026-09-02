@@ -1,0 +1,160 @@
+# Dverik cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+yothr_culture = {
+	language = dverik_language
+	color = culture_yothr
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+grend_culture = {
+	language = dverik_language
+	color = culture_grend
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+boern_culture = {
+	language = dverik_language
+	color = culture_boern
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+rekar_culture = {
+	language = dverik_language
+	color = culture_rekar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+minathi_culture = {
+	language = dverik_language
+	color = culture_minathi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+winter_dwarf_culture = {
+	language = dverik_language
+	color = culture_winter_dwarf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+grey_dwarf_culture = {
+	language = dverik_language
+	color = culture_grey_dwarf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+athr_culture = {
+	language = dverik_language
+	color = culture_athr
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+jute_culture = {
+	language = dverik_language
+	color = culture_jute
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+kvin_culture = {
+	language = dverik_language
+	color = culture_kvin
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+kaar_culture = {
+	language = dverik_language
+	color = culture_kaar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+drebyr_culture = {
+	language = dverik_language
+	color = culture_drebyr
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+
+reindur_culture = {
+	language = dverik_language
+	color = culture_reindur
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dverik_group
+	}
+}
+

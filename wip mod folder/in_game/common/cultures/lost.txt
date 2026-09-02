@@ -1,0 +1,16 @@
+# Lost cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+sahridan_culture = {
+	language = lost_language
+	color = culture_sahridan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lost_group
+	}
+}
+

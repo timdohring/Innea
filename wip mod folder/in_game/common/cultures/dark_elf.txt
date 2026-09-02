@@ -1,0 +1,148 @@
+# Dark Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ashlati_culture = {
+	language = dark_elf_language
+	color = culture_ashlati
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+indrysian_culture = {
+	language = dark_elf_language
+	color = culture_indrysian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+saith_culture = {
+	language = dark_elf_language
+	color = culture_saith
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+telic_culture = {
+	language = dark_elf_language
+	color = culture_telic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+wastelander_culture = {
+	language = dark_elf_language
+	color = culture_wastelander
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+varal_culture = {
+	language = dark_elf_language
+	color = culture_varal
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+duskborn_culture = {
+	language = dark_elf_language
+	color = culture_duskborn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+deadlander_culture = {
+	language = dark_elf_language
+	color = culture_deadlander
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+myric_culture = {
+	language = dark_elf_language
+	color = culture_myric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+lucien_culture = {
+	language = dark_elf_language
+	color = culture_lucien
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+naavan_culture = {
+	language = dark_elf_language
+	color = culture_naavan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+
+trithe_culture = {
+	language = dark_elf_language
+	color = culture_trithe
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		dark_elf_group
+	}
+}
+

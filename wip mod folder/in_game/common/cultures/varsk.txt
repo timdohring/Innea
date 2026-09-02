@@ -1,0 +1,148 @@
+# Varsk cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+haaken_culture = {
+	language = varsk_language
+	color = culture_haaken
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+azqu_culture = {
+	language = varsk_language
+	color = culture_azqu
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+nyvarsk_culture = {
+	language = varsk_language
+	color = culture_nyvarsk
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+ryykan_culture = {
+	language = varsk_language
+	color = culture_ryykan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+falkish_culture = {
+	language = varsk_language
+	color = culture_falkish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+grafen_culture = {
+	language = varsk_language
+	color = culture_grafen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+bjorming_culture = {
+	language = varsk_language
+	color = culture_bjorming
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+ykran_culture = {
+	language = varsk_language
+	color = culture_ykran
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+dargish_culture = {
+	language = varsk_language
+	color = culture_dargish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+kynen_culture = {
+	language = varsk_language
+	color = culture_kynen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+drevarsk_culture = {
+	language = varsk_language
+	color = culture_drevarsk
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+
+gildic_culture = {
+	language = varsk_language
+	color = culture_gildic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		varsk_group
+	}
+}
+

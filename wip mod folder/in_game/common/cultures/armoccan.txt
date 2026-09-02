@@ -1,0 +1,64 @@
+# Armoccan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+key_islander_culture = {
+	language = armoccan_language
+	color = culture_key_islander
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		armoccan_group
+	}
+}
+
+chidal_culture = {
+	language = armoccan_language
+	color = culture_chidal
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		armoccan_group
+	}
+}
+
+sahkan_culture = {
+	language = armoccan_language
+	color = culture_sahkan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		armoccan_group
+	}
+}
+
+kesh_culture = {
+	language = armoccan_language
+	color = culture_kesh
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		armoccan_group
+	}
+}
+
+omiri_culture = {
+	language = armoccan_language
+	color = culture_omiri
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		armoccan_group
+	}
+}
+

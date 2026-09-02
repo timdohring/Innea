@@ -1,0 +1,196 @@
+# Acryllian cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+vindese_culture = {
+	language = acryllian_language
+	color = culture_vindese
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+phracian_culture = {
+	language = acryllian_language
+	color = culture_phracian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+mylith_culture = {
+	language = acryllian_language
+	color = culture_mylith
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+goldtrader_culture = {
+	language = acryllian_language
+	color = culture_goldtrader
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+rettar_culture = {
+	language = acryllian_language
+	color = culture_rettar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+axian_culture = {
+	language = acryllian_language
+	color = culture_axian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+remaa_culture = {
+	language = acryllian_language
+	color = culture_remaa
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+lys_reman_culture = {
+	language = acryllian_language
+	color = culture_lys_reman
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+villacian_culture = {
+	language = acryllian_language
+	color = culture_villacian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+tarrad_culture = {
+	language = acryllian_language
+	color = culture_tarrad
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+ventrian_culture = {
+	language = acryllian_language
+	color = culture_ventrian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+corrusean_culture = {
+	language = acryllian_language
+	color = culture_corrusean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+kagnol_culture = {
+	language = acryllian_language
+	color = culture_kagnol
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+othan_culture = {
+	language = acryllian_language
+	color = culture_othan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+veran_culture = {
+	language = acryllian_language
+	color = culture_veran
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+
+padese_culture = {
+	language = acryllian_language
+	color = culture_padese
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		acryllian_group
+	}
+}
+

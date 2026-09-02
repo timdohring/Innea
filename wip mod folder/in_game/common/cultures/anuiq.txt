@@ -1,0 +1,64 @@
+# Anuiq cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+iqu_culture = {
+	language = anuiq_language
+	color = culture_iqu
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anuiq_group
+	}
+}
+
+iil_culture = {
+	language = anuiq_language
+	color = culture_iil
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anuiq_group
+	}
+}
+
+ujuu_culture = {
+	language = anuiq_language
+	color = culture_ujuu
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anuiq_group
+	}
+}
+
+qunsut_culture = {
+	language = anuiq_language
+	color = culture_qunsut
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anuiq_group
+	}
+}
+
+aqlaug_culture = {
+	language = anuiq_language
+	color = culture_aqlaug
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		anuiq_group
+	}
+}
+

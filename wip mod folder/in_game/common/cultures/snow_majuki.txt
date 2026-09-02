@@ -1,0 +1,88 @@
+# Snow Majuki cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+rakar_culture = {
+	language = snow_majuki_language
+	color = culture_rakar
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+yhan_culture = {
+	language = snow_majuki_language
+	color = culture_yhan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+askyan_culture = {
+	language = snow_majuki_language
+	color = culture_askyan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+kon_culture = {
+	language = snow_majuki_language
+	color = culture_kon
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+pauthin_culture = {
+	language = snow_majuki_language
+	color = culture_pauthin
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+taw_culture = {
+	language = snow_majuki_language
+	color = culture_taw
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+
+dethom_pyw_culture = {
+	language = snow_majuki_language
+	color = culture_dethom_pyw
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		snow_majuki_group
+	}
+}
+

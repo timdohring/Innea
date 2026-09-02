@@ -38,7 +38,7 @@ Ported 2026-09-02: 21 groups / 69 religions, one file per group. Untested in-gam
       now carry their real Innea religion (was `catholic` on every one). Source: EU4
       `history/provinces/` (4302, keys already match our religion names), `location_info.csv` (2),
       plus `mount_azta`/`mount_huetlal` set to `quatzalotl` from unanimous neighbours. All 69 religions
-      are used. The 212 still on `catholic` are the unauthored continents — see §7.
+      are used. The 212 still on `catholic` are the unauthored continents — see §8.
 - [ ] **Improve the `definition_modifier` values** — make them more balanced and more interesting.
       The current numbers are EU4's, mechanically remapped, not designed for EU5.
 - [ ] **Add more `opinions`** for each religion — every one currently has an empty `opinions = {}`.
@@ -59,25 +59,82 @@ Ported 2026-09-02: 21 groups / 69 religions, one file per group. Untested in-gam
       replaces them.
 - [ ] `language` and `religious_school` fields are unset on every religion.
 
-## 3. Markets — follow-ups
+## 3. Cultures and languages
+
+First pass done 2026-09-02: 466 cultures, 76 culture groups, 76 languages, 8 language families,
+550 colour tokens. Ported from the EU4 mod's single `common/cultures/innea_cultures.txt`.
+Untested in-game.
+
+```
+main_menu/common/named_colors/04_innea_cultures.txt
+in_game/common/language_families/01_innea.txt        8 families
+in_game/common/languages/01_innea_<family>.txt       8 files, 76 languages
+in_game/common/culture_groups/01_innea.txt           76 groups
+in_game/common/cultures/<group>.txt                  76 files, 466 cultures
+```
+
+Structure of the first pass: each EU4 culture group became one language (EU4 keeps name lists on the
+group, EU5 on the language) plus one culture group; each EU4 culture became one EU5 culture pointing at
+its group's language. Families are hybrid — lineage where EU4's own names imply one (elvish, dwarven,
+orcish, other non-human), geography for the rest.
+
+- [ ] **Overhaul language families / languages / dialects.** The first pass gives every EU4 culture group
+      its own top-level language, which says the 10 elven peoples are as unrelated as Swedish is to
+      Mandarin. EU5 supports a `dialects = { }` block nested inside a language, and cultures may point at
+      either a language or a dialect. Vanilla's Scandinavian file is the model: one parent language
+      holding `swedish_dialect`, `norwegian_dialect`, `danish_dialect`, `icelandic_dialect`, each with its
+      own name lists and extras (`patronym_suffix_daughter`, `location_prefix`, `descendant_suffix`) and
+      able to inherit via `fallback = <other_dialect>`.
+      Best candidates: **one `elvish_language` with 10 dialects** (`high_elf` `river_elf` `ice_elf`
+      `dark_elf` `fire_elf` `sea_elf` `wood_elf` `night_elf` `blue_elf` `lost_elf`), **dwarven**
+      (`dverik` `wood_dwarf`), **orcish** (`orkal` `wood_orc`). Cultures keep one `language =` line each,
+      just repointed — the culture files barely change.
+      Scale check: dialects are the exception in vanilla, not the rule — only 31 of 532 languages have
+      any, and 1819 of 2087 cultures point straight at a top-level language. The first pass is a
+      legitimate shape, not a bug.
+- [ ] **Revisit which cultures speak which language.** `language =` is one line per culture and freely
+      repointable; a culture has exactly one language, but many cultures can share one (vanilla's
+      `pama_nyungan_language` is shared by 130). So e.g. Ormian-speaking high elves just means pointing
+      those elf cultures at `wuerdic_language`. What is *not* expressible: one culture speaking different
+      languages in different places.
+- [ ] **gfx `tags` are placeholders.** Required on every culture (all 2083 vanilla cultures have them),
+      so something had to go there; currently a vanilla set keyed off continent — `european_gfx` for
+      Innea, `middle_east_gfx` for Astrea, `east_asian_gfx` for Emea, `african_gfx` for Orea. That mapping
+      is a guess, not design. Same open question as the religion `tags`.
+- [ ] **Culture colours are generated, not authored.** EU4 defines no culture colours at all, so all 466
+      were generated: one hue band per group, shades within it. Safe to hand-tune.
+- [x] **Cultures wired to locations.** `location_templates.txt` had `culture = swedish` on all 4518 land
+      templates; 4306 now carry their real Innea culture. Source: EU4 `history/provinces/` (4302),
+      `location_info.csv` (1), plus `arman_mountains`→`kesh`, `mount_azta`/`mount_huetlal`→`avalean` from
+      unanimous neighbours. **All 466 cultures are placed** — none is unused. The 212 left on `swedish`
+      are exactly the same locations left on `catholic` (§8).
+- [ ] Localisation — all 550 culture/language/family names show as raw keys.
+- [ ] `country_modifier` / `location_modifier` / `character_modifier` are unset everywhere, matching
+      vanilla practice (only 4 of 2083 cultures and 1 of 209 groups use them). Add only where meaningful.
+- [ ] `lowborn` name lists are empty on all 76 languages.
+- [ ] EU4's `primary = TAG` on all 466 cultures was not ported — it has no EU5 home on the culture. Keep
+      it as reference data for the country port.
+- [ ] Note: `pamiri` and `uru` collided with vanilla cultures once suffixed and are named
+      `innea_pamiri_culture` / `innea_uru_culture`. Remember this when mapping CSV labels to cultures.
+
+## 4. Markets — follow-ups
 
 - [x] **Three of eight continents have no market** (`menea`, `perlea`, `vulthark`) — explained: those
-      continents were never authored in the EU4 mod at all. See §7. Not a porting gap.
+      continents were never authored in the EU4 mod at all. See §8. Not a porting gap.
 - [ ] **Panoria has exactly one market**, `tyrven_bor`, on a dev-10 location. A whole continent's trade
       hangs off it.
 - [ ] 12 of the 32 reseated markets are coastal but front a *different* body of water than the sea zone
       their EU4 node sat on. May be worth reseating onto a member that fronts the original zone.
 
-## 4. Other content to port from EU4
+## 5. Other content to port from EU4
 
 Source: `../Version 1.3 (1.33)/2226968141/`
 
-- [ ] Cultures (`common/cultures`)
 - [ ] Ideas → whatever the EU5 equivalent is
 - [ ] Events, decisions, missions
 - [ ] Localisation generally
 
-## 5. Map and engine
+## 6. Map and engine
 
 - [ ] **Test the custom `in_game/common/goods/`** set — it is in the wip folder but **not installed**,
       so it has never been tested in-game.
@@ -87,12 +144,10 @@ Source: `../Version 1.3 (1.33)/2226968141/`
 - [ ] `deadlands` / `glacial` / `volcanic` topography are missing the `proximity` field, so
       `<terrain>_proximity_impact` never registers.
 - [ ] Localisation for 219 `unnamed_location_N` locations — 209 of them are in the three unauthored
-      continents (§7), so naming them is really a design task, not a localisation one.
-- [ ] **`culture` is still the `swedish` placeholder on all 4518 land templates** — the same bug the
-      religion field had. Blocked on porting cultures first: writing Innea culture names before
-      `common/cultures` exists would reference undefined cultures and break the load.
+      continents (§8), so naming them is really a design task, not a localisation one.
 
-## 6. Housekeeping
+
+## 7. Housekeeping
 
 - [ ] **Rename the mod** from `Tim Modding test` / `test_modding` to Innea (`.metadata/metadata.json`).
 - [ ] **The wip folder and the installed folder are synced by hand and currently differ.** Always check
@@ -100,7 +155,7 @@ Source: `../Version 1.3 (1.33)/2226968141/`
       `C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V\game\mod\test_modding`
 - [ ] Decide whether `../map/updated_info.csv` (6009 rows) should supersede `location_info.csv`.
 
-## 7. Perlea, Menea and Vulthark are unauthored
+## 8. Perlea, Menea and Vulthark are unauthored
 
 Discovered 2026-09-02 while assigning location religions. These three continents exist on the map and in
 `definitions.txt`, but were **never given content in the EU4 mod**:

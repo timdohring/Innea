@@ -1,0 +1,64 @@
+# Erazi cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+iraavi_culture = {
+	language = erazi_language
+	color = culture_iraavi
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		erazi_group
+	}
+}
+
+nezhan_culture = {
+	language = erazi_language
+	color = culture_nezhan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		erazi_group
+	}
+}
+
+paleborn_culture = {
+	language = erazi_language
+	color = culture_paleborn
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		erazi_group
+	}
+}
+
+shei_kar_culture = {
+	language = erazi_language
+	color = culture_shei_kar
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		erazi_group
+	}
+}
+
+shei_xi_culture = {
+	language = erazi_language
+	color = culture_shei_xi
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		erazi_group
+	}
+}
+

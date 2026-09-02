@@ -1,0 +1,52 @@
+# Litawan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+anandogaweni_culture = {
+	language = litawan_language
+	color = culture_anandogaweni
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		litawan_group
+	}
+}
+
+peswan_culture = {
+	language = litawan_language
+	color = culture_peswan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		litawan_group
+	}
+}
+
+sipichaw_culture = {
+	language = litawan_language
+	color = culture_sipichaw
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		litawan_group
+	}
+}
+
+stahy_culture = {
+	language = litawan_language
+	color = culture_stahy
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		litawan_group
+	}
+}
+

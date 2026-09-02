@@ -1,0 +1,76 @@
+# Ondedean cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+kanatagu_culture = {
+	language = ondedean_language
+	color = culture_kanatagu
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+
+sgawe_culture = {
+	language = ondedean_language
+	color = culture_sgawe
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+
+ononda_culture = {
+	language = ondedean_language
+	color = culture_ononda
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+
+ashlandic_culture = {
+	language = ondedean_language
+	color = culture_ashlandic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+
+tene_culture = {
+	language = ondedean_language
+	color = culture_tene
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+
+degani_culture = {
+	language = ondedean_language
+	color = culture_degani
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ondedean_group
+	}
+}
+

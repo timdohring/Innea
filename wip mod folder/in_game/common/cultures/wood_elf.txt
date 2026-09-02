@@ -1,0 +1,112 @@
+# Wood Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+oldwood_elf_culture = {
+	language = wood_elf_language
+	color = culture_oldwood_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+ulfin_culture = {
+	language = wood_elf_language
+	color = culture_ulfin
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+astaen_culture = {
+	language = wood_elf_language
+	color = culture_astaen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+elmenar_culture = {
+	language = wood_elf_language
+	color = culture_elmenar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+boek_culture = {
+	language = wood_elf_language
+	color = culture_boek
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+tewar_culture = {
+	language = wood_elf_language
+	color = culture_tewar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+weyk_culture = {
+	language = wood_elf_language
+	color = culture_weyk
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+falar_culture = {
+	language = wood_elf_language
+	color = culture_falar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+
+riverwood_elf_culture = {
+	language = wood_elf_language
+	color = culture_riverwood_elf
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		wood_elf_group
+	}
+}
+

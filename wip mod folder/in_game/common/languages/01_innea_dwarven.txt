@@ -1,0 +1,49 @@
+# Innea languages - family: dwarven
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+dverik_language = {
+	color = language_dverik
+	family = dwarven_language_family
+
+	male_names = {
+		Alta Bramm Harmel Asmir Alving Hatch Borki Berk Dasvar Emir
+		Bremel Ka Halfnir Elsar Horvak Kestwur Ionar Raldnir Ralnyr Geslek
+		Gunshar Rifni Sigi Stolgr Hatmul Tornaf Fernik Volwik Vestiburn Sogar
+		Geinvik Rothar Wunsyr Pershar Pon Barkan Stoen Thranmi Kass Bornis
+	}
+	female_names = {
+		Velm Asfi Alko Astrot Berla Bisna Egelt Eyon Gudtri Trina
+		Helni Idana Karli Reist Sigota Kull Yhonna Thostwil Valni Ollo
+		Berna Rifa Elsana Ketwar Pira Won Sogatha Thanne Letwurda Shanni
+	}
+	dynasty_names = {
+		Halfbeard Stormbeard Strongaxe Grayhand Stout Hammergrace Thunderboot Flint Madeyes Kindbrow
+		Thraut Bargen Klann Greyhome Karak Jarning Jork Duvining Ulving Jhei
+		Kelwur Eldenar Vulning Hett Dorka Shon Tenath Helvar Firanath Kornmat
+		Venim Solt Geirmunth Ilir Thornmir Ysen Kasstling Elding Ulsing Wekken
+	}
+	lowborn = {
+	}
+}
+
+wood_dwarf_language = {
+	color = language_wood_dwarf
+	family = dwarven_language_family
+
+	male_names = {
+		Hjaldren Bromohr Grammar Thorgrom Draman Umthrum Urmnum Tyadal Doldrum Bhald
+		Tharnyl Tyakgarn Morgran Morgram Hjulthi Baldain Thakham Theridr Bermand Khomni
+	}
+	female_names = {
+		Tordyna Berdelle Runwynna Einris Solba Tisdi Katdiel Lyeswyn Reynana Thaka
+	}
+	dynasty_names = {
+		Threruhr Sternforge Daer Kovik Lastham Brawmadur Morat Drugar Kovoc Kastic
+		Kornocanic Hrankovic Sulic Varic Berochol Valassic Kavic Bronic Hranic Blooming
+	}
+	lowborn = {
+	}
+}
+

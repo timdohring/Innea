@@ -1,0 +1,100 @@
+# Algonic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+laketrader_culture = {
+	language = algonic_language
+	color = culture_laketrader
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+sadeonqua_culture = {
+	language = algonic_language
+	color = culture_sadeonqua
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+kako_culture = {
+	language = algonic_language
+	color = culture_kako
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+atobanaki_culture = {
+	language = algonic_language
+	color = culture_atobanaki
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+tsiani_culture = {
+	language = algonic_language
+	color = culture_tsiani
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+wangouwean_culture = {
+	language = algonic_language
+	color = culture_wangouwean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+ocha_culture = {
+	language = algonic_language
+	color = culture_ocha
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+
+riverman_culture = {
+	language = algonic_language
+	color = culture_riverman
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		algonic_group
+	}
+}
+

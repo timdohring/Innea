@@ -1,0 +1,100 @@
+# Handaan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+druhn_culture = {
+	language = handaan_language
+	color = culture_druhn
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+churat_culture = {
+	language = handaan_language
+	color = culture_churat
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+oht_culture = {
+	language = handaan_language
+	color = culture_oht
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+khat_culture = {
+	language = handaan_language
+	color = culture_khat
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+lheyn_culture = {
+	language = handaan_language
+	color = culture_lheyn
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+khal_culture = {
+	language = handaan_language
+	color = culture_khal
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+grey_islander_culture = {
+	language = handaan_language
+	color = culture_grey_islander
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+
+lhemar_culture = {
+	language = handaan_language
+	color = culture_lhemar
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		handaan_group
+	}
+}
+

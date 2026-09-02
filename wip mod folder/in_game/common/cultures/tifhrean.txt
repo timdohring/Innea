@@ -1,0 +1,64 @@
+# Tifhrean cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+mahran_culture = {
+	language = tifhrean_language
+	color = culture_mahran
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tifhrean_group
+	}
+}
+
+qalari_culture = {
+	language = tifhrean_language
+	color = culture_qalari
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tifhrean_group
+	}
+}
+
+ruhnic_culture = {
+	language = tifhrean_language
+	color = culture_ruhnic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tifhrean_group
+	}
+}
+
+delean_culture = {
+	language = tifhrean_language
+	color = culture_delean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tifhrean_group
+	}
+}
+
+tenegolic_culture = {
+	language = tifhrean_language
+	color = culture_tenegolic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		tifhrean_group
+	}
+}
+

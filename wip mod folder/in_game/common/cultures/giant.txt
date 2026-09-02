@@ -1,0 +1,28 @@
+# Giant cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+jogunin_culture = {
+	language = giant_language
+	color = culture_jogunin
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		giant_group
+	}
+}
+
+panarak_culture = {
+	language = giant_language
+	color = culture_panarak
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		giant_group
+	}
+}
+

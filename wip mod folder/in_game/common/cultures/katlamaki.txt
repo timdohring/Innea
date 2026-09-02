@@ -1,0 +1,40 @@
+# Katlamaki cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+falconic_culture = {
+	language = katlamaki_language
+	color = culture_falconic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		katlamaki_group
+	}
+}
+
+awk_culture = {
+	language = katlamaki_language
+	color = culture_awk
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		katlamaki_group
+	}
+}
+
+katlic_culture = {
+	language = katlamaki_language
+	color = culture_katlic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		katlamaki_group
+	}
+}
+

@@ -1,0 +1,208 @@
+# Majuki cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+zamenic_culture = {
+	language = majuki_language
+	color = culture_zamenic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+kaji_culture = {
+	language = majuki_language
+	color = culture_kaji
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+maju_culture = {
+	language = majuki_language
+	color = culture_maju
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+choli_culture = {
+	language = majuki_language
+	color = culture_choli
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+charan_culture = {
+	language = majuki_language
+	color = culture_charan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+pardho_culture = {
+	language = majuki_language
+	color = culture_pardho
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+bengahri_culture = {
+	language = majuki_language
+	color = culture_bengahri
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+dune_dweller_culture = {
+	language = majuki_language
+	color = culture_dune_dweller
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+assarese_culture = {
+	language = majuki_language
+	color = culture_assarese
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+kerri_culture = {
+	language = majuki_language
+	color = culture_kerri
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+punghali_culture = {
+	language = majuki_language
+	color = culture_punghali
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+lojani_culture = {
+	language = majuki_language
+	color = culture_lojani
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+pajshru_culture = {
+	language = majuki_language
+	color = culture_pajshru
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+innea_pamiri_culture = {
+	language = majuki_language
+	color = culture_pamiri
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+gohair_culture = {
+	language = majuki_language
+	color = culture_gohair
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+taloch_culture = {
+	language = majuki_language
+	color = culture_taloch
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+
+ahjut_culture = {
+	language = majuki_language
+	color = culture_ahjut
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		majuki_group
+	}
+}
+

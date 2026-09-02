@@ -1,0 +1,40 @@
+# Goeguye cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+dasan_culture = {
+	language = goeguye_language
+	color = culture_dasan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		goeguye_group
+	}
+}
+
+anyeol_culture = {
+	language = goeguye_language
+	color = culture_anyeol
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		goeguye_group
+	}
+}
+
+suyeol_culture = {
+	language = goeguye_language
+	color = culture_suyeol
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		goeguye_group
+	}
+}
+

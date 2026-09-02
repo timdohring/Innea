@@ -1,0 +1,184 @@
+# Lyzanian cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+saj_culture = {
+	language = lyzanian_language
+	color = culture_saj
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+kai_jek_culture = {
+	language = lyzanian_language
+	color = culture_kai_jek
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+zondic_culture = {
+	language = lyzanian_language
+	color = culture_zondic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+suldan_culture = {
+	language = lyzanian_language
+	color = culture_suldan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+jetal_culture = {
+	language = lyzanian_language
+	color = culture_jetal
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+mokta_culture = {
+	language = lyzanian_language
+	color = culture_mokta
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+rohgii_culture = {
+	language = lyzanian_language
+	color = culture_rohgii
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+deja_tafi_culture = {
+	language = lyzanian_language
+	color = culture_deja_tafi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+koru_culture = {
+	language = lyzanian_language
+	color = culture_koru
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+syltic_culture = {
+	language = lyzanian_language
+	color = culture_syltic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+flamehatched_culture = {
+	language = lyzanian_language
+	color = culture_flamehatched
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+gazari_culture = {
+	language = lyzanian_language
+	color = culture_gazari
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+mistborn_culture = {
+	language = lyzanian_language
+	color = culture_mistborn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+dongan_culture = {
+	language = lyzanian_language
+	color = culture_dongan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+
+northlander_culture = {
+	language = lyzanian_language
+	color = culture_northlander
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lyzanian_group
+	}
+}
+

@@ -1,0 +1,64 @@
+# Highlander cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+steplandic_culture = {
+	language = highlander_language
+	color = culture_steplandic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		highlander_group
+	}
+}
+
+donairdan_culture = {
+	language = highlander_language
+	color = culture_donairdan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		highlander_group
+	}
+}
+
+ruwwesk_culture = {
+	language = highlander_language
+	color = culture_ruwwesk
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		highlander_group
+	}
+}
+
+crowfoot_culture = {
+	language = highlander_language
+	color = culture_crowfoot
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		highlander_group
+	}
+}
+
+two_mountmen_culture = {
+	language = highlander_language
+	color = culture_two_mountmen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		highlander_group
+	}
+}
+

@@ -1,0 +1,52 @@
+# Fire Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+arar_culture = {
+	language = fire_elf_language
+	color = culture_arar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fire_elf_group
+	}
+}
+
+lovashi_culture = {
+	language = fire_elf_language
+	color = culture_lovashi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fire_elf_group
+	}
+}
+
+vardesian_culture = {
+	language = fire_elf_language
+	color = culture_vardesian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fire_elf_group
+	}
+}
+
+dzynic_culture = {
+	language = fire_elf_language
+	color = culture_dzynic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fire_elf_group
+	}
+}
+

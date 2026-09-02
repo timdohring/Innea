@@ -1,0 +1,76 @@
+# Kaddian cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+lashu_culture = {
+	language = kaddian_language
+	color = culture_lashu
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+
+agadian_culture = {
+	language = kaddian_language
+	color = culture_agadian
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+
+sippari_culture = {
+	language = kaddian_language
+	color = culture_sippari
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+
+shamyrian_culture = {
+	language = kaddian_language
+	color = culture_shamyrian
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+
+mashkud_culture = {
+	language = kaddian_language
+	color = culture_mashkud
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+
+innea_uru_culture = {
+	language = kaddian_language
+	color = culture_uru
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kaddian_group
+	}
+}
+

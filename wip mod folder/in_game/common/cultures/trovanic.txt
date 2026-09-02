@@ -1,0 +1,40 @@
+# Trovanic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+trovan_culture = {
+	language = trovanic_language
+	color = culture_trovan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		trovanic_group
+	}
+}
+
+pirean_culture = {
+	language = trovanic_language
+	color = culture_pirean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		trovanic_group
+	}
+}
+
+pellic_culture = {
+	language = trovanic_language
+	color = culture_pellic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		trovanic_group
+	}
+}
+

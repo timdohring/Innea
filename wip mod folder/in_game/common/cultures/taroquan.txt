@@ -1,0 +1,76 @@
+# Taroquan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+arvacien_culture = {
+	language = taroquan_language
+	color = culture_arvacien
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+
+naarn_culture = {
+	language = taroquan_language
+	color = culture_naarn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+
+viellon_culture = {
+	language = taroquan_language
+	color = culture_viellon
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+
+tevarroix_culture = {
+	language = taroquan_language
+	color = culture_tevarroix
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+
+edessian_culture = {
+	language = taroquan_language
+	color = culture_edessian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+
+laquis_culture = {
+	language = taroquan_language
+	color = culture_laquis
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		taroquan_group
+	}
+}
+

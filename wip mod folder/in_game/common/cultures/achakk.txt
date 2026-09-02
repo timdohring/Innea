@@ -1,0 +1,64 @@
+# Achakk cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+pjotrish_culture = {
+	language = achakk_language
+	color = culture_pjotrish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		achakk_group
+	}
+}
+
+kevvan_culture = {
+	language = achakk_language
+	color = culture_kevvan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		achakk_group
+	}
+}
+
+tvaric_culture = {
+	language = achakk_language
+	color = culture_tvaric
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		achakk_group
+	}
+}
+
+darkwoodsmen_culture = {
+	language = achakk_language
+	color = culture_darkwoodsmen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		achakk_group
+	}
+}
+
+nievan_culture = {
+	language = achakk_language
+	color = culture_nievan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		achakk_group
+	}
+}
+

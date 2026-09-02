@@ -1,0 +1,101 @@
+# Innea languages - family: other_nonhuman
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+giant_language = {
+	color = language_giant
+	family = other_nonhuman_language_family
+
+	male_names = {
+		Ykkraslogenak Gogonak Teraggo Ysmir Noulates Mjor Bearnat Kul Retharynir Jorvath
+		Kaanin Turbjor Yefas Kul Vahdathnir Alta Mukuth Jese Stothryn
+	}
+	female_names = {
+		Gaginallithr Aata Biryoni Telatni Foronathr Solaed Hussala Atala Kerith Kepawudla
+		Stafawudla Kulwuda Halfni
+	}
+	dynasty_names = {
+		Tallborn Arm Rend Bear-Strong "First Son" Hakkograk Ysmirassilison Okinwyr Panor Jathasaksson
+		Forest-Born Cold-Arms Hammerfist Bathrak Stone Fjorder Kof Saffik Throtnir Turbjun
+		Ostkarn Sokanir
+	}
+	lowborn = {
+	}
+}
+
+minotaur_language = {
+	color = language_minotaur
+	family = other_nonhuman_language_family
+
+	male_names = {
+		Oftir Tarauk Zagoz Issiralagaz Fazir Ollgakir Deresur Lof Maranaz Hourfghe
+	}
+	female_names = {
+		Laya Horbphin Palaursa Zagox Xeje Jebr Uftagakis Lofkis Morunfaz Erlabbeig
+	}
+	dynasty_names = {
+		Hammerson "of Warm Heart" "Summer's Blood" "of Hill" Ironborn Narranadasur Decour Bunedasur Tlanour Vier
+	}
+	lowborn = {
+	}
+}
+
+broken_men_language = {
+	color = language_broken_men
+	family = other_nonhuman_language_family
+
+	male_names = {
+		Yos Sadar Zakar Izor Tana Hobble Comsten Millsur Garrow Burkard
+		Shontey Scarl Kirko Ainstor Chelden Darsouth Calda Halam Fraswin
+	}
+	female_names = {
+		Shakri Yosa Yoshe Ishaa Kazrin Halli Hilsin Oun Berna Bessey
+	}
+	dynasty_names = {
+		Yosak Keshar Zun Palsa Tesar Keelhorn Kaldack Ghostship Fenton Bris
+		Roug Desel Shawnbri Deserae Oldain Boatswain Privet Goldtooth Crabbe Capple
+	}
+	lowborn = {
+	}
+}
+
+lost_language = {
+	color = language_lost
+	family = other_nonhuman_language_family
+
+	male_names = {
+		Sahalaadin Uzmeir Jagrabutak Shamesh Shjabak Kapum Kelsharr Durbadidin Sharrahok Eshimel
+	}
+	female_names = {
+		Amasta Arsheibe Uzmairla Joshabek Shantana
+	}
+	dynasty_names = {
+		Sahri Ilim Inah Apos Ehok Aban Ekin
+	}
+	lowborn = {
+	}
+}
+
+mixed_language = {
+	color = language_mixed
+	family = other_nonhuman_language_family
+
+	male_names = {
+		Fahyed Syehad Sunim Abdahm Abduman Salbak Mubaisal Fairak Saymesh Ramer
+		Saoul Rakdra Omeh Rajshad Basheem Basheel Sali Ratosh Tamad Shasuf
+		Youyan Ashuf Sayn Surlik Daroz Omzal Sanaman Shain Razdep Harit
+	}
+	female_names = {
+		Aleha Amapi Amoka Baia Dunfa Elmifa Faima Fatame Gaha Hayneen
+		Isma Imodra Kadea Kufri Salba Ratosi Shasusa Hara Omza Dara
+	}
+	dynasty_names = {
+		Hashra Onasail Wakra Qohati Felnaiz Chained Refes Smarn Shaoq Quan
+		Verilic Barkana Utohan Qat Aghuwad Ansr Althani Mohajabin Khusadaj Duhain
+		Almed Khamar Mohan Abdud Naiman Ala Shaisari Salassan Hassad Yarma
+	}
+	lowborn = {
+	}
+}
+

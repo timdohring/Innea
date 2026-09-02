@@ -1,0 +1,100 @@
+# Broken Men cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+styric_culture = {
+	language = broken_men_language
+	color = culture_styric
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+black_islander_culture = {
+	language = broken_men_language
+	color = culture_black_islander
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+yoshi_culture = {
+	language = broken_men_language
+	color = culture_yoshi
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+fjordic_culture = {
+	language = broken_men_language
+	color = culture_fjordic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+vexed_culture = {
+	language = broken_men_language
+	color = culture_vexed
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+fingerling_culture = {
+	language = broken_men_language
+	color = culture_fingerling
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+nightlandic_culture = {
+	language = broken_men_language
+	color = culture_nightlandic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+
+atlic_culture = {
+	language = broken_men_language
+	color = culture_atlic
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		broken_men_group
+	}
+}
+

@@ -1,0 +1,40 @@
+# Blue Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+akoloan_culture = {
+	language = blue_elf_language
+	color = culture_akoloan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		blue_elf_group
+	}
+}
+
+fateonan_culture = {
+	language = blue_elf_language
+	color = culture_fateonan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		blue_elf_group
+	}
+}
+
+manan_culture = {
+	language = blue_elf_language
+	color = culture_manan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		blue_elf_group
+	}
+}
+

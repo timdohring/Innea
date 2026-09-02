@@ -1,0 +1,30 @@
+# Innea languages - family: human_orea
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+kaddian_language = {
+	color = language_kaddian
+	family = human_orea_language_family
+
+	male_names = {
+		Niisu Suria Dimert Sin Na Atukun Uktanu Kurgal Libdu Shu
+		Ni Kurish Marduk Belisna Abi Shu Nabu Sur Ashun Ilishu
+		Naulu Ameldug Erib Mulu Akmar Pesta Manwa Hasutanu Nakshi Waswalla
+		Kahip Lakwalla Ranu Tik
+	}
+	female_names = {
+		Zaka Aya Ku Yadid Ishkasu Enhedu Yasunu Iltashu Ashuldana Ku
+		Basu Alit Davnit Ninsum Analsu Belki Gemsur Annaya Mala Asdu
+		Alina Kawi
+	}
+	dynasty_names = {
+		Lashi Sip Agadu Urun Sham Sham Kudli Ishgantar Akanu Alon
+		Ishid Ashu Kalip Kalu Ko Eyma Ud Sha No Ku
+		Sa Mu Lolipgantar Malspanu Malginu Shapanu Atonu Elotunu Eshu Larzun
+		Jemu Ashulu Laru
+	}
+	lowborn = {
+	}
+}
+

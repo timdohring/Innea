@@ -1,0 +1,172 @@
+# Layanic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+bo_vao_culture = {
+	language = layanic_language
+	color = culture_bo_vao
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+kinh_vao_culture = {
+	language = layanic_language
+	color = culture_kinh_vao
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+muonh_culture = {
+	language = layanic_language
+	color = culture_muonh
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+nam_culture = {
+	language = layanic_language
+	color = culture_nam
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+phoan_culture = {
+	language = layanic_language
+	color = culture_phoan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+khuchang_lou_culture = {
+	language = layanic_language
+	color = culture_khuchang_lou
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+lang_tai_culture = {
+	language = layanic_language
+	color = culture_lang_tai
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+phit_lou_culture = {
+	language = layanic_language
+	color = culture_phit_lou
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+rat_lou_culture = {
+	language = layanic_language
+	color = culture_rat_lou
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+banglan_culture = {
+	language = layanic_language
+	color = culture_banglan
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+khmon_culture = {
+	language = layanic_language
+	color = culture_khmon
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+pret_run_culture = {
+	language = layanic_language
+	color = culture_pret_run
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+kapo_culture = {
+	language = layanic_language
+	color = culture_kapo
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+
+nongthai_culture = {
+	language = layanic_language
+	color = culture_nongthai
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		layanic_group
+	}
+}
+

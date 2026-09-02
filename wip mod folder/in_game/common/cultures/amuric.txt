@@ -1,0 +1,88 @@
+# Amuric cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ashari_culture = {
+	language = amuric_language
+	color = culture_ashari
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+saynan_culture = {
+	language = amuric_language
+	color = culture_saynan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+nacin_culture = {
+	language = amuric_language
+	color = culture_nacin
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+fuan_culture = {
+	language = amuric_language
+	color = culture_fuan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+qaftal_culture = {
+	language = amuric_language
+	color = culture_qaftal
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+qar_culture = {
+	language = amuric_language
+	color = culture_qar
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+
+catulan_culture = {
+	language = amuric_language
+	color = culture_catulan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		amuric_group
+	}
+}
+

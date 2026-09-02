@@ -1,0 +1,16 @@
+# Ywq cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+nubite_culture = {
+	language = ywq_language
+	color = culture_nubite
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		ywq_group
+	}
+}
+

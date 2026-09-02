@@ -1,0 +1,88 @@
+# Brilthic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+upper_brilthic_culture = {
+	language = brilthic_language
+	color = culture_upper_brilthic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+lower_brilthic_culture = {
+	language = brilthic_language
+	color = culture_lower_brilthic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+blakkan_culture = {
+	language = brilthic_language
+	color = culture_blakkan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+orsh_culture = {
+	language = brilthic_language
+	color = culture_orsh
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+soling_culture = {
+	language = brilthic_language
+	color = culture_soling
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+aven_culture = {
+	language = brilthic_language
+	color = culture_aven
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+
+graen_culture = {
+	language = brilthic_language
+	color = culture_graen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		brilthic_group
+	}
+}
+

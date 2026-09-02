@@ -1,0 +1,112 @@
+# Capic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+hranan_culture = {
+	language = capic_language
+	color = culture_hranan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+dinali_culture = {
+	language = capic_language
+	color = culture_dinali
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+walan_culture = {
+	language = capic_language
+	color = culture_walan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+karian_culture = {
+	language = capic_language
+	color = culture_karian
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+pandu_culture = {
+	language = capic_language
+	color = culture_pandu
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+waduli_culture = {
+	language = capic_language
+	color = culture_waduli
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+lissean_culture = {
+	language = capic_language
+	color = culture_lissean
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+akavan_culture = {
+	language = capic_language
+	color = culture_akavan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+
+cayyan_culture = {
+	language = capic_language
+	color = culture_cayyan
+	tags = { middle_east_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		capic_group
+	}
+}
+

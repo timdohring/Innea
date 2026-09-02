@@ -1,0 +1,16 @@
+# Lost Elf cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ekweni_culture = {
+	language = lost_elf_language
+	color = culture_ekweni
+	tags = { african_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		lost_elf_group
+	}
+}
+

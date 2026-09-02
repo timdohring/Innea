@@ -1,0 +1,64 @@
+# Zgo cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+ngona_culture = {
+	language = zgo_language
+	color = culture_ngona
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zgo_group
+	}
+}
+
+mazdi_culture = {
+	language = zgo_language
+	color = culture_mazdi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zgo_group
+	}
+}
+
+akage_culture = {
+	language = zgo_language
+	color = culture_akage
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zgo_group
+	}
+}
+
+zabwe_culture = {
+	language = zgo_language
+	color = culture_zabwe
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zgo_group
+	}
+}
+
+ronar_culture = {
+	language = zgo_language
+	color = culture_ronar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		zgo_group
+	}
+}
+

@@ -1,0 +1,220 @@
+# Innea languages - family: elvish
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+high_elf_language = {
+	color = language_high_elf
+	family = elvish_language_family
+
+	male_names = {
+		Alaon Akusary Bollahti Uerder Beagis Aawir Ceseon Celltu Caullthum Cijis
+		Deravam Eleos Uwaii Fonwith Fysumir Iuell Dara Jouas Verrasnimilin Llann
+		Llouthwer Talas Vimyaon Peres Tarol Urellus Sisara Vulwara Ynyaoth Ylthrin
+		Joe Llotar
+	}
+	female_names = {
+		Iuelle Darae Jousae Llanne Vulware Talase Aae Ceutue Cijie Llouthe
+		Aardisith Yulwah Nornaes Zuwicce Llorana Uthyss Mirilis Opere Erae Fourlanithiras
+	}
+	dynasty_names = {
+		Duwar Aele Nariny Rhau Sena Lightborn Jeethira Usotera Casca Illtyria
+		Asatuen Fyorlen Thanath Tharus Thalos Llorath Llerellen Opur Goldenhand Brightstar
+		Kingmaker Kingbreaker Turth Dedeon Kauliss Venerath Vullwari Yoneye Espar Sezeu
+	}
+	lowborn = {
+	}
+}
+
+river_elf_language = {
+	color = language_river_elf
+	family = elvish_language_family
+
+	male_names = {
+		Eleon Eawir Ceseon Cijies Weleos Wuara Ewurr Donadis Aswoul Anuralaris
+		Iiath Iittari Iliithryn Wuolvwe Wuolradaii Loenthar Uwerdis Jolloth Axaxes Oroso
+		Orepurin Telaroso Uaawin Ecapas Viir Delatun Cel Celrath Ithys Thurndeasl
+	}
+	female_names = {
+		Cela Ceia Lloune Ecae Yuwahe Uarae Axare Oronomea Lotaris Uawynder
+		Sosoro Iian Wleanpurre Avii Nuande Epassh Joen Misay Telvin Dianethin
+	}
+	dynasty_names = {
+		Cevan Sedur Rivw Silverhand Isafaa Avar Viithin Lian River Waterborn
+		Weedspawn Teril Devan Celrii Iiathenmur Yolhti Neanderi Usswa Elaer Thera
+		Seduir Ciiphe Avanle Naita Rain Vwoulra Woulen Iiathi Necassa Ceiis
+	}
+	lowborn = {
+	}
+}
+
+ice_elf_language = {
+	color = language_ice_elf
+	family = elvish_language_family
+
+	male_names = {
+		Apa Beinvor Elia Shano Pulas Eun Issitir Shanin Obo Tenmui
+		Leonliwil Derarada Ponshin Welossh Hounmi Astal Peinru Sirul Falanmissh Vorasshinmi
+	}
+	female_names = {
+		Sou Deanas Shanous Issis Astas Sirus Deras Loenis Teniul Enmis
+		Firalassh Dweonida Tols Mirmimes Valwu Ienwe Aew Uinn Ulai Onodassha
+	}
+	dynasty_names = {
+		Mirmami Iss Palde Vonwui Wesa Eskarribi Donuil Shatterfrost Lonwui Elwui
+		Icestar Coldheart Frozenchild Yellowcourt Ilwai Nisshia Bolae Uldona Uinas Ansoshu
+	}
+	lowborn = {
+	}
+}
+
+dark_elf_language = {
+	color = language_dark_elf
+	family = elvish_language_family
+
+	male_names = {
+		Anas Alor Arvath Ardin Athos Belad Braveth Beses Borvus Daltho
+		Daynith Deradon Durith Elem Endras Fellor Frov Farvar Folyr Galadis
+		Gilsoth Gelth Lladriel Hlorn Hlasevan Odrin Odrev Sarim Mathis Mothryn
+		Son Serevyn Tenuviel Terevain Toldrath Sinuth Viras Vyvain Vonur Ulvar
+	}
+	female_names = {
+		Ada Arva Avra Ethos Aldina Deradran Tolsin Tenma Belvasu Ulvar
+		Sa Tenmora Vira Vyva Vonu Galavi Enora Medossa Managi Olvatha
+		Veratu Verau Sasenna Siluan Vivassa Ninare Hlani Sena Thesi Midragil
+	}
+	dynasty_names = {
+		"tath Indrys" "tath Nulva" "tath Naa" "tath Kan" "tath Tir" Telasi Ruska "of the Deadlands" Vali Trin
+		Hlovath Llenmyr Andressa Shatha Salvori Llanagli Drethin Saalu Vanthir Thalathan
+		Othelas Vireloth Velas Virith Mangoran Turanadas Aloth Rolavyn Reses Rethavyn
+		Ulesses Uvaros Orindan Esobe Kotobe Adrun Ralmaroran Barsersalvi Hlaloth Athaniron
+	}
+	lowborn = {
+	}
+}
+
+fire_elf_language = {
+	color = language_fire_elf
+	family = elvish_language_family
+
+	male_names = {
+		Narsis Ara Aban Kalon Navahran Antrisart Vakah Mnatson Varbar Sahom
+		Yezan Anastas Arzom Yeretav Vatavaloj Dashyn Beveram Takha Ashat Hrad
+	}
+	female_names = {
+		Hnazant Voslva Khoara Davedis Dzamaer Penyamin Vatapa Maran Argosa Khnava
+	}
+	dynasty_names = {
+		Dzaghonbria Bagakehimgosian Kiraferman Babayadza Gamkirian Marotoukh Muratyakh Ghukponov Yeghadonkhir Sarkasigogayn
+		"ye Masja" "ye Lov" "ye Vakyesev" "ye Meta" "ye Dzy" Ararian Vardevian Varavarian Kaparian Dragavian
+	}
+	lowborn = {
+	}
+}
+
+sea_elf_language = {
+	color = language_sea_elf
+	family = elvish_language_family
+
+	male_names = {
+		Arvein Beled Dalthio Dered Edrin Serim Methan Seneth Tonave Sentar
+		Peledrion Pelanad Eilon Egon Umunel Neloraen Estor Tendor Emad Deledion
+		Telon Kelret Kelm Lenthir Oreses Eiath Eitar Kinsim Ewir Elon
+	}
+	female_names = {
+		Anelle Kinura Eirin Eilin Ohape Umoin Penadil Hasuriona Telade Eita
+		Eia Leondi Kelra Seramina Metho Tonovo Ontap Pelanas Eisten Madissin
+	}
+	dynasty_names = {
+		Duinoth Al Ut Al Ec Al Kaladan Al Jael Al
+		Sirisin Silavsin Gilsin Anosin Aethaisin Honshu Peladrin Velender Ecalras Shuntar
+		Aethan Nowis Utalas Thadrian Elinomor Perpasin Lounthrin Deresadrin Falanthir Untho
+		Kalarawe Undogewen Houtha Piro Udual
+	}
+	lowborn = {
+	}
+}
+
+wood_elf_language = {
+	color = language_wood_elf
+	family = elvish_language_family
+
+	male_names = {
+		Finander Filas Egelir Althafrin Araen Glathgwin Olmin Finthian Feror Boleth
+		Ulwhar Elserond Galadrim Borca Caelthwhur Tisildun Malbrin Edagor Fan Gomlaf
+		Heremes Ungor Thodrin Relaf Filamin Felagast Cirdiwin Donthir Beradon Onbelon
+	}
+	female_names = {
+		Ada Nilieon Tharwha Lodriel Gawarin Efe Aen Lofara Dalsin Enduis
+		Glodis Galsaelphi Dontha Taralie Ulwhen Emana Forin Feralagath Fedrion Fana
+	}
+	dynasty_names = {
+		Birch Aster Root Juniper Beech Elm Fir Aspen Ash Willow
+		Cesswar Telandru Thelapp Condiun Malbronch Faral Feraluin Festin Anamor Hollowed-Ashes
+		Elmedath Ulfedath Falfe Boeketh Deidran Gaeni Ewido Lano Londirath Legano
+	}
+	lowborn = {
+	}
+}
+
+night_elf_language = {
+	color = language_night_elf
+	family = elvish_language_family
+
+	male_names = {
+		Shaq Akam Shkenoba Nasir Lastar Thjesh Erlim Tumush Defrim Ahsin
+		Taturin Xhe Xhemain Larus Shqano Ushul Butuz Aldant Flabian Malgor
+		Gjerluz Palush Adnash Luiktor Edoxh Sear Sulshko Dhutero Raenv Ashqko
+	}
+	female_names = {
+		Dilini Aje Verata Daze Miosana Detare Yllno Ngaze Delqet Samivi
+		Shqanal Lidij Lume Dranvir Ezra Shprase Lula Vesara Aferana Illit
+	}
+	dynasty_names = {
+		Zei Ashto Shenq Shqao Isu Tenta Pinso Puris Shadow Shadowborn
+		Sele Asum Ivi Taos Nelvenshq Xoqa Lajan Trehj Isaj Uruj
+		Shkano Shakin Darepi Damir Darriv Dina Shepe Iskan Tepem Vul
+	}
+	lowborn = {
+	}
+}
+
+blue_elf_language = {
+	color = language_blue_elf
+	family = elvish_language_family
+
+	male_names = {
+		Terao Hapatao Tuearu Hauru Uruta Aifiro Tunutaha Manora Moepai Vanua
+		Vari Tua Teaui Taura Tua Vaeve Tehmai Pafu Aia Toa
+		Vaora Teofai
+	}
+	female_names = {
+		Tuputu Purepiri Ino Tapra Taitera Terinia Tertua Hotro Aute Poipua
+	}
+	dynasty_names = {
+		Nukuliva Nukuloa Coralborn Yayku Fateon Akolo Mana Avaklo Lito Vito
+		Persal Kitathol White Viko Nito Avanu Mauko Petepatu Lua Muo
+	}
+	lowborn = {
+	}
+}
+
+lost_elf_language = {
+	color = language_lost_elf
+	family = elvish_language_family
+
+	male_names = {
+		Thembinok Thalzina Jamwakh Behimza Mzo Faldi Fumgon Mgawele Bangizgane Linqondi
+		Sibmpi Nkoshinsa Nkoshanzi Amekili Azi Eethkinbu Habkhanda Mfangile Musu Kumuthaba
+	}
+	female_names = {
+		Dumazile Siphokaelelo Kholasi Indlovu Thanma Ngovu Mhani Xolbisa Thanemba Sibmgagqondi
+	}
+	dynasty_names = {
+		Ako Ukwandi Mgosa Ndonga Ewekanu Lonumu Ndaku iKhanango Ulung Mgozi
+		Mgondi
+	}
+	lowborn = {
+	}
+}
+

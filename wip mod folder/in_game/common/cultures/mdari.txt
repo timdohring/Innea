@@ -1,0 +1,76 @@
+# Mdari cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+treddan_culture = {
+	language = mdari_language
+	color = culture_treddan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+
+shieldhand_orc_culture = {
+	language = mdari_language
+	color = culture_shieldhand_orc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+
+white_orc_culture = {
+	language = mdari_language
+	color = culture_white_orc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+
+kashak_culture = {
+	language = mdari_language
+	color = culture_kashak
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+
+gangyz_culture = {
+	language = mdari_language
+	color = culture_gangyz
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+
+uyguz_culture = {
+	language = mdari_language
+	color = culture_uyguz
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		mdari_group
+	}
+}
+

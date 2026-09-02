@@ -1,0 +1,64 @@
+# Onu cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+atsuna_culture = {
+	language = onu_language
+	color = culture_atsuna
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		onu_group
+	}
+}
+
+homagara_culture = {
+	language = onu_language
+	color = culture_homagara
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		onu_group
+	}
+}
+
+ondai_culture = {
+	language = onu_language
+	color = culture_ondai
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		onu_group
+	}
+}
+
+tsu_culture = {
+	language = onu_language
+	color = culture_tsu
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		onu_group
+	}
+}
+
+sokuro_culture = {
+	language = onu_language
+	color = culture_sokuro
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		onu_group
+	}
+}
+

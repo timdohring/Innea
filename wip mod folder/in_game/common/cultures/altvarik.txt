@@ -1,0 +1,16 @@
+# Altvarik cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+chezan_culture = {
+	language = altvarik_language
+	color = culture_chezan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		altvarik_group
+	}
+}
+

@@ -1,0 +1,64 @@
+# Aspic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+rohelin_culture = {
+	language = aspic_language
+	color = culture_rohelin
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		aspic_group
+	}
+}
+
+dragonborn_culture = {
+	language = aspic_language
+	color = culture_dragonborn
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		aspic_group
+	}
+}
+
+sentic_culture = {
+	language = aspic_language
+	color = culture_sentic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		aspic_group
+	}
+}
+
+nisten_culture = {
+	language = aspic_language
+	color = culture_nisten
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		aspic_group
+	}
+}
+
+dorean_culture = {
+	language = aspic_language
+	color = culture_dorean
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		aspic_group
+	}
+}
+

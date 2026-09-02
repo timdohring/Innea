@@ -1,0 +1,52 @@
+# Nurkic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+trayish_culture = {
+	language = nurkic_language
+	color = culture_trayish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		nurkic_group
+	}
+}
+
+mersic_culture = {
+	language = nurkic_language
+	color = culture_mersic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		nurkic_group
+	}
+}
+
+raalic_culture = {
+	language = nurkic_language
+	color = culture_raalic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		nurkic_group
+	}
+}
+
+mantic_culture = {
+	language = nurkic_language
+	color = culture_mantic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		nurkic_group
+	}
+}
+

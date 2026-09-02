@@ -1,0 +1,112 @@
+# Kuzic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+vehkan_culture = {
+	language = kuzic_language
+	color = culture_vehkan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+black_orc_culture = {
+	language = kuzic_language
+	color = culture_black_orc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+iron_orc_culture = {
+	language = kuzic_language
+	color = culture_iron_orc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+jarai_culture = {
+	language = kuzic_language
+	color = culture_jarai
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+golkhar_culture = {
+	language = kuzic_language
+	color = culture_golkhar
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+skavith_culture = {
+	language = kuzic_language
+	color = culture_skavith
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+qichond_culture = {
+	language = kuzic_language
+	color = culture_qichond
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+ashkazi_culture = {
+	language = kuzic_language
+	color = culture_ashkazi
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+
+tulsuq_culture = {
+	language = kuzic_language
+	color = culture_tulsuq
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		kuzic_group
+	}
+}
+

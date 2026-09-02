@@ -1,0 +1,162 @@
+# Innea languages - family: human_emea
+# Name lists come from the EU4 culture GROUP of the same name (EU4 keeps names on the
+# group; EU5 keeps them on the language). Where an EU4 culture had its own name list,
+# those names are merged in here so none are lost.
+
+layanic_language = {
+	color = language_layanic
+	family = human_emea_language_family
+
+	male_names = {
+		"Vuong Mi" "Huyn Hoh" "Bui Tao" "Shan Tao" "Nguyhon Hao" "Bui Pho" "Huvu Thea" "Duon Phuc" "Lan Nam" "Nguy Hai"
+		"Vien Vao" "Vien Bao" "Vien Tao" "Bui Pho" "Duon Nam" "Nguyhon Hai" "Nguyhon Hoh" "Nguyhon Mi" "Ngo Ngu" "Pac Hoanm"
+		"Diep Hu" Thit Kamalme Krisdana Thisik Traime Kanatta Niphit Nisowit Trangpan
+		Mongkawin Tangam Skakawin Therapatong Kitchitau Piuy Alasi Kromluan Nathagot Thanan
+		Tulaphar
+	}
+	female_names = {
+		"Vien Dao" "Nguyhon Dao" "Nguyhon Phanta" "Vien Phatan" "Duon Ta" "Lan Ta" "Kimli Anh" "Kimli Ngan" "Shao Tua" "Vivaga Shastu"
+		Prawe Maliwa Dari Preeya Wanba Kulasnee Tulay Atnon Phatsam Nopji
+		Chontiltha Talae Uthanphen Mathawan Sujicho Chavee Nomla Lalsua Sasiratana Phayo
+	}
+	dynasty_names = {
+		Bao Kinahoslo Muonh Nam Phoan Kucha Lang Phit Rat Bangar
+		Khmo Pret Kapa Non Vie Phong Longor Xiyor Chibin Nahli
+		Huan Natror Haobo Vasay Repor Rungor Kampot Kamlut Vihor Langor
+		Khampul Maes Banjol Maror Guon Phittor Buenthor Chabuji Chian Narot
+	}
+	lowborn = {
+	}
+}
+
+erazi_language = {
+	color = language_erazi
+	family = human_emea_language_family
+
+	male_names = {
+		Seiqin Cadurow Cragrim Ihura Kirlekai Gozhul Xohar Wkhazis Otakin Zukar
+		Vrodun Dizhar Vaezur Karael Chuxin Sheikar Xara Bortan Kroxa Zrau
+	}
+	female_names = {
+		Kroxa Zrau Vrauti Raupris Vavezza Sha Xi Uzol Shan Xeroi
+		Chruva Ghana
+	}
+	dynasty_names = {
+		Necrol Nezh Raavi Paleborn Kar Xi Titanborn Whiteskinned Ashborn Swan
+		"of the Bone" Xu Sheiran Angsu "of the Dead" Zhei Szathi Havenborn Dan Veie
+	}
+	lowborn = {
+	}
+}
+
+snow_majuki_language = {
+	color = language_snow_majuki
+	family = human_emea_language_family
+
+	male_names = {
+		Yelin Khino Myane Hteyo Zeyar Myora Myin Khinoko Thurna Kywa
+		Maungsun Koye Zeyant Bowa Sein Zin U Wazura Mauntu Zawal
+		Thehein Bolin Pyasuk Linar Arakar Thuzar Thrubo Khain Zeyza Yaru
+		Thiuy
+	}
+	female_names = {
+		Myitzu Thuran Mon Nal Mhsu Nila Phone Htuyi Taidra Nanza
+		Phona Sukhin Myinan Hlaisi Thawat Ydana Nilanin Thinyi U Auna
+		Kaya Nwya
+	}
+	dynasty_names = {
+		Raka Yhana Askaya Kona Pywa Pautha Tawa Kaya Chaya Pana
+		Ei Mos Nine Thinza Hsu Nwa Drawin Ommda Htet Thein
+		Zeye Zin Nyan Kan Kaung Yen Ag Wai Lai Wadysu
+	}
+	lowborn = {
+	}
+}
+
+konkonu_language = {
+	color = language_konkonu
+	family = human_emea_language_family
+
+	male_names = {
+		Monokur Kowakeg Blakurg Uigonur Enk Glizret Wiaro Aterkei Bikkish Koshanke
+		Paskeur Sahnaino Shakushib Hennakta
+	}
+	female_names = {
+		Blucka Varonkig Kekurna Mintagu Paykuku Esohranma Horrera Monashiper Tekankemah Kuharpecha
+	}
+	dynasty_names = {
+		Hura tur Kera tur Mongask tur Noyate tur Rukanu tur
+		Paykamuy tur Uk tur Roskara tur Penion tur Mintar tur
+	}
+	lowborn = {
+	}
+}
+
+onu_language = {
+	color = language_onu
+	family = human_emea_language_family
+
+	male_names = {
+		Akisu Hira Katasu Kazure Kunsa Mastsu Moa Noge Shibo Yuku
+		Tosha Tena Sukshi Terki Uji Iju Fuka Atsa Suki Toshi
+		Moge Naro Nazu Ata Ieju Same Tasu Aku Hige Kare
+	}
+	female_names = {
+		Aguma Aneba Binchia Chiguri Dende Jukuji Furi Futama Haru Heku
+		Icha Ino Ischi Kajo Kanu Kitsoku Koychi Kumsai Mutu Riosaki
+	}
+	dynasty_names = {
+		Anenya Ayakusa Fujo Bojinami Fujiljo Hagibashi Hamuto Higasino Takedaiji Nishiuji
+		Hirojiri Ichiyoin Jikohasji Karatano Kawayooka Honushu Mikkaku Ronji Sanjo Tachimatsu
+		Takomoto Nakatani Nakamari Ogurshoin Sanjo Nijobakado Oharatagi Otazei Nitmiya Nishikaya
+	}
+	lowborn = {
+	}
+}
+
+zholin_language = {
+	color = language_zholin
+	family = human_emea_language_family
+
+	male_names = {
+		Zhao Xinha Suwan Lei Wie Yan Du Geng Cao Yian
+		Feng Xiao Liao Xinei Teng Zean Yue Tan Qun Suin
+		Tin Lao Dan Puan Zhu Lhen Mu Deng Jheng Zin
+		Men Cho Fui Heng Xion Xai Luang Hiu Qen Zian
+	}
+	female_names = {
+		Yiao Qang Tuan Qeng Han Zhao Yang Fi Wo Mei
+		Chan Feng Te Yeng Hang Tuo Lu Lang Wong Long
+		Meng Po Lion Kian Zhang Wuan Jhao Zia Dao Ging
+	}
+	dynasty_names = {
+		Jong Xa Heilong Zhong Shen Ban Guanglo Yun Zhu Onchu
+		Meilin Ayujia Zhezheng Yunin Angsu Sichu Ujiang Laoxan Bando Hei
+		Jili Chongi Zhong Xiang Gui Anxi Bei Ti Guijan Shang
+		Macing Jing Ninghai Hain Loing Huwe Ling Henji Xabei Nanluo
+	}
+	lowborn = {
+	}
+}
+
+goeguye_language = {
+	color = language_goeguye
+	family = human_emea_language_family
+
+	male_names = {
+		Sahak Aehyon Yomtae Noyou Hyonjun Yongjin Kunong Sipchaen Hanjae Mowu
+		Tae Sumochu Tongasun Kunon Naeseon Ryomi Nanean Malum Haneon Cheoljin
+	}
+	female_names = {
+		Tonahwa Kumsin Hwamu Pangum Inchool Pang Homa Yunchu Rimu Pilae
+	}
+	dynasty_names = {
+		Dasa Gang Dasa Jegu Dasa Buchoe Dasa Cheon Dasa Pyeon
+		Dasa Daes Dasa Anyejo Dasa Hwa Dasa Sincho Dasa Ujun
+		Anye Bokcheo Anye Ande Anye Cheong Anye Incho Anye Bugeon
+		Suye Jeon Suye Jeonpu Suye Gye Suye Bugeon Suye Gang
+	}
+	lowborn = {
+	}
+}
+

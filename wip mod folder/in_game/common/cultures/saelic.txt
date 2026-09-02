@@ -1,0 +1,64 @@
+# Saelic cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+selc_culture = {
+	language = saelic_language
+	color = culture_selc
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		saelic_group
+	}
+}
+
+einish_culture = {
+	language = saelic_language
+	color = culture_einish
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		saelic_group
+	}
+}
+
+slein_culture = {
+	language = saelic_language
+	color = culture_slein
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		saelic_group
+	}
+}
+
+dunlandic_culture = {
+	language = saelic_language
+	color = culture_dunlandic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		saelic_group
+	}
+}
+
+issoan_culture = {
+	language = saelic_language
+	color = culture_issoan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		saelic_group
+	}
+}
+

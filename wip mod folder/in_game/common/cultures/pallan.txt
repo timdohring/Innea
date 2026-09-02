@@ -1,0 +1,112 @@
+# Pallan cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+lockan_culture = {
+	language = pallan_language
+	color = culture_lockan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+freestatesmen_culture = {
+	language = pallan_language
+	color = culture_freestatesmen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+brongian_culture = {
+	language = pallan_language
+	color = culture_brongian
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+wreckan_culture = {
+	language = pallan_language
+	color = culture_wreckan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+shazan_culture = {
+	language = pallan_language
+	color = culture_shazan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+southcoaster_culture = {
+	language = pallan_language
+	color = culture_southcoaster
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+northcoaster_culture = {
+	language = pallan_language
+	color = culture_northcoaster
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+graylen_culture = {
+	language = pallan_language
+	color = culture_graylen
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+
+whetic_culture = {
+	language = pallan_language
+	color = culture_whetic
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		pallan_group
+	}
+}
+

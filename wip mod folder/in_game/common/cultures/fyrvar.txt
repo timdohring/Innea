@@ -1,0 +1,52 @@
+# Fyrvar cultures - ported from the EU4 mod.
+# language/color/tags are EU5 requirements with no EU4 source; colours are generated
+# and gfx tags are borrowed from vanilla as placeholders.
+
+modan_culture = {
+	language = fyrvar_language
+	color = culture_modan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fyrvar_group
+	}
+}
+
+kyfan_culture = {
+	language = fyrvar_language
+	color = culture_kyfan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fyrvar_group
+	}
+}
+
+karadan_culture = {
+	language = fyrvar_language
+	color = culture_karadan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fyrvar_group
+	}
+}
+
+thalan_culture = {
+	language = fyrvar_language
+	color = culture_thalan
+	tags = { european_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		fyrvar_group
+	}
+}
+
