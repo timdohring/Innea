@@ -108,6 +108,20 @@ Delete a file to fall back to vanilla's version.
    `common/religions`. Vanilla's Earth game-start has
    **never actually run on this map** — every earlier run died before reaching it — so expect fresh failures
    the first time anything non-empty loads there.
+
+   **Progress — `03_markets.txt` is done (2026-09-02):** no longer an empty override. All 122 EU4 trade
+   nodes from `common/tradenodes/00_tradenodes.txt` became markets, one per node, seated on the node's
+   `location`. **90 are active**; **32 are commented out** because their EU4 `location` is an EU5 sea zone,
+   which cannot hold a market — each carries a proposed land seat (highest Centre-of-Trade member,
+   preferring an exact node-name match) awaiting confirmation.
+
+   **The EU4→EU5 id bridge — reuse this for every future port:**
+   EU4 province id → RGB via `../map/location_def.csv` → 6-digit hex → EU5 location name via
+   `map_data/named_locations/00_default.txt`. EU4 `map/definition.csv` and `location_def.csv` share ids
+   and colours, so EU4 ids resolve directly. `../map/location_info.csv` adds per-id display name, dev,
+   Centre-of-Trade level, religion, culture and owner. **Always** classify the resolved location against
+   `default.map`'s `sea_zones`/`lakes`/`impassable_mountains` — EU4 puts content on sea provinces that
+   EU5 requires on land.
 2. **Test the custom `in_game/common/goods/`** set that is in the wip folder but not installed.
 3. **Lakes are also listed in `sea_zones`** (all 34; vanilla keeps the lists disjoint) — unfixed, untested.
 4. `layer=` values differ from vanilla for `city`/`unit_stack`/`vfx` locators.

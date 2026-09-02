@@ -1,6 +1,149 @@
-# DEBUG NEUTRALISATION 2026-08-30 - empty override of vanilla's Earth game-start.
-# Vanilla setup/start names Earth locations that do not exist on the Innea map.
-# Delete this file to fall back to vanilla's version.
+# Innea markets - one per trade node ported from the EU4 mod
 market_manager = {
-}
 
+	# ===== INNEA =====
+
+	# Eastern Innea (36)
+		add_market = arbor
+		add_market = blackhorse
+		add_market = bluewater
+		add_market = bydogyz
+		add_market = cabrela
+		add_market = cliffers_rock
+		add_market = debbes
+		add_market = devu
+		add_market = elcnoe
+		add_market = enia
+		add_market = euwex
+		add_market = fintonshire
+		add_market = fjordheim
+		add_market = goldvale
+		add_market = gothram
+		add_market = hallenheim
+		add_market = hersh
+		add_market = hreimgild
+		add_market = jofur
+		add_market = karsan
+		add_market = kastach
+		add_market = laurien
+		add_market = lower_aating
+		add_market = murlocke
+		add_market = nuqun_isle
+		add_market = nykra
+		add_market = nyrthe
+		add_market = onrell
+		add_market = orlone
+		add_market = ostralestia
+		add_market = port_oceanus
+		add_market = riverend
+		add_market = rivnyyr
+		add_market = selse
+		add_market = upper_elonia
+		add_market = ywellke
+
+	# Western Innea (33)
+		add_market = akhtadza
+		add_market = almorr
+		add_market = bradzd
+		add_market = bruvek
+		add_market = crystal
+		add_market = dawn
+		add_market = dernehborg
+		add_market = doern
+		add_market = doron
+		add_market = dusk
+		add_market = estre
+		add_market = farak
+		add_market = fawlok
+		add_market = hetwal
+		add_market = ilama_kanatu
+		add_market = jarnstein
+		add_market = kaganishwa
+		add_market = lizard_falls
+		add_market = magelight
+		add_market = magohes
+		add_market = molt
+		add_market = seawatch
+		add_market = selake
+		add_market = shiverscale
+		add_market = slavk
+		add_market = spiceport
+		add_market = sylt
+		add_market = taraal
+		add_market = thraum
+		add_market = trereborg
+		add_market = unwil
+		add_market = upper_ozamt
+		add_market = west_chewa
+
+	# ===== ASTREA =====
+
+	# Northern Astrea (28)
+		add_market = adventurers_bay
+		add_market = artesh
+		add_market = bajehad
+		add_market = balabagee
+		add_market = bhagal
+		add_market = bluethorn
+		add_market = daham
+		add_market = dashdan
+		add_market = dune
+		add_market = erdopor
+		add_market = fuad
+		add_market = gkuzu
+		add_market = jonphaang
+		add_market = kajental
+		add_market = khaleesh_predan
+		add_market = khamra
+		add_market = lis
+		add_market = martain
+		add_market = oasis
+		add_market = qalar
+		add_market = sadrat
+		add_market = saelon
+		add_market = seylom
+		add_market = solice
+		add_market = soyunduz
+		add_market = valant
+		add_market = vittor
+		add_market = wake
+
+	# Southern Astrea (2)
+		add_market = aken
+		add_market = qatul
+
+	# ===== PANORIA =====
+
+	# Panoria (1)
+		add_market = tyrven_bor
+
+	# ===== OREA =====
+
+	# Orea (5)
+		add_market = faisa
+		add_market = ish
+		add_market = ko_shamu
+		add_market = mgondi
+		add_market = mulwar
+
+	# ===== EMEA =====
+
+	# Emea (17)
+		add_market = anxhou
+		add_market = as_zhei
+		add_market = buo_phong
+		add_market = foshomen
+		add_market = iraak
+		add_market = kampong
+		add_market = kantang
+		add_market = karobu
+		add_market = kyato_u
+		add_market = liuning
+		add_market = magthagaing
+		add_market = mengli
+		add_market = minapakur
+		add_market = ninhar
+		add_market = seosan
+		add_market = vienmarat
+		add_market = wenzhai
+}
