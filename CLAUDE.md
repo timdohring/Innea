@@ -30,6 +30,7 @@ game-start is the next major body of work.
 |---|---|
 | `wip mod folder/` | **The EU5 mod itself.** Working source of truth; mirrors the mod folder the game loads. |
 | `DEBUG_SESSION_NOTES.md` | Full engineering log of the EU5 load-failure investigation. **Essential reading.** |
+| `TODO.md` | Working task list — game-start, religions, markets, map/engine, housekeeping. |
 | `CLAUDE.md`, `README.md` | This orientation file and the repo readme. |
 
 ### Outside the repo — local working material one level up (`..\`)
@@ -102,6 +103,8 @@ Delete a file to fall back to vanilla's version.
 
 ## 5. Open work, in priority order
 
+**The actionable checklist lives in `TODO.md`.** This section is the narrative context behind it.
+
 1. **Build the Innea game-start.** Replace the empty `main_menu/setup/start/` overrides with real Innea
    markets, countries, pops, characters, buildings, institutions, roads. Port from the EU4 mod at
    `../Version 1.3 (1.33)/2226968141/` — its `common/countries`, `history/`, `common/cultures`,
@@ -109,11 +112,14 @@ Delete a file to fall back to vanilla's version.
    **never actually run on this map** — every earlier run died before reaching it — so expect fresh failures
    the first time anything non-empty loads there.
 
-   **Progress — `03_markets.txt` is done (2026-09-02):** no longer an empty override. All 122 EU4 trade
-   nodes from `common/tradenodes/00_tradenodes.txt` became markets, one per node, seated on the node's
-   `location`. **90 are active**; **32 are commented out** because their EU4 `location` is an EU5 sea zone,
-   which cannot hold a market — each carries a proposed land seat (highest Centre-of-Trade member,
-   preferring an exact node-name match) awaiting confirmation.
+   **Progress — `03_markets.txt` is done (2026-09-02):** no longer an empty override. All **122** EU4 trade
+   nodes from `common/tradenodes/00_tradenodes.txt` became markets, one per node, all active. 90 sat on a
+   land location and use it directly; **32 sat on a sea zone**, which cannot hold a market, and were reseated
+   on a **coastal** land member of that node (must appear in `map_data/ports.csv`), chosen by name match with
+   the node, then Centre-of-Trade level, then development. The file is grouped by continent/subcontinent,
+   derived from `map_data/definitions.txt`. Six seats were reseated purely because the first choice turned out
+   to be landlocked. Three of the eight continents (`menea`, `perlea`, `vulthark`) have no market at all —
+   inherited from the EU4 node list, never a deliberate decision.
 
    **The EU4→EU5 id bridge — reuse this for every future port:**
    EU4 province id → RGB via `../map/location_def.csv` → 6-digit hex → EU5 location name via
@@ -122,6 +128,27 @@ Delete a file to fall back to vanilla's version.
    Centre-of-Trade level, religion, culture and owner. **Always** classify the resolved location against
    `default.map`'s `sea_zones`/`lakes`/`impassable_mountains` — EU4 puts content on sea provinces that
    EU5 requires on land.
+   **Progress — religions are ported (2026-09-02, untested):** 21 groups / 69 religions from the EU4
+   mod's single `common/religions/innea_religion.txt`, split EU5-style into one file per group.
+   → `main_menu/common/named_colors/03_innea_religions.txt` (90 colour tokens, EU4 RGB verbatim — note
+   `named_colors` is under `main_menu/`, the only such dir in the game),
+   `in_game/common/religion_groups/01_innea.txt`, `in_game/common/religions/<group>.txt` × 21.
+   EU4 modifiers were remapped to their nearest EU5 equivalent — 49 keys, 175 of 227 lines (77%), each
+   keeping its EU4 original as a trailing comment; the rest are comments. Targets validated against
+   `main_menu/common/modifier_type_definitions/` (2436 names). EU4-only mechanics
+   (`defender_of_faith`, `fervor`, `personal_deity`, `heretic`, `allowed_conversion`, `on_convert`)
+   are comments only. Still missing: localisation, gfx `tags`, `language`, and any pop using them.
+
+   **Locations now carry real religions:** `map_data/location_templates.txt` had `religion = catholic` on
+   all 4518 land templates; 4306 now hold their Innea religion, sourced from the EU4 mod's
+   `history/provinces/` (its keys are already snake_case and match the ported names — a better source than
+   `location_info.csv` labels). The 212 still on `catholic` are Perlea/Menea/Vulthark, three continents
+   that were **never authored in the EU4 mod** — see `TODO.md` §7. `culture` there is still the `swedish`
+   placeholder, blocked on porting cultures.
+
+   **Additive, never overriding vanilla:** per the user's standing preference, ported content adds new
+   Innea files alongside vanilla's rather than copying or emptying base-game files, so nothing goes stale
+   on a patch. Name collisions are checked first — there were none for markets or religions.
 2. **Test the custom `in_game/common/goods/`** set that is in the wip folder but not installed.
 3. **Lakes are also listed in `sea_zones`** (all 34; vanilla keeps the lists disjoint) — unfixed, untested.
 4. `layer=` values differ from vanilla for `city`/`unit_stack`/`vfx` locators.

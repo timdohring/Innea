@@ -1,0 +1,65 @@
+# Taurosian religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+hammerlord = {
+	color = religion_hammerlord
+	group = taurosian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		army_heavy_infantry_power                  = 0.1     # EU4: country infantry_power = 0.1
+		siege_ability                              = 0.1     # EU4: country siege_ability = 0.1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { TRAGANS }
+	#   icon = 45  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+oscaerwikkan = {
+	color = religion_oscaerwikkan
+	group = taurosian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_manpower_modifier                   = 0.2     # EU4: country global_manpower_modifier = 0.2
+		global_army_levy_size_modifier             = 0.2     # EU4: country land_forcelimit_modifier = 0.2
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { NURSWIKKAN }
+	#   icon = 44  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+nurnadach = {
+	color = religion_nurnadach
+	group = taurosian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_own                              = 2       # EU4: country tolerance_own = 2
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country state_maintenance_modifier = -0.5
+	#   heretic = { CLEMENACH }
+	#   icon = 7  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

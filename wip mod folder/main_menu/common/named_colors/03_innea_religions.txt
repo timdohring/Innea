@@ -1,0 +1,136 @@
+# Innea religion colours - ported from the EU4 mod's religion definitions.
+# Values are the EU4 RGB triples verbatim.
+colors = {
+	# yordic
+	religion_group_yordic                       = rgb { 244 244 244 }
+	religion_old_yorr                           = rgb { 244 244 244 }
+	religion_church_of_yon                      = rgb { 135 147 173 }
+	religion_yoneth                             = rgb { 191 191 191 }
+	religion_yorik                              = rgb { 127 115 115 }
+
+	# megechezd
+	religion_group_megechezd                    = rgb { 135  77 255 }
+	religion_zakritz                            = rgb { 135  77 255 }
+	religion_fyzajak                            = rgb { 244  55   9 }
+
+	# magawic
+	religion_group_magawic                      = rgb { 204  76 127 }
+	religion_ashar                              = rgb { 204  76 127 }
+	religion_shatvili                           = rgb { 204  76  76 }
+
+	# elven_houses
+	religion_group_elven_houses                 = rgb { 214 229 140 }
+	religion_dead_house                         = rgb { 214 229 140 }
+	religion_flame_house                        = rgb { 204   0   0 }
+	religion_star_house                         = rgb { 127  25 178 }
+
+	# isht
+	religion_group_isht                         = rgb { 127 178  51 }
+	religion_goz                                = rgb { 127 178  51 }
+	religion_drekana                            = rgb {   0 102   0 }
+	religion_ashatapul                          = rgb {   0 204   0 }
+	religion_ejje_nvek                          = rgb {   0 153   0 }
+	religion_the_mist                           = rgb { 153  25 102 }
+
+	# anuidic
+	religion_group_anuidic                      = rgb {  22 250 246 }
+	religion_aaqan                              = rgb {  22 250 246 }
+
+	# kaelthic
+	religion_group_kaelthic                     = rgb {  49  87  13 }
+	religion_celiicean                          = rgb {  49  87  13 }
+	religion_ywakra                             = rgb {  30 123 105 }
+	religion_dochar                             = rgb {  30  30  30 }
+
+	# innean_cults
+	religion_group_innean_cults                 = rgb {  14  37  97 }
+	religion_sea_cult                           = rgb {  14  37  97 }
+	religion_the_coin                           = rgb { 193 159  67 }
+	religion_blood_cult                         = rgb { 148  12  16 }
+	religion_moon_cult                          = rgb { 191 216 222 }
+	religion_sun_cult                           = rgb { 247 224  10 }
+	religion_throne_cult                        = rgb { 171  15 148 }
+	religion_death_cult                         = rgb {  60  30   0 }
+
+	# church_of_the_thirteen
+	religion_group_church_of_the_thirteen       = rgb {   0   0 178 }
+	religion_brilthic_church                    = rgb {   0   0 178 }
+	religion_murtharic                          = rgb {  12 148  16 }
+	religion_altran_church                      = rgb { 207 129  12 }
+	religion_paisadox                           = rgb {  80   0 171 }
+
+	# elven_temples
+	religion_group_elven_temples                = rgb { 255 255 255 }
+	religion_syllari_temple                     = rgb { 255 255 255 }
+	religion_cindari_temple                     = rgb { 171  74 176 }
+	religion_iskari_temple                      = rgb {   0 204 204 }
+	religion_nursari_temple                     = rgb {  76  76 229 }
+	religion_ewafari_temple                     = rgb {  64 115 115 }
+
+	# all_mothers
+	religion_group_all_mothers                  = rgb {  38 212 161 }
+	religion_springmother                       = rgb {  38 212 161 }
+	religion_woodmother                         = rgb { 127  76  76 }
+	religion_lakemother                         = rgb {   0 153 153 }
+	religion_horsemother                        = rgb { 178 127   0 }
+	religion_birdmother                         = rgb { 127   0   0 }
+	religion_dreammother                        = rgb { 197 133  43 }
+
+	# doxian
+	religion_group_doxian                       = rgb { 178  38  76 }
+	religion_old_doxian                         = rgb { 178  38  76 }
+	religion_the_word                           = rgb {  64 115  64 }
+	religion_manolic                            = rgb {  25  76 217 }
+	religion_the_one_truth                      = rgb { 207 193   0 }
+
+	# taurosian
+	religion_group_taurosian                    = rgb {   0   0   0 }
+	religion_hammerlord                         = rgb {   0   0   0 }
+	religion_oscaerwikkan                       = rgb { 133  60  86 }
+	religion_nurnadach                          = rgb { 135 161 191 }
+
+	# kemel
+	religion_group_kemel                        = rgb { 217 191  26 }
+	religion_ametic                             = rgb { 217 191  26 }
+	religion_asite                              = rgb { 149 156  19 }
+
+	# avalean
+	religion_group_avalean                      = rgb {  58 145 108 }
+	religion_quatzalotl                         = rgb {  58 145 108 }
+	religion_vua_avaku                          = rgb {  17 194 153 }
+
+	# esharic
+	religion_group_esharic                      = rgb {  39  42 186 }
+	religion_shuri                              = rgb {  39  42 186 }
+	religion_abai                               = rgb {  69  80 181 }
+	religion_sukkali                            = rgb {  52  43 122 }
+	religion_ishuli                             = rgb {  80 150 242 }
+
+	# jhon
+	religion_group_jhon                         = rgb { 191 140 146 }
+	religion_ojal                               = rgb { 191 140 146 }
+	religion_three_moons                        = rgb { 191 140 146 }
+	religion_ator                               = rgb { 191  19  19 }
+	religion_ashadu                             = rgb { 173  49  96 }
+
+	# zondar
+	religion_group_zondar                       = rgb { 173  50  16 }
+	religion_flame_temple                       = rgb { 173  50  16 }
+
+	# anubic
+	religion_group_anubic                       = rgb {  53  12  74 }
+	religion_ywwgrweq                           = rgb {  53  12  74 }
+
+	# renic
+	religion_group_renic                        = rgb { 110  40 201 }
+	religion_snow_goddess                       = rgb { 110  40 201 }
+	religion_mountain_mother                    = rgb {  58  32  92 }
+
+	# mea_tao
+	religion_group_mea_tao                      = rgb {  63 181  87 }
+	religion_bharatvadu                         = rgb {  63 181  87 }
+	religion_shao                               = rgb {  61 179 165 }
+	religion_conhayna                           = rgb {  58 114 171 }
+	religion_gongye_keo                         = rgb {  73  59 168 }
+
+}

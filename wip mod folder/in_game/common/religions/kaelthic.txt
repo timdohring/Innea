@@ -1,0 +1,68 @@
+# Kaelthic religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+celiicean = {
+	color = religion_celiicean
+	group = kaelthic
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_defensive                           = 0.25    # EU4: country defensiveness = 0.25
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country enemy_core_creation = 0.33
+	#   personal_deity = yes
+	#   heretic = { CODRUATHII }
+	#   icon = 14  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+ywakra = {
+	color = religion_ywakra
+	group = kaelthic
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country province_warscore_cost = -0.1
+	#   country admiral_cost = -0.75
+	#   personal_deity = yes
+	#   heretic = { ULADHRI }
+	#   icon = 31  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+dochar = {
+	color = religion_dochar
+	group = kaelthic
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country harsh_treatment_cost = -0.33
+	#   country power_projection_from_insults = 0.5
+	#   personal_deity = yes
+	#   heretic = { MOUNTMEN }
+	#   icon = 32  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

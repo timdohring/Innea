@@ -1,0 +1,217 @@
+# Innea religion groups - ported from the EU4 mod (common/religions/innea_religion.txt).
+# EU4 group-level mechanics are preserved as comments; none are implemented yet.
+
+yordic = {
+	color = religion_group_yordic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_yordic
+}
+
+megechezd = {
+	color = religion_group_megechezd
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_megechezd
+}
+
+magawic = {
+	color = religion_group_magawic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   uses_harmony = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_shatvili
+}
+
+elven_houses = {
+	color = religion_group_elven_houses
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   uses_anglican_power = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_elven_houses
+}
+
+isht = {
+	color = religion_group_isht
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_isht
+}
+
+anuidic = {
+	color = religion_group_anuidic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+kaelthic = {
+	color = religion_group_kaelthic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_kaelthic
+}
+
+innean_cults = {
+	color = religion_group_innean_cults
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_cults
+}
+
+church_of_the_thirteen = {
+	color = religion_group_church_of_the_thirteen
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   has_patriarchs = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_church
+}
+
+elven_temples = {
+	color = religion_group_elven_temples
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_elven_temples
+}
+
+all_mothers = {
+	color = religion_group_all_mothers
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_all_mothers
+}
+
+doxian = {
+	color = religion_group_doxian
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   has_patriarchs = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_doxian
+}
+
+taurosian = {
+	color = religion_group_taurosian
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_taurosian
+}
+
+kemel = {
+	color = religion_group_kemel
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+avalean = {
+	color = religion_group_avalean
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+esharic = {
+	color = religion_group_esharic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+jhon = {
+	color = religion_group_jhon
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+zondar = {
+	color = religion_group_zondar
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+anubic = {
+	color = religion_group_anubic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+renic = {
+	color = religion_group_renic
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+
+mea_tao = {
+	color = religion_group_mea_tao
+	convert_slaves_at_start = no
+
+	# EU4 mechanics on this group, not yet ported:
+	#   defender_of_faith = yes
+	#   crusade_name = HOLY_WAR
+	#   harmonized_modifier = harmonized_anuidic
+}
+

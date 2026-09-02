@@ -1,0 +1,86 @@
+# Doxian religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+old_doxian = {
+	color = religion_old_doxian
+	group = doxian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		levy_recovery_modifier                     = 0.25    # EU4: country manpower_recovery_speed = 0.25
+		country_cabinet_efficiency                 = 0.05    # EU4: country administrative_efficiency = 0.05
+		local_manpower_modifier                    = 0.05    # EU4: province local_manpower_modifier = 0.05
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { ARTUVIAN }
+	#   icon = 24  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+the_word = {
+	color = religion_the_word
+	group = doxian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_pop_conversion_speed_modifier       = 0.02    # EU4: country global_missionary_strength = 0.02
+		number_of_allowed_religious_figures        = 1       # EU4: country missionaries = 1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   uses_karma = yes
+	#   heretic = { CHODI }
+	#   icon = 65  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+manolic = {
+	color = religion_manolic
+	group = doxian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_merchant_power                      = 0.1     # EU4: country global_own_trade_power = 0.1
+		tolerance_heretic                          = 2       # EU4: country tolerance_heretic = 2
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { SONAT }
+	#   icon = 25  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+the_one_truth = {
+	color = religion_the_one_truth
+	group = doxian
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_own                              = 3       # EU4: country tolerance_own = 3
+		tolerance_heathen                          = -3      # EU4: country tolerance_heathen = -3
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { FALSESPEAKERS }
+	#   icon = 42  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

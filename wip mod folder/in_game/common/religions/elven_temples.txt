@@ -1,0 +1,110 @@
+# Elven Temples religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+syllari_temple = {
+	color = religion_syllari_temple
+	group = elven_temples
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		army_artillery_build_cost_modifier         = -0.2    # EU4: country artillery_cost = -0.2
+		army_artillery_power                       = 0.1     # EU4: country artillery_power = 0.1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   personal_deity = yes
+	#   heretic = { ILLSAR }
+	#   icon = 39  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+cindari_temple = {
+	color = religion_cindari_temple
+	group = elven_temples
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		diplomatic_reputation                      = 2       # EU4: country diplomatic_reputation = 2
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country development_cost = -0.05
+	#   personal_deity = yes
+	#   heretic = { NULAII }
+	#   icon = 40  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+iskari_temple = {
+	color = religion_iskari_temple
+	group = elven_temples
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_own                              = 2       # EU4: country tolerance_own = 2
+		number_of_allowed_religious_figures        = 1       # EU4: country missionaries = 1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   personal_deity = yes
+	#   heretic = { PARI }
+	#   icon = 46  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+nursari_temple = {
+	color = religion_nursari_temple
+	group = elven_temples
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country possible_policy = 1
+	#   country global_autonomy = -0.05
+	#   personal_deity = yes
+	#   heretic = { SHKIO }
+	#   icon = 47  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+ewafari_temple = {
+	color = religion_ewafari_temple
+	group = elven_temples
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_merchant_capacity_modifier          = 1       # EU4: country merchants = 1
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country num_accepted_cultures = 2
+	#   personal_deity = yes
+	#   heretic = { GULFATHAN }
+	#   icon = 48  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

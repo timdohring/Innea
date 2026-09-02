@@ -1,0 +1,66 @@
+# Elven Houses religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+dead_house = {
+	color = religion_dead_house
+	group = elven_houses
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		monthly_diplomats                          = 1       # EU4: country diplomats = 1
+		country_cabinet_efficiency                 = 0.1     # EU4: country advisor_cost = -0.1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country advisor_pool = 3
+	#   heretic = { NECROSIS }
+	#   icon = 55  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+flame_house = {
+	color = religion_flame_house
+	group = elven_houses
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_hostile_attrition                   = 2       # EU4: country hostile_attrition = 2
+		land_morale                                = 0.1     # EU4: country land_morale = 0.1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { ATLAN }
+	#   icon = 56  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+star_house = {
+	color = religion_star_house
+	group = elven_houses
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_sailors_modifier                    = 0.25    # EU4: country global_sailors_modifier = 0.25
+		diplomatic_reputation                      = 1       # EU4: country diplomatic_reputation = 1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { UTONAR }
+	#   icon = 57  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

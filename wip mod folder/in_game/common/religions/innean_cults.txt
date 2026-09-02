@@ -1,0 +1,152 @@
+# Innean Cults religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+sea_cult = {
+	color = religion_sea_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		monthly_navy_tradition                     = 1       # EU4: country navy_tradition = 1
+		global_sailors_modifier                    = 0.5     # EU4: country global_sailors_modifier = 0.5
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   fervor = yes
+	#   heretic = { LANDED }
+	#   icon = 29  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+the_coin = {
+	color = religion_the_coin
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tax_income_efficiency                      = 0.15    # EU4: country global_tax_modifier = 0.15
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country interest = -2
+	#   fervor = yes
+	#   heretic = { GILDED }
+	#   icon = 33  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+blood_cult = {
+	color = religion_blood_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		land_morale                                = 0.1     # EU4: country land_morale = 0.1
+		monthly_war_exhaustion                     = -0.03   # EU4: country war_exhaustion = -0.03
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   fervor = yes
+	#   heretic = { BLOODLESS }
+	#   icon = 37  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+moon_cult = {
+	color = religion_moon_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		diplomatic_reputation                      = 2       # EU4: country diplomatic_reputation = 2
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country possible_dip_policy = 1
+	#   fervor = yes
+	#   heretic = { SHINING_ONES }
+	#   icon = 52  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+sun_cult = {
+	color = religion_sun_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		monthly_prestige                           = 1       # EU4: country prestige = 1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country max_absolutism = 10
+	#   country yearly_absolutism = 1
+	#   fervor = yes
+	#   heretic = { BRIGHT_ONES }
+	#   icon = 18  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+throne_cult = {
+	color = religion_throne_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country core_creation = -0.1
+	#   fervor = yes
+	#   heretic = { UNSEATED }
+	#   icon = 10  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+death_cult = {
+	color = religion_death_cult
+	group = innean_cults
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		land_morale_recovery                       = 0.1     # EU4: country recover_army_morale_speed = 0.1
+		levy_recovery_modifier                     = 0.25    # EU4: country manpower_recovery_speed = 0.25
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   fervor = yes
+	#   heretic = { REBORN }
+	#   icon = 72  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

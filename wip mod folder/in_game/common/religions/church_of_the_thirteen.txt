@@ -1,0 +1,88 @@
+# Church Of The Thirteen religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+brilthic_church = {
+	color = religion_brilthic_church
+	group = church_of_the_thirteen
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_own                              = 1       # EU4: country tolerance_own = 1
+		tolerance_heretic                          = 1       # EU4: country tolerance_heretic = 1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   uses_church_power = yes
+	#   heretic = { FARUSTIAN }
+	#   icon = 34  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+murtharic = {
+	color = religion_murtharic
+	group = church_of_the_thirteen
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_defensive                           = 0.25    # EU4: country defensiveness = 0.25
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country global_unrest = -1
+	#   uses_church_power = yes
+	#   heretic = { DARKWOOD }
+	#   icon = 36  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+altran_church = {
+	color = religion_altran_church
+	group = church_of_the_thirteen
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_own                              = 1       # EU4: country tolerance_own = 1
+		tax_income_efficiency                      = 0.1     # EU4: country global_tax_modifier = 0.1
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   uses_church_power = yes
+	#   heretic = { KESWICKAN }
+	#   icon = 35  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+paisadox = {
+	color = religion_paisadox
+	group = church_of_the_thirteen
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		improve_relation_impact                    = 0.1     # EU4: country improve_relation_modifier = 0.1
+		global_production_efficiency               = 0.05    # EU4: country production_efficiency = 0.05
+		local_pop_conversion_speed_modifier        = -0.02   # EU4: province local_missionary_strength = -0.02
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { CHIAUX }
+	#   icon = 38  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

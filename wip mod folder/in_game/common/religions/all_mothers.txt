@@ -1,0 +1,125 @@
+# All Mothers religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+springmother = {
+	color = religion_springmother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		tolerance_heathen                          = 3       # EU4: country tolerance_heathen = 3
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country global_trade_goods_size_modifier = 0.1
+	#   heretic = { FALLMOTHER }
+	#   icon = 41  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+woodmother = {
+	color = religion_woodmother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		army_movement_speed                        = 0.2     # EU4: country movement_speed = 0.2
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country free_dip_policy = 1
+	#   heretic = { DENSELETH }
+	#   icon = 62  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+lakemother = {
+	color = religion_lakemother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		diplomatic_reputation                      = 1       # EU4: country diplomatic_reputation = 1
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country global_trade_goods_size_modifier = 0.1
+	#   heretic = { WOLFBORN }
+	#   icon = 64  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+horsemother = {
+	color = religion_horsemother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		army_heavy_cavalry_build_cost_modifier     = -0.2    # EU4: country cavalry_cost = -0.2
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country cav_to_inf_ratio = 0.25
+	#   heretic = { GRASSCHILD }
+	#   icon = 63  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+birdmother = {
+	color = religion_birdmother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		own_coast_naval_combat_bonus               = 1       # EU4: country own_coast_naval_combat_bonus = 1
+		tolerance_own                              = 2       # EU4: country tolerance_own = 2
+		local_pop_conversion_speed_modifier        = -0.03   # EU4: province local_missionary_strength = -0.03
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { KONAK }
+	#   icon = 13  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+dreammother = {
+	color = religion_dreammother
+	group = all_mothers
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		improve_relation_impact                    = 0.1     # EU4: country improve_relation_modifier = 0.1
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country tribal_development_growth = 0.02
+	#   heretic = { DREAMLESS }
+	#   icon = 66  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

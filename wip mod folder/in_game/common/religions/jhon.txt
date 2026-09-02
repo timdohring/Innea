@@ -1,0 +1,84 @@
+# Jhon religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+ojal = {
+	color = religion_ojal
+	group = jhon
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_merchant_capacity_modifier          = 1       # EU4: country merchants = 1
+		tolerance_heathen                          = 1       # EU4: country tolerance_heathen = 1
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { MUDOQU }
+	#   icon = 8  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+three_moons = {
+	color = religion_three_moons
+	group = jhon
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		global_estate_target_satisfaction          = 0.15    # EU4: country all_estate_loyalty_equilibrium = 0.15
+		tolerance_heretic                          = 1       # EU4: country tolerance_heretic = 1
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { KYAN }
+	#   icon = 69  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+ator = {
+	color = religion_ator
+	group = jhon
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		research_speed_modifier                    = 0.02    # EU4: country all_power_cost = -0.02
+		local_pop_conversion_speed_modifier        = -0.01   # EU4: province local_missionary_strength = -0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   heretic = { LOKEN }
+	#   icon = 70  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+ashadu = {
+	color = religion_ashadu
+	group = jhon
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country unjustified_demands = -0.2
+	#   country move_capital_cost_modifier = -0.5
+	#   heretic = { MENES_HADU }
+	#   icon = 71  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+

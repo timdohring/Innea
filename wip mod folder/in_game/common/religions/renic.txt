@@ -1,0 +1,45 @@
+# Renic religions - ported from the EU4 mod.
+# definition_modifier holds EU4 modifiers remapped to their nearest EU5 equivalent;
+# the original EU4 line is kept as a trailing comment. EU4 modifiers with no EU5
+# counterpart, and EU4-only mechanics, are listed as comments under each religion.
+
+snow_goddess = {
+	color = religion_snow_goddess
+	group = renic
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		prestige_decay                             = -0.01   # EU4: country prestige_decay = -0.01
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country monthly_splendor = 1
+	#   heretic = { ICE_QUEEN }
+	#   icon = 73  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
+mountain_mother = {
+	color = religion_mountain_mother
+	group = renic
+
+	religious_aspects = 1
+
+	definition_modifier = {
+		local_pop_conversion_speed_modifier        = 0.01    # EU4: province local_missionary_strength = 0.01
+	}
+
+	# EU4 content with no EU5 equivalent yet:
+	#   country relation_with_same_culture_group = 50
+	#   country global_trade_goods_size_modifier = 0.05
+	#   heretic = { DORAX }
+	#   icon = 74  (EU4 religion icon index)
+
+	opinions = {
+	}
+}
+
