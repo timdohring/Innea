@@ -16,7 +16,39 @@ work. Vanilla's Earth game-start has **never actually run on this map**, so expe
 first time anything non-empty loads.
 
 - [x] **`03_markets.txt`** — 122 markets ported from the EU4 trade nodes, grouped by continent.
-- [ ] `10_countries.txt` — port from `../Version 1.3 (1.33)/2226968141/common/countries` (933 files)
+- [x] **`10_countries.txt`** — **863 countries** ported (2026-09-03), the 863 of the EU4 mod's 931
+      tags that hold territory. **3988 locations get an owner**, 41 foreign cores.
+      Ranks: 659 county, 129 duchy, 71 kingdom, 4 empire. Governments: 650 monarchy, 106 republic,
+      75 tribe, 32 theocracy. Generator: `map/gen_countries.py`, validator `map/check_countries.py`.
+      Four things were written, three of them new directories the mod never had:
+      `in_game/setup/countries/01_innea_<continent>.txt` (the tag registry — 6 shards),
+      `main_menu/setup/templates/innea_*.txt` (13 include templates),
+      `main_menu/setup/start/10_countries.txt`, and the mod's **first localisation file**,
+      `main_menu/localization/english/innea_countries_l_english.yml` (1726 entries).
+      Note EU5 spells it `localization`, EU4 `localisation`.
+      - [x] **348 tags remapped** — that many of the EU4 mod's 931 collided with vanilla's 2337
+            start tags. A reused tag would inherit vanilla's coat of arms (1820 are keyed by tag in
+            `pre_scripted_countries.txt`), flag definition and country-specific advances. The other
+            583 keep their EU4 tag. Mapping is in **`map/tag_remap.csv`** and each remapped country
+            carries a `# Name, was XXX` comment in `10_countries.txt`.
+      - [x] **Two latent bugs in the old empty override, fixed** — it dropped
+            `current_age = age_1_traditions`, which is set *only* in `10_countries.txt`, so the mod
+            had no starting age; and it used a single `countries = { }` where vanilla nests twice.
+      - [ ] **Rulers are `ruler = random`.** The EU4 mod defines a monarch for only 98 of 931
+            countries and an heir for 2, so `04_dynasties.txt` / `05_characters.txt` were skipped
+            entirely. Vanilla uses `ruler = random` widely, so this is a legitimate shape.
+      - [ ] **No coats of arms.** Not mandatory — an undefined tag falls back to the procedural CoA
+            generator keyed on the tag. The EU4 mod's 921 `.tga` flags are the wrong format.
+      - [ ] **Rank mapping needs review.** EU4 uses ranks 1-6, EU5 has exactly 4; the mapping is
+            1→county, 2→duchy, 3-4→kingdom, 5-6→empire. Only **4 empires** result (ACR 36 locations,
+            B4N 83, SRZ 35, VAR 3) because **14 of the 18 rank-5/6 EU4 tags hold no land at all**.
+            VAR is empire-ranked on 3 locations — an EU4-side oddity worth a look.
+      - [ ] **68 landless tags omitted** — they own nothing. Could become releasable titles via
+            `our_cores_conquered_by_others` later.
+      - [ ] **`12_diplomacy.txt` not done.** The EU4 mod has a real vassal/union/tributary network in
+            `history/diplomacy/`, including an HRE-analog (`emperor = AKK`) and a celestial-emperor
+            mechanic on B4N. Natural follow-up now that countries exist.
+      - [ ] **Never load-tested.**
 - [x] **`06_pops.txt`** — 4303 locations populated, **181.4M** total. First pass: the whole population of
       a location is a single `peasants` pop carrying that location's culture and religion.
       `size` is in **thousands** (vanilla Earth totals 393,896 = ~394 million).
