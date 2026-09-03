@@ -7,9 +7,9 @@
 # FIRST PASS: the whole population of a location is a single peasants pop.
 # Splitting it into tribesmen / burghers / clergy / nobles / slaves comes later.
 
-# Hand-pinned locations:
-#   fuad = 1000k
-#   zuwar + bayd + sire together >= 1000k
+# Hand adjustments:
+#   fuad has a floor of 1000k (not a cap)
+#   zuwar + bayd + sire damped to 85% of their natural share, surplus to fuad
 
 locations={
 
@@ -140,7 +140,7 @@ afn = {
 	define_pop = {	type = peasants	size = 4.158	culture = moon_orc_culture	religion = moon_cult }
 }
 afodi = {
-	define_pop = {	type = peasants	size = 92.175	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 74.349	culture = fuan_culture	religion = abai }
 }
 aftanissotta = {
 	define_pop = {	type = peasants	size = 26.044	culture = sascilian_culture	religion = the_one_truth }
@@ -218,7 +218,7 @@ ahse = {
 	define_pop = {	type = peasants	size = 51.345	culture = kanatagu_culture	religion = lakemother }
 }
 aibiyda = {
-	define_pop = {	type = peasants	size = 74.331	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 59.956	culture = qaftal_culture	religion = abai }
 }
 aiden = {
 	define_pop = {	type = peasants	size = 14.246	culture = kyfan_culture	religion = zakritz }
@@ -1208,7 +1208,7 @@ bayakhal = {
 	define_pop = {	type = peasants	size = 4.003	culture = oht_culture	religion = horsemother }
 }
 bayd = {
-	define_pop = {	type = peasants	size = 494.028	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 338.716	culture = fuan_culture	religion = abai }
 }
 bayya = {
 	define_pop = {	type = peasants	size = 87.589	culture = fuan_culture	religion = abai }
@@ -1859,7 +1859,7 @@ carren_hill = {
 	define_pop = {	type = peasants	size = 12.609	culture = steplandic_culture	religion = dochar }
 }
 casiin = {
-	define_pop = {	type = peasants	size = 533.634	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 430.436	culture = fuan_culture	religion = abai }
 }
 casineld = {
 	define_pop = {	type = peasants	size = 37.682	culture = angmish_culture	religion = altran_church }
@@ -2012,7 +2012,7 @@ changzu = {
 	define_pop = {	type = peasants	size = 195.511	culture = zhu_culture	religion = shao }
 }
 channa = {
-	define_pop = {	type = peasants	size = 198.663	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 160.244	culture = fuan_culture	religion = abai }
 }
 chanpat = {
 	define_pop = {	type = peasants	size = 91.261	culture = maju_culture	religion = ojal }
@@ -3707,7 +3707,7 @@ frys = {
 	define_pop = {	type = peasants	size = 1.717	culture = ykran_culture	religion = old_yorr }
 }
 fuad = {
-	define_pop = {	type = peasants	size = 1000.000	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 1958.973	culture = fuan_culture	religion = abai }
 }
 fudul = {
 	define_pop = {	type = peasants	size = 6.007	culture = agadian_culture	religion = asite }
@@ -4331,7 +4331,7 @@ hashmoll = {
 	define_pop = {	type = peasants	size = 40.814	culture = ogol_culture	religion = ashar }
 }
 hasiin = {
-	define_pop = {	type = peasants	size = 48.123	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 38.817	culture = qaftal_culture	religion = abai }
 }
 hatelur = {
 	define_pop = {	type = peasants	size = 6.882	culture = lashu_culture	religion = asite }
@@ -4376,13 +4376,13 @@ hecho = {
 	define_pop = {	type = peasants	size = 59.758	culture = guanglo_culture	religion = shao }
 }
 hedda = {
-	define_pop = {	type = peasants	size = 22.694	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 18.305	culture = qaftal_culture	religion = abai }
 }
 hedhun = {
 	define_pop = {	type = peasants	size = 9.797	culture = barahin_culture	religion = ishuli }
 }
 heejar = {
-	define_pop = {	type = peasants	size = 46.429	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 37.450	culture = qaftal_culture	religion = abai }
 }
 heihel = {
 	define_pop = {	type = peasants	size = 39.565	culture = heilong_culture	religion = conhayna }
@@ -5018,7 +5018,7 @@ jalqui = {
 	define_pop = {	type = peasants	size = 0.520	culture = avalean_culture	religion = quatzalotl }
 }
 jamb = {
-	define_pop = {	type = peasants	size = 10.294	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 8.303	culture = qaftal_culture	religion = abai }
 }
 jambad = {
 	define_pop = {	type = peasants	size = 35.075	culture = assarese_culture	religion = ojal }
@@ -5390,7 +5390,7 @@ kamteng = {
 	define_pop = {	type = peasants	size = 4.466	culture = askyan_culture	religion = three_moons }
 }
 kanabis = {
-	define_pop = {	type = peasants	size = 29.800	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 24.037	culture = qaftal_culture	religion = abai }
 }
 kanchan = {
 	define_pop = {	type = peasants	size = 11.799	culture = rat_lou_culture	religion = bharatvadu }
@@ -5432,7 +5432,7 @@ karahtel = {
 	define_pop = {	type = peasants	size = 101.896	culture = eshari_culture	religion = shuri }
 }
 karalla = {
-	define_pop = {	type = peasants	size = 7.741	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 6.244	culture = qaftal_culture	religion = abai }
 }
 karami = {
 	define_pop = {	type = peasants	size = 3.893	culture = khal_culture	religion = horsemother }
@@ -6962,7 +6962,7 @@ marhas = {
 	define_pop = {	type = peasants	size = 10.543	culture = akkad_culture	religion = shuri }
 }
 markhaz = {
-	define_pop = {	type = peasants	size = 5.852	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 4.720	culture = qaftal_culture	religion = abai }
 }
 marlubi = {
 	define_pop = {	type = peasants	size = 10.226	culture = nacin_culture	religion = ishuli }
@@ -7883,7 +7883,7 @@ north_antil = {
 	define_pop = {	type = peasants	size = 15.177	culture = akavan_culture	religion = sukkali }
 }
 north_aqai = {
-	define_pop = {	type = peasants	size = 21.666	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 17.476	culture = qaftal_culture	religion = abai }
 }
 north_belaff = {
 	define_pop = {	type = peasants	size = 3.169	culture = falkish_culture	religion = yoneth }
@@ -9101,7 +9101,7 @@ rajat = {
 	define_pop = {	type = peasants	size = 41.811	culture = maju_culture	religion = ojal }
 }
 rakaib = {
-	define_pop = {	type = peasants	size = 14.278	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 11.516	culture = qaftal_culture	religion = abai }
 }
 rakur = {
 	define_pop = {	type = peasants	size = 1.603	culture = konu_culture	religion = mountain_mother }
@@ -9743,7 +9743,7 @@ segium = {
 	define_pop = {	type = peasants	size = 32.925	culture = axian_culture	religion = the_one_truth }
 }
 sehlwa = {
-	define_pop = {	type = peasants	size = 12.153	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 9.803	culture = qaftal_culture	religion = abai }
 }
 selake = {
 	define_pop = {	type = peasants	size = 9.895	culture = lake_culture	religion = woodmother }
@@ -10046,7 +10046,7 @@ shiramd = {
 	define_pop = {	type = peasants	size = 15.117	culture = ronar_culture	religion = ashar }
 }
 shirat = {
-	define_pop = {	type = peasants	size = 441.783	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 356.348	culture = fuan_culture	religion = abai }
 }
 shitano = {
 	define_pop = {	type = peasants	size = 28.895	culture = dongan_culture	religion = ejje_nvek }
@@ -10100,7 +10100,7 @@ shqel = {
 	define_pop = {	type = peasants	size = 3.697	culture = catulan_culture	religion = abai }
 }
 shubari = {
-	define_pop = {	type = peasants	size = 366.501	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 295.624	culture = fuan_culture	religion = abai }
 }
 shur_mal = {
 	define_pop = {	type = peasants	size = 15.240	culture = varal_culture	religion = dead_house }
@@ -10175,7 +10175,7 @@ sirabe = {
 	define_pop = {	type = peasants	size = 7.293	culture = fiana_culture	religion = moon_cult }
 }
 sire = {
-	define_pop = {	type = peasants	size = 459.639	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 315.138	culture = fuan_culture	religion = abai }
 }
 siret = {
 	define_pop = {	type = peasants	size = 205.411	culture = siric_culture	religion = star_house }
@@ -10349,7 +10349,7 @@ south_antil = {
 	define_pop = {	type = peasants	size = 11.287	culture = akavan_culture	religion = sukkali }
 }
 south_aqai = {
-	define_pop = {	type = peasants	size = 15.860	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 12.793	culture = qaftal_culture	religion = abai }
 }
 south_bal = {
 	define_pop = {	type = peasants	size = 14.673	culture = isoli_culture	religion = ishuli }
@@ -10937,7 +10937,7 @@ taweno = {
 	define_pop = {	type = peasants	size = 61.811	culture = tsiani_culture	religion = lakemother }
 }
 tawezuk = {
-	define_pop = {	type = peasants	size = 71.532	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 57.698	culture = fuan_culture	religion = abai }
 }
 tbandsi = {
 	define_pop = {	type = peasants	size = 51.228	culture = qashar_culture	religion = shatvili }
@@ -11564,7 +11564,7 @@ ulap = {
 	define_pop = {	type = peasants	size = 5.091	culture = dinali_culture	religion = sukkali }
 }
 ulat = {
-	define_pop = {	type = peasants	size = 456.652	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 368.341	culture = fuan_culture	religion = abai }
 }
 ulbaan = {
 	define_pop = {	type = peasants	size = 1.622	culture = oht_culture	religion = horsemother }
@@ -12224,7 +12224,7 @@ walugd = {
 	define_pop = {	type = peasants	size = 33.842	culture = wla_culture	religion = ashar }
 }
 walwam = {
-	define_pop = {	type = peasants	size = 4.901	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 3.954	culture = qaftal_culture	religion = abai }
 }
 wamih = {
 	define_pop = {	type = peasants	size = 5.634	culture = east_najean_culture	religion = shuri }
@@ -12533,7 +12533,7 @@ willdey = {
 	define_pop = {	type = peasants	size = 58.333	culture = moltrese_culture	religion = altran_church }
 }
 winbha = {
-	define_pop = {	type = peasants	size = 161.576	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 130.329	culture = fuan_culture	religion = abai }
 }
 windhills = {
 	define_pop = {	type = peasants	size = 5.051	culture = anandogaweni_culture	religion = horsemother }
@@ -12824,7 +12824,7 @@ zajj = {
 	define_pop = {	type = peasants	size = 18.751	culture = yazidi_culture	religion = shuri }
 }
 zaloor = {
-	define_pop = {	type = peasants	size = 2.659	culture = qaftal_culture	religion = abai }
+	define_pop = {	type = peasants	size = 2.145	culture = qaftal_culture	religion = abai }
 }
 zaltenan = {
 	define_pop = {	type = peasants	size = 1.207	culture = avalean_culture	religion = quatzalotl }
@@ -12842,7 +12842,7 @@ zavrin = {
 	define_pop = {	type = peasants	size = 11.132	culture = kvin_culture	religion = yorik }
 }
 zawrata = {
-	define_pop = {	type = peasants	size = 345.253	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 278.486	culture = fuan_culture	religion = abai }
 }
 zazara = {
 	define_pop = {	type = peasants	size = 139.942	culture = narcetian_culture	religion = sea_cult }
@@ -12911,7 +12911,7 @@ zukwadusu = {
 	define_pop = {	type = peasants	size = 6.393	culture = ekweni_culture	religion = asite }
 }
 zuwar = {
-	define_pop = {	type = peasants	size = 260.784	culture = fuan_culture	religion = abai }
+	define_pop = {	type = peasants	size = 178.799	culture = fuan_culture	religion = abai }
 }
 zuwe = {
 	define_pop = {	type = peasants	size = 26.355	culture = viithi_culture	religion = cindari_temple }

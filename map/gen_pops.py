@@ -6,10 +6,13 @@ import csv, io, re, os, json, collections, hashlib, math
 GAMMA, BETA, JITTER = 1.9, 0.25, 0.18
 SEED = "innea-pops-v1"
 
-# Absolute per-location sizes, in thousands. These win over the area weighting.
-PINS = {"fuad": 1000.0}
-# Groups that must total AT LEAST this much between them, split by their existing weights.
-PIN_GROUPS = [(["zuwar", "bayd", "sire"], 1000.0)]
+# MINIMUM per-location sizes, in thousands. A location takes the larger of its natural
+# share of the area target and this floor - so a floor never caps a location.
+PIN_FLOORS = {"fuad": 1000.0}
+
+# Suburb damping: scale these locations' natural share by the factor, and hand the
+# surplus to the named primary. Lets a great city outgrow its hinterland.
+SUBURBS = [(["zuwar", "bayd", "sire"], 0.85, "fuad")]
 
 MOD  = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\EU5 Innea\wip mod folder"
 MAPW = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\map"
@@ -92,21 +95,30 @@ for area,rows in byarea.items():
     tgt=targets.get(area)
     if tgt is None: notes.append("area %s has no target - left unscaled"%area); tgt=sum(weight[l] for l,_,_,_ in rows)
     names=[l for l,_,_,_ in rows]
-    pinned={l:PINS[l] for l in names if l in PINS}
-    for grp,minimum in PIN_GROUPS:
-        g=[l for l in grp if l in names]
-        if not g: continue
-        w=sum(weight[l] for l in g); free=tgt-sum(pinned.values())
-        share=sum(weight[l] for l in g)/max(sum(weight[l] for l in names if l not in pinned),1e-9)*free
-        total=max(minimum,share)
-        for l in g: pinned[l]=total*weight[l]/w
-    rest=[l for l in names if l not in pinned]
-    budget=tgt-sum(pinned.values())
-    if budget<0:
-        notes.append("area %s: pins (%.0fk) exceed target (%.0fk)"%(area,sum(pinned.values()),tgt)); budget=0
-    wsum=sum(weight[l] for l in rest) or 1.0
-    for l,v in pinned.items(): size[l]=v
-    for l in rest: size[l]=budget*weight[l]/wsum
+    w={l:weight[l] for l in names}
+
+    # 1. suburb damping - move weight from the hinterland to its primary city
+    for grp,factor,primary in SUBURBS:
+        g=[l for l in grp if l in w]
+        if not g or primary not in w: continue
+        freed=sum(w[l]*(1.0-factor) for l in g)
+        for l in g: w[l]*=factor
+        w[primary]+=freed
+
+    # 2. distribute the area target by weight
+    wsum=sum(w.values()) or 1.0
+    out={l: tgt*w[l]/wsum for l in names}
+
+    # 3. apply floors, taking the shortfall from everyone else pro rata
+    for l,floor in PIN_FLOORS.items():
+        if l not in out or out[l]>=floor: continue
+        short=floor-out[l]; out[l]=floor
+        others=[o for o in names if o!=l]
+        osum=sum(out[o] for o in others) or 1.0
+        if osum<=short:
+            notes.append("area %s: floor for %s exceeds the area target"%(area,l)); continue
+        for o in others: out[o]-=short*out[o]/osum
+    size.update(out)
 
 L=["# Innea starting population.",
    "# Per-area totals come from map/area_population_targets.txt (hand-authored).",
@@ -116,10 +128,11 @@ L=["# Innea starting population.",
    "#",
    "# FIRST PASS: the whole population of a location is a single peasants pop.",
    "# Splitting it into tribesmen / burghers / clergy / nobles / slaves comes later.",""]
-if PINS or PIN_GROUPS:
-    L.append("# Hand-pinned locations:")
-    for k,v in PINS.items(): L.append("#   %s = %.0fk"%(k,v))
-    for grp,mn in PIN_GROUPS: L.append("#   %s together >= %.0fk"%(" + ".join(grp),mn))
+if PIN_FLOORS or SUBURBS:
+    L.append("# Hand adjustments:")
+    for k,v in PIN_FLOORS.items(): L.append("#   %s has a floor of %.0fk (not a cap)"%(k,v))
+    for grp,fa,pr in SUBURBS:
+        L.append("#   %s damped to %.0f%% of their natural share, surplus to %s"%(" + ".join(grp),100*fa,pr))
     L.append("")
 L+=["locations={",""]
 tot=0.0
