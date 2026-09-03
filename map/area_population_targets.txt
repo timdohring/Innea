@@ -1,0 +1,256 @@
+# INNEA - AREA POPULATION TARGETS
+# Grouped by subcontinent > region > area.
+#
+# EDIT THE 'POP_K' COLUMN ONLY. Values are THOUSANDS of people (EU5 'size' unit).
+# Parsing reads the FIRST token as the area key and the SECOND as POP_K.
+# Lines starting with # are ignored, so the subtotals below are comments - they are
+# NOT re-read, and will be stale until I regenerate. Only the area rows matter.
+#
+# Current values: pop = K * dev^1.9 * (topography*vegetation*climate*rgo)^0.25 * jitter
+# The world total need not stay at 81606 - I renormalise to whatever you enter.
+# Within each area, locations keep their current relative weights.
+#
+# SCALE REFERENCE - EU5 vanilla has 650 areas, 393,896k total, median 272k:
+#   jiangnan        11,165k   46 locs  242.7 avg/loc  <- densest on Earth (Yangtze delta)
+#   doab             4,977k   35 locs  142.2 avg/loc  (Ganges-Yamuna)
+#   lower_egypt      3,491k   30 locs  116.4 avg/loc  (Nile delta)
+#   normandy         1,267k   28 locs   45.3 avg/loc  (rich European core)
+#   north_portugal     649k   34 locs   19.1 avg/loc  (ordinary European)
+#   dzungaria          271k   36 locs    7.5 avg/loc  (steppe)  <- vanilla median
+#   vyatka             114k   18 locs    6.4 avg/loc  (arctic forest)
+#   laurentian           6k   40 locs    0.2 avg/loc  (Canadian shield)
+#   vanilla areas max/median 48.0x   |   Innea currently 5.7x
+
+
+#======================================================================================================================
+#  EASTERN INNEA  -  26158k  (32.1% of world, 29 areas, 1216 locations)
+#======================================================================================================================
+
+#  --- Acryllia region  -  10181k  (6 areas, 305 locations, 33.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   acryllian_coast_area                   5017    49     41.2  mediterranean farmland
+   empirium_area                          4982    65     30.5  mediterranean farmland
+   maetia_area                            3105    43     39.7  mediterranean farmland
+   the_goldvale_area                      1964    49     31.9  oceanic       farmland
+   greater_cothonia_area                  3507    46     32.8  mediterranean farmland
+   tauria_area                            1606    53     26.5  oceanic       sparse
+
+#  --- Heartlands region  -  6848k  (5 areas, 297 locations, 23.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   rivwoudn_basin_area                    5412    80     25.2  oceanic       woods
+   north_teltran_area                     3198    45     28.1  oceanic       farmland
+   taroq_area                             3328    51     24.2  oceanic       woods
+   central_teltran_area                   2884    65     18.6  oceanic       woods
+   teltran_coast_area                     2654    56     20.1  oceanic       sparse
+
+#  --- Commonwealth region  -  5778k  (7 areas, 264 locations, 21.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   syllos_area                            2158    44     34.2  oceanic       farmland
+   east_moltran_area                      2370    46     25.4  continental   farmland
+   tradeshore_area                        1541    39     29.3  oceanic       woods
+   west_moltran_area                      2084    55     16.7  continental   woods
+   free_states_area                        905    24     29.4  oceanic       farmland
+   allarnia_area                           465    22      8.8  continental   forest
+   achakk_area                             231    34      4.3  continental   forest
+
+#  --- Brythawn region  -  1584k  (4 areas, 139 locations, 11.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lower_briltan_area                      1574    42     20.8  oceanic       farmland
+   upper_briltan_area                      638    28     12.1  continental   sparse
+   ywekan_isles_area                       521    36      6.7  oceanic       woods
+   highlands_area                          287    33      4.0  continental   sparse
+
+#  --- Varland region  -  1767k  (7 areas, 211 locations, 8.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   north_varland_area                      560    48      9.6  continental   forest
+   south_varland_area                      409    42      9.7  continental   woods
+   jarlgraf_bay_area                       630    24     13.8  continental   farmland
+   tjalle_area                             303    18     11.3  oceanic       grasslands
+   varsk_isles_area                        211    23      7.8  oceanic       woods
+   drengyr_area                            170    31      4.5  arctic        sparse
+   nuqitut_area                             36    25      1.8  arctic        sparse
+
+#======================================================================================================================
+#  WESTERN INNEA  -  19146k  (23.5% of world, 33 areas, 1149 locations)
+#======================================================================================================================
+
+#  --- Awapetanh region  -  3145k  (4 areas, 136 locations, 23.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   five_lake_basin_area                   6635    44     37.2  mediterranean farmland
+   onedetanh_area                         1858    49     25.7  oceanic       woods
+   katlamak_isles_area                     149    19      7.8  oceanic       woods
+   long_grass_steppe_area                  203    24      4.3  cold_arid     sparse
+
+#  --- Sun Coast region  -  6932k  (9 areas, 323 locations, 21.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   kalasen_area                           2214    43     32.9  mediterranean woods
+   upper_elldranor_area                   1591    55     19.8  oceanic       fungal
+   aeden_area                             2658    32     26.8  mediterranean grasslands
+   lower_elldranor_area                   1699    36     19.4  mediterranean fungal
+   sylten_area                            2683    36     19.0  subtropical   jungle
+   upper_evermore_area                    1608    28     21.7  oceanic       grasslands
+   lower_evemore_area                     1597    31     19.3  subtropical   jungle
+   gorsand_area                           1588    42     14.0  oceanic       sparse
+   tavrayll_area                           444    20     19.7  oceanic       fungal
+
+#  --- Midlands region  -  3233k  (5 areas, 232 locations, 13.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   naktaviri_area                         3102    56     22.7  oceanic       woods
+   upper_falfedo_area                     1417    42     19.5  continental   woods
+   lower_falfedo_area                     2266    42     15.9  continental   woods
+   emidyne_steppe_area                     349    33      7.5  continental   grasslands
+   great_forest_area                       131    59      3.9  continental   jungle
+
+#  --- Halmskr region  -  2674k  (7 areas, 199 locations, 13.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   orkal_plain_area                        2978    52     18.8  continental   forest
+   mdarak_area                             1170    35     22.0  oceanic       grasslands
+   blacklands_area                         1449    38     11.8  continental   forest
+   vehk_area                               479    27     10.3  continental   sparse
+   east_halmskr_area                       178    22      6.7  continental   sparse
+   lostland_area                           132    21      1.5  continental   forest
+   iron_isles_area                          18     4      4.5  continental   forest
+
+#  --- Waking Earth region  -  2210k  (4 areas, 141 locations, 15.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   doron_river_area                        1713    34     21.0  oceanic       farmland
+   dragontail_mountains_area               1574    32     17.9  subtropical   woods
+   tyrfak_area                             1530    27     19.6  cold_arid     sparse
+   broken_lands_area                       393    48      8.2  cold_arid     sparse
+
+#  --- Altvarik Mountains region  -  952k  (4 areas, 118 locations, 8.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   altvar_area                             1386    27     14.3  continental   sparse
+   othal_area                              459    26     10.0  continental   sparse
+   aldarukk_area                           398    22      9.0  continental   sparse
+   isschi_area                             269    43      2.5  arctic        desert
+
+#======================================================================================================================
+#  NORTHERN ASTREA  -  18570k  (22.8% of world, 33 areas, 1098 locations)
+#======================================================================================================================
+
+#  --- Bahdakur region  -  5196k  (7 areas, 267 locations, 19.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   akkan_area                             4774    50     31.5  arid          farmland
+   bahdak_bay_area                        1960    36     21.1  arid          sparse
+   arman_area                             2356    41     18.4  mediterranean sparse
+   raman_area                             1931    42     17.4  arid          desert
+   najan_area                             1906    40     17.6  arid          desert
+   erlat_area                              718    28     14.9  arid          desert
+   qash_area                               255    30      8.4  arid          desert
+
+#  --- Majukistan region  -  3476k  (4 areas, 156 locations, 22.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   majeen_area                            2364    50     31.3  mediterranean farmland
+   jihar_area                             1901    50     26.0  subtropical   jungle
+   charat_area                             852    32     14.1  arid          sparse
+   bone_coast_area                         159    24      6.6  arid          jungle
+
+#  --- Fuam region  -  2667k  (4 areas, 115 locations, 23.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   fartu_area                             5199    27     44.4  arid          desert
+   saif_area                              1810    35     23.1  arid          jungle
+   cataqan_area                           1218    34     15.2  arid          desert
+   dass_lehm_area                          240    19      7.4  arid          sparse
+
+#  --- Anhya region  -  2529k  (4 areas, 150 locations, 16.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   sar_area                               2045    46     22.7  cold_arid     sparse
+   esh_area                               1708    45     15.7  cold_arid     sparse
+   bashkal_area                           1157    40     16.4  subtropical   jungle
+   rhaangol_area                           169    19      6.3  cold_arid     sparse
+
+#  --- Akal region  -  1512k  (4 areas, 98 locations, 15.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   dremor_area                            1885    34     26.0  subtropical   farmland
+   krattang_area                          1397    21     18.9  subtropical   jungle
+   barahun_area                            516    30      7.2  arid          sparse
+   western_waste_area                       14    13      1.1  arid          desert
+
+#  --- Cape Of Good Fortune region  -  1149k  (3 areas, 80 locations, 14.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   rain_coast_area                         634    35     18.1  subtropical   woods
+   hran_area                               481    31     15.5  subtropical   jungle
+   sahidan_area                             34    14      2.4  arid          desert
+
+#  --- Handaan Plain region  -  1025k  (3 areas, 117 locations, 8.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   the_hand_area                           622    36     14.5  oceanic       sparse
+   south_handaan_area                      494    40      7.3  cold_arid     grasslands
+   north_handaan_area                      259    41      5.1  cold_arid     sparse
+
+#  --- Avatrea region  -  1016k  (4 areas, 115 locations, 8.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   itholan_coast_area                      565    17     21.5  mediterranean fungal
+   bluethorn_isles_area                    263    28     13.0  subtropical   jungle
+   mehedruhn_area                          190    32      5.0  cold_arid     sparse
+   mathi_avales_area                        28    38      3.4  tropical      jungle
+
+#======================================================================================================================
+#  SOUTHERN ASTREA  -  1704k  (2.1% of world, 2 areas, 82 locations)
+#======================================================================================================================
+
+#  --- Red Coast region  -  1704k  (2 areas, 82 locations, 20.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   zekran_area                            3222    53     23.1  arid          sparse
+   slavers_shore_area                     1482    29     16.6  arid          desert
+
+#======================================================================================================================
+#  PANORIA  -  7k  (0.0% of world, 1 areas, 18 locations)
+#======================================================================================================================
+
+#  --- Panoria region  -  7k  (1 areas, 18 locations, 0.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   south_panoria_area                        7    18      0.4  arctic        forest
+
+#======================================================================================================================
+#  OREA  -  2324k  (2.8% of world, 5 areas, 169 locations)
+#======================================================================================================================
+
+#  --- Orea region  -  1709k  (2 areas, 112 locations, 15.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   southern_orea_area                     3433    55     18.8  tropical      jungle
+   northern_orea_area                     2176    57     11.9  tropical      jungle
+
+#  --- Orean Islands region  -  615k  (3 areas, 57 locations, 10.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   godshead_area                           432    22     15.1  subtropical   sparse
+   wayfarer_isles_area                     345    18      8.1  subtropical   jungle
+   akosa_area                              238    17      8.1  tropical      jungle
+
+#======================================================================================================================
+#  EMEA  -  13697k  (16.8% of world, 15 areas, 571 locations)
+#======================================================================================================================
+
+#  --- Zho region  -  4923k  (3 areas, 139 locations, 35.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   honan_area                             6365    53     63.5  oceanic       farmland
+   yonyi_area                             1797    38     21.0  continental   woods
+   xihei_area                             2461    48     15.9  continental   sparse
+
+#  --- Onogu region  -  3612k  (3 areas, 116 locations, 31.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   geongte_area                           3137    44     37.2  oceanic       farmland
+   hikaturo_area                          2251    37     33.8  continental   farmland
+   tsun_jiao_area                         1724    35     20.7  continental   forest
+
+#  --- Layan region  -  3420k  (4 areas, 156 locations, 21.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   phrom_area                             4621    49     33.1  tropical      farmland
+   kampun_area                            2629    35     18.0  subtropical   jungle
+   vietrang_area                          1612    34     18.0  tropical      jungle
+   sutuyai_area                           1558    38     14.7  subtropical   jungle
+
+#  --- Uren Nai region  -  875k  (3 areas, 89 locations, 9.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   burolung_area                          1488    29     23.7  continental   forest
+   snow_coast_area                         165    29      3.6  arctic        forest
+   kunokurowuro_area                        62    31      2.6  arctic        forest
+
+#  --- Eastern Emea region  -  867k  (2 areas, 71 locations, 12.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   mapithdaw_area                          766    35     16.2  continental   forest
+   xalar_area                              301    36      8.4  cold_arid     dead
+
+#======================================================================================================================
+# TOTAL 81606k (81.6 million) across 118 areas, 4303 locations

@@ -1,0 +1,980 @@
+# EU5 BASE GAME - POPULATION BY AREA
+# Reference only. Generated from the vanilla install:
+#   game/main_menu/setup/start/06_pops.txt  +  game/in_game/map_data/definitions.txt
+#
+# Values are THOUSANDS of people (the EU5 'size' unit). World total 393896k = 394 million,
+# against a real 1337 Earth population of roughly 400 million.
+#
+# 650 areas, 20794 locations with population.
+# area pop     : min 0.2  p25 62  median 272  p75 647  max 13077   (max/median 48.0x)
+# area avg/loc : min 0.04  median 10.2  max 242.7
+#
+# Grouped continent > subcontinent > region > area, in definitions.txt order.
+# Areas within a region are sorted by population, largest first.
+
+
+#######################################################################################################################
+#  EUROPE  -  78582k  (19.9% of world, 184 areas, 5279 locations, 14.9 avg/loc)
+#######################################################################################################################
+
+#==================================================================================================================
+#  WESTERN EUROPE  -  55755k  (14.2% of world, 104 areas, 2763 locations)
+#==================================================================================================================
+I
+#  --- Scandinavian region  -  1915k  (10 areas, 462 locations, 4.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   denmark_area                            683    37     18.5  oceanic       grasslands
+   syd_norge_area                          283    63      4.5  arctic        forest
+   svealand_area                           262    46      5.7  continental   forest
+   gotaland_area                           243    39      6.2  continental   forest
+   skaneland_area                          176    13     13.5  continental   grasslands
+   finland_area                            111    58      1.9  arctic        forest
+   nord_norge_area                          91    58      1.6  arctic        sparse
+   norrland_area                            34    80      0.4  arctic        forest
+   karelia_area                             26    44      0.6  arctic        forest
+   kola_area                                 6    24      0.2  arctic        sparse
+
+#  --- North Atlantic Islands region  -  47k  (3 areas, 36 locations, 1.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   iceland_area                             46    21      2.2  arctic        sparse
+   northern_isles_area                       1     3      0.3  oceanic       sparse
+   greenland_area                            0    12      0.0  arctic        sparse
+
+#  --- North German region  -  8758k  (14 areas, 416 locations, 21.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   upper_saxony_area                      1215    49     24.8  continental   grasslands
+   lower_saxony_area                      1143    53     21.6  oceanic       grasslands
+   westphalia_area                        1142    48     23.8  oceanic       grasslands
+   brandenburg_area                        691    41     16.9  continental   grasslands
+   flanders_area                           636    15     42.4  oceanic       farmland
+   rhineland_area                          633    37     17.1  oceanic       woods
+   hesse_area                              630    35     18.0  continental   woods
+   pomerania_area                          514    31     16.6  continental   grasslands
+   brabant_area                            509    19     26.8  oceanic       grasslands
+   holland_area                            407    18     22.6  oceanic       grasslands
+   mecklenburg_area                        382    15     25.5  continental   grasslands
+   wallonia_area                           368    23     16.0  oceanic       woods
+   friesland_area                          250    19     13.2  oceanic       grasslands
+   holstein_area                           239    13     18.4  oceanic       grasslands
+
+#  --- South German region  -  7500k  (16 areas, 351 locations, 21.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   bohemia_area                           1554    40     38.9  continental   woods
+   bavaria_area                            767    39     19.7  continental   woods
+   moravia_area                            672    16     42.0  continental   grasslands
+   franconia_area                          599    38     15.8  continental   grasslands
+   upper_rhine_area                        562    30     18.7  oceanic       woods
+   swabia_area                             541    38     14.2  continental   grasslands
+   styria_area                             473    21     22.5  continental   woods
+   austria_area                            434    18     24.1  continental   woods
+   tirol_area                              370    23     16.1  continental   forest
+   alsace_area                             331    11     30.1  oceanic       grasslands
+   upper_austria_area                      323    13     24.9  continental   woods
+   eastern_switzerland_area                208    17     12.2  continental   woods
+   central_switzerland_area                202    14     14.4  continental   grasslands
+   western_switzerland_area                194    12     16.2  continental   woods
+   salzburg_area                           141     9     15.7  continental   forest
+   carinthia_area                          126    12     10.5  continental   woods
+
+#  --- Great Britain region  -  3916k  (9 areas, 234 locations, 16.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   east_anglia_area                        727    21     34.6  oceanic       grasslands
+   midlands_area                           616    33     18.7  oceanic       woods
+   home_counties_area                      616    32     19.2  oceanic       grasslands
+   west_country_area                       603    26     23.2  oceanic       grasslands
+   northumbria_area                        535    37     14.5  oceanic       grasslands
+   scottish_lowlands_area                  409    35     11.7  oceanic       grasslands
+   wales_area                              309    25     12.3  oceanic       sparse
+   scottish_highlands_area                  79    17      4.6  oceanic       forest
+   hebrides_area                            22     8      2.8  oceanic       sparse
+
+#  --- Ireland region  -  708k  (4 areas, 95 locations, 7.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   leinster_area                           337    23     14.6  oceanic       woods
+   munster_area                            191    27      7.1  oceanic       woods
+   ulster_area                             127    26      4.9  oceanic       grasslands
+   connaught_area                           53    19      2.8  oceanic       sparse
+
+#  --- France region  -  14749k  (19 areas, 446 locations, 33.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   normandy_area                          1267    28     45.3  oceanic       grasslands
+   brittany_area                          1080    27     40.0  oceanic       grasslands
+   languedoc_area                         1064    35     30.4  oceanic       woods
+   guyenne_area                            944    29     32.5  oceanic       grasslands
+   champagne_area                          937    32     29.3  oceanic       grasslands
+   orleanais_area                          887    28     31.7  oceanic       grasslands
+   ile_de_france_area                      799    19     42.0  oceanic       woods
+   poitou_area                             788    25     31.5  oceanic       grasslands
+   burgundy_area                           746    22     33.9  oceanic       grasslands
+   anjou_area                              740    21     35.3  oceanic       grasslands
+   picardy_area                            727    22     33.0  oceanic       farmland
+   gascony_area                            707    23     30.7  oceanic       grasslands
+   lorraine_area                           706    27     26.1  oceanic       woods
+   auvergne_area                           689    21     32.8  oceanic       woods
+   savoy_area                              638    21     30.4  continental   grasslands
+   provence_area                           594    20     29.7  mediterranean grasslands
+   limousin_province                       567    17     33.4  oceanic       woods
+   franche_comte_area                      438    14     31.3  oceanic       woods
+   lyonnais_area                           433    15     28.8  oceanic       grasslands
+
+#  --- Iberia region  -  8181k  (15 areas, 424 locations, 19.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   castile_area                           1411    47     30.0  oceanic       grasslands
+   toledo_area                             901    52     17.3  cold_arid     grasslands
+   leon_area                               882    35     25.2  oceanic       grasslands
+   catalonia_area                          709    29     24.4  oceanic       grasslands
+   north_portugal_area                     649    34     19.1  oceanic       woods
+   andalusia_area                          616    40     15.4  mediterranean woods
+   south_portugal_area                     534    33     16.2  mediterranean woods
+   granada_area                            481    20     24.0  cold_arid     grasslands
+   extremadura_area                        434    29     15.0  mediterranean sparse
+   galicia_area                            417    23     18.1  oceanic       woods
+   navarre_area                            386    18     21.4  oceanic       woods
+   aragon_area                             316    30     10.5  cold_arid     grasslands
+   valencia_area                           257    17     15.1  mediterranean grasslands
+   murcia_area                             126    12     10.5  cold_arid     sparse
+   balearics_area                           63     5     12.6  cold_arid     grasslands
+
+#  --- Italy region  -  9981k  (14 areas, 299 locations, 33.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lombardy_area                          1264    34     37.2  subtropical   farmland
+   veneto_area                            1158    26     44.5  subtropical   farmland
+   emilia_area                            1071    32     33.5  subtropical   grasslands
+   campania_area                           916    15     61.1  mediterranean farmland
+   piemonte_area                           889    28     31.7  oceanic       forest
+   tuscany_area                            879    24     36.6  mediterranean farmland
+   lazio_area                              724    13     55.7  mediterranean farmland
+   sicily_area                             716    23     31.1  mediterranean sparse
+   basilicata_area                         594    20     29.7  mediterranean woods
+   marche_area                             445    14     31.8  subtropical   grasslands
+   liguria_area                            420    16     26.3  mediterranean woods
+   apulia_area                             384    17     22.6  cold_arid     grasslands
+   abruzzo_area                            375    14     26.8  subtropical   grasslands
+   sardinia_area                           145    23      6.3  mediterranean woods
+
+#==================================================================================================================
+#  EASTERN EUROPE  -  22826k  (5.8% of world, 80 areas, 2516 locations)
+#==================================================================================================================
+
+#  --- Carpathia region  -  3669k  (7 areas, 260 locations, 14.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   slovakia_area                           767    45     17.0  continental   forest
+   transdanubia_area                       656    31     21.2  continental   woods
+   south_alfold_area                       568    27     21.0  continental   grasslands
+   transylvania_area                       508    33     15.4  continental   woods
+   north_alfold_area                       485    30     16.2  continental   grasslands
+   wallachia_area                          353    44      8.0  continental   woods
+   moldavia_area                           331    50      6.6  continental   woods
+
+#  --- Baltic region  -  3784k  (9 areas, 340 locations, 11.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   silesia_area                            816    50     16.3  continental   woods
+   lesser_poland_area                      670    40     16.8  continental   woods
+   prussia_area                            464    44     10.5  continental   woods
+   lithuania_area                          396    43      9.2  continental   forest
+   mazovia_area                            390    33     11.8  continental   forest
+   central_poland_area                     313    23     13.6  continental   woods
+   greater_poland_area                     304    35      8.7  continental   woods
+   baltic_area                             298    56      5.3  continental   woods
+   samogitia_area                          133    16      8.3  continental   woods
+
+#  --- Ruthenia region  -  2803k  (9 areas, 306 locations, 9.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   white_ruthenia_area                     459    56      8.2  continental   woods
+   severia_area                            453    39     11.6  continental   woods
+   red_ruthenia_area                       422    36     11.7  continental   forest
+   right_bank_ukraine_area                 419    39     10.7  continental   woods
+   volhynia_area                           307    30     10.2  continental   woods
+   black_ruthenia_area                     253    39      6.5  continental   forest
+   left_bank_ukraine_area                  208    23      9.1  continental   woods
+   podolia_area                            155    25      6.2  continental   forest
+   polesia_area                            127    19      6.7  continental   forest
+
+#  --- Caucasus region  -  1928k  (5 areas, 179 locations, 10.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   georgia_area                            680    49     13.9  continental   forest
+   armenian_highlands_area                 560    45     12.4  continental   sparse
+   shirvan_area                            370    30     12.3  cold_arid     sparse
+   armenia_area                            184    25      7.4  continental   grasslands
+   northern_caucasus_area                  135    30      4.5  continental   woods
+
+#  --- Steppes region  -  1399k  (12 areas, 318 locations, 4.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lower_don_area                          220    42      5.2  continental   grasslands
+   kursk_area                              202    31      6.5  continental   grasslands
+   astrakhan_area                          146    37      3.9  cold_arid     grasslands
+   matrega_area                            130    25      5.2  continental   grasslands
+   lower_yik_area                          118    33      3.6  cold_arid     sparse
+   sloboda_ukraine_area                    114    22      5.2  continental   grasslands
+   zaporizhzhia_area                       101    22      4.6  continental   grasslands
+   azov_area                                91    28      3.3  continental   grasslands
+   majar_area                               79    25      3.2  cold_arid     grasslands
+   yedisan_area                             75    22      3.4  cold_arid     grasslands
+   pryazovia_area                           62    17      3.7  continental   grasslands
+   crimea_area                              60    14      4.3  cold_arid     grasslands
+
+#  --- Russian region  -  3440k  (17 areas, 560 locations, 6.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   ryazan_area                             388    45      8.6  continental   woods
+   smolensk_area                           331    46      7.2  continental   woods
+   oka_area                                329    35      9.4  continental   woods
+   samara_area                             289    43      6.7  continental   woods
+   moscow_area                             287    24     11.9  continental   woods
+   tambov_area                             270    41      6.6  continental   grasslands
+   tver_area                               222    23      9.7  continental   woods
+   nizhny_novgorod_area                    215    31      6.9  continental   forest
+   yaroslavl_area                          210    24      8.8  continental   forest
+   vladimir_area                           198    20      9.9  continental   woods
+   west_novgorod_area                      166    51      3.3  continental   woods
+   east_novgorod_area                      164    49      3.4  continental   woods
+   beloozero_area                          112    33      3.4  arctic        forest
+   suzdal_area                             105    11      9.6  continental   forest
+   totma_area                               79    29      2.7  arctic        forest
+   arkhangelsk_area                         39    25      1.6  arctic        forest
+   pomorye_area                             34    30      1.1  arctic        forest
+
+#  --- Ural region  -  1073k  (9 areas, 194 locations, 5.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   kazan_area                              257    30      8.6  continental   forest
+   bolghar_area                            157    21      7.5  continental   grasslands
+   ural_area                               155    31      5.0  arctic        forest
+   bashkiria_area                          124    26      4.8  continental   woods
+   vyatka_area                             114    18      6.4  arctic        forest
+   perm_area                               103    27      3.8  continental   forest
+   ust_sysola_area                          90    17      5.3  arctic        forest
+   karagay_area                             50    15      3.3  arctic        forest
+   vorkuta_area                             22     9      2.5  arctic        forest
+
+#  --- Balkan region  -  4730k  (12 areas, 359 locations, 13.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   thrace_area                             708    45     15.7  subtropical   grasslands
+   bulgaria_area                           683    48     14.2  continental   woods
+   serbia_area                             623    40     15.6  continental   woods
+   macedonia_area                          531    39     13.6  cold_arid     woods
+   northern_greece_area                    510    32     15.9  mediterranean forest
+   bosnia_area                             415    28     14.8  continental   woods
+   slavonia_area                           382    18     21.2  continental   grasslands
+   albania_area                            218    19     11.5  mediterranean woods
+   morea_area                              179    25      7.1  mediterranean woods
+   croatia_area                            178    22      8.1  oceanic       woods
+   slovenia_area                           161    12     13.4  continental   forest
+   aegean_archipelago_area                 143    31      4.6  mediterranean sparse
+
+#######################################################################################################################
+#  ASIA  -  240301k  (61.0% of world, 195 areas, 7918 locations, 30.3 avg/loc)
+#######################################################################################################################
+
+#==================================================================================================================
+#  CENTRAL ASIA  -  3787k  (1.0% of world, 7 areas, 417 locations)
+#==================================================================================================================
+
+#  --- Khorasan region  -  3787k  (7 areas, 417 locations, 9.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   transoxiana_area                       1730    96     18.0  cold_arid     sparse
+   eastern_khorasan_area                   465    48      9.7  cold_arid     sparse
+   zhetysu_area                            403    70      5.8  cold_arid     grasslands
+   badakhshan_area                         338    38      8.9  cold_arid     sparse
+   desht_kipchak_area                      301    85      3.5  cold_arid     grasslands
+   western_khorasan_area                   278    48      5.8  cold_arid     sparse
+   khwarazm_area                           274    32      8.6  cold_arid     sparse
+
+#==================================================================================================================
+#  MIDDLE EAST  -  18808k  (4.8% of world, 26 areas, 1262 locations)
+#==================================================================================================================
+
+#  --- Anatolia region  -  5371k  (6 areas, 258 locations, 20.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   marmara_area                           1066    39     27.3  mediterranean forest
+   west_anatolia_area                      984    48     20.5  mediterranean forest
+   pontus_area                             967    36     26.9  oceanic       forest
+   cappadocia_area                         959    48     20.0  cold_arid     woods
+   cilicia_area                            786    37     21.2  mediterranean grasslands
+   central_anatolia_area                   609    50     12.2  cold_arid     sparse
+
+#  --- Crescent region  -  3739k  (3 areas, 174 locations, 21.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   levant_area                            2034    72     28.2  mediterranean sparse
+   jazira_area                             876    48     18.3  mediterranean sparse
+   iraq_arabi_area                         829    54     15.4  arid          sparse
+
+#  --- Arabia region  -  5674k  (7 areas, 351 locations, 16.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   south_yemen_area                       1965    63     31.2  arid          desert
+   north_yemen_area                       1230    51     24.1  arid          desert
+   najd_area                               879    67     13.1  arid          desert
+   hedjaz_area                             721    79      9.1  arid          desert
+   bahrein_area                            474    32     14.8  arid          desert
+   oman_area                               219    29      7.6  arid          desert
+   hail_area                               186    30      6.2  arid          desert
+
+#  --- Persia region  -  4025k  (10 areas, 479 locations, 8.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   sistan_area                             923    54     17.1  arid          desert
+   iraq_ajam_area                          838    65     12.9  cold_arid     desert
+   mazandaran_area                         526    36     14.6  cold_arid     forest
+   azerbaijan_area                         437    39     11.2  cold_arid     sparse
+   khuzestan_area                          278    39      7.1  mediterranean sparse
+   baluchistan_area                        275    61      4.5  arid          desert
+   fars_area                               261    78      3.3  arid          desert
+   kordestan_area                          254    26      9.8  continental   sparse
+   kerman_area                             121    48      2.5  arid          desert
+   quhestan_area                           112    33      3.4  cold_arid     desert
+
+#==================================================================================================================
+#  EAST ASIA  -  105393k  (26.8% of world, 75 areas, 3121 locations)
+#==================================================================================================================
+
+#  --- East China region  -  48026k  (10 areas, 525 locations, 91.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   zhejiang_area                         13077    64    204.3  subtropical   woods
+   jiangnan_area                         11165    46    242.7  subtropical   farmland
+   jiangxi_area                           9166    79    116.0  subtropical   forest
+   fujian_area                            4241    56     75.7  subtropical   forest
+   hubei_area                             2547    80     31.8  subtropical   grasslands
+   huaidong_area                          2449    32     76.5  subtropical   grasslands
+   hunan_area                             2026    57     35.6  subtropical   grasslands
+   huaixi_area                            1815    48     37.8  subtropical   grasslands
+   wuling_area                            1370    40     34.3  subtropical   forest
+   taiwan_area                             169    23      7.3  subtropical   forest
+
+#  --- Japan region  -  9952k  (11 areas, 417 locations, 23.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   toukaidou_area                         2209    57     38.7  subtropical   grasslands
+   ou_area                                1532    61     25.1  continental   woods
+   saikaidou_area                         1277    55     23.2  subtropical   woods
+   tousandou_area                         1109    41     27.1  subtropical   woods
+   sanyoudou_area                          996    35     28.5  subtropical   woods
+   nankaidou_area                          801    29     27.6  subtropical   forest
+   hokurikudou_area                        679    26     26.1  subtropical   woods
+   sanindou_area                           608    25     24.3  subtropical   forest
+   kinai_area                              577     9     64.1  subtropical   farmland
+   ryuukyuu_area                           144     8     17.9  subtropical   forest
+   ezo_area                                 20    71      0.3  continental   forest
+
+#  --- Korea region  -  2953k  (8 areas, 150 locations, 19.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   yeongnam_area                           582    27     21.6  continental   woods
+   gwanseo_area                            511    21     24.3  continental   forest
+   gyeonggi_area                           423    11     38.4  continental   woods
+   gwanbuk_area                            418    18     23.2  continental   forest
+   honam_area                              340    22     15.5  continental   grasslands
+   hoseo_area                              269    16     16.8  continental   woods
+   haeseo_area                             211    14     15.1  continental   woods
+   gwandong_area                           199    21      9.5  continental   forest
+
+#  --- Manchuria region  -  3669k  (6 areas, 223 locations, 16.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   liaodong_area                          1222    33     37.0  continental   grasslands
+   songnen_area                           1033    33     31.3  continental   grasslands
+   songhua_area                           1023    32     32.0  continental   grasslands
+   ussuri_area                             168    32      5.3  continental   forest
+   middle_amur_area                        140    50      2.8  continental   woods
+   lower_amur_area                          83    43      1.9  continental   woods
+
+#  --- Mongolia region  -  1938k  (9 areas, 213 locations, 9.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   eastern_gobi_area                       513    35     14.7  cold_arid     grasslands
+   argun_area                              376    30     12.5  continental   grasslands
+   upper_selenga_area                      222    23      9.7  continental   grasslands
+   mongolian_great_lakes_area              196    21      9.3  cold_arid     sparse
+   shilkari_area                           192    24      8.0  continental   grasslands
+   lower_selenga_area                      160    21      7.6  continental   woods
+   western_gobi_area                       120    32      3.7  cold_arid     desert
+   tuva_area                                99    11      9.0  continental   forest
+   southern_gobi_area                       60    16      3.8  cold_arid     desert
+
+#  --- North China region  -  21736k  (9 areas, 522 locations, 41.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   haiyou_area                            4977    40    124.4  continental   grasslands
+   shanxi_area                            3748    92     40.7  continental   woods
+   henan_area                             3413    97     35.2  subtropical   grasslands
+   shandong_area                          3309    73     45.3  continental   grasslands
+   yannan_area                            2318    66     35.1  cold_arid     grasslands
+   hebei_area                             1369    34     40.3  cold_arid     grasslands
+   beiping_area                           1246    48     26.0  continental   grasslands
+   datong_area                             886    36     24.6  cold_arid     grasslands
+   yanbei_area                             470    36     13.0  continental   woods
+
+#  --- South China region  -  8301k  (7 areas, 419 locations, 19.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   guangdong_area                         3106    70     44.4  subtropical   woods
+   guangxi_area                           1485    50     29.7  subtropical   forest
+   haibei_hainan_area                     1279    33     38.8  subtropical   woods
+   yunnan_area                             679    79      8.6  subtropical   woods
+   guizhou_area                            652    74      8.8  subtropical   woods
+   liangjiang_area                         647    53     12.2  subtropical   forest
+   dali_area                               453    60      7.6  continental   forest
+
+#  --- Tibet region  -  1369k  (6 areas, 204 locations, 6.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   kham_area                               728    75      9.7  continental   sparse
+   ngari_area                              202    38      5.3  cold_arid     desert
+   amdo_area                               198    38      5.2  arctic        sparse
+   u_area                                  146    28      5.2  continental   sparse
+   tsang_area                               79    18      4.4  continental   sparse
+   changtang_area                           15     7      2.1  arctic        sparse
+
+#  --- West China region  -  6790k  (7 areas, 363 locations, 18.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   shaanxi_area                           1921    65     29.6  continental   forest
+   hexi_area                              1317    54     24.4  continental   sparse
+   chuanxi_area                            882    69     12.8  subtropical   woods
+   chuannan_area                           728    66     11.0  continental   woods
+   longyou_area                            719    39     18.4  continental   sparse
+   chuandong_area                          662    40     16.6  subtropical   woods
+   gansu_area                              561    30     18.7  cold_arid     desert
+
+#  --- Xinjiang region  -  660k  (2 areas, 85 locations, 7.8 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   tarim_area                              389    49      7.9  cold_arid     desert
+   dzungaria_area                          271    36      7.5  cold_arid     sparse
+
+#==================================================================================================================
+#  NORTH ASIA  -  457k  (0.1% of world, 33 areas, 845 locations)
+#==================================================================================================================
+
+#  --- West Siberia region  -  336k  (16 areas, 327 locations, 1.0 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   suzun_area                               44    21      2.1  continental   forest
+   bursol_area                              42    25      1.7  cold_arid     grasslands
+   kulykol_area                             38    14      2.7  cold_arid     sparse
+   chimgi_tura_area                         36    15      2.4  continental   forest
+   qashliq_area                             32    25      1.3  arctic        forest
+   omsk_area                                27    28      1.0  continental   forest
+   surgut_area                              23    14      1.6  arctic        forest
+   mangazeya_area                           23    21      1.1  arctic        sparse
+   tomsk_area                               21    23      0.9  arctic        forest
+   kansk_area                               14    20      0.7  arctic        forest
+   irkutsk_area                             13    13      1.0  continental   woods
+   bratsk_area                               9    14      0.7  arctic        forest
+   angara_area                               5    30      0.2  arctic        forest
+   vitim_area                                5    30      0.2  arctic        forest
+   anabyr_area                               3    22      0.2  arctic        forest
+   yenisei_area                              2    12      0.2  arctic        forest
+
+#  --- East Siberia region  -  121k  (17 areas, 518 locations, 0.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lower_lena_area                          19    31      0.6  arctic        sparse
+   onoid_area                               18    34      0.5  arctic        forest
+   west_stanovoi_area                       15    34      0.4  continental   forest
+   yakutia_area                              8    33      0.3  arctic        forest
+   yandin_area                               6    37      0.2  arctic        forest
+   okhotsk_coast_area                        5    33      0.2  arctic        forest
+   anadyr_area                               5    32      0.2  arctic        sparse
+   indigirka_area                            5    32      0.2  arctic        forest
+   east_stanovoi_area                        5    32      0.2  continental   forest
+   amga_area                                 5    32      0.2  arctic        forest
+   upper_lena_area                           5    32      0.2  arctic        forest
+   kolyma_area                               5    30      0.2  arctic        woods
+   laptev_coast_area                         4    28      0.2  arctic        sparse
+   chuvan_area                               4    26      0.2  arctic        sparse
+   middle_lena_area                          4    26      0.2  arctic        forest
+   chukchee_area                             4    26      0.2  arctic        sparse
+   kamchatka_area                            3    20      0.1  arctic        sparse
+
+#==================================================================================================================
+#  SOUTH ASIA  -  93792k  (23.8% of world, 31 areas, 1229 locations)
+#==================================================================================================================
+
+#  --- Hindustan region  -  26869k  (7 areas, 333 locations, 80.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   punjab_area                           10399   125     83.2  arid          sparse
+   doab_area                              4977    35    142.2  arid          farmland
+   bhojpur_area                           4239    30    141.3  subtropical   woods
+   awadh_area                             3524    24    146.8  subtropical   grasslands
+   nepal_area                             2038    61     33.4  subtropical   forest
+   rokhilkhand_area                       1290    12    107.5  subtropical   woods
+   upper_indus_area                        402    46      8.7  mediterranean sparse
+
+#  --- Bengal region  -  22146k  (8 areas, 289 locations, 76.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   bengal_area                           10088    79    127.7  subtropical   forest
+   mithila_area                           4547    31    146.7  subtropical   woods
+   orissa_area                            3451    73     47.3  tropical      jungle
+   assam_area                             1600    36     44.4  subtropical   forest
+   jharkhand_area                         1256    15     83.7  subtropical   jungle
+   monyul_area                             533    32     16.6  subtropical   forest
+   hill_area                               447    17     26.3  subtropical   jungle
+   chota_nagpur_area                       225     6     37.5  subtropical   jungle
+
+#  --- Central India region  -  9657k  (3 areas, 133 locations, 72.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   gondwana_area                          4275    76     56.3  subtropical   jungle
+   vidarbha_area                          2704    21    128.8  tropical      jungle
+   malwa_area                             2678    36     74.4  arid          woods
+
+#  --- Western India region  -  12786k  (4 areas, 151 locations, 84.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   rajputana_area                         5602    70     80.0  arid          sparse
+   sindh_area                             2985    42     71.1  arid          sparse
+   gujarat_area                           2100    19    110.5  arid          grasslands
+   saurashtra_area                        2099    20    105.0  arid          sparse
+
+#  --- Deccan region  -  22334k  (9 areas, 323 locations, 69.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   tamil_land_area                        4347    53     82.0  tropical      grasslands
+   maharashtra_area                       4259    42    101.4  arid          jungle
+   karnakassala_area                      3978    64     62.2  arid          sparse
+   andhra_area                            3506    54     64.9  arid          grasslands
+   telingana_area                         3124    42     74.4  tropical      jungle
+   malabar_area                           1403    25     56.1  tropical      jungle
+   sailan_area                             901    24     37.5  tropical      jungle
+   konkan_area                             790    14     56.4  tropical      jungle
+   maldives_area                            26     5      5.2  tropical      forest
+
+#==================================================================================================================
+#  SOUTH EAST ASIA  -  18064k  (4.6% of world, 23 areas, 1044 locations)
+#==================================================================================================================
+
+#  --- Indochina region  -  10921k  (12 areas, 471 locations, 23.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lower_mekong_area                      2167    49     44.2  tropical      forest
+   red_river_delta_area                   1730    57     30.4  subtropical   jungle
+   irrawady_delta_area                    1429    35     40.8  tropical      jungle
+   chao_phraya_area                       1023    36     28.4  tropical      jungle
+   irrawady_area                           826    36     22.9  tropical      forest
+   arakhan_area                            784    19     41.2  tropical      jungle
+   champa_area                             758    29     26.1  tropical      jungle
+   khorat_plateau_area                     688    65     10.6  tropical      forest
+   northern_tai_highland_area              503    38     13.2  tropical      jungle
+   malay_peninsula_area                    470    43     10.9  tropical      jungle
+   shan_highland_area                      377    39      9.7  subtropical   jungle
+   kachin_area                             167    25      6.7  subtropical   jungle
+
+#  --- Indonesia region  -  7143k  (11 areas, 573 locations, 12.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   java_area                              4270    49     87.2  tropical      jungle
+   lesser_sunda_area                       585    34     17.2  tropical      forest
+   south_sumatra_area                      554    83      6.7  tropical      jungle
+   celebes_area                            433    59      7.3  tropical      jungle
+   north_sumatra_area                      359    50      7.2  tropical      jungle
+   luzon_area                              302    57      5.3  tropical      jungle
+   south_borneo_area                       202    67      3.0  tropical      jungle
+   north_borneo_area                       194    76      2.5  tropical      jungle
+   visayas_area                            122    26      4.7  tropical      jungle
+   moluccas_area                            65    32      2.0  tropical      jungle
+   mindanao_area                            55    40      1.4  tropical      jungle
+
+#######################################################################################################################
+#  AFRICA  -  42963k  (10.9% of world, 92 areas, 2411 locations, 17.8 avg/loc)
+#######################################################################################################################
+
+#==================================================================================================================
+#  CENTRAL AFRICA  -  6342k  (1.6% of world, 16 areas, 563 locations)
+#==================================================================================================================
+
+#  --- Central Africa region  -  2250k  (7 areas, 160 locations, 14.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   central_africa_area                     762    35     21.8  tropical      forest
+   adamawa_area                            441    19     23.2  tropical      woods
+   south_gabun_area                        273    33      8.3  tropical      jungle
+   logone_area                             241    18     13.4  arid          grasslands
+   north_gabun_area                        216    33      6.6  tropical      jungle
+   wadai_area                              182    10     18.2  arid          grasslands
+   cameroon_highlands_area                 135    12     11.3  tropical      woods
+
+#  --- Kongo region  -  4092k  (9 areas, 403 locations, 10.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   east_lunda_area                         810    49     16.5  tropical      forest
+   kongo_area                              678    47     14.4  tropical      jungle
+   east_kongo_area                         634    28     22.6  tropical      jungle
+   south_kongo_area                        599    75      8.0  arid          grasslands
+   west_kongo_area                         577    74      7.8  tropical      jungle
+   moshiko_area                            303    39      7.8  subtropical   forest
+   viye_area                               204    41      5.0  subtropical   forest
+   maligo_area                             145    30      4.8  subtropical   woods
+   west_lunda_area                         142    20      7.1  tropical      forest
+
+#==================================================================================================================
+#  EAST AFRICA  -  13437k  (3.4% of world, 26 areas, 601 locations)
+#==================================================================================================================
+
+#  --- Ethiopia region  -  1207k  (3 areas, 95 locations, 12.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   southern_ethiopia_area                  471    32     14.7  tropical      woods
+   central_ethiopia_area                   418    30     13.9  continental   grasslands
+   northern_ethiopia_area                  317    33      9.6  arid          sparse
+
+#  --- Nubia region  -  3491k  (4 areas, 92 locations, 37.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   butana_area                            1230    24     51.3  arid          sparse
+   darfur_area                             834    24     34.8  arid          sparse
+   nubia_proper_area                       796    21     37.9  arid          desert
+   equatoria_area                          630    23     27.4  tropical      sparse
+
+#  --- Somalia region  -  1003k  (3 areas, 83 locations, 12.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   southern_somalia_area                   459    30     15.3  arid          grasslands
+   inner_somalia_area                      390    26     15.0  arid          grasslands
+   northern_somalia_area                   154    27      5.7  arid          desert
+
+#  --- Great Lakes region  -  5502k  (6 areas, 144 locations, 38.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   victoria_area                          3794    47     80.7  tropical      grasslands
+   malawi_area                             429    16     26.8  tropical      forest
+   kasongo_area                            351    42      8.4  tropical      forest
+   egaso_ngiro_area                        342    11     31.1  arid          sparse
+   rift_valley_area                        339    11     30.8  arid          sparse
+   igombe_area                             247    17     14.5  tropical      forest
+
+#  --- Swahili Coast region  -  1711k  (6 areas, 100 locations, 17.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   tana_area                               719    18     39.9  arid          grasslands
+   ruvuma_lurio_area                       305    26     11.7  tropical      forest
+   wami_area                               276    22     12.5  tropical      grasslands
+   rufiji_area                             209    17     12.3  tropical      grasslands
+   mozambique_area                         192    14     13.7  tropical      jungle
+   east_african_island_area                 11     3      3.6  tropical      jungle
+
+#  --- Madagascar region  -  524k  (4 areas, 87 locations, 6.0 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   malagasy_highlands_area                 141    20      7.1  subtropical   forest
+   north_madagascar_area                   134    28      4.8  tropical      forest
+   east_madagascar_area                    126    23      5.5  tropical      jungle
+   west_madagascar_area                    123    16      7.7  tropical      forest
+
+#==================================================================================================================
+#  NORTH AFRICA  -  10901k  (2.8% of world, 13 areas, 386 locations)
+#==================================================================================================================
+
+#  --- Egypt region  -  5076k  (4 areas, 82 locations, 61.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   lower_egypt_area                       3491    30    116.4  arid          farmland
+   upper_egypt_area                       1309    30     43.6  arid          farmland
+   cyrenaica_area                          192    13     14.8  arid          sparse
+   sinai_area                               85     9      9.4  arid          desert
+
+#  --- Macaronesia region  -  24k  (1 areas, 6 locations, 4.0 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   canary_islands_area                      24     6      4.0  arid          forest
+
+#  --- Maghreb region  -  5801k  (8 areas, 298 locations, 19.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   tunis_area                             1644    71     23.2  mediterranean grasslands
+   morocco_area                           1618    70     23.1  mediterranean grasslands
+   algiers_area                            767    29     26.4  mediterranean grasslands
+   atlas_high_plateau                      564    29     19.4  cold_arid     grasslands
+   sus_area                                474    30     15.8  arid          sparse
+   tripolitania_area                       330    24     13.8  arid          sparse
+   desert_area                             310    37      8.4  arid          sparse
+   western_sahara_area                      94     8     11.7  arid          sparse
+
+#==================================================================================================================
+#  SOUTHERN AFRICA  -  1732k  (0.4% of world, 11 areas, 292 locations)
+#==================================================================================================================
+
+#  --- Southern Africa region  -  654k  (8 areas, 184 locations, 3.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   thaba_bosiu_area                        254    25     10.2  cold_arid     grasslands
+   tzaneen_area                            146    16      9.1  arid          woods
+   umgungundlovu_area                      101    18      5.6  oceanic       forest
+   okavango_area                            75    18      4.2  arid          grasslands
+   namib_area                               34    13      2.6  arid          sparse
+   kalahari_area                            30    26      1.1  arid          sparse
+   goringhaikona_area                        8    34      0.2  cold_arid     grasslands
+   karoo_area                                6    34      0.2  cold_arid     grasslands
+
+#  --- Zimbabwe region  -  1078k  (3 areas, 108 locations, 10.0 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   zambezi_area                            588    53     11.1  arid          forest
+   save_area                               295    23     12.8  arid          forest
+   limpopo_area                            195    32      6.1  arid          woods
+
+#==================================================================================================================
+#  WEST AFRICA  -  10551k  (2.7% of world, 26 areas, 569 locations)
+#==================================================================================================================
+
+#  --- Guinea region  -  6628k  (14 areas, 277 locations, 23.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   benin_area                              894    27     33.1  tropical      jungle
+   yoruba_area                             861    25     34.4  tropical      forest
+   upper_guinea_area                       713    35     20.4  tropical      jungle
+   lower_niger_area                        583    17     34.3  tropical      woods
+   gulf_of_guinea_area                     525    22     23.9  tropical      jungle
+   akan_area                               521    16     32.6  tropical      jungle
+   gur_area                                441    20     22.1  tropical      grasslands
+   kru_area                                413    20     20.7  tropical      jungle
+   gold_coast_area                         413    17     24.3  tropical      jungle
+   jolof_area                              357    22     16.2  arid          grasslands
+   gambia_area                             333    18     18.5  tropical      forest
+   kong_area                               282    11     25.6  tropical      jungle
+   south_manding_area                      160     8     20.0  tropical      woods
+   futa_tooro_area                         132    19      7.0  arid          grasslands
+
+#  --- Sahel region  -  3923k  (12 areas, 292 locations, 13.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   north_hausa_area                        532    20     26.6  arid          grasslands
+   south_hausa_area                        531    21     25.3  tropical      grasslands
+   bornu_area                              503    31     16.2  arid          grasslands
+   west_mossi_area                         411    27     15.2  tropical      grasslands
+   mali_area                               339    31     10.9  tropical      grasslands
+   kanem_area                              295    24     12.3  arid          desert
+   east_mossi_area                         273    20     13.7  arid          grasslands
+   timbuktu_area                           242    31      7.8  arid          grasslands
+   gao_area                                227    23      9.9  arid          grasslands
+   ghana_area                              199    31      6.4  arid          desert
+   zarma_area                              188    19      9.9  arid          grasslands
+   air_area                                182    14     13.0  arid          sparse
+
+#######################################################################################################################
+#  AMERICA  -  30113k  (7.6% of world, 131 areas, 4404 locations, 6.8 avg/loc)
+#######################################################################################################################
+
+#==================================================================================================================
+#  NORTH AMERICA  -  15665k  (4.0% of world, 94 areas, 3065 locations)
+#==================================================================================================================
+
+#  --- Canada region  -  179k  (18 areas, 564 locations, 0.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   western_ontario_area                     73    28      2.6  continental   woods
+   quebec_area                              17    73      0.2  continental   forest
+   lower_canada_area                        12    35      0.3  continental   woods
+   eastern_ontario_area                      9    24      0.4  continental   woods
+   new_brunswick_area                        9    35      0.3  continental   forest
+   northern_ontario_area                     7    22      0.3  continental   forest
+   keewatin_n_area                           7    37      0.2  arctic        forest
+   acadia_area                               7    32      0.2  continental   forest
+   laurentian_area                           6    40      0.2  continental   forest
+   keewatin_area                             5    32      0.2  arctic        forest
+   jamesie_area                              5    42      0.1  arctic        forest
+   labrador_area                             4    37      0.1  arctic        forest
+   northwestern_ontario_area                 4    16      0.2  continental   forest
+   nunavik_area                              4    36      0.1  arctic        sparse
+   james_bay_lowlands_area                   3    23      0.1  arctic        sparse
+   newfoundland_area                         3    26      0.1  arctic        forest
+   greenstone_belt_area                      2    20      0.1  continental   forest
+   prince_edward_island_area                 1     6      0.2  continental   woods
+
+#  --- Caribbean region  -  149k  (3 areas, 111 locations, 1.3 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   cuba_area                                72    54      1.3  tropical      forest
+   hispaniola_area                          61    40      1.5  tropical      jungle
+   lesser_antilles_area                     15    17      0.9  tropical      jungle
+
+#  --- East Coast region  -  1519k  (26 areas, 627 locations, 2.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   georgia_us_area                         166    47      3.5  subtropical   forest
+   virginia_area                           123    42      2.9  subtropical   forest
+   illinois_area                           117    23      5.1  continental   grasslands
+   tennessee_area                          115    32      3.6  subtropical   forest
+   alabama_area                            113    34      3.3  subtropical   forest
+   mississippi_area                         82    23      3.6  subtropical   forest
+   kentucky_area                            71    17      4.2  subtropical   woods
+   north_carolina_area                      69    41      1.7  subtropical   forest
+   south_carolina_area                      62    27      2.3  subtropical   forest
+   haudenosaunee_area                       54    38      1.4  continental   forest
+   pennsylvania_area                        51    28      1.8  continental   woods
+   wisconsin_area                           50    27      1.8  continental   forest
+   indiana_area                             49    16      3.0  continental   woods
+   massachusetts_area                       41    13      3.1  continental   forest
+   maryland_area                            41    15      2.7  subtropical   woods
+   michigan_area                            39    28      1.4  continental   forest
+   southern_new_england_area                39    10      3.9  continental   forest
+   ohio_area                                36    21      1.7  continental   woods
+   new_jersey_area                          34    11      3.1  continental   woods
+   hudson_area                              33    14      2.3  continental   forest
+   florida_area                             30    35      0.9  subtropical   woods
+   maine_area                               29    29      1.0  continental   forest
+   west_virginia_area                       26    18      1.4  continental   forest
+   new_hampshire_area                       20    11      1.9  continental   forest
+   westsylvania_area                        18    16      1.1  continental   forest
+   vermont_area                             12    11      1.1  continental   forest
+
+#  --- Great Plains region  -  235k  (11 areas, 358 locations, 0.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   arkansas_area                            47    26      1.8  subtropical   forest
+   missouri_area                            36    19      1.9  continental   woods
+   iowa_area                                33    45      0.7  continental   grasslands
+   louisiana_area                           25    18      1.4  subtropical   forest
+   central_plains_area                      25    53      0.5  continental   sparse
+   badlands_area                            15    38      0.4  cold_arid     sparse
+   upper_missouri_area                      14    32      0.4  cold_arid     sparse
+   high_plains_area                         11    29      0.4  cold_arid     sparse
+   saskatchewan_area                        11    45      0.2  arctic        grasslands
+   red_river_area                           11    40      0.3  continental   grasslands
+   superior_area                             7    13      0.6  continental   forest
+
+#  --- Mesoamerica region  -  10894k  (11 areas, 324 locations, 33.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   xilotepec_area                         1835    30     61.2  subtropical   sparse
+   michoacan_area                         1798    50     36.0  continental   forest
+   mexihko_area                           1644    45     36.5  tropical      forest
+   mayaab_area                            1053    14     75.2  tropical      woods
+   tlaxcala_area                           965    29     33.3  oceanic       jungle
+   chilapan_area                           956    15     63.7  tropical      forest
+   tochtepec_area                          790    40     19.7  tropical      jungle
+   huaxyacac_area                          647    33     19.6  continental   forest
+   chactemal_area                          560    17     32.9  tropical      jungle
+   puuk_area                               367    10     36.7  tropical      forest
+   xalisco_area                            280    41      6.8  subtropical   forest
+
+#  --- Central America region  -  1754k  (6 areas, 124 locations, 14.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   kuskatan_area                           522    30     17.4  tropical      forest
+   tezulutlan_area                         495    20     24.7  tropical      forest
+   nekokiaw_area                           299    12     25.0  tropical      jungle
+   imabite_area                            240    26      9.2  tropical      forest
+   panama_area                             151    20      7.5  tropical      jungle
+   peten_area                               47    16      3.0  tropical      jungle
+
+#  --- Aridoamerica region  -  651k  (9 areas, 292 locations, 2.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   zacatecas_area                          186    14     13.3  cold_arid     forest
+   guachichil_area                         177    61      2.9  arid          sparse
+   culiacan_area                            83    23      3.6  tropical      woods
+   tamaulipeco_area                         64    12      5.3  arid          grasslands
+   tahejoc_area                             52    30      1.7  arid          sparse
+   texas_area                               40    74      0.5  subtropical   grasslands
+   shiewhibak_area                          28    45      0.6  cold_arid     sparse
+   natahende_area                           10    23      0.4  cold_arid     sparse
+   baja_area                                10    10      1.0  arid          sparse
+
+#  --- Alaska region  -  60k  (6 areas, 308 locations, 0.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   northwest_coast_area                     12    44      0.3  arctic        forest
+   western_arctic_area                      12    61      0.2  arctic        sparse
+   alaxsxaq_area                            11    52      0.2  arctic        grasslands
+   columbia_interior_area                   10    51      0.2  arctic        forest
+   athabasca_area                            8    51      0.2  arctic        forest
+   yukon_area                                7    49      0.2  arctic        grasslands
+
+#  --- West Coast region  -  224k  (4 areas, 357 locations, 0.6 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   california_area                          66    78      0.8  oceanic       forest
+   cascadia_area                            60   138      0.4  continental   forest
+   great_basin_area                         60    87      0.7  cold_arid     desert
+   rockies_area                             38    54      0.7  cold_arid     woods
+
+#==================================================================================================================
+#  SOUTH AMERICA  -  14448k  (3.7% of world, 37 areas, 1339 locations)
+#==================================================================================================================
+
+#  --- Colombia region  -  2859k  (9 areas, 201 locations, 14.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   chunsa_area                             798    40     20.0  tropical      woods
+   caly_area                               510    39     13.1  tropical      forest
+   sinu_area                               418    21     19.9  tropical      woods
+   boiaca_area                             252    20     12.6  tropical      grasslands
+   suchiimma_area                          244    18     13.5  tropical      forest
+   orinucu_area                            186    24      7.8  tropical      woods
+   guayana_area                            186    15     12.4  tropical      jungle
+   caracas_area                            151    11     13.7  tropical      jungle
+   apure_area                              114    13      8.8  tropical      woods
+
+#  --- Brazil region  -  2700k  (10 areas, 497 locations, 5.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   parapitinga_area                        705    52     13.6  tropical      grasslands
+   jaguaribe_area                          535    33     16.2  tropical      grasslands
+   pindorama_area                          340   118      2.9  subtropical   forest
+   parana_area                             283    74      3.8  subtropical   forest
+   tocantins_area                          227    46      4.9  tropical      woods
+   guapore_area                            197    44      4.5  tropical      jungle
+   amazon_area                             177    47      3.8  tropical      jungle
+   paranaiba_area                          138    18      7.7  tropical      forest
+   mato_grosso_area                         51    44      1.2  tropical      woods
+   mearim_area                              47    21      2.2  tropical      forest
+
+#  --- Andes region  -  7838k  (11 areas, 370 locations, 21.2 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   chala_area                             2047    55     37.2  arid          sparse
+   puna_area                              1349    63     21.4  arctic        sparse
+   qullaw_area                            1147    54     21.2  cold_arid     grasslands
+   quitu_area                             1074    42     25.6  tropical      jungle
+   yunga_area                              481    20     24.1  continental   jungle
+   rupa_rupa_area                          406    21     19.3  tropical      jungle
+   ngulumapu_area                          370    26     14.2  oceanic       forest
+   suni_area                               351    16     21.9  oceanic       sparse
+   acamama_area                            293    14     20.9  arctic        sparse
+   cuyo_area                               228    47      4.9  cold_arid     grasslands
+   atacama_area                             93    12      7.7  cold_arid     desert
+
+#  --- Chaco region  -  581k  (4 areas, 119 locations, 4.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   moqoit_area                             198    70      2.8  subtropical   grasslands
+   ayoreo_area                             148    23      6.5  tropical      forest
+   mamore_area                             130    11     11.8  tropical      forest
+   paraguay_area                           105    15      7.0  subtropical   woods
+
+#  --- La Plata region  -  471k  (3 areas, 152 locations, 3.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   pampa_area                              209    59      3.5  subtropical   grasslands
+   puelmapu_area                           131    41      3.2  cold_arid     grasslands
+   patagonia_area                          131    52      2.5  cold_arid     grasslands
+
+#######################################################################################################################
+#  OCEANIA  -  1938k  (0.5% of world, 48 areas, 782 locations, 2.5 avg/loc)
+#######################################################################################################################
+
+#==================================================================================================================
+#  PACIFIC ISLANDS  -  1698k  (0.4% of world, 38 areas, 293 locations)
+#==================================================================================================================
+
+#  --- Micronesia region  -  115k  (8 areas, 40 locations, 2.9 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   marianas_area                            40     2     19.8  tropical      woods
+   majel_sea_zones_area                     25     1     24.8  subtropical   woods
+   tungaru_area                             19     8      2.4  tropical      woods
+   chuuk_area                               15     5      2.9  tropical      forest
+   belau_area                                5     4      1.3  tropical      forest
+   ralik_area                                5     9      0.5  tropical      forest
+   ratak_area                                5    10      0.5  tropical      forest
+   chuuk_sea_zones_area                      1     1      1.4  tropical      forest
+
+#  --- Polynesia region  -  245k  (17 areas, 54 locations, 4.5 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   hawaii_area                             137     8     17.2  tropical      woods
+   samoa_area                               39     3     13.0  tropical      forest
+   totaiete_ma_area                         22     3      7.4  tropical      jungle
+   tonga_area                               19     3      6.3  tropical      jungle
+   hawaii_sea_zones_area                    14     1     13.7  tropical      forest
+   kuki_airani_area                          4     2      2.0  tropical      forest
+   aono_raina_area                           2     3      0.8  tropical      forest
+   futuna_area                               2     1      2.1  tropical      forest
+   tuvalu_area                               1     2      0.7  tropical      forest
+   palliser_area                             1    10      0.1  tropical      forest
+   te_henua_enana_area                       1     2      0.3  tropical      woods
+   rapa_nui_area                             1     1      0.6  tropical      grasslands
+   tuamotu_area                              0     6      0.1  tropical      forest
+   niue_area                                 0     1      0.4  tropical      jungle
+   raeffsky_area                             0     5      0.0  tropical      woods
+   tuamotu_sea_zones_area                    0     2      0.1  tropical      jungle
+   tokelau_area                              0     1      0.2  tropical      woods
+
+#  --- Melanesia region  -  1339k  (13 areas, 199 locations, 6.7 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   momase_area                             313    22     14.2  tropical      jungle
+   bismarck_area                           222    17     13.0  tropical      jungle
+   kerema_area                             197    17     11.6  tropical      jungle
+   milne_area                              184    20      9.2  tropical      jungle
+   fiji_area                               171    13     13.2  tropical      forest
+   tinputz_area                             81    18      4.5  tropical      jungle
+   anim_ha_area                             53    24      2.2  tropical      jungle
+   kanaky_area                              39    13      3.0  tropical      woods
+   vanuatu_area                             30    18      1.7  tropical      jungle
+   papua_area                               26    14      1.9  tropical      jungle
+   wanin_area                               14    18      0.8  tropical      jungle
+   temotu_area                               6     4      1.6  tropical      jungle
+   mu_ngava_area                             3     1      2.7  tropical      jungle
+
+#==================================================================================================================
+#  AUSTRALASIA  -  241k  (0.1% of world, 10 areas, 489 locations)
+#==================================================================================================================
+
+#  --- Australia region  -  198k  (7 areas, 449 locations, 0.4 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   southeastern_australia_area              37    84      0.4  oceanic       woods
+   eastern_australia_area                   36    75      0.5  arid          sparse
+   southwestern_australia_area              34    82      0.4  arid          woods
+   australian_yalanji_area                  28    67      0.4  tropical      forest
+   australian_northern_territory_area       24    58      0.4  tropical      jungle
+   northwestern_australia_area              22    42      0.5  arid          sparse
+   south_australia_area                     17    41      0.4  cold_arid     woods
+
+#  --- New Zealand region  -  43k  (3 areas, 40 locations, 1.1 avg/loc) ---
+#  AREA                                  POP_K  LOCS  AVG/LOC  CLIMATE       VEGETATION
+   north_island_area                        26    20      1.3  oceanic       woods
+   south_island_area                        16    19      0.9  oceanic       forest
+   rekohu_area                               0     1      0.2  oceanic       forest
+
+#######################################################################################################################
+# TOTAL 393896k (394 million) across 650 areas, 20794 locations

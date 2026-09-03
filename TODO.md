@@ -17,7 +17,35 @@ first time anything non-empty loads.
 
 - [x] **`03_markets.txt`** — 122 markets ported from the EU4 trade nodes, grouped by continent.
 - [ ] `10_countries.txt` — port from `../Version 1.3 (1.33)/2226968141/common/countries` (933 files)
-- [ ] `06_pops.txt` — needs cultures + religions wired to locations first
+- [x] **`06_pops.txt`** — 4303 locations populated, **181.4M** total. First pass: the whole population of
+      a location is a single `peasants` pop carrying that location's culture and religion.
+      `size` is in **thousands** (vanilla Earth totals 393,896 = ~394 million).
+      **Per-area totals are hand-authored in `map/area_population_targets.txt`** (118 areas, grouped
+      subcontinent > region > area). Within each area the total is split by
+      `dev^1.9 * (topography*vegetation*climate*rgo)^0.25 * jitter`.
+      Terrain multipliers were *measured from vanilla itself* (median pop per attribute / world median)
+      and live in `map/vanilla_multipliers.json`; jitter is a seeded lognormal (sigma 0.18) so the
+      generator is deterministic — re-running produces a byte-identical file.
+      Generator: `map/gen_pops.py`. Hand-pinned: `fuad` = 1000k, and `zuwar`+`bayd`+`sire` >= 1000k.
+      All 118 area targets are hit exactly.
+      - [ ] **Split those peasants into other pop types.** Vanilla's own data gives the rule: tribesmen
+            share falls monotonically with location size (98% in the smallest decile, 8.8% in the
+            largest), peasants rise 1.9% -> 78.5%. Elite pops are tiny by headcount world-wide —
+            burghers 0.59%, clergy 0.06%, nobles 0.01%.
+      - [ ] Use **Center of Trade Level** (sheet col Q) for burghers, and topography/vegetation/climate
+            to push tribesmen up on marginal land.
+      - [ ] Slaves are 7.5% of vanilla's world but that is Earth-specific. Innea hooks: the religion
+            groups' `allow_rgo_slave_demand`, and the EU4 `slaver` culture (29 locations).
+      - [ ] Revisit `WORLD = 81600`. It matches Earth's population *per populated location*
+            (394M over 20,794 vs Innea's 4303) and lands on vanilla's distribution, but it is a design
+            choice, not something the data settles.
+      - [ ] **Why a power law:** development is a compressed scale, population is not. Innea's dev spans
+            only 5.4x median-to-max where vanilla population spans 112x. gamma=2.3 was fitted to match
+            vanilla's p75/p95 spread; linear would give a world with no real cities.
+      - [ ] **Dead end — do not retry:** deriving pop *composition* from the tax/production/manpower
+            split. Those are authored as near-equal thirds (33.6 / 33.6 / 32.8, sd ~0.055, 68% of
+            locations within 8pp of even), so they carry no usable signal. Total Dev is the only
+            meaningful development number in the sheet.
 - [ ] `02_core.txt`
 - [ ] `07_cities_and_buildings.txt`
 - [ ] `05_characters.txt` / `04_dynasties.txt`
@@ -38,7 +66,7 @@ Ported 2026-09-02: 21 groups / 69 religions, one file per group. Untested in-gam
       now carry their real Innea religion (was `catholic` on every one). Source: EU4
       `history/provinces/` (4302, keys already match our religion names), `location_info.csv` (2),
       plus `mount_azta`/`mount_huetlal` set to `quatzalotl` from unanimous neighbours. All 69 religions
-      are used. The 212 still on `catholic` are the unauthored continents — see §8.
+      are used. The 212 still on `catholic` are the unauthored continents — see §9.
 - [ ] **Improve the `definition_modifier` values** — make them more balanced and more interesting.
       The current numbers are EU4's, mechanically remapped, not designed for EU5.
 - [ ] **Add more `opinions`** for each religion — every one currently has an empty `opinions = {}`.
@@ -107,7 +135,7 @@ orcish, other non-human), geography for the rest.
       templates; 4306 now carry their real Innea culture. Source: EU4 `history/provinces/` (4302),
       `location_info.csv` (1), plus `arman_mountains`→`kesh`, `mount_azta`/`mount_huetlal`→`avalean` from
       unanimous neighbours. **All 466 cultures are placed** — none is unused. The 212 left on `swedish`
-      are exactly the same locations left on `catholic` (§8).
+      are exactly the same locations left on `catholic` (§9).
 - [ ] Localisation — all 550 culture/language/family names show as raw keys.
 - [ ] `country_modifier` / `location_modifier` / `character_modifier` are unset everywhere, matching
       vanilla practice (only 4 of 2083 cultures and 1 of 209 groups use them). Add only where meaningful.
@@ -117,16 +145,56 @@ orcish, other non-human), geography for the rest.
 - [ ] Note: `pamiri` and `uru` collided with vanilla cultures once suffixed and are named
       `innea_pamiri_culture` / `innea_uru_culture`. Remember this when mapping CSV labels to cultures.
 
-## 4. Markets — follow-ups
+## 4. Investigate: sheet vs EU4 history disagreements
+
+The mod's religion/culture assignments came from the EU4 mod's `history/provinces/`, but the Information
+sheet's own Religion (M) and Culture (N) columns disagree on **33 rows out of ~4300**. One of the two
+sources is wrong on each. The mod currently follows EU4 history.
+
+**Religion — 8 rows**
+
+| Sheet says | EU4 history says | Rows |
+|---|---|---|
+| `Yoneth` | `aaqan` | 7 (ids 126-128, 140-143) |
+| `Old Yorr` | `zakritz` | 1 (id 1818, North Way) |
+
+**Culture — 25 rows**
+
+| Sheet says | EU4 history says | Rows |
+|---|---|---|
+| `Ãht` (mojibake) | `oht_culture` | 12 |
+| `Dhoillbridic` | `dhoilbridic_culture` | 7 |
+| `Derzian` | `murrian_culture` | 1 |
+| `Kronnish` | `upper_sternian_culture` | 1 |
+| `Goldtrader` | `axian_culture` | 1 |
+| `Axian` | `goldtrader_culture` | 1 |
+| `Ashlati` | `indrysian_culture` | 1 |
+| `Indrysian` | `saith_culture` | 1 |
+
+- [ ] `Ãht` (12 rows) is an **encoding artifact** in the sheet — a non-ASCII character mangled at some
+      point. `oht_culture` is the real name. Fixing the sheet is probably all that is needed.
+- [ ] `Dhoillbridic` vs `dhoilbridic` (7 rows) is a **one-letter spelling difference**. Decide which
+      spelling is canonical and make both sides match.
+- [ ] `Goldtrader`<->`Axian` look **swapped**, and `Ashlati`->`Indrysian`->`Saith` looks like a **shifted
+      row** in one source. These are the ones worth actually looking at — they are not formatting.
+- [ ] Decide the precedence rule going forward. If the sheet is the source of truth (it is), then
+      `location_templates.txt` should be regenerated with the sheet as primary once these are resolved —
+      but only after, since today the sheet is wrong on at least the 12 mojibake rows.
+- [ ] Also note columns M/N are **human labels**, not engine keys: `Cult of the Sea` -> `sea_cult`,
+      `House of the Dead` -> `dead_house`, `Dream Mother` -> `dreammother`, and M is internally
+      inconsistent in casing (`Ojal`/`ojal`, `Sukkali`/`sukkali`, `Ametic`/`ametic`). The generated
+      W/X columns hold the real keys.
+
+## 5. Markets — follow-ups
 
 - [x] **Three of eight continents have no market** (`menea`, `perlea`, `vulthark`) — explained: those
-      continents were never authored in the EU4 mod at all. See §8. Not a porting gap.
+      continents were never authored in the EU4 mod at all. See §9. Not a porting gap.
 - [ ] **Panoria has exactly one market**, `tyrven_bor`, on a dev-10 location. A whole continent's trade
       hangs off it.
 - [ ] 12 of the 32 reseated markets are coastal but front a *different* body of water than the sea zone
       their EU4 node sat on. May be worth reseating onto a member that fronts the original zone.
 
-## 5. Other content to port from EU4
+## 6. Other content to port from EU4
 
 Source: `../Version 1.3 (1.33)/2226968141/`
 
@@ -134,7 +202,7 @@ Source: `../Version 1.3 (1.33)/2226968141/`
 - [ ] Events, decisions, missions
 - [ ] Localisation generally
 
-## 6. Map and engine
+## 7. Map and engine
 
 - [ ] **Test the custom `in_game/common/goods/`** set — it is in the wip folder but **not installed**,
       so it has never been tested in-game.
@@ -144,10 +212,10 @@ Source: `../Version 1.3 (1.33)/2226968141/`
 - [ ] `deadlands` / `glacial` / `volcanic` topography are missing the `proximity` field, so
       `<terrain>_proximity_impact` never registers.
 - [ ] Localisation for 219 `unnamed_location_N` locations — 209 of them are in the three unauthored
-      continents (§8), so naming them is really a design task, not a localisation one.
+      continents (§9), so naming them is really a design task, not a localisation one.
 
 
-## 7. Housekeeping
+## 8. Housekeeping
 
 - [ ] **Rename the mod** from `Tim Modding test` / `test_modding` to Innea (`.metadata/metadata.json`).
 - [ ] **The wip folder and the installed folder are synced by hand and currently differ.** Always check
@@ -155,7 +223,7 @@ Source: `../Version 1.3 (1.33)/2226968141/`
       `C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis V\game\mod\test_modding`
 - [ ] Decide whether `../map/updated_info.csv` (6009 rows) should supersede `location_info.csv`.
 
-## 8. Perlea, Menea and Vulthark are unauthored
+## 9. Perlea, Menea and Vulthark are unauthored
 
 Discovered 2026-09-02 while assigning location religions. These three continents exist on the map and in
 `definitions.txt`, but were **never given content in the EU4 mod**:

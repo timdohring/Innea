@@ -1,0 +1,50 @@
+# INNEA - REGIONAL POPULATION TARGETS
+#
+# EDIT THE 'POP_K' COLUMN ONLY. Everything else is reference data.
+# Values are THOUSANDS of people (EU5 'size' unit; vanilla Earth = 393,896 = ~394 million).
+# Rows may be reordered or reformatted freely - parsing reads the first token as the region
+# key and the second as POP_K. Lines starting with # are ignored.
+#
+# Current values come from: pop = K * dev^1.9 * (topography*vegetation*climate*rgo)^0.25
+# The world total below is whatever your edited numbers add up to - it does not have to
+# stay at 81600. Within each region, locations keep their current relative weights.
+#
+# REFERENCE - EU5 vanilla regions, for scale:
+#     east_china   48,026k (12.2%% of world, 525 locs, 91.5 avg/loc)   <- the densest region
+#     hindustan    26,869k    france  14,749k    italy    9,981k
+#     korea         2,953k <- vanilla median      russian  3,440k (560 locs, 6.1 avg/loc)
+#     alaska           60k (308 locs, 0.2 avg/loc)  <- the emptiest
+#     vanilla spread: max/median = 16.3x     Innea currently = 4.2x
+#
+# REGION                              POP_K   LOCS   AVG/LOC  CLIMATE        VEGETATION  SUBCONTINENT
+#--------------------------------------------------------------------------------------------------------
+acryllia_region                       10063    305      33.0  mediterranean  farmland    eastern_innea
+sun_coast_region                       6948    323      21.5  oceanic        grasslands  western_innea
+heartlands_region                      6829    297      23.0  oceanic        woods       eastern_innea
+commonwealth_region                    5850    264      22.2  continental    farmland    eastern_innea
+bahdakur_region                        5307    267      19.9  arid           desert      northern_astrea
+zho_region                             5053    139      36.4  oceanic        farmland    emea
+onogu_region                           3597    116      31.0  oceanic        farmland    emea
+majukistan_region                      3446    156      22.1  subtropical    sparse      northern_astrea
+layan_region                           3371    156      21.6  tropical       jungle      emea
+midlands_region                        3205    232      13.8  continental    woods       western_innea
+awapetanh_region                       3182    136      23.4  oceanic        woods       western_innea
+halmskr_region                         2654    199      13.3  continental    forest      western_innea
+fuam_region                            2567    115      22.3  arid           desert      northern_astrea
+anhya_region                           2499    150      16.7  cold_arid      sparse      northern_astrea
+waking_earth_region                    2238    141      15.9  cold_arid      sparse      western_innea
+varland_region                         1764    211       8.4  continental    woods       eastern_innea
+red_coast_region                       1747     82      21.3  arid           desert      southern_astrea
+orea_region                            1734    112      15.5  tropical       jungle      orea
+akal_region                            1540     98      15.7  subtropical    jungle      northern_astrea
+brythawn_region                        1533    139      11.0  continental    woods       eastern_innea
+cape_of_good_fortune_region            1102     80      13.8  subtropical    jungle      northern_astrea
+handaan_plain_region                   1052    117       9.0  cold_arid      sparse      northern_astrea
+altvarik_mountains_region               980    118       8.3  continental    sparse      western_innea
+avatrea_region                          947    115       8.2  tropical       jungle      northern_astrea
+eastern_emea_region                     918     71      12.9  continental    forest      emea
+uren_nai_region                         871     89       9.8  continental    forest      emea
+orean_islands_region                    599     57      10.5  tropical       jungle      orea
+panoria_region                            7     18       0.4  arctic         forest      panoria
+
+# TOTAL 81600k  (81.6 million) across 28 regions, 4303 locations
