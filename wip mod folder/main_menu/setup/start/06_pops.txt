@@ -10,11 +10,13 @@
 # Hand adjustments:
 #   fuad has a floor of 1000k (not a cap)
 #   zuwar + bayd + sire damped to 85% of their natural share, surplus to fuad
+#   lower_falfedo_area flattened: weights ^ 0.85 before distributing the area target
+#   central_teltran_area flattened: weights ^ 0.85 before distributing the area target
 
 locations={
 
 aadach = {
-	define_pop = {	type = peasants	size = 16.113	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 20.418	culture = forren_culture	religion = altran_church }
 }
 aaksi = {
 	define_pop = {	type = peasants	size = 238.958	culture = laketrader_culture	religion = lakemother }
@@ -53,7 +55,7 @@ abbotopul = {
 	define_pop = {	type = peasants	size = 12.557	culture = ahjut_culture	religion = ojal }
 }
 aberhus = {
-	define_pop = {	type = peasants	size = 64.159	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 66.080	culture = upper_sternian_culture	religion = altran_church }
 }
 abrax_pass = {
 	define_pop = {	type = peasants	size = 27.817	culture = thalan_culture	religion = zakritz }
@@ -110,7 +112,7 @@ aer = {
 	define_pop = {	type = peasants	size = 12.392	culture = upper_brilthic_culture	religion = brilthic_church }
 }
 aerd = {
-	define_pop = {	type = peasants	size = 13.302	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 17.347	culture = east_bergian_culture	religion = altran_church }
 }
 aere = {
 	define_pop = {	type = peasants	size = 3.218	culture = yearsend_culture	religion = murtharic }
@@ -398,7 +400,7 @@ ammarat = {
 	define_pop = {	type = peasants	size = 82.711	culture = khuchang_lou_culture	religion = bharatvadu }
 }
 ammers = {
-	define_pop = {	type = peasants	size = 5.758	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 8.513	culture = forren_culture	religion = altran_church }
 }
 amnaphum = {
 	define_pop = {	type = peasants	size = 25.492	culture = lang_tai_culture	religion = bharatvadu }
@@ -632,7 +634,7 @@ apio_sado = {
 	define_pop = {	type = peasants	size = 65.298	culture = sadeonqua_culture	religion = lakemother }
 }
 appleling = {
-	define_pop = {	type = peasants	size = 30.675	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 35.291	culture = forren_culture	religion = altran_church }
 }
 aqabir = {
 	define_pop = {	type = peasants	size = 168.365	culture = yabran_culture	religion = shuri }
@@ -764,7 +766,7 @@ asmar = {
 	define_pop = {	type = peasants	size = 21.701	culture = dremoran_culture	religion = throne_cult }
 }
 asmyre = {
-	define_pop = {	type = peasants	size = 97.261	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 94.112	culture = glenish_culture	religion = altran_church }
 }
 aspesi = {
 	define_pop = {	type = peasants	size = 1.644	culture = ngona_culture	religion = ashar }
@@ -896,7 +898,7 @@ ausex = {
 	define_pop = {	type = peasants	size = 5.407	culture = reuth_culture	religion = altran_church }
 }
 authing = {
-	define_pop = {	type = peasants	size = 25.040	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 29.699	culture = east_bergian_culture	religion = altran_church }
 }
 avadura = {
 	define_pop = {	type = peasants	size = 22.884	culture = lenathii_culture	religion = the_one_truth }
@@ -1256,7 +1258,7 @@ bej_kha = {
 	define_pop = {	type = peasants	size = 47.307	culture = mokta_culture	religion = drekana }
 }
 belb = {
-	define_pop = {	type = peasants	size = 126.661	culture = riverwood_elf_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 123.021	culture = riverwood_elf_culture	religion = ewafari_temple }
 }
 belimbinyan = {
 	define_pop = {	type = peasants	size = 23.482	culture = krattan_culture	religion = abai }
@@ -1292,7 +1294,7 @@ beres = {
 	define_pop = {	type = peasants	size = 7.979	culture = chidal_culture	religion = shuri }
 }
 bergendale = {
-	define_pop = {	type = peasants	size = 453.373	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 348.247	culture = west_bergian_culture	religion = altran_church }
 }
 bernstone = {
 	define_pop = {	type = peasants	size = 26.144	culture = nyvarsk_culture	religion = yoneth }
@@ -1379,7 +1381,7 @@ bierlach = {
 	define_pop = {	type = peasants	size = 61.158	culture = lower_sternian_culture	religion = the_coin }
 }
 bierre = {
-	define_pop = {	type = peasants	size = 22.952	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 27.580	culture = west_bergian_culture	religion = altran_church }
 }
 big_rock = {
 	define_pop = {	type = peasants	size = 3.573	culture = ryykan_culture	religion = yoneth }
@@ -1427,7 +1429,7 @@ birchhill = {
 	define_pop = {	type = peasants	size = 13.795	culture = oldwood_elf_culture	religion = ewafari_temple }
 }
 birchvale = {
-	define_pop = {	type = peasants	size = 8.206	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 11.505	culture = glenish_culture	religion = altran_church }
 }
 birchwood = {
 	define_pop = {	type = peasants	size = 4.068	culture = derzian_culture	religion = altran_church }
@@ -1553,7 +1555,7 @@ bokcheol = {
 	define_pop = {	type = peasants	size = 94.921	culture = anyeol_culture	religion = shao }
 }
 bokemer = {
-	define_pop = {	type = peasants	size = 80.840	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 83.988	culture = boek_culture	religion = ewafari_temple }
 }
 bokhan = {
 	define_pop = {	type = peasants	size = 29.494	culture = golkhar_culture	religion = ashar }
@@ -1691,7 +1693,7 @@ bron = {
 	define_pop = {	type = peasants	size = 1.358	culture = torvarik_culture	religion = ator }
 }
 bronch = {
-	define_pop = {	type = peasants	size = 24.116	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 30.039	culture = falar_culture	religion = ewafari_temple }
 }
 brongs_pass = {
 	define_pop = {	type = peasants	size = 4.494	culture = brongian_culture	religion = altran_church }
@@ -1778,7 +1780,7 @@ busticum = {
 	define_pop = {	type = peasants	size = 16.566	culture = lys_reman_culture	religion = the_one_truth }
 }
 butland = {
-	define_pop = {	type = peasants	size = 31.381	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 35.980	culture = east_bergian_culture	religion = altran_church }
 }
 byanim = {
 	define_pop = {	type = peasants	size = 9.431	culture = vardesian_culture	religion = flame_house }
@@ -1838,7 +1840,7 @@ calsey = {
 	define_pop = {	type = peasants	size = 5.071	culture = riverlandish_culture	religion = murtharic }
 }
 calwin = {
-	define_pop = {	type = peasants	size = 25.473	culture = riverwood_elf_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 31.470	culture = riverwood_elf_culture	religion = ewafari_temple }
 }
 candleton = {
 	define_pop = {	type = peasants	size = 32.641	culture = moltrese_culture	religion = altran_church }
@@ -1910,7 +1912,7 @@ central_doron = {
 	define_pop = {	type = peasants	size = 36.061	culture = dorean_culture	religion = the_coin }
 }
 central_druthe = {
-	define_pop = {	type = peasants	size = 28.737	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 34.867	culture = falar_culture	religion = ewafari_temple }
 }
 central_greyswood = {
 	define_pop = {	type = peasants	size = 5.179	culture = graen_culture	religion = brilthic_church }
@@ -2018,7 +2020,7 @@ chanpat = {
 	define_pop = {	type = peasants	size = 91.261	culture = maju_culture	religion = ojal }
 }
 chanson = {
-	define_pop = {	type = peasants	size = 52.172	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 57.884	culture = boek_culture	religion = ewafari_temple }
 }
 chansu = {
 	define_pop = {	type = peasants	size = 1.495	culture = churat_culture	religion = horsemother }
@@ -2033,7 +2035,7 @@ chari = {
 	define_pop = {	type = peasants	size = 6.462	culture = waikaram_culture	religion = ator }
 }
 charm = {
-	define_pop = {	type = peasants	size = 90.035	culture = riverwood_elf_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 92.041	culture = riverwood_elf_culture	religion = ewafari_temple }
 }
 charsak = {
 	define_pop = {	type = peasants	size = 97.786	culture = taloch_culture	religion = ojal }
@@ -2102,7 +2104,7 @@ cholchek = {
 	define_pop = {	type = peasants	size = 9.952	culture = sari_culture	religion = ishuli }
 }
 chonduin = {
-	define_pop = {	type = peasants	size = 22.762	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 28.600	culture = boek_culture	religion = ewafari_temple }
 }
 chonttani = {
 	define_pop = {	type = peasants	size = 8.744	culture = lang_tai_culture	religion = bharatvadu }
@@ -2315,7 +2317,7 @@ dalai = {
 	define_pop = {	type = peasants	size = 9.116	culture = yhan_culture	religion = three_moons }
 }
 dalbow = {
-	define_pop = {	type = peasants	size = 51.539	culture = weyk_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 57.286	culture = weyk_culture	religion = ewafari_temple }
 }
 dalland = {
 	define_pop = {	type = peasants	size = 5.322	culture = dargish_culture	religion = yoneth }
@@ -2324,7 +2326,7 @@ daltenburg = {
 	define_pop = {	type = peasants	size = 51.528	culture = dalsch_culture	religion = altran_church }
 }
 dalwe = {
-	define_pop = {	type = peasants	size = 15.066	culture = riverwood_elf_culture	religion = springmother }
+	define_pop = {	type = peasants	size = 20.138	culture = riverwood_elf_culture	religion = springmother }
 }
 damankaru = {
 	define_pop = {	type = peasants	size = 173.175	culture = karu_culture	religion = shuri }
@@ -2435,7 +2437,7 @@ dead_steps = {
 	define_pop = {	type = peasants	size = 3.612	culture = telic_culture	religion = dead_house }
 }
 deade = {
-	define_pop = {	type = peasants	size = 6.564	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 9.939	culture = tewar_culture	religion = woodmother }
 }
 deathfield = {
 	define_pop = {	type = peasants	size = 0.615	culture = iraavi_culture	religion = death_cult }
@@ -2495,7 +2497,7 @@ den = {
 	define_pop = {	type = peasants	size = 13.398	culture = rhydic_culture	religion = altran_church }
 }
 denas = {
-	define_pop = {	type = peasants	size = 6.960	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 10.446	culture = tewar_culture	religion = woodmother }
 }
 denohwdh = {
 	define_pop = {	type = peasants	size = 14.739	culture = ononda_culture	religion = lakemother }
@@ -2504,7 +2506,7 @@ denul = {
 	define_pop = {	type = peasants	size = 41.236	culture = koru_culture	religion = ejje_nvek }
 }
 denwood = {
-	define_pop = {	type = peasants	size = 4.986	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 7.867	culture = falar_culture	religion = ewafari_temple }
 }
 deqeshul = {
 	define_pop = {	type = peasants	size = 5.912	culture = yun_culture	religion = bharatvadu }
@@ -2519,7 +2521,7 @@ dergard = {
 	define_pop = {	type = peasants	size = 0.959	culture = drebyr_culture	religion = zakritz }
 }
 dermion = {
-	define_pop = {	type = peasants	size = 25.718	culture = tewar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 31.728	culture = tewar_culture	religion = ewafari_temple }
 }
 dernehborg = {
 	define_pop = {	type = peasants	size = 152.259	culture = jarai_culture	religion = ashar }
@@ -2825,7 +2827,7 @@ dukho = {
 	define_pop = {	type = peasants	size = 10.189	culture = slaver_culture	religion = blood_cult }
 }
 dulingen = {
-	define_pop = {	type = peasants	size = 2.479	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 4.160	culture = kronnish_culture	religion = altran_church }
 }
 dumaq = {
 	define_pop = {	type = peasants	size = 3.920	culture = hajjid_culture	religion = shuri }
@@ -2930,7 +2932,7 @@ east_auckshire = {
 	define_pop = {	type = peasants	size = 3.993	culture = whetic_culture	religion = altran_church }
 }
 east_boek = {
-	define_pop = {	type = peasants	size = 30.747	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 36.929	culture = boek_culture	religion = ewafari_temple }
 }
 east_briihk = {
 	define_pop = {	type = peasants	size = 1.957	culture = vehkan_culture	religion = ashar }
@@ -3179,7 +3181,7 @@ elot = {
 	define_pop = {	type = peasants	size = 9.617	culture = sippari_culture	religion = asite }
 }
 elphion = {
-	define_pop = {	type = peasants	size = 51.928	culture = tewar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 57.654	culture = tewar_culture	religion = ewafari_temple }
 }
 elr_hlot = {
 	define_pop = {	type = peasants	size = 0.965	culture = zabwe_culture	religion = blood_cult }
@@ -3281,7 +3283,7 @@ erduz = {
 	define_pop = {	type = peasants	size = 4.148	culture = waduli_culture	religion = sukkali }
 }
 erefion = {
-	define_pop = {	type = peasants	size = 33.418	culture = weyk_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 39.639	culture = weyk_culture	religion = ewafari_temple }
 }
 erirban = {
 	define_pop = {	type = peasants	size = 1.604	culture = gabbas_culture	religion = dreammother }
@@ -3293,7 +3295,7 @@ erotaq = {
 	define_pop = {	type = peasants	size = 0.976	culture = catulan_culture	religion = abai }
 }
 erpfad = {
-	define_pop = {	type = peasants	size = 49.374	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 52.890	culture = west_bergian_culture	religion = altran_church }
 }
 esar_coast = {
 	define_pop = {	type = peasants	size = 51.355	culture = briiyan_culture	religion = the_one_truth }
@@ -3344,7 +3346,7 @@ esper = {
 	define_pop = {	type = peasants	size = 69.248	culture = zeiy_culture	religion = nursari_temple }
 }
 essing = {
-	define_pop = {	type = peasants	size = 7.859	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 11.091	culture = glenish_culture	religion = altran_church }
 }
 este_dvir = {
 	define_pop = {	type = peasants	size = 32.980	culture = kapo_culture	religion = bharatvadu }
@@ -3410,7 +3412,7 @@ eweh = {
 	define_pop = {	type = peasants	size = 4.431	culture = anandogaweni_culture	religion = horsemother }
 }
 ewesnido = {
-	define_pop = {	type = peasants	size = 71.380	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 75.557	culture = falar_culture	religion = ewafari_temple }
 }
 eweste = {
 	define_pop = {	type = peasants	size = 15.454	culture = boek_culture	religion = ewafari_temple }
@@ -3440,7 +3442,7 @@ faisa = {
 	define_pop = {	type = peasants	size = 33.284	culture = innea_pamiri_culture	religion = ojal }
 }
 falansyr = {
-	define_pop = {	type = peasants	size = 601.966	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 462.775	culture = falar_culture	religion = ewafari_temple }
 }
 faler = {
 	define_pop = {	type = peasants	size = 27.135	culture = ventrian_culture	religion = the_one_truth }
@@ -3587,7 +3589,7 @@ fintonshire = {
 	define_pop = {	type = peasants	size = 10.137	culture = whetic_culture	religion = altran_church }
 }
 fionada = {
-	define_pop = {	type = peasants	size = 42.438	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 48.565	culture = falar_culture	religion = ewafari_temple }
 }
 firefish_end = {
 	define_pop = {	type = peasants	size = 17.908	culture = flamehatched_culture	religion = ejje_nvek }
@@ -3641,10 +3643,10 @@ flodden = {
 	define_pop = {	type = peasants	size = 2.676	culture = dargish_culture	religion = yoneth }
 }
 fluten_shore = {
-	define_pop = {	type = peasants	size = 13.083	culture = riverwood_elf_culture	religion = springmother }
+	define_pop = {	type = peasants	size = 17.863	culture = riverwood_elf_culture	religion = springmother }
 }
 foldes = {
-	define_pop = {	type = peasants	size = 2.036	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 3.674	culture = tewar_culture	religion = woodmother }
 }
 fonder = {
 	define_pop = {	type = peasants	size = 1.665	culture = ulfin_culture	religion = ewafari_temple }
@@ -3668,10 +3670,10 @@ forge_habour = {
 	define_pop = {	type = peasants	size = 177.059	culture = modan_culture	religion = fyzajak }
 }
 foring_head = {
-	define_pop = {	type = peasants	size = 0.797	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 1.585	culture = forren_culture	religion = altran_church }
 }
 foringwoods = {
-	define_pop = {	type = peasants	size = 4.351	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 6.710	culture = forren_culture	religion = altran_church }
 }
 forly = {
 	define_pop = {	type = peasants	size = 45.090	culture = rhydic_culture	religion = altran_church }
@@ -3758,7 +3760,7 @@ gadan = {
 	define_pop = {	type = peasants	size = 8.131	culture = druhn_culture	religion = horsemother }
 }
 gaenad = {
-	define_pop = {	type = peasants	size = 19.159	culture = tewar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 24.704	culture = tewar_culture	religion = ewafari_temple }
 }
 gagasla = {
 	define_pop = {	type = peasants	size = 0.121	culture = jogunin_culture	religion = old_yorr }
@@ -3788,7 +3790,7 @@ gandalur = {
 	define_pop = {	type = peasants	size = 61.239	culture = aelean_culture	religion = syllari_temple }
 }
 ganosede = {
-	define_pop = {	type = peasants	size = 45.038	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 51.083	culture = falar_culture	religion = ewafari_temple }
 }
 gantep = {
 	define_pop = {	type = peasants	size = 3.886	culture = mersic_culture	religion = horsemother }
@@ -3878,7 +3880,7 @@ gil_kal_kur = {
 	define_pop = {	type = peasants	size = 45.472	culture = gildan_culture	religion = sun_cult }
 }
 gilded_hills = {
-	define_pop = {	type = peasants	size = 52.963	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 56.141	culture = east_bergian_culture	religion = altran_church }
 }
 gilden = {
 	define_pop = {	type = peasants	size = 312.869	culture = kagnol_culture	religion = the_one_truth }
@@ -3929,7 +3931,7 @@ glittering_dunes = {
 	define_pop = {	type = peasants	size = 2.135	culture = wasut_culture	religion = ametic }
 }
 glockvein = {
-	define_pop = {	type = peasants	size = 29.376	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 34.017	culture = west_bergian_culture	religion = altran_church }
 }
 gndombele = {
 	define_pop = {	type = peasants	size = 33.535	culture = wla_culture	religion = ashar }
@@ -4043,7 +4045,7 @@ grace = {
 	define_pop = {	type = peasants	size = 11.619	culture = lorcean_culture	religion = nursari_temple }
 }
 grafingen = {
-	define_pop = {	type = peasants	size = 33.180	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 37.726	culture = west_bergian_culture	religion = altran_church }
 }
 grasshill = {
 	define_pop = {	type = peasants	size = 0.206	culture = panarak_culture	religion = old_yorr }
@@ -4073,7 +4075,7 @@ gresmond = {
 	define_pop = {	type = peasants	size = 207.647	culture = upper_brilthic_culture	religion = brilthic_church }
 }
 grevitz = {
-	define_pop = {	type = peasants	size = 2.134	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 3.662	culture = glenish_culture	religion = altran_church }
 }
 greyhome = {
 	define_pop = {	type = peasants	size = 9.845	culture = reindur_culture	religion = zakritz }
@@ -4238,7 +4240,7 @@ hakland = {
 	define_pop = {	type = peasants	size = 7.747	culture = falkish_culture	religion = yoneth }
 }
 haland = {
-	define_pop = {	type = peasants	size = 18.205	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 22.650	culture = upper_sternian_culture	religion = altran_church }
 }
 halaqim = {
 	define_pop = {	type = peasants	size = 92.876	culture = east_najean_culture	religion = shuri }
@@ -4403,7 +4405,7 @@ hemakept = {
 	define_pop = {	type = peasants	size = 38.616	culture = flamehatched_culture	religion = ashatapul }
 }
 hemlach = {
-	define_pop = {	type = peasants	size = 3.907	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 6.124	culture = glenish_culture	religion = altran_church }
 }
 henwa = {
 	define_pop = {	type = peasants	size = 8.063	culture = kanatagu_culture	religion = lakemother }
@@ -4466,7 +4468,7 @@ highgull = {
 	define_pop = {	type = peasants	size = 0.791	culture = black_islander_culture	religion = sea_cult }
 }
 highkey = {
-	define_pop = {	type = peasants	size = 67.531	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 69.021	culture = upper_sternian_culture	religion = altran_church }
 }
 highreach = {
 	define_pop = {	type = peasants	size = 5.426	culture = zondic_culture	religion = drekana }
@@ -4826,7 +4828,7 @@ ingdaut = {
 	define_pop = {	type = peasants	size = 3.154	culture = dethom_pyw_culture	religion = snow_goddess }
 }
 ingsbruck = {
-	define_pop = {	type = peasants	size = 152.105	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 137.633	culture = east_bergian_culture	religion = altran_church }
 }
 inner_adan = {
 	define_pop = {	type = peasants	size = 19.969	culture = uldan_culture	religion = star_house }
@@ -4961,7 +4963,7 @@ iunmenu = {
 	define_pop = {	type = peasants	size = 51.951	culture = thebian_culture	religion = ametic }
 }
 ivis = {
-	define_pop = {	type = peasants	size = 27.030	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 31.694	culture = kronnish_culture	religion = altran_church }
 }
 ivithne = {
 	define_pop = {	type = peasants	size = 25.147	culture = cevan_culture	religion = cindari_temple }
@@ -5066,7 +5068,7 @@ jazar = {
 	define_pop = {	type = peasants	size = 46.946	culture = delean_culture	religion = shuri }
 }
 jearing = {
-	define_pop = {	type = peasants	size = 10.475	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 14.159	culture = kronnish_culture	religion = altran_church }
 }
 jebou = {
 	define_pop = {	type = peasants	size = 161.339	culture = jidai_culture	religion = shuri }
@@ -5261,7 +5263,7 @@ juvun = {
 	define_pop = {	type = peasants	size = 58.053	culture = corrusean_culture	religion = the_one_truth }
 }
 kaapers = {
-	define_pop = {	type = peasants	size = 8.209	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 11.509	culture = kronnish_culture	religion = altran_church }
 }
 kaapo = {
 	define_pop = {	type = peasants	size = 72.239	culture = juatchac_culture	religion = ator }
@@ -5462,7 +5464,7 @@ karlip = {
 	define_pop = {	type = peasants	size = 91.894	culture = shamyrian_culture	religion = asite }
 }
 karlsund = {
-	define_pop = {	type = peasants	size = 90.058	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 88.154	culture = west_bergian_culture	religion = altran_church }
 }
 karobu = {
 	define_pop = {	type = peasants	size = 86.033	culture = sokuro_culture	religion = shao }
@@ -5603,7 +5605,7 @@ kelegg = {
 	define_pop = {	type = peasants	size = 11.438	culture = wong_culture	religion = abai }
 }
 kelhus = {
-	define_pop = {	type = peasants	size = 17.669	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 22.082	culture = west_bergian_culture	religion = altran_church }
 }
 kelpmarsh = {
 	define_pop = {	type = peasants	size = 9.166	culture = trithe_culture	religion = dead_house }
@@ -5645,7 +5647,7 @@ kerhal = {
 	define_pop = {	type = peasants	size = 3.015	culture = druhn_culture	religion = horsemother }
 }
 kern = {
-	define_pop = {	type = peasants	size = 111.550	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 105.742	culture = west_bergian_culture	religion = altran_church }
 }
 kerrington = {
 	define_pop = {	type = peasants	size = 6.765	culture = moltrese_culture	religion = altran_church }
@@ -5831,7 +5833,7 @@ kingfisher_island = {
 	define_pop = {	type = peasants	size = 3.636	culture = bo_vao_culture	religion = bharatvadu }
 }
 kington = {
-	define_pop = {	type = peasants	size = 139.792	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 128.104	culture = west_bergian_culture	religion = altran_church }
 }
 kintown = {
 	define_pop = {	type = peasants	size = 39.346	culture = graen_culture	religion = brilthic_church }
@@ -6017,7 +6019,7 @@ krochil = {
 	define_pop = {	type = peasants	size = 13.381	culture = angmish_culture	religion = altran_church }
 }
 kronn = {
-	define_pop = {	type = peasants	size = 75.266	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 75.685	culture = kronnish_culture	religion = altran_church }
 }
 kryn = {
 	define_pop = {	type = peasants	size = 15.530	culture = deadlander_culture	religion = blood_cult }
@@ -6095,7 +6097,7 @@ labach = {
 	define_pop = {	type = peasants	size = 17.363	culture = rhydic_culture	religion = altran_church }
 }
 labeck = {
-	define_pop = {	type = peasants	size = 142.299	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 130.054	culture = upper_sternian_culture	religion = altran_church }
 }
 lafat = {
 	define_pop = {	type = peasants	size = 48.550	culture = mosani_culture	religion = flame_temple }
@@ -6305,7 +6307,7 @@ lesrain = {
 	define_pop = {	type = peasants	size = 4.670	culture = silavian_culture	religion = moon_cult }
 }
 less = {
-	define_pop = {	type = peasants	size = 43.909	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 47.871	culture = upper_sternian_culture	religion = altran_church }
 }
 lesser = {
 	define_pop = {	type = peasants	size = 14.139	culture = ashlati_culture	religion = dead_house }
@@ -6365,7 +6367,7 @@ lilac = {
 	define_pop = {	type = peasants	size = 54.827	culture = shathral_culture	religion = moon_cult }
 }
 lilede = {
-	define_pop = {	type = peasants	size = 6.749	culture = riverwood_elf_culture	religion = springmother }
+	define_pop = {	type = peasants	size = 10.176	culture = riverwood_elf_culture	religion = springmother }
 }
 lili = {
 	define_pop = {	type = peasants	size = 42.586	culture = yun_culture	religion = conhayna }
@@ -6470,7 +6472,7 @@ loan = {
 	define_pop = {	type = peasants	size = 19.505	culture = key_islander_culture	religion = shuri }
 }
 lobach = {
-	define_pop = {	type = peasants	size = 19.503	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 24.015	culture = upper_sternian_culture	religion = altran_church }
 }
 lobod = {
 	define_pop = {	type = peasants	size = 54.613	culture = omagan_culture	religion = ashar }
@@ -6479,7 +6481,7 @@ lochi = {
 	define_pop = {	type = peasants	size = 43.515	culture = maju_culture	religion = ojal }
 }
 lodan = {
-	define_pop = {	type = peasants	size = 14.906	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 19.957	culture = boek_culture	religion = ewafari_temple }
 }
 lofta_isle = {
 	define_pop = {	type = peasants	size = 2.960	culture = nyvarsk_culture	religion = sea_cult }
@@ -6506,7 +6508,7 @@ lokha = {
 	define_pop = {	type = peasants	size = 129.988	culture = chimar_culture	religion = the_word }
 }
 lond = {
-	define_pop = {	type = peasants	size = 115.772	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 109.135	culture = glenish_culture	religion = altran_church }
 }
 lone = {
 	define_pop = {	type = peasants	size = 7.814	culture = donairdan_culture	religion = dochar }
@@ -6554,7 +6556,7 @@ loopar_shelf = {
 	define_pop = {	type = peasants	size = 0.064	culture = qunsut_culture	religion = aaqan }
 }
 looseleaf = {
-	define_pop = {	type = peasants	size = 25.388	culture = riverwood_elf_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 31.381	culture = riverwood_elf_culture	religion = ewafari_temple }
 }
 lopurszd = {
 	define_pop = {	type = peasants	size = 2.503	culture = zabwe_culture	religion = blood_cult }
@@ -6602,13 +6604,13 @@ lounver = {
 	define_pop = {	type = peasants	size = 4.787	culture = kesh_culture	religion = shuri }
 }
 loute = {
-	define_pop = {	type = peasants	size = 8.320	culture = riverwood_elf_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 12.157	culture = riverwood_elf_culture	religion = ewafari_temple }
 }
 low_lotshal = {
 	define_pop = {	type = peasants	size = 0.962	culture = frozen_elf_culture	religion = iskari_temple }
 }
 lower_aating = {
-	define_pop = {	type = peasants	size = 58.615	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 61.194	culture = west_bergian_culture	religion = altran_church }
 }
 lower_alda = {
 	define_pop = {	type = peasants	size = 14.180	culture = grend_culture	religion = yorik }
@@ -6704,7 +6706,7 @@ lowersif = {
 	define_pop = {	type = peasants	size = 10.599	culture = angmish_culture	religion = altran_church }
 }
 lowleaf = {
-	define_pop = {	type = peasants	size = 12.411	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 17.079	culture = tewar_culture	religion = woodmother }
 }
 lowlight = {
 	define_pop = {	type = peasants	size = 7.286	culture = lightborn_culture	religion = syllari_temple }
@@ -7103,7 +7105,7 @@ mercant_square = {
 	define_pop = {	type = peasants	size = 91.208	culture = vindese_culture	religion = the_coin }
 }
 merchant_hills = {
-	define_pop = {	type = peasants	size = 47.598	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 51.269	culture = east_bergian_culture	religion = altran_church }
 }
 meren = {
 	define_pop = {	type = peasants	size = 7.623	culture = gheltic_culture	religion = oscaerwikkan }
@@ -7439,7 +7441,7 @@ mundar = {
 	define_pop = {	type = peasants	size = 4.124	culture = nisten_culture	religion = manolic }
 }
 mundau = {
-	define_pop = {	type = peasants	size = 10.228	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 13.874	culture = west_bergian_culture	religion = altran_church }
 }
 mundin = {
 	define_pop = {	type = peasants	size = 1.933	culture = kai_jek_culture	religion = drekana }
@@ -7739,7 +7741,7 @@ nesao = {
 	define_pop = {	type = peasants	size = 43.936	culture = lenathii_culture	religion = the_one_truth }
 }
 neulin = {
-	define_pop = {	type = peasants	size = 23.781	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 28.425	culture = glenish_culture	religion = altran_church }
 }
 new_moon = {
 	define_pop = {	type = peasants	size = 80.869	culture = punghali_culture	religion = ojal }
@@ -7979,10 +7981,10 @@ north_weald = {
 	define_pop = {	type = peasants	size = 2.510	culture = wealder_culture	religion = altran_church }
 }
 north_wild_lake = {
-	define_pop = {	type = peasants	size = 2.296	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 3.896	culture = glenish_culture	religion = altran_church }
 }
 north_zahlitz = {
-	define_pop = {	type = peasants	size = 30.621	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 35.239	culture = east_bergian_culture	religion = altran_church }
 }
 north_zilah = {
 	define_pop = {	type = peasants	size = 1.052	culture = hranan_culture	religion = sukkali }
@@ -8156,7 +8158,7 @@ oban = {
 	define_pop = {	type = peasants	size = 0.663	culture = frozen_elf_culture	religion = moon_cult }
 }
 oberplatz = {
-	define_pop = {	type = peasants	size = 29.921	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 34.552	culture = west_bergian_culture	religion = altran_church }
 }
 oberton_isles = {
 	define_pop = {	type = peasants	size = 3.479	culture = dhoilbridic_culture	religion = ywakra }
@@ -8228,7 +8230,7 @@ oettica = {
 	define_pop = {	type = peasants	size = 82.060	culture = othan_culture	religion = the_one_truth }
 }
 offling = {
-	define_pop = {	type = peasants	size = 5.662	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 8.393	culture = upper_sternian_culture	religion = altran_church }
 }
 oftland = {
 	define_pop = {	type = peasants	size = 44.115	culture = wayn_culture	religion = the_coin }
@@ -8303,13 +8305,13 @@ oltasia = {
 	define_pop = {	type = peasants	size = 75.678	culture = sascilian_culture	religion = the_one_truth }
 }
 oltendoch = {
-	define_pop = {	type = peasants	size = 8.730	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 12.127	culture = west_bergian_culture	religion = altran_church }
 }
 omagdul = {
 	define_pop = {	type = peasants	size = 252.093	culture = omagan_culture	religion = ashar }
 }
 omanede = {
-	define_pop = {	type = peasants	size = 103.809	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 103.880	culture = falar_culture	religion = ewafari_temple }
 }
 omeilia = {
 	define_pop = {	type = peasants	size = 23.099	culture = remaa_culture	religion = the_one_truth }
@@ -8333,7 +8335,7 @@ ongiil = {
 	define_pop = {	type = peasants	size = 6.055	culture = lheyn_culture	religion = horsemother }
 }
 onglmin = {
-	define_pop = {	type = peasants	size = 5.404	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 8.425	culture = tewar_culture	religion = woodmother }
 }
 onimo = {
 	define_pop = {	type = peasants	size = 86.526	culture = homagara_culture	religion = shao }
@@ -8654,7 +8656,7 @@ perderimgu = {
 	define_pop = {	type = peasants	size = 0.718	culture = gabbas_culture	religion = dreammother }
 }
 perlino = {
-	define_pop = {	type = peasants	size = 9.636	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 13.773	culture = tewar_culture	religion = woodmother }
 }
 perlton = {
 	define_pop = {	type = peasants	size = 47.499	culture = northcoaster_culture	religion = altran_church }
@@ -9185,7 +9187,7 @@ reamoon = {
 	define_pop = {	type = peasants	size = 29.127	culture = moonish_culture	religion = altran_church }
 }
 reapers_hedge = {
-	define_pop = {	type = peasants	size = 18.023	culture = riverwood_elf_culture	religion = springmother }
+	define_pop = {	type = peasants	size = 23.453	culture = riverwood_elf_culture	religion = springmother }
 }
 reaver = {
 	define_pop = {	type = peasants	size = 53.792	culture = scarred_one_culture	religion = blood_cult }
@@ -9224,7 +9226,7 @@ rehk = {
 	define_pop = {	type = peasants	size = 52.462	culture = vehkan_culture	religion = ashar }
 }
 rehten = {
-	define_pop = {	type = peasants	size = 4.288	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 6.627	culture = upper_sternian_culture	religion = altran_church }
 }
 reira = {
 	define_pop = {	type = peasants	size = 47.846	culture = lenathii_culture	religion = the_one_truth }
@@ -9335,7 +9337,7 @@ ronaak = {
 	define_pop = {	type = peasants	size = 53.901	culture = ronar_culture	religion = ashar }
 }
 root = {
-	define_pop = {	type = peasants	size = 211.524	culture = weyk_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 190.235	culture = weyk_culture	religion = ewafari_temple }
 }
 rosewood = {
 	define_pop = {	type = peasants	size = 26.635	culture = ventrian_culture	religion = the_one_truth }
@@ -9353,7 +9355,7 @@ roslagn = {
 	define_pop = {	type = peasants	size = 0.525	culture = ykran_culture	religion = old_yorr }
 }
 rottsen = {
-	define_pop = {	type = peasants	size = 37.898	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 42.240	culture = upper_sternian_culture	religion = altran_church }
 }
 rozaba = {
 	define_pop = {	type = peasants	size = 16.498	culture = misral_culture	religion = shuri }
@@ -10130,13 +10132,13 @@ silium = {
 	define_pop = {	type = peasants	size = 120.086	culture = corrusean_culture	religion = the_one_truth }
 }
 silver_hills = {
-	define_pop = {	type = peasants	size = 47.381	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 51.070	culture = east_bergian_culture	religion = altran_church }
 }
 silverfield_ = {
 	define_pop = {	type = peasants	size = 18.921	culture = kagnol_culture	religion = the_one_truth }
 }
 silverleaf = {
-	define_pop = {	type = peasants	size = 26.220	culture = tewar_culture	religion = woodmother }
+	define_pop = {	type = peasants	size = 32.253	culture = tewar_culture	religion = woodmother }
 }
 silvermarsh = {
 	define_pop = {	type = peasants	size = 40.630	culture = rohgii_culture	religion = the_mist }
@@ -10463,13 +10465,13 @@ south_varga = {
 	define_pop = {	type = peasants	size = 1.275	culture = ykran_culture	religion = old_yorr }
 }
 south_wild_lake = {
-	define_pop = {	type = peasants	size = 2.461	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 4.134	culture = glenish_culture	religion = altran_church }
 }
 south_yothiin = {
 	define_pop = {	type = peasants	size = 10.621	culture = yothr_culture	religion = old_yorr }
 }
 south_zahlitz = {
-	define_pop = {	type = peasants	size = 35.362	culture = kronnish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 39.825	culture = kronnish_culture	religion = altran_church }
 }
 south_zilah = {
 	define_pop = {	type = peasants	size = 0.283	culture = hranan_culture	religion = sukkali }
@@ -10574,7 +10576,7 @@ stetton = {
 	define_pop = {	type = peasants	size = 11.089	culture = nightlandic_culture	religion = manolic }
 }
 stockshire = {
-	define_pop = {	type = peasants	size = 19.432	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 23.941	culture = west_bergian_culture	religion = altran_church }
 }
 stoenmil = {
 	define_pop = {	type = peasants	size = 52.001	culture = grey_dwarf_culture	religion = yorik }
@@ -10850,13 +10852,13 @@ tanne_mouth = {
 	define_pop = {	type = peasants	size = 37.504	culture = lower_sternian_culture	religion = the_coin }
 }
 tannebend = {
-	define_pop = {	type = peasants	size = 25.746	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 30.409	culture = upper_sternian_culture	religion = altran_church }
 }
 tanners_fields = {
 	define_pop = {	type = peasants	size = 8.251	culture = lockan_culture	religion = altran_church }
 }
 tanneview = {
-	define_pop = {	type = peasants	size = 16.788	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 21.142	culture = upper_sternian_culture	religion = altran_church }
 }
 tanvik = {
 	define_pop = {	type = peasants	size = 10.509	culture = kynen_culture	religion = celiicean }
@@ -10904,7 +10906,7 @@ tartaray = {
 	define_pop = {	type = peasants	size = 10.583	culture = juatchac_culture	religion = ator }
 }
 tarthen = {
-	define_pop = {	type = peasants	size = 198.869	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 172.855	culture = upper_sternian_culture	religion = altran_church }
 }
 taselc = {
 	define_pop = {	type = peasants	size = 32.792	culture = selc_culture	religion = celiicean }
@@ -11126,7 +11128,7 @@ theban = {
 	define_pop = {	type = peasants	size = 113.471	culture = thebian_culture	religion = ametic }
 }
 thede = {
-	define_pop = {	type = peasants	size = 17.700	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 23.095	culture = falar_culture	religion = ewafari_temple }
 }
 thelan_marsh = {
 	define_pop = {	type = peasants	size = 5.013	culture = thelan_culture	religion = the_one_truth }
@@ -11183,7 +11185,7 @@ thrissan = {
 	define_pop = {	type = peasants	size = 151.088	culture = maju_culture	religion = ojal }
 }
 thronde = {
-	define_pop = {	type = peasants	size = 48.051	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 53.973	culture = boek_culture	religion = ewafari_temple }
 }
 throne = {
 	define_pop = {	type = peasants	size = 203.816	culture = dremoran_culture	religion = throne_cult }
@@ -11192,7 +11194,7 @@ thuan_na = {
 	define_pop = {	type = peasants	size = 70.552	culture = muonh_culture	religion = bharatvadu }
 }
 thulberg = {
-	define_pop = {	type = peasants	size = 9.669	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 13.228	culture = west_bergian_culture	religion = altran_church }
 }
 thulil = {
 	define_pop = {	type = peasants	size = 19.061	culture = oldwood_elf_culture	religion = woodmother }
@@ -11366,7 +11368,7 @@ traders_post = {
 	define_pop = {	type = peasants	size = 1.118	culture = afarafi_culture	religion = the_coin }
 }
 traders_watch = {
-	define_pop = {	type = peasants	size = 53.074	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 56.240	culture = upper_sternian_culture	religion = altran_church }
 }
 tradewatch = {
 	define_pop = {	type = peasants	size = 144.220	culture = lenathii_culture	religion = the_one_truth }
@@ -11381,7 +11383,7 @@ treasure_isle = {
 	define_pop = {	type = peasants	size = 3.479	culture = sippari_culture	religion = asite }
 }
 treegate = {
-	define_pop = {	type = peasants	size = 200.079	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 181.449	culture = falar_culture	religion = ewafari_temple }
 }
 treehollow = {
 	define_pop = {	type = peasants	size = 51.086	culture = torvarik_culture	religion = ator }
@@ -11462,7 +11464,7 @@ tusynmir = {
 	define_pop = {	type = peasants	size = 7.463	culture = slaver_culture	religion = shuri }
 }
 tutz = {
-	define_pop = {	type = peasants	size = 18.056	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 22.492	culture = upper_sternian_culture	religion = altran_church }
 }
 tuy_ngu = {
 	define_pop = {	type = peasants	size = 7.749	culture = muonh_culture	religion = bharatvadu }
@@ -11486,7 +11488,7 @@ uaqhivik = {
 	define_pop = {	type = peasants	size = 0.176	culture = iqu_culture	religion = aaqan }
 }
 uberach = {
-	define_pop = {	type = peasants	size = 10.600	culture = upper_sternian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 14.303	culture = upper_sternian_culture	religion = altran_church }
 }
 ucham = {
 	define_pop = {	type = peasants	size = 20.537	culture = dinali_culture	religion = sukkali }
@@ -11645,13 +11647,13 @@ undgom = {
 	define_pop = {	type = peasants	size = 3.060	culture = khat_culture	religion = horsemother }
 }
 unwil = {
-	define_pop = {	type = peasants	size = 14.592	culture = falar_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 19.599	culture = falar_culture	religion = ewafari_temple }
 }
 uposs = {
 	define_pop = {	type = peasants	size = 18.455	culture = siric_culture	religion = star_house }
 }
 upper_aating = {
-	define_pop = {	type = peasants	size = 27.378	culture = west_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 32.040	culture = west_bergian_culture	religion = altran_church }
 }
 upper_abere = {
 	define_pop = {	type = peasants	size = 7.906	culture = shurrean_culture	religion = nursari_temple }
@@ -11678,7 +11680,7 @@ upper_fian = {
 	define_pop = {	type = peasants	size = 4.080	culture = manafi_culture	religion = woodmother }
 }
 upper_foring = {
-	define_pop = {	type = peasants	size = 4.279	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 6.615	culture = forren_culture	religion = altran_church }
 }
 upper_geccar = {
 	define_pop = {	type = peasants	size = 11.321	culture = sascilian_culture	religion = the_one_truth }
@@ -11888,7 +11890,7 @@ uwen = {
 	define_pop = {	type = peasants	size = 6.394	culture = rifter_culture	religion = star_house }
 }
 uwl = {
-	define_pop = {	type = peasants	size = 10.037	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 13.654	culture = east_bergian_culture	religion = altran_church }
 }
 uwon = {
 	define_pop = {	type = peasants	size = 33.088	culture = weyk_culture	religion = ewafari_temple }
@@ -12044,7 +12046,7 @@ verile = {
 	define_pop = {	type = peasants	size = 112.025	culture = slaver_culture	religion = blood_cult }
 }
 vern = {
-	define_pop = {	type = peasants	size = 107.354	culture = east_bergian_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 102.352	culture = east_bergian_culture	religion = altran_church }
 }
 vernen = {
 	define_pop = {	type = peasants	size = 17.604	culture = dalsch_culture	religion = altran_church }
@@ -12293,7 +12295,7 @@ weijian = {
 	define_pop = {	type = peasants	size = 82.155	culture = zhong_culture	religion = shao }
 }
 weix = {
-	define_pop = {	type = peasants	size = 25.009	culture = glenish_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 29.667	culture = glenish_culture	religion = altran_church }
 }
 weixhou = {
 	define_pop = {	type = peasants	size = 24.500	culture = shen_culture	religion = conhayna }
@@ -12338,7 +12340,7 @@ west_durms = {
 	define_pop = {	type = peasants	size = 8.227	culture = wayn_culture	religion = the_one_truth }
 }
 west_elwen = {
-	define_pop = {	type = peasants	size = 13.597	culture = boek_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 18.457	culture = boek_culture	religion = ewafari_temple }
 }
 west_end = {
 	define_pop = {	type = peasants	size = 3.121	culture = drebyr_culture	religion = yorik }
@@ -12464,7 +12466,7 @@ wetwondi = {
 	define_pop = {	type = peasants	size = 37.116	culture = tsiani_culture	religion = lakemother }
 }
 wewe = {
-	define_pop = {	type = peasants	size = 32.725	culture = weyk_culture	religion = ewafari_temple }
+	define_pop = {	type = peasants	size = 38.939	culture = weyk_culture	religion = ewafari_temple }
 }
 weyes = {
 	define_pop = {	type = peasants	size = 32.621	culture = teyan_culture	religion = star_house }
@@ -12503,7 +12505,7 @@ wheyfield = {
 	define_pop = {	type = peasants	size = 24.566	culture = whetic_culture	religion = altran_church }
 }
 whistle = {
-	define_pop = {	type = peasants	size = 24.044	culture = riverwood_elf_culture	religion = springmother }
+	define_pop = {	type = peasants	size = 29.963	culture = riverwood_elf_culture	religion = springmother }
 }
 white_forge = {
 	define_pop = {	type = peasants	size = 24.930	culture = yothr_culture	religion = yorik }
@@ -12566,7 +12568,7 @@ wooden_heights = {
 	define_pop = {	type = peasants	size = 4.491	culture = torvarik_culture	religion = asite }
 }
 woods_end = {
-	define_pop = {	type = peasants	size = 7.368	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 10.500	culture = forren_culture	religion = altran_church }
 }
 wrath = {
 	define_pop = {	type = peasants	size = 105.039	culture = dremoran_culture	religion = throne_cult }
@@ -12641,7 +12643,7 @@ xuye_minh = {
 	define_pop = {	type = peasants	size = 131.476	culture = kinh_vao_culture	religion = bharatvadu }
 }
 xylung = {
-	define_pop = {	type = peasants	size = 11.484	culture = forren_culture	religion = altran_church }
+	define_pop = {	type = peasants	size = 15.310	culture = forren_culture	religion = altran_church }
 }
 yabha = {
 	define_pop = {	type = peasants	size = 10.062	culture = nacin_culture	religion = ishuli }

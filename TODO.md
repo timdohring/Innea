@@ -28,6 +28,12 @@ first time anything non-empty loads.
       generator is deterministic — re-running produces a byte-identical file.
       Generator: `map/gen_pops.py`. Hand-pinned: `fuad` = 1000k, and `zuwar`+`bayd`+`sire` >= 1000k.
       All 118 area targets are hit exactly.
+      **Per-area flattening (2026-09-03):** `AREA_FLATTEN` in `gen_pops.py` raises every weight in a
+      named area to a power before distributing, then renormalises — pulling the top down and the
+      bottom up while the area total stays exact. `lower_falfedo_area` and `central_teltran_area` are
+      at 0.85, because one location was taking a quarter of its area on its own
+      (Falansyr 602k -> 463k, Bergendale 453k -> 348k; the smallest locations roughly double).
+      Every other area is unflattened.
       - [ ] **Split those peasants into other pop types.** Vanilla's own data gives the rule: tribesmen
             share falls monotonically with location size (98% in the smallest decile, 8.8% in the
             largest), peasants rise 1.9% -> 78.5%. Elite pops are tiny by headcount world-wide —
@@ -47,7 +53,66 @@ first time anything non-empty loads.
             locations within 8pp of even), so they carry no usable signal. Total Dev is the only
             meaningful development number in the sheet.
 - [ ] `02_core.txt`
-- [ ] `07_cities_and_buildings.txt`
+- [x] **`07_cities_and_buildings.txt`** — the `locations` half. **876 urban locations**: 677 towns,
+      198 cities and 1 megalopolis (Fuad). Rank comes from the Information sheet's **Center of Trade Level** (col Q), the only
+      authored importance signal Innea has — `CoT 1 -> town`, `CoT 2/3 -> city`. Vanilla ranks by
+      historical importance, not population (900k Chinese rice locations are plain towns; Cairo at
+      529k is a megalopolis), so pop was deliberately not used.
+      **156 town setups** in `in_game/common/town_setups/01_innea.txt`, one per
+      **culture group x port/inland x town/city** (74 groups, only the combinations that exist).
+      Only **`marketplace` and `temple`** are on every setup — the two buildings that need no
+      local input. Everything else is earned from the culture group's own goods, with two scopes:
+      **guilds** are tested against the group's *urban* locations (added at >=15%, level 2 in
+      cities at >=40%), while the six **infrastructure** buildings (`tools_guild` `mason`
+      `pottery_guild` `tannery` `weapon_guild` `granary`) are tested against the group's *whole
+      territory*, urban and rural, because a town is fed by its hinterland. Building inputs were
+      read out of `in_game/common/building_types/`.
+      194 variants were generated and 38 collapsed as byte-identical, leaving 156.
+      **Infrastructure thresholds are self-calibrating**, not hand-picked: each is set to the
+      quantile of the group territory-share distribution that reproduces vanilla's own frequency
+      for that building, read live out of vanilla's `00_default.txt` at generation time. Which
+      groups get it is still decided by their goods — only how many is matched to vanilla. All six
+      now land within 1-5pp of vanilla (mason 69% vs 66%, granary 62% vs 58%, tools_guild 68% vs
+      67%). Earlier attempts for the record: a fixed core put them at 100%; a 15% urban-share cut
+      mason to 7%; whole-territory *presence* pushed granary to 99%.
+      Generator: `map/gen_cities.py`. Additive — no collision with vanilla's 115 setups.
+      `PIN_CITY` forces `zuwar`/`bayd`/`sire` to city — Fuad's suburbs, the same three damped in
+      `gen_pops.py`; `zuwar` is CoT 0 and had to be pulled into the urban set to get a rank.
+      - [x] **No forts in the setups** (fixed 2026-09-03). The first pass put a `stockade` on every
+            town and a `castle` on every city. Both are **forts** — `building_types/forts.txt`,
+            `defense_category`, `fort_level` 1 and 2, `pop_type = soldiers`, and `castle` carries
+            `obsolete = stockade`. Vanilla places **667 of its 716 forts in `building_manager`**
+            with a country tag (110 castle + 557 stockade) against 46 + 5 in setups. Worse, the
+            sheet has an **authored Fort (Level) column** — 1005 locations, 1004 at level 1 and 1
+            at level 2 — that the blanket version ignored: it forted 299 urban locations the sheet
+            says have no fort, and could never reach the **429 forted locations that are not
+            urban**. Forts now wait for `building_manager`; see the item below.
+      - [ ] **Place forts from the sheet's Fort column** when `10_countries.txt` lands — 1005
+            locations, needs a country tag per entry, so it belongs in `building_manager`.
+      - [x] **`dock` dropped and `wharf` trimmed** — vanilla uses `dock` in 3 setups of 115 (and it
+            is another soldiers building); the first pass had it in 22%. `wharf` was on every port
+            setup (51%) and is now port-**cities** only (27%, against vanilla's 18%).
+      - [x] **Megalopolis: Fuad only** (decided 2026-09-03) — 1959k against 447k for the next
+            candidate, the highest development in the world (76), and a market seat. Vanilla runs
+            3 across Earth's 20,794 locations, so one on Innea's 4303 is in line.
+            `MEGALOPOLIS` at the top of `gen_cities.py` is the switch if that is revisited.
+            The field that was passed over: Oasis (447k, CoT 2, market seat) and Erdopor (391k,
+            CoT 2) both out-populate most CoT-3 locations; Uteya (420k, dev 60) and Haan (420k)
+            are the largest CoT-3 pair but are **not** market seats, so `is_market_center` would
+            fail them once countries land. Mulwar (Orea) and Kampong/Vienmarat (Emea) were the
+            only candidates outside Astrea and Innea, if continental spread ever matters.
+      - [ ] **The `building_manager` half is blocked on `10_countries.txt`** — 2646 of vanilla's
+            2647 entries carry `tag = <COUNTRY>`. The block is written empty with a note.
+      - [ ] Two rank gates are bypassed by the setup file (as vanilla does): **5 CoT-2 locations
+            have pop < 30** (the `city` gate) and **38 CoT-1 locations have pop < 5** (the `town`
+            gate). Decide whether to demote those 43 to the rank they actually qualify for.
+      - [ ] `lacquerware_guild` ends up on **zero** setups. Its inputs are identical to
+            `furniture_guild`, so the share rule alone put it on 23% of groups against vanilla's
+            3.5%; restricting it to the Emean family (vanilla treats it as East-Asian) dropped it
+            to none, since no Emean group clears 15% on lumber/dyes. Place it by hand if wanted.
+      - [ ] `fishing_village`, `charcoal_maker` and `local_markets` are **rural-settlement only**
+            and so cannot appear in these setups — worth revisiting if rural setups ever land.
+      - [ ] **Never load-tested.**
 - [ ] `05_characters.txt` / `04_dynasties.txt`
 - [ ] `08_institutions.txt`
 - [ ] `09_roads.txt`

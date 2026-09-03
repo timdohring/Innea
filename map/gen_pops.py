@@ -14,6 +14,14 @@ PIN_FLOORS = {"fuad": 1000.0}
 # surplus to the named primary. Lets a great city outgrow its hinterland.
 SUBURBS = [(["zuwar", "bayd", "sire"], 0.85, "fuad")]
 
+# Per-area flattening: raise every weight in the area to this power before distributing
+# the target. <1 pulls the top down and the bottom up while keeping the area total exact;
+# 1.0 is the default shape. Used where one location was running away with its area.
+AREA_FLATTEN = {
+    "lower_falfedo_area":   0.85,   # falansyr was 26.6% of the area on its own
+    "central_teltran_area": 0.85,   # bergendale was 15.7%
+}
+
 MOD  = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\EU5 Innea\wip mod folder"
 MAPW = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\map"
 REPO = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\EU5 Innea"
@@ -105,11 +113,16 @@ for area,rows in byarea.items():
         for l in g: w[l]*=factor
         w[primary]+=freed
 
-    # 2. distribute the area target by weight
+    # 2. optional flattening - compress the spread within this area
+    k=AREA_FLATTEN.get(area)
+    if k and k!=1.0:
+        for l in names: w[l]=w[l]**k
+
+    # 3. distribute the area target by weight
     wsum=sum(w.values()) or 1.0
     out={l: tgt*w[l]/wsum for l in names}
 
-    # 3. apply floors, taking the shortfall from everyone else pro rata
+    # 4. apply floors, taking the shortfall from everyone else pro rata
     for l,floor in PIN_FLOORS.items():
         if l not in out or out[l]>=floor: continue
         short=floor-out[l]; out[l]=floor
@@ -128,11 +141,13 @@ L=["# Innea starting population.",
    "#",
    "# FIRST PASS: the whole population of a location is a single peasants pop.",
    "# Splitting it into tribesmen / burghers / clergy / nobles / slaves comes later.",""]
-if PIN_FLOORS or SUBURBS:
+if PIN_FLOORS or SUBURBS or AREA_FLATTEN:
     L.append("# Hand adjustments:")
     for k,v in PIN_FLOORS.items(): L.append("#   %s has a floor of %.0fk (not a cap)"%(k,v))
     for grp,fa,pr in SUBURBS:
         L.append("#   %s damped to %.0f%% of their natural share, surplus to %s"%(" + ".join(grp),100*fa,pr))
+    for a,k in AREA_FLATTEN.items():
+        L.append("#   %s flattened: weights ^ %.2f before distributing the area target"%(a,k))
     L.append("")
 L+=["locations={",""]
 tot=0.0
