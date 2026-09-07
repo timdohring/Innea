@@ -6,8 +6,8 @@ Rank comes from the Information sheet's Center of Trade Level (col Q), the only 
 Setups are per culture GROUP x port/inland x town/city, and their guilds are chosen from
 the goods the group's own urban locations actually produce.
 
-The building_manager half is NOT generated: 2646 of vanilla's 2647 entries carry a
-country tag, so it is blocked on 10_countries.txt.
+The building_manager half places the forts. Every entry needs a country tag, so it depends
+on 10_countries.txt having been generated first by map/gen_countries.py.
 """
 import csv, io, re, os, glob, collections
 
@@ -24,7 +24,17 @@ MEGALOPOLIS = ["fuad"]
 # is not otherwise urban (CoT 0) is pulled into the urban set. zuwar/bayd/sire are Fuad's
 # suburbs - the same three damped in gen_pops.py to let Fuad outgrow its hinterland - and at
 # 179k/339k/315k they are the metro ring around the world's only megalopolis.
-PIN_CITY = ["zuwar", "bayd", "sire"]
+PIN_CITY = ["zuwar", "bayd", "sire", "karsan"]
+
+# Locations dropped from the urban set and stripped of their fort, whatever the sheet and the
+# EU4 mod say. Both sources put CoT 2 and fort_15th on Esfamlends (EU4 460) and neither on its
+# neighbour Karsan (461) - but Karsan is Karshire's capital, a market seat, and dev 47 against
+# Esfamlends' 10. The rank and the fort move across; hence karsan in PIN_CITY and PIN_FORT.
+DEMOTE = ["esfamlends"]
+
+# Locations given a fort regardless of EU4 fort_15th and the sheet's Fort column. Level as in
+# FORT_BUILDING below. The owning country still comes from the EU4 owner via tag_remap.csv.
+PIN_FORT = {"karsan": 1}
 
 # A guild is added to a group's setup when this share of the group's urban locations
 # produces one of its input goods. Inputs were read off in_game/common/building_types/.
@@ -145,6 +155,8 @@ for r in [r for r in rows[2:] if r and r[0].strip().isdigit()]:
     loc = id2loc.get(int(r[0]))
     if not loc or loc not in path or len(path[loc]) < 4:
         continue
+    if loc in DEMOTE:
+        continue
     try: cot = int(r[16] or 0)
     except ValueError: cot = 0
     if loc in PIN_CITY:
@@ -261,6 +273,61 @@ os.makedirs(os.path.join(MOD, "in_game", "common", "town_setups"), exist_ok=True
 open(os.path.join(MOD, "in_game", "common", "town_setups", "01_innea.txt"),
      "w", encoding="utf-8", newline="\r\n").write("\n".join(L))
 
+# ---------------------------------------------------------------- forts
+# EU4 records a single fort tier, `fort_15th = yes` (1002 locations). The Information sheet has
+# its own Fort (Level) column (1004 at level 1, exactly 1 at level 2). They agree on 1001; EU4
+# has 1 the sheet lacks and the sheet 4 that EU4 lacks, so the union of both is used.
+# EU5 fort tiers are stockade(1) -> castle(2) -> bastion(4) -> star_fort(6) -> fortress(8), all
+# max_levels = 1. Level 1 maps to `castle` per the design call; the single level-2 location
+# takes the next tier up, `bastion`.
+FORT_BUILDING = {1: "castle", 2: "bastion"}
+
+EU4 = r"C:\Users\timdo\OneDrive\Documents\Projects\Innea modding\Version 1.3 (1.33)\2226968141"
+fort, eu4_owner = {}, {}
+for f in glob.glob(os.path.join(EU4, "history", "provinces", "*.txt")):
+    m = re.match(r'(\d+)', os.path.basename(f))
+    if not m:
+        continue
+    pid = int(m.group(1)); t = rd(f)
+    if re.search(r'^\s*fort_15th\s*=\s*yes', t, re.M):
+        fort[pid] = 1
+    o = re.search(r'^\s*owner\s*=\s*([A-Z][A-Z0-9]{2})', t, re.M)
+    if o:
+        eu4_owner[pid] = o.group(1)
+for r in rows[2:]:
+    if not (r and r[0].strip().isdigit()) or len(r) <= 15:
+        continue
+    v = r[15].strip()
+    if v in ("1", "2"):
+        fort[int(r[0])] = max(fort.get(int(r[0]), 0), int(v))
+
+loc2id = {l: i for i, l in id2loc.items()}
+for l in DEMOTE:
+    fort.pop(loc2id.get(l), None)
+for l, lvl in PIN_FORT.items():
+    if l in loc2id:
+        fort[loc2id[l]] = max(fort.get(loc2id[l], 0), lvl)
+
+remap = {}
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "tag_remap.csv"),
+          encoding="utf-8") as fh:
+    for row in list(csv.reader(fh))[1:]:
+        remap[row[0]] = row[1]
+live_tags = set(re.findall(r'^\t\t([A-Z][A-Z0-9]{2}) = \{',
+                           rd(os.path.join(MOD, "main_menu", "setup", "start", "10_countries.txt")), re.M))
+
+forts, fort_skip = [], collections.Counter()
+for pid, lvl in sorted(fort.items()):
+    loc = id2loc.get(pid)
+    if not loc or loc not in path:
+        fort_skip["location does not resolve"] += 1; continue
+    tag = remap.get(eu4_owner.get(pid), eu4_owner.get(pid))
+    if not tag:
+        fort_skip["location has no owner"] += 1; continue
+    if tag not in live_tags:
+        fort_skip["owner not in 10_countries"] += 1; continue
+    forts.append((path[loc][0], loc, tag, lvl))
+
 # ---------------------------------------------------------------- write 07
 rank = {l: ("megalopolis" if l in MEGALOPOLIS else "city" if urban[l]['cot'] >= 2 else "town")
         for l in urban}
@@ -281,9 +348,16 @@ for key in sorted(grouped):
                  (l, rank[l], used[l], urban[l]['name']))
     O.append("")
 O += ["}", "",
-      "# Unique and special buildings. Every vanilla entry here carries `tag = <COUNTRY>`",
-      "# (2646 of 2647), so this half is blocked until 10_countries.txt exists.",
-      "building_manager = {", "}", ""]
+      "# Forts. Sourced from EU4 `fort_15th` plus the sheet's Fort (Level) column, union of both.",
+      "# Level 1 -> castle (EU5 fort_level 2); the single level-2 location -> bastion.",
+      "building_manager = {", ""]
+for cont in sorted({f[0] for f in forts}):
+    rows_ = [f for f in forts if f[0] == cont]
+    O.append("\t# ===== %s (%d) =====" % (cont.replace("_continent", "").upper(), len(rows_)))
+    for _, loc, tag, lvl in sorted(rows_, key=lambda x: (-x[3], x[1])):
+        O.append("\t%-9s = { tag = %s level = 1 location = %s }" % (FORT_BUILDING[lvl], tag, loc))
+    O.append("")
+O += ["}", ""]
 open(os.path.join(MOD, "main_menu", "setup", "start", "07_cities_and_buildings.txt"),
      "w", encoding="utf-8", newline="\r\n").write("\n".join(O))
 
@@ -297,6 +371,8 @@ print("setups by shape: %s" % dict(collections.Counter(
     ("port_" if "_port_" in s else "") + s.rsplit("_", 1)[1] for s in setups)))
 sizes = sorted(len(b) for b in setups.values())
 print("buildings per setup: min %d  median %d  max %d" % (sizes[0], sizes[len(sizes)//2], sizes[-1]))
+print("forts: %d placed (%s)  skipped: %s" % (
+    len(forts), dict(collections.Counter(FORT_BUILDING[f[3]] for f in forts)), dict(fort_skip)))
 gc = collections.Counter()
 for extras, share, n in profile.values():
     for e in extras:

@@ -3,7 +3,7 @@ market_manager = {
 
 	# ===== INNEA =====
 
-	# Eastern Innea (36)
+	# Eastern Innea (35)
 		add_market = arbor
 		add_market = blackhorse
 		add_market = bluewater
@@ -15,7 +15,6 @@ market_manager = {
 		add_market = elcnoe
 		add_market = enia
 		add_market = euwex
-		add_market = fintonshire
 		add_market = fjordheim
 		add_market = goldvale
 		add_market = gothram
@@ -41,7 +40,7 @@ market_manager = {
 		add_market = upper_elonia
 		add_market = ywellke
 
-	# Western Innea (33)
+	# Western Innea (32)
 		add_market = akhtadza
 		add_market = almorr
 		add_market = bradzd
@@ -74,7 +73,6 @@ market_manager = {
 		add_market = trereborg
 		add_market = unwil
 		add_market = upper_ozamt
-		add_market = west_chewa
 
 	# ===== ASTREA =====
 

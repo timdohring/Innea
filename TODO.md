@@ -119,8 +119,19 @@ first time anything non-empty loads.
             at level 2 — that the blanket version ignored: it forted 299 urban locations the sheet
             says have no fort, and could never reach the **429 forted locations that are not
             urban**. Forts now wait for `building_manager`; see the item below.
-      - [ ] **Place forts from the sheet's Fort column** when `10_countries.txt` lands — 1005
-            locations, needs a country tag per entry, so it belongs in `building_manager`.
+      - [x] **Forts placed** — source is the **union** of EU4 `fort_15th = yes` (1002 locations)
+            and the sheet's Fort (Level) column (1004 level-1 + 1 level-2). The two agree on 1001;
+            EU4 has 1 the sheet lacks (id 237) and the sheet 4 that EU4 lacks (117, 235, 4312,
+            4524), so the union of 1006 is used. All resolve, all are owned, and every owner
+            exists in `10_countries.txt`.
+            EU5 fort tiers are `stockade`(1) -> `castle`(2) -> `bastion`(4) -> `star_fort`(6) ->
+            `fortress`(8), all `max_levels = 1`. **Level 1 maps to `castle`** per the design call;
+            **fort level 2 occurs exactly once** in the whole world — `hung_bao` (Hung Bao, owner
+            HND) — and takes the next tier up, `bastion`.
+      - [ ] Decide whether `castle` (EU5 fort_level 2) is the right tier for a plain EU4 fort, or
+            whether `stockade` (fort_level 1) fits better for the ordinary case. Vanilla leans
+            heavily on stockade: 557 of its building_manager forts are stockades against 110
+            castles.
       - [x] **`dock` dropped and `wharf` trimmed** — vanilla uses `dock` in 3 setups of 115 (and it
             is another soldiers building); the first pass had it in 22%. `wharf` was on every port
             setup (51%) and is now port-**cities** only (27%, against vanilla's 18%).
@@ -133,8 +144,11 @@ first time anything non-empty loads.
             are the largest CoT-3 pair but are **not** market seats, so `is_market_center` would
             fail them once countries land. Mulwar (Orea) and Kampong/Vienmarat (Emea) were the
             only candidates outside Astrea and Innea, if continental spread ever matters.
-      - [ ] **The `building_manager` half is blocked on `10_countries.txt`** — 2646 of vanilla's
-            2647 entries carry `tag = <COUNTRY>`. The block is written empty with a note.
+      - [x] **The `building_manager` half is done** (2026-09-03, unblocked once countries landed).
+            **1006 forts**: 1005 `castle` + 1 `bastion`, none skipped. Astrea 243, Emea 192,
+            Innea 537, Orea 34; Panoria and Perlea have none. Most fortified: B4N 33, ACR 11,
+            DLS 10. Every entry is `castle = { tag = XXX level = 1 location = yyy }` and is
+            validated to sit on a location that tag actually owns.
       - [ ] Two rank gates are bypassed by the setup file (as vanilla does): **5 CoT-2 locations
             have pop < 30** (the `city` gate) and **38 CoT-1 locations have pop < 5** (the `town`
             gate). Decide whether to demote those 43 to the rank they actually qualify for.
@@ -310,6 +324,32 @@ Source: `../Version 1.3 (1.33)/2226968141/`
       `<terrain>_proximity_impact` never registers.
 - [ ] Localisation for 219 `unnamed_location_N` locations — 209 of them are in the three unauthored
       continents (§9), so naming them is really a design task, not a localisation one.
+- [ ] **24 EU4 adjacencies cannot be ported — they need map changes.** The EU4 mod's
+      `map/adjacencies.csv` holds 52 real crossings (plus EU4's `-1` terminator row); the 28
+      land-sea-land straits are now ported to
+      `map_data/adjacencies.csv` (2026-09-07), but the rest cross terrain EU5 cannot bridge:
+      **23 through wasteland** and **1 through a lake**. Vanilla EU5 uses `Type = sea` on all 184
+      of its rows and nothing else, so there is no land-through-wasteland adjacency to write.
+      This is the same defect as the enclave finding below — the wasteland rows are precisely how
+      the EU4 mod kept its desert oases and mountain valleys reachable.
+      To be addressed by repainting `locations.png` so the enclaves touch their neighbours directly.
+
+      | Through | Crossings | Locations affected |
+      |---|---|---|
+      | `fayu_desert` | 14 | ahl_qarih ambath aljai an_fayu derre deserts_rest dharb dune hism_almaji majmah southrock thanbaq yanbut bukunabani |
+      | `anhyan_mountains` | 6 | damshi monakham monkha punjakh punphu rhaan thi_haphun |
+      | `sahid_desert` | 2 | hism_khar ruham sahid |
+      | `ironstone_mountains` | 1 | greyhome sothn |
+      | `great_wolf_lake` (lake) | 1 | kaganishwa peyakene |
+
+- [ ] **13 land locations are fully enclosed by a single wasteland** and so have no land neighbour
+      and no sea neighbour — unreachable by army, pop movement or market access. Found 2026-09-07 by
+      `map/gen_adjacency.py`. They are the endpoints of the wasteland rows above:
+      `aljai an_fayu damshi derre deserts_rest dharb greyhome hism_almaji hism_khar rhaan thanbaq
+      thi_haphun yanbut`. Three of them (`damshi`, `derre`, `rhaan`) are urban and all 13 carry pops.
+- [ ] `great_wolf_lake` crossing depends on the lakes-in-`sea_zones` question above: all 34 lakes are
+      currently also listed as sea zones, so a `sea` adjacency through a lake might load today and
+      break the moment that list is made disjoint. Decide the lakes question first.
 
 
 ## 8. Housekeeping
