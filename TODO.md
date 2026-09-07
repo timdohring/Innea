@@ -305,6 +305,60 @@ sources is wrong on each. The mod currently follows EU4 history.
 - [ ] 12 of the 32 reseated markets are coastal but front a *different* body of water than the sea zone
       their EU4 node sat on. May be worth reseating onto a member that fronts the original zone.
 
+## 5b. International organizations — carved out of the diplomacy port (2026-09-07)
+
+`12_diplomacy.txt` is done: 98 dependencies + 6 alliances, ported from the EU4 mod's
+`history/diplomacy/`. Three things in that folder are **not** diplomacy in EU5 and were left out.
+They all belong in `15_international_organizations.txt`, which is still an empty override.
+
+- [ ] **The 5 trade leagues** — 13 EU4 alliances carry `trade_league = 1`, which EU5's diplomacy
+      file has no equivalent for. Vanilla has no trade-league IO either; the nearest things are the
+      `hanseatic_member` subject type (vanilla's Hansa, 3 instances) or a custom IO type.
+
+      | League leader | Members |
+      |---|---|
+      | HRE Hreimgild | REY |
+      | FAC Faction Traders | FIE, COV, PEC |
+      | PIB Picket | MRO, SAP, KAV, SHZ |
+      | STB Seagull Traders | SAZ, HTD, TEV |
+      | CRC Cliffer's Rock | BEL, WEL |
+
+      Note HRE also has two *plain* alliances (PTD, CTD) that DID port, so Hreimgild's league is
+      currently split across two mechanics.
+
+- [ ] **The 2 personal unions** — `MOL (Moltran) -> KAP (Karshire)` and `MAP (Maetia) -> DIA (Diana)`.
+      EU5 has no union subject type; a union is an IO (`common/international_organizations/union.txt`)
+      with `special_statuses_implemented = { senior_partner junior_partner }`, so the setup entry is:
+
+      ```
+      add_international_organization = {
+          type = union
+          creation_date = <before 1337.4.1>
+          members = { MOL KAP }
+          senior_partner = { MOL }
+          junior_partner = { KAP }
+      }
+      ```
+
+      ⚠️ **Blocked on characters.** `union.txt`'s `monthly_effect` kicks any member whose ruler is not
+      the union's ruler character. Every Innea country currently has `government = { ruler = random }`
+      and `05_characters.txt` is an empty override, so both partners roll independent rulers and the
+      union would dissolve on the first monthly tick. Either author shared ruler characters first, or
+      encode these two as the `dominion` subject type instead — level 3 with `has_overlords_ruler = yes`,
+      which makes the engine put the subject on the overlord's ruler rather than requiring it.
+      Senior partner is unambiguous in both cases: MOL is rank_kingdom/16 locations vs KAP county/8,
+      MAP is rank_kingdom/28 vs DIA duchy/7.
+
+- [ ] **`history/diplomacy/hre.txt`** — `emperor = AKK` and `celestial_emperor = B4N`. Both are IOs in
+      EU5 (`hre.txt`, `middle_kingdom.txt`), not diplomacy.
+
+- [ ] **`ANV -> NGO` did not port**: Ngon is one of the 23 landless-but-cored tags and so is absent from
+      `10_countries.txt`. It returns for free if those tags are added (§1).
+
+- [ ] The EU4 mod has **no royal marriages and no guarantees** anywhere. Vanilla EU5 uses both freely
+      (`scripted_oneway type = guarantee`). Innea starts with none — a design gap, not a porting one.
+
+
 ## 6. Other content to port from EU4
 
 Source: `../Version 1.3 (1.33)/2226968141/`

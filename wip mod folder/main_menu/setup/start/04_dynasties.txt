@@ -1,6 +1,40 @@
-# DEBUG NEUTRALISATION 2026-08-30 - empty override of vanilla's Earth game-start.
-# Vanilla setup/start names Earth locations that do not exist on the Innea map.
-# Delete this file to fall back to vanilla's version.
-dynasty_manager = {
-}
+# Innea dynasties.
+#
+# Was an empty override of vanilla's Earth game-start; it now carries the two royal houses
+# behind Innea's two personal unions. Vanilla's own dynasties stay overridden - they name Earth
+# locations as their `home` and Earth cultures in their name lists.
+#
+# Names are taken verbatim from the ported language name lists in
+# in_game/common/languages/01_innea_human_innea.txt.
 
+dynasty_manager = {
+
+	# Moltran's royal house, named for its capital. Athelron of Keltran holds both the Moltran
+	# and the Karshire crowns - see 05_characters.txt.
+	of_keltran_dynasty = {
+		name = { name = "of Keltran" }
+		dynasty_name_type = location
+		home = keltran
+		male_names = {
+			Athelron Edalstan Cyneborn Uthric Georthar Edberth Beornras Cenric
+		}
+		female_names = {
+			Edgylth Alfwith Mildwith Sarawynne Louthwyn Fridana
+		}
+	}
+
+	# Maetia's royal house, named for the realm itself. Bikentor sa Maea holds both the Maetia
+	# and the Diana crowns.
+	sa_maea_dynasty = {
+		name = { name = "sa Maea" }
+		dynasty_name_type = location
+		home = uvorra
+		male_names = {
+			Bikentor Lorenzas Vasaritor Adolso Ziorgos Cecili Danrio Geralo
+		}
+		female_names = {
+			Aintza Elixstine Goizea Kistore Thalsia Viana
+		}
+	}
+
+}

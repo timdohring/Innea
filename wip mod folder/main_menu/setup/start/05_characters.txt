@@ -1,6 +1,46 @@
-# DEBUG NEUTRALISATION 2026-08-30 - empty override of vanilla's Earth game-start.
-# Vanilla setup/start names Earth locations that do not exist on the Innea map.
-# Delete this file to fall back to vanilla's version.
-character_db = {
-}
+# Innea characters.
+#
+# Was an empty override of vanilla's Earth game-start; it now carries the two rulers behind
+# Innea's two personal unions, ported in from the EU4 mod's history/diplomacy/.
+#
+# EU5 has no union subject type and vanilla declares no `union` international organization at
+# setup. All 49 of vanilla's starting personal unions are made the same way: two or more
+# countries point `ruler =` at the SAME character. So each of these two characters is named as
+# ruler by both partners in 10_countries.txt, and the engine forms the union from that:
+#
+#     Athelron of Keltran -> MOL (Moltran)  + KAP (Karshire)
+#     Bikentor sa Maea    -> MAP (Maetia)   + DIA (Diana)
+#
+# The EU4 mod defines no monarch for any of the four (only 98 of its 931 country files carry a
+# monarch block, and none of these), so both are new. First names and dynasties are taken
+# verbatim from the ported language name lists.
+#
+# Born ~1300 so each is in his late thirties at the 1337.4.1 start: an adult ruler, which
+# union.txt requires - it drops any member whose ruler is not the union's ruler character, and
+# a child under regency would put the union into an interregnum.
+#
+# adm/dip/mil are left out on purpose; only 23% of vanilla's 7653 characters set them.
 
+character_db = {
+
+	mol_athelron = {
+		first_name = { name = Athelron }
+		culture = moltrese_culture
+		religion = altran_church
+		birth_date = 1299.6.14
+		birth = keltran
+		dynasty = of_keltran_dynasty
+		tag = MOL
+	}
+
+	map_bikentor = {
+		first_name = { name = Bikentor }
+		culture = south_maetian_culture
+		religion = the_one_truth
+		birth_date = 1301.2.3
+		birth = uvorra
+		dynasty = sa_maea_dynasty
+		tag = MAP
+	}
+
+}

@@ -1,4 +1,4 @@
-# Innea countries, ported from the EU4 mod's history/.
+﻿# Innea countries, ported from the EU4 mod's history/.
 # 863 countries; owner and cores come from history/provinces, government/rank/capital
 # from history/countries, bridged EU4 province id -> RGB -> EU5 location name.
 # Rulers are `ruler = random`: the EU4 mod only defines a monarch for 98 of 931 countries.
@@ -3201,7 +3201,7 @@ countries = {
 			include = "innea_expl_innea"
 			include = "innea_monarchy"
 			country_rank = rank_kingdom
-			government = { ruler = random }
+			government = { ruler = map_bikentor }
 			capital = uvorra
 		}
 		COD = { # Cothonia, was COT
@@ -3338,7 +3338,7 @@ countries = {
 			include = "innea_expl_innea"
 			include = "innea_monarchy"
 			country_rank = rank_duchy
-			government = { ruler = random }
+			government = { ruler = map_bikentor }
 			capital = diana
 		}
 		RAC = { # Ravona, was RAV
@@ -4666,7 +4666,7 @@ countries = {
 			include = "innea_expl_innea"
 			include = "innea_monarchy_landlocked"
 			country_rank = rank_kingdom
-			government = { ruler = random }
+			government = { ruler = mol_athelron }
 			capital = keltran
 		}
 		BRJ = { # Brongs, was BRG
@@ -4711,7 +4711,7 @@ countries = {
 			include = "innea_expl_innea"
 			include = "innea_monarchy_landlocked"
 			country_rank = rank_county
-			government = { ruler = random }
+			government = { ruler = mol_athelron }
 			capital = karsan
 		}
 		ORF = { # Ormia, was ORA
