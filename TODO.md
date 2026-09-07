@@ -376,8 +376,26 @@ Source: `../Version 1.3 (1.33)/2226968141/`
 - [ ] `layer=` values differ from vanilla for `city` / `unit_stack` / `vfx` locators.
 - [ ] `deadlands` / `glacial` / `volcanic` topography are missing the `proximity` field, so
       `<terrain>_proximity_impact` never registers.
-- [ ] Localisation for 219 `unnamed_location_N` locations — 209 of them are in the three unauthored
-      continents (§9), so naming them is really a design task, not a localisation one.
+- [x] **Localisation pass done (2026-09-07)** — `map/gen_localisation.py` writes 6,978 keys across
+      8 additive `innea_*.yml` files in `main_menu/localization/english/`. Sources: religions and
+      religion groups 100% from the EU4 mod; cultures/groups/languages 618 of 708 from EU4, the rest
+      generated from the key; locations from the Information sheet with EU4 `PROV<id>` as fallback.
+      Continents/subcontinents/regions/areas/provinces (1,260 keys) are generated — the EU4 mod's
+      own area/region keys are a different naming scheme (`a_vriltra_area`, `brythawn_superregion`)
+      with **zero** overlap, so there was nothing to port. Town setups and markets need no keys
+      (vanilla localises 0 of its 115 setups; a market takes its seat location's name).
+- [ ] **220 locations still have only a placeholder name** — the 219 `unnamed_location_N` (209 of
+      them in the three unauthored continents, §9) plus `three_moons`, whose sheet Name is literally
+      the key. They now read as "Unnamed Location 100" rather than the raw key, but naming them is a
+      design task. The 8 `anur_desert_N`/`ice_plain_N` split bands deliberately share one name each.
+- [ ] **41 locations where the sheet and the EU4 mod disagree on the name** — listed in
+      `map/loc_name_conflicts.txt`. The sheet's value was used. Two distinct causes:
+      **(a)** 10 are an off-by-one id drift in EU4's `prov_names_l_english.yml` across part of the
+      sea zones — our `black_bay` (id 1328) is "Gulf of Suez" there, an unedited base-EU4 leftover,
+      while "Black Bay" sits on 1329. EU4 is simply wrong on these.
+      **(b)** the other 31 are spelling variants, and **EU4 is often the better reading**:
+      `Easterly` vs the sheet's `Easerly`, `Western Sea of Ooku` vs `Weastern`, `North Rekkyran` vs
+      `Rekkryan`, `Kojh Island` vs `Kojh island`. Worth fixing in the sheet rather than here.
 - [ ] **24 EU4 adjacencies cannot be ported — they need map changes.** The EU4 mod's
       `map/adjacencies.csv` holds 52 real crossings (plus EU4's `-1` terminator row); the 28
       land-sea-land straits are now ported to

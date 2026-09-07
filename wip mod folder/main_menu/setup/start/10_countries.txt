@@ -1,4 +1,4 @@
-﻿# Innea countries, ported from the EU4 mod's history/.
+# Innea countries, ported from the EU4 mod's history/.
 # 863 countries; owner and cores come from history/provinces, government/rank/capital
 # from history/countries, bridged EU4 province id -> RGB -> EU5 location name.
 # Rulers are `ruler = random`: the EU4 mod only defines a monarch for 98 of 931 countries.

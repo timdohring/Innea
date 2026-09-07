@@ -1,0 +1,45 @@
+# Locations where the Information sheet and the EU4 mod disagree on the name.
+# The sheet's value is what was written; EU4's is shown for review.
+# location                 sheet (used)                 EU4 prov_names
+
+  bay_of_botte             Bay of Botte                 South Bottean
+  black_bay                Black Bay                    Gulf of Suez
+  breakers_point           Breaker's Point              Breaker's Bridge
+  briltan_coast            Briltan Coast                Black Bay
+  coldheart                Coldheart                    Coldhearth
+  coveport                 Coveport                     Cove
+  crimson_height           Crimson Height               Crimson Heights
+  donnall                  Donnall                      Donnal
+  dorak                    Dorak                        Doran
+  easerly_fish_banks       Easerly Fish Banks           Easterly Fish Banks
+  east_trader_sea          East Trader Sea              Ywekan Strait
+  elan_chambris            Elan-Chambris                Elan
+  elanoe                   Elanoe                       Elano
+  evahran_wadi_            Evahran Wadi                 Evahran Wadi 
+  fourth_isle_             Fourth Isle                  Fourth Isle 
+  gilded_hills             Gilded Hills                 Golden Hills
+  gull_sea                 Gull Sea                     Briltan Coast
+  harals                   Harals                       Haralsgard
+  harral_mountains         Harral Mountains             Haral Mountains
+  herring_sea              Herring Sea                  Bay of Botte
+  hersh                    Hersh                        Hershing
+  kalran                   Kalran                       Kalren
+  kojh_island              Kojh island                  Kojh Island
+  lake_navva               Lake Navva                   Lake Naava
+  merenil                  Merenil                      Meren
+  merstrond                Merstrond                    Merstond
+  north_rekkryan_coast     North Rekkryan Coast         North Rekkyran Coast
+  rallands_water           Ralland's Water              Herring Sea
+  sayhel                   Sayhel                       Sayel
+  shipwreck_banks          Shipwreck Banks              West Trader Sea
+  skeins                   Skeins                       Skein
+  south_bottean            South Bottean                Gull Sea
+  southrocks               Southrocks                   Southrock
+  starlight_hill           Starlight Hill               Starlight
+  three_moons              three_moons                  Three Moons
+  uddon_sea                Uddon Sea                    Ralland's Waters
+  upper_sgaw               Upper Sgaw                   CURSED LAND
+  virile                   Virile                       Vigil
+  weastern_sea_of_ooku     Weastern Sea of Ooku         Western Sea of Ooku
+  west_trader_sea          West Trader Sea              East Trader Sea
+  ywekan_strait            Ywekan Strait                Uddon Sea
