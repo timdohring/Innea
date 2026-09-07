@@ -1,0 +1,69 @@
+# Road-implied locations NOT on the current road network (09_roads.txt).
+# Generated after converting the Roads layer of map/locations.xcf on 2026-09-07.
+# x,y are pixel coordinates on the 16384x8192 canvas - paste into GIMP's pointer position
+# to jump straight to the location. Every x,y is guaranteed to lie inside its own location. 'hops' is how many locations away the nearest existing
+# road is, and 'nearest' names it: hops=1 means one stroke joins it up.
+
+== explicit road (7) ==
+location               name                          x        y   hops  nearest road           topography   region
+fainway                Fainway                    8789     1542      2  keltran                flatland     commonwealth_region
+byway_sides            Byway Sides                8919     1453      3  cowlon                 hills        commonwealth_region
+riverway               Riverway                   8584     1576      3  germont                hills        commonwealth_region
+towerway               Towerway                   8411     1371      5  opirs_tears            flatland     commonwealth_region
+east_way               East Way                   8244     1079     14  opirs_tears            plateau      altvarik_mountains_region
+brassroad              Brassroad                  7516     3010     15  somare                 plateau      waking_earth_region
+north_way              North Way                  8238     1001     17  opirs_tears            plateau      altvarik_mountains_region
+
+== crossing / ford (5) ==
+location               name                          x        y   hops  nearest road           topography   region
+battleford             Battleford                 8480     1733      2  doshiyr                hills        commonwealth_region
+crescent_crossings     Crescent Crossings         8360     2278      2  zuwe                   flatland     heartlands_region
+cross                  Cross                      8635     2813      2  vetrilum               flatland     acryllia_region
+forderen               Forderen                   8369      973     12  cinderbrooke           flatland     varland_region
+atcross                Atcross                    6926     3285          -  -                      hills        handaan_plain_region
+
+== bridge (7) ==
+location               name                          x        y   hops  nearest road           topography   region
+copper_bridge          Copper Bridge              8754     2598      1  north_mylades          flatland     acryllia_region
+firstbridge            Firstbridge                8592     1615      2  germont                flatland     commonwealth_region
+northbridges           Northbridges               8612     2923      2  south_plains           flatland     acryllia_region
+farmers_bridge         Farmer's Bridge            8911     1670      3  southstead             flatland     commonwealth_region
+shellwater_bridge      Shellwater Bridge          7554     1643      3  reckless               wetlands     sun_coast_region
+umbridge               Umbridge                   9059     2157      7  eastlocke              flatland     heartlands_region
+eastbridge             Eastbridge                 9059     1223      8  cowlon                 flatland     brythawn_region
+
+== mountain pass (12) ==
+location               name                          x        y   hops  nearest road           topography   region
+crowfoot_pass          Crowfoot Pass              8685     1331      2  cinderbrooke           mountains    brythawn_region
+goblin_pass            Goblin Pass                7273     1202      2  kenthral               volcanic     sun_coast_region
+brongs_pass            Brongs Pass                8992     1843      3  eastlocke              mountains    commonwealth_region
+abrax_pass             Abrax Pass                 7814     2701      6  doron                  mountains    waking_earth_region
+dofos_pass             Dofos Pass                 7734     2702      7  somare                 mountains    waking_earth_region
+ulmid_pass             Ulmid Pass                 7973      948      7  slavk                  mountains    halmskr_region
+west_pass              West Pass                  8596     1031      7  cinderbrooke           mountains    varland_region
+dreb_pass              Dreb Pass                  8029      906     10  slavk                  mountains    altvarik_mountains_region
+cold_passage           Cold Passage               8143      808     14  slavk                  glacial      altvarik_mountains_region
+darpa_pass             Darpa Pass                 8079      754     14  slavk                  glacial      altvarik_mountains_region
+prias_pass             Pria's Pass                8155      727     16  slavk                  glacial      altvarik_mountains_region
+star_pass              Star Pass                  8242      790     16  slavk                  glacial      altvarik_mountains_region
+
+== gate (6) ==
+location               name                          x        y   hops  nearest road           topography   region
+cobblers_gate          Cobbler's Gate             8622     2434      3  bluewater              hills        heartlands_region
+allar_gate             Allar Gate                 8485     1482      4  opirs_tears            flatland     commonwealth_region
+treegate               Treegate                   8109     1934      6  yovann                 flatland     midlands_region
+endgate                Endgate                    6767     3569      9  daham                  volcanic     handaan_plain_region
+despots_gate           Despot's Gate              8795     5804     11  ulat                   flatland     red_coast_region
+blackgate              Blackgate                  7472     4953      -  -                      volcanic     akal_region
+
+== road word in the CAPITAL name (9) ==
+location               name                          x        y   hops  nearest road           topography   region
+traders_haven          Short Bridge               8614     2942      2  downheart              flatland     acryllia_region
+highwater              Highwater Gate             8357     2210      3  waterbridge            flatland     heartlands_region
+two_shores             Golden Bridge              7272     1736      4  jaelis                 flatland     sun_coast_region
+vaaenen                Vaaenen Gate               8302     2196      4  waterbridge            hills        heartlands_region
+sunwater               Sunwater Gate              8303     1670      6  doshiyr                flatland     commonwealth_region
+torvas                 Torigg's Ford              8428      740     19  cinderbrooke           flatland     varland_region
+storms_point           Storm's Pass               8604      660     24  cinderbrooke           flatland     varland_region
+breakers_point         Breaker's Bridge           9600     1133      -  -                      plateau      brythawn_region
+lenns                  Lenn's Crossroads          9200     2285      -  -                      flatland     heartlands_region
