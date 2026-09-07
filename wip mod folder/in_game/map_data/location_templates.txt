@@ -1,4 +1,4 @@
-varhall = { topography = flatland vegetation = woods climate = oceanic religion = yoneth culture = nyvarsk_culture raw_material = fiber_crops natural_harbor_suitability = 0.5}
+﻿varhall = { topography = flatland vegetation = woods climate = oceanic religion = yoneth culture = nyvarsk_culture raw_material = fiber_crops natural_harbor_suitability = 0.5}
 storms_point = { topography = flatland vegetation = woods climate = oceanic religion = yoneth culture = nyvarsk_culture raw_material = fiber_crops natural_harbor_suitability = -0.25}
 logunar = { topography = flatland vegetation = woods climate = continental religion = yoneth culture = nyvarsk_culture raw_material = fish natural_harbor_suitability = 0.25}
 vryn = { topography = hills vegetation = forest climate = continental religion = yoneth culture = nyvarsk_culture raw_material = lumber }
@@ -1102,7 +1102,7 @@ downheart = { topography = flatland vegetation = farmland climate = mediterranea
 phoettica = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = sascilian_culture raw_material = cotton }
 mounne = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = alletanian_culture raw_material = fruit }
 goldflow = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = alletanian_culture raw_material = fruit }
-arbor = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = alletanian_culture raw_material = wine natural_harbor_suitability = 75}
+arbor = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = alletanian_culture raw_material = wine natural_harbor_suitability = 0.75}
 narsis = { topography = flatland vegetation = farmland climate = mediterranean religion = the_one_truth culture = sascilian_culture raw_material = wheat natural_harbor_suitability = 0.25}
 kessing = { topography = flatland vegetation = grasslands climate = mediterranean religion = the_one_truth culture = snyd_culture raw_material = wheat }
 south_plains = { topography = flatland vegetation = grasslands climate = mediterranean religion = the_one_truth culture = snyd_culture raw_material = olives }
