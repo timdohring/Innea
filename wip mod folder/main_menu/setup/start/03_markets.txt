@@ -6,41 +6,41 @@ market_manager = {
 	# Eastern Innea (35)
 		add_market = arbor
 		add_market = blackhorse
-		add_market = bluewater
 		add_market = bydogyz
 		add_market = cabrela
 		add_market = cliffers_rock
+		add_market = daelyon
 		add_market = debbes
 		add_market = devu
+		add_market = elbestone
 		add_market = elcnoe
-		add_market = enia
-		add_market = euwex
 		add_market = fjordheim
 		add_market = goldvale
 		add_market = gothram
+		add_market = gottholm
 		add_market = hallenheim
-		add_market = hersh
+		add_market = hava
 		add_market = hreimgild
+		add_market = ingsbruck
 		add_market = jofur
 		add_market = karsan
-		add_market = kastach
 		add_market = laurien
-		add_market = lower_aating
+		add_market = litz
 		add_market = murlocke
 		add_market = nuqun_isle
 		add_market = nykra
 		add_market = nyrthe
-		add_market = onrell
 		add_market = orlone
-		add_market = ostralestia
+		add_market = oss_taur
 		add_market = port_oceanus
-		add_market = riverend
 		add_market = rivnyyr
 		add_market = selse
-		add_market = upper_elonia
+		add_market = senon
+		add_market = tyosse
+		add_market = valaris
 		add_market = ywellke
 
-	# Western Innea (32)
+	# Western Innea (33)
 		add_market = akhtadza
 		add_market = almorr
 		add_market = bradzd
@@ -52,6 +52,7 @@ market_manager = {
 		add_market = doron
 		add_market = dusk
 		add_market = estre
+		add_market = falansyr
 		add_market = farak
 		add_market = fawlok
 		add_market = hetwal
@@ -62,58 +63,49 @@ market_manager = {
 		add_market = magelight
 		add_market = magohes
 		add_market = molt
+		add_market = nashagraz
+		add_market = orhone
 		add_market = seawatch
 		add_market = selake
 		add_market = shiverscale
-		add_market = slavk
 		add_market = spiceport
 		add_market = sylt
 		add_market = taraal
 		add_market = thraum
 		add_market = trereborg
-		add_market = unwil
-		add_market = upper_ozamt
+		add_market = umuzgul
 
 	# ===== ASTREA =====
 
-	# Northern Astrea (28)
-		add_market = adventurers_bay
+	# Northern Astrea (24)
 		add_market = artesh
-		add_market = bajehad
-		add_market = balabagee
 		add_market = bhagal
 		add_market = bluethorn
-		add_market = daham
 		add_market = dashdan
 		add_market = dune
 		add_market = erdopor
 		add_market = fuad
-		add_market = gkuzu
-		add_market = jonphaang
 		add_market = kajental
 		add_market = khaleesh_predan
 		add_market = khamra
 		add_market = lis
 		add_market = martain
+		add_market = nalman
 		add_market = oasis
 		add_market = qalar
+		add_market = rhaan
 		add_market = sadrat
 		add_market = saelon
 		add_market = seylom
 		add_market = solice
-		add_market = soyunduz
 		add_market = valant
 		add_market = vittor
 		add_market = wake
+		add_market = whaleport
 
 	# Southern Astrea (2)
 		add_market = aken
 		add_market = qatul
-
-	# ===== PANORIA =====
-
-	# Panoria (1)
-		add_market = tyrven_bor
 
 	# ===== OREA =====
 
@@ -127,21 +119,21 @@ market_manager = {
 	# ===== EMEA =====
 
 	# Emea (17)
-		add_market = anxhou
+		add_market = amata
 		add_market = as_zhei
 		add_market = buo_phong
 		add_market = foshomen
 		add_market = iraak
 		add_market = kampong
 		add_market = kantang
-		add_market = karobu
 		add_market = kyato_u
 		add_market = liuning
 		add_market = magthagaing
 		add_market = mengli
-		add_market = minapakur
 		add_market = ninhar
+		add_market = qufe
 		add_market = seosan
+		add_market = uk
 		add_market = vienmarat
 		add_market = wenzhai
 }

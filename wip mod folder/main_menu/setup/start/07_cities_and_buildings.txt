@@ -267,13 +267,15 @@ locations={
 	whiterose                    = { rank = town         town_setup = erazi_port_town                } # Whiterose
 	yanyeii                      = { rank = town         town_setup = snow_majuki_port_town          } # Yanyeii
 
-	# EMEA / layan_region (37)
+	# EMEA / layan_region (39)
+	buo_phong                    = { rank = city         town_setup = layanic_port_city              } # Buo Phong
 	kampong                      = { rank = city         town_setup = layanic_port_city              } # Kampong
 	khamphung                    = { rank = city         town_setup = layanic_city                   } # Khamphung
 	quanglo                      = { rank = city         town_setup = layanic_port_city              } # Quanglo
 	qui_ca                       = { rank = city         town_setup = layanic_port_city              } # Qui Ca
 	sawathayya                   = { rank = city         town_setup = layanic_city                   } # Sawathayya
 	vienmarat                    = { rank = city         town_setup = layanic_port_city              } # Vienmarat
+	wenchong                     = { rank = city         town_setup = zholin_city                    } # Wenchong
 	anhua                        = { rank = town         town_setup = layanic_port_town              } # Anhua
 	ayuphai                      = { rank = town         town_setup = layanic_port_town              } # Ayuphai
 	bangjo                       = { rank = town         town_setup = layanic_port_town              } # Bangjo
@@ -308,16 +310,16 @@ locations={
 
 	# EMEA / onogu_region (33)
 	andeon                       = { rank = city         town_setup = goeguye_port_city              } # Andeon
+	beibo                        = { rank = city         town_setup = zholin_city                    } # Beibo
+	cheongju                     = { rank = city         town_setup = goeguye_port_city              } # Cheongju
 	daiju                        = { rank = city         town_setup = onu_port_city                  } # Daiju
 	itokai                       = { rank = city         town_setup = onu_city                       } # Itokai
 	seosan                       = { rank = city         town_setup = goeguye_port_city              } # Seosan
 	yatome                       = { rank = city         town_setup = onu_port_city                  } # Yatome
 	amata                        = { rank = town         town_setup = onu_port_town                  } # Amata
-	beibo                        = { rank = town         town_setup = zholin_port_town               } # Beibo
 	bokcheol                     = { rank = town         town_setup = goeguye_port_town              } # Bokcheol
 	bucheon                      = { rank = town         town_setup = goeguye_port_town              } # Bucheon
 	cheokbang                    = { rank = town         town_setup = goeguye_port_town              } # Cheokbang
-	cheongju                     = { rank = town         town_setup = goeguye_port_town              } # Cheongju
 	cheonju                      = { rank = town         town_setup = goeguye_port_town              } # Cheonju
 	daesan                       = { rank = town         town_setup = goeguye_port_town              } # Daesan
 	etaporo                      = { rank = town         town_setup = onu_port_town                  } # Etaporo
@@ -341,7 +343,7 @@ locations={
 	wushan                       = { rank = town         town_setup = zholin_port_town               } # Wushan
 	zheng                        = { rank = town         town_setup = zholin_port_town               } # Zheng
 
-	# EMEA / uren_nai_region (20)
+	# EMEA / uren_nai_region (21)
 	ninhar                       = { rank = city         town_setup = zholin_city                    } # Ninhar
 	pya_u                        = { rank = city         town_setup = snow_majuki_port_city          } # Pya-U
 	beijin                       = { rank = town         town_setup = zholin_port_town               } # Beijin
@@ -360,22 +362,28 @@ locations={
 	salkwen                      = { rank = town         town_setup = snow_majuki_port_town          } # Paunthul
 	tauk_u                       = { rank = town         town_setup = snow_majuki_port_town          } # Tauk-U
 	thadon                       = { rank = town         town_setup = snow_majuki_port_town          } # Thadon
+	uk                           = { rank = town         town_setup = konkonu_port_town              } # Uk
 	ummo                         = { rank = town         town_setup = konkonu_port_town              } # Ummo
 	wakkakur                     = { rank = town         town_setup = konkonu_port_town              } # Wakkausre
 
 	# EMEA / zho_region (37)
+	anchuan                      = { rank = city         town_setup = zholin_port_city               } # Anchuan
 	changhou                     = { rank = city         town_setup = zholin_port_city               } # Changhou
 	foshomen                     = { rank = city         town_setup = zholin_port_city               } # Foshomen
+	fuxi                         = { rank = city         town_setup = zholin_port_city               } # Fuxi
 	guangzho                     = { rank = city         town_setup = zholin_port_city               } # Guangzho
+	liuning                      = { rank = city         town_setup = zholin_port_city               } # Liuning
+	maocho                       = { rank = city         town_setup = zholin_port_city               } # Maocho
 	pinzhuang                    = { rank = city         town_setup = zholin_port_city               } # Pinzhuang
+	qufe                         = { rank = city         town_setup = zholin_city                    } # Qufe
 	shenzhou                     = { rank = city         town_setup = zholin_city                    } # Shenzhou
-	anchuan                      = { rank = town         town_setup = zholin_port_town               } # Anchuan
+	wuzang                       = { rank = city         town_setup = zholin_city                    } # Wuzang
+	zuxian                       = { rank = city         town_setup = zholin_port_city               } # Zuxian
 	binshan                      = { rank = town         town_setup = zholin_port_town               } # Binshan
 	chagow                       = { rank = town         town_setup = zholin_port_town               } # Chagow
 	changtou                     = { rank = town         town_setup = zholin_port_town               } # Changtou
 	changzu                      = { rank = town         town_setup = zholin_port_town               } # Changzu
 	fallhaven                    = { rank = town         town_setup = erazi_port_town                } # Fallhaven
-	fuxi                         = { rank = town         town_setup = zholin_port_town               } # Fuxi
 	haizi                        = { rank = town         town_setup = zholin_port_town               } # Haizi
 	heshuyang                    = { rank = town         town_setup = zholin_port_town               } # Heshuyang
 	jingxia                      = { rank = town         town_setup = zholin_port_town               } # Jingxia
@@ -385,22 +393,17 @@ locations={
 	leiyou                       = { rank = town         town_setup = zholin_port_town               } # Leiyou
 	lili                         = { rank = town         town_setup = zholin_port_town               } # Lili
 	lioquing                     = { rank = town         town_setup = zholin_port_town               } # Lioquing
-	liuning                      = { rank = town         town_setup = zholin_port_town               } # Liuning
 	liuping                      = { rank = town         town_setup = zholin_port_town               } # Liuping
 	lixon                        = { rank = town         town_setup = zholin_port_town               } # Lixon
-	maocho                       = { rank = town         town_setup = zholin_port_town               } # Maocho
 	maoxong                      = { rank = town         town_setup = zholin_port_town               } # Maoxong
 	mengli                       = { rank = town         town_setup = zholin_port_town               } # Mengli
 	mianzhou                     = { rank = town         town_setup = zholin_port_town               } # Mianzhou
 	qinlo                        = { rank = town         town_setup = zholin_port_town               } # Qinlo
-	qufe                         = { rank = town         town_setup = zholin_port_town               } # Qufe
 	veil                         = { rank = town         town_setup = erazi_port_town                } # Veil
-	wuzang                       = { rank = town         town_setup = zholin_port_town               } # Wuzang
 	yongxia                      = { rank = town         town_setup = zholin_port_town               } # Yongxia
 	yulin                        = { rank = town         town_setup = zholin_port_town               } # Yulin
 	yuxong                       = { rank = town         town_setup = zholin_port_town               } # Yuxong
 	zizhong                      = { rank = town         town_setup = zholin_port_town               } # Zizhong
-	zuxian                       = { rank = town         town_setup = zholin_port_town               } # Zuxian
 
 	# INNEA / acryllia_region (69)
 	agria                        = { rank = city         town_setup = lenaric_port_city              } # Agria
@@ -564,7 +567,7 @@ locations={
 	slonon                       = { rank = town         town_setup = highlander_town                } # Slonon
 	yoren                        = { rank = town         town_setup = brilthic_port_town             } # Yoren
 
-	# INNEA / commonwealth_region (42)
+	# INNEA / commonwealth_region (43)
 	aeljandor                    = { rank = city         town_setup = high_elf_city                  } # Ael'jandor
 	arham                        = { rank = city         town_setup = pallan_port_city               } # Arham
 	arrynal                      = { rank = city         town_setup = pallan_port_city               } # Port Arrynal
@@ -577,6 +580,7 @@ locations={
 	murlocke                     = { rank = city         town_setup = pallan_port_city               } # Murlocke
 	pickets                      = { rank = city         town_setup = pallan_port_city               } # Picket Harbour
 	seagull_harbour              = { rank = city         town_setup = pallan_port_city               } # Seagull Harbour
+	senon                        = { rank = city         town_setup = high_elf_city                  } # Senon
 	wheldeross                   = { rank = city         town_setup = pallan_port_city               } # Port Wheldeross
 	aldor                        = { rank = town         town_setup = moltranic_port_town            } # Aldor
 	borne                        = { rank = town         town_setup = pallan_port_town               } # Borne
@@ -588,6 +592,7 @@ locations={
 	crossings                    = { rank = town         town_setup = moltranic_port_town            } # Crossing
 	eesland                      = { rank = town         town_setup = pallan_port_town               } # Eesham
 	eleon                        = { rank = town         town_setup = high_elf_port_town             } # Eleon
+	gothram                      = { rank = town         town_setup = moltranic_port_town            } # Gothram
 	grayle                       = { rank = town         town_setup = pallan_port_town               } # Grayle
 	inall                        = { rank = town         town_setup = high_elf_port_town             } # Inall
 	kev                          = { rank = town         town_setup = achakk_port_town               } # Kev
@@ -601,7 +606,6 @@ locations={
 	ormion                       = { rank = town         town_setup = wuerdic_town                   } # Ormion
 	rhoen                        = { rank = town         town_setup = high_elf_port_town             } # Rhoen
 	riverway                     = { rank = town         town_setup = moltranic_port_town            } # Riverway
-	senon                        = { rank = town         town_setup = high_elf_port_town             } # Senon
 	syrd                         = { rank = town         town_setup = high_elf_port_town             } # Syrd
 	towerway                     = { rank = town         town_setup = wuerdic_town                   } # Nine Towers
 	trader_isles                 = { rank = town         town_setup = pallan_port_town               } # Staughtonport
@@ -699,7 +703,7 @@ locations={
 	umbridge                     = { rank = town         town_setup = taroquan_port_town             } # Umbridge
 	zierlatz                     = { rank = town         town_setup = teltranic_port_town            } # Zierlatz
 
-	# INNEA / midlands_region (40)
+	# INNEA / midlands_region (41)
 	astaena                      = { rank = city         town_setup = wood_elf_city                  } # Astaena
 	bokemer                      = { rank = city         town_setup = wood_elf_city                  } # Bokemer
 	charduin                     = { rank = city         town_setup = wood_elf_city                  } # Charduin
@@ -716,6 +720,7 @@ locations={
 	dusk                         = { rank = town         town_setup = night_elf_town                 } # Dusk
 	elaindur                     = { rank = town         town_setup = wood_elf_town                  } # Elain'dur
 	endgap                       = { rank = town         town_setup = wood_elf_town                  } # Endgap
+	estre                        = { rank = town         town_setup = wood_elf_town                  } # Estre
 	feignheart                   = { rank = town         town_setup = wood_elf_town                  } # Feignheart
 	fianaha                      = { rank = town         town_setup = tval_town                      } # Fianaha
 	galwit                       = { rank = town         town_setup = wood_elf_town                  } # Galwit
@@ -911,7 +916,7 @@ locations={
 	juar                         = { rank = town         town_setup = wood_orc_port_town             } # Juar
 	kaipina                      = { rank = town         town_setup = wood_orc_port_town             } # Kaipina
 	khasaq                       = { rank = town         town_setup = majuki_port_town               } # Khasaq
-	ko_shamu                     = { rank = town         town_setup = kaddian_port_town              } # Ko-Shamu
+	ko_shamu                     = { rank = city         town_setup = kaddian_port_city              } # Ko-Shamu
 	kornocany                    = { rank = town         town_setup = wood_dwarf_town                } # Kornocany
 	mirshera                     = { rank = town         town_setup = majuki_port_town               } # Mirshera
 	ralon                        = { rank = town         town_setup = kaddian_port_town              } # Ralon
