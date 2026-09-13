@@ -3,20 +3,17 @@ market_manager = {
 
 	# ===== INNEA =====
 
-	# Eastern Innea (35)
+	# Eastern Innea (31)
 		add_market = arbor
 		add_market = blackhorse
-		add_market = bydogyz
 		add_market = cabrela
 		add_market = cliffers_rock
 		add_market = daelyon
 		add_market = debbes
-		add_market = devu
 		add_market = elbestone
 		add_market = elcnoe
 		add_market = fjordheim
 		add_market = goldvale
-		add_market = gothram
 		add_market = gottholm
 		add_market = hallenheim
 		add_market = hava
@@ -29,7 +26,6 @@ market_manager = {
 		add_market = murlocke
 		add_market = nuqun_isle
 		add_market = nykra
-		add_market = nyrthe
 		add_market = orlone
 		add_market = oss_taur
 		add_market = port_oceanus
