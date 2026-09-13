@@ -31,6 +31,7 @@ game-start is the next major body of work.
 | `wip mod folder/` | **The EU5 mod itself.** Working source of truth; mirrors the mod folder the game loads. |
 | `DEBUG_SESSION_NOTES.md` | Full engineering log of the EU5 load-failure investigation. **Essential reading.** |
 | `TODO.md` | Working task list — game-start, religions, markets, map/engine, housekeeping. |
+| `EU4_PORT_GAP.md` | What of the EU4 mod is still unported, and the route to no longer needing it. |
 | `CLAUDE.md`, `README.md` | This orientation file and the repo readme. |
 
 ### Outside the repo — local working material one level up (`..\`)
@@ -104,6 +105,7 @@ Delete a file to fall back to vanilla's version.
 ## 5. Open work, in priority order
 
 **The actionable checklist lives in `TODO.md`.** This section is the narrative context behind it.
+**What is still unported from the EU4 mod lives in `EU4_PORT_GAP.md`**, with the route to archiving it.
 
 1. **Build the Innea game-start.** Replace the empty `main_menu/setup/start/` overrides with real Innea
    markets, countries, pops, characters, buildings, institutions, roads. Port from the EU4 mod at

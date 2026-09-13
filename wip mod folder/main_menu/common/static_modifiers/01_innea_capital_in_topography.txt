@@ -1,0 +1,25 @@
+﻿# The engine looks for a capital_in_<topography> static modifier for every topography.
+# Innea adds deadlands/glacial/volcanic, so without these three the log fills with
+#   static_modifier.cpp:555: missing static modifier capital_in_deadlands
+# ADDITIVE - vanilla's capital_in_topography.txt keeps its own 21 and is untouched.
+
+capital_in_deadlands = {
+	game_data = {
+		category = country
+	}
+	deadlands_proximity_impact = -0.2
+}
+
+capital_in_glacial = {
+	game_data = {
+		category = country
+	}
+	glacial_proximity_impact = -0.2
+}
+
+capital_in_volcanic = {
+	game_data = {
+		category = country
+	}
+	volcanic_proximity_impact = -0.2
+}

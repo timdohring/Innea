@@ -1,0 +1,28 @@
+﻿# Innea's three custom topographies need a <topography>_proximity_impact modifier type
+# declared, exactly as vanilla declares one for each of its own 22. Without these the
+# capital_in_<topography> static modifiers below cannot reference them.
+# ADDITIVE - sits alongside vanilla's 00_modifier_types / 01_byz / 02_generic_bureaucracies.
+
+deadlands_proximity_impact = {
+	percent=yes
+	color = bad
+	game_data={
+		category=country
+	}
+}
+
+glacial_proximity_impact = {
+	percent=yes
+	color = bad
+	game_data={
+		category=country
+	}
+}
+
+volcanic_proximity_impact = {
+	percent=yes
+	color = bad
+	game_data={
+		category=country
+	}
+}

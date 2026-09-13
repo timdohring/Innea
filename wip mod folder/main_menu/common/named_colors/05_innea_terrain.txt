@@ -1,0 +1,8 @@
+﻿# Map colours for Innea's three custom topographies.
+# ADDITIVE - sits alongside vanilla's 01_coa / 02_map / 02_units.
+colors = {
+	terrain_deadlands = rgb { 150 146 140 }	# light warm grey - ashen plain (also used by the `dead` vegetation)
+	terrain_glacial   = rgb { 158 210 235 }	# pale ice blue
+	terrain_volcanic  = rgb { 38 36 38 }	# near-black basalt grey
+	terrain_fungal    = rgb { 130 74 156 }	# mushroom purple
+}

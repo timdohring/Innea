@@ -1,0 +1,76 @@
+﻿# Innea terrain. ADDITIVE - adds new entries alongside vanilla's 00_default.txt,
+# which is left untouched so it keeps whatever Paradox patches into it.
+
+deadlands = {
+	color = terrain_deadlands
+	movement_cost = 1.25
+	vegetation_density = -1
+	proximity = -0.125
+	weather_front_strength_change_percent = 0 # -0.08 #every FRONT_DEGRADATION_DISTANCE_FOR_TOPOGRAPHY pixels moved
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		local_population_capacity_modifier = -0.50
+		local_monthly_development_modifier = -0.25
+		local_monthly_food_modifier = -0.33
+	}
+
+	audio_tags = {
+		masDataTopologyElevation = 0.1
+	}
+	debug_color = rgb { 150 146 140 } # for topology_screenshot mapmode
+}
+
+glacial = {
+	color = terrain_glacial
+	movement_cost = 2.5
+	defender = 2
+	vegetation_density = -1
+	blocked_in_winter = yes
+	proximity = -0.5
+	weather_front_strength_change_percent = 0 #-2
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		local_frontage_allowed = -6
+		local_rgo_build_time = 1.5
+		local_road_building_time = 4.0
+		local_population_capacity_modifier = -0.75
+		local_monthly_development_modifier = -0.75
+		local_monthly_food_modifier = -0.2
+	}
+
+	audio_tags = {
+		masDataTopologyElevation = 0.5
+	}
+	debug_color = rgb { 158 210 235 } # for topology_screenshot mapmode
+}
+
+volcanic = {
+	color = terrain_volcanic
+	movement_cost = 2
+	defender = 2
+	vegetation_density = 0.3
+	blocked_in_winter = yes
+	proximity = -0.5
+	weather_front_strength_change_percent = 0 #-2
+	weather_cyclone_strength_change_percent = 0
+	weather_tornado_strength_change_percent = 0
+
+	location_modifier = {
+		local_frontage_allowed = -4
+		local_rgo_build_time = 0.75
+		local_road_building_time = 5.0
+		local_population_capacity_modifier = -0.25
+		local_monthly_development_modifier = -0.25
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+
+	audio_tags = {
+		masDataTopologyElevation = 0.8
+	}
+	debug_color = rgb { 38 36 38 } # for topology_screenshot mapmode
+}

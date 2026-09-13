@@ -1,7 +1,8 @@
 # Innea — TODO
 
 Working list for the EU5 total conversion. Orientation lives in `CLAUDE.md`; the load-failure
-engineering log lives in `DEBUG_SESSION_NOTES.md`.
+engineering log lives in `DEBUG_SESSION_NOTES.md`. What is still unported from the EU4 mod — and the
+route to no longer needing it — lives in `EU4_PORT_GAP.md`.
 
 Standing rule for all ports: **add new Innea files alongside vanilla, never copy or empty base-game
 files** — a copied vanilla file goes stale the next time Paradox patches. Check for name collisions
@@ -374,8 +375,85 @@ Source: `../Version 1.3 (1.33)/2226968141/`
 - [ ] **Lakes are also listed in `sea_zones`** (all 34; vanilla keeps the lists disjoint) — unfixed,
       untested.
 - [ ] `layer=` values differ from vanilla for `city` / `unit_stack` / `vfx` locators.
-- [ ] `deadlands` / `glacial` / `volcanic` topography are missing the `proximity` field, so
-      `<terrain>_proximity_impact` never registers.
+- [x] **`topography` / `vegetation` are additive now (2026-09-13).** Both were copies of vanilla's
+      `00_default.txt` under the same filename, so they *replaced* vanilla's — and had already gone
+      stale, silently dropping the `proximity` and `colonial_migration_size_modifier` lines Paradox
+      has since added (9 in topography, 11 in vegetation). Diffed both: pure deletions plus the
+      Innea appends, no retuned values, so the copies were deleted outright and replaced with
+      `01_innea.txt` holding only Innea's own entries — 3 topographies, 2 vegetations.
+      Four supporting files went in alongside:
+      `main_menu/common/named_colors/05_innea_terrain.txt` (3 terrain colours),
+      `main_menu/common/modifier_type_definitions/01_innea_terrain.txt` (**the mod's first file in
+      that directory**), and
+      `main_menu/common/static_modifiers/01_innea_capital_in_topography.txt`.
+      - **The old note here was wrong.** `<terrain>_proximity_impact` is **not** generated from the
+        topography's `proximity` field — vanilla *declares* one explicitly in
+        `modifier_type_definitions/` for each of its 22 topographies. `proximity` is a separate
+        gameplay value (capital distance-decay), and 17 of vanilla's 22 topographies omit it. The
+        real cause of the `static_modifier.cpp:555: missing static modifier capital_in_deadlands`
+        errors was that the engine wants a `capital_in_<topography>` for **every** topography.
+      - Innea's three now carry `proximity` as a design choice: `deadlands` -0.25 (as hills),
+        `glacial` and `volcanic` -0.5 (as mountains).
+      - [ ] **Untested in-game.** Confirms whether these dirs really are glob-merged rather than
+            single-file; if `01_innea.txt` is ignored the three topographies vanish.
+      - Proven glob-merged already (2026-09-13 run): `static_modifiers`,
+        `modifier_type_definitions` and `named_colors` — the three `capital_in_*` errors cleared.
+- [x] **Terrain graphics, first pass (2026-09-13, untested).** Innea's terrain had **no biome rule
+      at all**: 190 of vanilla's 191 rules name a topography and none named ours, so all 191
+      locations on `deadlands`/`glacial`/`volcanic` fell to rule `000` -> `default_biome` -> a
+      single fallback dirt texture. Fixed with two additive files and **no new art**:
+      `in_game/gfx/terrain2/01_innea_materials.txt` (5 biomes built from vanilla's own 70
+      materials) and `in_game/gfx/map/biome_definitions/01_innea_biomes.txt` (5 rules).
+      - How the pipeline works: location climate/vegetation/topography -> rule in
+        `biome_definitions/` -> biome name -> 16 material slots in `terrain2/materials.txt` ->
+        `.dds` diffuse/normal/properties triplets. Slot order is the five topographies, coastline
+        transition, rivers, borders, two transitions, six variations.
+      - `gfx/terrain2/biomes.png` is **not** a baked per-pixel biome index — it is 99% zeros with
+        3 distinct values, an override mask. Innea does not need its own. The shader header
+        `main_menu/gfx/FX/cw/terrain2_biomes.fxh` confirms biomes are resolved **per province at
+        runtime** ("dynamic biome data instead of the static default").
+      - Topography-only rules follow vanilla's own precedent (rules 188-191 do this for
+        `dune_wasteland`, `mesa_wasteland`, `salt_pans`, `atoll`).
+      - **NEITHER `gfx/terrain2/` NOR `gfx/map/biome_definitions/` is glob-merged — proven, do
+        not retry.** Both `materials.txt` and `biomes.txt` are opened **by name**. A file placed
+        beside them is *lexed* (it trips `lexer.cpp:501` when it lacks a BOM — which misled this
+        investigation for three launches) but its contents are never used. The decisive test was
+        a diagnostic rule targeting a plain **vanilla** key, `topography = mountains` → a snow
+        biome: no visible change, which ruled out both the "custom keys unrecognised" and
+        "load order" theories. `debug.log` also shows the engine pre-enumerating
+        `'gfx/city_materials'(.txt)` but never `'gfx/terrain2'`.
+      - ⚠️ **DEAD END — EU5 does not honour mod overrides of `gfx/` files at all.** Overriding
+        both base files was tried next and also did nothing. The decisive test: vanilla's **own**
+        `default_biome` was redefined as 16 slots of solid `Snow` in the mod's `materials.txt`
+        override, at the correct path and filename, verified present in the installed folder —
+        and the map was unchanged. That rules out custom keys, rule matching, load order and
+        file naming. Overriding `common/` files works fine (the `capital_in_*` static modifiers
+        proved it), so the restriction is specific to `gfx/`.
+      - **Parked 2026-09-13.** The two copied base files were removed from the mod again — they
+        did nothing and were stale vanilla copies. `map/gen_terrain_overrides.py` is kept: it is
+        correct, validated, and ready if a way to load these files is ever found. Its 5 biomes
+        are composed from vanilla's own 70 materials — `Ice`/`Snow` for glacial,
+        `base_rock_dark`/`base_rock_03` for volcanic, `base_sediment` for deadlands,
+        `grass_wood_dense_01/02` for fungal.
+      - [ ] **Unsolved: how (or whether) a mod can ship terrain graphics in EU5.** Worth asking
+        the modding community rather than experimenting further — four approaches were tried
+        across six launches and none loaded. Until then Innea's custom terrain is *functionally*
+        correct (movement, modifiers, map-mode colours all work) but renders as vanilla
+        fallback grass.
+      - [ ] **Custom terrain art.** The biomes are as distinctive as vanilla's material palette
+            allows; genuinely Innean terrain needs new textures. Each material is a
+            `diffuse`/`normal`/`properties` `.dds` triplet under `gfx/terrain2/textures/`,
+            registered in the `materials = { }` block of the same override — so the plumbing is
+            already in place and `gen_terrain_overrides.py` is where new materials would be
+            declared. **`fungal` is the clearest candidate**: none of vanilla's 70 materials is
+            purple, so it currently reads as dark dense woodland rather than anything alien.
+            (The purple `terrain_fungal` map colour is unaffected — that is map modes, not the
+            terrain mesh.) Volcanic obsidian and glacial blue ice are the next best candidates.
+      - All mod files now carry a **utf-8 BOM**; without it `lexer.cpp:501` warns on every load.
+      - `gfx/terrain2/heightmap.png` lives in that same non-enumerated directory, so Innea is
+        currently rendering on **vanilla's Earth heightmap**. Both maps are 16384x8192 so it
+        lands plausibly rather than breaking, but Innea's mountains and coasts have no relief
+        of their own. Separate, larger piece of work.
 - [x] **Localisation pass done (2026-09-07)** — `map/gen_localisation.py` writes 6,978 keys across
       8 additive `innea_*.yml` files in `main_menu/localization/english/`. Sources: religions and
       religion groups 100% from the EU4 mod; cultures/groups/languages 618 of 708 from EU4, the rest
