@@ -530,3 +530,63 @@ unnamed-location localisation entries, and 209 of the 212 templates still on `ca
 - [ ] Decide whether these three continents get designed, or are cut from the map.
 - [ ] The remaining 3 blank named locations are `longfin`, `oceans_rise`, `reef_islands` — all hills in
       Coral Archipelago (Astrea), whose province is likewise entirely blank. Same class, smaller.
+
+## 10. Trade goods — the 18 Innean goods (planned 2026-09-13)
+
+Innea's fantasy economy never reached EU5. The map port mapped the Information sheet's RGO column
+onto vanilla EU5 goods, and 19 Innean goods had no counterpart — they were all flattened to
+**`wheat`**, across **580 locations**. Dragonshore, Firehold and Upper/Lower Dragon Vale currently
+grow wheat. Nothing is lost: the sheet's RGO column is the source of truth and the usual
+EU4 id → RGB → location bridge recovers every one.
+
+Three were mapped correctly and are left alone: `sturdy_grains`→`millet` (69),
+`potatoes`→`potato` (39), `gold`→`goods_gold` (29).
+
+### Decisions taken
+- **18 new goods, 1 folded.** `wayda_silk` (16 locations) folds into vanilla `silk`: EU5 models a
+  "fancier variant" **downstream in production**, never as a duplicate raw material — its own pair
+  is `cloth` (price 3) vs `fine_cloth` (6), both `produced`, and silk is already the raw input to
+  `production_fine_cloth`. `region_demand_modifier` is the wrong lever; vanilla uses it for
+  "this region *wants* more" (amber in the Baltic, wine in Iberia), not "this region's is better".
+  - [ ] Wayda's distinctiveness is then a **production** matter — a fine-cloth industry in those
+        16 locations. Not part of this port.
+- **No bonuses.** EU4 gave each good a `modifier`/`province` block (dragon_hide `fire_damage_received
+  -0.2`, obsidian `army_tradition 1`, jade `vassal_income 0.2`). **EU5 goods have no modifier block
+  at all** — only demand, price and AI tuning. The one possible home is `common/auto_modifiers/`
+  (its readme confirms a `type:` scope and `potential_trigger`). Deliberately **dropped**; these
+  ship as purely economic goods.
+- `blue_copper` stays distinct specifically because it is a different metal for **building inputs**
+  — worth revisiting which buildings should consume it once the goods exist.
+
+### The 18
+`shellfish` 62 · `fungi` 57 · `blackgrain` 49 · `crystal` 45 · `whales` 41 · `red_sugar` 36 ·
+`ancient_artifacts` 35 · `chofo` 31 · `jade` 27 · `obsidian` 27 · `dragon_hide` 24 ·
+`blue_copper` 24 · `riverweed` 23 · `fireiron` 22 · `druh` 21 · `springwater` 14 · `yv` 13 ·
+`khafri_peppers` 13
+
+### Phase 0 — fix `in_game/common/goods/` first (prerequisite)
+- [ ] **Delete the 5 stale vanilla copies.** They sit under vanilla's own filenames so they
+      *replace* them, they have drifted, and they **do not parse**: `inflation = yes` on gold and
+      silver (lines 81 and 101 of `00_raw_materials.txt`) is a field current EU5 rejects — the live
+      `pdx_persistent_reader.cpp:289` error. Deleting restores vanilla's current definitions and
+      clears the error. Same fix as topography/vegetation.
+
+### Phase 1 — define the goods
+- [ ] `in_game/common/goods/01_innea.txt` — additive, 18 goods.
+      Fields: `method` (farming/forestry/gathering/hunting/mining), `category = raw_material`,
+      `color`, `default_market_price`, `food = N` for edibles, `demand_add`/`demand_multiply`
+      modelled on the closest vanilla good.
+- [ ] `main_menu/common/named_colors/06_innea_goods.txt` — 18 `goods_*` colour tokens.
+- [ ] **Price by rank-mapping, not invention.** EU4's scale (2.5–7, grain 2.5) does not map
+      linearly onto EU5's (0.5–8, median 3, p75 4). Order the 18 by EU4 price and assign EU5
+      prices reproducing EU5's own distribution — the self-calibrating trick `gen_cities.py`
+      already uses for building thresholds.
+
+### Phase 2 — put them back on the map
+- [ ] `map/gen_goods.py` — rewrite `raw_material` for the 580 locations from the sheet's RGO
+      column. Validate every value resolves against mod + vanilla goods, and that no location
+      loses an RGO.
+
+### Phase 3 — localisation
+- [ ] `main_menu/localization/english/innea_goods_l_english.yml` — source from the EU4 mod's
+      `innea_tradegoods_l_english.yml` (72 keys, already authored).

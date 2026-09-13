@@ -1,0 +1,21 @@
+﻿# Colours for Innea's 18 custom trade goods. ADDITIVE.
+colors = {
+	goods_shellfish            = rgb { 214 168 160 }	# Shellfish
+	goods_blackgrain           = rgb {  58  46  38 }	# Blackgrain
+	goods_fungi                = rgb { 130  74 156 }	# Fungi
+	goods_riverweed            = rgb {  92 138  86 }	# Riverweed
+	goods_obsidian             = rgb {  32  30  36 }	# Obsidian
+	goods_blue_copper          = rgb {  62 146 158 }	# Blue Copper
+	goods_fireiron             = rgb { 198  84  44 }	# Fireiron
+	goods_crystal              = rgb { 168 222 232 }	# Crystals
+	goods_whales               = rgb {  58  78 104 }	# Whales
+	goods_chofo                = rgb { 150 140  74 }	# Chofo
+	goods_jade                 = rgb {  84 168 118 }	# Jade
+	goods_red_sugar            = rgb { 156  40  46 }	# Red Sugar
+	goods_druh                 = rgb { 140 118 150 }	# Druh
+	goods_springwater          = rgb { 176 214 234 }	# Springwater
+	goods_ancient_artifacts    = rgb { 198 160  76 }	# Ancient Artifacts
+	goods_dragon_hide          = rgb { 112  38  34 }	# Dragon Hide
+	goods_khafri_peppers       = rgb { 186  72  38 }	# Khafri Peppers
+	goods_yv                   = rgb { 126  74 176 }	# Yv
+}

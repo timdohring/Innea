@@ -1,0 +1,153 @@
+﻿##############################################################
+# This is a special demands, as it has a hardcoded tag
+#
+# code also checks for scriptvalue from the pop scope
+#
+# This scales with the demands in the goods scripted per pop_type
+#
+############################################################
+
+pop_demand = {
+
+	#########################
+	# Alcohol
+	#########################
+	wine = 1
+	liquor = 1
+	beer = 1
+
+	############################
+	# Raw Materials
+	############################
+	fur = 1
+	beeswax = 1
+	lumber = 1
+	coal = 1
+	pearls = 1
+	amber = 1
+	silver = 1
+	goods_gold = 1
+	ivory = 1
+	incense = 1
+	gems = 1
+	marble = 1
+	horses = 1
+	elephants = 1
+	medicaments = 1
+	masonry = 1
+	mercury = 1
+
+	############################
+	# Produced Goods
+	############################
+	tools = 1
+	glass = 1
+	pottery = 1
+	furniture = 1
+	porcelain = 1
+	lacquerware = 1
+	jewelry = 1
+	fine_cloth = 1
+	cloth = 1
+	paper = 1
+	books = 1
+	weaponry = 1
+	firearms = 1
+	salt = 1
+	leather = 1
+
+	###########################
+	# Luxury Foods & Spice
+	###########################
+	sugar = 1
+	tobacco = 1
+	tea = 1
+	cocoa = 1
+	coffee = 1
+	saffron = 1
+	pepper = 1
+	cloves = 1
+	chili = 1
+
+	###########################
+	# Food
+	###########################
+	potato = 1
+	maize = 1
+	millet = 1
+	wild_game = 1
+	fish = 1
+	legumes = 1
+	olives = 1
+	wheat = 0.75
+	fruit = 0.5
+	livestock = 1
+	rice = 1
+
+	category = pop_needs
+
+	############################
+	# Innea - added by map/gen_goods.py. Everything above is vanilla's, verbatim.
+	# Omitted deliberately (building/army inputs, as vanilla omits iron/copper/stone):
+	#   blue_copper, fireiron, obsidian
+	############################
+	shellfish = 1
+	blackgrain = 1
+	fungi = 1
+	riverweed = 1
+	crystal = 1
+	whales = 1
+	chofo = 1
+	jade = 1
+	red_sugar = 1
+	druh = 1
+	springwater = 1
+	ancient_artifacts = 1
+	dragon_hide = 1
+	khafri_peppers = 1
+	yv = 1
+}
+
+
+
+nobles_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+clergy_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+burghers_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+soldiers_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+laborers_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+peasants_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+slaves_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
+
+tribesmen_demand = {
+	hidden = yes
+	copy_from = pop_demand
+	category = pop_needs
+}
